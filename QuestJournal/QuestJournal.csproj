@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.SDK/11.0.0">
+    <PropertyGroup>
+        <Version>0.0.0.1</Version>
+        <Description>A quest journal.</Description>
+        <PackageProjectUrl>https://github.com/quackiemackie/QuestJournal</PackageProjectUrl>
+        <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+        <IsPackable>false</IsPackable>
+        <RootNamespace>QuestJournal</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="..\Data\QuestData.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>QuestJournal\QuestData.json</TargetPath>
+            <Visible>true</Visible>
+        </Content>
+    </ItemGroup>
+</Project>
