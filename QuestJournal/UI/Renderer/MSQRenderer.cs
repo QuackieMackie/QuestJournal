@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Numerics;
 using Dalamud.Plugin.Services;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using ImGuiNET;
 using QuestJournal.Handlers;
 using QuestJournal.Models;
@@ -21,8 +22,10 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
             {
                 var isSelected = category == msqHandler.GetSelectedCategory();
                 if (ImGui.Selectable(category, isSelected))
+                {
                     if (!isSelected)
                         msqHandler.SetSelectedCategory(category);
+                }
 
                 if (isSelected) ImGui.SetItemDefaultFocus();
             }
@@ -68,41 +71,55 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         var availableWidth = ImGui.GetContentRegionAvail().X;
         var selectedQuest = msqHandler.GetSelectedQuest();
 
+        var isCompleted = QuestManager.IsQuestComplete(quest.QuestId);
+
         var isSelected = selectedQuest != null && selectedQuest.QuestId == quest.QuestId;
         var isMatch = !string.IsNullOrEmpty(searchQuery) &&
                       quest.QuestTitle != null &&
                       quest.QuestTitle.Contains(searchQuery, StringComparison.OrdinalIgnoreCase);
 
+        var styleCount = 0;
+
+        if (isCompleted)
+        {
+            ImGui.PushStyleColor(ImGuiCol.Text, new Vector4(0.5f, 0.5f, 0.5f, 1f));          // Gray text
+            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.3f, 0.3f, 0.3f, 1f));        // Gray background
+            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.4f, 0.4f, 0.4f, 1f)); // Slightly brighter hover
+            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.5f, 0.5f, 0.5f, 1f));  // Muted gray when active
+            styleCount += 4;
+        }
+
         if (isSelected && isMatch)
         {
-            ImGui.PushStyleColor(ImGuiCol.Button,
-                                 new Vector4(0.4f, 0.2f, 0.6f, 1f)); // Purple background for selected & matched
-            ImGui.PushStyleColor(ImGuiCol.ButtonHovered,
-                                 new Vector4(0.5f, 0.3f, 0.7f, 1f)); // Slightly lighter purple when hovered
+            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.4f, 0.2f, 0.6f, 1f)); // Purple background
+            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.5f, 0.3f, 0.7f, 1f)); // Purple hover
             ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.6f, 0.4f, 0.8f, 1f)); // Bright purple when active
+            styleCount += 3;
         }
         else if (isSelected)
         {
-            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.2f, 0.3f, 0.6f, 1f)); // Blue background for selected
-            ImGui.PushStyleColor(ImGuiCol.ButtonHovered,
-                                 new Vector4(0.3f, 0.4f, 0.7f, 1f)); // Slightly lighter blue when hovered
-            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.2f, 0.4f, 0.8f, 1f)); // Bright blue when active
+            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.2f, 0.3f, 0.6f, 1f));        // Blue background
+            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.3f, 0.4f, 0.7f, 1f)); // Slightly lighter blue
+            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.2f, 0.4f, 0.8f, 1f));  // Bright blue when active
+            styleCount += 3;
         }
         else if (isMatch)
         {
-            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.1f, 0.4f, 0.1f, 1f)); // Green background for matched
+            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.1f, 0.4f, 0.1f, 1f)); // Green background
             ImGui.PushStyleColor(ImGuiCol.ButtonHovered,
-                                 new Vector4(0.1f, 0.5f, 0.1f, 1f)); // Lighter green when hovered
+                                 new Vector4(0.1f, 0.5f, 0.1f, 1f)); // Slightly brighter green hover
             ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.1f, 0.6f, 0.1f, 1f)); // Bright green when active
+            styleCount += 3;
         }
 
-        if (ImGui.Button(quest.QuestTitle ?? "Unknown Quest", new Vector2(availableWidth, 0)))
+        if (ImGui.Button($"{(isCompleted ? "✓ " : string.Empty)}{quest.QuestTitle ?? "Unknown Quest"}",
+                         new Vector2(availableWidth, 0)))
         {
             msqHandler.SetSelectedQuest(quest);
             log.Info($"Selected Quest: {quest.QuestTitle} (ID: {quest.QuestId})");
         }
 
-        if (isSelected || isMatch) ImGui.PopStyleColor(3);
+        if (styleCount > 0) ImGui.PopStyleColor(styleCount);
     }
 
     private void DrawSelectedQuestDetails(IQuestInfo? questInfo)

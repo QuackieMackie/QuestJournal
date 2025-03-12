@@ -7,6 +7,7 @@ namespace QuestJournal;
 public class Configuration : IPluginConfiguration
 {
     public string StartArea { get; set; } = "";
+    public string GrandCompany { get; set; } = "";
 
     public bool DeveloperMode { get; set; } = false;
     public int Version { get; set; } = 0;

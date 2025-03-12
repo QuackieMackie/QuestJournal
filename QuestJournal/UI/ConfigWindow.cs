@@ -34,19 +34,41 @@ public class ConfigWindow : Window, IDisposable
 
         ImGui.Separator();
 
-        ImGui.Text("Debug Custom Start Area:");
+        ImGui.Text("Debug Start Area:");
 
-        var options = new List<string> { "Gridania", "Limsa Lominsa", "Ul'dah" };
-        var currentSelection = configuration.StartArea ?? string.Empty;
+        var startAreaOptions = new List<string> { "Gridania", "Limsa Lominsa", "Ul'dah" };
+        var startAreaCurrentSelection = configuration.StartArea ?? string.Empty;
 
-        if (ImGui.BeginCombo("##startAreaDropdown", currentSelection))
+        if (ImGui.BeginCombo("##startAreaDropdown", startAreaCurrentSelection))
+        {
+            foreach (var option in startAreaOptions)
+            {
+                var isSelected = option == startAreaCurrentSelection;
+                if (ImGui.Selectable(option, isSelected))
+                {
+                    configuration.StartArea = option;
+                    configuration.Save();
+                }
+
+                if (isSelected) ImGui.SetItemDefaultFocus();
+            }
+
+            ImGui.EndCombo();
+        }
+
+        ImGui.Text("Debug Grand Company:");
+
+        var options = new List<string> { "Immortal Flames", "Maelstorm", "Twin Adder" };
+        var currentSelection = configuration.GrandCompany ?? string.Empty;
+
+        if (ImGui.BeginCombo("##GrandCompanyDropdown", currentSelection))
         {
             foreach (var option in options)
             {
                 var isSelected = option == currentSelection;
                 if (ImGui.Selectable(option, isSelected))
                 {
-                    configuration.StartArea = option;
+                    configuration.GrandCompany = option;
                     configuration.Save();
                 }
 

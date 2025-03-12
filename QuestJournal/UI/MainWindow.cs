@@ -12,12 +12,15 @@ namespace QuestJournal.UI;
 
 public class MainWindow : Window, IDisposable
 {
+    private readonly IPluginLog log;
     private readonly MsqHandler msqHandler;
     private readonly MsqRenderer msqRenderer;
 
     public MainWindow(List<IQuestInfo> questInfo, IPluginLog log, Configuration configuration)
-        : base("QuestJournal###QuestJournal-QuackieMackie", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
+        : base("QuestJournal###QuestJournal-QuackieMackie",
+               ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
+        this.log = log;
         SizeConstraints = new WindowSizeConstraints
         {
             MinimumSize = new Vector2(480, 720),
@@ -39,6 +42,15 @@ public class MainWindow : Window, IDisposable
     {
         var questCount = msqHandler.GetQuestCount();
         ImGui.Text($"Loaded {questCount} quests.");
+
+        ImGui.SameLine();
+        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize("Refresh").X -
+                            ImGui.GetStyle().ItemSpacing.X);
+        if (ImGui.Button("Refresh##RefreshButton"))
+        {
+            msqHandler.ReloadFilteredQuests();
+            log.Info("Refreshed quest list.");
+        }
 
         if (ImGui.BeginTabBar("MainTabBar"))
         {
