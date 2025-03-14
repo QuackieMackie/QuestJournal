@@ -60,7 +60,6 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), true, ImGuiWindowFlags.HorizontalScrollbar);
 
-        ImGui.Separator();
         foreach (var quest in quests) DrawQuestWidget(quest);
 
         ImGui.EndChild();

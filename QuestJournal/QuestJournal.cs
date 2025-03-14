@@ -33,17 +33,13 @@ public sealed class QuestJournal : IDalamudPlugin
         CommandHandler = new CommandHandler(CommandManager, QuestDataFetcher, Log, PluginInterface, Configuration);
         CacheQuestData();
 
-        ConfigWindow = new ConfigWindow(this);
-        MainWindow = new MainWindow(CachedQuests, Log, Configuration);
+        MainWindow = new MainWindow(this, CachedQuests, Log, Configuration);
 
-        WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(MainWindow);
 
         PluginInterface.UiBuilder.Draw += DrawUi;
-        PluginInterface.UiBuilder.OpenConfigUi += ToggleConfigUi;
-        PluginInterface.UiBuilder.OpenMainUi += ToggleMainUi;
-
-        //QuestDataHandler.FetchStartArea();
+        PluginInterface.UiBuilder.OpenConfigUi += () => OpenMainWindow();
+        PluginInterface.UiBuilder.OpenMainUi += () => OpenMainWindow();
     }
 
     [PluginService]
@@ -59,7 +55,6 @@ public sealed class QuestJournal : IDalamudPlugin
     internal static IPluginLog Log { get; private set; } = null!;
 
     public Configuration Configuration { get; init; }
-    private ConfigWindow ConfigWindow { get; init; }
     private MainWindow MainWindow { get; init; }
 
     private QuestDataFetcher QuestDataFetcher { get; init; }
@@ -71,7 +66,6 @@ public sealed class QuestJournal : IDalamudPlugin
     {
         WindowSystem.RemoveAllWindows();
 
-        ConfigWindow.Dispose();
         MainWindow.Dispose();
 
         CommandHandler.Dispose();
@@ -82,12 +76,7 @@ public sealed class QuestJournal : IDalamudPlugin
         WindowSystem.Draw();
     }
 
-    public void ToggleConfigUi()
-    {
-        ConfigWindow.Toggle();
-    }
-
-    public void ToggleMainUi()
+    public void OpenMainWindow()
     {
         MainWindow.Toggle();
     }

@@ -66,7 +66,7 @@ public class MsqHandler : IDisposable
                 //Removed Quests
                 { "Close to Home", (0, 0, 0) },
 
-                //Grindania
+                // Grindania
                 { "To the Bannock", (65564, 0, 0) },
                 { "Passing Muster", (65737, 0, 0) },
                 { "Chasing Shadows", (65981, 0, 0) },

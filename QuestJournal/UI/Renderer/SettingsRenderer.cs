@@ -1,41 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
-using Dalamud.Interface.Windowing;
+﻿using System.Collections.Generic;
 using ImGuiNET;
 
-namespace QuestJournal.UI;
+namespace QuestJournal.UI.Renderer;
 
-public class ConfigWindow : Window, IDisposable
+public class SettingsRenderer
 {
     private readonly Configuration configuration;
 
-    public ConfigWindow(QuestJournal questJournal) : base("QuestJournal Settings###QuestJournalSettings-QuackieMackie")
+    public SettingsRenderer(Configuration configuration)
     {
-        Flags = ImGuiWindowFlags.NoResize | ImGuiWindowFlags.NoCollapse | ImGuiWindowFlags.NoScrollbar |
-                ImGuiWindowFlags.NoScrollWithMouse;
-
-        Size = new Vector2(232, 150);
-        SizeCondition = ImGuiCond.Always;
-
-        configuration = questJournal.Configuration;
+        this.configuration = configuration;
     }
 
-    public void Dispose() { }
-
-    public override void Draw()
+    public void DrawSettings()
     {
-        var devMode = configuration.DeveloperMode;
-        if (ImGui.Checkbox("Developer Mode", ref devMode))
-        {
-            configuration.DeveloperMode = devMode;
-            configuration.Save();
-        }
-
+        ImGui.Text("Settings");
         ImGui.Separator();
-
-        ImGui.Text("Debug Start Area:");
-
+        ImGui.Text("Select which area you started in:");
         var startAreaOptions = new List<string> { "Gridania", "Limsa Lominsa", "Ul'dah" };
         var startAreaCurrentSelection = configuration.StartArea ?? string.Empty;
 
@@ -56,8 +37,7 @@ public class ConfigWindow : Window, IDisposable
             ImGui.EndCombo();
         }
 
-        ImGui.Text("Debug Grand Company:");
-
+        ImGui.Text("Select your desired/current Grand Company:");
         var options = new List<string> { "Immortal Flames", "Maelstorm", "Twin Adder" };
         var currentSelection = configuration.GrandCompany ?? string.Empty;
 
@@ -76,6 +56,22 @@ public class ConfigWindow : Window, IDisposable
             }
 
             ImGui.EndCombo();
+        }
+        
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        
+        ImGui.Text("Developer Settings");
+        ImGui.Separator();
+        var devMode = configuration.DeveloperMode;
+        ImGui.Text("Developer Mode");
+        if (ImGui.Checkbox("This enables you to fetch quest data from the Lumina sheets don't use\nunless you know what you're doing.", ref devMode))
+        {
+            configuration.DeveloperMode = devMode;
+            configuration.Save();
         }
     }
 }

@@ -12,14 +12,17 @@ namespace QuestJournal.UI;
 
 public class MainWindow : Window, IDisposable
 {
+    private readonly QuestJournal plugin;
     private readonly IPluginLog log;
     private readonly MsqHandler msqHandler;
     private readonly MsqRenderer msqRenderer;
+    private readonly InformationRenderer informationRenderer;
+    private readonly SettingsRenderer settingsRenderer;
 
-    public MainWindow(List<IQuestInfo> questInfo, IPluginLog log, Configuration configuration)
-        : base("QuestJournal###QuestJournal-QuackieMackie",
-               ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
+    public MainWindow(QuestJournal plugin, List<IQuestInfo> questInfo, IPluginLog log, Configuration configuration) 
+        : base("QuestJournal###QuestJournal-QuackieMackie", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
+        this.plugin = plugin;
         this.log = log;
         SizeConstraints = new WindowSizeConstraints
         {
@@ -28,29 +31,23 @@ public class MainWindow : Window, IDisposable
         };
 
         msqHandler = new MsqHandler(questInfo, log, configuration);
+        
         msqRenderer = new MsqRenderer(msqHandler, log);
-
+        informationRenderer = new InformationRenderer();
+        settingsRenderer = new SettingsRenderer(configuration);
+        
         msqHandler.ReloadFilteredQuests();
-    }
-
-    public void Dispose()
-    {
-        msqHandler.Dispose();
     }
 
     public override void Draw()
     {
-        var questCount = msqHandler.GetQuestCount();
-        ImGui.Text($"Loaded {questCount} quests.");
-
-        ImGui.SameLine();
-        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize("Refresh").X -
-                            ImGui.GetStyle().ItemSpacing.X);
         if (ImGui.Button("Refresh##RefreshButton"))
         {
             msqHandler.ReloadFilteredQuests();
             log.Info("Refreshed quest list.");
         }
+        
+        ImGui.Spacing();
 
         if (ImGui.BeginTabBar("MainTabBar"))
         {
@@ -62,11 +59,22 @@ public class MainWindow : Window, IDisposable
 
             if (ImGui.BeginTabItem("Information"))
             {
-                ImGui.Text("Information tab coming soon!");
+                informationRenderer.DrawInformation();
+                ImGui.EndTabItem();
+            }
+
+            if (ImGui.BeginTabItem("Settings"))
+            {
+                settingsRenderer.DrawSettings();
                 ImGui.EndTabItem();
             }
 
             ImGui.EndTabBar();
         }
+    }
+    
+    public void Dispose()
+    {
+        msqHandler.Dispose();
     }
 }
