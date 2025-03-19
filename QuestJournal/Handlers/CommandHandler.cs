@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.Json;
 using Dalamud.Game.Command;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
@@ -12,7 +13,10 @@ namespace QuestJournal.Handlers;
 public class CommandHandler : IDisposable
 {
     private const string FetchQuestCommandName = "/fetch-qd";
+    private const string FetchMsqCommandName = "/fetch-msq";
+    
     private const string QuestDataFileName = "QuestData.json";
+    private const string MsqDataFileName = "MsqData.json";
 
     private readonly ICommandManager commandManager;
     private readonly Configuration configuration;
@@ -36,6 +40,7 @@ public class CommandHandler : IDisposable
     public void Dispose()
     {
         commandManager.RemoveHandler(FetchQuestCommandName);
+        commandManager.RemoveHandler(FetchMsqCommandName);
     }
 
     private void AddHandlers()
@@ -44,16 +49,27 @@ public class CommandHandler : IDisposable
         {
             HelpMessage = $"Fetch quest data from the game with {FetchQuestCommandName}"
         });
+        
+        commandManager.AddHandler(FetchMsqCommandName, new CommandInfo(OnFetchCommand)
+        {
+            HelpMessage = $"Fetch quest data from the game with {FetchMsqCommandName}"
+        });
     }
 
     private void OnFetchCommand(string command, string args)
     {
         if (!configuration.DeveloperMode)
         {
-            log.Information("The fetch command is only available in Developer Mode.");
+            log.Information("The fetch commands are only available in Developer Mode.");
             return;
         }
 
+        if (command == FetchQuestCommandName) FetchQuestData();
+        if (command == FetchMsqCommandName) FetchMsqData();
+    }
+
+    private void FetchQuestData()
+    {
         try
         {
             var allQuests = questDataFetcher.GetAllQuests();
@@ -71,22 +87,71 @@ public class CommandHandler : IDisposable
         }
     }
 
-    private void LogQuests(IEnumerable<IQuestInfo> quests)
+    public void FetchMsqData()
+    {
+        try
+        {
+            var categorizedMsqData = questDataFetcher.GetMainScenarioQuestsByCategory();
+
+            var baseFilePath = GetOutputFilePath(MsqDataFileName);
+            var baseDirectoryPath = Path.GetDirectoryName(baseFilePath);
+
+            var msqDirectoryPath = Path.Combine(baseDirectoryPath ?? ".", "MSQ");
+            if (!Directory.Exists(msqDirectoryPath))
+            {
+                Directory.CreateDirectory(msqDirectoryPath);
+            }
+
+            foreach (var categoryEntry in categorizedMsqData)
+            {
+                var categoryName = categoryEntry.Key;
+                var quests = categoryEntry.Value;
+
+                var sanitizedFileName = $"MSQ-{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
+                var filePath = Path.Combine(msqDirectoryPath, sanitizedFileName);
+
+                SaveQuestDataToJson(quests, filePath, categoryName);
+            }
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Error fetching or saving MSQ data: {ex.Message}");
+        }
+    }
+
+    private void SaveQuestDataToJson(List<QuestInfo> questData, string filePath, string msqCategory)
+    {
+        try
+        {
+            var jsonString = JsonSerializer.Serialize(questData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, jsonString);
+
+            log.Info($"Saved {questData.Count} quests for MSQ category '{msqCategory}; to file path: '{filePath}'");
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to save the file at '{filePath}': {ex.Message}");
+        }
+    }
+
+    private void LogQuests(List<QuestInfo?> quests)
     {
         var count = 0;
 
         foreach (var quest in quests)
         {
-            log.Information(
-                $"Quest ID: {quest.QuestId}, " +
-                $"Title: {quest.QuestTitle}, " +
-                $"Prerequisite Quest IDs: [{string.Join(", ", quest.PreviousQuestIds ?? new List<uint>())}], " +
-                $"Prerequisite Quest Titles: [{string.Join(", ", quest.PreviousQuestTitles ?? new List<string>())}], " +
-                $"Starter NPC: {quest.StarterNpc}, " +
-                $"Finish NPC: {quest.FinishNpc}, " +
-                $"Expansion: {quest.Expansion}, " +
-                $"Journal Genre: {quest.JournalGenre}, " +
-                $"Is Repeatable: {quest.IsRepeatable}");
+            if (quest != null)
+            {
+                log.Information(
+                    $"Quest ID: {quest.QuestId}, " +
+                    $"Title: {quest.QuestTitle}, " +
+                    $"Prerequisite Quest IDs: [{string.Join(", ", quest.PreviousQuestIds ?? new List<uint>())}], " +
+                    $"Prerequisite Quest Titles: [{string.Join(", ", quest.PreviousQuestTitles ?? new List<string>())}], " +
+                    $"Starter NPC: {quest.StarterNpc}, " +
+                    $"Finish NPC: {quest.FinishNpc}, " +
+                    $"Expansion: {quest.Expansion}, " +
+                    $"Journal Genre: {quest.JournalGenre}, ");
+            }
 
             count++;
         }

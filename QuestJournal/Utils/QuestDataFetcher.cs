@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 using Dalamud.Plugin.Services;
 using Lumina.Excel;
@@ -26,29 +27,85 @@ public class QuestDataFetcher
     /// <summary>
     ///     Fetches all quests and their details.
     /// </summary>
-    public List<IQuestInfo> GetAllQuests()
+    public List<QuestInfo?> GetAllQuests()
     {
-        var questList = new List<IQuestInfo>();
-
         var exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
         var journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
         var questSheet = dataManager.GetExcelSheet<Quest>();
 
-        foreach (var questData in questSheet)
-        {
-            var questInfo = BuildQuestInfo(questData, exVersionSheet, journalGenreSheet);
-            if (questInfo == null) continue;
+        var questInfoLookup = questSheet.ToDictionary(
+            quest => quest.RowId,
+            quest => BuildQuestInfo(quest, exVersionSheet, journalGenreSheet)
+        );
 
-            questList.Add(questInfo);
+        foreach (var quest in questSheet)
+        {
+            if (questInfoLookup.TryGetValue(quest.RowId, out var questInfo) && quest.PreviousQuest.Count > 0)
+            {
+                var prevQuestIds = GetPrerequisiteQuestIds(quest.PreviousQuest);
+
+                foreach (var prevQuestId in prevQuestIds)
+                {
+                    if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
+                    {
+                        prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
+                        prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ToString());
+                    }
+                }
+            }
+        }
+        return questInfoLookup.Values.ToList();
+    }
+
+    /// <summary>
+    /// Groups main scenario quests by categories and fetches details.
+    /// </summary>
+    public Dictionary<string, List<QuestInfo>> GetMainScenarioQuestsByCategory()
+    {
+        var allQuests = GetAllQuests();
+        var msqCategories = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        {
+            "Seventh Umbral Era Main Scenario Quests",
+            "Seventh Astral Era Main Scenario Quests",
+            "Heavensward Main Scenario Quests",
+            "Dragonsong Main Scenario Quests",
+            "Post-Dragonsong Main Scenario Quests",
+            "Stormblood Main Scenario Quests",
+            "Post-Stormblood Main Scenario Quests",
+            "Shadowbringers Main Scenario Quests",
+            "Post-Shadowbringers Main Scenario Quests",
+            "Post-Shadowbringers Main Scenario Quests II",
+            "Endwalker Main Scenario Quests",
+            "Post-Endwalker Main Scenario Quests",
+            "Dawntrail Main Scenario Quests",
+            "Post-Dawntrail Main Scenario Quests"
+        };
+
+        var categorizedQuests = new Dictionary<string, List<QuestInfo>>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (var category in msqCategories)
+        {
+            categorizedQuests[category] = new List<QuestInfo>();
         }
 
-        return questList;
+        foreach (var quest in allQuests)
+        {
+            if (quest == null) continue;
+
+            var categoryName = quest.JournalGenre?.JournalCategory?.Name;
+            if (categoryName != null && msqCategories.Contains(categoryName))
+            {
+                categorizedQuests[categoryName].Add(quest);
+            }
+        }
+
+        return categorizedQuests;
     }
 
     /// <summary>
     ///     Saves a list of quests to a JSON file.
     /// </summary>
-    public void SaveQuestDataToJson(List<IQuestInfo> questData, string filePath)
+    public void SaveQuestDataToJson(List<QuestInfo?> questData, string filePath)
     {
         try
         {
@@ -67,28 +124,32 @@ public class QuestDataFetcher
     /// <summary>
     ///     Builds a IQuestInfo object from raw quest data.
     /// </summary>
-    private IQuestInfo? BuildQuestInfo(
+    private QuestInfo? BuildQuestInfo(
         Quest questData, ExcelSheet<ExVersion>? exVersionSheet, ExcelSheet<JournalGenre>? journalGenreSheet)
     {
         try
         {
-            var preQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest);
-            var preQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest);
+            var previousQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest);
+            var previousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest);
 
             var expansionName = GetExpansionName(questData.Expansion, exVersionSheet, questData.Id);
             var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, journalGenreSheet, questData.Id);
 
-            var questDetails = new IQuestInfo
+            var questDetails = new QuestInfo
             {
                 QuestId = questData.RowId,
                 QuestTitle = questData.Name.ToString(),
-                PreviousQuestIds = preQuestIds,
-                PreviousQuestTitles = preQuestTitles,
+                PreviousQuestIds = previousQuestIds,
+                PreviousQuestTitles = previousQuestTitles,
+                NextQuestIds = new List<uint>(),
+                NextQuestTitles = new List<string>(),
                 StarterNpc = ResolveNpcName(questData.IssuerStart, dataManager),
                 FinishNpc = ResolveNpcName(questData.TargetEnd, dataManager),
-                IsRepeatable = questData.IsRepeatable,
                 Expansion = expansionName,
-                JournalGenre = journalGenreDetails
+                JournalGenre = journalGenreDetails,
+                SortKey = questData.SortKey,
+                Icon = questData.Icon,
+                IconSpecial = questData.IconSpecial
             };
 
             return questDetails;
@@ -123,7 +184,6 @@ public class QuestDataFetcher
             return new JournalGenreDetails
             {
                 Id = journalGenre.RowId,
-                Icon = journalGenre.Icon,
                 Name = journalGenre.Name.ToString(),
                 JournalCategory = journalCategoryDetails
             };
@@ -135,21 +195,12 @@ public class QuestDataFetcher
         }
     }
 
-    /// <summary>
-    ///     Validates the contents of a IQuestInfo object.
-    /// </summary>
-    private bool IsQuestInfoValid(IQuestInfo questInfo)
-    {
-        return questInfo.QuestId > 0 && !string.IsNullOrEmpty(questInfo.QuestTitle) &&
-               (!string.IsNullOrEmpty(questInfo.Expansion) || questInfo.JournalGenre != null);
-    }
-
     // Data Parsers
 
     /// <summary>
     ///     Resolves the IDs of prerequisite quests.
     /// </summary>
-    private List<uint> GetPrerequisiteQuestIds(IEnumerable<RowRef<Quest>> previousQuests)
+    private List<uint> GetPrerequisiteQuestIds(Collection<RowRef<Quest>> previousQuests)
     {
         var ids = new List<uint>();
         foreach (var preQuestRef in previousQuests)
@@ -158,8 +209,7 @@ public class QuestDataFetcher
 
             try
             {
-                var preQuest = preQuestRef.Value;
-                ids.Add(preQuest.RowId);
+                ids.Add(preQuestRef.RowId);
             }
             catch (Exception ex)
             {
@@ -173,7 +223,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Resolves the titles of prerequisite quests.
     /// </summary>
-    private List<string> GetPrerequisiteQuestTitles(IEnumerable<RowRef<Quest>> previousQuests)
+    private List<string> GetPrerequisiteQuestTitles(Collection<RowRef<Quest>> previousQuests)
     {
         var titles = new List<string>();
         foreach (var preQuestRef in previousQuests)
@@ -215,26 +265,6 @@ public class QuestDataFetcher
     }
 
     /// <summary>
-    ///     Resolves the journal genre name for the quest.
-    /// </summary>
-    private string? GetJournalGenreName(
-        RowRef<JournalGenre> journalGenreRef, ExcelSheet<JournalGenre>? journalGenreSheet, ReadOnlySeString questId)
-    {
-        if (journalGenreSheet == null || journalGenreRef.RowId <= 0) return null;
-
-        try
-        {
-            var journalGenre = journalGenreRef.Value;
-            return journalGenre.Name.ToString();
-        }
-        catch (Exception ex)
-        {
-            log.Error($"Failed to resolve JournalGenre for Quest {questId}: {ex.Message}");
-            return null;
-        }
-    }
-
-    /// <summary>
     ///     Resolves the NPC name for the given RowRef.
     /// </summary>
     private string? ResolveNpcName(RowRef npcRef, IDataManager dataManager)
@@ -244,8 +274,12 @@ public class QuestDataFetcher
         try
         {
             var enpcSheet = dataManager.GetExcelSheet<ENpcResident>();
-            var npc = enpcSheet.GetRow(npcRef.RowId);
-            return npc.Singular.ToString();
+            try
+            {
+                var npc = enpcSheet.GetRow(npcRef.RowId);
+                return npc.Singular.ToString();
+            }
+            catch (ArgumentOutOfRangeException) { return null; }
         }
         catch (Exception ex)
         {

@@ -1,0 +1,2806 @@
+[
+  {
+    "QuestId": 70396,
+    "QuestTitle": "A New World to Explore",
+    "PreviousQuestIds": [
+      70289
+    ],
+    "PreviousQuestTitles": [
+      "The Coming Dawn"
+    ],
+    "NextQuestIds": [
+      70397
+    ],
+    "NextQuestTitles": [
+      "The Nation of Tuliyollal"
+    ],
+    "StarterNpc": "Ojika Tsunjika",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 70397,
+    "QuestTitle": "The Nation of Tuliyollal",
+    "PreviousQuestIds": [
+      70396
+    ],
+    "PreviousQuestTitles": [
+      "A New World to Explore"
+    ],
+    "NextQuestIds": [
+      70398
+    ],
+    "NextQuestTitles": [
+      "A City of Stairs"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Krile",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 70398,
+    "QuestTitle": "A City of Stairs",
+    "PreviousQuestIds": [
+      70397
+    ],
+    "PreviousQuestTitles": [
+      "The Nation of Tuliyollal"
+    ],
+    "NextQuestIds": [
+      70399
+    ],
+    "NextQuestTitles": [
+      "A Saga in Stone"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 30
+  },
+  {
+    "QuestId": 70399,
+    "QuestTitle": "A Saga in Stone",
+    "PreviousQuestIds": [
+      70398
+    ],
+    "PreviousQuestTitles": [
+      "A City of Stairs"
+    ],
+    "NextQuestIds": [
+      70400
+    ],
+    "NextQuestTitles": [
+      "The Rite of Succession"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 40
+  },
+  {
+    "QuestId": 70400,
+    "QuestTitle": "The Rite of Succession",
+    "PreviousQuestIds": [
+      70399
+    ],
+    "PreviousQuestTitles": [
+      "A Saga in Stone"
+    ],
+    "NextQuestIds": [
+      70401,
+      70407
+    ],
+    "NextQuestTitles": [
+      "To Kozama\u0027uka",
+      "To Urqopacha"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 50
+  },
+  {
+    "QuestId": 70401,
+    "QuestTitle": "To Kozama\u0027uka",
+    "PreviousQuestIds": [
+      70400
+    ],
+    "PreviousQuestTitles": [
+      "The Rite of Succession"
+    ],
+    "NextQuestIds": [
+      70402
+    ],
+    "NextQuestTitles": [
+      "A Festive People"
+    ],
+    "StarterNpc": "helpful Hanu",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 60
+  },
+  {
+    "QuestId": 70402,
+    "QuestTitle": "A Festive People",
+    "PreviousQuestIds": [
+      70401
+    ],
+    "PreviousQuestTitles": [
+      "To Kozama\u0027uka"
+    ],
+    "NextQuestIds": [
+      70403
+    ],
+    "NextQuestTitles": [
+      "The Feat of Reeds"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 70
+  },
+  {
+    "QuestId": 70403,
+    "QuestTitle": "The Feat of Reeds",
+    "PreviousQuestIds": [
+      70402
+    ],
+    "PreviousQuestTitles": [
+      "A Festive People"
+    ],
+    "NextQuestIds": [
+      70404
+    ],
+    "NextQuestTitles": [
+      "A Well-mannered Shipwright"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Krile",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 80
+  },
+  {
+    "QuestId": 70404,
+    "QuestTitle": "A Well-mannered Shipwright",
+    "PreviousQuestIds": [
+      70403
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Reeds"
+    ],
+    "NextQuestIds": [
+      70405
+    ],
+    "NextQuestTitles": [
+      "The Lifting of Wings"
+    ],
+    "StarterNpc": "Linuhanu",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 90
+  },
+  {
+    "QuestId": 70405,
+    "QuestTitle": "The Lifting of Wings",
+    "PreviousQuestIds": [
+      70404
+    ],
+    "PreviousQuestTitles": [
+      "A Well-mannered Shipwright"
+    ],
+    "NextQuestIds": [
+      70406
+    ],
+    "NextQuestTitles": [
+      "Knowing the Hanuhanu"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Linuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 100
+  },
+  {
+    "QuestId": 70406,
+    "QuestTitle": "Knowing the Hanuhanu",
+    "PreviousQuestIds": [
+      70405
+    ],
+    "PreviousQuestTitles": [
+      "The Lifting of Wings"
+    ],
+    "NextQuestIds": [
+      70414
+    ],
+    "NextQuestTitles": [
+      "The Success of Others"
+    ],
+    "StarterNpc": "Wuk Evu",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 110
+  },
+  {
+    "QuestId": 70407,
+    "QuestTitle": "To Urqopacha",
+    "PreviousQuestIds": [
+      70400
+    ],
+    "PreviousQuestTitles": [
+      "The Rite of Succession"
+    ],
+    "NextQuestIds": [
+      70408
+    ],
+    "NextQuestTitles": [
+      "Traders of Happiness"
+    ],
+    "StarterNpc": "approachable Pelu",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 120
+  },
+  {
+    "QuestId": 70408,
+    "QuestTitle": "Traders of Happiness",
+    "PreviousQuestIds": [
+      70407
+    ],
+    "PreviousQuestTitles": [
+      "To Urqopacha"
+    ],
+    "NextQuestIds": [
+      70409
+    ],
+    "NextQuestTitles": [
+      "The Feat of Gold"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 130
+  },
+  {
+    "QuestId": 70409,
+    "QuestTitle": "The Feat of Gold",
+    "PreviousQuestIds": [
+      70408
+    ],
+    "PreviousQuestTitles": [
+      "Traders of Happiness"
+    ],
+    "NextQuestIds": [
+      70410
+    ],
+    "NextQuestTitles": [
+      "Mablu\u0027s Dream"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Mablu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 140
+  },
+  {
+    "QuestId": 70410,
+    "QuestTitle": "Mablu\u0027s Dream",
+    "PreviousQuestIds": [
+      70409
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Gold"
+    ],
+    "NextQuestIds": [
+      70411
+    ],
+    "NextQuestTitles": [
+      "A Premium Deal"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Miplu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 150
+  },
+  {
+    "QuestId": 70411,
+    "QuestTitle": "A Premium Deal",
+    "PreviousQuestIds": [
+      70410
+    ],
+    "PreviousQuestTitles": [
+      "Mablu\u0027s Dream"
+    ],
+    "NextQuestIds": [
+      70412
+    ],
+    "NextQuestTitles": [
+      "Wuk Lamat in the Saddle"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Mablu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 160
+  },
+  {
+    "QuestId": 70412,
+    "QuestTitle": "Wuk Lamat in the Saddle",
+    "PreviousQuestIds": [
+      70411
+    ],
+    "PreviousQuestTitles": [
+      "A Premium Deal"
+    ],
+    "NextQuestIds": [
+      70413
+    ],
+    "NextQuestTitles": [
+      "Knowing the Pelupelu"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Mablu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 170
+  },
+  {
+    "QuestId": 70413,
+    "QuestTitle": "Knowing the Pelupelu",
+    "PreviousQuestIds": [
+      70412
+    ],
+    "PreviousQuestTitles": [
+      "Wuk Lamat in the Saddle"
+    ],
+    "NextQuestIds": [
+      70414
+    ],
+    "NextQuestTitles": [
+      "The Success of Others"
+    ],
+    "StarterNpc": "Mablu",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 180
+  },
+  {
+    "QuestId": 70414,
+    "QuestTitle": "The Success of Others",
+    "PreviousQuestIds": [
+      70406,
+      70413
+    ],
+    "PreviousQuestTitles": [
+      "Knowing the Hanuhanu",
+      "Knowing the Pelupelu"
+    ],
+    "NextQuestIds": [
+      70415
+    ],
+    "NextQuestTitles": [
+      "For All Turali"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 190
+  },
+  {
+    "QuestId": 70415,
+    "QuestTitle": "For All Turali",
+    "PreviousQuestIds": [
+      70414
+    ],
+    "PreviousQuestTitles": [
+      "The Success of Others"
+    ],
+    "NextQuestIds": [
+      70416
+    ],
+    "NextQuestTitles": [
+      "A Leaking Workpot"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 200
+  },
+  {
+    "QuestId": 70416,
+    "QuestTitle": "A Leaking Workpot",
+    "PreviousQuestIds": [
+      70415
+    ],
+    "PreviousQuestTitles": [
+      "For All Turali"
+    ],
+    "NextQuestIds": [
+      70417
+    ],
+    "NextQuestTitles": [
+      "Lending a Helphand"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Rakorok",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 210
+  },
+  {
+    "QuestId": 70417,
+    "QuestTitle": "Lending a Helphand",
+    "PreviousQuestIds": [
+      70416
+    ],
+    "PreviousQuestTitles": [
+      "A Leaking Workpot"
+    ],
+    "NextQuestIds": [
+      70418
+    ],
+    "NextQuestTitles": [
+      "The Feat of Pots"
+    ],
+    "StarterNpc": "Rakorok",
+    "FinishNpc": "Rakorok",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 220
+  },
+  {
+    "QuestId": 70418,
+    "QuestTitle": "The Feat of Pots",
+    "PreviousQuestIds": [
+      70417
+    ],
+    "PreviousQuestTitles": [
+      "Lending a Helphand"
+    ],
+    "NextQuestIds": [
+      70419
+    ],
+    "NextQuestTitles": [
+      "A Father First"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 230
+  },
+  {
+    "QuestId": 70419,
+    "QuestTitle": "A Father First",
+    "PreviousQuestIds": [
+      70418
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Pots"
+    ],
+    "NextQuestIds": [
+      70420
+    ],
+    "NextQuestTitles": [
+      "The Shape of Peace"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 240
+  },
+  {
+    "QuestId": 70420,
+    "QuestTitle": "The Shape of Peace",
+    "PreviousQuestIds": [
+      70419
+    ],
+    "PreviousQuestTitles": [
+      "A Father First"
+    ],
+    "NextQuestIds": [
+      70421
+    ],
+    "NextQuestTitles": [
+      "Lost Promise"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Rediroq",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 250
+  },
+  {
+    "QuestId": 70421,
+    "QuestTitle": "Lost Promise",
+    "PreviousQuestIds": [
+      70420
+    ],
+    "PreviousQuestTitles": [
+      "The Shape of Peace"
+    ],
+    "NextQuestIds": [
+      70422
+    ],
+    "NextQuestTitles": [
+      "A Brother\u0027s Duty"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Koana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 260
+  },
+  {
+    "QuestId": 70422,
+    "QuestTitle": "A Brother\u0027s Duty",
+    "PreviousQuestIds": [
+      70421
+    ],
+    "PreviousQuestTitles": [
+      "Lost Promise"
+    ],
+    "NextQuestIds": [
+      70423
+    ],
+    "NextQuestTitles": [
+      "Feeding the River"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Koana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 270
+  },
+  {
+    "QuestId": 70423,
+    "QuestTitle": "Feeding the River",
+    "PreviousQuestIds": [
+      70422
+    ],
+    "PreviousQuestTitles": [
+      "A Brother\u0027s Duty"
+    ],
+    "NextQuestIds": [
+      70424
+    ],
+    "NextQuestTitles": [
+      "Sibling Rescue"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Koana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 280
+  },
+  {
+    "QuestId": 70424,
+    "QuestTitle": "Sibling Rescue",
+    "PreviousQuestIds": [
+      70423
+    ],
+    "PreviousQuestTitles": [
+      "Feeding the River"
+    ],
+    "NextQuestIds": [
+      70425
+    ],
+    "NextQuestTitles": [
+      "History\u0027s Keepers"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 290
+  },
+  {
+    "QuestId": 70425,
+    "QuestTitle": "History\u0027s Keepers",
+    "PreviousQuestIds": [
+      70424
+    ],
+    "PreviousQuestTitles": [
+      "Sibling Rescue"
+    ],
+    "NextQuestIds": [
+      70426
+    ],
+    "NextQuestTitles": [
+      "The Feat of Proof"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 300
+  },
+  {
+    "QuestId": 70426,
+    "QuestTitle": "The Feat of Proof",
+    "PreviousQuestIds": [
+      70425
+    ],
+    "PreviousQuestTitles": [
+      "History\u0027s Keepers"
+    ],
+    "NextQuestIds": [
+      70427
+    ],
+    "NextQuestTitles": [
+      "The High Luminary"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 310
+  },
+  {
+    "QuestId": 70427,
+    "QuestTitle": "The High Luminary",
+    "PreviousQuestIds": [
+      70426
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Proof"
+    ],
+    "NextQuestIds": [
+      70428
+    ],
+    "NextQuestTitles": [
+      "An Echo of Madness"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 320
+  },
+  {
+    "QuestId": 70428,
+    "QuestTitle": "An Echo of Madness",
+    "PreviousQuestIds": [
+      70427
+    ],
+    "PreviousQuestTitles": [
+      "The High Luminary"
+    ],
+    "NextQuestIds": [
+      70429
+    ],
+    "NextQuestTitles": [
+      "Pointing the Way"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 330
+  },
+  {
+    "QuestId": 70429,
+    "QuestTitle": "Pointing the Way",
+    "PreviousQuestIds": [
+      70428
+    ],
+    "PreviousQuestTitles": [
+      "An Echo of Madness"
+    ],
+    "NextQuestIds": [
+      70430
+    ],
+    "NextQuestTitles": [
+      "The Skyruin"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 340
+  },
+  {
+    "QuestId": 70430,
+    "QuestTitle": "The Skyruin",
+    "PreviousQuestIds": [
+      70429
+    ],
+    "PreviousQuestTitles": [
+      "Pointing the Way"
+    ],
+    "NextQuestIds": [
+      70431
+    ],
+    "NextQuestTitles": [
+      "The Feat of Ice"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 350
+  },
+  {
+    "QuestId": 70431,
+    "QuestTitle": "The Feat of Ice",
+    "PreviousQuestIds": [
+      70430
+    ],
+    "PreviousQuestTitles": [
+      "The Skyruin"
+    ],
+    "NextQuestIds": [
+      70432
+    ],
+    "NextQuestTitles": [
+      "The Promise of Peace"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 360
+  },
+  {
+    "QuestId": 70432,
+    "QuestTitle": "The Promise of Peace",
+    "PreviousQuestIds": [
+      70431
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Ice"
+    ],
+    "NextQuestIds": [
+      70433
+    ],
+    "NextQuestTitles": [
+      "The Leap to Yak T\u0027el"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 370
+  },
+  {
+    "QuestId": 70433,
+    "QuestTitle": "The Leap to Yak T\u0027el",
+    "PreviousQuestIds": [
+      70432
+    ],
+    "PreviousQuestTitles": [
+      "The Promise of Peace"
+    ],
+    "NextQuestIds": [
+      70434
+    ],
+    "NextQuestTitles": [
+      "Village of the Hunt"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 380
+  },
+  {
+    "QuestId": 70434,
+    "QuestTitle": "Village of the Hunt",
+    "PreviousQuestIds": [
+      70433
+    ],
+    "PreviousQuestTitles": [
+      "The Leap to Yak T\u0027el"
+    ],
+    "NextQuestIds": [
+      70435
+    ],
+    "NextQuestTitles": [
+      "A History of Violence"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 390
+  },
+  {
+    "QuestId": 70435,
+    "QuestTitle": "A History of Violence",
+    "PreviousQuestIds": [
+      70434
+    ],
+    "PreviousQuestTitles": [
+      "Village of the Hunt"
+    ],
+    "NextQuestIds": [
+      70436
+    ],
+    "NextQuestTitles": [
+      "The Feat of Repast"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 400
+  },
+  {
+    "QuestId": 70436,
+    "QuestTitle": "The Feat of Repast",
+    "PreviousQuestIds": [
+      70435
+    ],
+    "PreviousQuestTitles": [
+      "A History of Violence"
+    ],
+    "NextQuestIds": [
+      70437
+    ],
+    "NextQuestTitles": [
+      "A Father\u0027s Grief"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 410
+  },
+  {
+    "QuestId": 70437,
+    "QuestTitle": "A Father\u0027s Grief",
+    "PreviousQuestIds": [
+      70436
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Repast"
+    ],
+    "NextQuestIds": [
+      70438
+    ],
+    "NextQuestTitles": [
+      "Taking a Stand"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Hunmu Rruk",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 420
+  },
+  {
+    "QuestId": 70438,
+    "QuestTitle": "Taking a Stand",
+    "PreviousQuestIds": [
+      70437
+    ],
+    "PreviousQuestTitles": [
+      "A Father\u0027s Grief"
+    ],
+    "NextQuestIds": [
+      70439
+    ],
+    "NextQuestTitles": [
+      "Into the Traverse"
+    ],
+    "StarterNpc": "Hunmu Rruk",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 430
+  },
+  {
+    "QuestId": 70439,
+    "QuestTitle": "Into the Traverse",
+    "PreviousQuestIds": [
+      70438
+    ],
+    "PreviousQuestTitles": [
+      "Taking a Stand"
+    ],
+    "NextQuestIds": [
+      70440
+    ],
+    "NextQuestTitles": [
+      "City of Silence"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 440
+  },
+  {
+    "QuestId": 70440,
+    "QuestTitle": "City of Silence",
+    "PreviousQuestIds": [
+      70439
+    ],
+    "PreviousQuestTitles": [
+      "Into the Traverse"
+    ],
+    "NextQuestIds": [
+      70441
+    ],
+    "NextQuestTitles": [
+      "Blessed Siblings"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "dignified lady",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 450
+  },
+  {
+    "QuestId": 70441,
+    "QuestTitle": "Blessed Siblings",
+    "PreviousQuestIds": [
+      70440
+    ],
+    "PreviousQuestTitles": [
+      "City of Silence"
+    ],
+    "NextQuestIds": [
+      70442
+    ],
+    "NextQuestTitles": [
+      "Scale of Trust"
+    ],
+    "StarterNpc": "Miilal Ja",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 460
+  },
+  {
+    "QuestId": 70442,
+    "QuestTitle": "Scale of Trust",
+    "PreviousQuestIds": [
+      70441
+    ],
+    "PreviousQuestTitles": [
+      "Blessed Siblings"
+    ],
+    "NextQuestIds": [
+      70443
+    ],
+    "NextQuestTitles": [
+      "Mamook Speaks"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 470
+  },
+  {
+    "QuestId": 70443,
+    "QuestTitle": "Mamook Speaks",
+    "PreviousQuestIds": [
+      70442
+    ],
+    "PreviousQuestTitles": [
+      "Scale of Trust"
+    ],
+    "NextQuestIds": [
+      70444
+    ],
+    "NextQuestTitles": [
+      "The Feat of the Brotherhood"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 480
+  },
+  {
+    "QuestId": 70444,
+    "QuestTitle": "The Feat of the Brotherhood",
+    "PreviousQuestIds": [
+      70443
+    ],
+    "PreviousQuestTitles": [
+      "Mamook Speaks"
+    ],
+    "NextQuestIds": [
+      70445
+    ],
+    "NextQuestTitles": [
+      "Road to the Golden City"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 490
+  },
+  {
+    "QuestId": 70445,
+    "QuestTitle": "Road to the Golden City",
+    "PreviousQuestIds": [
+      70444
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of the Brotherhood"
+    ],
+    "NextQuestIds": [
+      70446
+    ],
+    "NextQuestTitles": [
+      "Dawn of a New Tomorrow"
+    ],
+    "StarterNpc": "Ketenramm",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 500
+  },
+  {
+    "QuestId": 70446,
+    "QuestTitle": "Dawn of a New Tomorrow",
+    "PreviousQuestIds": [
+      70445
+    ],
+    "PreviousQuestTitles": [
+      "Road to the Golden City"
+    ],
+    "NextQuestIds": [
+      70447
+    ],
+    "NextQuestTitles": [
+      "Ever Greater, Ever Brighter"
+    ],
+    "StarterNpc": "Peshekwa",
+    "FinishNpc": "Krile",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 510
+  },
+  {
+    "QuestId": 70447,
+    "QuestTitle": "Ever Greater, Ever Brighter",
+    "PreviousQuestIds": [
+      70446
+    ],
+    "PreviousQuestTitles": [
+      "Dawn of a New Tomorrow"
+    ],
+    "NextQuestIds": [
+      70448
+    ],
+    "NextQuestTitles": [
+      "The Long Road to Xak Tural"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 520
+  },
+  {
+    "QuestId": 70448,
+    "QuestTitle": "The Long Road to Xak Tural",
+    "PreviousQuestIds": [
+      70447
+    ],
+    "PreviousQuestTitles": [
+      "Ever Greater, Ever Brighter"
+    ],
+    "NextQuestIds": [
+      70449
+    ],
+    "NextQuestTitles": [
+      "Saddled Up"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 530
+  },
+  {
+    "QuestId": 70449,
+    "QuestTitle": "Saddled Up",
+    "PreviousQuestIds": [
+      70448
+    ],
+    "PreviousQuestTitles": [
+      "The Long Road to Xak Tural"
+    ],
+    "NextQuestIds": [
+      70450
+    ],
+    "NextQuestTitles": [
+      "Braced for Trouble"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Iyaate",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 540
+  },
+  {
+    "QuestId": 70450,
+    "QuestTitle": "Braced for Trouble",
+    "PreviousQuestIds": [
+      70449
+    ],
+    "PreviousQuestTitles": [
+      "Saddled Up"
+    ],
+    "NextQuestIds": [
+      70451
+    ],
+    "NextQuestTitles": [
+      "Blowing Smoke"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 550
+  },
+  {
+    "QuestId": 70451,
+    "QuestTitle": "Blowing Smoke",
+    "PreviousQuestIds": [
+      70450
+    ],
+    "PreviousQuestTitles": [
+      "Braced for Trouble"
+    ],
+    "NextQuestIds": [
+      70452
+    ],
+    "NextQuestTitles": [
+      "Law of the Land"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Zekowa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 560
+  },
+  {
+    "QuestId": 70452,
+    "QuestTitle": "Law of the Land",
+    "PreviousQuestIds": [
+      70451
+    ],
+    "PreviousQuestTitles": [
+      "Blowing Smoke"
+    ],
+    "NextQuestIds": [
+      70453
+    ],
+    "NextQuestTitles": [
+      "On Track"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 570
+  },
+  {
+    "QuestId": 70453,
+    "QuestTitle": "On Track",
+    "PreviousQuestIds": [
+      70452
+    ],
+    "PreviousQuestTitles": [
+      "Law of the Land"
+    ],
+    "NextQuestIds": [
+      70454
+    ],
+    "NextQuestTitles": [
+      "One with Nature"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 580
+  },
+  {
+    "QuestId": 70454,
+    "QuestTitle": "One with Nature",
+    "PreviousQuestIds": [
+      70453
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [
+      70455
+    ],
+    "NextQuestTitles": [
+      "And the Land Would Tremble"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Wawlika",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 590
+  },
+  {
+    "QuestId": 70455,
+    "QuestTitle": "And the Land Would Tremble",
+    "PreviousQuestIds": [
+      70454
+    ],
+    "PreviousQuestTitles": [
+      "One with Nature"
+    ],
+    "NextQuestIds": [
+      70456
+    ],
+    "NextQuestTitles": [
+      "No Time for Tears"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 600
+  },
+  {
+    "QuestId": 70456,
+    "QuestTitle": "No Time for Tears",
+    "PreviousQuestIds": [
+      70455
+    ],
+    "PreviousQuestTitles": [
+      "And the Land Would Tremble"
+    ],
+    "NextQuestIds": [
+      70457
+    ],
+    "NextQuestTitles": [
+      "Pick up the Pieces"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 610
+  },
+  {
+    "QuestId": 70457,
+    "QuestTitle": "Pick up the Pieces",
+    "PreviousQuestIds": [
+      70456
+    ],
+    "PreviousQuestTitles": [
+      "No Time for Tears"
+    ],
+    "NextQuestIds": [
+      70458
+    ],
+    "NextQuestTitles": [
+      "Together as One"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 620
+  },
+  {
+    "QuestId": 70458,
+    "QuestTitle": "Together as One",
+    "PreviousQuestIds": [
+      70457
+    ],
+    "PreviousQuestTitles": [
+      "Pick up the Pieces"
+    ],
+    "NextQuestIds": [
+      70459
+    ],
+    "NextQuestTitles": [
+      "In Yyasulani\u0027s Shadow"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 630
+  },
+  {
+    "QuestId": 70459,
+    "QuestTitle": "In Yyasulani\u0027s Shadow",
+    "PreviousQuestIds": [
+      70458
+    ],
+    "PreviousQuestTitles": [
+      "Together as One"
+    ],
+    "NextQuestIds": [
+      70460
+    ],
+    "NextQuestTitles": [
+      "Putting Plans into Locomotion"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 640
+  },
+  {
+    "QuestId": 70460,
+    "QuestTitle": "Putting Plans into Locomotion",
+    "PreviousQuestIds": [
+      70459
+    ],
+    "PreviousQuestTitles": [
+      "In Yyasulani\u0027s Shadow"
+    ],
+    "NextQuestIds": [
+      70461
+    ],
+    "NextQuestTitles": [
+      "A Hot Commodity"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Iyaate",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 650
+  },
+  {
+    "QuestId": 70461,
+    "QuestTitle": "A Hot Commodity",
+    "PreviousQuestIds": [
+      70460
+    ],
+    "PreviousQuestTitles": [
+      "Putting Plans into Locomotion"
+    ],
+    "NextQuestIds": [
+      70462
+    ],
+    "NextQuestTitles": [
+      "All Aboard"
+    ],
+    "StarterNpc": "Iyaate",
+    "FinishNpc": "Wawlika",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 660
+  },
+  {
+    "QuestId": 70462,
+    "QuestTitle": "All Aboard",
+    "PreviousQuestIds": [
+      70461
+    ],
+    "PreviousQuestTitles": [
+      "A Hot Commodity"
+    ],
+    "NextQuestIds": [
+      70463
+    ],
+    "NextQuestTitles": [
+      "The Land of Levin"
+    ],
+    "StarterNpc": "Wawlika",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 670
+  },
+  {
+    "QuestId": 70463,
+    "QuestTitle": "The Land of Levin",
+    "PreviousQuestIds": [
+      70462
+    ],
+    "PreviousQuestTitles": [
+      "All Aboard"
+    ],
+    "NextQuestIds": [
+      70464
+    ],
+    "NextQuestTitles": [
+      "A Royal Welcome"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 680
+  },
+  {
+    "QuestId": 70464,
+    "QuestTitle": "A Royal Welcome",
+    "PreviousQuestIds": [
+      70463
+    ],
+    "PreviousQuestTitles": [
+      "The Land of Levin"
+    ],
+    "NextQuestIds": [
+      70465
+    ],
+    "NextQuestTitles": [
+      "A Day in the Life"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 690
+  },
+  {
+    "QuestId": 70465,
+    "QuestTitle": "A Day in the Life",
+    "PreviousQuestIds": [
+      70464
+    ],
+    "PreviousQuestTitles": [
+      "A Royal Welcome"
+    ],
+    "NextQuestIds": [
+      70466
+    ],
+    "NextQuestTitles": [
+      "On the Cloud"
+    ],
+    "StarterNpc": "Sphene",
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 700
+  },
+  {
+    "QuestId": 70466,
+    "QuestTitle": "On the Cloud",
+    "PreviousQuestIds": [
+      70465
+    ],
+    "PreviousQuestTitles": [
+      "A Day in the Life"
+    ],
+    "NextQuestIds": [
+      70467
+    ],
+    "NextQuestTitles": [
+      "Gone and Forgotten"
+    ],
+    "StarterNpc": "Sphene",
+    "FinishNpc": "Erenville",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 710
+  },
+  {
+    "QuestId": 70467,
+    "QuestTitle": "Gone and Forgotten",
+    "PreviousQuestIds": [
+      70466
+    ],
+    "PreviousQuestTitles": [
+      "On the Cloud"
+    ],
+    "NextQuestIds": [
+      70468
+    ],
+    "NextQuestTitles": [
+      "Embracing Oblivion"
+    ],
+    "StarterNpc": "Erenville",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 720
+  },
+  {
+    "QuestId": 70468,
+    "QuestTitle": "Embracing Oblivion",
+    "PreviousQuestIds": [
+      70467
+    ],
+    "PreviousQuestTitles": [
+      "Gone and Forgotten"
+    ],
+    "NextQuestIds": [
+      70469
+    ],
+    "NextQuestTitles": [
+      "Solution Nine"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Geode",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 730
+  },
+  {
+    "QuestId": 70469,
+    "QuestTitle": "Solution Nine",
+    "PreviousQuestIds": [
+      70468
+    ],
+    "PreviousQuestTitles": [
+      "Embracing Oblivion"
+    ],
+    "NextQuestIds": [
+      70470
+    ],
+    "NextQuestTitles": [
+      "The Queen\u0027s Tour"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 740
+  },
+  {
+    "QuestId": 70470,
+    "QuestTitle": "The Queen\u0027s Tour",
+    "PreviousQuestIds": [
+      70469
+    ],
+    "PreviousQuestTitles": [
+      "Solution Nine"
+    ],
+    "NextQuestIds": [
+      70471
+    ],
+    "NextQuestTitles": [
+      "Her People, Her Family"
+    ],
+    "StarterNpc": "Sphene",
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 750
+  },
+  {
+    "QuestId": 70471,
+    "QuestTitle": "Her People, Her Family",
+    "PreviousQuestIds": [
+      70470
+    ],
+    "PreviousQuestTitles": [
+      "The Queen\u0027s Tour"
+    ],
+    "NextQuestIds": [
+      70472
+    ],
+    "NextQuestTitles": [
+      "Scales of Blue"
+    ],
+    "StarterNpc": "Sphene",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 760
+  },
+  {
+    "QuestId": 70472,
+    "QuestTitle": "Scales of Blue",
+    "PreviousQuestIds": [
+      70471
+    ],
+    "PreviousQuestTitles": [
+      "Her People, Her Family"
+    ],
+    "NextQuestIds": [
+      70473
+    ],
+    "NextQuestTitles": [
+      "Gives You Teeth"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 770
+  },
+  {
+    "QuestId": 70473,
+    "QuestTitle": "Gives You Teeth",
+    "PreviousQuestIds": [
+      70472
+    ],
+    "PreviousQuestTitles": [
+      "Scales of Blue"
+    ],
+    "NextQuestIds": [
+      70474
+    ],
+    "NextQuestTitles": [
+      "Little Footfalls"
+    ],
+    "StarterNpc": "Tassos",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 780
+  },
+  {
+    "QuestId": 70474,
+    "QuestTitle": "Little Footfalls",
+    "PreviousQuestIds": [
+      70473
+    ],
+    "PreviousQuestTitles": [
+      "Gives You Teeth"
+    ],
+    "NextQuestIds": [
+      70475
+    ],
+    "NextQuestTitles": [
+      "Drowned Vestiges"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 790
+  },
+  {
+    "QuestId": 70475,
+    "QuestTitle": "Drowned Vestiges",
+    "PreviousQuestIds": [
+      70474
+    ],
+    "PreviousQuestTitles": [
+      "Little Footfalls"
+    ],
+    "NextQuestIds": [
+      70476
+    ],
+    "NextQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Otis",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 800
+  },
+  {
+    "QuestId": 70476,
+    "QuestTitle": "Memories of a Knight",
+    "PreviousQuestIds": [
+      70475
+    ],
+    "PreviousQuestTitles": [
+      "Drowned Vestiges"
+    ],
+    "NextQuestIds": [
+      70477
+    ],
+    "NextQuestTitles": [
+      "At a Crossroads"
+    ],
+    "StarterNpc": "Otis",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 810
+  },
+  {
+    "QuestId": 70477,
+    "QuestTitle": "At a Crossroads",
+    "PreviousQuestIds": [
+      70476
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "NextQuestIds": [
+      70478
+    ],
+    "NextQuestTitles": [
+      "The Protector and the Destroyer"
+    ],
+    "StarterNpc": "Otis",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 820
+  },
+  {
+    "QuestId": 70478,
+    "QuestTitle": "The Protector and the Destroyer",
+    "PreviousQuestIds": [
+      70477
+    ],
+    "PreviousQuestTitles": [
+      "At a Crossroads"
+    ],
+    "NextQuestIds": [
+      70479
+    ],
+    "NextQuestTitles": [
+      "A Comforting Hand"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 830
+  },
+  {
+    "QuestId": 70479,
+    "QuestTitle": "A Comforting Hand",
+    "PreviousQuestIds": [
+      70478
+    ],
+    "PreviousQuestTitles": [
+      "The Protector and the Destroyer"
+    ],
+    "NextQuestIds": [
+      70480
+    ],
+    "NextQuestTitles": [
+      "Unto the Summit"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Cahciua",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 840
+  },
+  {
+    "QuestId": 70480,
+    "QuestTitle": "Unto the Summit",
+    "PreviousQuestIds": [
+      70479
+    ],
+    "PreviousQuestTitles": [
+      "A Comforting Hand"
+    ],
+    "NextQuestIds": [
+      70481
+    ],
+    "NextQuestTitles": [
+      "The Resilient Son"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Cahciua",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 850
+  },
+  {
+    "QuestId": 70481,
+    "QuestTitle": "The Resilient Son",
+    "PreviousQuestIds": [
+      70480
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Summit"
+    ],
+    "NextQuestIds": [
+      70482
+    ],
+    "NextQuestTitles": [
+      "A New Family"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 860
+  },
+  {
+    "QuestId": 70482,
+    "QuestTitle": "A New Family",
+    "PreviousQuestIds": [
+      70481
+    ],
+    "PreviousQuestTitles": [
+      "The Resilient Son"
+    ],
+    "NextQuestIds": [
+      70483
+    ],
+    "NextQuestTitles": [
+      "In Pursuit of Sphene"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Koana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 870
+  },
+  {
+    "QuestId": 70483,
+    "QuestTitle": "In Pursuit of Sphene",
+    "PreviousQuestIds": [
+      70482
+    ],
+    "PreviousQuestTitles": [
+      "A New Family"
+    ],
+    "NextQuestIds": [
+      70484
+    ],
+    "NextQuestTitles": [
+      "Through the Gate of Gold"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Koana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 880
+  },
+  {
+    "QuestId": 70484,
+    "QuestTitle": "Through the Gate of Gold",
+    "PreviousQuestIds": [
+      70483
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of Sphene"
+    ],
+    "NextQuestIds": [
+      70485
+    ],
+    "NextQuestTitles": [
+      "Those Who Live Forever"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 890
+  },
+  {
+    "QuestId": 70485,
+    "QuestTitle": "Those Who Live Forever",
+    "PreviousQuestIds": [
+      70484
+    ],
+    "PreviousQuestTitles": [
+      "Through the Gate of Gold"
+    ],
+    "NextQuestIds": [
+      70486
+    ],
+    "NextQuestTitles": [
+      "In Serenity and Sorrow"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 900
+  },
+  {
+    "QuestId": 70486,
+    "QuestTitle": "In Serenity and Sorrow",
+    "PreviousQuestIds": [
+      70485
+    ],
+    "PreviousQuestTitles": [
+      "Those Who Live Forever"
+    ],
+    "NextQuestIds": [
+      70487
+    ],
+    "NextQuestTitles": [
+      "The Land of Dreams"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 910
+  },
+  {
+    "QuestId": 70487,
+    "QuestTitle": "The Land of Dreams",
+    "PreviousQuestIds": [
+      70486
+    ],
+    "PreviousQuestTitles": [
+      "In Serenity and Sorrow"
+    ],
+    "NextQuestIds": [
+      70488
+    ],
+    "NextQuestTitles": [
+      "A Knight of Alexandria"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 920
+  },
+  {
+    "QuestId": 70488,
+    "QuestTitle": "A Knight of Alexandria",
+    "PreviousQuestIds": [
+      70487
+    ],
+    "PreviousQuestTitles": [
+      "The Land of Dreams"
+    ],
+    "NextQuestIds": [
+      70489
+    ],
+    "NextQuestTitles": [
+      "The Sanctuary of the Strong"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 930
+  },
+  {
+    "QuestId": 70489,
+    "QuestTitle": "The Sanctuary of the Strong",
+    "PreviousQuestIds": [
+      70488
+    ],
+    "PreviousQuestTitles": [
+      "A Knight of Alexandria"
+    ],
+    "NextQuestIds": [
+      70490
+    ],
+    "NextQuestTitles": [
+      "The Taste of Family"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Krile",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 940
+  },
+  {
+    "QuestId": 70490,
+    "QuestTitle": "The Taste of Family",
+    "PreviousQuestIds": [
+      70489
+    ],
+    "PreviousQuestTitles": [
+      "The Sanctuary of the Strong"
+    ],
+    "NextQuestIds": [
+      70491
+    ],
+    "NextQuestTitles": [
+      "Leafing through the Past"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Krile",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 950
+  },
+  {
+    "QuestId": 70491,
+    "QuestTitle": "Leafing through the Past",
+    "PreviousQuestIds": [
+      70490
+    ],
+    "PreviousQuestTitles": [
+      "The Taste of Family"
+    ],
+    "NextQuestIds": [
+      70492
+    ],
+    "NextQuestTitles": [
+      "An Explorer\u0027s Delight"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 960
+  },
+  {
+    "QuestId": 70492,
+    "QuestTitle": "An Explorer\u0027s Delight",
+    "PreviousQuestIds": [
+      70491
+    ],
+    "PreviousQuestTitles": [
+      "Leafing through the Past"
+    ],
+    "NextQuestIds": [
+      70493
+    ],
+    "NextQuestTitles": [
+      "In Search of Discovery"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Cahciua",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 970
+  },
+  {
+    "QuestId": 70493,
+    "QuestTitle": "In Search of Discovery",
+    "PreviousQuestIds": [
+      70492
+    ],
+    "PreviousQuestTitles": [
+      "An Explorer\u0027s Delight"
+    ],
+    "NextQuestIds": [
+      70494
+    ],
+    "NextQuestTitles": [
+      "A Journey Never-ending"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Cahciua",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 980
+  },
+  {
+    "QuestId": 70494,
+    "QuestTitle": "A Journey Never-ending",
+    "PreviousQuestIds": [
+      70493
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Discovery"
+    ],
+    "NextQuestIds": [
+      70495
+    ],
+    "NextQuestTitles": [
+      "Dawntrail"
+    ],
+    "StarterNpc": "Cahciua",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 990
+  },
+  {
+    "QuestId": 70495,
+    "QuestTitle": "Dawntrail",
+    "PreviousQuestIds": [
+      70494
+    ],
+    "PreviousQuestTitles": [
+      "A Journey Never-ending"
+    ],
+    "NextQuestIds": [
+      70780
+    ],
+    "NextQuestTitles": [
+      "A Royal Invitation"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 13,
+      "JournalCategory": {
+        "Id": 13,
+        "Name": "Dawntrail Main Scenario Quests"
+      },
+      "Name": "Dawntrail"
+    },
+    "SortKey": 1000
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestId": 67692,
+    "QuestTitle": "An Uncertain Future",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      67693
+    ],
+    "NextQuestTitles": [
+      "Breaking the Cycle"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lucia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 1
+  },
+  {
+    "QuestId": 67693,
+    "QuestTitle": "Breaking the Cycle",
+    "PreviousQuestIds": [
+      67692
+    ],
+    "PreviousQuestTitles": [
+      "An Uncertain Future"
+    ],
+    "NextQuestIds": [
+      67694
+    ],
+    "NextQuestTitles": [
+      "Another Time, Another Place"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 2
+  },
+  {
+    "QuestId": 67694,
+    "QuestTitle": "Another Time, Another Place",
+    "PreviousQuestIds": [
+      67693
+    ],
+    "PreviousQuestTitles": [
+      "Breaking the Cycle"
+    ],
+    "NextQuestIds": [
+      67695
+    ],
+    "NextQuestTitles": [
+      "In the Eye of the Beholder"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Krile",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 3
+  },
+  {
+    "QuestId": 67695,
+    "QuestTitle": "In the Eye of the Beholder",
+    "PreviousQuestIds": [
+      67694
+    ],
+    "PreviousQuestTitles": [
+      "Another Time, Another Place"
+    ],
+    "NextQuestIds": [
+      67696
+    ],
+    "NextQuestTitles": [
+      "A Little Slow, a Little Late"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 4
+  },
+  {
+    "QuestId": 67696,
+    "QuestTitle": "A Little Slow, a Little Late",
+    "PreviousQuestIds": [
+      67695
+    ],
+    "PreviousQuestTitles": [
+      "In the Eye of the Beholder"
+    ],
+    "NextQuestIds": [
+      67697
+    ],
+    "NextQuestTitles": [
+      "Dreams of the Lost"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Thancred",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 5
+  },
+  {
+    "QuestId": 67697,
+    "QuestTitle": "Dreams of the Lost",
+    "PreviousQuestIds": [
+      67696
+    ],
+    "PreviousQuestTitles": [
+      "A Little Slow, a Little Late"
+    ],
+    "NextQuestIds": [
+      67698
+    ],
+    "NextQuestTitles": [
+      "Against the Dying of the Light"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lucia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 6
+  },
+  {
+    "QuestId": 67698,
+    "QuestTitle": "Against the Dying of the Light",
+    "PreviousQuestIds": [
+      67697
+    ],
+    "PreviousQuestTitles": [
+      "Dreams of the Lost"
+    ],
+    "NextQuestIds": [
+      67699
+    ],
+    "NextQuestTitles": [
+      "As Goes Light, So Goes Darkness"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Lucia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 7
+  },
+  {
+    "QuestId": 67699,
+    "QuestTitle": "As Goes Light, So Goes Darkness",
+    "PreviousQuestIds": [
+      67698
+    ],
+    "PreviousQuestTitles": [
+      "Against the Dying of the Light"
+    ],
+    "NextQuestIds": [
+      67767
+    ],
+    "NextQuestTitles": [
+      "As It Once Was"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 8
+  },
+  {
+    "QuestId": 67767,
+    "QuestTitle": "As It Once Was",
+    "PreviousQuestIds": [
+      67699
+    ],
+    "PreviousQuestTitles": [
+      "As Goes Light, So Goes Darkness"
+    ],
+    "NextQuestIds": [
+      67768
+    ],
+    "NextQuestTitles": [
+      "The Word of the Mother"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Tataru",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 9
+  },
+  {
+    "QuestId": 67768,
+    "QuestTitle": "The Word of the Mother",
+    "PreviousQuestIds": [
+      67767
+    ],
+    "PreviousQuestTitles": [
+      "As It Once Was"
+    ],
+    "NextQuestIds": [
+      67769
+    ],
+    "NextQuestTitles": [
+      "This War of Ours"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 67769,
+    "QuestTitle": "This War of Ours",
+    "PreviousQuestIds": [
+      67768
+    ],
+    "PreviousQuestTitles": [
+      "The Word of the Mother"
+    ],
+    "NextQuestIds": [
+      67770
+    ],
+    "NextQuestTitles": [
+      "Staunch Conviction"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lucia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 11
+  },
+  {
+    "QuestId": 67770,
+    "QuestTitle": "Staunch Conviction",
+    "PreviousQuestIds": [
+      67769
+    ],
+    "PreviousQuestTitles": [
+      "This War of Ours"
+    ],
+    "NextQuestIds": [
+      67771
+    ],
+    "NextQuestTitles": [
+      "Once More, a Favor"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Artoirel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 12
+  },
+  {
+    "QuestId": 67771,
+    "QuestTitle": "Once More, a Favor",
+    "PreviousQuestIds": [
+      67770
+    ],
+    "PreviousQuestTitles": [
+      "Staunch Conviction"
+    ],
+    "NextQuestIds": [
+      67772
+    ],
+    "NextQuestTitles": [
+      "For Those We Have Lost"
+    ],
+    "StarterNpc": "Emmanellain",
+    "FinishNpc": "Emmanellain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 13
+  },
+  {
+    "QuestId": 67772,
+    "QuestTitle": "For Those We Have Lost",
+    "PreviousQuestIds": [
+      67771
+    ],
+    "PreviousQuestTitles": [
+      "Once More, a Favor"
+    ],
+    "NextQuestIds": [
+      67773
+    ],
+    "NextQuestTitles": [
+      "Consequences"
+    ],
+    "StarterNpc": "Emmanellain",
+    "FinishNpc": "Thancred",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 14
+  },
+  {
+    "QuestId": 67773,
+    "QuestTitle": "Consequences",
+    "PreviousQuestIds": [
+      67772
+    ],
+    "PreviousQuestTitles": [
+      "For Those We Have Lost"
+    ],
+    "NextQuestIds": [
+      67774
+    ],
+    "NextQuestTitles": [
+      "Choices"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 15
+  },
+  {
+    "QuestId": 67774,
+    "QuestTitle": "Choices",
+    "PreviousQuestIds": [
+      67773
+    ],
+    "PreviousQuestTitles": [
+      "Consequences"
+    ],
+    "NextQuestIds": [
+      67775
+    ],
+    "NextQuestTitles": [
+      "A Spectacle for the Ages"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 16
+  },
+  {
+    "QuestId": 67775,
+    "QuestTitle": "A Spectacle for the Ages",
+    "PreviousQuestIds": [
+      67774
+    ],
+    "PreviousQuestTitles": [
+      "Choices"
+    ],
+    "NextQuestIds": [
+      67776
+    ],
+    "NextQuestTitles": [
+      "For Those We Can Yet Save"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Thancred",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 17
+  },
+  {
+    "QuestId": 67776,
+    "QuestTitle": "For Those We Can Yet Save",
+    "PreviousQuestIds": [
+      67775
+    ],
+    "PreviousQuestTitles": [
+      "A Spectacle for the Ages"
+    ],
+    "NextQuestIds": [
+      67777
+    ],
+    "NextQuestTitles": [
+      "Causes and Costs"
+    ],
+    "StarterNpc": "Aymeric",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 18
+  },
+  {
+    "QuestId": 67777,
+    "QuestTitle": "Causes and Costs",
+    "PreviousQuestIds": [
+      67776
+    ],
+    "PreviousQuestTitles": [
+      "For Those We Can Yet Save"
+    ],
+    "NextQuestIds": [
+      67778
+    ],
+    "NextQuestTitles": [
+      "The Man Within"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 19
+  },
+  {
+    "QuestId": 67778,
+    "QuestTitle": "The Man Within",
+    "PreviousQuestIds": [
+      67777
+    ],
+    "PreviousQuestTitles": [
+      "Causes and Costs"
+    ],
+    "NextQuestIds": [
+      67779
+    ],
+    "NextQuestTitles": [
+      "An Ally for Ishgard"
+    ],
+    "StarterNpc": "House Fortemps knight",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 67779,
+    "QuestTitle": "An Ally for Ishgard",
+    "PreviousQuestIds": [
+      67778
+    ],
+    "PreviousQuestTitles": [
+      "The Man Within"
+    ],
+    "NextQuestIds": [
+      67780
+    ],
+    "NextQuestTitles": [
+      "Winning Over the Wyrm"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Vidofnir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 21
+  },
+  {
+    "QuestId": 67780,
+    "QuestTitle": "Winning Over the Wyrm",
+    "PreviousQuestIds": [
+      67779
+    ],
+    "PreviousQuestTitles": [
+      "An Ally for Ishgard"
+    ],
+    "NextQuestIds": [
+      67781
+    ],
+    "NextQuestTitles": [
+      "An End to the Song"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 22
+  },
+  {
+    "QuestId": 67781,
+    "QuestTitle": "An End to the Song",
+    "PreviousQuestIds": [
+      67780
+    ],
+    "PreviousQuestTitles": [
+      "Winning Over the Wyrm"
+    ],
+    "NextQuestIds": [
+      67782
+    ],
+    "NextQuestTitles": [
+      "Heroes of the Hour"
+    ],
+    "StarterNpc": "Aymeric",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 23
+  },
+  {
+    "QuestId": 67782,
+    "QuestTitle": "Heroes of the Hour",
+    "PreviousQuestIds": [
+      67781
+    ],
+    "PreviousQuestTitles": [
+      "An End to the Song"
+    ],
+    "NextQuestIds": [
+      67783
+    ],
+    "NextQuestTitles": [
+      "Litany of Peace"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Aymeric",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 24
+  },
+  {
+    "QuestId": 67783,
+    "QuestTitle": "Litany of Peace",
+    "PreviousQuestIds": [
+      67782
+    ],
+    "PreviousQuestTitles": [
+      "Heroes of the Hour"
+    ],
+    "NextQuestIds": [
+      67877
+    ],
+    "NextQuestTitles": [
+      "Promises Kept"
+    ],
+    "StarterNpc": "Aymeric",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 4,
+      "JournalCategory": {
+        "Id": 4,
+        "Name": "Dragonsong Main Scenario Quests"
+      },
+      "Name": "Dragonsong War"
+    },
+    "SortKey": 25
+  }
+]

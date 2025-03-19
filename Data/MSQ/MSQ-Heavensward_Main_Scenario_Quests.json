@@ -1,0 +1,2646 @@
+[
+  {
+    "QuestId": 67116,
+    "QuestTitle": "Coming to Ishgard",
+    "PreviousQuestIds": [
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67117
+    ],
+    "NextQuestTitles": [
+      "Taking in the Sights"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Haurchefant",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 1
+  },
+  {
+    "QuestId": 67117,
+    "QuestTitle": "Taking in the Sights",
+    "PreviousQuestIds": [
+      67116
+    ],
+    "PreviousQuestTitles": [
+      "Coming to Ishgard"
+    ],
+    "NextQuestIds": [
+      67118
+    ],
+    "NextQuestTitles": [
+      "The Better Half"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "House Fortemps manservant",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 2
+  },
+  {
+    "QuestId": 67118,
+    "QuestTitle": "The Better Half",
+    "PreviousQuestIds": [
+      67117
+    ],
+    "PreviousQuestTitles": [
+      "Taking in the Sights"
+    ],
+    "NextQuestIds": [
+      67119,
+      67126
+    ],
+    "NextQuestTitles": [
+      "Over the Wall",
+      "Onwards and Upwards"
+    ],
+    "StarterNpc": "House Fortemps manservant",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 3
+  },
+  {
+    "QuestId": 67119,
+    "QuestTitle": "Over the Wall",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [
+      67120
+    ],
+    "NextQuestTitles": [
+      "Work in Progress"
+    ],
+    "StarterNpc": "Artoirel",
+    "FinishNpc": "Redwald",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 4
+  },
+  {
+    "QuestId": 67120,
+    "QuestTitle": "Work in Progress",
+    "PreviousQuestIds": [
+      67119
+    ],
+    "PreviousQuestTitles": [
+      "Over the Wall"
+    ],
+    "NextQuestIds": [
+      67121
+    ],
+    "NextQuestTitles": [
+      "The First and Foremost"
+    ],
+    "StarterNpc": "Redwald",
+    "FinishNpc": "Rothe",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 5
+  },
+  {
+    "QuestId": 67121,
+    "QuestTitle": "The First and Foremost",
+    "PreviousQuestIds": [
+      67120
+    ],
+    "PreviousQuestTitles": [
+      "Work in Progress"
+    ],
+    "NextQuestIds": [
+      67122
+    ],
+    "NextQuestTitles": [
+      "From on High"
+    ],
+    "StarterNpc": "Rothe",
+    "FinishNpc": "Thierremont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 6
+  },
+  {
+    "QuestId": 67122,
+    "QuestTitle": "From on High",
+    "PreviousQuestIds": [
+      67121
+    ],
+    "PreviousQuestTitles": [
+      "The First and Foremost"
+    ],
+    "NextQuestIds": [
+      67123
+    ],
+    "NextQuestTitles": [
+      "Reconnaissance Lost"
+    ],
+    "StarterNpc": "Thierremont",
+    "FinishNpc": "Redwald",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 7
+  },
+  {
+    "QuestId": 67123,
+    "QuestTitle": "Reconnaissance Lost",
+    "PreviousQuestIds": [
+      67122
+    ],
+    "PreviousQuestTitles": [
+      "From on High"
+    ],
+    "NextQuestIds": [
+      67124
+    ],
+    "NextQuestTitles": [
+      "At the End of Our Hope"
+    ],
+    "StarterNpc": "Redwald",
+    "FinishNpc": "reconnaissance party knight",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 8
+  },
+  {
+    "QuestId": 67124,
+    "QuestTitle": "At the End of Our Hope",
+    "PreviousQuestIds": [
+      67123
+    ],
+    "PreviousQuestTitles": [
+      "Reconnaissance Lost"
+    ],
+    "NextQuestIds": [
+      67125
+    ],
+    "NextQuestTitles": [
+      "Knights Be Not Proud"
+    ],
+    "StarterNpc": "Artoirel",
+    "FinishNpc": "Artoirel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 9
+  },
+  {
+    "QuestId": 67125,
+    "QuestTitle": "Knights Be Not Proud",
+    "PreviousQuestIds": [
+      67124
+    ],
+    "PreviousQuestTitles": [
+      "At the End of Our Hope"
+    ],
+    "NextQuestIds": [
+      67133
+    ],
+    "NextQuestTitles": [
+      "Divine Intervention"
+    ],
+    "StarterNpc": "Artoirel",
+    "FinishNpc": "Artoirel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 67126,
+    "QuestTitle": "Onwards and Upwards",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [
+      67127
+    ],
+    "NextQuestTitles": [
+      "An Indispensable Ally"
+    ],
+    "StarterNpc": "Emmanellain",
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 11
+  },
+  {
+    "QuestId": 67127,
+    "QuestTitle": "An Indispensable Ally",
+    "PreviousQuestIds": [
+      67126
+    ],
+    "PreviousQuestTitles": [
+      "Onwards and Upwards"
+    ],
+    "NextQuestIds": [
+      67128
+    ],
+    "NextQuestTitles": [
+      "Meeting the Neighbors"
+    ],
+    "StarterNpc": "Laniaitte",
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 12
+  },
+  {
+    "QuestId": 67128,
+    "QuestTitle": "Meeting the Neighbors",
+    "PreviousQuestIds": [
+      67127
+    ],
+    "PreviousQuestTitles": [
+      "An Indispensable Ally"
+    ],
+    "NextQuestIds": [
+      67129
+    ],
+    "NextQuestTitles": [
+      "Sense of Urgency"
+    ],
+    "StarterNpc": "Laniaitte",
+    "FinishNpc": "Marielle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 13
+  },
+  {
+    "QuestId": 67129,
+    "QuestTitle": "Sense of Urgency",
+    "PreviousQuestIds": [
+      67128
+    ],
+    "PreviousQuestTitles": [
+      "Meeting the Neighbors"
+    ],
+    "NextQuestIds": [
+      67130
+    ],
+    "NextQuestTitles": [
+      "Hope Springs Eternal"
+    ],
+    "StarterNpc": "Marielle",
+    "FinishNpc": "Marielle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 14
+  },
+  {
+    "QuestId": 67130,
+    "QuestTitle": "Hope Springs Eternal",
+    "PreviousQuestIds": [
+      67129
+    ],
+    "PreviousQuestTitles": [
+      "Sense of Urgency"
+    ],
+    "NextQuestIds": [
+      67131
+    ],
+    "NextQuestTitles": [
+      "A Series of Unfortunate Events"
+    ],
+    "StarterNpc": "Marielle",
+    "FinishNpc": "Honoroit",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 15
+  },
+  {
+    "QuestId": 67131,
+    "QuestTitle": "A Series of Unfortunate Events",
+    "PreviousQuestIds": [
+      67130
+    ],
+    "PreviousQuestTitles": [
+      "Hope Springs Eternal"
+    ],
+    "NextQuestIds": [
+      67132
+    ],
+    "NextQuestTitles": [
+      "A Reward Long in Coming"
+    ],
+    "StarterNpc": "Honoroit",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 16
+  },
+  {
+    "QuestId": 67132,
+    "QuestTitle": "A Reward Long in Coming",
+    "PreviousQuestIds": [
+      67131
+    ],
+    "PreviousQuestTitles": [
+      "A Series of Unfortunate Events"
+    ],
+    "NextQuestIds": [
+      67133
+    ],
+    "NextQuestTitles": [
+      "Divine Intervention"
+    ],
+    "StarterNpc": "Emmanellain",
+    "FinishNpc": "Emmanellain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 17
+  },
+  {
+    "QuestId": 67133,
+    "QuestTitle": "Divine Intervention",
+    "PreviousQuestIds": [
+      67125,
+      67132
+    ],
+    "PreviousQuestTitles": [
+      "Knights Be Not Proud",
+      "A Reward Long in Coming"
+    ],
+    "NextQuestIds": [
+      67134
+    ],
+    "NextQuestTitles": [
+      "Disclosure"
+    ],
+    "StarterNpc": "House Fortemps steward",
+    "FinishNpc": "Haurchefant",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 18
+  },
+  {
+    "QuestId": 67134,
+    "QuestTitle": "Disclosure",
+    "PreviousQuestIds": [
+      67133
+    ],
+    "PreviousQuestTitles": [
+      "Divine Intervention"
+    ],
+    "NextQuestIds": [
+      67135
+    ],
+    "NextQuestTitles": [
+      "Flame General Affairs"
+    ],
+    "StarterNpc": "Haurchefant",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 19
+  },
+  {
+    "QuestId": 67135,
+    "QuestTitle": "Flame General Affairs",
+    "PreviousQuestIds": [
+      67134
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure"
+    ],
+    "NextQuestIds": [
+      67136
+    ],
+    "NextQuestTitles": [
+      "In Search of Raubahn"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Higiri",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 67136,
+    "QuestTitle": "In Search of Raubahn",
+    "PreviousQuestIds": [
+      67135
+    ],
+    "PreviousQuestTitles": [
+      "Flame General Affairs"
+    ],
+    "NextQuestIds": [
+      67137
+    ],
+    "NextQuestTitles": [
+      "Keeping the Flame Alive"
+    ],
+    "StarterNpc": "Higiri",
+    "FinishNpc": "Hozan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 21
+  },
+  {
+    "QuestId": 67137,
+    "QuestTitle": "Keeping the Flame Alive",
+    "PreviousQuestIds": [
+      67136
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Raubahn"
+    ],
+    "NextQuestIds": [
+      67138
+    ],
+    "NextQuestTitles": [
+      "To Siege or Not to Siege"
+    ],
+    "StarterNpc": "Hozan",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 22
+  },
+  {
+    "QuestId": 67138,
+    "QuestTitle": "To Siege or Not to Siege",
+    "PreviousQuestIds": [
+      67137
+    ],
+    "PreviousQuestTitles": [
+      "Keeping the Flame Alive"
+    ],
+    "NextQuestIds": [
+      67139
+    ],
+    "NextQuestTitles": [
+      "Alphinaud\u0027s Way"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 23
+  },
+  {
+    "QuestId": 67139,
+    "QuestTitle": "Alphinaud\u0027s Way",
+    "PreviousQuestIds": [
+      67138
+    ],
+    "PreviousQuestTitles": [
+      "To Siege or Not to Siege"
+    ],
+    "NextQuestIds": [
+      67140
+    ],
+    "NextQuestTitles": [
+      "In Search of Iceheart"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 24
+  },
+  {
+    "QuestId": 67140,
+    "QuestTitle": "In Search of Iceheart",
+    "PreviousQuestIds": [
+      67139
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way"
+    ],
+    "NextQuestIds": [
+      67141
+    ],
+    "NextQuestTitles": [
+      "From One Heretic to Another"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "expedition leader",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 25
+  },
+  {
+    "QuestId": 67141,
+    "QuestTitle": "From One Heretic to Another",
+    "PreviousQuestIds": [
+      67140
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Iceheart"
+    ],
+    "NextQuestIds": [
+      67142
+    ],
+    "NextQuestTitles": [
+      "Sounding Out the Amphitheatre"
+    ],
+    "StarterNpc": "expedition leader",
+    "FinishNpc": "expedition leader",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 26
+  },
+  {
+    "QuestId": 67142,
+    "QuestTitle": "Sounding Out the Amphitheatre",
+    "PreviousQuestIds": [
+      67141
+    ],
+    "PreviousQuestTitles": [
+      "From One Heretic to Another"
+    ],
+    "NextQuestIds": [
+      67143
+    ],
+    "NextQuestTitles": [
+      "Camp of the Convictors"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Jantellot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 27
+  },
+  {
+    "QuestId": 67143,
+    "QuestTitle": "Camp of the Convictors",
+    "PreviousQuestIds": [
+      67142
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre"
+    ],
+    "NextQuestIds": [
+      67144
+    ],
+    "NextQuestTitles": [
+      "Purple Flame, Purple Flame"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Pierriquet",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 28
+  },
+  {
+    "QuestId": 67144,
+    "QuestTitle": "Purple Flame, Purple Flame",
+    "PreviousQuestIds": [
+      67143
+    ],
+    "PreviousQuestTitles": [
+      "Camp of the Convictors"
+    ],
+    "NextQuestIds": [
+      67145
+    ],
+    "NextQuestTitles": [
+      "Where the Chocobos Roam"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Estinien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 29
+  },
+  {
+    "QuestId": 67145,
+    "QuestTitle": "Where the Chocobos Roam",
+    "PreviousQuestIds": [
+      67144
+    ],
+    "PreviousQuestTitles": [
+      "Purple Flame, Purple Flame"
+    ],
+    "NextQuestIds": [
+      67146
+    ],
+    "NextQuestTitles": [
+      "Worse than Dragons"
+    ],
+    "StarterNpc": "Ysayle",
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 30
+  },
+  {
+    "QuestId": 67146,
+    "QuestTitle": "Worse than Dragons",
+    "PreviousQuestIds": [
+      67145
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam"
+    ],
+    "NextQuestIds": [
+      67147
+    ],
+    "NextQuestTitles": [
+      "The Trine Towers"
+    ],
+    "StarterNpc": "Marcechamp",
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 31
+  },
+  {
+    "QuestId": 67147,
+    "QuestTitle": "The Trine Towers",
+    "PreviousQuestIds": [
+      67146
+    ],
+    "PreviousQuestTitles": [
+      "Worse than Dragons"
+    ],
+    "NextQuestIds": [
+      67148
+    ],
+    "NextQuestTitles": [
+      "Gifts for the Outcasts"
+    ],
+    "StarterNpc": "Ysayle",
+    "FinishNpc": "Ysayle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 32
+  },
+  {
+    "QuestId": 67148,
+    "QuestTitle": "Gifts for the Outcasts",
+    "PreviousQuestIds": [
+      67147
+    ],
+    "PreviousQuestTitles": [
+      "The Trine Towers"
+    ],
+    "NextQuestIds": [
+      67149
+    ],
+    "NextQuestTitles": [
+      "The Nonmind"
+    ],
+    "StarterNpc": "Ysayle",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 33
+  },
+  {
+    "QuestId": 67149,
+    "QuestTitle": "The Nonmind",
+    "PreviousQuestIds": [
+      67148
+    ],
+    "PreviousQuestTitles": [
+      "Gifts for the Outcasts"
+    ],
+    "NextQuestIds": [
+      67150
+    ],
+    "NextQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Vath storyteller",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 34
+  },
+  {
+    "QuestId": 67150,
+    "QuestTitle": "A Gnathic Deity",
+    "PreviousQuestIds": [
+      67149
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind"
+    ],
+    "NextQuestIds": [
+      67151
+    ],
+    "NextQuestTitles": [
+      "Breaking into Hives"
+    ],
+    "StarterNpc": "Ysayle",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 35
+  },
+  {
+    "QuestId": 67151,
+    "QuestTitle": "Breaking into Hives",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [
+      67152
+    ],
+    "NextQuestTitles": [
+      "Lord of the Hive"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 36
+  },
+  {
+    "QuestId": 67152,
+    "QuestTitle": "Lord of the Hive",
+    "PreviousQuestIds": [
+      67151
+    ],
+    "PreviousQuestTitles": [
+      "Breaking into Hives"
+    ],
+    "NextQuestIds": [
+      67153
+    ],
+    "NextQuestTitles": [
+      "Mourn in Passing"
+    ],
+    "StarterNpc": "Ysayle",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 37
+  },
+  {
+    "QuestId": 67153,
+    "QuestTitle": "Mourn in Passing",
+    "PreviousQuestIds": [
+      67152
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive"
+    ],
+    "NextQuestIds": [
+      67154
+    ],
+    "NextQuestTitles": [
+      "Beyond the Clouds"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 38
+  },
+  {
+    "QuestId": 67154,
+    "QuestTitle": "Beyond the Clouds",
+    "PreviousQuestIds": [
+      67153
+    ],
+    "PreviousQuestTitles": [
+      "Mourn in Passing"
+    ],
+    "NextQuestIds": [
+      67155
+    ],
+    "NextQuestTitles": [
+      "Mountaintop Diplomacy"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 39
+  },
+  {
+    "QuestId": 67155,
+    "QuestTitle": "Mountaintop Diplomacy",
+    "PreviousQuestIds": [
+      67154
+    ],
+    "PreviousQuestTitles": [
+      "Beyond the Clouds"
+    ],
+    "NextQuestIds": [
+      67156,
+      67157,
+      67158
+    ],
+    "NextQuestTitles": [
+      "Moghan\u0027s Trial",
+      "Mogmug\u0027s Trial",
+      "Mogwin\u0027s Trial"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Moglin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 40
+  },
+  {
+    "QuestId": 67156,
+    "QuestTitle": "Moghan\u0027s Trial",
+    "PreviousQuestIds": [
+      67155
+    ],
+    "PreviousQuestTitles": [
+      "Mountaintop Diplomacy"
+    ],
+    "NextQuestIds": [
+      67159
+    ],
+    "NextQuestTitles": [
+      "Moglin\u0027s Judgment"
+    ],
+    "StarterNpc": "Moghan",
+    "FinishNpc": "Moghan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 41
+  },
+  {
+    "QuestId": 67157,
+    "QuestTitle": "Mogmug\u0027s Trial",
+    "PreviousQuestIds": [
+      67155
+    ],
+    "PreviousQuestTitles": [
+      "Mountaintop Diplomacy"
+    ],
+    "NextQuestIds": [
+      67159
+    ],
+    "NextQuestTitles": [
+      "Moglin\u0027s Judgment"
+    ],
+    "StarterNpc": "Mogmug",
+    "FinishNpc": "Mogmug",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 42
+  },
+  {
+    "QuestId": 67158,
+    "QuestTitle": "Mogwin\u0027s Trial",
+    "PreviousQuestIds": [
+      67155
+    ],
+    "PreviousQuestTitles": [
+      "Mountaintop Diplomacy"
+    ],
+    "NextQuestIds": [
+      67159
+    ],
+    "NextQuestTitles": [
+      "Moglin\u0027s Judgment"
+    ],
+    "StarterNpc": "Mogwin",
+    "FinishNpc": "Mogwin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 43
+  },
+  {
+    "QuestId": 67159,
+    "QuestTitle": "Moglin\u0027s Judgment",
+    "PreviousQuestIds": [
+      67156,
+      67157,
+      67158
+    ],
+    "PreviousQuestTitles": [
+      "Moghan\u0027s Trial",
+      "Mogmug\u0027s Trial",
+      "Mogwin\u0027s Trial"
+    ],
+    "NextQuestIds": [
+      67160
+    ],
+    "NextQuestTitles": [
+      "Leaving Moghome"
+    ],
+    "StarterNpc": "Moglin",
+    "FinishNpc": "Moghan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 44
+  },
+  {
+    "QuestId": 67160,
+    "QuestTitle": "Leaving Moghome",
+    "PreviousQuestIds": [
+      67159
+    ],
+    "PreviousQuestTitles": [
+      "Moglin\u0027s Judgment"
+    ],
+    "NextQuestIds": [
+      67161
+    ],
+    "NextQuestTitles": [
+      "The Road to Zenith"
+    ],
+    "StarterNpc": "Moghan",
+    "FinishNpc": "Moghan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 45
+  },
+  {
+    "QuestId": 67161,
+    "QuestTitle": "The Road to Zenith",
+    "PreviousQuestIds": [
+      67160
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Moghome"
+    ],
+    "NextQuestIds": [
+      67162
+    ],
+    "NextQuestTitles": [
+      "Waiting for the Wind to Change"
+    ],
+    "StarterNpc": "Moghan",
+    "FinishNpc": "Moghan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 46
+  },
+  {
+    "QuestId": 67162,
+    "QuestTitle": "Waiting for the Wind to Change",
+    "PreviousQuestIds": [
+      67161
+    ],
+    "PreviousQuestTitles": [
+      "The Road to Zenith"
+    ],
+    "NextQuestIds": [
+      67163
+    ],
+    "NextQuestTitles": [
+      "Heart of Ice"
+    ],
+    "StarterNpc": "Moghan",
+    "FinishNpc": "Estinien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 47
+  },
+  {
+    "QuestId": 67163,
+    "QuestTitle": "Heart of Ice",
+    "PreviousQuestIds": [
+      67162
+    ],
+    "PreviousQuestTitles": [
+      "Waiting for the Wind to Change"
+    ],
+    "NextQuestIds": [
+      67164
+    ],
+    "NextQuestTitles": [
+      "The Wyrm\u0027s Lair"
+    ],
+    "StarterNpc": "Moghan",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 48
+  },
+  {
+    "QuestId": 67164,
+    "QuestTitle": "The Wyrm\u0027s Lair",
+    "PreviousQuestIds": [
+      67163
+    ],
+    "PreviousQuestTitles": [
+      "Heart of Ice"
+    ],
+    "NextQuestIds": [
+      67165
+    ],
+    "NextQuestTitles": [
+      "New Winds, Old Friends"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Estinien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 49
+  },
+  {
+    "QuestId": 67165,
+    "QuestTitle": "New Winds, Old Friends",
+    "PreviousQuestIds": [
+      67164
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Lair"
+    ],
+    "NextQuestIds": [
+      67166
+    ],
+    "NextQuestTitles": [
+      "A General Summons"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 50
+  },
+  {
+    "QuestId": 67166,
+    "QuestTitle": "A General Summons",
+    "PreviousQuestIds": [
+      67165
+    ],
+    "PreviousQuestTitles": [
+      "New Winds, Old Friends"
+    ],
+    "NextQuestIds": [
+      67167
+    ],
+    "NextQuestTitles": [
+      "Awakening in Ul\u0027dah"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 51
+  },
+  {
+    "QuestId": 67167,
+    "QuestTitle": "Awakening in Ul\u0027dah",
+    "PreviousQuestIds": [
+      67166
+    ],
+    "PreviousQuestTitles": [
+      "A General Summons"
+    ],
+    "NextQuestIds": [
+      67168
+    ],
+    "NextQuestTitles": [
+      "A Brave Resolution"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 52
+  },
+  {
+    "QuestId": 67168,
+    "QuestTitle": "A Brave Resolution",
+    "PreviousQuestIds": [
+      67167
+    ],
+    "PreviousQuestTitles": [
+      "Awakening in Ul\u0027dah"
+    ],
+    "NextQuestIds": [
+      67169
+    ],
+    "NextQuestTitles": [
+      "Ready to Fly"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 53
+  },
+  {
+    "QuestId": 67169,
+    "QuestTitle": "Ready to Fly",
+    "PreviousQuestIds": [
+      67168
+    ],
+    "PreviousQuestTitles": [
+      "A Brave Resolution"
+    ],
+    "NextQuestIds": [
+      67170
+    ],
+    "NextQuestTitles": [
+      "Into the Aery"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Estinien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 54
+  },
+  {
+    "QuestId": 67170,
+    "QuestTitle": "Into the Aery",
+    "PreviousQuestIds": [
+      67169
+    ],
+    "PreviousQuestTitles": [
+      "Ready to Fly"
+    ],
+    "NextQuestIds": [
+      67171
+    ],
+    "NextQuestTitles": [
+      "The Song Begins"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Estinien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 55
+  },
+  {
+    "QuestId": 67171,
+    "QuestTitle": "The Song Begins",
+    "PreviousQuestIds": [
+      67170
+    ],
+    "PreviousQuestTitles": [
+      "Into the Aery"
+    ],
+    "NextQuestIds": [
+      67172
+    ],
+    "NextQuestTitles": [
+      "Unrest in Ishgard"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Ysayle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 56
+  },
+  {
+    "QuestId": 67172,
+    "QuestTitle": "Unrest in Ishgard",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67173
+    ],
+    "NextQuestTitles": [
+      "He Who Would Not Be Denied"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Haurchefant",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 57
+  },
+  {
+    "QuestId": 67173,
+    "QuestTitle": "He Who Would Not Be Denied",
+    "PreviousQuestIds": [
+      67172
+    ],
+    "PreviousQuestTitles": [
+      "Unrest in Ishgard"
+    ],
+    "NextQuestIds": [
+      67174
+    ],
+    "NextQuestTitles": [
+      "Ill-weather Friends"
+    ],
+    "StarterNpc": "Haurchefant",
+    "FinishNpc": "Lucia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 58
+  },
+  {
+    "QuestId": 67174,
+    "QuestTitle": "Ill-weather Friends",
+    "PreviousQuestIds": [
+      67173
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied"
+    ],
+    "NextQuestIds": [
+      67529
+    ],
+    "NextQuestTitles": [
+      "The Spice of Life"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 59
+  },
+  {
+    "QuestId": 67175,
+    "QuestTitle": "Fire and Blood",
+    "PreviousQuestIds": [
+      67532
+    ],
+    "PreviousQuestTitles": [
+      "Bloodlines"
+    ],
+    "NextQuestIds": [
+      67176
+    ],
+    "NextQuestTitles": [
+      "A Knight\u0027s Calling"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Hilda",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 64
+  },
+  {
+    "QuestId": 67176,
+    "QuestTitle": "A Knight\u0027s Calling",
+    "PreviousQuestIds": [
+      67175
+    ],
+    "PreviousQuestTitles": [
+      "Fire and Blood"
+    ],
+    "NextQuestIds": [
+      67177
+    ],
+    "NextQuestTitles": [
+      "The Sins of Antiquity"
+    ],
+    "StarterNpc": "Hilda",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 65
+  },
+  {
+    "QuestId": 67177,
+    "QuestTitle": "The Sins of Antiquity",
+    "PreviousQuestIds": [
+      67176
+    ],
+    "PreviousQuestTitles": [
+      "A Knight\u0027s Calling"
+    ],
+    "NextQuestIds": [
+      67178
+    ],
+    "NextQuestTitles": [
+      "In Search of the Soleil"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Aymeric",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 66
+  },
+  {
+    "QuestId": 67178,
+    "QuestTitle": "In Search of the Soleil",
+    "PreviousQuestIds": [
+      67177
+    ],
+    "PreviousQuestTitles": [
+      "The Sins of Antiquity"
+    ],
+    "NextQuestIds": [
+      67179
+    ],
+    "NextQuestTitles": [
+      "Into the Blue"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 67
+  },
+  {
+    "QuestId": 67179,
+    "QuestTitle": "Into the Blue",
+    "PreviousQuestIds": [
+      67178
+    ],
+    "PreviousQuestTitles": [
+      "In Search of the Soleil"
+    ],
+    "NextQuestIds": [
+      67180
+    ],
+    "NextQuestTitles": [
+      "Familiar Faces"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 68
+  },
+  {
+    "QuestId": 67180,
+    "QuestTitle": "Familiar Faces",
+    "PreviousQuestIds": [
+      67179
+    ],
+    "PreviousQuestTitles": [
+      "Into the Blue"
+    ],
+    "NextQuestIds": [
+      67181
+    ],
+    "NextQuestTitles": [
+      "Devourer of Worlds"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lonu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 69
+  },
+  {
+    "QuestId": 67181,
+    "QuestTitle": "Devourer of Worlds",
+    "PreviousQuestIds": [
+      67180
+    ],
+    "PreviousQuestTitles": [
+      "Familiar Faces"
+    ],
+    "NextQuestIds": [
+      67182
+    ],
+    "NextQuestTitles": [
+      "Black and the White"
+    ],
+    "StarterNpc": "Lonu Vanu",
+    "FinishNpc": "Lonu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 70
+  },
+  {
+    "QuestId": 67182,
+    "QuestTitle": "Black and the White",
+    "PreviousQuestIds": [
+      67181
+    ],
+    "PreviousQuestTitles": [
+      "Devourer of Worlds"
+    ],
+    "NextQuestIds": [
+      67183
+    ],
+    "NextQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 71
+  },
+  {
+    "QuestId": 67183,
+    "QuestTitle": "Bolt, Chain, and Island",
+    "PreviousQuestIds": [
+      67182
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White"
+    ],
+    "NextQuestIds": [
+      67184
+    ],
+    "NextQuestTitles": [
+      "A Difference of Opinion"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 72
+  },
+  {
+    "QuestId": 67184,
+    "QuestTitle": "A Difference of Opinion",
+    "PreviousQuestIds": [
+      67183
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "NextQuestIds": [
+      67185
+    ],
+    "NextQuestTitles": [
+      "One Good Turn"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 73
+  },
+  {
+    "QuestId": 67185,
+    "QuestTitle": "One Good Turn",
+    "PreviousQuestIds": [
+      67184
+    ],
+    "PreviousQuestTitles": [
+      "A Difference of Opinion"
+    ],
+    "NextQuestIds": [
+      67186
+    ],
+    "NextQuestTitles": [
+      "An Engineering Enterprise"
+    ],
+    "StarterNpc": "Cid",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 74
+  },
+  {
+    "QuestId": 67186,
+    "QuestTitle": "An Engineering Enterprise",
+    "PreviousQuestIds": [
+      67185
+    ],
+    "PreviousQuestTitles": [
+      "One Good Turn"
+    ],
+    "NextQuestIds": [
+      67187
+    ],
+    "NextQuestTitles": [
+      "Aetherial Trail"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Tataru",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 75
+  },
+  {
+    "QuestId": 67187,
+    "QuestTitle": "Aetherial Trail",
+    "PreviousQuestIds": [
+      67186
+    ],
+    "PreviousQuestTitles": [
+      "An Engineering Enterprise"
+    ],
+    "NextQuestIds": [
+      67188
+    ],
+    "NextQuestTitles": [
+      "Lost in the Lifestream"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 76
+  },
+  {
+    "QuestId": 67188,
+    "QuestTitle": "Lost in the Lifestream",
+    "PreviousQuestIds": [
+      67187
+    ],
+    "PreviousQuestTitles": [
+      "Aetherial Trail"
+    ],
+    "NextQuestIds": [
+      67189
+    ],
+    "NextQuestTitles": [
+      "Tataru\u0027s Surprise"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Tataru",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 77
+  },
+  {
+    "QuestId": 67189,
+    "QuestTitle": "Tataru\u0027s Surprise",
+    "PreviousQuestIds": [
+      67188
+    ],
+    "PreviousQuestTitles": [
+      "Lost in the Lifestream"
+    ],
+    "NextQuestIds": [
+      67190
+    ],
+    "NextQuestTitles": [
+      "Onward to Sharlayan"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Tataru",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 78
+  },
+  {
+    "QuestId": 67190,
+    "QuestTitle": "Onward to Sharlayan",
+    "PreviousQuestIds": [
+      67189
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise"
+    ],
+    "NextQuestIds": [
+      67191
+    ],
+    "NextQuestTitles": [
+      "A Great New Nation"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 79
+  },
+  {
+    "QuestId": 67191,
+    "QuestTitle": "A Great New Nation",
+    "PreviousQuestIds": [
+      67190
+    ],
+    "PreviousQuestTitles": [
+      "Onward to Sharlayan"
+    ],
+    "NextQuestIds": [
+      67192
+    ],
+    "NextQuestTitles": [
+      "Golems Begone"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 80
+  },
+  {
+    "QuestId": 67192,
+    "QuestTitle": "Golems Begone",
+    "PreviousQuestIds": [
+      67191
+    ],
+    "PreviousQuestTitles": [
+      "A Great New Nation"
+    ],
+    "NextQuestIds": [
+      67193
+    ],
+    "NextQuestTitles": [
+      "An Illuminati Incident"
+    ],
+    "StarterNpc": "Slowfix",
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 81
+  },
+  {
+    "QuestId": 67193,
+    "QuestTitle": "An Illuminati Incident",
+    "PreviousQuestIds": [
+      67192
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone"
+    ],
+    "NextQuestIds": [
+      67194
+    ],
+    "NextQuestTitles": [
+      "Leaving Idyllshire"
+    ],
+    "StarterNpc": "Slowfix",
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 82
+  },
+  {
+    "QuestId": 67194,
+    "QuestTitle": "Leaving Idyllshire",
+    "PreviousQuestIds": [
+      67193
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident"
+    ],
+    "NextQuestIds": [
+      67195
+    ],
+    "NextQuestTitles": [
+      "Matoya\u0027s Cave"
+    ],
+    "StarterNpc": "Slowfix",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 83
+  },
+  {
+    "QuestId": 67195,
+    "QuestTitle": "Matoya\u0027s Cave",
+    "PreviousQuestIds": [
+      67194
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire"
+    ],
+    "NextQuestIds": [
+      67196
+    ],
+    "NextQuestTitles": [
+      "Forbidden Knowledge"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 84
+  },
+  {
+    "QuestId": 67196,
+    "QuestTitle": "Forbidden Knowledge",
+    "PreviousQuestIds": [
+      67195
+    ],
+    "PreviousQuestTitles": [
+      "Matoya\u0027s Cave"
+    ],
+    "NextQuestIds": [
+      67197
+    ],
+    "NextQuestTitles": [
+      "An Eye for Aether"
+    ],
+    "StarterNpc": "Matoya",
+    "FinishNpc": "Matoya",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 85
+  },
+  {
+    "QuestId": 67197,
+    "QuestTitle": "An Eye for Aether",
+    "PreviousQuestIds": [
+      67196
+    ],
+    "PreviousQuestTitles": [
+      "Forbidden Knowledge"
+    ],
+    "NextQuestIds": [
+      67198
+    ],
+    "NextQuestTitles": [
+      "Hour of Departure"
+    ],
+    "StarterNpc": "Matoya",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 86
+  },
+  {
+    "QuestId": 67198,
+    "QuestTitle": "Hour of Departure",
+    "PreviousQuestIds": [
+      67197
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether"
+    ],
+    "NextQuestIds": [
+      67199
+    ],
+    "NextQuestTitles": [
+      "The First Flight of the Excelsior"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 87
+  },
+  {
+    "QuestId": 67199,
+    "QuestTitle": "The First Flight of the Excelsior",
+    "PreviousQuestIds": [
+      67198
+    ],
+    "PreviousQuestTitles": [
+      "Hour of Departure"
+    ],
+    "NextQuestIds": [
+      67200
+    ],
+    "NextQuestTitles": [
+      "Systematic Exploration"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 88
+  },
+  {
+    "QuestId": 67200,
+    "QuestTitle": "Systematic Exploration",
+    "PreviousQuestIds": [
+      67199
+    ],
+    "PreviousQuestTitles": [
+      "The First Flight of the Excelsior"
+    ],
+    "NextQuestIds": [
+      67201
+    ],
+    "NextQuestTitles": [
+      "In Node We Trust"
+    ],
+    "StarterNpc": "Cid",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 89
+  },
+  {
+    "QuestId": 67201,
+    "QuestTitle": "In Node We Trust",
+    "PreviousQuestIds": [
+      67200
+    ],
+    "PreviousQuestTitles": [
+      "Systematic Exploration"
+    ],
+    "NextQuestIds": [
+      67202
+    ],
+    "NextQuestTitles": [
+      "Chimerical Maintenance"
+    ],
+    "StarterNpc": "guidance node",
+    "FinishNpc": "guidance node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 90
+  },
+  {
+    "QuestId": 67202,
+    "QuestTitle": "Chimerical Maintenance",
+    "PreviousQuestIds": [
+      67201
+    ],
+    "PreviousQuestTitles": [
+      "In Node We Trust"
+    ],
+    "NextQuestIds": [
+      67203
+    ],
+    "NextQuestTitles": [
+      "Close Encounters of the VIth Kind"
+    ],
+    "StarterNpc": "guidance node",
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 91
+  },
+  {
+    "QuestId": 67203,
+    "QuestTitle": "Close Encounters of the VIth Kind",
+    "PreviousQuestIds": [
+      67202
+    ],
+    "PreviousQuestTitles": [
+      "Chimerical Maintenance"
+    ],
+    "NextQuestIds": [
+      67204
+    ],
+    "NextQuestTitles": [
+      "Fetters of Lament"
+    ],
+    "StarterNpc": "guidance node",
+    "FinishNpc": "guidance node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 92
+  },
+  {
+    "QuestId": 67204,
+    "QuestTitle": "Fetters of Lament",
+    "PreviousQuestIds": [
+      67203
+    ],
+    "PreviousQuestTitles": [
+      "Close Encounters of the VIth Kind"
+    ],
+    "NextQuestIds": [
+      67205
+    ],
+    "NextQuestTitles": [
+      "Heavensward"
+    ],
+    "StarterNpc": "guidance node",
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 93
+  },
+  {
+    "QuestId": 67205,
+    "QuestTitle": "Heavensward",
+    "PreviousQuestIds": [
+      67204
+    ],
+    "PreviousQuestTitles": [
+      "Fetters of Lament"
+    ],
+    "NextQuestIds": [
+      67692
+    ],
+    "NextQuestTitles": [
+      "An Uncertain Future"
+    ],
+    "StarterNpc": "guidance node",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 94
+  },
+  {
+    "QuestId": 67529,
+    "QuestTitle": "The Spice of Life",
+    "PreviousQuestIds": [
+      67174
+    ],
+    "PreviousQuestTitles": [
+      "Ill-weather Friends"
+    ],
+    "NextQuestIds": [
+      67530
+    ],
+    "NextQuestTitles": [
+      "Noble Indiscretions"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Gibrillont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 60
+  },
+  {
+    "QuestId": 67530,
+    "QuestTitle": "Noble Indiscretions",
+    "PreviousQuestIds": [
+      67529
+    ],
+    "PreviousQuestTitles": [
+      "The Spice of Life"
+    ],
+    "NextQuestIds": [
+      67531
+    ],
+    "NextQuestTitles": [
+      "A Child Apart"
+    ],
+    "StarterNpc": "Gibrillont",
+    "FinishNpc": "Gibrillont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 61
+  },
+  {
+    "QuestId": 67531,
+    "QuestTitle": "A Child Apart",
+    "PreviousQuestIds": [
+      67530
+    ],
+    "PreviousQuestTitles": [
+      "Noble Indiscretions"
+    ],
+    "NextQuestIds": [
+      67532
+    ],
+    "NextQuestTitles": [
+      "Bloodlines"
+    ],
+    "StarterNpc": "Gibrillont",
+    "FinishNpc": "Gibrillont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 62
+  },
+  {
+    "QuestId": 67532,
+    "QuestTitle": "Bloodlines",
+    "PreviousQuestIds": [
+      67531
+    ],
+    "PreviousQuestTitles": [
+      "A Child Apart"
+    ],
+    "NextQuestIds": [
+      67175
+    ],
+    "NextQuestTitles": [
+      "Fire and Blood"
+    ],
+    "StarterNpc": "Gibrillont",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 3,
+      "JournalCategory": {
+        "Id": 3,
+        "Name": "Heavensward Main Scenario Quests"
+      },
+      "Name": "Heavensward"
+    },
+    "SortKey": 63
+  }
+]

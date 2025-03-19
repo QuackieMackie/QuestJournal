@@ -1,0 +1,194 @@
+[
+  {
+    "QuestId": 70780,
+    "QuestTitle": "A Royal Invitation",
+    "PreviousQuestIds": [
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail"
+    ],
+    "NextQuestIds": [
+      70781
+    ],
+    "NextQuestTitles": [
+      "Alexandria Mourns"
+    ],
+    "StarterNpc": "Bol Wuruq",
+    "FinishNpc": "Gulool Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 101
+  },
+  {
+    "QuestId": 70781,
+    "QuestTitle": "Alexandria Mourns",
+    "PreviousQuestIds": [
+      70780
+    ],
+    "PreviousQuestTitles": [
+      "A Royal Invitation"
+    ],
+    "NextQuestIds": [
+      70782
+    ],
+    "NextQuestTitles": [
+      "In Search of the Past"
+    ],
+    "StarterNpc": "Gulool Ja",
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 102
+  },
+  {
+    "QuestId": 70782,
+    "QuestTitle": "In Search of the Past",
+    "PreviousQuestIds": [
+      70781
+    ],
+    "PreviousQuestTitles": [
+      "Alexandria Mourns"
+    ],
+    "NextQuestIds": [
+      70783
+    ],
+    "NextQuestTitles": [
+      "Among the Abandoned"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Gulool Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 103
+  },
+  {
+    "QuestId": 70783,
+    "QuestTitle": "Among the Abandoned",
+    "PreviousQuestIds": [
+      70782
+    ],
+    "PreviousQuestTitles": [
+      "In Search of the Past"
+    ],
+    "NextQuestIds": [
+      70784
+    ],
+    "NextQuestTitles": [
+      "Guidance of the Hhetso"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Shale",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 104
+  },
+  {
+    "QuestId": 70784,
+    "QuestTitle": "Guidance of the Hhetso",
+    "PreviousQuestIds": [
+      70783
+    ],
+    "PreviousQuestTitles": [
+      "Among the Abandoned"
+    ],
+    "NextQuestIds": [
+      70785
+    ],
+    "NextQuestTitles": [
+      "The Warmth of Family"
+    ],
+    "StarterNpc": "Geode",
+    "FinishNpc": "Shepetto",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 105
+  },
+  {
+    "QuestId": 70785,
+    "QuestTitle": "The Warmth of Family",
+    "PreviousQuestIds": [
+      70784
+    ],
+    "PreviousQuestTitles": [
+      "Guidance of the Hhetso"
+    ],
+    "NextQuestIds": [
+      70786
+    ],
+    "NextQuestTitles": [
+      "Crossroads"
+    ],
+    "StarterNpc": "Koana",
+    "FinishNpc": "Nitowikwe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 106
+  },
+  {
+    "QuestId": 70786,
+    "QuestTitle": "Crossroads",
+    "PreviousQuestIds": [
+      70785
+    ],
+    "PreviousQuestTitles": [
+      "The Warmth of Family"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wuk Lamat",
+    "FinishNpc": "Krile",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 107
+  }
+]

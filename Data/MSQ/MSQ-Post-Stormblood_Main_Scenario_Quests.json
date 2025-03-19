@@ -1,0 +1,1122 @@
+[
+  {
+    "QuestId": 68498,
+    "QuestTitle": "Arenvald\u0027s Adventure",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      68499
+    ],
+    "NextQuestTitles": [
+      "The Darkness Below"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": null,
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 1
+  },
+  {
+    "QuestId": 68499,
+    "QuestTitle": "The Darkness Below",
+    "PreviousQuestIds": [
+      68498
+    ],
+    "PreviousQuestTitles": [
+      "Arenvald\u0027s Adventure"
+    ],
+    "NextQuestIds": [
+      68500
+    ],
+    "NextQuestTitles": [
+      "The Mad King\u0027s Trove"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Arenvald",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 2
+  },
+  {
+    "QuestId": 68500,
+    "QuestTitle": "The Mad King\u0027s Trove",
+    "PreviousQuestIds": [
+      68499
+    ],
+    "PreviousQuestTitles": [
+      "The Darkness Below"
+    ],
+    "NextQuestIds": [
+      68501
+    ],
+    "NextQuestTitles": [
+      "The Butcher\u0027s Blood"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 3
+  },
+  {
+    "QuestId": 68501,
+    "QuestTitle": "The Butcher\u0027s Blood",
+    "PreviousQuestIds": [
+      68500
+    ],
+    "PreviousQuestTitles": [
+      "The Mad King\u0027s Trove"
+    ],
+    "NextQuestIds": [
+      68502
+    ],
+    "NextQuestTitles": [
+      "Echoes of an Echo"
+    ],
+    "StarterNpc": "Arenvald",
+    "FinishNpc": "prison guard",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 4
+  },
+  {
+    "QuestId": 68502,
+    "QuestTitle": "Echoes of an Echo",
+    "PreviousQuestIds": [
+      68501
+    ],
+    "PreviousQuestTitles": [
+      "The Butcher\u0027s Blood"
+    ],
+    "NextQuestIds": [
+      68503
+    ],
+    "NextQuestTitles": [
+      "A Sultana\u0027s Strings"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 5
+  },
+  {
+    "QuestId": 68503,
+    "QuestTitle": "A Sultana\u0027s Strings",
+    "PreviousQuestIds": [
+      68502
+    ],
+    "PreviousQuestTitles": [
+      "Echoes of an Echo"
+    ],
+    "NextQuestIds": [
+      68504
+    ],
+    "NextQuestTitles": [
+      "A Sultana\u0027s Duty"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Nanamo Ul Namo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 6
+  },
+  {
+    "QuestId": 68504,
+    "QuestTitle": "A Sultana\u0027s Duty",
+    "PreviousQuestIds": [
+      68503
+    ],
+    "PreviousQuestTitles": [
+      "A Sultana\u0027s Strings"
+    ],
+    "NextQuestIds": [
+      68505
+    ],
+    "NextQuestTitles": [
+      "A Sultana\u0027s Resolve"
+    ],
+    "StarterNpc": "Nanamo Ul Namo",
+    "FinishNpc": "Nanamo Ul Namo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 7
+  },
+  {
+    "QuestId": 68505,
+    "QuestTitle": "A Sultana\u0027s Resolve",
+    "PreviousQuestIds": [
+      68504
+    ],
+    "PreviousQuestTitles": [
+      "A Sultana\u0027s Duty"
+    ],
+    "NextQuestIds": [
+      68506
+    ],
+    "NextQuestTitles": [
+      "Securing the Saltery"
+    ],
+    "StarterNpc": "Nanamo Ul Namo",
+    "FinishNpc": "Nanamo Ul Namo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 8
+  },
+  {
+    "QuestId": 68506,
+    "QuestTitle": "Securing the Saltery",
+    "PreviousQuestIds": [
+      68505
+    ],
+    "PreviousQuestTitles": [
+      "A Sultana\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      68507
+    ],
+    "NextQuestTitles": [
+      "A Blissful Arrival"
+    ],
+    "StarterNpc": "Nanamo Ul Namo",
+    "FinishNpc": "Watt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 9
+  },
+  {
+    "QuestId": 68507,
+    "QuestTitle": "A Blissful Arrival",
+    "PreviousQuestIds": [
+      68506
+    ],
+    "PreviousQuestTitles": [
+      "Securing the Saltery"
+    ],
+    "NextQuestIds": [
+      68508
+    ],
+    "NextQuestTitles": [
+      "Return of the Bull"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 68508,
+    "QuestTitle": "Return of the Bull",
+    "PreviousQuestIds": [
+      68507
+    ],
+    "PreviousQuestTitles": [
+      "A Blissful Arrival"
+    ],
+    "NextQuestIds": [
+      68558
+    ],
+    "NextQuestTitles": [
+      "Tidings from the East"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 11
+  },
+  {
+    "QuestId": 68558,
+    "QuestTitle": "Tidings from the East",
+    "PreviousQuestIds": [
+      68508
+    ],
+    "PreviousQuestTitles": [
+      "Return of the Bull"
+    ],
+    "NextQuestIds": [
+      68559
+    ],
+    "NextQuestTitles": [
+      "The Sword in the Store"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 12
+  },
+  {
+    "QuestId": 68559,
+    "QuestTitle": "The Sword in the Store",
+    "PreviousQuestIds": [
+      68558
+    ],
+    "PreviousQuestTitles": [
+      "Tidings from the East"
+    ],
+    "NextQuestIds": [
+      68560
+    ],
+    "NextQuestTitles": [
+      "Hope on the Waves"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Ume",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 13
+  },
+  {
+    "QuestId": 68560,
+    "QuestTitle": "Hope on the Waves",
+    "PreviousQuestIds": [
+      68559
+    ],
+    "PreviousQuestTitles": [
+      "The Sword in the Store"
+    ],
+    "NextQuestIds": [
+      68561
+    ],
+    "NextQuestTitles": [
+      "Elation and Trepidation"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Soroban",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 14
+  },
+  {
+    "QuestId": 68561,
+    "QuestTitle": "Elation and Trepidation",
+    "PreviousQuestIds": [
+      68560
+    ],
+    "PreviousQuestTitles": [
+      "Hope on the Waves"
+    ],
+    "NextQuestIds": [
+      68562
+    ],
+    "NextQuestTitles": [
+      "Storm on the Horizon"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 15
+  },
+  {
+    "QuestId": 68562,
+    "QuestTitle": "Storm on the Horizon",
+    "PreviousQuestIds": [
+      68561
+    ],
+    "PreviousQuestTitles": [
+      "Elation and Trepidation"
+    ],
+    "NextQuestIds": [
+      68563
+    ],
+    "NextQuestTitles": [
+      "His Forgotten Home"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 16
+  },
+  {
+    "QuestId": 68563,
+    "QuestTitle": "His Forgotten Home",
+    "PreviousQuestIds": [
+      68562
+    ],
+    "PreviousQuestTitles": [
+      "Storm on the Horizon"
+    ],
+    "NextQuestIds": [
+      68564
+    ],
+    "NextQuestTitles": [
+      "A Guilty Conscience"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Asahi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 17
+  },
+  {
+    "QuestId": 68564,
+    "QuestTitle": "A Guilty Conscience",
+    "PreviousQuestIds": [
+      68563
+    ],
+    "PreviousQuestTitles": [
+      "His Forgotten Home"
+    ],
+    "NextQuestIds": [
+      68565
+    ],
+    "NextQuestTitles": [
+      "Rise of a New Sun"
+    ],
+    "StarterNpc": "Asahi",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 18
+  },
+  {
+    "QuestId": 68565,
+    "QuestTitle": "Rise of a New Sun",
+    "PreviousQuestIds": [
+      68564
+    ],
+    "PreviousQuestTitles": [
+      "A Guilty Conscience"
+    ],
+    "NextQuestIds": [
+      68606
+    ],
+    "NextQuestTitles": [
+      "Gosetsu and Tsuyu"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hancock",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 19
+  },
+  {
+    "QuestId": 68606,
+    "QuestTitle": "Gosetsu and Tsuyu",
+    "PreviousQuestIds": [
+      68565
+    ],
+    "PreviousQuestTitles": [
+      "Rise of a New Sun"
+    ],
+    "NextQuestIds": [
+      68607
+    ],
+    "NextQuestTitles": [
+      "Gone Like the Morning Dew"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 68607,
+    "QuestTitle": "Gone Like the Morning Dew",
+    "PreviousQuestIds": [
+      68606
+    ],
+    "PreviousQuestTitles": [
+      "Gosetsu and Tsuyu"
+    ],
+    "NextQuestIds": [
+      68608
+    ],
+    "NextQuestTitles": [
+      "Fruits of Her Labor"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": null,
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 21
+  },
+  {
+    "QuestId": 68608,
+    "QuestTitle": "Fruits of Her Labor",
+    "PreviousQuestIds": [
+      68607
+    ],
+    "PreviousQuestTitles": [
+      "Gone Like the Morning Dew"
+    ],
+    "NextQuestIds": [
+      68609
+    ],
+    "NextQuestTitles": [
+      "Conscripts and Contingencies"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 22
+  },
+  {
+    "QuestId": 68609,
+    "QuestTitle": "Conscripts and Contingencies",
+    "PreviousQuestIds": [
+      68608
+    ],
+    "PreviousQuestTitles": [
+      "Fruits of Her Labor"
+    ],
+    "NextQuestIds": [
+      68610
+    ],
+    "NextQuestTitles": [
+      "The Primary Agreement"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 23
+  },
+  {
+    "QuestId": 68610,
+    "QuestTitle": "The Primary Agreement",
+    "PreviousQuestIds": [
+      68609
+    ],
+    "PreviousQuestTitles": [
+      "Conscripts and Contingencies"
+    ],
+    "NextQuestIds": [
+      68611
+    ],
+    "NextQuestTitles": [
+      "Under the Moonlight"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 24
+  },
+  {
+    "QuestId": 68611,
+    "QuestTitle": "Under the Moonlight",
+    "PreviousQuestIds": [
+      68610
+    ],
+    "PreviousQuestTitles": [
+      "The Primary Agreement"
+    ],
+    "NextQuestIds": [
+      68612
+    ],
+    "NextQuestTitles": [
+      "Emissary of the Dawn"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 25
+  },
+  {
+    "QuestId": 68612,
+    "QuestTitle": "Emissary of the Dawn",
+    "PreviousQuestIds": [
+      68611
+    ],
+    "PreviousQuestTitles": [
+      "Under the Moonlight"
+    ],
+    "NextQuestIds": [
+      68679
+    ],
+    "NextQuestTitles": [
+      "Sisterly Act"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 26
+  },
+  {
+    "QuestId": 68679,
+    "QuestTitle": "Sisterly Act",
+    "PreviousQuestIds": [
+      68612
+    ],
+    "PreviousQuestTitles": [
+      "Emissary of the Dawn"
+    ],
+    "NextQuestIds": [
+      68680
+    ],
+    "NextQuestTitles": [
+      "Feel the Burn"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 27
+  },
+  {
+    "QuestId": 68680,
+    "QuestTitle": "Feel the Burn",
+    "PreviousQuestIds": [
+      68679
+    ],
+    "PreviousQuestTitles": [
+      "Sisterly Act"
+    ],
+    "NextQuestIds": [
+      68681
+    ],
+    "NextQuestTitles": [
+      "Shadows in the Empire"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 28
+  },
+  {
+    "QuestId": 68681,
+    "QuestTitle": "Shadows in the Empire",
+    "PreviousQuestIds": [
+      68680
+    ],
+    "PreviousQuestTitles": [
+      "Feel the Burn"
+    ],
+    "NextQuestIds": [
+      68682
+    ],
+    "NextQuestTitles": [
+      "A Power in Slumber"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 29
+  },
+  {
+    "QuestId": 68682,
+    "QuestTitle": "A Power in Slumber",
+    "PreviousQuestIds": [
+      68681
+    ],
+    "PreviousQuestTitles": [
+      "Shadows in the Empire"
+    ],
+    "NextQuestIds": [
+      68683
+    ],
+    "NextQuestTitles": [
+      "The Will of the Moon"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 30
+  },
+  {
+    "QuestId": 68683,
+    "QuestTitle": "The Will of the Moon",
+    "PreviousQuestIds": [
+      68682
+    ],
+    "PreviousQuestTitles": [
+      "A Power in Slumber"
+    ],
+    "NextQuestIds": [
+      68684
+    ],
+    "NextQuestTitles": [
+      "The Call"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 31
+  },
+  {
+    "QuestId": 68684,
+    "QuestTitle": "The Call",
+    "PreviousQuestIds": [
+      68683
+    ],
+    "PreviousQuestTitles": [
+      "The Will of the Moon"
+    ],
+    "NextQuestIds": [
+      68685
+    ],
+    "NextQuestTitles": [
+      "Prelude in Violet"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 32
+  },
+  {
+    "QuestId": 68685,
+    "QuestTitle": "Prelude in Violet",
+    "PreviousQuestIds": [
+      68684
+    ],
+    "PreviousQuestTitles": [
+      "The Call"
+    ],
+    "NextQuestIds": [
+      68715
+    ],
+    "NextQuestTitles": [
+      "Soul Searching"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 33
+  },
+  {
+    "QuestId": 68715,
+    "QuestTitle": "Soul Searching",
+    "PreviousQuestIds": [
+      68685
+    ],
+    "PreviousQuestTitles": [
+      "Prelude in Violet"
+    ],
+    "NextQuestIds": [
+      68716
+    ],
+    "NextQuestTitles": [
+      "A Defector\u0027s Tidings"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 34
+  },
+  {
+    "QuestId": 68716,
+    "QuestTitle": "A Defector\u0027s Tidings",
+    "PreviousQuestIds": [
+      68715
+    ],
+    "PreviousQuestTitles": [
+      "Soul Searching"
+    ],
+    "NextQuestIds": [
+      68717
+    ],
+    "NextQuestTitles": [
+      "Seiryu\u0027s Wall"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 35
+  },
+  {
+    "QuestId": 68717,
+    "QuestTitle": "Seiryu\u0027s Wall",
+    "PreviousQuestIds": [
+      68716
+    ],
+    "PreviousQuestTitles": [
+      "A Defector\u0027s Tidings"
+    ],
+    "NextQuestIds": [
+      68718
+    ],
+    "NextQuestTitles": [
+      "Parley on the Front Lines"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 36
+  },
+  {
+    "QuestId": 68718,
+    "QuestTitle": "Parley on the Front Lines",
+    "PreviousQuestIds": [
+      68717
+    ],
+    "PreviousQuestTitles": [
+      "Seiryu\u0027s Wall"
+    ],
+    "NextQuestIds": [
+      68719
+    ],
+    "NextQuestTitles": [
+      "The Face of War"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 37
+  },
+  {
+    "QuestId": 68719,
+    "QuestTitle": "The Face of War",
+    "PreviousQuestIds": [
+      68718
+    ],
+    "PreviousQuestTitles": [
+      "Parley on the Front Lines"
+    ],
+    "NextQuestIds": [
+      68720
+    ],
+    "NextQuestTitles": [
+      "A Brief Reprieve"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Hoary Boulder",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 38
+  },
+  {
+    "QuestId": 68720,
+    "QuestTitle": "A Brief Reprieve",
+    "PreviousQuestIds": [
+      68719
+    ],
+    "PreviousQuestTitles": [
+      "The Face of War"
+    ],
+    "NextQuestIds": [
+      68721
+    ],
+    "NextQuestTitles": [
+      "A Requiem for Heroes"
+    ],
+    "StarterNpc": "Hoary Boulder",
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 39
+  },
+  {
+    "QuestId": 68721,
+    "QuestTitle": "A Requiem for Heroes",
+    "PreviousQuestIds": [
+      68720
+    ],
+    "PreviousQuestTitles": [
+      "A Brief Reprieve"
+    ],
+    "NextQuestIds": [
+      68815
+    ],
+    "NextQuestTitles": [
+      "The Syrcus Trench"
+    ],
+    "StarterNpc": "Resistance fighter",
+    "FinishNpc": "Tataru",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 40
+  }
+]

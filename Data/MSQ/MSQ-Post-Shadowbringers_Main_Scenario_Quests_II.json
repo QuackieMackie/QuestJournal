@@ -1,0 +1,534 @@
+[
+  {
+    "QuestId": 69543,
+    "QuestTitle": "Alisaie\u0027s Quest",
+    "PreviousQuestIds": [
+      69318
+    ],
+    "PreviousQuestTitles": [
+      "Reflections in Crystal"
+    ],
+    "NextQuestIds": [
+      69544
+    ],
+    "NextQuestTitles": [
+      "The Wisdom of Allag"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 330
+  },
+  {
+    "QuestId": 69544,
+    "QuestTitle": "The Wisdom of Allag",
+    "PreviousQuestIds": [
+      69543
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Quest"
+    ],
+    "NextQuestIds": [
+      69545
+    ],
+    "NextQuestTitles": [
+      "Reviving the Legacy"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 340
+  },
+  {
+    "QuestId": 69545,
+    "QuestTitle": "Reviving the Legacy",
+    "PreviousQuestIds": [
+      69544
+    ],
+    "PreviousQuestTitles": [
+      "The Wisdom of Allag"
+    ],
+    "NextQuestIds": [
+      69546
+    ],
+    "NextQuestTitles": [
+      "Forget Us Not"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Skysteel engineer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 350
+  },
+  {
+    "QuestId": 69546,
+    "QuestTitle": "Forget Us Not",
+    "PreviousQuestIds": [
+      69545
+    ],
+    "PreviousQuestTitles": [
+      "Reviving the Legacy"
+    ],
+    "NextQuestIds": [
+      69547
+    ],
+    "NextQuestTitles": [
+      "Like Master, Like Pupil"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 360
+  },
+  {
+    "QuestId": 69547,
+    "QuestTitle": "Like Master, Like Pupil",
+    "PreviousQuestIds": [
+      69546
+    ],
+    "PreviousQuestTitles": [
+      "Forget Us Not"
+    ],
+    "NextQuestIds": [
+      69548
+    ],
+    "NextQuestTitles": [
+      "The Admiral\u0027s Resolve"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 370
+  },
+  {
+    "QuestId": 69548,
+    "QuestTitle": "The Admiral\u0027s Resolve",
+    "PreviousQuestIds": [
+      69547
+    ],
+    "PreviousQuestTitles": [
+      "Like Master, Like Pupil"
+    ],
+    "NextQuestIds": [
+      69549
+    ],
+    "NextQuestTitles": [
+      "The Search for Sicard"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 380
+  },
+  {
+    "QuestId": 69549,
+    "QuestTitle": "The Search for Sicard",
+    "PreviousQuestIds": [
+      69548
+    ],
+    "PreviousQuestTitles": [
+      "The Admiral\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      69550
+    ],
+    "NextQuestTitles": [
+      "On Rough Seas"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 390
+  },
+  {
+    "QuestId": 69550,
+    "QuestTitle": "On Rough Seas",
+    "PreviousQuestIds": [
+      69549
+    ],
+    "PreviousQuestTitles": [
+      "The Search for Sicard"
+    ],
+    "NextQuestIds": [
+      69551
+    ],
+    "NextQuestTitles": [
+      "The Great Ship Vylbrand"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Merlwyb",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 400
+  },
+  {
+    "QuestId": 69551,
+    "QuestTitle": "The Great Ship Vylbrand",
+    "PreviousQuestIds": [
+      69550
+    ],
+    "PreviousQuestTitles": [
+      "On Rough Seas"
+    ],
+    "NextQuestIds": [
+      69552
+    ],
+    "NextQuestTitles": [
+      "Futures Rewritten"
+    ],
+    "StarterNpc": "Merlwyb",
+    "FinishNpc": "Merlwyb",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 410
+  },
+  {
+    "QuestId": 69552,
+    "QuestTitle": "Futures Rewritten",
+    "PreviousQuestIds": [
+      69551
+    ],
+    "PreviousQuestTitles": [
+      "The Great Ship Vylbrand"
+    ],
+    "NextQuestIds": [
+      69594
+    ],
+    "NextQuestTitles": [
+      "Unto the Breach"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Krile",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 420
+  },
+  {
+    "QuestId": 69594,
+    "QuestTitle": "Unto the Breach",
+    "PreviousQuestIds": [
+      69552
+    ],
+    "PreviousQuestTitles": [
+      "Futures Rewritten"
+    ],
+    "NextQuestIds": [
+      69595
+    ],
+    "NextQuestTitles": [
+      "Here Be Dragons"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Arenvald",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 430
+  },
+  {
+    "QuestId": 69595,
+    "QuestTitle": "Here Be Dragons",
+    "PreviousQuestIds": [
+      69594
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Breach"
+    ],
+    "NextQuestIds": [
+      69596
+    ],
+    "NextQuestTitles": [
+      "Righteous Indignation"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 440
+  },
+  {
+    "QuestId": 69596,
+    "QuestTitle": "Righteous Indignation",
+    "PreviousQuestIds": [
+      69595
+    ],
+    "PreviousQuestTitles": [
+      "Here Be Dragons"
+    ],
+    "NextQuestIds": [
+      69597
+    ],
+    "NextQuestTitles": [
+      "For Vengeance"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "clamorous node",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 450
+  },
+  {
+    "QuestId": 69597,
+    "QuestTitle": "For Vengeance",
+    "PreviousQuestIds": [
+      69596
+    ],
+    "PreviousQuestTitles": [
+      "Righteous Indignation"
+    ],
+    "NextQuestIds": [
+      69598
+    ],
+    "NextQuestTitles": [
+      "The Flames of War"
+    ],
+    "StarterNpc": "restrainment node",
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 460
+  },
+  {
+    "QuestId": 69598,
+    "QuestTitle": "The Flames of War",
+    "PreviousQuestIds": [
+      69597
+    ],
+    "PreviousQuestTitles": [
+      "For Vengeance"
+    ],
+    "NextQuestIds": [
+      69599
+    ],
+    "NextQuestTitles": [
+      "When the Dust Settles"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 470
+  },
+  {
+    "QuestId": 69599,
+    "QuestTitle": "When the Dust Settles",
+    "PreviousQuestIds": [
+      69598
+    ],
+    "PreviousQuestTitles": [
+      "The Flames of War"
+    ],
+    "NextQuestIds": [
+      69600
+    ],
+    "NextQuestTitles": [
+      "The Company We Keep"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Tataru",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 480
+  },
+  {
+    "QuestId": 69600,
+    "QuestTitle": "The Company We Keep",
+    "PreviousQuestIds": [
+      69599
+    ],
+    "PreviousQuestTitles": [
+      "When the Dust Settles"
+    ],
+    "NextQuestIds": [
+      69601
+    ],
+    "NextQuestTitles": [
+      "On Official Business"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Riol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 490
+  },
+  {
+    "QuestId": 69601,
+    "QuestTitle": "On Official Business",
+    "PreviousQuestIds": [
+      69600
+    ],
+    "PreviousQuestTitles": [
+      "The Company We Keep"
+    ],
+    "NextQuestIds": [
+      69602
+    ],
+    "NextQuestTitles": [
+      "Death Unto Dawn"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 500
+  },
+  {
+    "QuestId": 69602,
+    "QuestTitle": "Death Unto Dawn",
+    "PreviousQuestIds": [
+      69601
+    ],
+    "PreviousQuestTitles": [
+      "On Official Business"
+    ],
+    "NextQuestIds": [
+      69893
+    ],
+    "NextQuestTitles": [
+      "The Next Ship to Sail"
+    ],
+    "StarterNpc": "Kan-E-Senna",
+    "FinishNpc": "Aymeric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 10,
+      "JournalCategory": {
+        "Id": 10,
+        "Name": "Post-Shadowbringers Main Scenario Quests II"
+      },
+      "Name": "Dark Reprise"
+    },
+    "SortKey": 510
+  }
+]

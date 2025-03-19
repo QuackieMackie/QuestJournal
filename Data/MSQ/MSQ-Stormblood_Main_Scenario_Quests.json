@@ -1,0 +1,3442 @@
+[
+  {
+    "QuestId": 67982,
+    "QuestTitle": "Beyond the Great Wall",
+    "PreviousQuestIds": [
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      67983
+    ],
+    "NextQuestTitles": [
+      "Lyse Takes the Lead"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Raubahn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 67983,
+    "QuestTitle": "Lyse Takes the Lead",
+    "PreviousQuestIds": [
+      67982
+    ],
+    "PreviousQuestTitles": [
+      "Beyond the Great Wall"
+    ],
+    "NextQuestIds": [
+      67984
+    ],
+    "NextQuestTitles": [
+      "The Promise of a New Beginning"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Conrad",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 67984,
+    "QuestTitle": "The Promise of a New Beginning",
+    "PreviousQuestIds": [
+      67983
+    ],
+    "PreviousQuestTitles": [
+      "Lyse Takes the Lead"
+    ],
+    "NextQuestIds": [
+      67985
+    ],
+    "NextQuestTitles": [
+      "A Haven for the Bold"
+    ],
+    "StarterNpc": "Conrad",
+    "FinishNpc": "Conrad",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 30
+  },
+  {
+    "QuestId": 67985,
+    "QuestTitle": "A Haven for the Bold",
+    "PreviousQuestIds": [
+      67984
+    ],
+    "PreviousQuestTitles": [
+      "The Promise of a New Beginning"
+    ],
+    "NextQuestIds": [
+      67986
+    ],
+    "NextQuestTitles": [
+      "A Bargain Struck"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 40
+  },
+  {
+    "QuestId": 67986,
+    "QuestTitle": "A Bargain Struck",
+    "PreviousQuestIds": [
+      67985
+    ],
+    "PreviousQuestTitles": [
+      "A Haven for the Bold"
+    ],
+    "NextQuestIds": [
+      67987,
+      67991
+    ],
+    "NextQuestTitles": [
+      "A Friend of a Friend in Need",
+      "A Familiar Face Forgotten"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 50
+  },
+  {
+    "QuestId": 67987,
+    "QuestTitle": "A Friend of a Friend in Need",
+    "PreviousQuestIds": [
+      67986
+    ],
+    "PreviousQuestTitles": [
+      "A Bargain Struck"
+    ],
+    "NextQuestIds": [
+      67988
+    ],
+    "NextQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "StarterNpc": "M\u0027naago",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 60
+  },
+  {
+    "QuestId": 67988,
+    "QuestTitle": "Signed, Sealed, to Be Delivered",
+    "PreviousQuestIds": [
+      67987
+    ],
+    "PreviousQuestTitles": [
+      "A Friend of a Friend in Need"
+    ],
+    "NextQuestIds": [
+      67989
+    ],
+    "NextQuestTitles": [
+      "Best Served with Cold Steel"
+    ],
+    "StarterNpc": "M\u0027naago",
+    "FinishNpc": "Raubahn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 70
+  },
+  {
+    "QuestId": 67989,
+    "QuestTitle": "Best Served with Cold Steel",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [
+      67990
+    ],
+    "NextQuestTitles": [
+      "Let Fill Your Hearts with Pride"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 80
+  },
+  {
+    "QuestId": 67990,
+    "QuestTitle": "Let Fill Your Hearts with Pride",
+    "PreviousQuestIds": [
+      67989
+    ],
+    "PreviousQuestTitles": [
+      "Best Served with Cold Steel"
+    ],
+    "NextQuestIds": [
+      67997
+    ],
+    "NextQuestTitles": [
+      "Where Men Go as One"
+    ],
+    "StarterNpc": "M\u0027naago",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 90
+  },
+  {
+    "QuestId": 67991,
+    "QuestTitle": "A Familiar Face Forgotten",
+    "PreviousQuestIds": [
+      67986
+    ],
+    "PreviousQuestTitles": [
+      "A Bargain Struck"
+    ],
+    "NextQuestIds": [
+      67992
+    ],
+    "NextQuestTitles": [
+      "The Prodigal Daughter"
+    ],
+    "StarterNpc": "Meffrid",
+    "FinishNpc": "Meffrid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 100
+  },
+  {
+    "QuestId": 67992,
+    "QuestTitle": "The Prodigal Daughter",
+    "PreviousQuestIds": [
+      67991
+    ],
+    "PreviousQuestTitles": [
+      "A Familiar Face Forgotten"
+    ],
+    "NextQuestIds": [
+      68490,
+      68491
+    ],
+    "NextQuestTitles": [
+      "Hard Country",
+      "Death by a Thousand Rocks"
+    ],
+    "StarterNpc": "Meffrid",
+    "FinishNpc": "Meffrid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 110
+  },
+  {
+    "QuestId": 67993,
+    "QuestTitle": "A Life More Ordinary",
+    "PreviousQuestIds": [
+      68490,
+      68491
+    ],
+    "PreviousQuestTitles": [
+      "Hard Country",
+      "Death by a Thousand Rocks"
+    ],
+    "NextQuestIds": [
+      67994
+    ],
+    "NextQuestTitles": [
+      "The Color of Angry Qiqirn"
+    ],
+    "StarterNpc": "Meffrid",
+    "FinishNpc": "Meffrid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 120
+  },
+  {
+    "QuestId": 67994,
+    "QuestTitle": "The Color of Angry Qiqirn",
+    "PreviousQuestIds": [
+      67993
+    ],
+    "PreviousQuestTitles": [
+      "A Life More Ordinary"
+    ],
+    "NextQuestIds": [
+      67995
+    ],
+    "NextQuestTitles": [
+      "The Black Wolf\u0027s Pups"
+    ],
+    "StarterNpc": "Meffrid",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 130
+  },
+  {
+    "QuestId": 67995,
+    "QuestTitle": "The Black Wolf\u0027s Pups",
+    "PreviousQuestIds": [
+      67994
+    ],
+    "PreviousQuestTitles": [
+      "The Color of Angry Qiqirn"
+    ],
+    "NextQuestIds": [
+      67996
+    ],
+    "NextQuestTitles": [
+      "Homeward Bound"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Meffrid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 140
+  },
+  {
+    "QuestId": 67996,
+    "QuestTitle": "Homeward Bound",
+    "PreviousQuestIds": [
+      67995
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups"
+    ],
+    "NextQuestIds": [
+      67997
+    ],
+    "NextQuestTitles": [
+      "Where Men Go as One"
+    ],
+    "StarterNpc": "Meffrid",
+    "FinishNpc": "Meffrid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 150
+  },
+  {
+    "QuestId": 67997,
+    "QuestTitle": "Where Men Go as One",
+    "PreviousQuestIds": [
+      67990,
+      67996
+    ],
+    "PreviousQuestTitles": [
+      "Let Fill Your Hearts with Pride",
+      "Homeward Bound"
+    ],
+    "NextQuestIds": [
+      68171,
+      68172,
+      68173
+    ],
+    "NextQuestTitles": [
+      "Future Rust, Future Dust",
+      "A Dash of Green",
+      "Ye Wayward Brothers"
+    ],
+    "StarterNpc": "Conrad",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 160
+  },
+  {
+    "QuestId": 67998,
+    "QuestTitle": "Crossing the Velodyna",
+    "PreviousQuestIds": [
+      68174
+    ],
+    "PreviousQuestTitles": [
+      "Token of Faith"
+    ],
+    "NextQuestIds": [
+      67999
+    ],
+    "NextQuestTitles": [
+      "In Crimson It Began"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 170
+  },
+  {
+    "QuestId": 67999,
+    "QuestTitle": "In Crimson It Began",
+    "PreviousQuestIds": [
+      67998
+    ],
+    "PreviousQuestTitles": [
+      "Crossing the Velodyna"
+    ],
+    "NextQuestIds": [
+      68000
+    ],
+    "NextQuestTitles": [
+      "The Fires Fade"
+    ],
+    "StarterNpc": "Pipin",
+    "FinishNpc": "Raubahn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 180
+  },
+  {
+    "QuestId": 68000,
+    "QuestTitle": "The Fires Fade",
+    "PreviousQuestIds": [
+      67999
+    ],
+    "PreviousQuestTitles": [
+      "In Crimson It Began"
+    ],
+    "NextQuestIds": [
+      68001
+    ],
+    "NextQuestTitles": [
+      "Bereft of Hearth and Home"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "Conrad",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 190
+  },
+  {
+    "QuestId": 68001,
+    "QuestTitle": "Bereft of Hearth and Home",
+    "PreviousQuestIds": [
+      68000
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade"
+    ],
+    "NextQuestIds": [
+      68002
+    ],
+    "NextQuestTitles": [
+      "Divide and Conquer"
+    ],
+    "StarterNpc": "Pipin",
+    "FinishNpc": "flame courier",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 200
+  },
+  {
+    "QuestId": 68002,
+    "QuestTitle": "Divide and Conquer",
+    "PreviousQuestIds": [
+      68001
+    ],
+    "PreviousQuestTitles": [
+      "Bereft of Hearth and Home"
+    ],
+    "NextQuestIds": [
+      68003
+    ],
+    "NextQuestTitles": [
+      "Lies, Damn Lies, and Pirates"
+    ],
+    "StarterNpc": "Conrad",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 210
+  },
+  {
+    "QuestId": 68003,
+    "QuestTitle": "Lies, Damn Lies, and Pirates",
+    "PreviousQuestIds": [
+      68002
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer"
+    ],
+    "NextQuestIds": [
+      68004
+    ],
+    "NextQuestTitles": [
+      "Tales from the Far East"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 220
+  },
+  {
+    "QuestId": 68004,
+    "QuestTitle": "Tales from the Far East",
+    "PreviousQuestIds": [
+      68003
+    ],
+    "PreviousQuestTitles": [
+      "Lies, Damn Lies, and Pirates"
+    ],
+    "NextQuestIds": [
+      68005
+    ],
+    "NextQuestTitles": [
+      "Not without Incident"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 230
+  },
+  {
+    "QuestId": 68005,
+    "QuestTitle": "Not without Incident",
+    "PreviousQuestIds": [
+      68004
+    ],
+    "PreviousQuestTitles": [
+      "Tales from the Far East"
+    ],
+    "NextQuestIds": [
+      68006
+    ],
+    "NextQuestTitles": [
+      "The Man from Ul\u0027dah"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Carvallain",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 240
+  },
+  {
+    "QuestId": 68006,
+    "QuestTitle": "The Man from Ul\u0027dah",
+    "PreviousQuestIds": [
+      68005
+    ],
+    "PreviousQuestTitles": [
+      "Not without Incident"
+    ],
+    "NextQuestIds": [
+      68007
+    ],
+    "NextQuestTitles": [
+      "Where the Streets Are Paved with Koban"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Hancock",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 250
+  },
+  {
+    "QuestId": 68007,
+    "QuestTitle": "Where the Streets Are Paved with Koban",
+    "PreviousQuestIds": [
+      68006
+    ],
+    "PreviousQuestTitles": [
+      "The Man from Ul\u0027dah"
+    ],
+    "NextQuestIds": [
+      68008
+    ],
+    "NextQuestTitles": [
+      "By the Grace of Lord Lolorito"
+    ],
+    "StarterNpc": "Hancock",
+    "FinishNpc": "Hancock",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 260
+  },
+  {
+    "QuestId": 68008,
+    "QuestTitle": "By the Grace of Lord Lolorito",
+    "PreviousQuestIds": [
+      68007
+    ],
+    "PreviousQuestTitles": [
+      "Where the Streets Are Paved with Koban"
+    ],
+    "NextQuestIds": [
+      68009
+    ],
+    "NextQuestTitles": [
+      "A Good Samurai Is Hard to Find"
+    ],
+    "StarterNpc": "Hancock",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 270
+  },
+  {
+    "QuestId": 68009,
+    "QuestTitle": "A Good Samurai Is Hard to Find",
+    "PreviousQuestIds": [
+      68008
+    ],
+    "PreviousQuestTitles": [
+      "By the Grace of Lord Lolorito"
+    ],
+    "NextQuestIds": [
+      68010
+    ],
+    "NextQuestTitles": [
+      "It\u0027s Probably a Trap"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 280
+  },
+  {
+    "QuestId": 68010,
+    "QuestTitle": "It\u0027s Probably a Trap",
+    "PreviousQuestIds": [
+      68009
+    ],
+    "PreviousQuestTitles": [
+      "A Good Samurai Is Hard to Find"
+    ],
+    "NextQuestIds": [
+      68011
+    ],
+    "NextQuestTitles": [
+      "Making the Catfish Sing"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 290
+  },
+  {
+    "QuestId": 68011,
+    "QuestTitle": "Making the Catfish Sing",
+    "PreviousQuestIds": [
+      68010
+    ],
+    "PreviousQuestTitles": [
+      "It\u0027s Probably a Trap"
+    ],
+    "NextQuestIds": [
+      68012
+    ],
+    "NextQuestTitles": [
+      "Once More, to the Ruby Sea"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 300
+  },
+  {
+    "QuestId": 68012,
+    "QuestTitle": "Once More, to the Ruby Sea",
+    "PreviousQuestIds": [
+      68011
+    ],
+    "PreviousQuestTitles": [
+      "Making the Catfish Sing"
+    ],
+    "NextQuestIds": [
+      68013
+    ],
+    "NextQuestTitles": [
+      "Open Water"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Soroban",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 310
+  },
+  {
+    "QuestId": 68013,
+    "QuestTitle": "Open Water",
+    "PreviousQuestIds": [
+      68012
+    ],
+    "PreviousQuestTitles": [
+      "Once More, to the Ruby Sea"
+    ],
+    "NextQuestIds": [
+      68014
+    ],
+    "NextQuestTitles": [
+      "Boys with Boats"
+    ],
+    "StarterNpc": "Soroban",
+    "FinishNpc": "Tansui",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 320
+  },
+  {
+    "QuestId": 68014,
+    "QuestTitle": "Boys with Boats",
+    "PreviousQuestIds": [
+      68013
+    ],
+    "PreviousQuestTitles": [
+      "Open Water"
+    ],
+    "NextQuestIds": [
+      68015
+    ],
+    "NextQuestTitles": [
+      "To Bend with the Wind"
+    ],
+    "StarterNpc": "Tansui",
+    "FinishNpc": "Soroban",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 330
+  },
+  {
+    "QuestId": 68015,
+    "QuestTitle": "To Bend with the Wind",
+    "PreviousQuestIds": [
+      68014
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats"
+    ],
+    "NextQuestIds": [
+      68016
+    ],
+    "NextQuestTitles": [
+      "Confederate Consternation"
+    ],
+    "StarterNpc": "Soroban",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 340
+  },
+  {
+    "QuestId": 68016,
+    "QuestTitle": "Confederate Consternation",
+    "PreviousQuestIds": [
+      68015
+    ],
+    "PreviousQuestTitles": [
+      "To Bend with the Wind"
+    ],
+    "NextQuestIds": [
+      68215,
+      68217,
+      68489
+    ],
+    "NextQuestTitles": [
+      "The Last Voyage",
+      "The Solace of the Sea",
+      "The Arrows of Misfortune"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 350
+  },
+  {
+    "QuestId": 68017,
+    "QuestTitle": "Alisaie\u0027s Stones",
+    "PreviousQuestIds": [
+      68215,
+      68217,
+      68489
+    ],
+    "PreviousQuestTitles": [
+      "The Last Voyage",
+      "The Solace of the Sea",
+      "The Arrows of Misfortune"
+    ],
+    "NextQuestIds": [
+      68018
+    ],
+    "NextQuestTitles": [
+      "Under the Sea"
+    ],
+    "StarterNpc": "Hirase",
+    "FinishNpc": "Rasho",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 360
+  },
+  {
+    "QuestId": 68018,
+    "QuestTitle": "Under the Sea",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [
+      68019
+    ],
+    "NextQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "StarterNpc": "Rasho",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 370
+  },
+  {
+    "QuestId": 68019,
+    "QuestTitle": "Of Kojin and Kami",
+    "PreviousQuestIds": [
+      68018
+    ],
+    "PreviousQuestTitles": [
+      "Under the Sea"
+    ],
+    "NextQuestIds": [
+      68020
+    ],
+    "NextQuestTitles": [
+      "In Soroban We Trust"
+    ],
+    "StarterNpc": "Soroban",
+    "FinishNpc": "Soroban",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 380
+  },
+  {
+    "QuestId": 68020,
+    "QuestTitle": "In Soroban We Trust",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [
+      68021
+    ],
+    "NextQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "StarterNpc": "Soroban",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 390
+  },
+  {
+    "QuestId": 68021,
+    "QuestTitle": "Forever and Ever Apart",
+    "PreviousQuestIds": [
+      68020
+    ],
+    "PreviousQuestTitles": [
+      "In Soroban We Trust"
+    ],
+    "NextQuestIds": [
+      68022
+    ],
+    "NextQuestTitles": [
+      "In Darkness the Magatama Dreams"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 400
+  },
+  {
+    "QuestId": 68022,
+    "QuestTitle": "In Darkness the Magatama Dreams",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [
+      68023
+    ],
+    "NextQuestTitles": [
+      "The Whims of the Divine"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 410
+  },
+  {
+    "QuestId": 68023,
+    "QuestTitle": "The Whims of the Divine",
+    "PreviousQuestIds": [
+      68022
+    ],
+    "PreviousQuestTitles": [
+      "In Darkness the Magatama Dreams"
+    ],
+    "NextQuestIds": [
+      68024
+    ],
+    "NextQuestTitles": [
+      "Breaking and Delivering"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 420
+  },
+  {
+    "QuestId": 68024,
+    "QuestTitle": "Breaking and Delivering",
+    "PreviousQuestIds": [
+      68023
+    ],
+    "PreviousQuestTitles": [
+      "The Whims of the Divine"
+    ],
+    "NextQuestIds": [
+      68025
+    ],
+    "NextQuestTitles": [
+      "The Lord of the Revel"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 430
+  },
+  {
+    "QuestId": 68025,
+    "QuestTitle": "The Lord of the Revel",
+    "PreviousQuestIds": [
+      68024
+    ],
+    "PreviousQuestTitles": [
+      "Breaking and Delivering"
+    ],
+    "NextQuestIds": [
+      68026
+    ],
+    "NextQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 440
+  },
+  {
+    "QuestId": 68026,
+    "QuestTitle": "Tide Goes in, Imperials Go Out",
+    "PreviousQuestIds": [
+      68025
+    ],
+    "PreviousQuestTitles": [
+      "The Lord of the Revel"
+    ],
+    "NextQuestIds": [
+      68027
+    ],
+    "NextQuestTitles": [
+      "A Silence in Three Parts"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 450
+  },
+  {
+    "QuestId": 68027,
+    "QuestTitle": "A Silence in Three Parts",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [
+      68028
+    ],
+    "NextQuestTitles": [
+      "Life after Doma"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Gosetsu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 460
+  },
+  {
+    "QuestId": 68028,
+    "QuestTitle": "Life after Doma",
+    "PreviousQuestIds": [
+      68027
+    ],
+    "PreviousQuestTitles": [
+      "A Silence in Three Parts"
+    ],
+    "NextQuestIds": [
+      68470
+    ],
+    "NextQuestTitles": [
+      "A Glimpse of Madness"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Gosetsu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 470
+  },
+  {
+    "QuestId": 68029,
+    "QuestTitle": "The Stubborn Remainder",
+    "PreviousQuestIds": [
+      68470
+    ],
+    "PreviousQuestTitles": [
+      "A Glimpse of Madness"
+    ],
+    "NextQuestIds": [
+      68030
+    ],
+    "NextQuestTitles": [
+      "The Ones We Leave Behind"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 490
+  },
+  {
+    "QuestId": 68030,
+    "QuestTitle": "The Ones We Leave Behind",
+    "PreviousQuestIds": [
+      68029
+    ],
+    "PreviousQuestTitles": [
+      "The Stubborn Remainder"
+    ],
+    "NextQuestIds": [
+      68031
+    ],
+    "NextQuestTitles": [
+      "A New Ruby Tithe"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 500
+  },
+  {
+    "QuestId": 68031,
+    "QuestTitle": "A New Ruby Tithe",
+    "PreviousQuestIds": [
+      68030
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind"
+    ],
+    "NextQuestIds": [
+      68032
+    ],
+    "NextQuestTitles": [
+      "The Will to Live"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 510
+  },
+  {
+    "QuestId": 68032,
+    "QuestTitle": "The Will to Live",
+    "PreviousQuestIds": [
+      68031
+    ],
+    "PreviousQuestTitles": [
+      "A New Ruby Tithe"
+    ],
+    "NextQuestIds": [
+      68033
+    ],
+    "NextQuestTitles": [
+      "Daughter of the Deep"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "captured villager",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 520
+  },
+  {
+    "QuestId": 68033,
+    "QuestTitle": "Daughter of the Deep",
+    "PreviousQuestIds": [
+      68032
+    ],
+    "PreviousQuestTitles": [
+      "The Will to Live"
+    ],
+    "NextQuestIds": [
+      68471
+    ],
+    "NextQuestTitles": [
+      "Path of No Return"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 530
+  },
+  {
+    "QuestId": 68034,
+    "QuestTitle": "The Time between the Seconds",
+    "PreviousQuestIds": [
+      68471
+    ],
+    "PreviousQuestTitles": [
+      "Path of No Return"
+    ],
+    "NextQuestIds": [
+      68035
+    ],
+    "NextQuestTitles": [
+      "All the Little Angels"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 550
+  },
+  {
+    "QuestId": 68035,
+    "QuestTitle": "All the Little Angels",
+    "PreviousQuestIds": [
+      68034
+    ],
+    "PreviousQuestTitles": [
+      "The Time between the Seconds"
+    ],
+    "NextQuestIds": [
+      68166
+    ],
+    "NextQuestTitles": [
+      "Here There Be Xaela"
+    ],
+    "StarterNpc": "Isse",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 560
+  },
+  {
+    "QuestId": 68036,
+    "QuestTitle": "The Search for Lord Hien",
+    "PreviousQuestIds": [
+      68166
+    ],
+    "PreviousQuestTitles": [
+      "Here There Be Xaela"
+    ],
+    "NextQuestIds": [
+      68037
+    ],
+    "NextQuestTitles": [
+      "A Season for War"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 580
+  },
+  {
+    "QuestId": 68037,
+    "QuestTitle": "A Season for War",
+    "PreviousQuestIds": [
+      68036
+    ],
+    "PreviousQuestTitles": [
+      "The Search for Lord Hien"
+    ],
+    "NextQuestIds": [
+      68038
+    ],
+    "NextQuestTitles": [
+      "An Impossible Dream"
+    ],
+    "StarterNpc": "Cirina",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 590
+  },
+  {
+    "QuestId": 68038,
+    "QuestTitle": "An Impossible Dream",
+    "PreviousQuestIds": [
+      68037
+    ],
+    "PreviousQuestTitles": [
+      "A Season for War"
+    ],
+    "NextQuestIds": [
+      68039
+    ],
+    "NextQuestTitles": [
+      "Stars in the Dark"
+    ],
+    "StarterNpc": "Cirina",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 600
+  },
+  {
+    "QuestId": 68039,
+    "QuestTitle": "Stars in the Dark",
+    "PreviousQuestIds": [
+      68038
+    ],
+    "PreviousQuestTitles": [
+      "An Impossible Dream"
+    ],
+    "NextQuestIds": [
+      68040
+    ],
+    "NextQuestTitles": [
+      "A Warrior\u0027s Welcome"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 610
+  },
+  {
+    "QuestId": 68040,
+    "QuestTitle": "A Warrior\u0027s Welcome",
+    "PreviousQuestIds": [
+      68039
+    ],
+    "PreviousQuestTitles": [
+      "Stars in the Dark"
+    ],
+    "NextQuestIds": [
+      68041
+    ],
+    "NextQuestTitles": [
+      "The Heart of Nations"
+    ],
+    "StarterNpc": "Cirina",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 620
+  },
+  {
+    "QuestId": 68041,
+    "QuestTitle": "The Heart of Nations",
+    "PreviousQuestIds": [
+      68040
+    ],
+    "PreviousQuestTitles": [
+      "A Warrior\u0027s Welcome"
+    ],
+    "NextQuestIds": [
+      68042
+    ],
+    "NextQuestTitles": [
+      "A Trial Before the Trial"
+    ],
+    "StarterNpc": "Cirina",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 630
+  },
+  {
+    "QuestId": 68042,
+    "QuestTitle": "A Trial Before the Trial",
+    "PreviousQuestIds": [
+      68041
+    ],
+    "PreviousQuestTitles": [
+      "The Heart of Nations"
+    ],
+    "NextQuestIds": [
+      68043
+    ],
+    "NextQuestTitles": [
+      "In the Footsteps of Bardam the Brave"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 640
+  },
+  {
+    "QuestId": 68043,
+    "QuestTitle": "In the Footsteps of Bardam the Brave",
+    "PreviousQuestIds": [
+      68042
+    ],
+    "PreviousQuestTitles": [
+      "A Trial Before the Trial"
+    ],
+    "NextQuestIds": [
+      68044
+    ],
+    "NextQuestTitles": [
+      "The Children of Azim"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 650
+  },
+  {
+    "QuestId": 68044,
+    "QuestTitle": "The Children of Azim",
+    "PreviousQuestIds": [
+      68043
+    ],
+    "PreviousQuestTitles": [
+      "In the Footsteps of Bardam the Brave"
+    ],
+    "NextQuestIds": [
+      68045
+    ],
+    "NextQuestTitles": [
+      "The Labors of Magnai"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Magnai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 660
+  },
+  {
+    "QuestId": 68045,
+    "QuestTitle": "The Labors of Magnai",
+    "PreviousQuestIds": [
+      68044
+    ],
+    "PreviousQuestTitles": [
+      "The Children of Azim"
+    ],
+    "NextQuestIds": [
+      68046
+    ],
+    "NextQuestTitles": [
+      "For Love of the Moon"
+    ],
+    "StarterNpc": "Baatu",
+    "FinishNpc": "Magnai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 670
+  },
+  {
+    "QuestId": 68046,
+    "QuestTitle": "For Love of the Moon",
+    "PreviousQuestIds": [
+      68045
+    ],
+    "PreviousQuestTitles": [
+      "The Labors of Magnai"
+    ],
+    "NextQuestIds": [
+      68047
+    ],
+    "NextQuestTitles": [
+      "Sworn Enemies of the Sun"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Magnai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 680
+  },
+  {
+    "QuestId": 68047,
+    "QuestTitle": "Sworn Enemies of the Sun",
+    "PreviousQuestIds": [
+      68046
+    ],
+    "PreviousQuestTitles": [
+      "For Love of the Moon"
+    ],
+    "NextQuestIds": [
+      68048
+    ],
+    "NextQuestTitles": [
+      "The Undying Ones"
+    ],
+    "StarterNpc": "Magnai",
+    "FinishNpc": "Gosetsu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 690
+  },
+  {
+    "QuestId": 68048,
+    "QuestTitle": "The Undying Ones",
+    "PreviousQuestIds": [
+      68047
+    ],
+    "PreviousQuestTitles": [
+      "Sworn Enemies of the Sun"
+    ],
+    "NextQuestIds": [
+      68049
+    ],
+    "NextQuestTitles": [
+      "A Final Peace"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Gosetsu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 700
+  },
+  {
+    "QuestId": 68049,
+    "QuestTitle": "A Final Peace",
+    "PreviousQuestIds": [
+      68048
+    ],
+    "PreviousQuestTitles": [
+      "The Undying Ones"
+    ],
+    "NextQuestIds": [
+      68050
+    ],
+    "NextQuestTitles": [
+      "As the Gods Will"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Gosetsu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 710
+  },
+  {
+    "QuestId": 68050,
+    "QuestTitle": "As the Gods Will",
+    "PreviousQuestIds": [
+      68049
+    ],
+    "PreviousQuestTitles": [
+      "A Final Peace"
+    ],
+    "NextQuestIds": [
+      68051
+    ],
+    "NextQuestTitles": [
+      "Naadam"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 720
+  },
+  {
+    "QuestId": 68051,
+    "QuestTitle": "Naadam",
+    "PreviousQuestIds": [
+      68050
+    ],
+    "PreviousQuestTitles": [
+      "As the Gods Will"
+    ],
+    "NextQuestIds": [
+      68052
+    ],
+    "NextQuestTitles": [
+      "Glory to the Khagan"
+    ],
+    "StarterNpc": "Cirina",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 730
+  },
+  {
+    "QuestId": 68052,
+    "QuestTitle": "Glory to the Khagan",
+    "PreviousQuestIds": [
+      68051
+    ],
+    "PreviousQuestTitles": [
+      "Naadam"
+    ],
+    "NextQuestIds": [
+      68053
+    ],
+    "NextQuestTitles": [
+      "In Crimson They Walked"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 740
+  },
+  {
+    "QuestId": 68053,
+    "QuestTitle": "In Crimson They Walked",
+    "PreviousQuestIds": [
+      68052
+    ],
+    "PreviousQuestTitles": [
+      "Glory to the Khagan"
+    ],
+    "NextQuestIds": [
+      68054
+    ],
+    "NextQuestTitles": [
+      "The Hour of Reckoning"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 750
+  },
+  {
+    "QuestId": 68054,
+    "QuestTitle": "The Hour of Reckoning",
+    "PreviousQuestIds": [
+      68053
+    ],
+    "PreviousQuestTitles": [
+      "In Crimson They Walked"
+    ],
+    "NextQuestIds": [
+      68055
+    ],
+    "NextQuestTitles": [
+      "The Room Where It Happened"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 760
+  },
+  {
+    "QuestId": 68055,
+    "QuestTitle": "The Room Where It Happened",
+    "PreviousQuestIds": [
+      68054
+    ],
+    "PreviousQuestTitles": [
+      "The Hour of Reckoning"
+    ],
+    "NextQuestIds": [
+      68482
+    ],
+    "NextQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Tataru",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 770
+  },
+  {
+    "QuestId": 68056,
+    "QuestTitle": "Seeds of Despair",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [
+      68057
+    ],
+    "NextQuestTitles": [
+      "The Limits of Our Endurance"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 790
+  },
+  {
+    "QuestId": 68057,
+    "QuestTitle": "The Limits of Our Endurance",
+    "PreviousQuestIds": [
+      68056
+    ],
+    "PreviousQuestTitles": [
+      "Seeds of Despair"
+    ],
+    "NextQuestIds": [
+      68483
+    ],
+    "NextQuestTitles": [
+      "Broken Steel, Broken Men"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Tsuranuki",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 800
+  },
+  {
+    "QuestId": 68058,
+    "QuestTitle": "The Doma Within",
+    "PreviousQuestIds": [
+      68483
+    ],
+    "PreviousQuestTitles": [
+      "Broken Steel, Broken Men"
+    ],
+    "NextQuestIds": [
+      68059
+    ],
+    "NextQuestTitles": [
+      "On the Eve of Destiny"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 820
+  },
+  {
+    "QuestId": 68059,
+    "QuestTitle": "On the Eve of Destiny",
+    "PreviousQuestIds": [
+      68058
+    ],
+    "PreviousQuestTitles": [
+      "The Doma Within"
+    ],
+    "NextQuestIds": [
+      68060
+    ],
+    "NextQuestTitles": [
+      "The Die Is Cast"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 830
+  },
+  {
+    "QuestId": 68060,
+    "QuestTitle": "The Die Is Cast",
+    "PreviousQuestIds": [
+      68059
+    ],
+    "PreviousQuestTitles": [
+      "On the Eve of Destiny"
+    ],
+    "NextQuestIds": [
+      68061
+    ],
+    "NextQuestTitles": [
+      "The World Turned Upside Down"
+    ],
+    "StarterNpc": "Hien",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 840
+  },
+  {
+    "QuestId": 68061,
+    "QuestTitle": "The World Turned Upside Down",
+    "PreviousQuestIds": [
+      68060
+    ],
+    "PreviousQuestTitles": [
+      "The Die Is Cast"
+    ],
+    "NextQuestIds": [
+      68062
+    ],
+    "NextQuestTitles": [
+      "A Swift and Secret Departure"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Rasho",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 850
+  },
+  {
+    "QuestId": 68062,
+    "QuestTitle": "A Swift and Secret Departure",
+    "PreviousQuestIds": [
+      68061
+    ],
+    "PreviousQuestTitles": [
+      "The World Turned Upside Down"
+    ],
+    "NextQuestIds": [
+      68063
+    ],
+    "NextQuestTitles": [
+      "While You Were Away"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 860
+  },
+  {
+    "QuestId": 68063,
+    "QuestTitle": "While You Were Away",
+    "PreviousQuestIds": [
+      68062
+    ],
+    "PreviousQuestTitles": [
+      "A Swift and Secret Departure"
+    ],
+    "NextQuestIds": [
+      68064
+    ],
+    "NextQuestTitles": [
+      "Rhalgr\u0027s Beacon"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Pipin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 870
+  },
+  {
+    "QuestId": 68064,
+    "QuestTitle": "Rhalgr\u0027s Beacon",
+    "PreviousQuestIds": [
+      68063
+    ],
+    "PreviousQuestTitles": [
+      "While You Were Away"
+    ],
+    "NextQuestIds": [
+      68065
+    ],
+    "NextQuestTitles": [
+      "The Fortunes of War"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 880
+  },
+  {
+    "QuestId": 68065,
+    "QuestTitle": "The Fortunes of War",
+    "PreviousQuestIds": [
+      68064
+    ],
+    "PreviousQuestTitles": [
+      "Rhalgr\u0027s Beacon"
+    ],
+    "NextQuestIds": [
+      68066
+    ],
+    "NextQuestTitles": [
+      "Rising Fortunes, Rising Spirits"
+    ],
+    "StarterNpc": "Conrad",
+    "FinishNpc": "Conrad",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 890
+  },
+  {
+    "QuestId": 68066,
+    "QuestTitle": "Rising Fortunes, Rising Spirits",
+    "PreviousQuestIds": [
+      68065
+    ],
+    "PreviousQuestTitles": [
+      "The Fortunes of War"
+    ],
+    "NextQuestIds": [
+      68067
+    ],
+    "NextQuestTitles": [
+      "The Lure of the Dream"
+    ],
+    "StarterNpc": "Conrad",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 900
+  },
+  {
+    "QuestId": 68067,
+    "QuestTitle": "The Lure of the Dream",
+    "PreviousQuestIds": [
+      68066
+    ],
+    "PreviousQuestTitles": [
+      "Rising Fortunes, Rising Spirits"
+    ],
+    "NextQuestIds": [
+      68068
+    ],
+    "NextQuestTitles": [
+      "The Lady of Bliss"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Vajra",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 910
+  },
+  {
+    "QuestId": 68068,
+    "QuestTitle": "The Lady of Bliss",
+    "PreviousQuestIds": [
+      68067
+    ],
+    "PreviousQuestTitles": [
+      "The Lure of the Dream"
+    ],
+    "NextQuestIds": [
+      68069
+    ],
+    "NextQuestTitles": [
+      "The Silence of the Gods"
+    ],
+    "StarterNpc": "Vajra",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 920
+  },
+  {
+    "QuestId": 68069,
+    "QuestTitle": "The Silence of the Gods",
+    "PreviousQuestIds": [
+      68068
+    ],
+    "PreviousQuestTitles": [
+      "The Lady of Bliss"
+    ],
+    "NextQuestIds": [
+      68070
+    ],
+    "NextQuestTitles": [
+      "The First of Many"
+    ],
+    "StarterNpc": "Vajra",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 930
+  },
+  {
+    "QuestId": 68070,
+    "QuestTitle": "The First of Many",
+    "PreviousQuestIds": [
+      68069
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods"
+    ],
+    "NextQuestIds": [
+      68071
+    ],
+    "NextQuestTitles": [
+      "Strong and Unified"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 940
+  },
+  {
+    "QuestId": 68071,
+    "QuestTitle": "Strong and Unified",
+    "PreviousQuestIds": [
+      68070
+    ],
+    "PreviousQuestTitles": [
+      "The First of Many"
+    ],
+    "NextQuestIds": [
+      68072
+    ],
+    "NextQuestTitles": [
+      "Hells Open"
+    ],
+    "StarterNpc": "M\u0027naago",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 950
+  },
+  {
+    "QuestId": 68072,
+    "QuestTitle": "Hells Open",
+    "PreviousQuestIds": [
+      68071
+    ],
+    "PreviousQuestTitles": [
+      "Strong and Unified"
+    ],
+    "NextQuestIds": [
+      68073
+    ],
+    "NextQuestTitles": [
+      "Heavens Weep"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 960
+  },
+  {
+    "QuestId": 68073,
+    "QuestTitle": "Heavens Weep",
+    "PreviousQuestIds": [
+      68072
+    ],
+    "PreviousQuestTitles": [
+      "Hells Open"
+    ],
+    "NextQuestIds": [
+      68074
+    ],
+    "NextQuestTitles": [
+      "The Road Home"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 970
+  },
+  {
+    "QuestId": 68074,
+    "QuestTitle": "The Road Home",
+    "PreviousQuestIds": [
+      68073
+    ],
+    "PreviousQuestTitles": [
+      "Heavens Weep"
+    ],
+    "NextQuestIds": [
+      68075
+    ],
+    "NextQuestTitles": [
+      "For the Living and the Dead"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 980
+  },
+  {
+    "QuestId": 68075,
+    "QuestTitle": "For the Living and the Dead",
+    "PreviousQuestIds": [
+      68074
+    ],
+    "PreviousQuestTitles": [
+      "The Road Home"
+    ],
+    "NextQuestIds": [
+      68076
+    ],
+    "NextQuestTitles": [
+      "Above the Churning Waters"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 990
+  },
+  {
+    "QuestId": 68076,
+    "QuestTitle": "Above the Churning Waters",
+    "PreviousQuestIds": [
+      68075
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead"
+    ],
+    "NextQuestIds": [
+      68077
+    ],
+    "NextQuestTitles": [
+      "The Path Forward"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1000
+  },
+  {
+    "QuestId": 68077,
+    "QuestTitle": "The Path Forward",
+    "PreviousQuestIds": [
+      68076
+    ],
+    "PreviousQuestTitles": [
+      "Above the Churning Waters"
+    ],
+    "NextQuestIds": [
+      68078
+    ],
+    "NextQuestTitles": [
+      "With Tired Hands We Toil"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1010
+  },
+  {
+    "QuestId": 68078,
+    "QuestTitle": "With Tired Hands We Toil",
+    "PreviousQuestIds": [
+      68077
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward"
+    ],
+    "NextQuestIds": [
+      68079
+    ],
+    "NextQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1020
+  },
+  {
+    "QuestId": 68079,
+    "QuestTitle": "Where Courage Endures",
+    "PreviousQuestIds": [
+      68078
+    ],
+    "PreviousQuestTitles": [
+      "With Tired Hands We Toil"
+    ],
+    "NextQuestIds": [
+      68080
+    ],
+    "NextQuestTitles": [
+      "The Price of Freedom"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "young Hellsguard",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1030
+  },
+  {
+    "QuestId": 68080,
+    "QuestTitle": "The Price of Freedom",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [
+      68081
+    ],
+    "NextQuestTitles": [
+      "Raubahn\u0027s Invitation"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1040
+  },
+  {
+    "QuestId": 68081,
+    "QuestTitle": "Raubahn\u0027s Invitation",
+    "PreviousQuestIds": [
+      68080
+    ],
+    "PreviousQuestTitles": [
+      "The Price of Freedom"
+    ],
+    "NextQuestIds": [
+      68082
+    ],
+    "NextQuestTitles": [
+      "Liberty or Death"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "Raubahn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1050
+  },
+  {
+    "QuestId": 68082,
+    "QuestTitle": "Liberty or Death",
+    "PreviousQuestIds": [
+      68081
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation"
+    ],
+    "NextQuestIds": [
+      68083
+    ],
+    "NextQuestTitles": [
+      "The Lady in Red"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1060
+  },
+  {
+    "QuestId": 68083,
+    "QuestTitle": "The Lady in Red",
+    "PreviousQuestIds": [
+      68082
+    ],
+    "PreviousQuestTitles": [
+      "Liberty or Death"
+    ],
+    "NextQuestIds": [
+      68084
+    ],
+    "NextQuestTitles": [
+      "Upon the Great Loch\u0027s Shore"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1070
+  },
+  {
+    "QuestId": 68084,
+    "QuestTitle": "Upon the Great Loch\u0027s Shore",
+    "PreviousQuestIds": [
+      68083
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red"
+    ],
+    "NextQuestIds": [
+      68085
+    ],
+    "NextQuestTitles": [
+      "The Key to Victory"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1080
+  },
+  {
+    "QuestId": 68085,
+    "QuestTitle": "The Key to Victory",
+    "PreviousQuestIds": [
+      68084
+    ],
+    "PreviousQuestTitles": [
+      "Upon the Great Loch\u0027s Shore"
+    ],
+    "NextQuestIds": [
+      68086
+    ],
+    "NextQuestTitles": [
+      "The Resonant"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1090
+  },
+  {
+    "QuestId": 68086,
+    "QuestTitle": "The Resonant",
+    "PreviousQuestIds": [
+      68085
+    ],
+    "PreviousQuestTitles": [
+      "The Key to Victory"
+    ],
+    "NextQuestIds": [
+      68087
+    ],
+    "NextQuestTitles": [
+      "The Legacy of Our Fathers"
+    ],
+    "StarterNpc": "Lyse",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1100
+  },
+  {
+    "QuestId": 68087,
+    "QuestTitle": "The Legacy of Our Fathers",
+    "PreviousQuestIds": [
+      68086
+    ],
+    "PreviousQuestTitles": [
+      "The Resonant"
+    ],
+    "NextQuestIds": [
+      68088
+    ],
+    "NextQuestTitles": [
+      "The Measure of His Reach"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Raubahn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1110
+  },
+  {
+    "QuestId": 68088,
+    "QuestTitle": "The Measure of His Reach",
+    "PreviousQuestIds": [
+      68087
+    ],
+    "PreviousQuestTitles": [
+      "The Legacy of Our Fathers"
+    ],
+    "NextQuestIds": [
+      68089
+    ],
+    "NextQuestTitles": [
+      "Stormblood"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "Pipin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1120
+  },
+  {
+    "QuestId": 68089,
+    "QuestTitle": "Stormblood",
+    "PreviousQuestIds": [
+      68088
+    ],
+    "PreviousQuestTitles": [
+      "The Measure of His Reach"
+    ],
+    "NextQuestIds": [
+      68498
+    ],
+    "NextQuestTitles": [
+      "Arenvald\u0027s Adventure"
+    ],
+    "StarterNpc": "Pipin",
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 1130
+  },
+  {
+    "QuestId": 68166,
+    "QuestTitle": "Here There Be Xaela",
+    "PreviousQuestIds": [
+      68035
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels"
+    ],
+    "NextQuestIds": [
+      68036
+    ],
+    "NextQuestTitles": [
+      "The Search for Lord Hien"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 570
+  },
+  {
+    "QuestId": 68171,
+    "QuestTitle": "Future Rust, Future Dust",
+    "PreviousQuestIds": [
+      67997
+    ],
+    "PreviousQuestTitles": [
+      "Where Men Go as One"
+    ],
+    "NextQuestIds": [
+      68174
+    ],
+    "NextQuestTitles": [
+      "Token of Faith"
+    ],
+    "StarterNpc": "Beves",
+    "FinishNpc": "Beves",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 161
+  },
+  {
+    "QuestId": 68172,
+    "QuestTitle": "A Dash of Green",
+    "PreviousQuestIds": [
+      67997
+    ],
+    "PreviousQuestTitles": [
+      "Where Men Go as One"
+    ],
+    "NextQuestIds": [
+      68174
+    ],
+    "NextQuestTitles": [
+      "Token of Faith"
+    ],
+    "StarterNpc": "Ahelissa",
+    "FinishNpc": "Ahelissa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 162
+  },
+  {
+    "QuestId": 68173,
+    "QuestTitle": "Ye Wayward Brothers",
+    "PreviousQuestIds": [
+      67997
+    ],
+    "PreviousQuestTitles": [
+      "Where Men Go as One"
+    ],
+    "NextQuestIds": [
+      68174
+    ],
+    "NextQuestTitles": [
+      "Token of Faith"
+    ],
+    "StarterNpc": "Ananta battlemaid",
+    "FinishNpc": "Ananta battlemaid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 163
+  },
+  {
+    "QuestId": 68174,
+    "QuestTitle": "Token of Faith",
+    "PreviousQuestIds": [
+      68171,
+      68172,
+      68173
+    ],
+    "PreviousQuestTitles": [
+      "Future Rust, Future Dust",
+      "A Dash of Green",
+      "Ye Wayward Brothers"
+    ],
+    "NextQuestIds": [
+      67998
+    ],
+    "NextQuestTitles": [
+      "Crossing the Velodyna"
+    ],
+    "StarterNpc": "swarthy Resistance fighter",
+    "FinishNpc": "swarthy Resistance fighter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 164
+  },
+  {
+    "QuestId": 68215,
+    "QuestTitle": "The Last Voyage",
+    "PreviousQuestIds": [
+      68016
+    ],
+    "PreviousQuestTitles": [
+      "Confederate Consternation"
+    ],
+    "NextQuestIds": [
+      68017
+    ],
+    "NextQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "StarterNpc": "Aranami",
+    "FinishNpc": "Aranami",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 357
+  },
+  {
+    "QuestId": 68217,
+    "QuestTitle": "The Solace of the Sea",
+    "PreviousQuestIds": [
+      68016
+    ],
+    "PreviousQuestTitles": [
+      "Confederate Consternation"
+    ],
+    "NextQuestIds": [
+      68017
+    ],
+    "NextQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "StarterNpc": "Afumi",
+    "FinishNpc": "Afumi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 353
+  },
+  {
+    "QuestId": 68470,
+    "QuestTitle": "A Glimpse of Madness",
+    "PreviousQuestIds": [
+      68028
+    ],
+    "PreviousQuestTitles": [
+      "Life after Doma"
+    ],
+    "NextQuestIds": [
+      68029
+    ],
+    "NextQuestTitles": [
+      "The Stubborn Remainder"
+    ],
+    "StarterNpc": "Liberation Front guard",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 480
+  },
+  {
+    "QuestId": 68471,
+    "QuestTitle": "Path of No Return",
+    "PreviousQuestIds": [
+      68033
+    ],
+    "PreviousQuestTitles": [
+      "Daughter of the Deep"
+    ],
+    "NextQuestIds": [
+      68034
+    ],
+    "NextQuestTitles": [
+      "The Time between the Seconds"
+    ],
+    "StarterNpc": "Gosetsu",
+    "FinishNpc": "Yugiri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 540
+  },
+  {
+    "QuestId": 68482,
+    "QuestTitle": "How Tataru Got Her Groove Back",
+    "PreviousQuestIds": [
+      68055
+    ],
+    "PreviousQuestTitles": [
+      "The Room Where It Happened"
+    ],
+    "NextQuestIds": [
+      68056
+    ],
+    "NextQuestTitles": [
+      "Seeds of Despair"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 780
+  },
+  {
+    "QuestId": 68483,
+    "QuestTitle": "Broken Steel, Broken Men",
+    "PreviousQuestIds": [
+      68057
+    ],
+    "PreviousQuestTitles": [
+      "The Limits of Our Endurance"
+    ],
+    "NextQuestIds": [
+      68058
+    ],
+    "NextQuestTitles": [
+      "The Doma Within"
+    ],
+    "StarterNpc": "Tsuranuki",
+    "FinishNpc": "Tsuranuki",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 810
+  },
+  {
+    "QuestId": 68489,
+    "QuestTitle": "The Arrows of Misfortune",
+    "PreviousQuestIds": [
+      68016
+    ],
+    "PreviousQuestTitles": [
+      "Confederate Consternation"
+    ],
+    "NextQuestIds": [
+      68017
+    ],
+    "NextQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "StarterNpc": "Kajika",
+    "FinishNpc": "Kajika",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 355
+  },
+  {
+    "QuestId": 68490,
+    "QuestTitle": "Hard Country",
+    "PreviousQuestIds": [
+      67992
+    ],
+    "PreviousQuestTitles": [
+      "The Prodigal Daughter"
+    ],
+    "NextQuestIds": [
+      67993
+    ],
+    "NextQuestTitles": [
+      "A Life More Ordinary"
+    ],
+    "StarterNpc": "Griseldis",
+    "FinishNpc": "Griseldis",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 112
+  },
+  {
+    "QuestId": 68491,
+    "QuestTitle": "Death by a Thousand Rocks",
+    "PreviousQuestIds": [
+      67992
+    ],
+    "PreviousQuestTitles": [
+      "The Prodigal Daughter"
+    ],
+    "NextQuestIds": [
+      67993
+    ],
+    "NextQuestTitles": [
+      "A Life More Ordinary"
+    ],
+    "StarterNpc": "Angry Coeurl",
+    "FinishNpc": "Angry Coeurl",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 6,
+      "JournalCategory": {
+        "Id": 6,
+        "Name": "Stormblood Main Scenario Quests"
+      },
+      "Name": "Stormblood"
+    },
+    "SortKey": 114
+  }
+]

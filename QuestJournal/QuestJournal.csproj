@@ -10,9 +10,19 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <!-- Include QuestData.json in data directory -->
         <Content Include="..\Data\QuestData.json">
+		<Link>Data\QuestData.json</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <TargetPath>QuestJournal\QuestData.json</TargetPath>
+            <Visible>true</Visible>
+        </Content>
+        
+        <!-- Include MSQ subdirectory and all its files in data directory -->
+        <Content Include="..\Data\MSQ\*">
+			<Link>Data\MSQ\%(FileName)%(Extension)</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>QuestJournal\MSQ\%(FileName)%(Extension)</TargetPath>
             <Visible>true</Visible>
         </Content>
     </ItemGroup>

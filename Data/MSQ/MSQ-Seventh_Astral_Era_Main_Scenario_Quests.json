@@ -1,0 +1,2246 @@
+[
+  {
+    "QuestId": 65588,
+    "QuestTitle": "Traitor in the Midst",
+    "PreviousQuestIds": [
+      66996
+    ],
+    "PreviousQuestTitles": [
+      "Brave New Companions"
+    ],
+    "NextQuestIds": [
+      65589
+    ],
+    "NextQuestTitles": [
+      "Back and Fourth"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Raubahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 58
+  },
+  {
+    "QuestId": 65589,
+    "QuestTitle": "Back and Fourth",
+    "PreviousQuestIds": [
+      65588
+    ],
+    "PreviousQuestTitles": [
+      "Traitor in the Midst"
+    ],
+    "NextQuestIds": [
+      65590
+    ],
+    "NextQuestTitles": [
+      "Coming to Terms"
+    ],
+    "StarterNpc": "Ilberd",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 59
+  },
+  {
+    "QuestId": 65590,
+    "QuestTitle": "Coming to Terms",
+    "PreviousQuestIds": [
+      65589
+    ],
+    "PreviousQuestTitles": [
+      "Back and Fourth"
+    ],
+    "NextQuestIds": [
+      65593
+    ],
+    "NextQuestTitles": [
+      "The Intercession of Saints"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "House Fortemps guard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 60
+  },
+  {
+    "QuestId": 65593,
+    "QuestTitle": "The Intercession of Saints",
+    "PreviousQuestIds": [
+      65590
+    ],
+    "PreviousQuestTitles": [
+      "Coming to Terms"
+    ],
+    "NextQuestIds": [
+      65598
+    ],
+    "NextQuestTitles": [
+      "Strength in Unity"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 61
+  },
+  {
+    "QuestId": 65598,
+    "QuestTitle": "Strength in Unity",
+    "PreviousQuestIds": [
+      65593
+    ],
+    "PreviousQuestTitles": [
+      "The Intercession of Saints"
+    ],
+    "NextQuestIds": [
+      65605
+    ],
+    "NextQuestTitles": [
+      "Dark Words, Dark Deeds"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Drillemont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 62
+  },
+  {
+    "QuestId": 65605,
+    "QuestTitle": "Dark Words, Dark Deeds",
+    "PreviousQuestIds": [
+      65598
+    ],
+    "PreviousQuestTitles": [
+      "Strength in Unity"
+    ],
+    "NextQuestIds": [
+      65610
+    ],
+    "NextQuestTitles": [
+      "First Blood"
+    ],
+    "StarterNpc": "Drillemont",
+    "FinishNpc": "Drillemont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 63
+  },
+  {
+    "QuestId": 65610,
+    "QuestTitle": "First Blood",
+    "PreviousQuestIds": [
+      65605
+    ],
+    "PreviousQuestTitles": [
+      "Dark Words, Dark Deeds"
+    ],
+    "NextQuestIds": [
+      65611
+    ],
+    "NextQuestTitles": [
+      "The Path of the Righteous"
+    ],
+    "StarterNpc": "Drillemont",
+    "FinishNpc": "Drillemont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 64
+  },
+  {
+    "QuestId": 65611,
+    "QuestTitle": "The Path of the Righteous",
+    "PreviousQuestIds": [
+      65610
+    ],
+    "PreviousQuestTitles": [
+      "First Blood"
+    ],
+    "NextQuestIds": [
+      65613
+    ],
+    "NextQuestTitles": [
+      "For the Greater Good"
+    ],
+    "StarterNpc": "Drillemont",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 65
+  },
+  {
+    "QuestId": 65613,
+    "QuestTitle": "For the Greater Good",
+    "PreviousQuestIds": [
+      65611
+    ],
+    "PreviousQuestTitles": [
+      "The Path of the Righteous"
+    ],
+    "NextQuestIds": [
+      65614
+    ],
+    "NextQuestTitles": [
+      "Tendrils of Intrigue"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 66
+  },
+  {
+    "QuestId": 65614,
+    "QuestTitle": "Tendrils of Intrigue",
+    "PreviousQuestIds": [
+      65613
+    ],
+    "PreviousQuestTitles": [
+      "For the Greater Good"
+    ],
+    "NextQuestIds": [
+      69422
+    ],
+    "NextQuestTitles": [
+      "Chasing Ivy"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Ilberd",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 67
+  },
+  {
+    "QuestId": 65618,
+    "QuestTitle": "A Simple Plan",
+    "PreviousQuestIds": [
+      69423
+    ],
+    "PreviousQuestTitles": [
+      "In Flagrante Delicto"
+    ],
+    "NextQuestIds": [
+      65620
+    ],
+    "NextQuestTitles": [
+      "The Instruments of Our Deliverance"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 71
+  },
+  {
+    "QuestId": 65620,
+    "QuestTitle": "The Instruments of Our Deliverance",
+    "PreviousQuestIds": [
+      65618
+    ],
+    "PreviousQuestTitles": [
+      "A Simple Plan"
+    ],
+    "NextQuestIds": [
+      65622
+    ],
+    "NextQuestTitles": [
+      "The Road Less Traveled"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Moenbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 72
+  },
+  {
+    "QuestId": 65622,
+    "QuestTitle": "The Road Less Traveled",
+    "PreviousQuestIds": [
+      65620
+    ],
+    "PreviousQuestTitles": [
+      "The Instruments of Our Deliverance"
+    ],
+    "NextQuestIds": [
+      65623
+    ],
+    "NextQuestTitles": [
+      "Eyes Unclouded"
+    ],
+    "StarterNpc": "Moenbryda",
+    "FinishNpc": "House Fortemps guard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 73
+  },
+  {
+    "QuestId": 65623,
+    "QuestTitle": "Eyes Unclouded",
+    "PreviousQuestIds": [
+      65622
+    ],
+    "PreviousQuestTitles": [
+      "The Road Less Traveled"
+    ],
+    "NextQuestIds": [
+      65624
+    ],
+    "NextQuestTitles": [
+      "The Reason Roaille"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 74
+  },
+  {
+    "QuestId": 65624,
+    "QuestTitle": "The Reason Roaille",
+    "PreviousQuestIds": [
+      65623
+    ],
+    "PreviousQuestTitles": [
+      "Eyes Unclouded"
+    ],
+    "NextQuestIds": [
+      65625
+    ],
+    "NextQuestTitles": [
+      "Let Us Cling Together"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 75
+  },
+  {
+    "QuestId": 65625,
+    "QuestTitle": "Let Us Cling Together",
+    "PreviousQuestIds": [
+      65624
+    ],
+    "PreviousQuestTitles": [
+      "The Reason Roaille"
+    ],
+    "NextQuestIds": [
+      65899
+    ],
+    "NextQuestTitles": [
+      "Good Intentions"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 76
+  },
+  {
+    "QuestId": 65899,
+    "QuestTitle": "Good Intentions",
+    "PreviousQuestIds": [
+      65625
+    ],
+    "PreviousQuestTitles": [
+      "Let Us Cling Together"
+    ],
+    "NextQuestIds": [
+      65900
+    ],
+    "NextQuestTitles": [
+      "Bait and Switch"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Ilberd",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 77
+  },
+  {
+    "QuestId": 65900,
+    "QuestTitle": "Bait and Switch",
+    "PreviousQuestIds": [
+      65899
+    ],
+    "PreviousQuestTitles": [
+      "Good Intentions"
+    ],
+    "NextQuestIds": [
+      65901
+    ],
+    "NextQuestTitles": [
+      "Best Laid Schemes"
+    ],
+    "StarterNpc": "Ilberd",
+    "FinishNpc": "Ilberd",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 78
+  },
+  {
+    "QuestId": 65901,
+    "QuestTitle": "Best Laid Schemes",
+    "PreviousQuestIds": [
+      65900
+    ],
+    "PreviousQuestTitles": [
+      "Bait and Switch"
+    ],
+    "NextQuestIds": [
+      65902
+    ],
+    "NextQuestTitles": [
+      "The Rising Chorus"
+    ],
+    "StarterNpc": "Ilberd",
+    "FinishNpc": "Tataru",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 79
+  },
+  {
+    "QuestId": 65902,
+    "QuestTitle": "The Rising Chorus",
+    "PreviousQuestIds": [
+      65901
+    ],
+    "PreviousQuestTitles": [
+      "Best Laid Schemes"
+    ],
+    "NextQuestIds": [
+      69424
+    ],
+    "NextQuestTitles": [
+      "Aether on Demand"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 80
+  },
+  {
+    "QuestId": 65904,
+    "QuestTitle": "On the Counteroffensive",
+    "PreviousQuestIds": [
+      69424
+    ],
+    "PreviousQuestTitles": [
+      "Aether on Demand"
+    ],
+    "NextQuestIds": [
+      65905
+    ],
+    "NextQuestTitles": [
+      "An Uninvited Ascian"
+    ],
+    "StarterNpc": "Edelstein",
+    "FinishNpc": "Edelstein",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 82
+  },
+  {
+    "QuestId": 65905,
+    "QuestTitle": "An Uninvited Ascian",
+    "PreviousQuestIds": [
+      65904
+    ],
+    "PreviousQuestTitles": [
+      "On the Counteroffensive"
+    ],
+    "NextQuestIds": [
+      65965
+    ],
+    "NextQuestTitles": [
+      "In Memory of Moenbryda"
+    ],
+    "StarterNpc": "Edelstein",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 83
+  },
+  {
+    "QuestId": 65906,
+    "QuestTitle": "Mask of Grief",
+    "PreviousQuestIds": [
+      65965
+    ],
+    "PreviousQuestTitles": [
+      "In Memory of Moenbryda"
+    ],
+    "NextQuestIds": [
+      65907
+    ],
+    "NextQuestTitles": [
+      "Defenders for Ishgard"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 85
+  },
+  {
+    "QuestId": 65907,
+    "QuestTitle": "Defenders for Ishgard",
+    "PreviousQuestIds": [
+      65906
+    ],
+    "PreviousQuestTitles": [
+      "Mask of Grief"
+    ],
+    "NextQuestIds": [
+      65908
+    ],
+    "NextQuestTitles": [
+      "The Wyrm\u0027s Roar"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 86
+  },
+  {
+    "QuestId": 65908,
+    "QuestTitle": "The Wyrm\u0027s Roar",
+    "PreviousQuestIds": [
+      65907
+    ],
+    "PreviousQuestTitles": [
+      "Defenders for Ishgard"
+    ],
+    "NextQuestIds": [
+      65909
+    ],
+    "NextQuestTitles": [
+      "Committed to the Cause"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 87
+  },
+  {
+    "QuestId": 65909,
+    "QuestTitle": "Committed to the Cause",
+    "PreviousQuestIds": [
+      65908
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Roar"
+    ],
+    "NextQuestIds": [
+      65927
+    ],
+    "NextQuestTitles": [
+      "Volunteer Dragonslayers"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 88
+  },
+  {
+    "QuestId": 65927,
+    "QuestTitle": "Volunteer Dragonslayers",
+    "PreviousQuestIds": [
+      65909
+    ],
+    "PreviousQuestTitles": [
+      "Committed to the Cause"
+    ],
+    "NextQuestIds": [
+      65954
+    ],
+    "NextQuestTitles": [
+      "An Allied Perspective"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Tataru",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 89
+  },
+  {
+    "QuestId": 65954,
+    "QuestTitle": "An Allied Perspective",
+    "PreviousQuestIds": [
+      65927
+    ],
+    "PreviousQuestTitles": [
+      "Volunteer Dragonslayers"
+    ],
+    "NextQuestIds": [
+      70127
+    ],
+    "NextQuestTitles": [
+      "The Steps of Faith"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Marcelain",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 90
+  },
+  {
+    "QuestId": 65956,
+    "QuestTitle": "Administrative Decision",
+    "PreviousQuestIds": [
+      70127
+    ],
+    "PreviousQuestTitles": [
+      "The Steps of Faith"
+    ],
+    "NextQuestIds": [
+      65957,
+      65959
+    ],
+    "NextQuestTitles": [
+      "An Unexpected Ambition",
+      "Where We Are Needed"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 92
+  },
+  {
+    "QuestId": 65957,
+    "QuestTitle": "An Unexpected Ambition",
+    "PreviousQuestIds": [
+      65956
+    ],
+    "PreviousQuestTitles": [
+      "Administrative Decision"
+    ],
+    "NextQuestIds": [
+      65958
+    ],
+    "NextQuestTitles": [
+      "Ancient Ways, Timeless Wants"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 93
+  },
+  {
+    "QuestId": 65958,
+    "QuestTitle": "Ancient Ways, Timeless Wants",
+    "PreviousQuestIds": [
+      65957
+    ],
+    "PreviousQuestTitles": [
+      "An Unexpected Ambition"
+    ],
+    "NextQuestIds": [
+      65961
+    ],
+    "NextQuestTitles": [
+      "A Time to Every Purpose"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 94
+  },
+  {
+    "QuestId": 65959,
+    "QuestTitle": "Where We Are Needed",
+    "PreviousQuestIds": [
+      65956
+    ],
+    "PreviousQuestTitles": [
+      "Administrative Decision"
+    ],
+    "NextQuestIds": [
+      65960
+    ],
+    "NextQuestTitles": [
+      "The Least among Us"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "unsettled scholar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 95
+  },
+  {
+    "QuestId": 65960,
+    "QuestTitle": "The Least among Us",
+    "PreviousQuestIds": [
+      65959
+    ],
+    "PreviousQuestTitles": [
+      "Where We Are Needed"
+    ],
+    "NextQuestIds": [
+      65961
+    ],
+    "NextQuestTitles": [
+      "A Time to Every Purpose"
+    ],
+    "StarterNpc": "unsettled scholar",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 96
+  },
+  {
+    "QuestId": 65961,
+    "QuestTitle": "A Time to Every Purpose",
+    "PreviousQuestIds": [
+      65958,
+      65960
+    ],
+    "PreviousQuestTitles": [
+      "Ancient Ways, Timeless Wants",
+      "The Least among Us"
+    ],
+    "NextQuestIds": [
+      65962
+    ],
+    "NextQuestTitles": [
+      "Come, but Not Gone"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 97
+  },
+  {
+    "QuestId": 65962,
+    "QuestTitle": "Come, but Not Gone",
+    "PreviousQuestIds": [
+      65961
+    ],
+    "PreviousQuestTitles": [
+      "A Time to Every Purpose"
+    ],
+    "NextQuestIds": [
+      65963
+    ],
+    "NextQuestTitles": [
+      "The Parting Glass"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Momodi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 98
+  },
+  {
+    "QuestId": 65963,
+    "QuestTitle": "The Parting Glass",
+    "PreviousQuestIds": [
+      65962
+    ],
+    "PreviousQuestTitles": [
+      "Come, but Not Gone"
+    ],
+    "NextQuestIds": [
+      65964
+    ],
+    "NextQuestTitles": [
+      "Before the Dawn"
+    ],
+    "StarterNpc": "Momodi",
+    "FinishNpc": "Haurchefant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 99
+  },
+  {
+    "QuestId": 65964,
+    "QuestTitle": "Before the Dawn",
+    "PreviousQuestIds": [
+      65963
+    ],
+    "PreviousQuestTitles": [
+      "The Parting Glass"
+    ],
+    "NextQuestIds": [
+      67116
+    ],
+    "NextQuestTitles": [
+      "Coming to Ishgard"
+    ],
+    "StarterNpc": "Haurchefant",
+    "FinishNpc": "House Fortemps guard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 100
+  },
+  {
+    "QuestId": 65965,
+    "QuestTitle": "In Memory of Moenbryda",
+    "PreviousQuestIds": [
+      65905
+    ],
+    "PreviousQuestTitles": [
+      "An Uninvited Ascian"
+    ],
+    "NextQuestIds": [
+      65906
+    ],
+    "NextQuestTitles": [
+      "Mask of Grief"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 84
+  },
+  {
+    "QuestId": 66711,
+    "QuestTitle": "The Price of Principles",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      69410
+    ],
+    "NextQuestTitles": [
+      "Moving On"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 1
+  },
+  {
+    "QuestId": 66725,
+    "QuestTitle": "Hail to the King, Kupo",
+    "PreviousQuestIds": [
+      69413
+    ],
+    "PreviousQuestTitles": [
+      "It\u0027s Possibly a Primal"
+    ],
+    "NextQuestIds": [
+      66726
+    ],
+    "NextQuestTitles": [
+      "You Have Selected Regicide"
+    ],
+    "StarterNpc": "Vorsaile Heuloix",
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 15
+  },
+  {
+    "QuestId": 66726,
+    "QuestTitle": "You Have Selected Regicide",
+    "PreviousQuestIds": [
+      66725
+    ],
+    "PreviousQuestTitles": [
+      "Hail to the King, Kupo"
+    ],
+    "NextQuestIds": [
+      66727
+    ],
+    "NextQuestTitles": [
+      "On the Properties of Primals"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "FinishNpc": "Pukni Pakk",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 16
+  },
+  {
+    "QuestId": 66727,
+    "QuestTitle": "On the Properties of Primals",
+    "PreviousQuestIds": [
+      66726
+    ],
+    "PreviousQuestTitles": [
+      "You Have Selected Regicide"
+    ],
+    "NextQuestIds": [
+      66728
+    ],
+    "NextQuestTitles": [
+      "The Gifted"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 17
+  },
+  {
+    "QuestId": 66728,
+    "QuestTitle": "The Gifted",
+    "PreviousQuestIds": [
+      66727
+    ],
+    "PreviousQuestTitles": [
+      "On the Properties of Primals"
+    ],
+    "NextQuestIds": [
+      69414
+    ],
+    "NextQuestTitles": [
+      "Build on the Stone"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 18
+  },
+  {
+    "QuestId": 66882,
+    "QuestTitle": "A Final Temptation",
+    "PreviousQuestIds": [
+      69415
+    ],
+    "PreviousQuestTitles": [
+      "Still Waters"
+    ],
+    "NextQuestIds": [
+      66883
+    ],
+    "NextQuestTitles": [
+      "The Mother of Exiles"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Fufulupa",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 21
+  },
+  {
+    "QuestId": 66883,
+    "QuestTitle": "The Mother of Exiles",
+    "PreviousQuestIds": [
+      66882
+    ],
+    "PreviousQuestTitles": [
+      "A Final Temptation"
+    ],
+    "NextQuestIds": [
+      69416
+    ],
+    "NextQuestTitles": [
+      "Promises to Keep"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Raubahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 22
+  },
+  {
+    "QuestId": 66888,
+    "QuestTitle": "Why We Adventure",
+    "PreviousQuestIds": [
+      69417
+    ],
+    "PreviousQuestTitles": [
+      "Yugiri\u0027s Game"
+    ],
+    "NextQuestIds": [
+      69418
+    ],
+    "NextQuestTitles": [
+      "All Due Respect"
+    ],
+    "StarterNpc": "Hozan",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 27
+  },
+  {
+    "QuestId": 66892,
+    "QuestTitle": "The Sea Rises",
+    "PreviousQuestIds": [
+      69418
+    ],
+    "PreviousQuestTitles": [
+      "All Due Respect"
+    ],
+    "NextQuestIds": [
+      66894
+    ],
+    "NextQuestTitles": [
+      "Scouts in Distress"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 31
+  },
+  {
+    "QuestId": 66894,
+    "QuestTitle": "Scouts in Distress",
+    "PreviousQuestIds": [
+      66892
+    ],
+    "PreviousQuestTitles": [
+      "The Sea Rises"
+    ],
+    "NextQuestIds": [
+      66895
+    ],
+    "NextQuestTitles": [
+      "The Gift of Eternity"
+    ],
+    "StarterNpc": "Falkbryda",
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 33
+  },
+  {
+    "QuestId": 66895,
+    "QuestTitle": "The Gift of Eternity",
+    "PreviousQuestIds": [
+      66894
+    ],
+    "PreviousQuestTitles": [
+      "Scouts in Distress"
+    ],
+    "NextQuestIds": [
+      66896
+    ],
+    "NextQuestTitles": [
+      "Into the Heart of the Whorl"
+    ],
+    "StarterNpc": "Falkbryda",
+    "FinishNpc": "Merlwyb",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 34
+  },
+  {
+    "QuestId": 66896,
+    "QuestTitle": "Into the Heart of the Whorl",
+    "PreviousQuestIds": [
+      66895
+    ],
+    "PreviousQuestTitles": [
+      "The Gift of Eternity"
+    ],
+    "NextQuestIds": [
+      66897
+    ],
+    "NextQuestTitles": [
+      "Lord of the Whorl"
+    ],
+    "StarterNpc": "Merlwyb",
+    "FinishNpc": "Eynzahr Slafyrsyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 35
+  },
+  {
+    "QuestId": 66897,
+    "QuestTitle": "Lord of the Whorl",
+    "PreviousQuestIds": [
+      66896
+    ],
+    "PreviousQuestTitles": [
+      "Into the Heart of the Whorl"
+    ],
+    "NextQuestIds": [
+      66898
+    ],
+    "NextQuestTitles": [
+      "When Yugiri Met the Fraternity"
+    ],
+    "StarterNpc": "Eynzahr Slafyrsyn",
+    "FinishNpc": "Merlwyb",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 36
+  },
+  {
+    "QuestId": 66898,
+    "QuestTitle": "When Yugiri Met the Fraternity",
+    "PreviousQuestIds": [
+      66897
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Whorl"
+    ],
+    "NextQuestIds": [
+      66899
+    ],
+    "NextQuestTitles": [
+      "Through the Maelstrom"
+    ],
+    "StarterNpc": "Zanthael",
+    "FinishNpc": "inconspicuous man",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 37
+  },
+  {
+    "QuestId": 66899,
+    "QuestTitle": "Through the Maelstrom",
+    "PreviousQuestIds": [
+      66898
+    ],
+    "PreviousQuestTitles": [
+      "When Yugiri Met the Fraternity"
+    ],
+    "NextQuestIds": [
+      66978
+    ],
+    "NextQuestTitles": [
+      "The Great Divide"
+    ],
+    "StarterNpc": "Yugiri",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 38
+  },
+  {
+    "QuestId": 66978,
+    "QuestTitle": "The Great Divide",
+    "PreviousQuestIds": [
+      66899
+    ],
+    "PreviousQuestTitles": [
+      "Through the Maelstrom"
+    ],
+    "NextQuestIds": [
+      66979
+    ],
+    "NextQuestTitles": [
+      "Desperate Times"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 39
+  },
+  {
+    "QuestId": 66979,
+    "QuestTitle": "Desperate Times",
+    "PreviousQuestIds": [
+      66978
+    ],
+    "PreviousQuestTitles": [
+      "The Great Divide"
+    ],
+    "NextQuestIds": [
+      69419
+    ],
+    "NextQuestTitles": [
+      "Shock and Awe"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "terrified refugee",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 40
+  },
+  {
+    "QuestId": 66982,
+    "QuestTitle": "Revolution",
+    "PreviousQuestIds": [
+      69420
+    ],
+    "PreviousQuestTitles": [
+      "Reap the Whirlwind"
+    ],
+    "NextQuestIds": [
+      66983
+    ],
+    "NextQuestTitles": [
+      "Stories We Tell"
+    ],
+    "StarterNpc": "Swift",
+    "FinishNpc": "Bartholomew",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 43
+  },
+  {
+    "QuestId": 66983,
+    "QuestTitle": "Stories We Tell",
+    "PreviousQuestIds": [
+      66982
+    ],
+    "PreviousQuestTitles": [
+      "Revolution"
+    ],
+    "NextQuestIds": [
+      66984
+    ],
+    "NextQuestTitles": [
+      "Lord of Levin"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 44
+  },
+  {
+    "QuestId": 66984,
+    "QuestTitle": "Lord of Levin",
+    "PreviousQuestIds": [
+      66983
+    ],
+    "PreviousQuestTitles": [
+      "Stories We Tell"
+    ],
+    "NextQuestIds": [
+      69421
+    ],
+    "NextQuestTitles": [
+      "Levin an Impression"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "serpent lieutenant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 45
+  },
+  {
+    "QuestId": 66989,
+    "QuestTitle": "What Little Gods Are Made Of",
+    "PreviousQuestIds": [
+      69421
+    ],
+    "PreviousQuestTitles": [
+      "Levin an Impression"
+    ],
+    "NextQuestIds": [
+      66992
+    ],
+    "NextQuestTitles": [
+      "Guardian of Eorzea"
+    ],
+    "StarterNpc": "serpent lieutenant",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 50
+  },
+  {
+    "QuestId": 66992,
+    "QuestTitle": "Guardian of Eorzea",
+    "PreviousQuestIds": [
+      66989
+    ],
+    "PreviousQuestTitles": [
+      "What Little Gods Are Made Of"
+    ],
+    "NextQuestIds": [
+      66993
+    ],
+    "NextQuestTitles": [
+      "Recruiting the Realm"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 53
+  },
+  {
+    "QuestId": 66993,
+    "QuestTitle": "Recruiting the Realm",
+    "PreviousQuestIds": [
+      66992
+    ],
+    "PreviousQuestTitles": [
+      "Guardian of Eorzea"
+    ],
+    "NextQuestIds": [
+      66994
+    ],
+    "NextQuestTitles": [
+      "Heretical Harassment"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 54
+  },
+  {
+    "QuestId": 66994,
+    "QuestTitle": "Heretical Harassment",
+    "PreviousQuestIds": [
+      66993
+    ],
+    "PreviousQuestTitles": [
+      "Recruiting the Realm"
+    ],
+    "NextQuestIds": [
+      66995
+    ],
+    "NextQuestTitles": [
+      "When the Cold Sets In"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Haurchefant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 55
+  },
+  {
+    "QuestId": 66995,
+    "QuestTitle": "When the Cold Sets In",
+    "PreviousQuestIds": [
+      66994
+    ],
+    "PreviousQuestTitles": [
+      "Heretical Harassment"
+    ],
+    "NextQuestIds": [
+      66996
+    ],
+    "NextQuestTitles": [
+      "Brave New Companions"
+    ],
+    "StarterNpc": "Haurchefant",
+    "FinishNpc": "Slafborn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 56
+  },
+  {
+    "QuestId": 66996,
+    "QuestTitle": "Brave New Companions",
+    "PreviousQuestIds": [
+      66995
+    ],
+    "PreviousQuestTitles": [
+      "When the Cold Sets In"
+    ],
+    "NextQuestIds": [
+      65588
+    ],
+    "NextQuestTitles": [
+      "Traitor in the Midst"
+    ],
+    "StarterNpc": "Slafborn",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 57
+  },
+  {
+    "QuestId": 69410,
+    "QuestTitle": "Moving On",
+    "PreviousQuestIds": [
+      66711
+    ],
+    "PreviousQuestTitles": [
+      "The Price of Principles"
+    ],
+    "NextQuestIds": [
+      69411
+    ],
+    "NextQuestTitles": [
+      "All Things in Time"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 3
+  },
+  {
+    "QuestId": 69411,
+    "QuestTitle": "All Things in Time",
+    "PreviousQuestIds": [
+      69410
+    ],
+    "PreviousQuestTitles": [
+      "Moving On"
+    ],
+    "NextQuestIds": [
+      69412
+    ],
+    "NextQuestTitles": [
+      "Laying the Foundation"
+    ],
+    "StarterNpc": "F\u0027lhaminn",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 4
+  },
+  {
+    "QuestId": 69412,
+    "QuestTitle": "Laying the Foundation",
+    "PreviousQuestIds": [
+      69411
+    ],
+    "PreviousQuestTitles": [
+      "All Things in Time"
+    ],
+    "NextQuestIds": [
+      69413
+    ],
+    "NextQuestTitles": [
+      "It\u0027s Possibly a Primal"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Slafborn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 6
+  },
+  {
+    "QuestId": 69413,
+    "QuestTitle": "It\u0027s Possibly a Primal",
+    "PreviousQuestIds": [
+      69412
+    ],
+    "PreviousQuestTitles": [
+      "Laying the Foundation"
+    ],
+    "NextQuestIds": [
+      66725
+    ],
+    "NextQuestTitles": [
+      "Hail to the King, Kupo"
+    ],
+    "StarterNpc": "Slafborn",
+    "FinishNpc": "Vorsaile Heuloix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 14
+  },
+  {
+    "QuestId": 69414,
+    "QuestTitle": "Build on the Stone",
+    "PreviousQuestIds": [
+      66728
+    ],
+    "PreviousQuestTitles": [
+      "The Gifted"
+    ],
+    "NextQuestIds": [
+      69415
+    ],
+    "NextQuestTitles": [
+      "Still Waters"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 19
+  },
+  {
+    "QuestId": 69415,
+    "QuestTitle": "Still Waters",
+    "PreviousQuestIds": [
+      69414
+    ],
+    "PreviousQuestTitles": [
+      "Build on the Stone"
+    ],
+    "NextQuestIds": [
+      66882
+    ],
+    "NextQuestTitles": [
+      "A Final Temptation"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Thancred",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 69416,
+    "QuestTitle": "Promises to Keep",
+    "PreviousQuestIds": [
+      66883
+    ],
+    "PreviousQuestTitles": [
+      "The Mother of Exiles"
+    ],
+    "NextQuestIds": [
+      69417
+    ],
+    "NextQuestTitles": [
+      "Yugiri\u0027s Game"
+    ],
+    "StarterNpc": "Raubahn",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 23
+  },
+  {
+    "QuestId": 69417,
+    "QuestTitle": "Yugiri\u0027s Game",
+    "PreviousQuestIds": [
+      69416
+    ],
+    "PreviousQuestTitles": [
+      "Promises to Keep"
+    ],
+    "NextQuestIds": [
+      66888
+    ],
+    "NextQuestTitles": [
+      "Why We Adventure"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Hozan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 25
+  },
+  {
+    "QuestId": 69418,
+    "QuestTitle": "All Due Respect",
+    "PreviousQuestIds": [
+      66888
+    ],
+    "PreviousQuestTitles": [
+      "Why We Adventure"
+    ],
+    "NextQuestIds": [
+      66892
+    ],
+    "NextQuestTitles": [
+      "The Sea Rises"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 30
+  },
+  {
+    "QuestId": 69419,
+    "QuestTitle": "Shock and Awe",
+    "PreviousQuestIds": [
+      66979
+    ],
+    "PreviousQuestTitles": [
+      "Desperate Times"
+    ],
+    "NextQuestIds": [
+      69420
+    ],
+    "NextQuestTitles": [
+      "Reap the Whirlwind"
+    ],
+    "StarterNpc": "terrified refugee",
+    "FinishNpc": "terrified refugee",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 41
+  },
+  {
+    "QuestId": 69420,
+    "QuestTitle": "Reap the Whirlwind",
+    "PreviousQuestIds": [
+      69419
+    ],
+    "PreviousQuestTitles": [
+      "Shock and Awe"
+    ],
+    "NextQuestIds": [
+      66982
+    ],
+    "NextQuestTitles": [
+      "Revolution"
+    ],
+    "StarterNpc": "terrified refugee",
+    "FinishNpc": "Swift",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 42
+  },
+  {
+    "QuestId": 69421,
+    "QuestTitle": "Levin an Impression",
+    "PreviousQuestIds": [
+      66984
+    ],
+    "PreviousQuestTitles": [
+      "Lord of Levin"
+    ],
+    "NextQuestIds": [
+      66989
+    ],
+    "NextQuestTitles": [
+      "What Little Gods Are Made Of"
+    ],
+    "StarterNpc": "serpent lieutenant",
+    "FinishNpc": "serpent lieutenant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 49
+  },
+  {
+    "QuestId": 69422,
+    "QuestTitle": "Chasing Ivy",
+    "PreviousQuestIds": [
+      65614
+    ],
+    "PreviousQuestTitles": [
+      "Tendrils of Intrigue"
+    ],
+    "NextQuestIds": [
+      69423
+    ],
+    "NextQuestTitles": [
+      "In Flagrante Delicto"
+    ],
+    "StarterNpc": "Ilberd",
+    "FinishNpc": "Ilberd",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 68
+  },
+  {
+    "QuestId": 69423,
+    "QuestTitle": "In Flagrante Delicto",
+    "PreviousQuestIds": [
+      69422
+    ],
+    "PreviousQuestTitles": [
+      "Chasing Ivy"
+    ],
+    "NextQuestIds": [
+      65618
+    ],
+    "NextQuestTitles": [
+      "A Simple Plan"
+    ],
+    "StarterNpc": "Ilberd",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 70
+  },
+  {
+    "QuestId": 69424,
+    "QuestTitle": "Aether on Demand",
+    "PreviousQuestIds": [
+      65902
+    ],
+    "PreviousQuestTitles": [
+      "The Rising Chorus"
+    ],
+    "NextQuestIds": [
+      65904
+    ],
+    "NextQuestTitles": [
+      "On the Counteroffensive"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Edelstein",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 81
+  },
+  {
+    "QuestId": 70127,
+    "QuestTitle": "The Steps of Faith",
+    "PreviousQuestIds": [
+      65954
+    ],
+    "PreviousQuestTitles": [
+      "An Allied Perspective"
+    ],
+    "NextQuestIds": [
+      65956
+    ],
+    "NextQuestTitles": [
+      "Administrative Decision"
+    ],
+    "StarterNpc": "Marcelain",
+    "FinishNpc": "Minfilia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 2,
+      "JournalCategory": {
+        "Id": 2,
+        "Name": "Seventh Astral Era Main Scenario Quests"
+      },
+      "Name": "Seventh Astral Era"
+    },
+    "SortKey": 91
+  }
+]

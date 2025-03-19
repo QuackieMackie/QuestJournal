@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Numerics;
 using Dalamud.Interface.Windowing;
+using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using ImGuiNET;
-using QuestJournal.Handlers;
-using QuestJournal.Models;
+using QuestJournal.UI.Handler;
 using QuestJournal.UI.Renderer;
 
 namespace QuestJournal.UI;
@@ -19,7 +18,7 @@ public class MainWindow : Window, IDisposable
     private readonly InformationRenderer informationRenderer;
     private readonly SettingsRenderer settingsRenderer;
 
-    public MainWindow(QuestJournal plugin, List<IQuestInfo> questInfo, IPluginLog log, Configuration configuration) 
+    public MainWindow(QuestJournal plugin, IPluginLog log, Configuration configuration, IDalamudPluginInterface pluginInterface) 
         : base("QuestJournal###QuestJournal-QuackieMackie", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
         this.plugin = plugin;
@@ -30,20 +29,17 @@ public class MainWindow : Window, IDisposable
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
 
-        msqHandler = new MsqHandler(questInfo, log, configuration);
+        msqHandler = new MsqHandler(log, pluginInterface, configuration);
         
         msqRenderer = new MsqRenderer(msqHandler, log);
         informationRenderer = new InformationRenderer();
         settingsRenderer = new SettingsRenderer(configuration);
-        
-        msqHandler.ReloadFilteredQuests();
     }
 
     public override void Draw()
     {
         if (ImGui.Button("Refresh##RefreshButton"))
         {
-            msqHandler.ReloadFilteredQuests();
             log.Info("Refreshed quest list.");
         }
         
@@ -53,7 +49,7 @@ public class MainWindow : Window, IDisposable
         {
             if (ImGui.BeginTabItem("MSQ"))
             {
-                msqRenderer.DrawMsqTab();
+                msqRenderer.DrawTest();
                 ImGui.EndTabItem();
             }
 

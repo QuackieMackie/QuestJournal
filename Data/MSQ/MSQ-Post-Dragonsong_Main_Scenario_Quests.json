@@ -1,0 +1,534 @@
+[
+  {
+    "QuestId": 67877,
+    "QuestTitle": "Promises Kept",
+    "PreviousQuestIds": [
+      67783
+    ],
+    "PreviousQuestTitles": [
+      "Litany of Peace"
+    ],
+    "NextQuestIds": [
+      67878
+    ],
+    "NextQuestTitles": [
+      "Shadows of the First"
+    ],
+    "StarterNpc": "House Fortemps knight",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 1
+  },
+  {
+    "QuestId": 67878,
+    "QuestTitle": "Shadows of the First",
+    "PreviousQuestIds": [
+      67877
+    ],
+    "PreviousQuestTitles": [
+      "Promises Kept"
+    ],
+    "NextQuestIds": [
+      67879
+    ],
+    "NextQuestTitles": [
+      "Two Sides of a Coin"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 2
+  },
+  {
+    "QuestId": 67879,
+    "QuestTitle": "Two Sides of a Coin",
+    "PreviousQuestIds": [
+      67878
+    ],
+    "PreviousQuestTitles": [
+      "Shadows of the First"
+    ],
+    "NextQuestIds": [
+      67880
+    ],
+    "NextQuestTitles": [
+      "Unlikely Allies"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Bloeidin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 3
+  },
+  {
+    "QuestId": 67880,
+    "QuestTitle": "Unlikely Allies",
+    "PreviousQuestIds": [
+      67879
+    ],
+    "PreviousQuestTitles": [
+      "Two Sides of a Coin"
+    ],
+    "NextQuestIds": [
+      67881
+    ],
+    "NextQuestTitles": [
+      "The Beast That Mourned at the Heart of the Mountain"
+    ],
+    "StarterNpc": "Bloeidin",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 4
+  },
+  {
+    "QuestId": 67881,
+    "QuestTitle": "The Beast That Mourned at the Heart of the Mountain",
+    "PreviousQuestIds": [
+      67880
+    ],
+    "PreviousQuestTitles": [
+      "Unlikely Allies"
+    ],
+    "NextQuestIds": [
+      67882
+    ],
+    "NextQuestTitles": [
+      "Beneath a Star-filled Sky"
+    ],
+    "StarterNpc": "Ga Bu",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 5
+  },
+  {
+    "QuestId": 67882,
+    "QuestTitle": "Beneath a Star-filled Sky",
+    "PreviousQuestIds": [
+      67881
+    ],
+    "PreviousQuestTitles": [
+      "The Beast That Mourned at the Heart of the Mountain"
+    ],
+    "NextQuestIds": [
+      67883
+    ],
+    "NextQuestTitles": [
+      "When We Were Free"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 6
+  },
+  {
+    "QuestId": 67883,
+    "QuestTitle": "When We Were Free",
+    "PreviousQuestIds": [
+      67882
+    ],
+    "PreviousQuestTitles": [
+      "Beneath a Star-filled Sky"
+    ],
+    "NextQuestIds": [
+      67884
+    ],
+    "NextQuestTitles": [
+      "Honorable Heroes"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 7
+  },
+  {
+    "QuestId": 67884,
+    "QuestTitle": "Honorable Heroes",
+    "PreviousQuestIds": [
+      67883
+    ],
+    "PreviousQuestTitles": [
+      "When We Were Free"
+    ],
+    "NextQuestIds": [
+      67885
+    ],
+    "NextQuestTitles": [
+      "One Life for One World"
+    ],
+    "StarterNpc": "Papalymo",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 8
+  },
+  {
+    "QuestId": 67885,
+    "QuestTitle": "One Life for One World",
+    "PreviousQuestIds": [
+      67884
+    ],
+    "PreviousQuestTitles": [
+      "Honorable Heroes"
+    ],
+    "NextQuestIds": [
+      67886
+    ],
+    "NextQuestTitles": [
+      "An Ending to Mark a New Beginning"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 9
+  },
+  {
+    "QuestId": 67886,
+    "QuestTitle": "An Ending to Mark a New Beginning",
+    "PreviousQuestIds": [
+      67885
+    ],
+    "PreviousQuestTitles": [
+      "One Life for One World"
+    ],
+    "NextQuestIds": [
+      67887
+    ],
+    "NextQuestTitles": [
+      "Tidings from Gyr Abania"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 67887,
+    "QuestTitle": "Tidings from Gyr Abania",
+    "PreviousQuestIds": [
+      67886
+    ],
+    "PreviousQuestTitles": [
+      "An Ending to Mark a New Beginning"
+    ],
+    "NextQuestIds": [
+      67888
+    ],
+    "NextQuestTitles": [
+      "An Envoy for Ishgard"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Lucia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 11
+  },
+  {
+    "QuestId": 67888,
+    "QuestTitle": "An Envoy for Ishgard",
+    "PreviousQuestIds": [
+      67887
+    ],
+    "PreviousQuestTitles": [
+      "Tidings from Gyr Abania"
+    ],
+    "NextQuestIds": [
+      67889
+    ],
+    "NextQuestTitles": [
+      "An Allied Decision"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Aymeric",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 12
+  },
+  {
+    "QuestId": 67889,
+    "QuestTitle": "An Allied Decision",
+    "PreviousQuestIds": [
+      67888
+    ],
+    "PreviousQuestTitles": [
+      "An Envoy for Ishgard"
+    ],
+    "NextQuestIds": [
+      67890
+    ],
+    "NextQuestTitles": [
+      "Griffin, Griffin on the Wall"
+    ],
+    "StarterNpc": "Aymeric",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 13
+  },
+  {
+    "QuestId": 67890,
+    "QuestTitle": "Griffin, Griffin on the Wall",
+    "PreviousQuestIds": [
+      67889
+    ],
+    "PreviousQuestTitles": [
+      "An Allied Decision"
+    ],
+    "NextQuestIds": [
+      67891
+    ],
+    "NextQuestTitles": [
+      "Louisoix\u0027s Finest Student"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Yda",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 14
+  },
+  {
+    "QuestId": 67891,
+    "QuestTitle": "Louisoix\u0027s Finest Student",
+    "PreviousQuestIds": [
+      67890
+    ],
+    "PreviousQuestTitles": [
+      "Griffin, Griffin on the Wall"
+    ],
+    "NextQuestIds": [
+      67892
+    ],
+    "NextQuestTitles": [
+      "The Obvious Solution"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 15
+  },
+  {
+    "QuestId": 67892,
+    "QuestTitle": "The Obvious Solution",
+    "PreviousQuestIds": [
+      67891
+    ],
+    "PreviousQuestTitles": [
+      "Louisoix\u0027s Finest Student"
+    ],
+    "NextQuestIds": [
+      67893
+    ],
+    "NextQuestTitles": [
+      "The Greater Obeisance"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 16
+  },
+  {
+    "QuestId": 67893,
+    "QuestTitle": "The Greater Obeisance",
+    "PreviousQuestIds": [
+      67892
+    ],
+    "PreviousQuestTitles": [
+      "The Obvious Solution"
+    ],
+    "NextQuestIds": [
+      67894
+    ],
+    "NextQuestTitles": [
+      "Fly Free, My Pretty"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Nero tol Scaeva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 17
+  },
+  {
+    "QuestId": 67894,
+    "QuestTitle": "Fly Free, My Pretty",
+    "PreviousQuestIds": [
+      67893
+    ],
+    "PreviousQuestTitles": [
+      "The Greater Obeisance"
+    ],
+    "NextQuestIds": [
+      67895
+    ],
+    "NextQuestTitles": [
+      "The Far Edge of Fate"
+    ],
+    "StarterNpc": "Yda",
+    "FinishNpc": "Cid",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 18
+  },
+  {
+    "QuestId": 67895,
+    "QuestTitle": "The Far Edge of Fate",
+    "PreviousQuestIds": [
+      67894
+    ],
+    "PreviousQuestTitles": [
+      "Fly Free, My Pretty"
+    ],
+    "NextQuestIds": [
+      67982
+    ],
+    "NextQuestTitles": [
+      "Beyond the Great Wall"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 5,
+      "JournalCategory": {
+        "Id": 5,
+        "Name": "Post-Dragonsong Main Scenario Quests"
+      },
+      "Name": "Post-Dragonsong War"
+    },
+    "SortKey": 19
+  }
+]

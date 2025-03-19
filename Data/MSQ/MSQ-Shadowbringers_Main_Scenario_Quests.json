@@ -1,0 +1,2982 @@
+[
+  {
+    "QuestId": 68815,
+    "QuestTitle": "The Syrcus Trench",
+    "PreviousQuestIds": [
+      68721
+    ],
+    "PreviousQuestTitles": [
+      "A Requiem for Heroes"
+    ],
+    "NextQuestIds": [
+      68816
+    ],
+    "NextQuestTitles": [
+      "City of the First"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 10
+  },
+  {
+    "QuestId": 68816,
+    "QuestTitle": "City of the First",
+    "PreviousQuestIds": [
+      68815
+    ],
+    "PreviousQuestTitles": [
+      "The Syrcus Trench"
+    ],
+    "NextQuestIds": [
+      68817
+    ],
+    "NextQuestTitles": [
+      "Travelers of Norvrandt"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 20
+  },
+  {
+    "QuestId": 68817,
+    "QuestTitle": "Travelers of Norvrandt",
+    "PreviousQuestIds": [
+      68816
+    ],
+    "PreviousQuestTitles": [
+      "City of the First"
+    ],
+    "NextQuestIds": [
+      68818,
+      68827
+    ],
+    "NextQuestTitles": [
+      "In Search of Alphinaud",
+      "In Search of Alisaie"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 30
+  },
+  {
+    "QuestId": 68818,
+    "QuestTitle": "In Search of Alphinaud",
+    "PreviousQuestIds": [
+      68817
+    ],
+    "PreviousQuestTitles": [
+      "Travelers of Norvrandt"
+    ],
+    "NextQuestIds": [
+      68819
+    ],
+    "NextQuestTitles": [
+      "A Still Tide"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Szem Djenmai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 40
+  },
+  {
+    "QuestId": 68819,
+    "QuestTitle": "A Still Tide",
+    "PreviousQuestIds": [
+      68818
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Alphinaud"
+    ],
+    "NextQuestIds": [
+      68820
+    ],
+    "NextQuestTitles": [
+      "Open Arms, Closed Gate"
+    ],
+    "StarterNpc": "Szem Djenmai",
+    "FinishNpc": "Theva",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 50
+  },
+  {
+    "QuestId": 68820,
+    "QuestTitle": "Open Arms, Closed Gate",
+    "PreviousQuestIds": [
+      68819
+    ],
+    "PreviousQuestTitles": [
+      "A Still Tide"
+    ],
+    "NextQuestIds": [
+      68821
+    ],
+    "NextQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 60
+  },
+  {
+    "QuestId": 68821,
+    "QuestTitle": "A Fickle Existence",
+    "PreviousQuestIds": [
+      68820
+    ],
+    "PreviousQuestTitles": [
+      "Open Arms, Closed Gate"
+    ],
+    "NextQuestIds": [
+      68822
+    ],
+    "NextQuestTitles": [
+      "City of Final Pleasures"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Tristol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 70
+  },
+  {
+    "QuestId": 68822,
+    "QuestTitle": "City of Final Pleasures",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [
+      68823
+    ],
+    "NextQuestTitles": [
+      "Free to Sightsee"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Dulia-Chai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 80
+  },
+  {
+    "QuestId": 68823,
+    "QuestTitle": "Free to Sightsee",
+    "PreviousQuestIds": [
+      68822
+    ],
+    "PreviousQuestTitles": [
+      "City of Final Pleasures"
+    ],
+    "NextQuestIds": [
+      68824
+    ],
+    "NextQuestTitles": [
+      "A Taste of Honey"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "amiable maiden",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 90
+  },
+  {
+    "QuestId": 68824,
+    "QuestTitle": "A Taste of Honey",
+    "PreviousQuestIds": [
+      68823
+    ],
+    "PreviousQuestTitles": [
+      "Free to Sightsee"
+    ],
+    "NextQuestIds": [
+      68825
+    ],
+    "NextQuestTitles": [
+      "A Blessed Instrument"
+    ],
+    "StarterNpc": "amiable maiden",
+    "FinishNpc": "Dulia-Chai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 100
+  },
+  {
+    "QuestId": 68825,
+    "QuestTitle": "A Blessed Instrument",
+    "PreviousQuestIds": [
+      68824
+    ],
+    "PreviousQuestTitles": [
+      "A Taste of Honey"
+    ],
+    "NextQuestIds": [
+      68826
+    ],
+    "NextQuestTitles": [
+      "Emergent Splendor"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 110
+  },
+  {
+    "QuestId": 68826,
+    "QuestTitle": "Emergent Splendor",
+    "PreviousQuestIds": [
+      68825
+    ],
+    "PreviousQuestTitles": [
+      "A Blessed Instrument"
+    ],
+    "NextQuestIds": [
+      68836
+    ],
+    "NextQuestTitles": [
+      "The Lightwardens"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 120
+  },
+  {
+    "QuestId": 68827,
+    "QuestTitle": "In Search of Alisaie",
+    "PreviousQuestIds": [
+      68817
+    ],
+    "PreviousQuestTitles": [
+      "Travelers of Norvrandt"
+    ],
+    "NextQuestIds": [
+      68828
+    ],
+    "NextQuestTitles": [
+      "City of the Mord"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Cassard",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 130
+  },
+  {
+    "QuestId": 68828,
+    "QuestTitle": "City of the Mord",
+    "PreviousQuestIds": [
+      68827
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Alisaie"
+    ],
+    "NextQuestIds": [
+      68829
+    ],
+    "NextQuestTitles": [
+      "Working Off the Meal"
+    ],
+    "StarterNpc": "Cassard",
+    "FinishNpc": "Ghen Gen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 140
+  },
+  {
+    "QuestId": 68829,
+    "QuestTitle": "Working Off the Meal",
+    "PreviousQuestIds": [
+      68828
+    ],
+    "PreviousQuestTitles": [
+      "City of the Mord"
+    ],
+    "NextQuestIds": [
+      68830
+    ],
+    "NextQuestTitles": [
+      "A Desert Crossing"
+    ],
+    "StarterNpc": "Cassard",
+    "FinishNpc": "Cassard",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 150
+  },
+  {
+    "QuestId": 68830,
+    "QuestTitle": "A Desert Crossing",
+    "PreviousQuestIds": [
+      68829
+    ],
+    "PreviousQuestTitles": [
+      "Working Off the Meal"
+    ],
+    "NextQuestIds": [
+      68831
+    ],
+    "NextQuestTitles": [
+      "Following in Her Footprints"
+    ],
+    "StarterNpc": "Tesleen",
+    "FinishNpc": "Tesleen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 160
+  },
+  {
+    "QuestId": 68831,
+    "QuestTitle": "Following in Her Footprints",
+    "PreviousQuestIds": [
+      68830
+    ],
+    "PreviousQuestTitles": [
+      "A Desert Crossing"
+    ],
+    "NextQuestIds": [
+      68832
+    ],
+    "NextQuestTitles": [
+      "Culling Their Ranks"
+    ],
+    "StarterNpc": "Tesleen",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 170
+  },
+  {
+    "QuestId": 68832,
+    "QuestTitle": "Culling Their Ranks",
+    "PreviousQuestIds": [
+      68831
+    ],
+    "PreviousQuestTitles": [
+      "Following in Her Footprints"
+    ],
+    "NextQuestIds": [
+      68833
+    ],
+    "NextQuestTitles": [
+      "A Purchase of Fruit"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Tesleen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 180
+  },
+  {
+    "QuestId": 68833,
+    "QuestTitle": "A Purchase of Fruit",
+    "PreviousQuestIds": [
+      68832
+    ],
+    "PreviousQuestTitles": [
+      "Culling Their Ranks"
+    ],
+    "NextQuestIds": [
+      68834
+    ],
+    "NextQuestTitles": [
+      "The Time Left to Us"
+    ],
+    "StarterNpc": "Tesleen",
+    "FinishNpc": "Tesleen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 190
+  },
+  {
+    "QuestId": 68834,
+    "QuestTitle": "The Time Left to Us",
+    "PreviousQuestIds": [
+      68833
+    ],
+    "PreviousQuestTitles": [
+      "A Purchase of Fruit"
+    ],
+    "NextQuestIds": [
+      68835
+    ],
+    "NextQuestTitles": [
+      "Tears on the Sand"
+    ],
+    "StarterNpc": "Tesleen",
+    "FinishNpc": "Halric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 200
+  },
+  {
+    "QuestId": 68835,
+    "QuestTitle": "Tears on the Sand",
+    "PreviousQuestIds": [
+      68834
+    ],
+    "PreviousQuestTitles": [
+      "The Time Left to Us"
+    ],
+    "NextQuestIds": [
+      68836
+    ],
+    "NextQuestTitles": [
+      "The Lightwardens"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 210
+  },
+  {
+    "QuestId": 68836,
+    "QuestTitle": "The Lightwardens",
+    "PreviousQuestIds": [
+      68826,
+      68835
+    ],
+    "PreviousQuestTitles": [
+      "Emergent Splendor",
+      "Tears on the Sand"
+    ],
+    "NextQuestIds": [
+      68837
+    ],
+    "NextQuestTitles": [
+      "Warrior of Darkness"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 220
+  },
+  {
+    "QuestId": 68837,
+    "QuestTitle": "Warrior of Darkness",
+    "PreviousQuestIds": [
+      68836
+    ],
+    "PreviousQuestTitles": [
+      "The Lightwardens"
+    ],
+    "NextQuestIds": [
+      68838
+    ],
+    "NextQuestTitles": [
+      "An Unwelcome Guest"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "manager of suites",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 230
+  },
+  {
+    "QuestId": 68838,
+    "QuestTitle": "An Unwelcome Guest",
+    "PreviousQuestIds": [
+      68837
+    ],
+    "PreviousQuestTitles": [
+      "Warrior of Darkness"
+    ],
+    "NextQuestIds": [
+      68839
+    ],
+    "NextQuestTitles": [
+      "The Crystarium\u0027s Resolve"
+    ],
+    "StarterNpc": "manager of suites",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 240
+  },
+  {
+    "QuestId": 68839,
+    "QuestTitle": "The Crystarium\u0027s Resolve",
+    "PreviousQuestIds": [
+      68838
+    ],
+    "PreviousQuestTitles": [
+      "An Unwelcome Guest"
+    ],
+    "NextQuestIds": [
+      68840
+    ],
+    "NextQuestTitles": [
+      "Logistics of War"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Szem Djenmai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 250
+  },
+  {
+    "QuestId": 68840,
+    "QuestTitle": "Logistics of War",
+    "PreviousQuestIds": [
+      68839
+    ],
+    "PreviousQuestTitles": [
+      "The Crystarium\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      68841
+    ],
+    "NextQuestTitles": [
+      "The Oracle of Light"
+    ],
+    "StarterNpc": "Szem Djenmai",
+    "FinishNpc": "Lyna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 260
+  },
+  {
+    "QuestId": 68841,
+    "QuestTitle": "The Oracle of Light",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [
+      68842
+    ],
+    "NextQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "StarterNpc": "Lyna",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 270
+  },
+  {
+    "QuestId": 68842,
+    "QuestTitle": "Il Mheg, the Faerie Kingdom",
+    "PreviousQuestIds": [
+      68841
+    ],
+    "PreviousQuestTitles": [
+      "The Oracle of Light"
+    ],
+    "NextQuestIds": [
+      68843,
+      68844,
+      68845
+    ],
+    "NextQuestTitles": [
+      "Sul Uin\u0027s Request",
+      "Ys Iala\u0027s Errand",
+      "Oul Sigun\u0027s Plea"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 280
+  },
+  {
+    "QuestId": 68843,
+    "QuestTitle": "Sul Uin\u0027s Request",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [
+      68846
+    ],
+    "NextQuestTitles": [
+      "Unto the Truth"
+    ],
+    "StarterNpc": "Sul Uin",
+    "FinishNpc": "Sul Uin",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 290
+  },
+  {
+    "QuestId": 68844,
+    "QuestTitle": "Ys Iala\u0027s Errand",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [
+      68846
+    ],
+    "NextQuestTitles": [
+      "Unto the Truth"
+    ],
+    "StarterNpc": "Ys Iala",
+    "FinishNpc": "Ys Iala",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 300
+  },
+  {
+    "QuestId": 68845,
+    "QuestTitle": "Oul Sigun\u0027s Plea",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [
+      68846
+    ],
+    "NextQuestTitles": [
+      "Unto the Truth"
+    ],
+    "StarterNpc": "Oul Sigun",
+    "FinishNpc": "Oul Sigun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 310
+  },
+  {
+    "QuestId": 68846,
+    "QuestTitle": "Unto the Truth",
+    "PreviousQuestIds": [
+      68843,
+      68844,
+      68845
+    ],
+    "PreviousQuestTitles": [
+      "Sul Uin\u0027s Request",
+      "Ys Iala\u0027s Errand",
+      "Oul Sigun\u0027s Plea"
+    ],
+    "NextQuestIds": [
+      68847
+    ],
+    "NextQuestTitles": [
+      "Courting Cooperation"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 320
+  },
+  {
+    "QuestId": 68847,
+    "QuestTitle": "Courting Cooperation",
+    "PreviousQuestIds": [
+      68846
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Truth"
+    ],
+    "NextQuestIds": [
+      68848
+    ],
+    "NextQuestTitles": [
+      "The Key to the Castle"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Sul Uin",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 330
+  },
+  {
+    "QuestId": 68848,
+    "QuestTitle": "The Key to the Castle",
+    "PreviousQuestIds": [
+      68847
+    ],
+    "PreviousQuestTitles": [
+      "Courting Cooperation"
+    ],
+    "NextQuestIds": [
+      68849
+    ],
+    "NextQuestTitles": [
+      "A Visit to the Nu Mou"
+    ],
+    "StarterNpc": "Sul Uin",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 340
+  },
+  {
+    "QuestId": 68849,
+    "QuestTitle": "A Visit to the Nu Mou",
+    "PreviousQuestIds": [
+      68848
+    ],
+    "PreviousQuestTitles": [
+      "The Key to the Castle"
+    ],
+    "NextQuestIds": [
+      68850
+    ],
+    "NextQuestTitles": [
+      "A Fitting Payment"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 350
+  },
+  {
+    "QuestId": 68850,
+    "QuestTitle": "A Fitting Payment",
+    "PreviousQuestIds": [
+      68849
+    ],
+    "PreviousQuestTitles": [
+      "A Visit to the Nu Mou"
+    ],
+    "NextQuestIds": [
+      68851
+    ],
+    "NextQuestTitles": [
+      "Spore Sweeper"
+    ],
+    "StarterNpc": "Wyd Aenc",
+    "FinishNpc": "Marn Ose",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 360
+  },
+  {
+    "QuestId": 68851,
+    "QuestTitle": "Spore Sweeper",
+    "PreviousQuestIds": [
+      68850
+    ],
+    "PreviousQuestTitles": [
+      "A Fitting Payment"
+    ],
+    "NextQuestIds": [
+      68852
+    ],
+    "NextQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "StarterNpc": "Ys Gyuf",
+    "FinishNpc": "Ys Gyuf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 370
+  },
+  {
+    "QuestId": 68852,
+    "QuestTitle": "The Lawless Ones",
+    "PreviousQuestIds": [
+      68851
+    ],
+    "PreviousQuestTitles": [
+      "Spore Sweeper"
+    ],
+    "NextQuestIds": [
+      68853
+    ],
+    "NextQuestTitles": [
+      "The Elder\u0027s Answer"
+    ],
+    "StarterNpc": "Wyd Lad",
+    "FinishNpc": "Wyd Lad",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 380
+  },
+  {
+    "QuestId": 68853,
+    "QuestTitle": "The Elder\u0027s Answer",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [
+      68854
+    ],
+    "NextQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "StarterNpc": "Wyd Lad",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 390
+  },
+  {
+    "QuestId": 68854,
+    "QuestTitle": "A Resounding Roar",
+    "PreviousQuestIds": [
+      68853
+    ],
+    "PreviousQuestTitles": [
+      "The Elder\u0027s Answer"
+    ],
+    "NextQuestIds": [
+      68855
+    ],
+    "NextQuestTitles": [
+      "Memento of a Friend"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Seto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 400
+  },
+  {
+    "QuestId": 68855,
+    "QuestTitle": "Memento of a Friend",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [
+      68856
+    ],
+    "NextQuestTitles": [
+      "Acht-la Ormh Inn"
+    ],
+    "StarterNpc": "Seto",
+    "FinishNpc": "Seto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 410
+  },
+  {
+    "QuestId": 68856,
+    "QuestTitle": "Acht-la Ormh Inn",
+    "PreviousQuestIds": [
+      68855
+    ],
+    "PreviousQuestTitles": [
+      "Memento of a Friend"
+    ],
+    "NextQuestIds": [
+      68857
+    ],
+    "NextQuestTitles": [
+      "The Wheel Turns"
+    ],
+    "StarterNpc": "Seto",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 420
+  },
+  {
+    "QuestId": 68857,
+    "QuestTitle": "The Wheel Turns",
+    "PreviousQuestIds": [
+      68856
+    ],
+    "PreviousQuestTitles": [
+      "Acht-la Ormh Inn"
+    ],
+    "NextQuestIds": [
+      68858
+    ],
+    "NextQuestTitles": [
+      "A Party Soon Divided"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "manager of suites",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 430
+  },
+  {
+    "QuestId": 68858,
+    "QuestTitle": "A Party Soon Divided",
+    "PreviousQuestIds": [
+      68857
+    ],
+    "PreviousQuestTitles": [
+      "The Wheel Turns"
+    ],
+    "NextQuestIds": [
+      68859
+    ],
+    "NextQuestTitles": [
+      "A Little Faith"
+    ],
+    "StarterNpc": "manager of suites",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 440
+  },
+  {
+    "QuestId": 68859,
+    "QuestTitle": "A Little Faith",
+    "PreviousQuestIds": [
+      68858
+    ],
+    "PreviousQuestTitles": [
+      "A Party Soon Divided"
+    ],
+    "NextQuestIds": [
+      68860
+    ],
+    "NextQuestTitles": [
+      "Into the Dark"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 450
+  },
+  {
+    "QuestId": 68860,
+    "QuestTitle": "Into the Dark",
+    "PreviousQuestIds": [
+      68859
+    ],
+    "PreviousQuestTitles": [
+      "A Little Faith"
+    ],
+    "NextQuestIds": [
+      68861
+    ],
+    "NextQuestTitles": [
+      "A Day in the Neighborhood"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 460
+  },
+  {
+    "QuestId": 68861,
+    "QuestTitle": "A Day in the Neighborhood",
+    "PreviousQuestIds": [
+      68860
+    ],
+    "PreviousQuestTitles": [
+      "Into the Dark"
+    ],
+    "NextQuestIds": [
+      68862
+    ],
+    "NextQuestTitles": [
+      "A Helping Hand"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Minfilia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 470
+  },
+  {
+    "QuestId": 68862,
+    "QuestTitle": "A Helping Hand",
+    "PreviousQuestIds": [
+      68861
+    ],
+    "PreviousQuestTitles": [
+      "A Day in the Neighborhood"
+    ],
+    "NextQuestIds": [
+      68863
+    ],
+    "NextQuestTitles": [
+      "Lost but Not Forgotten"
+    ],
+    "StarterNpc": "Runar",
+    "FinishNpc": "Ersabel",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 480
+  },
+  {
+    "QuestId": 68863,
+    "QuestTitle": "Lost but Not Forgotten",
+    "PreviousQuestIds": [
+      68862
+    ],
+    "PreviousQuestTitles": [
+      "A Helping Hand"
+    ],
+    "NextQuestIds": [
+      68864
+    ],
+    "NextQuestTitles": [
+      "Saying Good-bye"
+    ],
+    "StarterNpc": "Runar",
+    "FinishNpc": "Runar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 490
+  },
+  {
+    "QuestId": 68864,
+    "QuestTitle": "Saying Good-bye",
+    "PreviousQuestIds": [
+      68863
+    ],
+    "PreviousQuestTitles": [
+      "Lost but Not Forgotten"
+    ],
+    "NextQuestIds": [
+      68865
+    ],
+    "NextQuestTitles": [
+      "Stirring Up Trouble"
+    ],
+    "StarterNpc": "Runar",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 500
+  },
+  {
+    "QuestId": 68865,
+    "QuestTitle": "Stirring Up Trouble",
+    "PreviousQuestIds": [
+      68864
+    ],
+    "PreviousQuestTitles": [
+      "Saying Good-bye"
+    ],
+    "NextQuestIds": [
+      68866
+    ],
+    "NextQuestTitles": [
+      "A Beeautiful Plan"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 510
+  },
+  {
+    "QuestId": 68866,
+    "QuestTitle": "A Beeautiful Plan",
+    "PreviousQuestIds": [
+      68865
+    ],
+    "PreviousQuestTitles": [
+      "Stirring Up Trouble"
+    ],
+    "NextQuestIds": [
+      68867
+    ],
+    "NextQuestTitles": [
+      "An Unwanted Proposal"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 520
+  },
+  {
+    "QuestId": 68867,
+    "QuestTitle": "An Unwanted Proposal",
+    "PreviousQuestIds": [
+      68866
+    ],
+    "PreviousQuestTitles": [
+      "A Beeautiful Plan"
+    ],
+    "NextQuestIds": [
+      68868
+    ],
+    "NextQuestTitles": [
+      "Put to the Proof"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 530
+  },
+  {
+    "QuestId": 68868,
+    "QuestTitle": "Put to the Proof",
+    "PreviousQuestIds": [
+      68867
+    ],
+    "PreviousQuestTitles": [
+      "An Unwanted Proposal"
+    ],
+    "NextQuestIds": [
+      68869
+    ],
+    "NextQuestTitles": [
+      "Into the Wood"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 540
+  },
+  {
+    "QuestId": 68869,
+    "QuestTitle": "Into the Wood",
+    "PreviousQuestIds": [
+      68868
+    ],
+    "PreviousQuestTitles": [
+      "Put to the Proof"
+    ],
+    "NextQuestIds": [
+      68870
+    ],
+    "NextQuestTitles": [
+      "Top of the Tree"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "bow-wielding sentinel",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 550
+  },
+  {
+    "QuestId": 68870,
+    "QuestTitle": "Top of the Tree",
+    "PreviousQuestIds": [
+      68869
+    ],
+    "PreviousQuestTitles": [
+      "Into the Wood"
+    ],
+    "NextQuestIds": [
+      68871
+    ],
+    "NextQuestTitles": [
+      "Look to the Stars"
+    ],
+    "StarterNpc": "Cymet",
+    "FinishNpc": "Almet",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 560
+  },
+  {
+    "QuestId": 68871,
+    "QuestTitle": "Look to the Stars",
+    "PreviousQuestIds": [
+      68870
+    ],
+    "PreviousQuestTitles": [
+      "Top of the Tree"
+    ],
+    "NextQuestIds": [
+      68872
+    ],
+    "NextQuestTitles": [
+      "Mi Casa, Toupasa"
+    ],
+    "StarterNpc": "Almet",
+    "FinishNpc": "Almet",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 570
+  },
+  {
+    "QuestId": 68872,
+    "QuestTitle": "Mi Casa, Toupasa",
+    "PreviousQuestIds": [
+      68871
+    ],
+    "PreviousQuestTitles": [
+      "Look to the Stars"
+    ],
+    "NextQuestIds": [
+      68873
+    ],
+    "NextQuestTitles": [
+      "Legend of the Not-so-hidden Temple"
+    ],
+    "StarterNpc": "Almet",
+    "FinishNpc": "Almet",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 580
+  },
+  {
+    "QuestId": 68873,
+    "QuestTitle": "Legend of the Not-so-hidden Temple",
+    "PreviousQuestIds": [
+      68872
+    ],
+    "PreviousQuestTitles": [
+      "Mi Casa, Toupasa"
+    ],
+    "NextQuestIds": [
+      68874
+    ],
+    "NextQuestTitles": [
+      "The Aftermath"
+    ],
+    "StarterNpc": "Almet",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 590
+  },
+  {
+    "QuestId": 68874,
+    "QuestTitle": "The Aftermath",
+    "PreviousQuestIds": [
+      68873
+    ],
+    "PreviousQuestTitles": [
+      "Legend of the Not-so-hidden Temple"
+    ],
+    "NextQuestIds": [
+      68875
+    ],
+    "NextQuestTitles": [
+      "In Good Faith"
+    ],
+    "StarterNpc": "Almet",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 600
+  },
+  {
+    "QuestId": 68875,
+    "QuestTitle": "In Good Faith",
+    "PreviousQuestIds": [
+      68874
+    ],
+    "PreviousQuestTitles": [
+      "The Aftermath"
+    ],
+    "NextQuestIds": [
+      68876
+    ],
+    "NextQuestTitles": [
+      "The Burden of Knowledge"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 610
+  },
+  {
+    "QuestId": 68876,
+    "QuestTitle": "The Burden of Knowledge",
+    "PreviousQuestIds": [
+      68875
+    ],
+    "PreviousQuestTitles": [
+      "In Good Faith"
+    ],
+    "NextQuestIds": [
+      68877
+    ],
+    "NextQuestTitles": [
+      "Bearing with It"
+    ],
+    "StarterNpc": "Almet",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 620
+  },
+  {
+    "QuestId": 68877,
+    "QuestTitle": "Bearing with It",
+    "PreviousQuestIds": [
+      68876
+    ],
+    "PreviousQuestTitles": [
+      "The Burden of Knowledge"
+    ],
+    "NextQuestIds": [
+      68878
+    ],
+    "NextQuestTitles": [
+      "Out of the Wood"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Runar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 630
+  },
+  {
+    "QuestId": 68878,
+    "QuestTitle": "Out of the Wood",
+    "PreviousQuestIds": [
+      68877
+    ],
+    "PreviousQuestTitles": [
+      "Bearing with It"
+    ],
+    "NextQuestIds": [
+      69142
+    ],
+    "NextQuestTitles": [
+      "When It Rains"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "manager of suites",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 640
+  },
+  {
+    "QuestId": 69142,
+    "QuestTitle": "When It Rains",
+    "PreviousQuestIds": [
+      68878
+    ],
+    "PreviousQuestTitles": [
+      "Out of the Wood"
+    ],
+    "NextQuestIds": [
+      69143
+    ],
+    "NextQuestTitles": [
+      "Word from On High"
+    ],
+    "StarterNpc": "manager of suites",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 650
+  },
+  {
+    "QuestId": 69143,
+    "QuestTitle": "Word from On High",
+    "PreviousQuestIds": [
+      69142
+    ],
+    "PreviousQuestTitles": [
+      "When It Rains"
+    ],
+    "NextQuestIds": [
+      69144
+    ],
+    "NextQuestTitles": [
+      "Small Favors"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Lyna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 660
+  },
+  {
+    "QuestId": 69144,
+    "QuestTitle": "Small Favors",
+    "PreviousQuestIds": [
+      69143
+    ],
+    "PreviousQuestTitles": [
+      "Word from On High"
+    ],
+    "NextQuestIds": [
+      69145
+    ],
+    "NextQuestTitles": [
+      "The Best Way Out"
+    ],
+    "StarterNpc": "Lyna",
+    "FinishNpc": "Chessamile",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 670
+  },
+  {
+    "QuestId": 69145,
+    "QuestTitle": "The Best Way Out",
+    "PreviousQuestIds": [
+      69144
+    ],
+    "PreviousQuestTitles": [
+      "Small Favors"
+    ],
+    "NextQuestIds": [
+      69146
+    ],
+    "NextQuestTitles": [
+      "Free Trade"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Minfilia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 680
+  },
+  {
+    "QuestId": 69146,
+    "QuestTitle": "Free Trade",
+    "PreviousQuestIds": [
+      69145
+    ],
+    "PreviousQuestTitles": [
+      "The Best Way Out"
+    ],
+    "NextQuestIds": [
+      69147
+    ],
+    "NextQuestTitles": [
+      "The Trolley Problem"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 690
+  },
+  {
+    "QuestId": 69147,
+    "QuestTitle": "The Trolley Problem",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [
+      69148
+    ],
+    "NextQuestTitles": [
+      "Rust and Ruin"
+    ],
+    "StarterNpc": "Zhun Zun",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 700
+  },
+  {
+    "QuestId": 69148,
+    "QuestTitle": "Rust and Ruin",
+    "PreviousQuestIds": [
+      69147
+    ],
+    "PreviousQuestTitles": [
+      "The Trolley Problem"
+    ],
+    "NextQuestIds": [
+      69149
+    ],
+    "NextQuestTitles": [
+      "On Track"
+    ],
+    "StarterNpc": "Thaffe",
+    "FinishNpc": "Minfilia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 710
+  },
+  {
+    "QuestId": 69149,
+    "QuestTitle": "On Track",
+    "PreviousQuestIds": [
+      69148
+    ],
+    "PreviousQuestTitles": [
+      "Rust and Ruin"
+    ],
+    "NextQuestIds": [
+      69150
+    ],
+    "NextQuestTitles": [
+      "Down for Maintenance"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Jeryk",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 720
+  },
+  {
+    "QuestId": 69150,
+    "QuestTitle": "Down for Maintenance",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [
+      69151
+    ],
+    "NextQuestTitles": [
+      "The Truth Hurts"
+    ],
+    "StarterNpc": "Jeryk",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 730
+  },
+  {
+    "QuestId": 69151,
+    "QuestTitle": "The Truth Hurts",
+    "PreviousQuestIds": [
+      69150
+    ],
+    "PreviousQuestTitles": [
+      "Down for Maintenance"
+    ],
+    "NextQuestIds": [
+      69152
+    ],
+    "NextQuestTitles": [
+      "A Convenient Distraction"
+    ],
+    "StarterNpc": "Jeryk",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 740
+  },
+  {
+    "QuestId": 69152,
+    "QuestTitle": "A Convenient Distraction",
+    "PreviousQuestIds": [
+      69151
+    ],
+    "PreviousQuestTitles": [
+      "The Truth Hurts"
+    ],
+    "NextQuestIds": [
+      69153
+    ],
+    "NextQuestTitles": [
+      "A Dirty Job"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Guthjon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 750
+  },
+  {
+    "QuestId": 69153,
+    "QuestTitle": "A Dirty Job",
+    "PreviousQuestIds": [
+      69152
+    ],
+    "PreviousQuestTitles": [
+      "A Convenient Distraction"
+    ],
+    "NextQuestIds": [
+      69154
+    ],
+    "NextQuestTitles": [
+      "Have a Heart"
+    ],
+    "StarterNpc": "Guthjon",
+    "FinishNpc": "Guthjon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 760
+  },
+  {
+    "QuestId": 69154,
+    "QuestTitle": "Have a Heart",
+    "PreviousQuestIds": [
+      69153
+    ],
+    "PreviousQuestTitles": [
+      "A Dirty Job"
+    ],
+    "NextQuestIds": [
+      69155
+    ],
+    "NextQuestTitles": [
+      "Full Steam Ahead"
+    ],
+    "StarterNpc": "Guthjon",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 770
+  },
+  {
+    "QuestId": 69155,
+    "QuestTitle": "Full Steam Ahead",
+    "PreviousQuestIds": [
+      69154
+    ],
+    "PreviousQuestTitles": [
+      "Have a Heart"
+    ],
+    "NextQuestIds": [
+      69156
+    ],
+    "NextQuestTitles": [
+      "Crossing Paths"
+    ],
+    "StarterNpc": "Magnus",
+    "FinishNpc": "Minfilia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 780
+  },
+  {
+    "QuestId": 69156,
+    "QuestTitle": "Crossing Paths",
+    "PreviousQuestIds": [
+      69155
+    ],
+    "PreviousQuestTitles": [
+      "Full Steam Ahead"
+    ],
+    "NextQuestIds": [
+      69157
+    ],
+    "NextQuestTitles": [
+      "A Fresh Start"
+    ],
+    "StarterNpc": "Minfilia",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 790
+  },
+  {
+    "QuestId": 69157,
+    "QuestTitle": "A Fresh Start",
+    "PreviousQuestIds": [
+      69156
+    ],
+    "PreviousQuestTitles": [
+      "Crossing Paths"
+    ],
+    "NextQuestIds": [
+      69158
+    ],
+    "NextQuestTitles": [
+      "More than a Hunch"
+    ],
+    "StarterNpc": "Ryne",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 800
+  },
+  {
+    "QuestId": 69158,
+    "QuestTitle": "More than a Hunch",
+    "PreviousQuestIds": [
+      69157
+    ],
+    "PreviousQuestTitles": [
+      "A Fresh Start"
+    ],
+    "NextQuestIds": [
+      69166
+    ],
+    "NextQuestTitles": [
+      "Return to Eulmore"
+    ],
+    "StarterNpc": "Ryne",
+    "FinishNpc": "manager of suites",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 810
+  },
+  {
+    "QuestId": 69166,
+    "QuestTitle": "Return to Eulmore",
+    "PreviousQuestIds": [
+      69158
+    ],
+    "PreviousQuestTitles": [
+      "More than a Hunch"
+    ],
+    "NextQuestIds": [
+      69167
+    ],
+    "NextQuestTitles": [
+      "A Feast of Lies"
+    ],
+    "StarterNpc": "manager of suites",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 820
+  },
+  {
+    "QuestId": 69167,
+    "QuestTitle": "A Feast of Lies",
+    "PreviousQuestIds": [
+      69166
+    ],
+    "PreviousQuestTitles": [
+      "Return to Eulmore"
+    ],
+    "NextQuestIds": [
+      69168
+    ],
+    "NextQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 830
+  },
+  {
+    "QuestId": 69168,
+    "QuestTitle": "Paradise Fallen",
+    "PreviousQuestIds": [
+      69167
+    ],
+    "PreviousQuestTitles": [
+      "A Feast of Lies"
+    ],
+    "NextQuestIds": [
+      69169
+    ],
+    "NextQuestTitles": [
+      "The Ladder"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 840
+  },
+  {
+    "QuestId": 69169,
+    "QuestTitle": "The Ladder",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [
+      69170
+    ],
+    "NextQuestTitles": [
+      "The View from Above"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 850
+  },
+  {
+    "QuestId": 69170,
+    "QuestTitle": "The View from Above",
+    "PreviousQuestIds": [
+      69169
+    ],
+    "PreviousQuestTitles": [
+      "The Ladder"
+    ],
+    "NextQuestIds": [
+      69171
+    ],
+    "NextQuestTitles": [
+      "In Mt. Gulg\u0027s Shadow"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 860
+  },
+  {
+    "QuestId": 69171,
+    "QuestTitle": "In Mt. Gulg\u0027s Shadow",
+    "PreviousQuestIds": [
+      69170
+    ],
+    "PreviousQuestTitles": [
+      "The View from Above"
+    ],
+    "NextQuestIds": [
+      69172
+    ],
+    "NextQuestTitles": [
+      "A Gigantic Undertaking"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 870
+  },
+  {
+    "QuestId": 69172,
+    "QuestTitle": "A Gigantic Undertaking",
+    "PreviousQuestIds": [
+      69171
+    ],
+    "PreviousQuestTitles": [
+      "In Mt. Gulg\u0027s Shadow"
+    ],
+    "NextQuestIds": [
+      69173
+    ],
+    "NextQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Tristol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 880
+  },
+  {
+    "QuestId": 69173,
+    "QuestTitle": "Meet the Tholls",
+    "PreviousQuestIds": [
+      69172
+    ],
+    "PreviousQuestTitles": [
+      "A Gigantic Undertaking"
+    ],
+    "NextQuestIds": [
+      69174
+    ],
+    "NextQuestTitles": [
+      "A-Digging We Will Go"
+    ],
+    "StarterNpc": "Tristol",
+    "FinishNpc": "Xamott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 890
+  },
+  {
+    "QuestId": 69174,
+    "QuestTitle": "A-Digging We Will Go",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [
+      69175
+    ],
+    "NextQuestTitles": [
+      "The Duergar\u0027s Tewel"
+    ],
+    "StarterNpc": "Xamott",
+    "FinishNpc": "Korutt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 900
+  },
+  {
+    "QuestId": 69175,
+    "QuestTitle": "The Duergar\u0027s Tewel",
+    "PreviousQuestIds": [
+      69174
+    ],
+    "PreviousQuestTitles": [
+      "A-Digging We Will Go"
+    ],
+    "NextQuestIds": [
+      69176
+    ],
+    "NextQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "StarterNpc": "Korutt",
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 910
+  },
+  {
+    "QuestId": 69176,
+    "QuestTitle": "Rich Veins of Hope",
+    "PreviousQuestIds": [
+      69175
+    ],
+    "PreviousQuestTitles": [
+      "The Duergar\u0027s Tewel"
+    ],
+    "NextQuestIds": [
+      69177
+    ],
+    "NextQuestTitles": [
+      "That None Shall Ever Again"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 920
+  },
+  {
+    "QuestId": 69177,
+    "QuestTitle": "That None Shall Ever Again",
+    "PreviousQuestIds": [
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [
+      69178
+    ],
+    "NextQuestTitles": [
+      "A Breath of Respite"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Chai-Nuzz",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 930
+  },
+  {
+    "QuestId": 69178,
+    "QuestTitle": "A Breath of Respite",
+    "PreviousQuestIds": [
+      69177
+    ],
+    "PreviousQuestTitles": [
+      "That None Shall Ever Again"
+    ],
+    "NextQuestIds": [
+      69179
+    ],
+    "NextQuestTitles": [
+      "Extinguishing the Last Light"
+    ],
+    "StarterNpc": "Chai-Nuzz",
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 940
+  },
+  {
+    "QuestId": 69179,
+    "QuestTitle": "Extinguishing the Last Light",
+    "PreviousQuestIds": [
+      69178
+    ],
+    "PreviousQuestTitles": [
+      "A Breath of Respite"
+    ],
+    "NextQuestIds": [
+      69180
+    ],
+    "NextQuestTitles": [
+      "Reassuring the Masses"
+    ],
+    "StarterNpc": "Chai-Nuzz",
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 950
+  },
+  {
+    "QuestId": 69180,
+    "QuestTitle": "Reassuring the Masses",
+    "PreviousQuestIds": [
+      69179
+    ],
+    "PreviousQuestTitles": [
+      "Extinguishing the Last Light"
+    ],
+    "NextQuestIds": [
+      69181
+    ],
+    "NextQuestTitles": [
+      "In His Garden"
+    ],
+    "StarterNpc": "manager of suites",
+    "FinishNpc": "Katliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 960
+  },
+  {
+    "QuestId": 69181,
+    "QuestTitle": "In His Garden",
+    "PreviousQuestIds": [
+      69180
+    ],
+    "PreviousQuestTitles": [
+      "Reassuring the Masses"
+    ],
+    "NextQuestIds": [
+      69182
+    ],
+    "NextQuestTitles": [
+      "The Unbroken Thread"
+    ],
+    "StarterNpc": "Katliss",
+    "FinishNpc": "Lyna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 970
+  },
+  {
+    "QuestId": 69182,
+    "QuestTitle": "The Unbroken Thread",
+    "PreviousQuestIds": [
+      69181
+    ],
+    "PreviousQuestTitles": [
+      "In His Garden"
+    ],
+    "NextQuestIds": [
+      69183
+    ],
+    "NextQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "StarterNpc": "Lyna",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 980
+  },
+  {
+    "QuestId": 69183,
+    "QuestTitle": "To Storm-tossed Seas",
+    "PreviousQuestIds": [
+      69182
+    ],
+    "PreviousQuestTitles": [
+      "The Unbroken Thread"
+    ],
+    "NextQuestIds": [
+      69184
+    ],
+    "NextQuestTitles": [
+      "Waiting in the Depths"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 990
+  },
+  {
+    "QuestId": 69184,
+    "QuestTitle": "Waiting in the Depths",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [
+      69185
+    ],
+    "NextQuestTitles": [
+      "City of the Ancients"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Paushs Ooan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1000
+  },
+  {
+    "QuestId": 69185,
+    "QuestTitle": "City of the Ancients",
+    "PreviousQuestIds": [
+      69184
+    ],
+    "PreviousQuestTitles": [
+      "Waiting in the Depths"
+    ],
+    "NextQuestIds": [
+      69186
+    ],
+    "NextQuestTitles": [
+      "The Light of Inspiration"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1010
+  },
+  {
+    "QuestId": 69186,
+    "QuestTitle": "The Light of Inspiration",
+    "PreviousQuestIds": [
+      69185
+    ],
+    "PreviousQuestTitles": [
+      "City of the Ancients"
+    ],
+    "NextQuestIds": [
+      69187
+    ],
+    "NextQuestTitles": [
+      "The Illuminated Land"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Grenoldt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1020
+  },
+  {
+    "QuestId": 69187,
+    "QuestTitle": "The Illuminated Land",
+    "PreviousQuestIds": [
+      69186
+    ],
+    "PreviousQuestTitles": [
+      "The Light of Inspiration"
+    ],
+    "NextQuestIds": [
+      69188
+    ],
+    "NextQuestTitles": [
+      "The End of a World"
+    ],
+    "StarterNpc": "Grenoldt",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1030
+  },
+  {
+    "QuestId": 69188,
+    "QuestTitle": "The End of a World",
+    "PreviousQuestIds": [
+      69187
+    ],
+    "PreviousQuestTitles": [
+      "The Illuminated Land"
+    ],
+    "NextQuestIds": [
+      69189
+    ],
+    "NextQuestTitles": [
+      "A Greater Purpose"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1040
+  },
+  {
+    "QuestId": 69189,
+    "QuestTitle": "A Greater Purpose",
+    "PreviousQuestIds": [
+      69188
+    ],
+    "PreviousQuestTitles": [
+      "The End of a World"
+    ],
+    "NextQuestIds": [
+      69190
+    ],
+    "NextQuestTitles": [
+      "Shadowbringers"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1050
+  },
+  {
+    "QuestId": 69190,
+    "QuestTitle": "Shadowbringers",
+    "PreviousQuestIds": [
+      69189
+    ],
+    "PreviousQuestTitles": [
+      "A Greater Purpose"
+    ],
+    "NextQuestIds": [
+      69209
+    ],
+    "NextQuestTitles": [
+      "Shaken Resolve"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Tataru",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 8,
+      "JournalCategory": {
+        "Id": 8,
+        "Name": "Shadowbringers Main Scenario Quests"
+      },
+      "Name": "Shadowbringers"
+    },
+    "SortKey": 1060
+  }
+]

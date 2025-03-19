@@ -1,0 +1,3030 @@
+[
+  {
+    "QuestId": 69893,
+    "QuestTitle": "The Next Ship to Sail",
+    "PreviousQuestIds": [
+      69602
+    ],
+    "PreviousQuestTitles": [
+      "Death Unto Dawn"
+    ],
+    "NextQuestIds": [
+      69894
+    ],
+    "NextQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 511
+  },
+  {
+    "QuestId": 69894,
+    "QuestTitle": "Old Sharlayan, New to You",
+    "PreviousQuestIds": [
+      69893
+    ],
+    "PreviousQuestTitles": [
+      "The Next Ship to Sail"
+    ],
+    "NextQuestIds": [
+      69895,
+      69904
+    ],
+    "NextQuestTitles": [
+      "Hitting the Books",
+      "For Thavnair Bound"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 512
+  },
+  {
+    "QuestId": 69895,
+    "QuestTitle": "Hitting the Books",
+    "PreviousQuestIds": [
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [
+      69896
+    ],
+    "NextQuestTitles": [
+      "A Seat at the Last Stand"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 513
+  },
+  {
+    "QuestId": 69896,
+    "QuestTitle": "A Seat at the Last Stand",
+    "PreviousQuestIds": [
+      69895
+    ],
+    "PreviousQuestTitles": [
+      "Hitting the Books"
+    ],
+    "NextQuestIds": [
+      69897
+    ],
+    "NextQuestTitles": [
+      "A Labyrinthine Descent"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 514
+  },
+  {
+    "QuestId": 69897,
+    "QuestTitle": "A Labyrinthine Descent",
+    "PreviousQuestIds": [
+      69896
+    ],
+    "PreviousQuestTitles": [
+      "A Seat at the Last Stand"
+    ],
+    "NextQuestIds": [
+      69898
+    ],
+    "NextQuestTitles": [
+      "Glorified Ratcatcher"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 515
+  },
+  {
+    "QuestId": 69898,
+    "QuestTitle": "Glorified Ratcatcher",
+    "PreviousQuestIds": [
+      69897
+    ],
+    "PreviousQuestTitles": [
+      "A Labyrinthine Descent"
+    ],
+    "NextQuestIds": [
+      69899
+    ],
+    "NextQuestTitles": [
+      "Deeper into the Maze"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 516
+  },
+  {
+    "QuestId": 69899,
+    "QuestTitle": "Deeper into the Maze",
+    "PreviousQuestIds": [
+      69898
+    ],
+    "PreviousQuestTitles": [
+      "Glorified Ratcatcher"
+    ],
+    "NextQuestIds": [
+      69900
+    ],
+    "NextQuestTitles": [
+      "The Medial Circuit"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 517
+  },
+  {
+    "QuestId": 69900,
+    "QuestTitle": "The Medial Circuit",
+    "PreviousQuestIds": [
+      69899
+    ],
+    "PreviousQuestTitles": [
+      "Deeper into the Maze"
+    ],
+    "NextQuestIds": [
+      69901
+    ],
+    "NextQuestTitles": [
+      "The Full Report, Warts and All"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 518
+  },
+  {
+    "QuestId": 69901,
+    "QuestTitle": "The Full Report, Warts and All",
+    "PreviousQuestIds": [
+      69900
+    ],
+    "PreviousQuestTitles": [
+      "The Medial Circuit"
+    ],
+    "NextQuestIds": [
+      69902
+    ],
+    "NextQuestTitles": [
+      "A Guide of Sorts"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 519
+  },
+  {
+    "QuestId": 69902,
+    "QuestTitle": "A Guide of Sorts",
+    "PreviousQuestIds": [
+      69901
+    ],
+    "PreviousQuestTitles": [
+      "The Full Report, Warts and All"
+    ],
+    "NextQuestIds": [
+      69903
+    ],
+    "NextQuestTitles": [
+      "Estate Visitor"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 520
+  },
+  {
+    "QuestId": 69903,
+    "QuestTitle": "Estate Visitor",
+    "PreviousQuestIds": [
+      69902
+    ],
+    "PreviousQuestTitles": [
+      "A Guide of Sorts"
+    ],
+    "NextQuestIds": [
+      69913
+    ],
+    "NextQuestTitles": [
+      "In the Dark of the Tower"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 521
+  },
+  {
+    "QuestId": 69904,
+    "QuestTitle": "For Thavnair Bound",
+    "PreviousQuestIds": [
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [
+      69905
+    ],
+    "NextQuestTitles": [
+      "On Low Tide"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 522
+  },
+  {
+    "QuestId": 69905,
+    "QuestTitle": "On Low Tide",
+    "PreviousQuestIds": [
+      69904
+    ],
+    "PreviousQuestTitles": [
+      "For Thavnair Bound"
+    ],
+    "NextQuestIds": [
+      69906
+    ],
+    "NextQuestTitles": [
+      "A Fisherman\u0027s Friend"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Matsya",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 523
+  },
+  {
+    "QuestId": 69906,
+    "QuestTitle": "A Fisherman\u0027s Friend",
+    "PreviousQuestIds": [
+      69905
+    ],
+    "PreviousQuestTitles": [
+      "On Low Tide"
+    ],
+    "NextQuestIds": [
+      69907
+    ],
+    "NextQuestTitles": [
+      "House of Divinities"
+    ],
+    "StarterNpc": "Matsya",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 524
+  },
+  {
+    "QuestId": 69907,
+    "QuestTitle": "House of Divinities",
+    "PreviousQuestIds": [
+      69906
+    ],
+    "PreviousQuestTitles": [
+      "A Fisherman\u0027s Friend"
+    ],
+    "NextQuestIds": [
+      69908
+    ],
+    "NextQuestTitles": [
+      "The Great Work"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Matsya",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 525
+  },
+  {
+    "QuestId": 69908,
+    "QuestTitle": "The Great Work",
+    "PreviousQuestIds": [
+      69907
+    ],
+    "PreviousQuestTitles": [
+      "House of Divinities"
+    ],
+    "NextQuestIds": [
+      69909
+    ],
+    "NextQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "StarterNpc": "Matsya",
+    "FinishNpc": "Nidhana",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 526
+  },
+  {
+    "QuestId": 69909,
+    "QuestTitle": "Shadowed Footsteps",
+    "PreviousQuestIds": [
+      69908
+    ],
+    "PreviousQuestTitles": [
+      "The Great Work"
+    ],
+    "NextQuestIds": [
+      69910
+    ],
+    "NextQuestTitles": [
+      "A Boy\u0027s Errand"
+    ],
+    "StarterNpc": "Nidhana",
+    "FinishNpc": "Nidhana",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 527
+  },
+  {
+    "QuestId": 69910,
+    "QuestTitle": "A Boy\u0027s Errand",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [
+      69911
+    ],
+    "NextQuestTitles": [
+      "Tipping the Scale"
+    ],
+    "StarterNpc": "Nidhana",
+    "FinishNpc": "Zeynuha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 528
+  },
+  {
+    "QuestId": 69911,
+    "QuestTitle": "Tipping the Scale",
+    "PreviousQuestIds": [
+      69910
+    ],
+    "PreviousQuestTitles": [
+      "A Boy\u0027s Errand"
+    ],
+    "NextQuestIds": [
+      69912
+    ],
+    "NextQuestTitles": [
+      "The Satrap of Radz-at-Han"
+    ],
+    "StarterNpc": "Zeynuha",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 529
+  },
+  {
+    "QuestId": 69912,
+    "QuestTitle": "The Satrap of Radz-at-Han",
+    "PreviousQuestIds": [
+      69911
+    ],
+    "PreviousQuestTitles": [
+      "Tipping the Scale"
+    ],
+    "NextQuestIds": [
+      69913
+    ],
+    "NextQuestTitles": [
+      "In the Dark of the Tower"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 530
+  },
+  {
+    "QuestId": 69913,
+    "QuestTitle": "In the Dark of the Tower",
+    "PreviousQuestIds": [
+      69903,
+      69912
+    ],
+    "PreviousQuestTitles": [
+      "Estate Visitor",
+      "The Satrap of Radz-at-Han"
+    ],
+    "NextQuestIds": [
+      69914
+    ],
+    "NextQuestTitles": [
+      "The Jewel of Thavnair"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 531
+  },
+  {
+    "QuestId": 69914,
+    "QuestTitle": "The Jewel of Thavnair",
+    "PreviousQuestIds": [
+      69913
+    ],
+    "PreviousQuestTitles": [
+      "In the Dark of the Tower"
+    ],
+    "NextQuestIds": [
+      69915
+    ],
+    "NextQuestTitles": [
+      "The Color of Joy"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 532
+  },
+  {
+    "QuestId": 69915,
+    "QuestTitle": "The Color of Joy",
+    "PreviousQuestIds": [
+      69914
+    ],
+    "PreviousQuestTitles": [
+      "The Jewel of Thavnair"
+    ],
+    "NextQuestIds": [
+      69916
+    ],
+    "NextQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Ojika Tsunjika",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 533
+  },
+  {
+    "QuestId": 69916,
+    "QuestTitle": "Sound the Bell, School\u0027s In",
+    "PreviousQuestIds": [
+      69915
+    ],
+    "PreviousQuestTitles": [
+      "The Color of Joy"
+    ],
+    "NextQuestIds": [
+      69917
+    ],
+    "NextQuestTitles": [
+      "A Capital Idea"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Montichaigne",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 534
+  },
+  {
+    "QuestId": 69917,
+    "QuestTitle": "A Capital Idea",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [
+      69918
+    ],
+    "NextQuestTitles": [
+      "Best of the Best"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Raubahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 535
+  },
+  {
+    "QuestId": 69918,
+    "QuestTitle": "Best of the Best",
+    "PreviousQuestIds": [
+      69917
+    ],
+    "PreviousQuestTitles": [
+      "A Capital Idea"
+    ],
+    "NextQuestIds": [
+      69919
+    ],
+    "NextQuestTitles": [
+      "A Frosty Reception"
+    ],
+    "StarterNpc": "Maxima",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 536
+  },
+  {
+    "QuestId": 69919,
+    "QuestTitle": "A Frosty Reception",
+    "PreviousQuestIds": [
+      69918
+    ],
+    "PreviousQuestTitles": [
+      "Best of the Best"
+    ],
+    "NextQuestIds": [
+      69920
+    ],
+    "NextQuestTitles": [
+      "Tracks in the Snow"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 537
+  },
+  {
+    "QuestId": 69920,
+    "QuestTitle": "Tracks in the Snow",
+    "PreviousQuestIds": [
+      69919
+    ],
+    "PreviousQuestTitles": [
+      "A Frosty Reception"
+    ],
+    "NextQuestIds": [
+      69921
+    ],
+    "NextQuestTitles": [
+      "How the Mighty Are Fallen"
+    ],
+    "StarterNpc": "Emmanellain",
+    "FinishNpc": "girl in green",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 538
+  },
+  {
+    "QuestId": 69921,
+    "QuestTitle": "How the Mighty Are Fallen",
+    "PreviousQuestIds": [
+      69920
+    ],
+    "PreviousQuestTitles": [
+      "Tracks in the Snow"
+    ],
+    "NextQuestIds": [
+      69922
+    ],
+    "NextQuestTitles": [
+      "At the End of the Trail"
+    ],
+    "StarterNpc": "Licinia",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 539
+  },
+  {
+    "QuestId": 69922,
+    "QuestTitle": "At the End of the Trail",
+    "PreviousQuestIds": [
+      69921
+    ],
+    "PreviousQuestTitles": [
+      "How the Mighty Are Fallen"
+    ],
+    "NextQuestIds": [
+      69923
+    ],
+    "NextQuestTitles": [
+      "A Way Forward"
+    ],
+    "StarterNpc": "Jareck",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 540
+  },
+  {
+    "QuestId": 69923,
+    "QuestTitle": "A Way Forward",
+    "PreviousQuestIds": [
+      69922
+    ],
+    "PreviousQuestTitles": [
+      "At the End of the Trail"
+    ],
+    "NextQuestIds": [
+      69924
+    ],
+    "NextQuestTitles": [
+      "The Last Bastion"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Jullus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 541
+  },
+  {
+    "QuestId": 69924,
+    "QuestTitle": "The Last Bastion",
+    "PreviousQuestIds": [
+      69923
+    ],
+    "PreviousQuestTitles": [
+      "A Way Forward"
+    ],
+    "NextQuestIds": [
+      69925
+    ],
+    "NextQuestTitles": [
+      "Personae non Gratae"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Jullus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 542
+  },
+  {
+    "QuestId": 69925,
+    "QuestTitle": "Personae non Gratae",
+    "PreviousQuestIds": [
+      69924
+    ],
+    "PreviousQuestTitles": [
+      "The Last Bastion"
+    ],
+    "NextQuestIds": [
+      69926
+    ],
+    "NextQuestTitles": [
+      "His Park Materials"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Jullus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 543
+  },
+  {
+    "QuestId": 69926,
+    "QuestTitle": "His Park Materials",
+    "PreviousQuestIds": [
+      69925
+    ],
+    "PreviousQuestTitles": [
+      "Personae non Gratae"
+    ],
+    "NextQuestIds": [
+      69927
+    ],
+    "NextQuestTitles": [
+      "No Good Deed"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Jullus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 544
+  },
+  {
+    "QuestId": 69927,
+    "QuestTitle": "No Good Deed",
+    "PreviousQuestIds": [
+      69926
+    ],
+    "PreviousQuestTitles": [
+      "His Park Materials"
+    ],
+    "NextQuestIds": [
+      69928
+    ],
+    "NextQuestTitles": [
+      "Alea Iacta Est"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Jullus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 545
+  },
+  {
+    "QuestId": 69928,
+    "QuestTitle": "Alea Iacta Est",
+    "PreviousQuestIds": [
+      69927
+    ],
+    "PreviousQuestTitles": [
+      "No Good Deed"
+    ],
+    "NextQuestIds": [
+      69929
+    ],
+    "NextQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Lucia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 546
+  },
+  {
+    "QuestId": 69929,
+    "QuestTitle": "Strange Bedfellows",
+    "PreviousQuestIds": [
+      69928
+    ],
+    "PreviousQuestTitles": [
+      "Alea Iacta Est"
+    ],
+    "NextQuestIds": [
+      69930
+    ],
+    "NextQuestTitles": [
+      "In from the Cold"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Lucia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 547
+  },
+  {
+    "QuestId": 69930,
+    "QuestTitle": "In from the Cold",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [
+      69931
+    ],
+    "NextQuestTitles": [
+      "Gateway of the Gods"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 548
+  },
+  {
+    "QuestId": 69931,
+    "QuestTitle": "Gateway of the Gods",
+    "PreviousQuestIds": [
+      69930
+    ],
+    "PreviousQuestTitles": [
+      "In from the Cold"
+    ],
+    "NextQuestIds": [
+      69932
+    ],
+    "NextQuestTitles": [
+      "A Trip to the Moon"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 549
+  },
+  {
+    "QuestId": 69932,
+    "QuestTitle": "A Trip to the Moon",
+    "PreviousQuestIds": [
+      69931
+    ],
+    "PreviousQuestTitles": [
+      "Gateway of the Gods"
+    ],
+    "NextQuestIds": [
+      69933
+    ],
+    "NextQuestTitles": [
+      "Sea of Sorrow"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "the watcher",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 550
+  },
+  {
+    "QuestId": 69933,
+    "QuestTitle": "Sea of Sorrow",
+    "PreviousQuestIds": [
+      69932
+    ],
+    "PreviousQuestTitles": [
+      "A Trip to the Moon"
+    ],
+    "NextQuestIds": [
+      69934
+    ],
+    "NextQuestTitles": [
+      "The Martyr"
+    ],
+    "StarterNpc": "the watcher",
+    "FinishNpc": "anguished spirit",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 551
+  },
+  {
+    "QuestId": 69934,
+    "QuestTitle": "The Martyr",
+    "PreviousQuestIds": [
+      69933
+    ],
+    "PreviousQuestTitles": [
+      "Sea of Sorrow"
+    ],
+    "NextQuestIds": [
+      69935
+    ],
+    "NextQuestTitles": [
+      "In Shadow\u0027s Wake"
+    ],
+    "StarterNpc": "lustrous dog",
+    "FinishNpc": "the watcher",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 552
+  },
+  {
+    "QuestId": 69935,
+    "QuestTitle": "In Shadow\u0027s Wake",
+    "PreviousQuestIds": [
+      69934
+    ],
+    "PreviousQuestTitles": [
+      "The Martyr"
+    ],
+    "NextQuestIds": [
+      69936
+    ],
+    "NextQuestTitles": [
+      "Helping Hands"
+    ],
+    "StarterNpc": "the watcher",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 553
+  },
+  {
+    "QuestId": 69936,
+    "QuestTitle": "Helping Hands",
+    "PreviousQuestIds": [
+      69935
+    ],
+    "PreviousQuestTitles": [
+      "In Shadow\u0027s Wake"
+    ],
+    "NextQuestIds": [
+      69937
+    ],
+    "NextQuestTitles": [
+      "A Harey Situation"
+    ],
+    "StarterNpc": "the watcher",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 554
+  },
+  {
+    "QuestId": 69937,
+    "QuestTitle": "A Harey Situation",
+    "PreviousQuestIds": [
+      69936
+    ],
+    "PreviousQuestTitles": [
+      "Helping Hands"
+    ],
+    "NextQuestIds": [
+      69938
+    ],
+    "NextQuestTitles": [
+      "A Taste of the Moon"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "snappy Loporrit",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 555
+  },
+  {
+    "QuestId": 69938,
+    "QuestTitle": "A Taste of the Moon",
+    "PreviousQuestIds": [
+      69937
+    ],
+    "PreviousQuestTitles": [
+      "A Harey Situation"
+    ],
+    "NextQuestIds": [
+      69939
+    ],
+    "NextQuestTitles": [
+      "Styled a Hero"
+    ],
+    "StarterNpc": "Livingway",
+    "FinishNpc": "Cookingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 556
+  },
+  {
+    "QuestId": 69939,
+    "QuestTitle": "Styled a Hero",
+    "PreviousQuestIds": [
+      69938
+    ],
+    "PreviousQuestTitles": [
+      "A Taste of the Moon"
+    ],
+    "NextQuestIds": [
+      69940
+    ],
+    "NextQuestTitles": [
+      "All\u0027s Vale That Endsvale"
+    ],
+    "StarterNpc": "Livingway",
+    "FinishNpc": "Growingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 557
+  },
+  {
+    "QuestId": 69940,
+    "QuestTitle": "All\u0027s Vale That Endsvale",
+    "PreviousQuestIds": [
+      69939
+    ],
+    "PreviousQuestTitles": [
+      "Styled a Hero"
+    ],
+    "NextQuestIds": [
+      69941
+    ],
+    "NextQuestTitles": [
+      "Back to Old Tricks"
+    ],
+    "StarterNpc": "Growingway",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 558
+  },
+  {
+    "QuestId": 69941,
+    "QuestTitle": "Back to Old Tricks",
+    "PreviousQuestIds": [
+      69940
+    ],
+    "PreviousQuestTitles": [
+      "All\u0027s Vale That Endsvale"
+    ],
+    "NextQuestIds": [
+      69942
+    ],
+    "NextQuestTitles": [
+      "Setting Things Straight"
+    ],
+    "StarterNpc": "Thancred",
+    "FinishNpc": "Urianger",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 559
+  },
+  {
+    "QuestId": 69942,
+    "QuestTitle": "Setting Things Straight",
+    "PreviousQuestIds": [
+      69941
+    ],
+    "PreviousQuestTitles": [
+      "Back to Old Tricks"
+    ],
+    "NextQuestIds": [
+      69943
+    ],
+    "NextQuestTitles": [
+      "Heart of the Matter"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 560
+  },
+  {
+    "QuestId": 69943,
+    "QuestTitle": "Heart of the Matter",
+    "PreviousQuestIds": [
+      69942
+    ],
+    "PreviousQuestTitles": [
+      "Setting Things Straight"
+    ],
+    "NextQuestIds": [
+      69944
+    ],
+    "NextQuestTitles": [
+      "Returning Home"
+    ],
+    "StarterNpc": "Growingway",
+    "FinishNpc": "Urianger",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 561
+  },
+  {
+    "QuestId": 69944,
+    "QuestTitle": "Returning Home",
+    "PreviousQuestIds": [
+      69943
+    ],
+    "PreviousQuestTitles": [
+      "Heart of the Matter"
+    ],
+    "NextQuestIds": [
+      69945
+    ],
+    "NextQuestTitles": [
+      "Skies Aflame"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Ojika Tsunjika",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 562
+  },
+  {
+    "QuestId": 69945,
+    "QuestTitle": "Skies Aflame",
+    "PreviousQuestIds": [
+      69944
+    ],
+    "PreviousQuestTitles": [
+      "Returning Home"
+    ],
+    "NextQuestIds": [
+      69946
+    ],
+    "NextQuestTitles": [
+      "The Blasphemy Unmasked"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Ahewann",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 563
+  },
+  {
+    "QuestId": 69946,
+    "QuestTitle": "The Blasphemy Unmasked",
+    "PreviousQuestIds": [
+      69945
+    ],
+    "PreviousQuestTitles": [
+      "Skies Aflame"
+    ],
+    "NextQuestIds": [
+      69947
+    ],
+    "NextQuestTitles": [
+      "Amidst the Apocalypse"
+    ],
+    "StarterNpc": "Ahewann",
+    "FinishNpc": "Mihleel",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 564
+  },
+  {
+    "QuestId": 69947,
+    "QuestTitle": "Amidst the Apocalypse",
+    "PreviousQuestIds": [
+      69946
+    ],
+    "PreviousQuestTitles": [
+      "The Blasphemy Unmasked"
+    ],
+    "NextQuestIds": [
+      69948
+    ],
+    "NextQuestTitles": [
+      "Beyond the Depths of Despair"
+    ],
+    "StarterNpc": "Mihleel",
+    "FinishNpc": "Djinabaha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 565
+  },
+  {
+    "QuestId": 69948,
+    "QuestTitle": "Beyond the Depths of Despair",
+    "PreviousQuestIds": [
+      69947
+    ],
+    "PreviousQuestTitles": [
+      "Amidst the Apocalypse"
+    ],
+    "NextQuestIds": [
+      69949
+    ],
+    "NextQuestTitles": [
+      "That We Might Live"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 566
+  },
+  {
+    "QuestId": 69949,
+    "QuestTitle": "That We Might Live",
+    "PreviousQuestIds": [
+      69948
+    ],
+    "PreviousQuestTitles": [
+      "Beyond the Depths of Despair"
+    ],
+    "NextQuestIds": [
+      69950
+    ],
+    "NextQuestTitles": [
+      "When All Hope Seems Lost"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Matsya",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 567
+  },
+  {
+    "QuestId": 69950,
+    "QuestTitle": "When All Hope Seems Lost",
+    "PreviousQuestIds": [
+      69949
+    ],
+    "PreviousQuestTitles": [
+      "That We Might Live"
+    ],
+    "NextQuestIds": [
+      69951
+    ],
+    "NextQuestTitles": [
+      "Warm Hearts, Rekindled Hopes"
+    ],
+    "StarterNpc": "Matsya",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 568
+  },
+  {
+    "QuestId": 69951,
+    "QuestTitle": "Warm Hearts, Rekindled Hopes",
+    "PreviousQuestIds": [
+      69950
+    ],
+    "PreviousQuestTitles": [
+      "When All Hope Seems Lost"
+    ],
+    "NextQuestIds": [
+      69952
+    ],
+    "NextQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 569
+  },
+  {
+    "QuestId": 69952,
+    "QuestTitle": "Simple Pleasures",
+    "PreviousQuestIds": [
+      69951
+    ],
+    "PreviousQuestTitles": [
+      "Warm Hearts, Rekindled Hopes"
+    ],
+    "NextQuestIds": [
+      69953
+    ],
+    "NextQuestTitles": [
+      "Under His Wing"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Nidhana",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 570
+  },
+  {
+    "QuestId": 69953,
+    "QuestTitle": "Under His Wing",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [
+      69954
+    ],
+    "NextQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "StarterNpc": "Matsya",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 571
+  },
+  {
+    "QuestId": 69954,
+    "QuestTitle": "At World\u0027s End",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [
+      69955
+    ],
+    "NextQuestTitles": [
+      "Return to the Crystarium"
+    ],
+    "StarterNpc": "Radiant Host soldier",
+    "FinishNpc": "Thancred",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 572
+  },
+  {
+    "QuestId": 69955,
+    "QuestTitle": "Return to the Crystarium",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [
+      69956
+    ],
+    "NextQuestTitles": [
+      "Hope Upon a Flower"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Ryne",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 573
+  },
+  {
+    "QuestId": 69956,
+    "QuestTitle": "Hope Upon a Flower",
+    "PreviousQuestIds": [
+      69955
+    ],
+    "PreviousQuestTitles": [
+      "Return to the Crystarium"
+    ],
+    "NextQuestIds": [
+      69957
+    ],
+    "NextQuestTitles": [
+      "Petalouda Hunt"
+    ],
+    "StarterNpc": "Ryne",
+    "FinishNpc": "Hythlodaeus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 574
+  },
+  {
+    "QuestId": 69957,
+    "QuestTitle": "Petalouda Hunt",
+    "PreviousQuestIds": [
+      69956
+    ],
+    "PreviousQuestTitles": [
+      "Hope Upon a Flower"
+    ],
+    "NextQuestIds": [
+      69958
+    ],
+    "NextQuestTitles": [
+      "In Search of Hermes"
+    ],
+    "StarterNpc": "Hythlodaeus",
+    "FinishNpc": "Hythlodaeus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 575
+  },
+  {
+    "QuestId": 69958,
+    "QuestTitle": "In Search of Hermes",
+    "PreviousQuestIds": [
+      69957
+    ],
+    "PreviousQuestTitles": [
+      "Petalouda Hunt"
+    ],
+    "NextQuestIds": [
+      69959
+    ],
+    "NextQuestTitles": [
+      "Ponder, Warrant, Cherish, Welcome"
+    ],
+    "StarterNpc": "Hythlodaeus",
+    "FinishNpc": "adventurous ambystoma",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 576
+  },
+  {
+    "QuestId": 69959,
+    "QuestTitle": "Ponder, Warrant, Cherish, Welcome",
+    "PreviousQuestIds": [
+      69958
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Hermes"
+    ],
+    "NextQuestIds": [
+      69960
+    ],
+    "NextQuestTitles": [
+      "Lives Apart"
+    ],
+    "StarterNpc": "Hermes",
+    "FinishNpc": "Hermes",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 577
+  },
+  {
+    "QuestId": 69960,
+    "QuestTitle": "Lives Apart",
+    "PreviousQuestIds": [
+      69959
+    ],
+    "PreviousQuestTitles": [
+      "Ponder, Warrant, Cherish, Welcome"
+    ],
+    "NextQuestIds": [
+      69961
+    ],
+    "NextQuestTitles": [
+      "Their Greatest Contribution"
+    ],
+    "StarterNpc": "Hermes",
+    "FinishNpc": "Hermes",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 578
+  },
+  {
+    "QuestId": 69961,
+    "QuestTitle": "Their Greatest Contribution",
+    "PreviousQuestIds": [
+      69960
+    ],
+    "PreviousQuestTitles": [
+      "Lives Apart"
+    ],
+    "NextQuestIds": [
+      69962
+    ],
+    "NextQuestTitles": [
+      "Aether to Aether"
+    ],
+    "StarterNpc": "Emet-Selch",
+    "FinishNpc": "Emet-Selch",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 579
+  },
+  {
+    "QuestId": 69962,
+    "QuestTitle": "Aether to Aether",
+    "PreviousQuestIds": [
+      69961
+    ],
+    "PreviousQuestTitles": [
+      "Their Greatest Contribution"
+    ],
+    "NextQuestIds": [
+      69963
+    ],
+    "NextQuestTitles": [
+      "A Sentimental Gift"
+    ],
+    "StarterNpc": "Hermes",
+    "FinishNpc": "Meteion",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 580
+  },
+  {
+    "QuestId": 69963,
+    "QuestTitle": "A Sentimental Gift",
+    "PreviousQuestIds": [
+      69962
+    ],
+    "PreviousQuestTitles": [
+      "Aether to Aether"
+    ],
+    "NextQuestIds": [
+      69964
+    ],
+    "NextQuestTitles": [
+      "Verdict and Execution"
+    ],
+    "StarterNpc": "Hermes",
+    "FinishNpc": "Meteion",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 581
+  },
+  {
+    "QuestId": 69964,
+    "QuestTitle": "Verdict and Execution",
+    "PreviousQuestIds": [
+      69963
+    ],
+    "PreviousQuestTitles": [
+      "A Sentimental Gift"
+    ],
+    "NextQuestIds": [
+      69965
+    ],
+    "NextQuestTitles": [
+      "Travelers at the Crossroads"
+    ],
+    "StarterNpc": "Hermes",
+    "FinishNpc": "Emet-Selch",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 582
+  },
+  {
+    "QuestId": 69965,
+    "QuestTitle": "Travelers at the Crossroads",
+    "PreviousQuestIds": [
+      69964
+    ],
+    "PreviousQuestTitles": [
+      "Verdict and Execution"
+    ],
+    "NextQuestIds": [
+      69966
+    ],
+    "NextQuestTitles": [
+      "A Past, Not Yet Come to Pass"
+    ],
+    "StarterNpc": "Hythlodaeus",
+    "FinishNpc": "Venat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 583
+  },
+  {
+    "QuestId": 69966,
+    "QuestTitle": "A Past, Not Yet Come to Pass",
+    "PreviousQuestIds": [
+      69965
+    ],
+    "PreviousQuestTitles": [
+      "Travelers at the Crossroads"
+    ],
+    "NextQuestIds": [
+      69967
+    ],
+    "NextQuestTitles": [
+      "Witness to the Spectacle"
+    ],
+    "StarterNpc": "Venat",
+    "FinishNpc": "Venat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 584
+  },
+  {
+    "QuestId": 69967,
+    "QuestTitle": "Witness to the Spectacle",
+    "PreviousQuestIds": [
+      69966
+    ],
+    "PreviousQuestTitles": [
+      "A Past, Not Yet Come to Pass"
+    ],
+    "NextQuestIds": [
+      69968
+    ],
+    "NextQuestTitles": [
+      "Worthy of His Back"
+    ],
+    "StarterNpc": "Venat",
+    "FinishNpc": "Venat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 585
+  },
+  {
+    "QuestId": 69968,
+    "QuestTitle": "Worthy of His Back",
+    "PreviousQuestIds": [
+      69967
+    ],
+    "PreviousQuestTitles": [
+      "Witness to the Spectacle"
+    ],
+    "NextQuestIds": [
+      69969
+    ],
+    "NextQuestTitles": [
+      "A Flower upon Your Return"
+    ],
+    "StarterNpc": "Venat",
+    "FinishNpc": "Venat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 586
+  },
+  {
+    "QuestId": 69969,
+    "QuestTitle": "A Flower upon Your Return",
+    "PreviousQuestIds": [
+      69968
+    ],
+    "PreviousQuestTitles": [
+      "Worthy of His Back"
+    ],
+    "NextQuestIds": [
+      69970
+    ],
+    "NextQuestTitles": [
+      "Hunger in the Garden"
+    ],
+    "StarterNpc": "Venat",
+    "FinishNpc": "Venat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 587
+  },
+  {
+    "QuestId": 69970,
+    "QuestTitle": "Hunger in the Garden",
+    "PreviousQuestIds": [
+      69969
+    ],
+    "PreviousQuestTitles": [
+      "A Flower upon Your Return"
+    ],
+    "NextQuestIds": [
+      69971
+    ],
+    "NextQuestTitles": [
+      "Words without Sound"
+    ],
+    "StarterNpc": "Hythlodaeus",
+    "FinishNpc": "Hythlodaeus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 588
+  },
+  {
+    "QuestId": 69971,
+    "QuestTitle": "Words without Sound",
+    "PreviousQuestIds": [
+      69970
+    ],
+    "PreviousQuestTitles": [
+      "Hunger in the Garden"
+    ],
+    "NextQuestIds": [
+      69972
+    ],
+    "NextQuestTitles": [
+      "Follow, Wander, Stumble, Listen"
+    ],
+    "StarterNpc": "Emet-Selch",
+    "FinishNpc": "Hermes",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 589
+  },
+  {
+    "QuestId": 69972,
+    "QuestTitle": "Follow, Wander, Stumble, Listen",
+    "PreviousQuestIds": [
+      69971
+    ],
+    "PreviousQuestTitles": [
+      "Words without Sound"
+    ],
+    "NextQuestIds": [
+      69973
+    ],
+    "NextQuestTitles": [
+      "Caging the Messenger"
+    ],
+    "StarterNpc": "Hythlodaeus",
+    "FinishNpc": "Emet-Selch",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 590
+  },
+  {
+    "QuestId": 69973,
+    "QuestTitle": "Caging the Messenger",
+    "PreviousQuestIds": [
+      69972
+    ],
+    "PreviousQuestTitles": [
+      "Follow, Wander, Stumble, Listen"
+    ],
+    "NextQuestIds": [
+      69974
+    ],
+    "NextQuestTitles": [
+      "Thou Must Live, Die, and Know"
+    ],
+    "StarterNpc": "Hythlodaeus",
+    "FinishNpc": "Venat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 591
+  },
+  {
+    "QuestId": 69974,
+    "QuestTitle": "Thou Must Live, Die, and Know",
+    "PreviousQuestIds": [
+      69973
+    ],
+    "PreviousQuestTitles": [
+      "Caging the Messenger"
+    ],
+    "NextQuestIds": [
+      69975
+    ],
+    "NextQuestTitles": [
+      "As the Heavens Burn"
+    ],
+    "StarterNpc": "Venat",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 592
+  },
+  {
+    "QuestId": 69975,
+    "QuestTitle": "As the Heavens Burn",
+    "PreviousQuestIds": [
+      69974
+    ],
+    "PreviousQuestTitles": [
+      "Thou Must Live, Die, and Know"
+    ],
+    "NextQuestIds": [
+      69976
+    ],
+    "NextQuestTitles": [
+      "Outside Help"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 593
+  },
+  {
+    "QuestId": 69976,
+    "QuestTitle": "Outside Help",
+    "PreviousQuestIds": [
+      69975
+    ],
+    "PreviousQuestTitles": [
+      "As the Heavens Burn"
+    ],
+    "NextQuestIds": [
+      69977
+    ],
+    "NextQuestTitles": [
+      "Going Underground"
+    ],
+    "StarterNpc": "Lucia",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 594
+  },
+  {
+    "QuestId": 69977,
+    "QuestTitle": "Going Underground",
+    "PreviousQuestIds": [
+      69976
+    ],
+    "PreviousQuestTitles": [
+      "Outside Help"
+    ],
+    "NextQuestIds": [
+      69978
+    ],
+    "NextQuestTitles": [
+      "No Job Too Small"
+    ],
+    "StarterNpc": "Fourchenault",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 595
+  },
+  {
+    "QuestId": 69978,
+    "QuestTitle": "No Job Too Small",
+    "PreviousQuestIds": [
+      69977
+    ],
+    "PreviousQuestTitles": [
+      "Going Underground"
+    ],
+    "NextQuestIds": [
+      69979
+    ],
+    "NextQuestTitles": [
+      "Wise Guides"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Livingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 596
+  },
+  {
+    "QuestId": 69979,
+    "QuestTitle": "Wise Guides",
+    "PreviousQuestIds": [
+      69978
+    ],
+    "PreviousQuestTitles": [
+      "No Job Too Small"
+    ],
+    "NextQuestIds": [
+      69980
+    ],
+    "NextQuestTitles": [
+      "Agriculture Shock"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Singingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 597
+  },
+  {
+    "QuestId": 69980,
+    "QuestTitle": "Agriculture Shock",
+    "PreviousQuestIds": [
+      69979
+    ],
+    "PreviousQuestTitles": [
+      "Wise Guides"
+    ],
+    "NextQuestIds": [
+      69981
+    ],
+    "NextQuestTitles": [
+      "Sage Council"
+    ],
+    "StarterNpc": "Cookingway",
+    "FinishNpc": "Cookingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 598
+  },
+  {
+    "QuestId": 69981,
+    "QuestTitle": "Sage Council",
+    "PreviousQuestIds": [
+      69980
+    ],
+    "PreviousQuestTitles": [
+      "Agriculture Shock"
+    ],
+    "NextQuestIds": [
+      69982
+    ],
+    "NextQuestTitles": [
+      "Hither and Yarns"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Urianger",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 599
+  },
+  {
+    "QuestId": 69982,
+    "QuestTitle": "Hither and Yarns",
+    "PreviousQuestIds": [
+      69981
+    ],
+    "PreviousQuestTitles": [
+      "Sage Council"
+    ],
+    "NextQuestIds": [
+      69983
+    ],
+    "NextQuestTitles": [
+      "Once Forged"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Theopauldin",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 600
+  },
+  {
+    "QuestId": 69983,
+    "QuestTitle": "Once Forged",
+    "PreviousQuestIds": [
+      69982
+    ],
+    "PreviousQuestTitles": [
+      "Hither and Yarns"
+    ],
+    "NextQuestIds": [
+      69984
+    ],
+    "NextQuestTitles": [
+      "Bonds of Adamant(ite)"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Kokkol Dankkol",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 601
+  },
+  {
+    "QuestId": 69984,
+    "QuestTitle": "Bonds of Adamant(ite)",
+    "PreviousQuestIds": [
+      69983
+    ],
+    "PreviousQuestTitles": [
+      "Once Forged"
+    ],
+    "NextQuestIds": [
+      69985
+    ],
+    "NextQuestTitles": [
+      "Her Children, One and All"
+    ],
+    "StarterNpc": "Kokkol Dankkol",
+    "FinishNpc": "Fourchenault",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 602
+  },
+  {
+    "QuestId": 69985,
+    "QuestTitle": "Her Children, One and All",
+    "PreviousQuestIds": [
+      69984
+    ],
+    "PreviousQuestTitles": [
+      "Bonds of Adamant(ite)"
+    ],
+    "NextQuestIds": [
+      69986
+    ],
+    "NextQuestTitles": [
+      "A Bold Decision"
+    ],
+    "StarterNpc": "Fourchenault",
+    "FinishNpc": "Ojika Tsunjika",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 603
+  },
+  {
+    "QuestId": 69986,
+    "QuestTitle": "A Bold Decision",
+    "PreviousQuestIds": [
+      69985
+    ],
+    "PreviousQuestTitles": [
+      "Her Children, One and All"
+    ],
+    "NextQuestIds": [
+      69987
+    ],
+    "NextQuestTitles": [
+      "Friends Gathered"
+    ],
+    "StarterNpc": "Krile",
+    "FinishNpc": "Varsarudh",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 604
+  },
+  {
+    "QuestId": 69987,
+    "QuestTitle": "Friends Gathered",
+    "PreviousQuestIds": [
+      69986
+    ],
+    "PreviousQuestTitles": [
+      "A Bold Decision"
+    ],
+    "NextQuestIds": [
+      69988
+    ],
+    "NextQuestTitles": [
+      "Unto the Heavens"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Ojika Tsunjika",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 605
+  },
+  {
+    "QuestId": 69988,
+    "QuestTitle": "Unto the Heavens",
+    "PreviousQuestIds": [
+      69987
+    ],
+    "PreviousQuestTitles": [
+      "Friends Gathered"
+    ],
+    "NextQuestIds": [
+      69989
+    ],
+    "NextQuestTitles": [
+      "A \u00A7tr\u03B1nge New World"
+    ],
+    "StarterNpc": "Ojika Tsunjika",
+    "FinishNpc": "Livingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 606
+  },
+  {
+    "QuestId": 69989,
+    "QuestTitle": "A \u00A7tr\u03B1nge New World",
+    "PreviousQuestIds": [
+      69988
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Heavens"
+    ],
+    "NextQuestIds": [
+      69990
+    ],
+    "NextQuestTitles": [
+      "On Burd\u03B5ned \u03C9ings"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 607
+  },
+  {
+    "QuestId": 69990,
+    "QuestTitle": "On Burd\u03B5ned \u03C9ings",
+    "PreviousQuestIds": [
+      69989
+    ],
+    "PreviousQuestTitles": [
+      "A \u00A7tr\u03B1nge New World"
+    ],
+    "NextQuestIds": [
+      69991
+    ],
+    "NextQuestTitles": [
+      "\u0391 Test of W\u03B9ll"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "bereaved dragon",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 608
+  },
+  {
+    "QuestId": 69991,
+    "QuestTitle": "\u0391 Test of W\u03B9ll",
+    "PreviousQuestIds": [
+      69990
+    ],
+    "PreviousQuestTitles": [
+      "On Burd\u03B5ned \u03C9ings"
+    ],
+    "NextQuestIds": [
+      69992
+    ],
+    "NextQuestTitles": [
+      "Roads P\u03B1ved\u2502\u2502Sacri\u2523ice"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": null,
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 609
+  },
+  {
+    "QuestId": 69992,
+    "QuestTitle": "Roads P\u03B1ved\u2502\u2502Sacri\u2523ice",
+    "PreviousQuestIds": [
+      69991
+    ],
+    "PreviousQuestTitles": [
+      "\u0391 Test of W\u03B9ll"
+    ],
+    "NextQuestIds": [
+      69993
+    ],
+    "NextQuestTitles": [
+      "F//\u03B5sh Aban\u0394on\u2528\u0394"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Coph-coodg",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 610
+  },
+  {
+    "QuestId": 69993,
+    "QuestTitle": "F//\u03B5sh Aban\u0394on\u2528\u0394",
+    "PreviousQuestIds": [
+      69992
+    ],
+    "PreviousQuestTitles": [
+      "Roads P\u03B1ved\u2502\u2502Sacri\u2523ice"
+    ],
+    "NextQuestIds": [
+      69994
+    ],
+    "NextQuestTitles": [
+      "Where Kn\u221Ewledge Leads"
+    ],
+    "StarterNpc": "Coph-coodg",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 611
+  },
+  {
+    "QuestId": 69994,
+    "QuestTitle": "Where Kn\u221Ewledge Leads",
+    "PreviousQuestIds": [
+      69993
+    ],
+    "PreviousQuestTitles": [
+      "F//\u03B5sh Aban\u0394on\u2528\u0394"
+    ],
+    "NextQuestIds": [
+      69995
+    ],
+    "NextQuestTitles": [
+      "Vic\u2528\u03BFry  \u0308 \u0308 \u0308\u2573, \u2502\u0306\u2502\u2502\u03B5 Lost"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 612
+  },
+  {
+    "QuestId": 69995,
+    "QuestTitle": "Vic\u2528\u03BFry  \u0308 \u0308 \u0308\u2573, \u2502\u0306\u2502\u2502\u03B5 Lost",
+    "PreviousQuestIds": [
+      69994
+    ],
+    "PreviousQuestTitles": [
+      "Where Kn\u221Ewledge Leads"
+    ],
+    "NextQuestIds": [
+      69996
+    ],
+    "NextQuestTitles": [
+      "\u2523\u2528\u0308//\u0308 No\u2528\u03A6oun\u0394\u2022\u2022\u2022"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 613
+  },
+  {
+    "QuestId": 69996,
+    "QuestTitle": "\u2523\u2528\u0308//\u0308 No\u2528\u03A6oun\u0394\u2022\u2022\u2022",
+    "PreviousQuestIds": [
+      69995
+    ],
+    "PreviousQuestTitles": [
+      "Vic\u2528\u03BFry  \u0308 \u0308 \u0308\u2573, \u2502\u0306\u2502\u2502\u03B5 Lost"
+    ],
+    "NextQuestIds": [
+      69997
+    ],
+    "NextQuestTitles": [
+      "Hello, World"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "M-017",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 614
+  },
+  {
+    "QuestId": 69997,
+    "QuestTitle": "Hello, World",
+    "PreviousQuestIds": [
+      69996
+    ],
+    "PreviousQuestTitles": [
+      "\u2523\u2528\u0308//\u0308 No\u2528\u03A6oun\u0394\u2022\u2022\u2022"
+    ],
+    "NextQuestIds": [
+      69998
+    ],
+    "NextQuestTitles": [
+      "Forge Ahead"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 615
+  },
+  {
+    "QuestId": 69998,
+    "QuestTitle": "Forge Ahead",
+    "PreviousQuestIds": [
+      69997
+    ],
+    "PreviousQuestTitles": [
+      "Hello, World"
+    ],
+    "NextQuestIds": [
+      69999
+    ],
+    "NextQuestTitles": [
+      "You\u0027re Not Alone"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 616
+  },
+  {
+    "QuestId": 69999,
+    "QuestTitle": "You\u0027re Not Alone",
+    "PreviousQuestIds": [
+      69998
+    ],
+    "PreviousQuestTitles": [
+      "Forge Ahead"
+    ],
+    "NextQuestIds": [
+      70000
+    ],
+    "NextQuestTitles": [
+      "Endwalker"
+    ],
+    "StarterNpc": "Alisaie",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 617
+  },
+  {
+    "QuestId": 70000,
+    "QuestTitle": "Endwalker",
+    "PreviousQuestIds": [
+      69999
+    ],
+    "PreviousQuestTitles": [
+      "You\u0027re Not Alone"
+    ],
+    "NextQuestIds": [
+      70062
+    ],
+    "NextQuestTitles": [
+      "Newfound Adventure"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Tataru",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 11,
+      "JournalCategory": {
+        "Id": 11,
+        "Name": "Endwalker Main Scenario Quests"
+      },
+      "Name": "Endwalker"
+    },
+    "SortKey": 618
+  }
+]

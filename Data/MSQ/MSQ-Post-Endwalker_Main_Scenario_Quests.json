@@ -1,0 +1,1318 @@
+[
+  {
+    "QuestId": 70062,
+    "QuestTitle": "Newfound Adventure",
+    "PreviousQuestIds": [
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70063
+    ],
+    "NextQuestTitles": [
+      "Bountiful Ruins"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Tataru",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 619
+  },
+  {
+    "QuestId": 70063,
+    "QuestTitle": "Bountiful Ruins",
+    "PreviousQuestIds": [
+      70062
+    ],
+    "PreviousQuestTitles": [
+      "Newfound Adventure"
+    ],
+    "NextQuestIds": [
+      70064
+    ],
+    "NextQuestTitles": [
+      "Friends for the Road"
+    ],
+    "StarterNpc": "Tataru",
+    "FinishNpc": "Matsya",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 620
+  },
+  {
+    "QuestId": 70064,
+    "QuestTitle": "Friends for the Road",
+    "PreviousQuestIds": [
+      70063
+    ],
+    "PreviousQuestTitles": [
+      "Bountiful Ruins"
+    ],
+    "NextQuestIds": [
+      70065
+    ],
+    "NextQuestTitles": [
+      "Alzadaal\u0027s Legacy"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Estinien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 621
+  },
+  {
+    "QuestId": 70065,
+    "QuestTitle": "Alzadaal\u0027s Legacy",
+    "PreviousQuestIds": [
+      70064
+    ],
+    "PreviousQuestTitles": [
+      "Friends for the Road"
+    ],
+    "NextQuestIds": [
+      70066
+    ],
+    "NextQuestTitles": [
+      "A Brother\u0027s Grief"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 622
+  },
+  {
+    "QuestId": 70066,
+    "QuestTitle": "A Brother\u0027s Grief",
+    "PreviousQuestIds": [
+      70065
+    ],
+    "PreviousQuestTitles": [
+      "Alzadaal\u0027s Legacy"
+    ],
+    "NextQuestIds": [
+      70067
+    ],
+    "NextQuestTitles": [
+      "Sharing the Wealth"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 623
+  },
+  {
+    "QuestId": 70067,
+    "QuestTitle": "Sharing the Wealth",
+    "PreviousQuestIds": [
+      70066
+    ],
+    "PreviousQuestTitles": [
+      "A Brother\u0027s Grief"
+    ],
+    "NextQuestIds": [
+      70068
+    ],
+    "NextQuestTitles": [
+      "Bridging the Rift"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 624
+  },
+  {
+    "QuestId": 70068,
+    "QuestTitle": "Bridging the Rift",
+    "PreviousQuestIds": [
+      70067
+    ],
+    "PreviousQuestTitles": [
+      "Sharing the Wealth"
+    ],
+    "NextQuestIds": [
+      70069
+    ],
+    "NextQuestTitles": [
+      "Restricted Reading"
+    ],
+    "StarterNpc": "veteran Radiant",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 625
+  },
+  {
+    "QuestId": 70069,
+    "QuestTitle": "Restricted Reading",
+    "PreviousQuestIds": [
+      70068
+    ],
+    "PreviousQuestTitles": [
+      "Bridging the Rift"
+    ],
+    "NextQuestIds": [
+      70070
+    ],
+    "NextQuestTitles": [
+      "Void Theory"
+    ],
+    "StarterNpc": "Montichaigne",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 626
+  },
+  {
+    "QuestId": 70070,
+    "QuestTitle": "Void Theory",
+    "PreviousQuestIds": [
+      70069
+    ],
+    "PreviousQuestTitles": [
+      "Restricted Reading"
+    ],
+    "NextQuestIds": [
+      70071
+    ],
+    "NextQuestTitles": [
+      "A Satrap\u0027s Duty"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": null,
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 627
+  },
+  {
+    "QuestId": 70071,
+    "QuestTitle": "A Satrap\u0027s Duty",
+    "PreviousQuestIds": [
+      70070
+    ],
+    "PreviousQuestTitles": [
+      "Void Theory"
+    ],
+    "NextQuestIds": [
+      70128
+    ],
+    "NextQuestTitles": [
+      "In Search of Azdaja"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 628
+  },
+  {
+    "QuestId": 70128,
+    "QuestTitle": "In Search of Azdaja",
+    "PreviousQuestIds": [
+      70071
+    ],
+    "PreviousQuestTitles": [
+      "A Satrap\u0027s Duty"
+    ],
+    "NextQuestIds": [
+      70129
+    ],
+    "NextQuestTitles": [
+      "Shadowed Remnants"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 629
+  },
+  {
+    "QuestId": 70129,
+    "QuestTitle": "Shadowed Remnants",
+    "PreviousQuestIds": [
+      70128
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Azdaja"
+    ],
+    "NextQuestIds": [
+      70130
+    ],
+    "NextQuestTitles": [
+      "Where Everything Begins"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 630
+  },
+  {
+    "QuestId": 70130,
+    "QuestTitle": "Where Everything Begins",
+    "PreviousQuestIds": [
+      70129
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Remnants"
+    ],
+    "NextQuestIds": [
+      70131
+    ],
+    "NextQuestTitles": [
+      "Groping in the Dark"
+    ],
+    "StarterNpc": "dark-robed voidsent",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 631
+  },
+  {
+    "QuestId": 70131,
+    "QuestTitle": "Groping in the Dark",
+    "PreviousQuestIds": [
+      70130
+    ],
+    "PreviousQuestTitles": [
+      "Where Everything Begins"
+    ],
+    "NextQuestIds": [
+      70132
+    ],
+    "NextQuestTitles": [
+      "Nowhere to Run"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 632
+  },
+  {
+    "QuestId": 70132,
+    "QuestTitle": "Nowhere to Run",
+    "PreviousQuestIds": [
+      70131
+    ],
+    "PreviousQuestTitles": [
+      "Groping in the Dark"
+    ],
+    "NextQuestIds": [
+      70133
+    ],
+    "NextQuestTitles": [
+      "The Wind Rises"
+    ],
+    "StarterNpc": "Zero",
+    "FinishNpc": "Estinien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 633
+  },
+  {
+    "QuestId": 70133,
+    "QuestTitle": "The Wind Rises",
+    "PreviousQuestIds": [
+      70132
+    ],
+    "PreviousQuestTitles": [
+      "Nowhere to Run"
+    ],
+    "NextQuestIds": [
+      70134
+    ],
+    "NextQuestTitles": [
+      "Return from the Void"
+    ],
+    "StarterNpc": "Zero",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 634
+  },
+  {
+    "QuestId": 70134,
+    "QuestTitle": "Return from the Void",
+    "PreviousQuestIds": [
+      70133
+    ],
+    "PreviousQuestTitles": [
+      "The Wind Rises"
+    ],
+    "NextQuestIds": [
+      70135
+    ],
+    "NextQuestTitles": [
+      "A World with Light and Life"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Meghaduta attendant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 635
+  },
+  {
+    "QuestId": 70135,
+    "QuestTitle": "A World with Light and Life",
+    "PreviousQuestIds": [
+      70134
+    ],
+    "PreviousQuestTitles": [
+      "Return from the Void"
+    ],
+    "NextQuestIds": [
+      70136
+    ],
+    "NextQuestTitles": [
+      "Buried Memory"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 636
+  },
+  {
+    "QuestId": 70136,
+    "QuestTitle": "Buried Memory",
+    "PreviousQuestIds": [
+      70135
+    ],
+    "PreviousQuestTitles": [
+      "A World with Light and Life"
+    ],
+    "NextQuestIds": [
+      70206
+    ],
+    "NextQuestTitles": [
+      "Once More unto the Void"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 637
+  },
+  {
+    "QuestId": 70206,
+    "QuestTitle": "Once More unto the Void",
+    "PreviousQuestIds": [
+      70136
+    ],
+    "PreviousQuestTitles": [
+      "Buried Memory"
+    ],
+    "NextQuestIds": [
+      70207
+    ],
+    "NextQuestTitles": [
+      "A Cold Reunion"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 638
+  },
+  {
+    "QuestId": 70207,
+    "QuestTitle": "A Cold Reunion",
+    "PreviousQuestIds": [
+      70206
+    ],
+    "PreviousQuestTitles": [
+      "Once More unto the Void"
+    ],
+    "NextQuestIds": [
+      70208
+    ],
+    "NextQuestTitles": [
+      "Kindled Spirit"
+    ],
+    "StarterNpc": "Estinien",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 639
+  },
+  {
+    "QuestId": 70208,
+    "QuestTitle": "Kindled Spirit",
+    "PreviousQuestIds": [
+      70207
+    ],
+    "PreviousQuestTitles": [
+      "A Cold Reunion"
+    ],
+    "NextQuestIds": [
+      70209
+    ],
+    "NextQuestTitles": [
+      "An Unforeseen Bargain"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 640
+  },
+  {
+    "QuestId": 70209,
+    "QuestTitle": "An Unforeseen Bargain",
+    "PreviousQuestIds": [
+      70208
+    ],
+    "PreviousQuestTitles": [
+      "Kindled Spirit"
+    ],
+    "NextQuestIds": [
+      70210
+    ],
+    "NextQuestTitles": [
+      "King of the Mountain"
+    ],
+    "StarterNpc": "1st Legion soldier",
+    "FinishNpc": "Alisaie",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 641
+  },
+  {
+    "QuestId": 70210,
+    "QuestTitle": "King of the Mountain",
+    "PreviousQuestIds": [
+      70209
+    ],
+    "PreviousQuestTitles": [
+      "An Unforeseen Bargain"
+    ],
+    "NextQuestIds": [
+      70211
+    ],
+    "NextQuestTitles": [
+      "A Dragon\u0027s Resolve"
+    ],
+    "StarterNpc": "Alphinaud",
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 642
+  },
+  {
+    "QuestId": 70211,
+    "QuestTitle": "A Dragon\u0027s Resolve",
+    "PreviousQuestIds": [
+      70210
+    ],
+    "PreviousQuestTitles": [
+      "King of the Mountain"
+    ],
+    "NextQuestIds": [
+      70212
+    ],
+    "NextQuestTitles": [
+      "Paths Barred"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 643
+  },
+  {
+    "QuestId": 70212,
+    "QuestTitle": "Paths Barred",
+    "PreviousQuestIds": [
+      70211
+    ],
+    "PreviousQuestTitles": [
+      "A Dragon\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      70213
+    ],
+    "NextQuestTitles": [
+      "Desires Untold"
+    ],
+    "StarterNpc": "Zero",
+    "FinishNpc": "Nahbdeen",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 644
+  },
+  {
+    "QuestId": 70213,
+    "QuestTitle": "Desires Untold",
+    "PreviousQuestIds": [
+      70212
+    ],
+    "PreviousQuestTitles": [
+      "Paths Barred"
+    ],
+    "NextQuestIds": [
+      70214
+    ],
+    "NextQuestTitles": [
+      "Gods Revel, Lands Tremble"
+    ],
+    "StarterNpc": "Nahbdeen",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 645
+  },
+  {
+    "QuestId": 70214,
+    "QuestTitle": "Gods Revel, Lands Tremble",
+    "PreviousQuestIds": [
+      70213
+    ],
+    "PreviousQuestTitles": [
+      "Desires Untold"
+    ],
+    "NextQuestIds": [
+      70271
+    ],
+    "NextQuestTitles": [
+      "Currying Flavor"
+    ],
+    "StarterNpc": "Zero",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 646
+  },
+  {
+    "QuestId": 70271,
+    "QuestTitle": "Currying Flavor",
+    "PreviousQuestIds": [
+      70214
+    ],
+    "PreviousQuestTitles": [
+      "Gods Revel, Lands Tremble"
+    ],
+    "NextQuestIds": [
+      70272
+    ],
+    "NextQuestTitles": [
+      "Going Haam"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Meghaduta attendant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 647
+  },
+  {
+    "QuestId": 70272,
+    "QuestTitle": "Going Haam",
+    "PreviousQuestIds": [
+      70271
+    ],
+    "PreviousQuestTitles": [
+      "Currying Flavor"
+    ],
+    "NextQuestIds": [
+      70273
+    ],
+    "NextQuestTitles": [
+      "Like Fear to Flame"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Urianger",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 648
+  },
+  {
+    "QuestId": 70273,
+    "QuestTitle": "Like Fear to Flame",
+    "PreviousQuestIds": [
+      70272
+    ],
+    "PreviousQuestTitles": [
+      "Going Haam"
+    ],
+    "NextQuestIds": [
+      70274
+    ],
+    "NextQuestTitles": [
+      "The Fallen Empire"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 649
+  },
+  {
+    "QuestId": 70274,
+    "QuestTitle": "The Fallen Empire",
+    "PreviousQuestIds": [
+      70273
+    ],
+    "PreviousQuestTitles": [
+      "Like Fear to Flame"
+    ],
+    "NextQuestIds": [
+      70275
+    ],
+    "NextQuestTitles": [
+      "Bonds of Trust"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Mettius",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 650
+  },
+  {
+    "QuestId": 70275,
+    "QuestTitle": "Bonds of Trust",
+    "PreviousQuestIds": [
+      70274
+    ],
+    "PreviousQuestTitles": [
+      "The Fallen Empire"
+    ],
+    "NextQuestIds": [
+      70276
+    ],
+    "NextQuestTitles": [
+      "Lunar Rendezvous"
+    ],
+    "StarterNpc": "Jullus",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 651
+  },
+  {
+    "QuestId": 70276,
+    "QuestTitle": "Lunar Rendezvous",
+    "PreviousQuestIds": [
+      70275
+    ],
+    "PreviousQuestTitles": [
+      "Bonds of Trust"
+    ],
+    "NextQuestIds": [
+      70277
+    ],
+    "NextQuestTitles": [
+      "The Red Side of the Moon"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Livingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 652
+  },
+  {
+    "QuestId": 70277,
+    "QuestTitle": "The Red Side of the Moon",
+    "PreviousQuestIds": [
+      70276
+    ],
+    "PreviousQuestTitles": [
+      "Lunar Rendezvous"
+    ],
+    "NextQuestIds": [
+      70278
+    ],
+    "NextQuestTitles": [
+      "Abyssal Dark"
+    ],
+    "StarterNpc": "Urianger",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 653
+  },
+  {
+    "QuestId": 70278,
+    "QuestTitle": "Abyssal Dark",
+    "PreviousQuestIds": [
+      70277
+    ],
+    "PreviousQuestTitles": [
+      "The Red Side of the Moon"
+    ],
+    "NextQuestIds": [
+      70279
+    ],
+    "NextQuestTitles": [
+      "The Dark Throne"
+    ],
+    "StarterNpc": "Zero",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 654
+  },
+  {
+    "QuestId": 70279,
+    "QuestTitle": "The Dark Throne",
+    "PreviousQuestIds": [
+      70278
+    ],
+    "PreviousQuestTitles": [
+      "Abyssal Dark"
+    ],
+    "NextQuestIds": [
+      70280
+    ],
+    "NextQuestTitles": [
+      "Seeking the Light"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 655
+  },
+  {
+    "QuestId": 70280,
+    "QuestTitle": "Seeking the Light",
+    "PreviousQuestIds": [
+      70279
+    ],
+    "PreviousQuestTitles": [
+      "The Dark Throne"
+    ],
+    "NextQuestIds": [
+      70281
+    ],
+    "NextQuestTitles": [
+      "Appealing to the Masses"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 656
+  },
+  {
+    "QuestId": 70281,
+    "QuestTitle": "Appealing to the Masses",
+    "PreviousQuestIds": [
+      70280
+    ],
+    "PreviousQuestTitles": [
+      "Seeking the Light"
+    ],
+    "NextQuestIds": [
+      70282
+    ],
+    "NextQuestTitles": [
+      "In Defiance of Fate"
+    ],
+    "StarterNpc": "Ryne",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 657
+  },
+  {
+    "QuestId": 70282,
+    "QuestTitle": "In Defiance of Fate",
+    "PreviousQuestIds": [
+      70281
+    ],
+    "PreviousQuestTitles": [
+      "Appealing to the Masses"
+    ],
+    "NextQuestIds": [
+      70283
+    ],
+    "NextQuestTitles": [
+      "Back to Action"
+    ],
+    "StarterNpc": "Zero",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 658
+  },
+  {
+    "QuestId": 70283,
+    "QuestTitle": "Back to Action",
+    "PreviousQuestIds": [
+      70282
+    ],
+    "PreviousQuestTitles": [
+      "In Defiance of Fate"
+    ],
+    "NextQuestIds": [
+      70284
+    ],
+    "NextQuestTitles": [
+      "Down in the Dark"
+    ],
+    "StarterNpc": "Ryne",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 659
+  },
+  {
+    "QuestId": 70284,
+    "QuestTitle": "Down in the Dark",
+    "PreviousQuestIds": [
+      70283
+    ],
+    "PreviousQuestTitles": [
+      "Back to Action"
+    ],
+    "NextQuestIds": [
+      70285
+    ],
+    "NextQuestTitles": [
+      "Reunited at Last"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Zero",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 660
+  },
+  {
+    "QuestId": 70285,
+    "QuestTitle": "Reunited at Last",
+    "PreviousQuestIds": [
+      70284
+    ],
+    "PreviousQuestTitles": [
+      "Down in the Dark"
+    ],
+    "NextQuestIds": [
+      70286
+    ],
+    "NextQuestTitles": [
+      "Growing Light"
+    ],
+    "StarterNpc": "Vrtra",
+    "FinishNpc": "Atheleys",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 661
+  },
+  {
+    "QuestId": 70286,
+    "QuestTitle": "Growing Light",
+    "PreviousQuestIds": [
+      70285
+    ],
+    "PreviousQuestTitles": [
+      "Reunited at Last"
+    ],
+    "NextQuestIds": [
+      70287
+    ],
+    "NextQuestTitles": [
+      "When One Door Closes..."
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "FinishNpc": "Varshahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 662
+  },
+  {
+    "QuestId": 70287,
+    "QuestTitle": "When One Door Closes...",
+    "PreviousQuestIds": [
+      70286
+    ],
+    "PreviousQuestTitles": [
+      "Growing Light"
+    ],
+    "NextQuestIds": [
+      70288
+    ],
+    "NextQuestTitles": [
+      "The Game Is Afoot"
+    ],
+    "StarterNpc": "Varshahn",
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 663
+  },
+  {
+    "QuestId": 70288,
+    "QuestTitle": "The Game Is Afoot",
+    "PreviousQuestIds": [
+      70287
+    ],
+    "PreviousQuestTitles": [
+      "When One Door Closes..."
+    ],
+    "NextQuestIds": [
+      70289
+    ],
+    "NextQuestTitles": [
+      "The Coming Dawn"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Erenville",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 664
+  },
+  {
+    "QuestId": 70289,
+    "QuestTitle": "The Coming Dawn",
+    "PreviousQuestIds": [
+      70288
+    ],
+    "PreviousQuestTitles": [
+      "The Game Is Afoot"
+    ],
+    "NextQuestIds": [
+      70396
+    ],
+    "NextQuestTitles": [
+      "A New World to Explore"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "FinishNpc": "Ojika Tsunjika",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 12,
+      "JournalCategory": {
+        "Id": 12,
+        "Name": "Post-Endwalker Main Scenario Quests"
+      },
+      "Name": "Newfound Adventure"
+    },
+    "SortKey": 665
+  }
+]
