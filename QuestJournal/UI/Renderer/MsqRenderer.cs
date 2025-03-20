@@ -41,7 +41,7 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
     private void DrawQuestWidgets(List<QuestInfo> quests)
     {
         var childHeight = ImGui.GetContentRegionAvail().Y;
-        ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), true, ImGuiWindowFlags.HorizontalScrollbar | ImGuiWindowFlags.AlwaysVerticalScrollbar);
+        ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
 
         if (ImGui.BeginTable("QuestTable", 3, ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.ScrollY, new Vector2(-1, 0)))
         {
