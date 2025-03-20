@@ -1,15 +1,18 @@
 ﻿using System.Collections.Generic;
 using ImGuiNET;
+using QuestJournal.UI.Handler;
 
 namespace QuestJournal.UI.Renderer;
 
 public class SettingsRenderer
 {
     private readonly Configuration configuration;
+    private readonly MsqRenderer msqRenderer;
 
-    public SettingsRenderer(Configuration configuration)
+    public SettingsRenderer(Configuration configuration, MsqRenderer msqRenderer)
     {
         this.configuration = configuration;
+        this.msqRenderer = msqRenderer;
     }
 
     public void DrawSettings()
@@ -29,6 +32,7 @@ public class SettingsRenderer
                 {
                     configuration.StartArea = option;
                     configuration.Save();
+                    msqRenderer.ReloadQuests();
                 }
 
                 if (isSelected) ImGui.SetItemDefaultFocus();
@@ -50,6 +54,7 @@ public class SettingsRenderer
                 {
                     configuration.GrandCompany = option;
                     configuration.Save();
+                    msqRenderer.ReloadQuests();
                 }
 
                 if (isSelected) ImGui.SetItemDefaultFocus();

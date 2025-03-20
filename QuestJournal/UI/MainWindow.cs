@@ -33,13 +33,14 @@ public class MainWindow : Window, IDisposable
 
         msqRenderer = new MsqRenderer(msqHandler, log);
         informationRenderer = new InformationRenderer();
-        settingsRenderer = new SettingsRenderer(configuration);
+        settingsRenderer = new SettingsRenderer(configuration, msqRenderer);
     }
 
     public override void Draw()
     {
         if (ImGui.Button("Refresh##RefreshButton"))
         {
+            msqRenderer.ReloadQuests();
             log.Info("Refreshed quest list.");
         }
         

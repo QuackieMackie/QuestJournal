@@ -8,6 +8,7 @@ using Lumina.Excel;
 using Lumina.Excel.Sheets;
 using Lumina.Text.ReadOnly;
 using QuestJournal.Models;
+using Level = QuestJournal.Models.Level;
 
 namespace QuestJournal.Utils;
 
@@ -144,14 +145,15 @@ public class QuestDataFetcher
                 NextQuestIds = new List<uint>(),
                 NextQuestTitles = new List<string>(),
                 StarterNpc = ResolveNpcName(questData.IssuerStart, dataManager),
+                StarterNpcLocation = ResolveNpcLocation(questData, dataManager),
                 FinishNpc = ResolveNpcName(questData.TargetEnd, dataManager),
                 Expansion = expansionName,
                 JournalGenre = journalGenreDetails,
                 SortKey = questData.SortKey,
                 Icon = questData.Icon,
-                IconSpecial = questData.IconSpecial
+                IconSpecial = questData.IconSpecial,
             };
-
+            
             return questDetails;
         }
         catch (Exception ex)
@@ -284,6 +286,53 @@ public class QuestDataFetcher
         catch (Exception ex)
         {
             log.Error($"Error resolving NPC name for RowId {npcRef.RowId}: {ex.Message}");
+            return null;
+        }
+    }
+    
+    /// <summary>
+    /// Resolves the NPC's location based on the issuer (NPC location).
+    /// </summary>
+    private Level? ResolveNpcLocation(Quest questData, IDataManager dataManager)
+    {
+        try
+        {
+            var levelSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Level>();
+            var npcLocationRef = questData.IssuerLocation;
+
+            if (npcLocationRef.RowId == 0)
+            {
+                log.Warning($"Invalid IssuerLocation RowId for QuestId: {questData.RowId}. Skipping.");
+                return null;
+            }
+
+            var levelRow = levelSheet.GetRow(npcLocationRef.RowId);
+            if (levelRow.RowId == 0)
+            {
+                log.Error($"No Level data found for RowId {npcLocationRef.RowId} (QuestId: {questData.RowId}).");
+                return null;
+            }
+
+            return new Level
+            {
+                RowId = levelRow.RowId,
+                X = levelRow.X,
+                Y = levelRow.Y,
+                Z = levelRow.Z,
+                Yaw = levelRow.Yaw,
+                Radius = levelRow.Radius,
+                MapId = levelRow.Map.RowId,
+                TerritoryId = levelRow.Territory.RowId
+            };
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            log.Error($"RowId out of range for QuestId: {questData.RowId}. Actual value: {ex.ActualValue}");
+            return null;
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Unexpected error resolving NPC location for QuestId: {questData.RowId}: {ex.Message}");
             return null;
         }
     }

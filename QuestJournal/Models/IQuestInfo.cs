@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Lumina.Excel;
+using Lumina.Excel.Sheets;
 
 namespace QuestJournal.Models;
 
@@ -14,6 +16,8 @@ public class QuestInfo
     public List<string>? NextQuestTitles { get; init; }
 
     public string? StarterNpc { get; init; }
+    public Level? StarterNpcLocation { get; init; }
+    
     public string? FinishNpc { get; init; }
 
     public string? Expansion { get; init; }
@@ -30,7 +34,7 @@ public class QuestInfo
         return
             $"QuestId: {QuestId}, QuestTitle: {QuestTitle}, PreviousQuests: [{string.Join(", ", PreviousQuestIds ?? new List<uint>())}], " +
             $"NextQuests: [{string.Join(", ", NextQuestIds ?? new List<uint>())}] ({string.Join(", ", NextQuestTitles ?? new List<string>())}), " +
-            $"StarterNpc: {StarterNpc}, FinishNpc: {FinishNpc}, Expansion: {Expansion}, JournalGenre: {JournalGenre}";
+            $"StarterNpc: {StarterNpc}, StarterNpcLocation: {StarterNpcLocation}, FinishNpc: {FinishNpc}, Expansion: {Expansion}, JournalGenre: {JournalGenre}";
     }
 
 }
@@ -47,3 +51,23 @@ public class JournalCategoryDetails
     public uint Id { get; init; }
     public string? Name { get; init; }
 }
+
+public class Level
+{
+    public uint RowId { get; init; }
+    public float X { get; init; }
+    public float Y { get; init; }
+    public float Z { get; init; }
+    public float Yaw { get; init; }
+    public float Radius { get; init; }
+    public uint MapId { get; init; }
+    public uint TerritoryId { get; init; }
+
+    public override string ToString()
+    {
+        return $"RowId: {RowId}, Coordinates: (X: {X:F2}, Y: {Y:F2}, Z: {Z:F2}), " +
+               $"Yaw: {Yaw:F2}, Radius: {Radius:F2}, " +
+               $"MapId: {MapId}, TerritoryId: {TerritoryId}";
+    }
+}
+

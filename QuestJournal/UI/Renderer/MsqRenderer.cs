@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using Dalamud.Game.Text.SeStringHandling.Payloads;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using ImGuiNET;
@@ -31,11 +32,16 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         DrawSearchBar();
 
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
-        ImGui.Separator();
 
         DrawSelectedQuestDetails(selectedQuest);
 
         DrawQuestWidgets(questList);
+    }
+
+    public void ReloadQuests()
+    {
+        InitializeDropDown();
+        UpdateQuestList(selectedDropDownCategory);
     }
 
     private void DrawQuestWidgets(List<QuestInfo> quests)
@@ -47,13 +53,13 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         {
             ImGui.TableSetupColumn("", ImGuiTableColumnFlags.WidthFixed, 25);
             ImGui.TableSetupColumn("Quest Name", ImGuiTableColumnFlags.WidthStretch);
-            ImGui.TableSetupColumn("Location", ImGuiTableColumnFlags.WidthStretch);
+            ImGui.TableSetupColumn("Start Location", ImGuiTableColumnFlags.WidthStretch);
+            
             ImGui.TableHeadersRow();
 
             for (int i = 0; i < quests.Count; i++)
             {
                 ImGui.TableNextRow();
-
                 bool isComplete = QuestManager.IsQuestComplete(quests[i].QuestId);
                 bool isMatch = !string.IsNullOrEmpty(searchQuery) && 
                                (quests[i].QuestTitle?.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ?? false);
@@ -67,10 +73,26 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
                 ImGui.Text(isComplete ? " ✓ " : " x ");
 
                 ImGui.TableNextColumn();
-                RenderSelectableRow(i, quests[i], isSelected);
+                if (ImGui.Selectable(quests[i].QuestTitle ?? "Unknown Quest", isSelected))
+                {
+                    if (selectedQuest?.QuestId == quests[i].QuestId)
+                    {
+                        selectedQuest = null;
+                        log.Info("Deselected the currently selected quest.");
+                    }
+                    else
+                    {
+                        selectedQuest = quests[i];
+                        log.Info($"Quest selected: {quests[i].QuestTitle} (ID: {quests[i].QuestId})");
+                    }
+                }
 
                 ImGui.TableNextColumn();
-                ImGui.Text(quests[i].StarterNpc ?? "Unknown Location");
+                if (ImGui.Selectable($"{quests[i].StarterNpc ?? "Unknown Location"}##StarterNpc{i}"))
+                {
+                    log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
+                    OpenStarterLocation(quests[i]);
+                }
 
                 ImGui.PopStyleColor();
             }
@@ -81,29 +103,38 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         ImGui.EndChild();
     }
 
-    private void RenderSelectableRow(int rowIndex, QuestInfo quest, bool isSelected)
+    private void OpenStarterLocation(QuestInfo quest)
     {
-        ImGui.PushStyleColor(ImGuiCol.Button, Vector4.Zero);
-        ImGui.PushStyleColor(ImGuiCol.ButtonHovered, Vector4.Zero);
-        ImGui.PushStyleColor(ImGuiCol.ButtonActive, Vector4.Zero);
-
-        if (ImGui.Selectable("##Selectable" + rowIndex, isSelected, ImGuiSelectableFlags.SpanAllColumns))
+        if (quest.StarterNpcLocation == null)
         {
-            if (selectedQuest?.QuestId == quest.QuestId)
-            {
-                selectedQuest = null;
-                log.Info("Deselected the currently selected quest.");
-            }
-            else
-            {
-                selectedQuest = quest;
-                log.Info($"Quest selected: {quest.QuestTitle} (ID: {quest.QuestId})");
-            }
+            log.Warning("Starter NPC location is unavailable.");
+            return;
         }
-        ImGui.PopStyleColor(3);
 
-        ImGui.SameLine();
-        ImGui.TextColored(ImGui.GetStyle().Colors[(int)ImGuiCol.Text], quest.QuestTitle ?? "Unknown Quest");
+        var location = quest.StarterNpcLocation;
+        if (location.TerritoryId == 0 || location.MapId == 0)
+        {
+            log.Warning($"Invalid location data for starter NPC: {quest.StarterNpc}.");
+            return;
+        }
+
+        try
+        {
+            var mapLink = new MapLinkPayload(
+                location.TerritoryId,
+                location.MapId,
+                (int)(location.X * 1_000f),
+                (int)(location.Z * 1_000f)
+            );
+
+            QuestJournal.GameGui.OpenMapWithMapLink(mapLink);
+
+            log.Info($"Opened map for starter NPC: {quest.StarterNpc} at coordinates X: {location.X}, Z: {location.Z}. Territory: {location.TerritoryId}, Map: {location.MapId}");
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to open map for starter NPC: {quest.StarterNpc}. Exception: {ex.Message}");
+        }
     }
 
     private Vector4 DetermineQuestColor(bool isComplete, bool isMatch, bool isSelected)
@@ -207,9 +238,45 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
         ImGui.PushStyleColor(ImGuiCol.ChildBg, new Vector4(0.15f, 0.15f, 0.15f, 1f));
         ImGui.PushStyleVar(ImGuiStyleVar.FramePadding, new Vector2(6, 6));
-
+        
         ImGui.BeginChild("QuestDetails", new Vector2(0, 260), true);
+        
+        var iconId = questInfo.Icon;
+        if (iconId != 0 && QuestJournal.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex) 
+                        && imageTex.TryGetWrap(out var image, out _))
+        {
+            ImGui.PushStyleVar(ImGuiStyleVar.WindowPadding, Vector2.Zero);
+            ImGui.PushStyleVar(ImGuiStyleVar.FramePadding, Vector2.Zero);
 
+            Vector2 windowPos = ImGui.GetWindowPos();
+            Vector2 windowSize = ImGui.GetContentRegionAvail();
+
+            float aspectRatio = image.Size.Y / image.Size.X;
+            float newWidth = windowSize.X;
+            float newHeight = newWidth * aspectRatio;
+            
+            if (newHeight < windowSize.Y)
+            {
+                newHeight = windowSize.Y;
+                newWidth = newHeight / aspectRatio;
+            }
+
+            float centeredX = windowPos.X + (windowSize.X - newWidth) / 2f;
+            float centeredY = windowPos.Y + (windowSize.Y - newHeight) / 2f;
+
+            ImGui.GetWindowDrawList().AddImage(image.ImGuiHandle, 
+                                               new Vector2(centeredX, centeredY),
+                                               new Vector2(centeredX + newWidth, centeredY + newHeight));
+
+            Vector4 overlayColor = new Vector4(0f, 0f, 0f, 0.8f);
+            ImGui.GetWindowDrawList().AddRectFilled(
+                new Vector2(centeredX, centeredY), 
+                new Vector2(centeredX + newWidth, centeredY + newHeight), 
+                ImGui.GetColorU32(overlayColor));
+
+            ImGui.PopStyleVar(2);
+        }
+        
         ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), questInfo.QuestTitle);
         ImGui.SameLine();
         ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {questInfo.QuestId}").X);
@@ -225,7 +292,8 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
         var childWidth = ImGui.GetContentRegionAvail().X / 2f;
         float childHeight = 200;
-
+        
+        ImGui.PushStyleColor(ImGuiCol.ChildBg, new Vector4(0, 0, 0, 0));
         ImGui.BeginChild("LeftSection", new Vector2(childWidth, childHeight), true);
 
         ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Quest Details");
