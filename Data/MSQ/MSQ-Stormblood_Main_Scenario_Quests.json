@@ -15,6 +15,16 @@
       "Lyse Takes the Lead"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6532867,
+      "X": -4.1769,
+      "Y": -0.00725758,
+      "Z": -6.62483,
+      "Yaw": 0.841136,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
     "FinishNpc": "Raubahn",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -25,7 +35,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 10
+    "SortKey": 10,
+    "Icon": 100635,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67983,
@@ -43,6 +55,16 @@
       "The Promise of a New Beginning"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6844564,
+      "X": -612.08,
+      "Y": 129.992,
+      "Z": -503.993,
+      "Yaw": 2.13117,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Conrad",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -53,7 +75,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 20
+    "SortKey": 20,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67984,
@@ -71,6 +95,16 @@
       "A Haven for the Bold"
     ],
     "StarterNpc": "Conrad",
+    "StarterNpcLocation": {
+      "RowId": 6829428,
+      "X": -32.9748,
+      "Y": 17.9904,
+      "Z": 129.412,
+      "Yaw": -0.228959,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Conrad",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -81,7 +115,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 30
+    "SortKey": 30,
+    "Icon": 100636,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67985,
@@ -93,12 +129,24 @@
       "The Promise of a New Beginning"
     ],
     "NextQuestIds": [
-      67986
+      67986,
+      68456
     ],
     "NextQuestTitles": [
-      "A Bargain Struck"
+      "A Bargain Struck",
+      "Sights of Crimson and Dawn"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6829443,
+      "X": 164.933,
+      "Y": 13.0159,
+      "Z": -91.5007,
+      "Yaw": 1.40107,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -109,7 +157,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 40
+    "SortKey": 40,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67986,
@@ -129,6 +179,16 @@
       "A Familiar Face Forgotten"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6829459,
+      "X": 61.1809,
+      "Y": -2.82441E-13,
+      "Z": -4.66434,
+      "Yaw": -1.20884,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -139,7 +199,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 50
+    "SortKey": 50,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67987,
@@ -157,6 +219,16 @@
       "Signed, Sealed, to Be Delivered"
     ],
     "StarterNpc": "M\u0027naago",
+    "StarterNpcLocation": {
+      "RowId": 6829441,
+      "X": 171.325,
+      "Y": 13.0159,
+      "Z": -89.9405,
+      "Yaw": -1.56668,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -167,7 +239,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 60
+    "SortKey": 60,
+    "Icon": 100637,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67988,
@@ -179,12 +253,34 @@
       "A Friend of a Friend in Need"
     ],
     "NextQuestIds": [
-      67989
+      67989,
+      68175,
+      68176,
+      68177,
+      68178,
+      68179,
+      68180
     ],
     "NextQuestTitles": [
-      "Best Served with Cold Steel"
+      "Best Served with Cold Steel",
+      "Magiteknical Failure",
+      "Gross Encounters",
+      "Prison Break",
+      "What a Tangled Web We Weave",
+      "Doing Her Part",
+      "Spicing Things Up"
     ],
     "StarterNpc": "M\u0027naago",
+    "StarterNpcLocation": {
+      "RowId": 6829567,
+      "X": -95.842,
+      "Y": 59.8,
+      "Z": -551.904,
+      "Yaw": 2.13446,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Raubahn",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -195,7 +291,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 70
+    "SortKey": 70,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67989,
@@ -213,6 +311,16 @@
       "Let Fill Your Hearts with Pride"
     ],
     "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 6829367,
+      "X": -606.723,
+      "Y": 129.992,
+      "Z": -506.928,
+      "Yaw": -0.751365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -223,7 +331,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 80
+    "SortKey": 80,
+    "Icon": 100638,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67990,
@@ -241,6 +351,16 @@
       "Where Men Go as One"
     ],
     "StarterNpc": "M\u0027naago",
+    "StarterNpcLocation": {
+      "RowId": 6829592,
+      "X": -507.433,
+      "Y": 86.345,
+      "Z": -289.827,
+      "Yaw": -0.00108916,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -251,7 +371,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 90
+    "SortKey": 90,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67991,
@@ -269,6 +391,16 @@
       "The Prodigal Daughter"
     ],
     "StarterNpc": "Meffrid",
+    "StarterNpcLocation": {
+      "RowId": 6829442,
+      "X": 170.315,
+      "Y": 13.0237,
+      "Z": -93.0521,
+      "Yaw": -1.03101,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Meffrid",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -279,7 +411,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 100
+    "SortKey": 100,
+    "Icon": 100639,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67992,
@@ -299,6 +433,16 @@
       "Death by a Thousand Rocks"
     ],
     "StarterNpc": "Meffrid",
+    "StarterNpcLocation": {
+      "RowId": 6830028,
+      "X": 36.4304,
+      "Y": 117.957,
+      "Z": -742.24,
+      "Yaw": -1.71395,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Meffrid",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -309,7 +453,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 110
+    "SortKey": 110,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67993,
@@ -329,6 +475,16 @@
       "The Color of Angry Qiqirn"
     ],
     "StarterNpc": "Meffrid",
+    "StarterNpcLocation": {
+      "RowId": 6836913,
+      "X": 95.4624,
+      "Y": 118.098,
+      "Z": -758.053,
+      "Yaw": 2.91338,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Meffrid",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -339,7 +495,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 120
+    "SortKey": 120,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67994,
@@ -357,6 +515,16 @@
       "The Black Wolf\u0027s Pups"
     ],
     "StarterNpc": "Meffrid",
+    "StarterNpcLocation": {
+      "RowId": 6836937,
+      "X": 85.4125,
+      "Y": 118.15,
+      "Z": -719.955,
+      "Yaw": -2.31968,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -367,7 +535,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 130
+    "SortKey": 130,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67995,
@@ -379,12 +549,34 @@
       "The Color of Angry Qiqirn"
     ],
     "NextQuestIds": [
-      67996
+      67996,
+      68181,
+      68182,
+      68183,
+      68184,
+      68185,
+      68186
     ],
     "NextQuestTitles": [
-      "Homeward Bound"
+      "Homeward Bound",
+      "Dark Water",
+      "An Honest Day\u0027s Work",
+      "Home Comforts",
+      "Bears over Flowers",
+      "Beastly Bandits",
+      "Midge Madness"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6840349,
+      "X": -284.579,
+      "Y": 200.702,
+      "Z": -287.239,
+      "Yaw": -0.00618909,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Meffrid",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -395,7 +587,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 140
+    "SortKey": 140,
+    "Icon": 100640,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67996,
@@ -413,6 +607,16 @@
       "Where Men Go as One"
     ],
     "StarterNpc": "Meffrid",
+    "StarterNpcLocation": {
+      "RowId": 6840950,
+      "X": -140.925,
+      "Y": 104.17,
+      "Z": -401.793,
+      "Yaw": -2.7673,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Meffrid",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -423,7 +627,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 150
+    "SortKey": 150,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67997,
@@ -447,6 +653,16 @@
       "Ye Wayward Brothers"
     ],
     "StarterNpc": "Conrad",
+    "StarterNpcLocation": {
+      "RowId": 6708349,
+      "X": 170.945,
+      "Y": 13,
+      "Z": -91.3861,
+      "Yaw": -1.34933,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -457,7 +673,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 160
+    "SortKey": 160,
+    "Icon": 100641,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67998,
@@ -475,6 +693,16 @@
       "In Crimson It Began"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6829443,
+      "X": 164.933,
+      "Y": 13.0159,
+      "Z": -91.5007,
+      "Yaw": 1.40107,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -485,7 +713,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 170
+    "SortKey": 170,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 67999,
@@ -503,6 +733,16 @@
       "The Fires Fade"
     ],
     "StarterNpc": "Pipin",
+    "StarterNpcLocation": {
+      "RowId": 6829573,
+      "X": -605.212,
+      "Y": 129.992,
+      "Z": -506.243,
+      "Yaw": -0.823677,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Raubahn",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -513,7 +753,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 180
+    "SortKey": 180,
+    "Icon": 100642,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68000,
@@ -525,12 +767,38 @@
       "In Crimson It Began"
     ],
     "NextQuestIds": [
-      68001
+      68001,
+      68187,
+      68188,
+      68189,
+      68190,
+      68191,
+      68192,
+      68193,
+      68194
     ],
     "NextQuestTitles": [
-      "Bereft of Hearth and Home"
+      "Bereft of Hearth and Home",
+      "Hard Blow",
+      "Mother\u0027s Boy",
+      "Of Rats and Men",
+      "Rat Bandits",
+      "Saint Sayer",
+      "As Stubborn as Stone",
+      "The Sound of the Quarry",
+      "Spooky Stones"
     ],
     "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 6844528,
+      "X": 71.3305,
+      "Y": 0.0252888,
+      "Z": -75.7568,
+      "Yaw": -2.5137,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Conrad",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -541,7 +809,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 190
+    "SortKey": 190,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68001,
@@ -559,6 +829,16 @@
       "Divide and Conquer"
     ],
     "StarterNpc": "Pipin",
+    "StarterNpcLocation": {
+      "RowId": 6844542,
+      "X": -139.635,
+      "Y": 0.598051,
+      "Z": -81.468,
+      "Yaw": 2.7115,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "flame courier",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -569,7 +849,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 200
+    "SortKey": 200,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68002,
@@ -581,12 +863,34 @@
       "Bereft of Hearth and Home"
     ],
     "NextQuestIds": [
-      68003
+      68003,
+      68195,
+      68196,
+      68197,
+      68198,
+      68199,
+      68200
     ],
     "NextQuestTitles": [
-      "Lies, Damn Lies, and Pirates"
+      "Lies, Damn Lies, and Pirates",
+      "A Good Role Model",
+      "A Second Assessment",
+      "The Hidden Truth",
+      "Drawing a Blank",
+      "Seeking Answers",
+      "The Honest Truth"
     ],
     "StarterNpc": "Conrad",
+    "StarterNpcLocation": {
+      "RowId": 6844557,
+      "X": -91.2083,
+      "Y": 0,
+      "Z": -19.7923,
+      "Yaw": 0.936077,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -597,7 +901,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 210
+    "SortKey": 210,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68003,
@@ -615,6 +921,16 @@
       "Tales from the Far East"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6844563,
+      "X": -609.606,
+      "Y": 129.992,
+      "Z": -501.107,
+      "Yaw": 2.6487,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -625,7 +941,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 220
+    "SortKey": 220,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68004,
@@ -643,6 +961,16 @@
       "Not without Incident"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6844566,
+      "X": 13.5652,
+      "Y": 44,
+      "Z": -36.8201,
+      "Yaw": -1.76648,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -653,7 +981,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 230
+    "SortKey": 230,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68005,
@@ -671,6 +1001,16 @@
       "The Man from Ul\u0027dah"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6847898,
+      "X": 40.5871,
+      "Y": 20.4929,
+      "Z": -648.719,
+      "Yaw": 2.98542,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
     "FinishNpc": "Carvallain",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -681,7 +1021,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 240
+    "SortKey": 240,
+    "Icon": 100644,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68006,
@@ -699,6 +1041,16 @@
       "Where the Streets Are Paved with Koban"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6848147,
+      "X": -124.498,
+      "Y": -7.00391,
+      "Z": -55.8328,
+      "Yaw": 2.75996,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Hancock",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -709,7 +1061,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 250
+    "SortKey": 250,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68007,
@@ -727,6 +1081,16 @@
       "By the Grace of Lord Lolorito"
     ],
     "StarterNpc": "Hancock",
+    "StarterNpcLocation": {
+      "RowId": 6842874,
+      "X": 17.9583,
+      "Y": 3.09944E-06,
+      "Z": -41.1998,
+      "Yaw": 3.05732,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Hancock",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -737,7 +1101,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 260
+    "SortKey": 260,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68008,
@@ -749,12 +1115,36 @@
       "Where the Streets Are Paved with Koban"
     ],
     "NextQuestIds": [
-      68009
+      68009,
+      68167,
+      68201,
+      68202,
+      68203,
+      68204,
+      68205,
+      68472
     ],
     "NextQuestTitles": [
-      "A Good Samurai Is Hard to Find"
+      "A Good Samurai Is Hard to Find",
+      "I Dream of Shirogane",
+      "Dedication to the Craft",
+      "A Drink in the Tub",
+      "I\u0027ll Show You Angry",
+      "A Picture Is Worth a Thousand Moms",
+      "Zero Tolerance Teahouse",
+      "One-star Veteran Clan Hunt"
     ],
     "StarterNpc": "Hancock",
+    "StarterNpcLocation": {
+      "RowId": 6842877,
+      "X": 95.14,
+      "Y": 8.01093,
+      "Z": 151.965,
+      "Yaw": -2.70904,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -765,7 +1155,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 270
+    "SortKey": 270,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68009,
@@ -783,6 +1175,16 @@
       "It\u0027s Probably a Trap"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6843428,
+      "X": 1.57159,
+      "Y": 0,
+      "Z": -0.930908,
+      "Yaw": -2.39472,
+      "Radius": 1,
+      "MapId": 377,
+      "TerritoryId": 639
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -793,7 +1195,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 280
+    "SortKey": 280,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68010,
@@ -811,6 +1215,16 @@
       "Making the Catfish Sing"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6843843,
+      "X": -32.395,
+      "Y": 0.0297713,
+      "Z": -68.3147,
+      "Yaw": -0.953338,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -821,7 +1235,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 290
+    "SortKey": 290,
+    "Icon": 100646,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68011,
@@ -833,12 +1249,28 @@
       "It\u0027s Probably a Trap"
     ],
     "NextQuestIds": [
-      68012
+      68012,
+      68206,
+      68207,
+      68208
     ],
     "NextQuestTitles": [
-      "Once More, to the Ruby Sea"
+      "Once More, to the Ruby Sea",
+      "Where the Wild Pandas Are",
+      "A Bleak Diagnosis",
+      "To Bathe a Garlean"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6843855,
+      "X": 147.753,
+      "Y": 14.7757,
+      "Z": 91.7219,
+      "Yaw": 1.47896,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -849,7 +1281,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 300
+    "SortKey": 300,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68012,
@@ -867,6 +1301,16 @@
       "Open Water"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6843922,
+      "X": 126.574,
+      "Y": 14.0543,
+      "Z": -99.4736,
+      "Yaw": 3.08579,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Soroban",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -877,7 +1321,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 310
+    "SortKey": 310,
+    "Icon": 100647,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68013,
@@ -895,6 +1341,16 @@
       "Boys with Boats"
     ],
     "StarterNpc": "Soroban",
+    "StarterNpcLocation": {
+      "RowId": 6793864,
+      "X": 852.415,
+      "Y": 5.90521,
+      "Z": 847.807,
+      "Yaw": -0.226398,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Tansui",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -905,7 +1361,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 320
+    "SortKey": 320,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68014,
@@ -917,12 +1375,34 @@
       "Open Water"
     ],
     "NextQuestIds": [
-      68015
+      68015,
+      68209,
+      68210,
+      68211,
+      68212,
+      68213,
+      68214
     ],
     "NextQuestTitles": [
-      "To Bend with the Wind"
+      "To Bend with the Wind",
+      "The Price of Betrayal",
+      "The Organ of Sight",
+      "The Devil\u0027s Cough",
+      "First Line of Defense",
+      "Ethereal Lights",
+      "Protector of the Small"
     ],
     "StarterNpc": "Tansui",
+    "StarterNpcLocation": {
+      "RowId": 6793900,
+      "X": 464.561,
+      "Y": 30.2123,
+      "Z": 791.531,
+      "Yaw": 2.84898,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Soroban",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -933,7 +1413,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 330
+    "SortKey": 330,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68015,
@@ -951,6 +1433,16 @@
       "Confederate Consternation"
     ],
     "StarterNpc": "Soroban",
+    "StarterNpcLocation": {
+      "RowId": 7010345,
+      "X": 404.543,
+      "Y": 19.5093,
+      "Z": 755.623,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -961,7 +1453,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 340
+    "SortKey": 340,
+    "Icon": 100648,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68016,
@@ -983,6 +1477,16 @@
       "The Arrows of Misfortune"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6829395,
+      "X": -57.718,
+      "Y": 2.00408,
+      "Z": -598.259,
+      "Yaw": 1.43588,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -993,7 +1497,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 350
+    "SortKey": 350,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68017,
@@ -1009,12 +1515,42 @@
       "The Arrows of Misfortune"
     ],
     "NextQuestIds": [
-      68018
+      68018,
+      68216,
+      68218,
+      68219,
+      68220,
+      68221,
+      68222,
+      68223,
+      68224,
+      68225,
+      68226
     ],
     "NextQuestTitles": [
-      "Under the Sea"
+      "Under the Sea",
+      "A Dance with Snakes",
+      "Stranded",
+      "In Cold Blood",
+      "Pirate Stew",
+      "The Soul\u0027s Remembrance",
+      "Fight or Flight",
+      "Pulling Double Booty",
+      "Unfinished Business",
+      "The Girl with the Pearl Ring",
+      "Family Affairs"
     ],
     "StarterNpc": "Hirase",
+    "StarterNpcLocation": {
+      "RowId": 6861906,
+      "X": 31.3763,
+      "Y": 3.18302,
+      "Z": -602.747,
+      "Yaw": 2.05469,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Rasho",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1025,7 +1561,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 360
+    "SortKey": 360,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68018,
@@ -1043,6 +1581,16 @@
       "Of Kojin and Kami"
     ],
     "StarterNpc": "Rasho",
+    "StarterNpcLocation": {
+      "RowId": 6860855,
+      "X": 79.4348,
+      "Y": 33.009,
+      "Z": -669.925,
+      "Yaw": 0.332924,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1053,7 +1601,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 370
+    "SortKey": 370,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68019,
@@ -1065,12 +1615,34 @@
       "Under the Sea"
     ],
     "NextQuestIds": [
-      68020
+      68020,
+      68227,
+      68228,
+      68229,
+      68230,
+      68231,
+      68232
     ],
     "NextQuestTitles": [
-      "In Soroban We Trust"
+      "In Soroban We Trust",
+      "Our Most Venerated Ancestor",
+      "Not Just Any Banquet",
+      "The Sword in the Stone",
+      "Unmeasured Strength",
+      "Treasure Cove",
+      "The Mysterious Assailant"
     ],
     "StarterNpc": "Soroban",
+    "StarterNpcLocation": {
+      "RowId": 6829505,
+      "X": 420.343,
+      "Y": -99.1963,
+      "Z": -221.34,
+      "Yaw": 2.69607,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Soroban",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1081,7 +1653,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 380
+    "SortKey": 380,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68020,
@@ -1093,12 +1667,24 @@
       "Of Kojin and Kami"
     ],
     "NextQuestIds": [
-      68021
+      68021,
+      68458
     ],
     "NextQuestTitles": [
-      "Forever and Ever Apart"
+      "Forever and Ever Apart",
+      "A New Fishing Ex-spear-ience"
     ],
     "StarterNpc": "Soroban",
+    "StarterNpcLocation": {
+      "RowId": 6829505,
+      "X": 420.343,
+      "Y": -99.1963,
+      "Z": -221.34,
+      "Yaw": 2.69607,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1109,7 +1695,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 390
+    "SortKey": 390,
+    "Icon": 100645,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68021,
@@ -1121,12 +1709,46 @@
       "In Soroban We Trust"
     ],
     "NextQuestIds": [
-      68022
+      68022,
+      68168,
+      68233,
+      68234,
+      68235,
+      68236,
+      68237,
+      68238,
+      68239,
+      68240,
+      68241,
+      68242,
+      68243
     ],
     "NextQuestTitles": [
-      "In Darkness the Magatama Dreams"
+      "In Darkness the Magatama Dreams",
+      "The Palace of Lost Souls",
+      "An Unforgettable Taste",
+      "The Bond between Brothers",
+      "The Core of Life",
+      "All Good Deeds",
+      "Fear Her Almighty Waves",
+      "The Fight for Survival",
+      "A Daughter\u0027s Love",
+      "Fathoms Below",
+      "A Part of Your World",
+      "The Elixir of Life",
+      "The Two Princesses of Sui\u003C--\u003Eno\u003C--\u003ESato"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6830042,
+      "X": 19.4363,
+      "Y": -197.541,
+      "Z": -143.932,
+      "Yaw": -1.0717,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1137,7 +1759,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 400
+    "SortKey": 400,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68022,
@@ -1155,6 +1779,16 @@
       "The Whims of the Divine"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6830040,
+      "X": 20.2792,
+      "Y": -197.563,
+      "Z": -145.403,
+      "Yaw": -1.88461,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1165,7 +1799,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 410
+    "SortKey": 410,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68023,
@@ -1177,12 +1813,32 @@
       "In Darkness the Magatama Dreams"
     ],
     "NextQuestIds": [
-      68024
+      68024,
+      68244,
+      68245,
+      68246,
+      68247,
+      68248
     ],
     "NextQuestTitles": [
-      "Breaking and Delivering"
+      "Breaking and Delivering",
+      "In Search of Treasure",
+      "A Stroll along the Seabed",
+      "Forgotten Saviors of the Sea",
+      "A True Kojin of the Blue",
+      "Serpent Troubles"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6830086,
+      "X": -227.861,
+      "Y": -178.209,
+      "Z": 185.763,
+      "Yaw": 0.115222,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1193,7 +1849,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 420
+    "SortKey": 420,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68024,
@@ -1211,6 +1869,16 @@
       "The Lord of the Revel"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6830023,
+      "X": 323.072,
+      "Y": -120.035,
+      "Z": -248.99,
+      "Yaw": -2.15056,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1221,7 +1889,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 430
+    "SortKey": 430,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68025,
@@ -1239,6 +1909,16 @@
       "Tide Goes in, Imperials Go Out"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6836816,
+      "X": -797.34,
+      "Y": 48.4195,
+      "Z": 149.674,
+      "Yaw": -2.93793,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1249,7 +1929,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 440
+    "SortKey": 440,
+    "Icon": 100649,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68026,
@@ -1261,12 +1943,48 @@
       "The Lord of the Revel"
     ],
     "NextQuestIds": [
-      68027
+      68027,
+      68249,
+      68250,
+      68251,
+      68252,
+      68253,
+      68254,
+      68255,
+      68256,
+      68257,
+      68258,
+      68259,
+      68509,
+      68667
     ],
     "NextQuestTitles": [
-      "A Silence in Three Parts"
+      "A Silence in Three Parts",
+      "At the Mercy of Monsters",
+      "A Dream to Remember",
+      "Blessings of the Sea",
+      "In Health and in Sickness",
+      "Plunder on High",
+      "Sink or Swim",
+      "Thrice Cursed",
+      "A Glimmer of Hope",
+      "Rock Bottom",
+      "Passing the Torch",
+      "Up in Flames",
+      "\uE0BE Heaven-sent",
+      "Knocking on Heaven\u0027s Door"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6836864,
+      "X": -761.819,
+      "Y": 4.76344,
+      "Z": -455.199,
+      "Yaw": 2.60122,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1277,7 +1995,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 450
+    "SortKey": 450,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68027,
@@ -1295,6 +2015,16 @@
       "Life after Doma"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6790161,
+      "X": -761.776,
+      "Y": 4.76345,
+      "Z": -460.014,
+      "Yaw": 1.10926,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Gosetsu",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1305,7 +2035,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 460
+    "SortKey": 460,
+    "Icon": 100650,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68028,
@@ -1323,6 +2055,16 @@
       "A Glimpse of Madness"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6790170,
+      "X": 527.916,
+      "Y": 43.697,
+      "Z": -156.054,
+      "Yaw": -1.06892,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Gosetsu",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1333,7 +2075,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 470
+    "SortKey": 470,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68029,
@@ -1345,12 +2089,30 @@
       "A Glimpse of Madness"
     ],
     "NextQuestIds": [
-      68030
+      68030,
+      68260,
+      68261,
+      68264,
+      68265
     ],
     "NextQuestTitles": [
-      "The Ones We Leave Behind"
+      "The Ones We Leave Behind",
+      "Something Smells",
+      "Beyond the Powers of Stone",
+      "Fly, My Pretties",
+      "The Toon Patrol"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6790665,
+      "X": -49.8736,
+      "Y": -0.262179,
+      "Z": -12.8845,
+      "Yaw": -2.87386,
+      "Radius": 1,
+      "MapId": 378,
+      "TerritoryId": 681
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1361,7 +2123,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 490
+    "SortKey": 490,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68030,
@@ -1373,12 +2137,34 @@
       "The Stubborn Remainder"
     ],
     "NextQuestIds": [
-      68031
+      68031,
+      68262,
+      68263,
+      68266,
+      68267,
+      68268,
+      68269
     ],
     "NextQuestTitles": [
-      "A New Ruby Tithe"
+      "A New Ruby Tithe",
+      "Not Safe for Children",
+      "Gone Fishing",
+      "Whacking Day",
+      "Hungry Hog",
+      "Tiger Blood",
+      "Wolves and Weeds"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6782228,
+      "X": 487.017,
+      "Y": 50.468,
+      "Z": -115.401,
+      "Yaw": 1.35889,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1389,7 +2175,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 500
+    "SortKey": 500,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68031,
@@ -1407,6 +2195,16 @@
       "The Will to Live"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6782245,
+      "X": 397.774,
+      "Y": 72.8355,
+      "Z": -97.0357,
+      "Yaw": -3.00777,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1417,7 +2215,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 510
+    "SortKey": 510,
+    "Icon": 100643,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68032,
@@ -1435,6 +2235,16 @@
       "Daughter of the Deep"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 7021286,
+      "X": 406.23,
+      "Y": 14.6419,
+      "Z": 625.994,
+      "Yaw": -2.53754,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "captured villager",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1445,7 +2255,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 520
+    "SortKey": 520,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68033,
@@ -1463,6 +2275,16 @@
       "Path of No Return"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6782438,
+      "X": 455.955,
+      "Y": 29.3249,
+      "Z": 759.67,
+      "Yaw": -2.92406,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1473,7 +2295,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 530
+    "SortKey": 530,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68034,
@@ -1491,6 +2315,16 @@
       "All the Little Angels"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6782477,
+      "X": -463.218,
+      "Y": 1.20544,
+      "Z": 535.637,
+      "Yaw": -0.0161723,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1501,7 +2335,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 550
+    "SortKey": 550,
+    "Icon": 100651,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68035,
@@ -1513,12 +2349,58 @@
       "The Time between the Seconds"
     ],
     "NextQuestIds": [
-      68166
+      68166,
+      68270,
+      68271,
+      68272,
+      68273,
+      68274,
+      68275,
+      68276,
+      68277,
+      68278,
+      68279,
+      68280,
+      68281,
+      68282,
+      68283,
+      68284,
+      68285,
+      68286,
+      68287
     ],
     "NextQuestTitles": [
-      "Here There Be Xaela"
+      "Here There Be Xaela",
+      "Perchance to Hanami",
+      "Dearest Keiko",
+      "Courage the Cowardly Lupin",
+      "Kurobana vs. the Rice Sacks",
+      "Kurobana vs. the Arrowheads",
+      "Kurobana Holmes",
+      "Kurobana vs. Gyorin",
+      "Drink Responsibly",
+      "The Sound of Civilized Life",
+      "Ring My Bell",
+      "Not Just Any Vase",
+      "Criminal Phrenology",
+      "By Our Powers Combined",
+      "Amber Alert",
+      "Gyorin the Namazu",
+      "No Wealth Like Mineral Wealth",
+      "Fresh Flesh",
+      "Show Me the New Money"
     ],
     "StarterNpc": "Isse",
+    "StarterNpcLocation": {
+      "RowId": 6782484,
+      "X": 490.202,
+      "Y": 8.43642,
+      "Z": 373.239,
+      "Yaw": -0.0786689,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1529,7 +2411,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 560
+    "SortKey": 560,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68036,
@@ -1541,12 +2425,34 @@
       "Here There Be Xaela"
     ],
     "NextQuestIds": [
-      68037
+      68037,
+      68288,
+      68289,
+      68290,
+      68291,
+      68292,
+      68293
     ],
     "NextQuestTitles": [
-      "A Season for War"
+      "A Season for War",
+      "Silent Banquet",
+      "Who Needs Words",
+      "Rip-off Reunion",
+      "Merchant for a Day",
+      "You Buuz, You Lose",
+      "Fishing for Customers"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6790083,
+      "X": 560.235,
+      "Y": -19.5056,
+      "Z": 408.682,
+      "Yaw": -1.50475,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1557,7 +2463,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 580
+    "SortKey": 580,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68037,
@@ -1569,12 +2477,34 @@
       "The Search for Lord Hien"
     ],
     "NextQuestIds": [
-      68038
+      68038,
+      68294,
+      68295,
+      68296,
+      68297,
+      68298,
+      68299
     ],
     "NextQuestTitles": [
-      "An Impossible Dream"
+      "An Impossible Dream",
+      "Purbol Rain",
+      "Stranger Danger",
+      "Words Are Very Unnecessary",
+      "Words Are Trivial",
+      "Words Are Meaningless",
+      "Enjoy the Silence"
     ],
     "StarterNpc": "Cirina",
+    "StarterNpcLocation": {
+      "RowId": 6829581,
+      "X": 571.618,
+      "Y": -19.5164,
+      "Z": 313.71,
+      "Yaw": -2.4914,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1585,7 +2515,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 590
+    "SortKey": 590,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68038,
@@ -1603,6 +2535,16 @@
       "Stars in the Dark"
     ],
     "StarterNpc": "Cirina",
+    "StarterNpcLocation": {
+      "RowId": 6829581,
+      "X": 571.618,
+      "Y": -19.5164,
+      "Z": 313.71,
+      "Yaw": -2.4914,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Hien",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1613,7 +2555,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 600
+    "SortKey": 600,
+    "Icon": 100653,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68039,
@@ -1625,12 +2569,30 @@
       "An Impossible Dream"
     ],
     "NextQuestIds": [
-      68040
+      68040,
+      68300,
+      68301,
+      68302,
+      68303
     ],
     "NextQuestTitles": [
-      "A Warrior\u0027s Welcome"
+      "A Warrior\u0027s Welcome",
+      "Oh Matron",
+      "A Dicey Situation",
+      "Absolute Faith",
+      "Silence of the Lambs"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6872893,
+      "X": 592.946,
+      "Y": 24.9391,
+      "Z": 380.086,
+      "Yaw": 2.14182,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1641,7 +2603,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 610
+    "SortKey": 610,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68040,
@@ -1653,12 +2617,28 @@
       "Stars in the Dark"
     ],
     "NextQuestIds": [
-      68041
+      68041,
+      68304,
+      68305,
+      68306
     ],
     "NextQuestTitles": [
-      "The Heart of Nations"
+      "The Heart of Nations",
+      "Keeping the Faith",
+      "Tent That Rocked",
+      "Sacred Sweeping"
     ],
     "StarterNpc": "Cirina",
+    "StarterNpcLocation": {
+      "RowId": 6851868,
+      "X": 484.512,
+      "Y": 40.2164,
+      "Z": -469.513,
+      "Yaw": 2.5729,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1669,7 +2649,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 620
+    "SortKey": 620,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68041,
@@ -1681,12 +2663,28 @@
       "A Warrior\u0027s Welcome"
     ],
     "NextQuestIds": [
-      68042
+      68042,
+      68307,
+      68308,
+      68309
     ],
     "NextQuestTitles": [
-      "A Trial Before the Trial"
+      "A Trial Before the Trial",
+      "Sheep Snatcher",
+      "And Dzo It Goes",
+      "Shop till the Warrior of Light Drops"
     ],
     "StarterNpc": "Cirina",
+    "StarterNpcLocation": {
+      "RowId": 6851868,
+      "X": 484.512,
+      "Y": 40.2164,
+      "Z": -469.513,
+      "Yaw": 2.5729,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Hien",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1697,7 +2695,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 630
+    "SortKey": 630,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68042,
@@ -1715,6 +2715,16 @@
       "In the Footsteps of Bardam the Brave"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6851400,
+      "X": 485.252,
+      "Y": 40.2991,
+      "Z": -472.19,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Hien",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1725,7 +2735,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 640
+    "SortKey": 640,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68043,
@@ -1743,6 +2755,16 @@
       "The Children of Azim"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6862819,
+      "X": -507.793,
+      "Y": 71.2024,
+      "Z": -512.058,
+      "Yaw": -2.44602,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1753,7 +2775,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 650
+    "SortKey": 650,
+    "Icon": 112228,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68044,
@@ -1765,12 +2789,32 @@
       "In the Footsteps of Bardam the Brave"
     ],
     "NextQuestIds": [
-      68045
+      68045,
+      68310,
+      68311,
+      68312,
+      68313,
+      68314
     ],
     "NextQuestTitles": [
-      "The Labors of Magnai"
+      "The Labors of Magnai",
+      "The Judgment",
+      "A Warm Welcome",
+      "The Fingers of Azim",
+      "The Ideal Budugan Warrior",
+      "The Lights That Guide Us Home"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6864849,
+      "X": -507.479,
+      "Y": 70.842,
+      "Z": -501.446,
+      "Yaw": 2.26888,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Magnai",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1781,7 +2825,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 660
+    "SortKey": 660,
+    "Icon": 100655,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68045,
@@ -1793,12 +2839,28 @@
       "The Children of Azim"
     ],
     "NextQuestIds": [
-      68046
+      68046,
+      68315,
+      68316,
+      68317
     ],
     "NextQuestTitles": [
-      "For Love of the Moon"
+      "For Love of the Moon",
+      "The World without Her",
+      "Spoils of War",
+      "Broken Flowers"
     ],
     "StarterNpc": "Baatu",
+    "StarterNpcLocation": {
+      "RowId": 6887824,
+      "X": -29.5186,
+      "Y": 121.2,
+      "Z": 70.3039,
+      "Yaw": 2.65421,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Magnai",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1809,7 +2871,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 670
+    "SortKey": 670,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68046,
@@ -1821,12 +2885,30 @@
       "The Labors of Magnai"
     ],
     "NextQuestIds": [
-      68047
+      68047,
+      68318,
+      68319,
+      68320,
+      68321
     ],
     "NextQuestTitles": [
-      "Sworn Enemies of the Sun"
+      "Sworn Enemies of the Sun",
+      "Forty Years and Counting",
+      "Chasing Rainbows",
+      "The Tournament",
+      "The Strongest among Us"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6872466,
+      "X": -31.2047,
+      "Y": 121.121,
+      "Z": 62.0889,
+      "Yaw": -1.50596,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Magnai",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1837,7 +2919,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 680
+    "SortKey": 680,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68047,
@@ -1855,6 +2939,16 @@
       "The Undying Ones"
     ],
     "StarterNpc": "Magnai",
+    "StarterNpcLocation": {
+      "RowId": 6840967,
+      "X": -39.4141,
+      "Y": 122.087,
+      "Z": 63.6149,
+      "Yaw": 1.59043,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Gosetsu",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1865,7 +2959,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 690
+    "SortKey": 690,
+    "Icon": 100656,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68048,
@@ -1877,12 +2973,48 @@
       "Sworn Enemies of the Sun"
     ],
     "NextQuestIds": [
-      68049
+      68049,
+      68322,
+      68323,
+      68324,
+      68325,
+      68326,
+      68327,
+      68328,
+      68329,
+      68330,
+      68331,
+      68332,
+      68333,
+      68334
     ],
     "NextQuestTitles": [
-      "A Final Peace"
+      "A Final Peace",
+      "Welcome to the Family",
+      "Brainy Bears",
+      "Child\u0027s Play",
+      "Dastardly Diremites",
+      "Nhaama\u0027s Sweet Embrace",
+      "Mauci of the Seven Worries",
+      "Watch and Learn",
+      "The Power of the Fist",
+      "Do or Die",
+      "Hungry Like the Wolf",
+      "Ibakha Dreams of Birds",
+      "The Melody of Ceol Aen",
+      "Food Glorious Food"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6865947,
+      "X": -290.306,
+      "Y": 10.4259,
+      "Z": 599.008,
+      "Yaw": 1.36665,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Gosetsu",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1893,7 +3025,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 700
+    "SortKey": 700,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68049,
@@ -1911,6 +3045,16 @@
       "As the Gods Will"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6866083,
+      "X": -399.039,
+      "Y": 2.25756,
+      "Z": 599.268,
+      "Yaw": 2.23412,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Gosetsu",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1921,7 +3065,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 710
+    "SortKey": 710,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68050,
@@ -1939,6 +3085,16 @@
       "Naadam"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6869954,
+      "X": -705.48,
+      "Y": 6.41202,
+      "Z": 613.204,
+      "Yaw": 2.50915,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1949,7 +3105,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 720
+    "SortKey": 720,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68051,
@@ -1967,6 +3125,16 @@
       "Glory to the Khagan"
     ],
     "StarterNpc": "Cirina",
+    "StarterNpcLocation": {
+      "RowId": 6851362,
+      "X": 498.29,
+      "Y": 40.8179,
+      "Z": -508.192,
+      "Yaw": -0.346829,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Hien",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -1977,7 +3145,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 730
+    "SortKey": 730,
+    "Icon": 100657,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68052,
@@ -1989,12 +3159,30 @@
       "Naadam"
     ],
     "NextQuestIds": [
-      68053
+      68053,
+      68336,
+      68337,
+      68338,
+      68339
     ],
     "NextQuestTitles": [
-      "In Crimson They Walked"
+      "In Crimson They Walked",
+      "Wouldn\u0027t Hurt a Fly",
+      "Honor in Victory",
+      "A Sheep to Fly For",
+      "Steppe of Hard Knocks"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6851385,
+      "X": 486.702,
+      "Y": 40.081,
+      "Z": -465.72,
+      "Yaw": 0.0276305,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2005,7 +3193,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 740
+    "SortKey": 740,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68053,
@@ -2017,12 +3207,24 @@
       "Glory to the Khagan"
     ],
     "NextQuestIds": [
-      68054
+      68054,
+      68632
     ],
     "NextQuestTitles": [
-      "The Hour of Reckoning"
+      "The Hour of Reckoning",
+      "Something Fishy This Way Comes"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6871032,
+      "X": 495.111,
+      "Y": 40.8361,
+      "Z": -508.495,
+      "Yaw": 2.55326,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Cirina",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2033,7 +3235,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 750
+    "SortKey": 750,
+    "Icon": 100658,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68054,
@@ -2051,6 +3255,16 @@
       "The Room Where It Happened"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6872545,
+      "X": -169.452,
+      "Y": 0.920648,
+      "Z": 817.075,
+      "Yaw": 2.54715,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2061,7 +3275,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 760
+    "SortKey": 760,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68055,
@@ -2079,6 +3295,16 @@
       "How Tataru Got Her Groove Back"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6843948,
+      "X": 173.785,
+      "Y": 5.16971,
+      "Z": -417.38,
+      "Yaw": 2.25593,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Tataru",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2089,7 +3315,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 770
+    "SortKey": 770,
+    "Icon": 100654,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68056,
@@ -2107,6 +3335,16 @@
       "The Limits of Our Endurance"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6843948,
+      "X": 173.785,
+      "Y": 5.16971,
+      "Z": -417.38,
+      "Yaw": 2.25593,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2117,7 +3355,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 790
+    "SortKey": 790,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68057,
@@ -2135,6 +3375,16 @@
       "Broken Steel, Broken Men"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6843949,
+      "X": 235.859,
+      "Y": 4.45616,
+      "Z": -382.803,
+      "Yaw": 2.72683,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Tsuranuki",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2145,7 +3395,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 800
+    "SortKey": 800,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68058,
@@ -2163,6 +3415,16 @@
       "On the Eve of Destiny"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6850944,
+      "X": 336.94,
+      "Y": 31.1221,
+      "Z": 203.506,
+      "Yaw": 0.390356,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Hien",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2173,7 +3435,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 820
+    "SortKey": 820,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68059,
@@ -2191,6 +3455,16 @@
       "The Die Is Cast"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6850073,
+      "X": -291.428,
+      "Y": 53.2175,
+      "Z": -614.291,
+      "Yaw": -2.42426,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2201,7 +3475,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 830
+    "SortKey": 830,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68060,
@@ -2219,6 +3495,16 @@
       "The World Turned Upside Down"
     ],
     "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6843953,
+      "X": 173.227,
+      "Y": 5.19113,
+      "Z": -433.249,
+      "Yaw": 0.865711,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2229,7 +3515,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 840
+    "SortKey": 840,
+    "Icon": 100659,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68061,
@@ -2241,12 +3529,30 @@
       "The Die Is Cast"
     ],
     "NextQuestIds": [
-      68062
+      68062,
+      68348,
+      68349,
+      68350,
+      68351
     ],
     "NextQuestTitles": [
-      "A Swift and Secret Departure"
+      "A Swift and Secret Departure",
+      "The Perfect Woman",
+      "Child Labor",
+      "In the Line of Duty",
+      "The Weight of a Dream"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6851122,
+      "X": -390.272,
+      "Y": 30.6456,
+      "Z": -455.852,
+      "Yaw": -2.96729,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Rasho",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2257,7 +3563,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 850
+    "SortKey": 850,
+    "Icon": 100718,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68062,
@@ -2275,6 +3583,16 @@
       "While You Were Away"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6851416,
+      "X": -171.55,
+      "Y": -7.00009,
+      "Z": 55.5455,
+      "Yaw": -1.43862,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2285,7 +3603,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 860
+    "SortKey": 860,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68063,
@@ -2303,6 +3623,16 @@
       "Rhalgr\u0027s Beacon"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6844570,
+      "X": -355.528,
+      "Y": 7.98048,
+      "Z": 38.7221,
+      "Yaw": -0.0356904,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
     "FinishNpc": "Pipin",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2313,7 +3643,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 870
+    "SortKey": 870,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68064,
@@ -2331,6 +3663,16 @@
       "The Fortunes of War"
     ],
     "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 6829367,
+      "X": -606.723,
+      "Y": 129.992,
+      "Z": -506.928,
+      "Yaw": -0.751365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2341,7 +3683,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 880
+    "SortKey": 880,
+    "Icon": 100660,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68065,
@@ -2359,6 +3703,16 @@
       "Rising Fortunes, Rising Spirits"
     ],
     "StarterNpc": "Conrad",
+    "StarterNpcLocation": {
+      "RowId": 6853834,
+      "X": -92.397,
+      "Y": 50.0044,
+      "Z": 185.684,
+      "Yaw": -0.466699,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Conrad",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2369,7 +3723,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 890
+    "SortKey": 890,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68066,
@@ -2381,12 +3737,26 @@
       "The Fortunes of War"
     ],
     "NextQuestIds": [
-      68067
+      68067,
+      68356,
+      68357
     ],
     "NextQuestTitles": [
-      "The Lure of the Dream"
+      "The Lure of the Dream",
+      "Gold Rush",
+      "Eyes Bigger than Her Stomach"
     ],
     "StarterNpc": "Conrad",
+    "StarterNpcLocation": {
+      "RowId": 6853834,
+      "X": -92.397,
+      "Y": 50.0044,
+      "Z": 185.684,
+      "Yaw": -0.466699,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2397,7 +3767,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 900
+    "SortKey": 900,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68067,
@@ -2409,12 +3781,30 @@
       "Rising Fortunes, Rising Spirits"
     ],
     "NextQuestIds": [
-      68068
+      68068,
+      68352,
+      68353,
+      68354,
+      68355
     ],
     "NextQuestTitles": [
-      "The Lady of Bliss"
+      "The Lady of Bliss",
+      "Unexpected Guests",
+      "Delicate as a Flower",
+      "Slug It Out",
+      "Hard to Swallow"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6853894,
+      "X": 451.535,
+      "Y": 114.374,
+      "Z": 236.433,
+      "Yaw": 0.988062,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Vajra",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2425,7 +3815,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 910
+    "SortKey": 910,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68068,
@@ -2443,6 +3835,16 @@
       "The Silence of the Gods"
     ],
     "StarterNpc": "Vajra",
+    "StarterNpcLocation": {
+      "RowId": 6794381,
+      "X": 334.157,
+      "Y": 82.9327,
+      "Z": -101.274,
+      "Yaw": 0.507803,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2453,7 +3855,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 920
+    "SortKey": 920,
+    "Icon": 100661,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68069,
@@ -2465,12 +3869,36 @@
       "The Lady of Bliss"
     ],
     "NextQuestIds": [
-      68070
+      68070,
+      68358,
+      68359,
+      68360,
+      68361,
+      68362,
+      68363,
+      68364
     ],
     "NextQuestTitles": [
-      "The First of Many"
+      "The First of Many",
+      "The Perfect Gift",
+      "Spooked",
+      "A New Contender",
+      "Down but Not Out",
+      "Make a Man Out of You",
+      "Honoring Family",
+      "The Rose Blooms Twice"
     ],
     "StarterNpc": "Vajra",
+    "StarterNpcLocation": {
+      "RowId": 6853911,
+      "X": 510.796,
+      "Y": 122.307,
+      "Z": -239.625,
+      "Yaw": -2.42864,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2481,7 +3909,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 930
+    "SortKey": 930,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68070,
@@ -2499,6 +3929,16 @@
       "Strong and Unified"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6854494,
+      "X": 424.735,
+      "Y": 114.58,
+      "Z": 222.186,
+      "Yaw": 1.61907,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2509,7 +3949,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 940
+    "SortKey": 940,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68071,
@@ -2521,12 +3963,32 @@
       "The First of Many"
     ],
     "NextQuestIds": [
-      68072
+      68072,
+      68365,
+      68366,
+      68367,
+      68368,
+      68369
     ],
     "NextQuestTitles": [
-      "Hells Open"
+      "Hells Open",
+      "Back to Business",
+      "Bottoms Up",
+      "Undeserved Praise",
+      "Like a Charm",
+      "A Sister\u0027s Ambition"
     ],
     "StarterNpc": "M\u0027naago",
+    "StarterNpcLocation": {
+      "RowId": 6858128,
+      "X": -286.715,
+      "Y": 257,
+      "Z": 696.252,
+      "Yaw": -2.8021,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2537,7 +3999,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 950
+    "SortKey": 950,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68072,
@@ -2555,6 +4019,16 @@
       "Heavens Weep"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6858255,
+      "X": -297.472,
+      "Y": 257.529,
+      "Z": 765.341,
+      "Yaw": -0.333843,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2565,7 +4039,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 960
+    "SortKey": 960,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68073,
@@ -2583,6 +4059,16 @@
       "The Road Home"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 6858289,
+      "X": -346.129,
+      "Y": 305.962,
+      "Z": 149.052,
+      "Yaw": 0.331557,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2593,7 +4079,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 970
+    "SortKey": 970,
+    "Icon": 100662,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68074,
@@ -2611,6 +4099,16 @@
       "For the Living and the Dead"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6858339,
+      "X": 7.82788,
+      "Y": 317.551,
+      "Z": 112.413,
+      "Yaw": -3.04029,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2621,7 +4119,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 980
+    "SortKey": 980,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68075,
@@ -2633,12 +4133,38 @@
       "The Road Home"
     ],
     "NextQuestIds": [
-      68076
+      68076,
+      68370,
+      68371,
+      68372,
+      68373,
+      68374,
+      68382,
+      68383,
+      68384
     ],
     "NextQuestTitles": [
-      "Above the Churning Waters"
+      "Above the Churning Waters",
+      "Lost in Transit",
+      "Picking Up the Slack",
+      "We Need to Talk",
+      "What\u0027s Mine Is Mine",
+      "A Special Treat",
+      "Eau de Muud",
+      "Strange Tastes",
+      "Soup\u0027s On"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6858137,
+      "X": -286.544,
+      "Y": 256.97,
+      "Z": 693.162,
+      "Yaw": 0.0189254,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2649,7 +4175,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 990
+    "SortKey": 990,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68076,
@@ -2667,6 +4195,16 @@
       "The Path Forward"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6858257,
+      "X": -300.496,
+      "Y": 257.526,
+      "Z": 765.042,
+      "Yaw": 0.211165,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2677,7 +4215,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1000
+    "SortKey": 1000,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68077,
@@ -2689,12 +4229,36 @@
       "Above the Churning Waters"
     ],
     "NextQuestIds": [
-      68078
+      68078,
+      68375,
+      68376,
+      68377,
+      68378,
+      68379,
+      68380,
+      68381
     ],
     "NextQuestTitles": [
-      "With Tired Hands We Toil"
+      "With Tired Hands We Toil",
+      "Live off the Land",
+      "Runs in the Family",
+      "Those Boys of Mine",
+      "Out of Sight",
+      "Public Opinion",
+      "Dragged through the Mud",
+      "Second Chances"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6858780,
+      "X": -113.39,
+      "Y": 263.722,
+      "Z": 655.787,
+      "Yaw": 2.19545,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2705,7 +4269,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1010
+    "SortKey": 1010,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68078,
@@ -2723,6 +4289,16 @@
       "Where Courage Endures"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6858253,
+      "X": -298.502,
+      "Y": 257.526,
+      "Z": 764.987,
+      "Yaw": -0.26043,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2733,7 +4309,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1020
+    "SortKey": 1020,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68079,
@@ -2745,12 +4323,38 @@
       "With Tired Hands We Toil"
     ],
     "NextQuestIds": [
-      68080
+      68080,
+      68385,
+      68386,
+      68387,
+      68388,
+      68389,
+      68390,
+      68391,
+      68392
     ],
     "NextQuestTitles": [
-      "The Price of Freedom"
+      "The Price of Freedom",
+      "Shimmer in the Scales",
+      "Radiata Stores",
+      "A Hunger for Trade",
+      "Give Them the Evil Eye",
+      "Explosive Profits",
+      "Jhammel and Hide",
+      "Critical Moss",
+      "Foper Faux Pas"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6905307,
+      "X": 353.801,
+      "Y": 323.779,
+      "Z": 273.328,
+      "Yaw": -0.133426,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "young Hellsguard",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2761,7 +4365,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1030
+    "SortKey": 1030,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68080,
@@ -2779,6 +4385,16 @@
       "Raubahn\u0027s Invitation"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6992968,
+      "X": 257.209,
+      "Y": 314.228,
+      "Z": 418.302,
+      "Yaw": 2.82689,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2789,7 +4405,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1040
+    "SortKey": 1040,
+    "Icon": 100663,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68081,
@@ -2801,12 +4419,40 @@
       "The Price of Freedom"
     ],
     "NextQuestIds": [
-      68082
+      68082,
+      68393,
+      68394,
+      68395,
+      68396,
+      68397,
+      68398,
+      68399,
+      68400,
+      68401
     ],
     "NextQuestTitles": [
-      "Liberty or Death"
+      "Liberty or Death",
+      "Pest Problem",
+      "Family First",
+      "Boots Made for Walking",
+      "Closing Up Shop",
+      "Helping a Friend",
+      "Finding Family",
+      "Her Only Son",
+      "His Last Words",
+      "A Parting Gift"
     ],
     "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 6858976,
+      "X": 568.186,
+      "Y": 344.137,
+      "Z": 435.309,
+      "Yaw": 1.08402,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Raubahn",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2817,7 +4463,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1050
+    "SortKey": 1050,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68082,
@@ -2829,12 +4477,26 @@
       "Raubahn\u0027s Invitation"
     ],
     "NextQuestIds": [
-      68083
+      68083,
+      68402,
+      68403
     ],
     "NextQuestTitles": [
-      "The Lady in Red"
+      "The Lady in Red",
+      "A Friend on the Other Side",
+      "Climbing for Atonement"
     ],
     "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 6859093,
+      "X": 260.426,
+      "Y": 322.836,
+      "Z": 742.031,
+      "Yaw": 2.11325,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "M\u0027naago",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2845,7 +4507,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1060
+    "SortKey": 1060,
+    "Icon": 100664,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68083,
@@ -2857,12 +4521,40 @@
       "Liberty or Death"
     ],
     "NextQuestIds": [
-      68084
+      68084,
+      68404,
+      68405,
+      68406,
+      68407,
+      68408,
+      68409,
+      68410,
+      68411,
+      68412
     ],
     "NextQuestTitles": [
-      "Upon the Great Loch\u0027s Shore"
+      "Upon the Great Loch\u0027s Shore",
+      "Ant Juice",
+      "Dearest Daughter",
+      "Fallen Friend of Mine",
+      "Confessions of the Heart",
+      "Falling Down on the Job",
+      "My Dear Brother",
+      "Religious Freedom",
+      "The Qiqirn Strikes Back",
+      "Bombs for Peace"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6865678,
+      "X": 316.83,
+      "Y": 324.303,
+      "Z": 378.655,
+      "Yaw": 2.44481,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2873,7 +4565,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1070
+    "SortKey": 1070,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68084,
@@ -2885,12 +4579,30 @@
       "The Lady in Red"
     ],
     "NextQuestIds": [
-      68085
+      68085,
+      68413,
+      68414,
+      68415,
+      68416
     ],
     "NextQuestTitles": [
-      "The Key to Victory"
+      "The Key to Victory",
+      "It\u0027s a Zu Out There",
+      "Send in the Armor",
+      "A Fletching Suggestion",
+      "A Rite to Rest"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6865666,
+      "X": -53.4161,
+      "Y": 0,
+      "Z": -28.5897,
+      "Yaw": 0.166299,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2901,7 +4613,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1080
+    "SortKey": 1080,
+    "Icon": 100665,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68085,
@@ -2919,6 +4633,16 @@
       "The Resonant"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6870611,
+      "X": -651.484,
+      "Y": 50,
+      "Z": -3.09763,
+      "Yaw": -0.345173,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2929,7 +4653,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1090
+    "SortKey": 1090,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68086,
@@ -2947,6 +4673,16 @@
       "The Legacy of Our Fathers"
     ],
     "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6870678,
+      "X": 66.5589,
+      "Y": 45.4102,
+      "Z": 766.486,
+      "Yaw": -0.101699,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2957,7 +4693,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1100
+    "SortKey": 1100,
+    "Icon": 100666,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68087,
@@ -2969,12 +4707,30 @@
       "The Resonant"
     ],
     "NextQuestIds": [
-      68088
+      68088,
+      68417,
+      68418,
+      68419,
+      68420
     ],
     "NextQuestTitles": [
-      "The Measure of His Reach"
+      "The Measure of His Reach",
+      "If I Were a Fish",
+      "Necessities of War",
+      "Are They Ill-tempered",
+      "At the Top of the Stairs"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 6870688,
+      "X": 756.979,
+      "Y": 70,
+      "Z": 445.484,
+      "Yaw": 1.94279,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Raubahn",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -2985,7 +4741,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1110
+    "SortKey": 1110,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68088,
@@ -3003,6 +4761,16 @@
       "Stormblood"
     ],
     "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 6870599,
+      "X": -672.694,
+      "Y": 49.9997,
+      "Z": 14.9996,
+      "Yaw": 2.3834,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Pipin",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3013,7 +4781,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1120
+    "SortKey": 1120,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68089,
@@ -3025,12 +4795,56 @@
       "The Measure of His Reach"
     ],
     "NextQuestIds": [
-      68498
+      67090,
+      68169,
+      68170,
+      68421,
+      68422,
+      68423,
+      68424,
+      68425,
+      68464,
+      68476,
+      68479,
+      68498,
+      68539,
+      68544,
+      68613,
+      68614,
+      68678,
+      68713
     ],
     "NextQuestTitles": [
-      "Arenvald\u0027s Adventure"
+      "The New King on the Block",
+      "To Kill a Coeurl",
+      "King of the Castle",
+      "Dreaming of Home",
+      "For Wilred",
+      "Journey\u0027s Beginning",
+      "Journey\u0027s End",
+      "Those We Hold Dear",
+      "The Hunt for Omega",
+      "Another Striking Opportunity",
+      "Songs in the Key of Kugane",
+      "Arenvald\u0027s Adventure",
+      "Dramatis Personae",
+      "A Hingan Tale: Nashu Goes East",
+      "An Unwanted Truth",
+      "And We Shall Call It Eureka",
+      "Secret of the Ooze",
+      "Between a Rock and the Hard Place"
     ],
     "StarterNpc": "Pipin",
+    "StarterNpcLocation": {
+      "RowId": 6870716,
+      "X": 560.052,
+      "Y": 162,
+      "Z": 72.282,
+      "Yaw": -1.54693,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Lyse",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3041,7 +4855,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 1130
+    "SortKey": 1130,
+    "Icon": 100667,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68166,
@@ -3059,6 +4875,16 @@
       "The Search for Lord Hien"
     ],
     "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 6782990,
+      "X": 444.422,
+      "Y": 68.0285,
+      "Z": -76.9471,
+      "Yaw": 0.382181,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3069,7 +4895,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 570
+    "SortKey": 570,
+    "Icon": 100652,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68171,
@@ -3087,6 +4915,16 @@
       "Token of Faith"
     ],
     "StarterNpc": "Beves",
+    "StarterNpcLocation": {
+      "RowId": 6865819,
+      "X": 152.147,
+      "Y": 13.153,
+      "Z": -118.463,
+      "Yaw": 2.48264,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Beves",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3097,7 +4935,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 161
+    "SortKey": 161,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68172,
@@ -3115,6 +4955,16 @@
       "Token of Faith"
     ],
     "StarterNpc": "Ahelissa",
+    "StarterNpcLocation": {
+      "RowId": 6865846,
+      "X": 77.2829,
+      "Y": -0.0153198,
+      "Z": -14.1488,
+      "Yaw": -2.41149,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Ahelissa",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3125,7 +4975,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 162
+    "SortKey": 162,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68173,
@@ -3143,6 +4995,16 @@
       "Token of Faith"
     ],
     "StarterNpc": "Ananta battlemaid",
+    "StarterNpcLocation": {
+      "RowId": 6840288,
+      "X": -43.9612,
+      "Y": 0,
+      "Z": -15.0302,
+      "Yaw": -0.514154,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "Ananta battlemaid",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3153,7 +5015,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 163
+    "SortKey": 163,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68174,
@@ -3175,6 +5039,16 @@
       "Crossing the Velodyna"
     ],
     "StarterNpc": "swarthy Resistance fighter",
+    "StarterNpcLocation": {
+      "RowId": 6958436,
+      "X": 22.3545,
+      "Y": -0.338291,
+      "Z": 3.7384,
+      "Yaw": -2.15409,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
     "FinishNpc": "swarthy Resistance fighter",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3185,7 +5059,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 164
+    "SortKey": 164,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68215,
@@ -3203,6 +5079,16 @@
       "Alisaie\u0027s Stones"
     ],
     "StarterNpc": "Aranami",
+    "StarterNpcLocation": {
+      "RowId": 6861875,
+      "X": 107.805,
+      "Y": 0.778198,
+      "Z": -574.518,
+      "Yaw": 0.617545,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Aranami",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3213,7 +5099,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 357
+    "SortKey": 357,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68217,
@@ -3231,6 +5119,16 @@
       "Alisaie\u0027s Stones"
     ],
     "StarterNpc": "Afumi",
+    "StarterNpcLocation": {
+      "RowId": 6862860,
+      "X": 85.112,
+      "Y": 41.0925,
+      "Z": -717.878,
+      "Yaw": 0.24127,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Afumi",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3241,7 +5139,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 353
+    "SortKey": 353,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68470,
@@ -3259,6 +5159,16 @@
       "The Stubborn Remainder"
     ],
     "StarterNpc": "Liberation Front guard",
+    "StarterNpcLocation": {
+      "RowId": 6790188,
+      "X": 276.356,
+      "Y": 3.61633,
+      "Z": -377.493,
+      "Yaw": 1.04299,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3269,7 +5179,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 480
+    "SortKey": 480,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68471,
@@ -3287,6 +5199,16 @@
       "The Time between the Seconds"
     ],
     "StarterNpc": "Gosetsu",
+    "StarterNpcLocation": {
+      "RowId": 6791474,
+      "X": -52.4694,
+      "Y": -0.25029,
+      "Z": -25.724,
+      "Yaw": 0.603075,
+      "Radius": 1,
+      "MapId": 378,
+      "TerritoryId": 681
+    },
     "FinishNpc": "Yugiri",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3297,7 +5219,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 540
+    "SortKey": 540,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68482,
@@ -3309,12 +5233,38 @@
       "The Room Where It Happened"
     ],
     "NextQuestIds": [
-      68056
+      68056,
+      68340,
+      68341,
+      68342,
+      68343,
+      68344,
+      68345,
+      68346,
+      68347
     ],
     "NextQuestTitles": [
-      "Seeds of Despair"
+      "Seeds of Despair",
+      "Assistants Anonymous",
+      "The Rainbow Collection",
+      "From the Bottom of My Gut",
+      "Forgotten Resolve",
+      "Wine for the Road",
+      "An Eye for an Emblem",
+      "Heart of Iron",
+      "A View to a Spill"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 6973187,
+      "X": -1.55168,
+      "Y": 0,
+      "Z": -1.43024,
+      "Yaw": 0.435568,
+      "Radius": 1,
+      "MapId": 377,
+      "TerritoryId": 639
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3325,7 +5275,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 780
+    "SortKey": 780,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68483,
@@ -3343,6 +5295,16 @@
       "The Doma Within"
     ],
     "StarterNpc": "Tsuranuki",
+    "StarterNpcLocation": {
+      "RowId": 6850942,
+      "X": 337.27,
+      "Y": 31.035,
+      "Z": 206.439,
+      "Yaw": 2.38694,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
     "FinishNpc": "Tsuranuki",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3353,7 +5315,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 810
+    "SortKey": 810,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68489,
@@ -3371,6 +5335,16 @@
       "Alisaie\u0027s Stones"
     ],
     "StarterNpc": "Kajika",
+    "StarterNpcLocation": {
+      "RowId": 6861870,
+      "X": 57.2489,
+      "Y": 1.54118,
+      "Z": -578.216,
+      "Yaw": 0.601668,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
     "FinishNpc": "Kajika",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3381,7 +5355,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 355
+    "SortKey": 355,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68490,
@@ -3399,6 +5375,16 @@
       "A Life More Ordinary"
     ],
     "StarterNpc": "Griseldis",
+    "StarterNpcLocation": {
+      "RowId": 6794598,
+      "X": 81.5594,
+      "Y": 118.15,
+      "Z": -717.891,
+      "Yaw": 2.68427,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Griseldis",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3409,7 +5395,9 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 112
+    "SortKey": 112,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68491,
@@ -3427,6 +5415,16 @@
       "A Life More Ordinary"
     ],
     "StarterNpc": "Angry Coeurl",
+    "StarterNpcLocation": {
+      "RowId": 6843531,
+      "X": 113.747,
+      "Y": 118.128,
+      "Z": -715.648,
+      "Yaw": 0.336779,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
     "FinishNpc": "Angry Coeurl",
     "Expansion": "Stormblood",
     "JournalGenre": {
@@ -3437,6 +5435,8 @@
       },
       "Name": "Stormblood"
     },
-    "SortKey": 114
+    "SortKey": 114,
+    "Icon": 0,
+    "IconSpecial": 0
   }
 ]

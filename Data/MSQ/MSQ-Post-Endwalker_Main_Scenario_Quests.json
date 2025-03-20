@@ -9,12 +9,24 @@
       "Endwalker"
     ],
     "NextQuestIds": [
-      70063
+      70063,
+      70119
     ],
     "NextQuestTitles": [
-      "Bountiful Ruins"
+      "Bountiful Ruins",
+      "Small Business, Big Dreams"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 9011026,
+      "X": 0,
+      "Y": 0,
+      "Z": -7.16679,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
     "FinishNpc": "Tataru",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -25,7 +37,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 619
+    "SortKey": 619,
+    "Icon": 101179,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70063,
@@ -43,6 +57,16 @@
       "Friends for the Road"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 9158083,
+      "X": 36.4537,
+      "Y": 28.9768,
+      "Z": -799.68,
+      "Yaw": -0.625652,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
     "FinishNpc": "Matsya",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -53,7 +77,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 620
+    "SortKey": 620,
+    "Icon": 101180,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70064,
@@ -71,6 +97,16 @@
       "Alzadaal\u0027s Legacy"
     ],
     "StarterNpc": "Estinien",
+    "StarterNpcLocation": {
+      "RowId": 9159052,
+      "X": -251.273,
+      "Y": 4.38827,
+      "Z": 571.551,
+      "Yaw": -1.77684,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Estinien",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -81,7 +117,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 621
+    "SortKey": 621,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70065,
@@ -99,6 +137,16 @@
       "A Brother\u0027s Grief"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9159992,
+      "X": -264.488,
+      "Y": 0.250297,
+      "Z": 605.705,
+      "Yaw": -1.02919,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "G\u0027raha Tia",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -109,7 +157,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 622
+    "SortKey": 622,
+    "Icon": 112465,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70066,
@@ -121,12 +171,24 @@
       "Alzadaal\u0027s Legacy"
     ],
     "NextQuestIds": [
-      70067
+      70067,
+      70072
     ],
     "NextQuestTitles": [
-      "Sharing the Wealth"
+      "Sharing the Wealth",
+      "A Mission in Mor Dhona"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9159687,
+      "X": 107.72,
+      "Y": -350,
+      "Z": -73.6674,
+      "Yaw": -3.06867,
+      "Radius": 1,
+      "MapId": 785,
+      "TerritoryId": 1056
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -137,7 +199,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 623
+    "SortKey": 623,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70067,
@@ -155,6 +219,16 @@
       "Bridging the Rift"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9160176,
+      "X": 142.443,
+      "Y": 4.776,
+      "Z": -148.577,
+      "Yaw": -0.739158,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -165,7 +239,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 624
+    "SortKey": 624,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70068,
@@ -183,6 +259,16 @@
       "Restricted Reading"
     ],
     "StarterNpc": "veteran Radiant",
+    "StarterNpcLocation": {
+      "RowId": 9160195,
+      "X": -343.075,
+      "Y": 55,
+      "Z": -74.8382,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -193,7 +279,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 625
+    "SortKey": 625,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70069,
@@ -211,6 +299,16 @@
       "Void Theory"
     ],
     "StarterNpc": "Montichaigne",
+    "StarterNpcLocation": {
+      "RowId": 9160815,
+      "X": -95.9385,
+      "Y": 3.93347,
+      "Z": 0.52779,
+      "Yaw": 1.72287,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -221,7 +319,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 626
+    "SortKey": 626,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70070,
@@ -239,6 +339,16 @@
       "A Satrap\u0027s Duty"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9161126,
+      "X": -478.365,
+      "Y": 4.77829,
+      "Z": 26.7957,
+      "Yaw": 0.277663,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": null,
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -249,7 +359,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 627
+    "SortKey": 627,
+    "Icon": 101181,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70071,
@@ -261,12 +373,24 @@
       "Void Theory"
     ],
     "NextQuestIds": [
-      70128
+      70128,
+      70325
     ],
     "NextQuestTitles": [
-      "In Search of Azdaja"
+      "In Search of Azdaja",
+      "Stranger from Paradise"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9160645,
+      "X": 111.47,
+      "Y": -350,
+      "Z": -83.1298,
+      "Yaw": 3.14031,
+      "Radius": 1,
+      "MapId": 785,
+      "TerritoryId": 1056
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -277,7 +401,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 628
+    "SortKey": 628,
+    "Icon": 101182,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70128,
@@ -295,6 +421,16 @@
       "Shadowed Remnants"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9160828,
+      "X": -338.321,
+      "Y": 55,
+      "Z": -68.3934,
+      "Yaw": -0.712764,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -305,7 +441,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 629
+    "SortKey": 629,
+    "Icon": 112481,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70129,
@@ -323,6 +461,16 @@
       "Where Everything Begins"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9328441,
+      "X": -83.7263,
+      "Y": 376.45,
+      "Z": -157.977,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 784,
+      "TerritoryId": 1089
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -333,7 +481,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 630
+    "SortKey": 630,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70130,
@@ -351,6 +501,16 @@
       "Groping in the Dark"
     ],
     "StarterNpc": "dark-robed voidsent",
+    "StarterNpcLocation": {
+      "RowId": 9329914,
+      "X": 103.437,
+      "Y": -718.334,
+      "Z": 207.904,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 782,
+      "TerritoryId": 1089
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -361,7 +521,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 631
+    "SortKey": 631,
+    "Icon": 101197,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70131,
@@ -379,6 +541,16 @@
       "Nowhere to Run"
     ],
     "StarterNpc": "Estinien",
+    "StarterNpcLocation": {
+      "RowId": 9329985,
+      "X": 1.74602,
+      "Y": -698.054,
+      "Z": -138.104,
+      "Yaw": -1.26891,
+      "Radius": 1,
+      "MapId": 783,
+      "TerritoryId": 1089
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -389,7 +561,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 632
+    "SortKey": 632,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70132,
@@ -407,6 +581,16 @@
       "The Wind Rises"
     ],
     "StarterNpc": "Zero",
+    "StarterNpcLocation": {
+      "RowId": 9330157,
+      "X": -30.0264,
+      "Y": -0.509538,
+      "Z": 33.8025,
+      "Yaw": 2.4904,
+      "Radius": 1,
+      "MapId": 786,
+      "TerritoryId": 1077
+    },
     "FinishNpc": "Estinien",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -417,7 +601,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 633
+    "SortKey": 633,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70133,
@@ -435,6 +621,16 @@
       "Return from the Void"
     ],
     "StarterNpc": "Zero",
+    "StarterNpcLocation": {
+      "RowId": 9330412,
+      "X": -0.24126,
+      "Y": -0.14,
+      "Z": -70.7233,
+      "Yaw": -0.782661,
+      "Radius": 1,
+      "MapId": 786,
+      "TerritoryId": 1077
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -445,7 +641,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 634
+    "SortKey": 634,
+    "Icon": 101198,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70134,
@@ -463,6 +661,16 @@
       "A World with Light and Life"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9331481,
+      "X": -27.1278,
+      "Y": -0.219636,
+      "Z": 50.5127,
+      "Yaw": -0.386422,
+      "Radius": 1,
+      "MapId": 786,
+      "TerritoryId": 1077
+    },
     "FinishNpc": "Meghaduta attendant",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -473,7 +681,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 635
+    "SortKey": 635,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70135,
@@ -491,6 +701,16 @@
       "Buried Memory"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9332415,
+      "X": -1.54916,
+      "Y": 0.00843275,
+      "Z": -1.81816,
+      "Yaw": 0.537297,
+      "Radius": 1,
+      "MapId": 787,
+      "TerritoryId": 1078
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -501,7 +721,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 636
+    "SortKey": 636,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70136,
@@ -513,12 +735,24 @@
       "A World with Light and Life"
     ],
     "NextQuestIds": [
+      70196,
       70206
     ],
     "NextQuestTitles": [
+      "Shadowed Pasts",
       "Once More unto the Void"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9333436,
+      "X": -159.885,
+      "Y": 36.0513,
+      "Z": 67.2916,
+      "Yaw": 0.250245,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -529,7 +763,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 637
+    "SortKey": 637,
+    "Icon": 101199,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70206,
@@ -547,6 +783,16 @@
       "A Cold Reunion"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9160828,
+      "X": -338.321,
+      "Y": 55,
+      "Z": -68.3934,
+      "Yaw": -0.712764,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -557,7 +803,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 638
+    "SortKey": 638,
+    "Icon": 101227,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70207,
@@ -575,6 +823,16 @@
       "Kindled Spirit"
     ],
     "StarterNpc": "Estinien",
+    "StarterNpcLocation": {
+      "RowId": 9552911,
+      "X": -345.997,
+      "Y": 55,
+      "Z": -63.6283,
+      "Yaw": -2.47622,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -585,7 +843,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 639
+    "SortKey": 639,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70208,
@@ -603,6 +863,16 @@
       "An Unforeseen Bargain"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 9553105,
+      "X": -369.223,
+      "Y": 21.9882,
+      "Z": 484.062,
+      "Yaw": 0.586618,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -613,7 +883,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 640
+    "SortKey": 640,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70209,
@@ -631,6 +903,16 @@
       "King of the Mountain"
     ],
     "StarterNpc": "1st Legion soldier",
+    "StarterNpcLocation": {
+      "RowId": 9553337,
+      "X": 510.151,
+      "Y": -36.65,
+      "Z": -161.708,
+      "Yaw": -0.523379,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -641,7 +923,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 641
+    "SortKey": 641,
+    "Icon": 101228,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70210,
@@ -659,6 +943,16 @@
       "A Dragon\u0027s Resolve"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 9553382,
+      "X": 527.949,
+      "Y": -36.65,
+      "Z": -242.906,
+      "Yaw": 1.26547,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -669,7 +963,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 642
+    "SortKey": 642,
+    "Icon": 112502,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70211,
@@ -687,6 +983,16 @@
       "Paths Barred"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9563514,
+      "X": -249.904,
+      "Y": -173,
+      "Z": 126.368,
+      "Yaw": 2.98707,
+      "Radius": 1,
+      "MapId": 829,
+      "TerritoryId": 1119
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -697,7 +1003,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 643
+    "SortKey": 643,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70212,
@@ -715,6 +1023,16 @@
       "Desires Untold"
     ],
     "StarterNpc": "Zero",
+    "StarterNpcLocation": {
+      "RowId": 9553520,
+      "X": 465.815,
+      "Y": -17.4437,
+      "Z": 707.322,
+      "Yaw": -1.18183,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Nahbdeen",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -725,7 +1043,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 644
+    "SortKey": 644,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70213,
@@ -743,6 +1063,16 @@
       "Gods Revel, Lands Tremble"
     ],
     "StarterNpc": "Nahbdeen",
+    "StarterNpcLocation": {
+      "RowId": 8866625,
+      "X": -568.973,
+      "Y": 9.81748,
+      "Z": -569.866,
+      "Yaw": 2.35359,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -753,7 +1083,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 645
+    "SortKey": 645,
+    "Icon": 101229,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70214,
@@ -765,12 +1097,24 @@
       "Desires Untold"
     ],
     "NextQuestIds": [
+      70197,
       70271
     ],
     "NextQuestTitles": [
+      "Shadowed Pasts Once More",
       "Currying Flavor"
     ],
     "StarterNpc": "Zero",
+    "StarterNpcLocation": {
+      "RowId": 9553602,
+      "X": -40.0113,
+      "Y": 89.4202,
+      "Z": -636.862,
+      "Yaw": -1.62644,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -781,7 +1125,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 646
+    "SortKey": 646,
+    "Icon": 101230,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70271,
@@ -799,6 +1145,16 @@
       "Going Haam"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9160828,
+      "X": -338.321,
+      "Y": 55,
+      "Z": -68.3934,
+      "Yaw": -0.712764,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Meghaduta attendant",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -809,7 +1165,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 647
+    "SortKey": 647,
+    "Icon": 101248,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70272,
@@ -821,12 +1179,24 @@
       "Currying Flavor"
     ],
     "NextQuestIds": [
-      70273
+      70273,
+      70351
     ],
     "NextQuestTitles": [
-      "Like Fear to Flame"
+      "Like Fear to Flame",
+      "A Request of One\u0027s Own"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 9842216,
+      "X": 0.671582,
+      "Y": 0.0192766,
+      "Z": 0.884858,
+      "Yaw": -1.84582,
+      "Radius": 1,
+      "MapId": 840,
+      "TerritoryId": 1161
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -837,7 +1207,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 648
+    "SortKey": 648,
+    "Icon": 112521,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70273,
@@ -855,6 +1227,16 @@
       "The Fallen Empire"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 9837549,
+      "X": 142.097,
+      "Y": -16.147,
+      "Z": 235.736,
+      "Yaw": -2.29832,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -865,7 +1247,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 649
+    "SortKey": 649,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70274,
@@ -883,6 +1267,16 @@
       "Bonds of Trust"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 9843486,
+      "X": 413.452,
+      "Y": 15.5582,
+      "Z": -638.271,
+      "Yaw": -1.77684,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Mettius",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -893,7 +1287,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 650
+    "SortKey": 650,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70275,
@@ -911,6 +1307,16 @@
       "Lunar Rendezvous"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 9943277,
+      "X": 508.616,
+      "Y": -36.65,
+      "Z": -206.734,
+      "Yaw": -1.16573,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -921,7 +1327,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 651
+    "SortKey": 651,
+    "Icon": 101249,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70276,
@@ -939,6 +1347,16 @@
       "The Red Side of the Moon"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 9843874,
+      "X": 510.137,
+      "Y": -36.65,
+      "Z": -204.945,
+      "Yaw": -2.03492,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Livingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -949,7 +1367,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 652
+    "SortKey": 652,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70277,
@@ -967,6 +1387,16 @@
       "Abyssal Dark"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 9910096,
+      "X": 160.876,
+      "Y": -49.5896,
+      "Z": -618.463,
+      "Yaw": -2.20168,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -977,7 +1407,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 653
+    "SortKey": 653,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70278,
@@ -995,6 +1427,16 @@
       "The Dark Throne"
     ],
     "StarterNpc": "Zero",
+    "StarterNpcLocation": {
+      "RowId": 9906225,
+      "X": 17.1359,
+      "Y": 56.5733,
+      "Z": 436.026,
+      "Yaw": -0.462416,
+      "Radius": 1,
+      "MapId": 842,
+      "TerritoryId": 1162
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1005,7 +1447,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 654
+    "SortKey": 654,
+    "Icon": 101250,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70279,
@@ -1023,6 +1467,16 @@
       "Seeking the Light"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9943302,
+      "X": -135.835,
+      "Y": 54.9764,
+      "Z": 432.032,
+      "Yaw": 2.56319,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1033,7 +1487,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 655
+    "SortKey": 655,
+    "Icon": 101251,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70280,
@@ -1051,6 +1507,16 @@
       "Appealing to the Masses"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9160828,
+      "X": -338.321,
+      "Y": 55,
+      "Z": -68.3934,
+      "Yaw": -0.712764,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1061,7 +1527,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 656
+    "SortKey": 656,
+    "Icon": 101270,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70281,
@@ -1079,6 +1547,16 @@
       "In Defiance of Fate"
     ],
     "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8370840,
+      "X": 24.2893,
+      "Y": 0,
+      "Z": -0.747113,
+      "Yaw": 0.132291,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1089,7 +1567,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 657
+    "SortKey": 657,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70282,
@@ -1107,6 +1587,16 @@
       "Back to Action"
     ],
     "StarterNpc": "Zero",
+    "StarterNpcLocation": {
+      "RowId": 9929928,
+      "X": 29.7145,
+      "Y": 82.05,
+      "Z": -5.6541,
+      "Yaw": -2.56431,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1117,7 +1607,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 658
+    "SortKey": 658,
+    "Icon": 101271,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70283,
@@ -1135,6 +1627,16 @@
       "Down in the Dark"
     ],
     "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 9931642,
+      "X": -205.924,
+      "Y": -3.2,
+      "Z": -11.46,
+      "Yaw": -1.09943,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1145,7 +1647,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 659
+    "SortKey": 659,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70284,
@@ -1157,12 +1661,24 @@
       "Back to Action"
     ],
     "NextQuestIds": [
-      70285
+      70285,
+      70331
     ],
     "NextQuestTitles": [
-      "Reunited at Last"
+      "Reunited at Last",
+      "Wings of Hope"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 10110171,
+      "X": 32.9193,
+      "Y": 56.6829,
+      "Z": 468.164,
+      "Yaw": -1.25338,
+      "Radius": 1,
+      "MapId": 842,
+      "TerritoryId": 1162
+    },
     "FinishNpc": "Zero",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1173,7 +1689,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 660
+    "SortKey": 660,
+    "Icon": 112543,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70285,
@@ -1191,6 +1709,16 @@
       "Growing Light"
     ],
     "StarterNpc": "Vrtra",
+    "StarterNpcLocation": {
+      "RowId": 10110315,
+      "X": 45.8548,
+      "Y": 56.6604,
+      "Z": 467.411,
+      "Yaw": -0.52884,
+      "Radius": 1,
+      "MapId": 842,
+      "TerritoryId": 1162
+    },
     "FinishNpc": "Atheleys",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1201,7 +1729,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 661
+    "SortKey": 661,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70286,
@@ -1213,12 +1743,24 @@
       "Reunited at Last"
     ],
     "NextQuestIds": [
-      70287
+      70287,
+      70330
     ],
     "NextQuestTitles": [
-      "When One Door Closes..."
+      "When One Door Closes...",
+      "Where Worries Melt Away"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 9932146,
+      "X": 5.8372,
+      "Y": 41.5301,
+      "Z": -165.259,
+      "Yaw": 1.00711,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Varshahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1229,7 +1771,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 662
+    "SortKey": 662,
+    "Icon": 101272,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70287,
@@ -1247,6 +1791,16 @@
       "The Game Is Afoot"
     ],
     "StarterNpc": "Varshahn",
+    "StarterNpcLocation": {
+      "RowId": 9160828,
+      "X": -338.321,
+      "Y": 55,
+      "Z": -68.3934,
+      "Yaw": -0.712764,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1257,7 +1811,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 663
+    "SortKey": 663,
+    "Icon": 101273,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70288,
@@ -1275,6 +1831,16 @@
       "The Coming Dawn"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 9943117,
+      "X": -256.651,
+      "Y": 19.271,
+      "Z": -46.2794,
+      "Yaw": -2.26769,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Erenville",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1285,7 +1851,9 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 664
+    "SortKey": 664,
+    "Icon": 101274,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70289,
@@ -1303,6 +1871,16 @@
       "A New World to Explore"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 9943138,
+      "X": -58.5448,
+      "Y": -15.127,
+      "Z": 139.467,
+      "Yaw": -0.851428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Ojika Tsunjika",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1313,6 +1891,8 @@
       },
       "Name": "Newfound Adventure"
     },
-    "SortKey": 665
+    "SortKey": 665,
+    "Icon": 101275,
+    "IconSpecial": 0
   }
 ]

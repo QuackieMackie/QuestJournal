@@ -15,6 +15,16 @@
       "Old Sharlayan, New to You"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8669024,
+      "X": -2.26414,
+      "Y": 0,
+      "Z": -8.82014,
+      "Yaw": 0.219565,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -25,7 +35,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 511
+    "SortKey": 511,
+    "Icon": 101098,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69894,
@@ -37,14 +49,38 @@
       "The Next Ship to Sail"
     ],
     "NextQuestIds": [
+      69706,
+      69710,
+      69712,
+      69716,
+      69717,
+      69718,
+      69719,
       69895,
       69904
     ],
     "NextQuestTitles": [
+      "Leves of Old Sharlayan",
+      "Sights of the End",
+      "The Hunt for Specimens",
+      "\uE0BE A Waiting Love",
+      "\uE0BE Scholarly Perspective",
+      "\uE0BE A Literary Delivery",
+      "\uE0BE Doll Dash",
       "Hitting the Books",
       "For Thavnair Bound"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8927121,
+      "X": 49.7281,
+      "Y": -16.247,
+      "Z": 145.234,
+      "Yaw": -1.51537,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -55,7 +91,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 512
+    "SortKey": 512,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69895,
@@ -73,6 +111,16 @@
       "A Seat at the Last Stand"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8910716,
+      "X": -2.58195,
+      "Y": 0,
+      "Z": 0.177345,
+      "Yaw": -2.03684,
+      "Radius": 1,
+      "MapId": 742,
+      "TerritoryId": 987
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -83,7 +131,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 513
+    "SortKey": 513,
+    "Icon": 101099,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69896,
@@ -101,6 +151,16 @@
       "A Labyrinthine Descent"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8910738,
+      "X": -281.104,
+      "Y": 18.9974,
+      "Z": 18.9867,
+      "Yaw": 1.56615,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -111,7 +171,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 514
+    "SortKey": 514,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69897,
@@ -129,6 +191,16 @@
       "Glorified Ratcatcher"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8910745,
+      "X": 29.0078,
+      "Y": -14.447,
+      "Z": 76.465,
+      "Yaw": -0.30928,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -139,7 +211,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 515
+    "SortKey": 515,
+    "Icon": 101100,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69898,
@@ -151,12 +225,38 @@
       "A Labyrinthine Descent"
     ],
     "NextQuestIds": [
+      69720,
+      69721,
+      69722,
+      69723,
+      69724,
+      69725,
+      69726,
+      69727,
       69899
     ],
     "NextQuestTitles": [
+      "\uE0BE It\u0027s Not the Heat, It\u0027s the Humidity",
+      "\uE0BE No Laughing Matter",
+      "\uE0BE Building Good Habitats",
+      "\uE0BE An Ore-ful Lot",
+      "\uE0BE Raised on the Fallen",
+      "\uE0BE Pot Luck",
+      "\uE0BE Uncommon Scents",
+      "\uE0BE A Hard Task to Digest",
       "Deeper into the Maze"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8910903,
+      "X": -52.3842,
+      "Y": 170.398,
+      "Z": -734.768,
+      "Yaw": -0.898337,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -167,7 +267,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 516
+    "SortKey": 516,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69899,
@@ -185,6 +287,16 @@
       "The Medial Circuit"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8911400,
+      "X": 394.291,
+      "Y": 166.075,
+      "Z": -521.294,
+      "Yaw": 0.711331,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -195,7 +307,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 517
+    "SortKey": 517,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69900,
@@ -213,6 +327,16 @@
       "The Full Report, Warts and All"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8911491,
+      "X": 646.328,
+      "Y": 185.084,
+      "Z": -131.952,
+      "Yaw": 0.0225065,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -223,7 +347,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 518
+    "SortKey": 518,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69901,
@@ -235,12 +361,32 @@
       "The Medial Circuit"
     ],
     "NextQuestIds": [
-      69902
+      69728,
+      69729,
+      69730,
+      69731,
+      69902,
+      70016
     ],
     "NextQuestTitles": [
-      "A Guide of Sorts"
+      "\uE0BE Learning to Sow",
+      "\uE0BE A Ripe Trade",
+      "\uE0BE It\u0027s Not Mud",
+      "\uE0BE Not Mushroom for Error",
+      "A Guide of Sorts",
+      "\uE0BE Lost Little Troll"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8925889,
+      "X": 324.869,
+      "Y": 97.0682,
+      "Z": -282.208,
+      "Yaw": -0.169697,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -251,7 +397,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 519
+    "SortKey": 519,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69902,
@@ -269,6 +417,16 @@
       "Estate Visitor"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8912045,
+      "X": -257.923,
+      "Y": 79.7365,
+      "Z": -502.068,
+      "Yaw": 1.24483,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -279,7 +437,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 520
+    "SortKey": 520,
+    "Icon": 101101,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69903,
@@ -297,6 +457,16 @@
       "In the Dark of the Tower"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8912333,
+      "X": 2.56704,
+      "Y": 41.376,
+      "Z": -142.15,
+      "Yaw": -2.29965,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -307,7 +477,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 521
+    "SortKey": 521,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69904,
@@ -325,6 +497,16 @@
       "On Low Tide"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 9059271,
+      "X": 4.1001,
+      "Y": 0,
+      "Z": 2.0516,
+      "Yaw": 0.700299,
+      "Radius": 1,
+      "MapId": 742,
+      "TerritoryId": 987
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -335,7 +517,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 522
+    "SortKey": 522,
+    "Icon": 101102,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69905,
@@ -353,6 +537,16 @@
       "A Fisherman\u0027s Friend"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8929498,
+      "X": 189.949,
+      "Y": 9.97444,
+      "Z": 589.903,
+      "Yaw": 1.16029,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Matsya",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -363,7 +557,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 523
+    "SortKey": 523,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69906,
@@ -375,12 +571,30 @@
       "On Low Tide"
     ],
     "NextQuestIds": [
-      69907
+      69732,
+      69733,
+      69734,
+      69907,
+      70025
     ],
     "NextQuestTitles": [
-      "House of Divinities"
+      "\uE0BE Fruit Savior",
+      "\uE0BE Shelling Out",
+      "\uE0BE Tikka Hike",
+      "House of Divinities",
+      "\uE0BE Steppe Child"
     ],
     "StarterNpc": "Matsya",
+    "StarterNpcLocation": {
+      "RowId": 8929590,
+      "X": 197.561,
+      "Y": 1.76994,
+      "Z": 738,
+      "Yaw": -1.61159,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -391,7 +605,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 524
+    "SortKey": 524,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69907,
@@ -409,6 +625,16 @@
       "The Great Work"
     ],
     "StarterNpc": "Estinien",
+    "StarterNpcLocation": {
+      "RowId": 8931338,
+      "X": 201.862,
+      "Y": 5.88102,
+      "Z": 612.037,
+      "Yaw": -2.04874,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Matsya",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -419,7 +645,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 525
+    "SortKey": 525,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69908,
@@ -437,6 +665,16 @@
       "Shadowed Footsteps"
     ],
     "StarterNpc": "Matsya",
+    "StarterNpcLocation": {
+      "RowId": 8931652,
+      "X": -278.861,
+      "Y": 2.73944,
+      "Z": 532.046,
+      "Yaw": 0.512414,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Nidhana",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -447,7 +685,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 526
+    "SortKey": 526,
+    "Icon": 101103,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69909,
@@ -459,12 +699,36 @@
       "The Great Work"
     ],
     "NextQuestIds": [
+      69735,
+      69736,
+      69737,
+      69738,
+      69739,
+      69740,
+      69741,
       69910
     ],
     "NextQuestTitles": [
+      "\uE0BE The Great Heist",
+      "\uE0BE Wish Upon a Crystal",
+      "\uE0BE High Importance, Low Urgency",
+      "\uE0BE Paint, Perfume, and Pecs",
+      "\uE0BE Alchemist or Dancer",
+      "\uE0BE A Nose for Trouble",
+      "\uE0BE Missing Alchemist",
       "A Boy\u0027s Errand"
     ],
     "StarterNpc": "Nidhana",
+    "StarterNpcLocation": {
+      "RowId": 8952244,
+      "X": -487.141,
+      "Y": 49.1617,
+      "Z": 153.455,
+      "Yaw": 1.42641,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Nidhana",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -475,7 +739,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 527
+    "SortKey": 527,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69910,
@@ -487,12 +753,30 @@
       "Shadowed Footsteps"
     ],
     "NextQuestIds": [
+      69742,
+      69743,
+      69744,
+      69745,
       69911
     ],
     "NextQuestTitles": [
+      "\uE0BE Hamsa Retrieval",
+      "\uE0BE High Hopes for the Hatchery",
+      "\uE0BE Cutting Edge Solutions",
+      "\uE0BE Rushing up That Hill",
       "Tipping the Scale"
     ],
     "StarterNpc": "Nidhana",
+    "StarterNpcLocation": {
+      "RowId": 8951244,
+      "X": -510.787,
+      "Y": 11.9753,
+      "Z": 117.718,
+      "Yaw": -2.9277,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Zeynuha",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -503,7 +787,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 528
+    "SortKey": 528,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69911,
@@ -521,6 +807,16 @@
       "The Satrap of Radz-at-Han"
     ],
     "StarterNpc": "Zeynuha",
+    "StarterNpcLocation": {
+      "RowId": 8866628,
+      "X": -92.9707,
+      "Y": 89.5575,
+      "Z": -642.356,
+      "Yaw": 1.31833,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -531,7 +827,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 529
+    "SortKey": 529,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69912,
@@ -549,6 +847,16 @@
       "In the Dark of the Tower"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8932335,
+      "X": -492.028,
+      "Y": 4.56851,
+      "Z": 17.5622,
+      "Yaw": 1.62537,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -559,7 +867,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 530
+    "SortKey": 530,
+    "Icon": 101104,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69913,
@@ -579,6 +889,16 @@
       "The Jewel of Thavnair"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8956856,
+      "X": -1.91417,
+      "Y": 0,
+      "Z": 1.57428,
+      "Yaw": -0.928904,
+      "Radius": 1,
+      "MapId": 742,
+      "TerritoryId": 987
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -589,7 +909,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 531
+    "SortKey": 531,
+    "Icon": 101105,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69914,
@@ -607,6 +929,16 @@
       "The Color of Joy"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8932756,
+      "X": -568.694,
+      "Y": 9.81748,
+      "Z": -581.298,
+      "Yaw": 2.33988,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -617,7 +949,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 532
+    "SortKey": 532,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69915,
@@ -635,6 +969,16 @@
       "Sound the Bell, School\u0027s In"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8933567,
+      "X": -377.608,
+      "Y": 44.9988,
+      "Z": -29.9146,
+      "Yaw": 2.42969,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Ojika Tsunjika",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -645,7 +989,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 533
+    "SortKey": 533,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69916,
@@ -657,12 +1003,36 @@
       "The Color of Joy"
     ],
     "NextQuestIds": [
-      69917
+      69746,
+      69747,
+      69748,
+      69749,
+      69750,
+      69751,
+      69917,
+      70009
     ],
     "NextQuestTitles": [
-      "A Capital Idea"
+      "\uE0BE A Volatile Education",
+      "\uE0BE The Light of Progress",
+      "\uE0BE My Fair Mammet",
+      "\uE0BE The Creature from the Wooden Crate",
+      "\uE0BE Fast Fashion",
+      "\uE0BE Booking Books",
+      "A Capital Idea",
+      "The Faculty"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8948880,
+      "X": -88.6702,
+      "Y": 3.89894,
+      "Z": 0.839172,
+      "Yaw": -0.909441,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Montichaigne",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -673,7 +1043,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 534
+    "SortKey": 534,
+    "Icon": 101106,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69917,
@@ -691,6 +1063,16 @@
       "Best of the Best"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8948954,
+      "X": -393.217,
+      "Y": 20.8,
+      "Z": -105.755,
+      "Yaw": 2.962,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Raubahn",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -701,7 +1083,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 535
+    "SortKey": 535,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69918,
@@ -719,6 +1103,16 @@
       "A Frosty Reception"
     ],
     "StarterNpc": "Maxima",
+    "StarterNpcLocation": {
+      "RowId": 8949078,
+      "X": 746.644,
+      "Y": 69.9999,
+      "Z": 523.418,
+      "Yaw": -0.865104,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -729,7 +1123,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 536
+    "SortKey": 536,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69919,
@@ -741,12 +1137,26 @@
       "Best of the Best"
     ],
     "NextQuestIds": [
+      69755,
+      69759,
       69920
     ],
     "NextQuestTitles": [
+      "\uE0BE Your Inventory Is Not Full",
+      "\uE0BE Bear Baiting",
       "Tracks in the Snow"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 8949648,
+      "X": 750.976,
+      "Y": 69.9999,
+      "Z": 534.808,
+      "Yaw": 1.2226,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -757,7 +1167,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 537
+    "SortKey": 537,
+    "Icon": 101107,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69920,
@@ -775,6 +1187,16 @@
       "How the Mighty Are Fallen"
     ],
     "StarterNpc": "Emmanellain",
+    "StarterNpcLocation": {
+      "RowId": 8949715,
+      "X": -350.128,
+      "Y": 22.7375,
+      "Z": 435.586,
+      "Yaw": -1.22998,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "girl in green",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -785,7 +1207,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 538
+    "SortKey": 538,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69921,
@@ -803,6 +1227,16 @@
       "At the End of the Trail"
     ],
     "StarterNpc": "Licinia",
+    "StarterNpcLocation": {
+      "RowId": 8949978,
+      "X": 563.998,
+      "Y": 32.3189,
+      "Z": 150.062,
+      "Yaw": -1.56618,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -813,7 +1247,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 539
+    "SortKey": 539,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69922,
@@ -831,6 +1267,16 @@
       "A Way Forward"
     ],
     "StarterNpc": "Jareck",
+    "StarterNpcLocation": {
+      "RowId": 8865475,
+      "X": 136.588,
+      "Y": -13.2805,
+      "Z": 650.271,
+      "Yaw": 3.07582,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -841,7 +1287,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 540
+    "SortKey": 540,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69923,
@@ -853,12 +1301,26 @@
       "At the End of the Trail"
     ],
     "NextQuestIds": [
+      69757,
+      69760,
       69924
     ],
     "NextQuestTitles": [
+      "\uE0BE Heroes All",
+      "\uE0BE Under Lock and Code",
       "The Last Bastion"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8950276,
+      "X": 605.927,
+      "Y": 34.7239,
+      "Z": 201.104,
+      "Yaw": 1.47946,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Jullus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -869,7 +1331,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 541
+    "SortKey": 541,
+    "Icon": 101108,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69924,
@@ -887,6 +1351,16 @@
       "Personae non Gratae"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 8950733,
+      "X": 64.6777,
+      "Y": 0.185045,
+      "Z": 147.864,
+      "Yaw": 0.0234088,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Jullus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -897,7 +1371,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 542
+    "SortKey": 542,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69925,
@@ -915,6 +1391,16 @@
       "His Park Materials"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 8950827,
+      "X": 530.198,
+      "Y": -36.65,
+      "Z": -175.85,
+      "Yaw": -2.80078,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Jullus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -925,7 +1411,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 543
+    "SortKey": 543,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69926,
@@ -943,6 +1431,16 @@
       "No Good Deed"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 8950827,
+      "X": 530.198,
+      "Y": -36.65,
+      "Z": -175.85,
+      "Yaw": -2.80078,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Jullus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -953,7 +1451,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 544
+    "SortKey": 544,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69927,
@@ -971,6 +1471,16 @@
       "Alea Iacta Est"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 9038511,
+      "X": 413.148,
+      "Y": 16.1026,
+      "Z": -578.477,
+      "Yaw": -0.814757,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Jullus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -981,7 +1491,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 545
+    "SortKey": 545,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69928,
@@ -999,6 +1511,16 @@
       "Strange Bedfellows"
     ],
     "StarterNpc": "Jullus",
+    "StarterNpcLocation": {
+      "RowId": 8951105,
+      "X": 526.392,
+      "Y": -36.65,
+      "Z": -233.874,
+      "Yaw": 0.24095,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Lucia",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1009,7 +1531,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 546
+    "SortKey": 546,
+    "Icon": 101109,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69929,
@@ -1021,12 +1545,66 @@
       "Alea Iacta Est"
     ],
     "NextQuestIds": [
-      69930
+      69752,
+      69753,
+      69754,
+      69756,
+      69758,
+      69761,
+      69762,
+      69763,
+      69764,
+      69765,
+      69766,
+      69767,
+      69768,
+      69769,
+      69770,
+      69771,
+      69772,
+      69773,
+      69774,
+      69775,
+      69930,
+      70034,
+      70038
     ],
     "NextQuestTitles": [
-      "In from the Cold"
+      "\uE0BE Best Delivered Cold",
+      "\uE0BE Armored Up",
+      "\uE0BE A Dream of Home",
+      "\uE0BE Help Me to Help You",
+      "\uE0BE Scouting for Scouts",
+      "\uE0BE And Then a Hero Comes Along",
+      "\uE0BE With Folded Hands",
+      "\uE0BE A Light That Never Goes Out",
+      "\uE0BE P.S. I Love You",
+      "\uE0BE Brick by Brick, Tank by Tank",
+      "\uE0BE Rest, Thy Warfare O\u0027er",
+      "\uE0BE Some Like It Hot",
+      "\uE0BE Children Are Our Future",
+      "\uE0BE Mama, She Is in Rubble Deep",
+      "\uE0BE Put Your Plasma Where Your Mouth Is",
+      "\uE0BE The Hero Never Bombs",
+      "\uE0BE Beasts of the Imperial Wild",
+      "\uE0BE Ordnance Cleanup Committee",
+      "\uE0BE A Place of Greater Safety",
+      "\uE0BE In the Skies above Garlemald",
+      "In from the Cold",
+      "\uE0BE In Pursuit of Power",
+      "\uE0BE Stranded at the Station"
     ],
     "StarterNpc": "Lucia",
+    "StarterNpcLocation": {
+      "RowId": 8951140,
+      "X": -399.783,
+      "Y": 22.1438,
+      "Z": 422.893,
+      "Yaw": -1.84815,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Lucia",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1037,7 +1615,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 547
+    "SortKey": 547,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69930,
@@ -1055,6 +1635,16 @@
       "Gateway of the Gods"
     ],
     "StarterNpc": "Lucia",
+    "StarterNpcLocation": {
+      "RowId": 8951227,
+      "X": -351.134,
+      "Y": 23.7425,
+      "Z": 418.441,
+      "Yaw": -0.630074,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1065,7 +1655,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 548
+    "SortKey": 548,
+    "Icon": 101110,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69931,
@@ -1083,6 +1675,16 @@
       "A Trip to the Moon"
     ],
     "StarterNpc": "Lucia",
+    "StarterNpcLocation": {
+      "RowId": 8951256,
+      "X": -371.288,
+      "Y": 22.2452,
+      "Z": 400.728,
+      "Yaw": -0.261564,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1093,7 +1695,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 549
+    "SortKey": 549,
+    "Icon": 101111,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69932,
@@ -1111,6 +1715,16 @@
       "Sea of Sorrow"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8951707,
+      "X": 2.53346,
+      "Y": 0,
+      "Z": 26.8531,
+      "Yaw": -3.13961,
+      "Radius": 1,
+      "MapId": 747,
+      "TerritoryId": 1024
+    },
     "FinishNpc": "the watcher",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1121,7 +1735,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 550
+    "SortKey": 550,
+    "Icon": 101112,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69933,
@@ -1139,6 +1755,16 @@
       "The Martyr"
     ],
     "StarterNpc": "the watcher",
+    "StarterNpcLocation": {
+      "RowId": 8951722,
+      "X": -383.047,
+      "Y": 168.994,
+      "Z": 547.57,
+      "Yaw": 2.3012,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "anguished spirit",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1149,7 +1775,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 551
+    "SortKey": 551,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69934,
@@ -1167,6 +1795,16 @@
       "In Shadow\u0027s Wake"
     ],
     "StarterNpc": "lustrous dog",
+    "StarterNpcLocation": {
+      "RowId": 8951784,
+      "X": 189.258,
+      "Y": 63.3097,
+      "Z": 467.46,
+      "Yaw": -2.98616,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "the watcher",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1177,7 +1815,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 552
+    "SortKey": 552,
+    "Icon": 101113,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69935,
@@ -1195,6 +1835,16 @@
       "Helping Hands"
     ],
     "StarterNpc": "the watcher",
+    "StarterNpcLocation": {
+      "RowId": 8952027,
+      "X": -279.956,
+      "Y": 76.149,
+      "Z": 480.945,
+      "Yaw": 2.0791,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1205,7 +1855,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 553
+    "SortKey": 553,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69936,
@@ -1223,6 +1875,16 @@
       "A Harey Situation"
     ],
     "StarterNpc": "the watcher",
+    "StarterNpcLocation": {
+      "RowId": 8949261,
+      "X": -382.273,
+      "Y": 169.004,
+      "Z": 549.696,
+      "Yaw": 2.79736,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1233,7 +1895,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 554
+    "SortKey": 554,
+    "Icon": 101114,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69937,
@@ -1251,6 +1915,16 @@
       "A Taste of the Moon"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8949630,
+      "X": 2.68358,
+      "Y": -49.9123,
+      "Z": -366.049,
+      "Yaw": -3.07309,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "snappy Loporrit",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1261,7 +1935,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 555
+    "SortKey": 555,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69938,
@@ -1279,6 +1955,16 @@
       "Styled a Hero"
     ],
     "StarterNpc": "Livingway",
+    "StarterNpcLocation": {
+      "RowId": 9061399,
+      "X": -17.9513,
+      "Y": -47.1921,
+      "Z": -494.304,
+      "Yaw": -0.601201,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Cookingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1289,7 +1975,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 556
+    "SortKey": 556,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69939,
@@ -1301,12 +1989,36 @@
       "A Taste of the Moon"
     ],
     "NextQuestIds": [
+      69776,
+      69777,
+      69778,
+      69779,
+      69780,
+      69781,
+      69782,
       69940
     ],
     "NextQuestTitles": [
+      "\uE0BE True Carrot Crimes",
+      "\uE0BE Carrots: It\u0027s What\u0027s for Dinner",
+      "\uE0BE A Strange New Moon",
+      "\uE0BE Getting to Know You",
+      "\uE0BE Over the Rainbow Crystal",
+      "\uE0BE All Fun and Games",
+      "\uE0BE Clothes Maketh the Man",
       "All\u0027s Vale That Endsvale"
     ],
     "StarterNpc": "Livingway",
+    "StarterNpcLocation": {
+      "RowId": 8949659,
+      "X": -456.095,
+      "Y": -168,
+      "Z": -618.756,
+      "Yaw": 0.68788,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Growingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1317,7 +2029,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 557
+    "SortKey": 557,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69940,
@@ -1335,6 +2049,16 @@
       "Back to Old Tricks"
     ],
     "StarterNpc": "Growingway",
+    "StarterNpcLocation": {
+      "RowId": 8949726,
+      "X": 2.0985,
+      "Y": -49.5896,
+      "Z": -699.731,
+      "Yaw": -0.82947,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1345,7 +2069,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 558
+    "SortKey": 558,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69941,
@@ -1363,6 +2089,16 @@
       "Setting Things Straight"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8949949,
+      "X": 615.915,
+      "Y": -168,
+      "Z": -657.724,
+      "Yaw": 2.14304,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1373,7 +2109,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 559
+    "SortKey": 559,
+    "Icon": 101115,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69942,
@@ -1385,12 +2123,42 @@
       "Back to Old Tricks"
     ],
     "NextQuestIds": [
-      69943
+      69783,
+      69784,
+      69785,
+      69786,
+      69787,
+      69788,
+      69789,
+      69790,
+      69791,
+      69943,
+      70052
     ],
     "NextQuestTitles": [
-      "Heart of the Matter"
+      "\uE0BE A Test of Mettle",
+      "\uE0BE Unfortunate Fortune-telling",
+      "\uE0BE Dangerous Work",
+      "\uE0BE Material Woes",
+      "\uE0BE For a Greater Garden",
+      "\uE0BE Lone Loporrit",
+      "\uE0BE Alluring Allag",
+      "\uE0BE Overexcited Admirer",
+      "\uE0BE Troubled Waters",
+      "Heart of the Matter",
+      "\uE0BE Name That Way"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8950126,
+      "X": 68.5339,
+      "Y": 75.718,
+      "Z": -23.4853,
+      "Yaw": -1.74025,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1401,7 +2169,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 560
+    "SortKey": 560,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69943,
@@ -1419,6 +2189,16 @@
       "Returning Home"
     ],
     "StarterNpc": "Growingway",
+    "StarterNpcLocation": {
+      "RowId": 8950177,
+      "X": 362.523,
+      "Y": -168,
+      "Z": -625.094,
+      "Yaw": -2.64227,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1429,7 +2209,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 561
+    "SortKey": 561,
+    "Icon": 101116,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69944,
@@ -1447,6 +2229,16 @@
       "Skies Aflame"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 8950295,
+      "X": -611.109,
+      "Y": 128.649,
+      "Z": 566.857,
+      "Yaw": 0.37017,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
     "FinishNpc": "Ojika Tsunjika",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1457,7 +2249,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 562
+    "SortKey": 562,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69945,
@@ -1475,6 +2269,16 @@
       "The Blasphemy Unmasked"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 8951431,
+      "X": -104.475,
+      "Y": 3.89894,
+      "Z": 7.03126,
+      "Yaw": 2.19481,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Ahewann",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1485,7 +2289,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 563
+    "SortKey": 563,
+    "Icon": 101117,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69946,
@@ -1503,6 +2309,16 @@
       "Amidst the Apocalypse"
     ],
     "StarterNpc": "Ahewann",
+    "StarterNpcLocation": {
+      "RowId": 8951510,
+      "X": 4.68299,
+      "Y": -2,
+      "Z": 93.5101,
+      "Yaw": -1.84511,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Mihleel",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1513,7 +2329,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 564
+    "SortKey": 564,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69947,
@@ -1531,6 +2349,16 @@
       "Beyond the Depths of Despair"
     ],
     "StarterNpc": "Mihleel",
+    "StarterNpcLocation": {
+      "RowId": 8861124,
+      "X": -4.09129,
+      "Y": 3.00001,
+      "Z": -203.854,
+      "Yaw": -3.02558,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Djinabaha",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1541,7 +2369,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 565
+    "SortKey": 565,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69948,
@@ -1559,6 +2389,16 @@
       "That We Might Live"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8952300,
+      "X": -158.789,
+      "Y": 24,
+      "Z": 112.3,
+      "Yaw": -3.08358,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1569,7 +2409,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 566
+    "SortKey": 566,
+    "Icon": 101118,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69949,
@@ -1587,6 +2429,16 @@
       "When All Hope Seems Lost"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8952224,
+      "X": 430.873,
+      "Y": 3.11688,
+      "Z": -251.316,
+      "Yaw": 2.00153,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Matsya",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1597,7 +2449,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 567
+    "SortKey": 567,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69950,
@@ -1615,6 +2469,16 @@
       "Warm Hearts, Rekindled Hopes"
     ],
     "StarterNpc": "Matsya",
+    "StarterNpcLocation": {
+      "RowId": 8953162,
+      "X": 381.34,
+      "Y": 3.1169,
+      "Z": -257.063,
+      "Yaw": -2.54264,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1625,7 +2489,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 568
+    "SortKey": 568,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69951,
@@ -1643,6 +2509,16 @@
       "Simple Pleasures"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8952274,
+      "X": 537.782,
+      "Y": 10.226,
+      "Z": 238.769,
+      "Yaw": -3.04135,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1653,7 +2529,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 569
+    "SortKey": 569,
+    "Icon": 101119,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69952,
@@ -1665,12 +2543,34 @@
       "Warm Hearts, Rekindled Hopes"
     ],
     "NextQuestIds": [
+      69792,
+      69793,
+      69795,
+      69799,
+      69800,
+      69804,
       69953
     ],
     "NextQuestTitles": [
+      "\uE0BE The Guardian\u0027s Shield",
+      "\uE0BE In Agama\u0027s Footsteps",
+      "\uE0BE Radiant Patrol",
+      "\uE0BE Flowers for the Family",
+      "\uE0BE My Father My Fisher",
+      "\uE0BE An Unexpected Guide",
       "Under His Wing"
     ],
     "StarterNpc": "Estinien",
+    "StarterNpcLocation": {
+      "RowId": 8952294,
+      "X": -38.1777,
+      "Y": 25.814,
+      "Z": -318.455,
+      "Yaw": 2.07526,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Nidhana",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1681,7 +2581,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 570
+    "SortKey": 570,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69953,
@@ -1693,12 +2595,38 @@
       "Simple Pleasures"
     ],
     "NextQuestIds": [
-      69954
+      69794,
+      69796,
+      69797,
+      69798,
+      69801,
+      69802,
+      69803,
+      69954,
+      70029
     ],
     "NextQuestTitles": [
-      "At World\u0027s End"
+      "\uE0BE Quick Heels",
+      "\uE0BE Treasure Hunters",
+      "\uE0BE Curry for the Watch",
+      "\uE0BE My Friend the Yeti",
+      "\uE0BE A Pisaca\u0027s Purpose",
+      "\uE0BE Tea Foretell",
+      "\uE0BE Dreams of Venom",
+      "At World\u0027s End",
+      "\uE0BE What\u0027s in a Parent"
     ],
     "StarterNpc": "Matsya",
+    "StarterNpcLocation": {
+      "RowId": 8953356,
+      "X": 425.101,
+      "Y": 3.09753,
+      "Z": -262.623,
+      "Yaw": 0.39068,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1709,7 +2637,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 571
+    "SortKey": 571,
+    "Icon": 101120,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69954,
@@ -1721,12 +2651,46 @@
       "Under His Wing"
     ],
     "NextQuestIds": [
+      69638,
+      69644,
+      69650,
+      69656,
+      69662,
+      69805,
+      69806,
+      69807,
+      69808,
+      69809,
+      69810,
+      69811,
       69955
     ],
     "NextQuestTitles": [
+      "Shrouded in Peril",
+      "Far from Free",
+      "Storm Clouds Brewing",
+      "Seeds of Disquiet",
+      "Our Aching Souls",
+      "\uE0BE A Bond Eternal",
+      "\uE0BE A Gift of Flowers",
+      "\uE0BE Tidings from Afar",
+      "\uE0BE The Pangs of Hunger",
+      "\uE0BE Silks for a Babe",
+      "\uE0BE Hungry Hungry Hamsa",
+      "\uE0BE Operation Ring Retrieval",
       "Return to the Crystarium"
     ],
     "StarterNpc": "Radiant Host soldier",
+    "StarterNpcLocation": {
+      "RowId": 8953457,
+      "X": -214.404,
+      "Y": 36,
+      "Z": 64.8661,
+      "Yaw": 1.06586,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1737,7 +2701,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 572
+    "SortKey": 572,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69955,
@@ -1755,6 +2721,16 @@
       "Hope Upon a Flower"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8953492,
+      "X": 5.11817,
+      "Y": -2,
+      "Z": 88.1294,
+      "Yaw": -2.9125,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
     "FinishNpc": "Ryne",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1765,7 +2741,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 573
+    "SortKey": 573,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69956,
@@ -1783,6 +2761,16 @@
       "Petalouda Hunt"
     ],
     "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8960034,
+      "X": -65.2428,
+      "Y": -37.7,
+      "Z": -208.822,
+      "Yaw": 2.529,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Hythlodaeus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1793,7 +2781,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 574
+    "SortKey": 574,
+    "Icon": 101121,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69957,
@@ -1811,6 +2801,16 @@
       "In Search of Hermes"
     ],
     "StarterNpc": "Hythlodaeus",
+    "StarterNpcLocation": {
+      "RowId": 8960216,
+      "X": 262.537,
+      "Y": 44.3215,
+      "Z": 771.436,
+      "Yaw": -2.82049,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Hythlodaeus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1821,7 +2821,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 575
+    "SortKey": 575,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69958,
@@ -1839,6 +2841,16 @@
       "Ponder, Warrant, Cherish, Welcome"
     ],
     "StarterNpc": "Hythlodaeus",
+    "StarterNpcLocation": {
+      "RowId": 8960221,
+      "X": 206.063,
+      "Y": 20.5621,
+      "Z": 629.153,
+      "Yaw": -0.941554,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "adventurous ambystoma",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1849,7 +2861,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 576
+    "SortKey": 576,
+    "Icon": 101122,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69959,
@@ -1861,12 +2875,36 @@
       "In Search of Hermes"
     ],
     "NextQuestIds": [
+      69812,
+      69813,
+      69814,
+      69816,
+      69817,
+      69818,
+      69819,
       69960
     ],
     "NextQuestTitles": [
+      "\uE0BE The Ore the Merrier",
+      "\uE0BE A Colorful Concept",
+      "\uE0BE Digestive Problems",
+      "\uE0BE Sweet Temptations",
+      "\uE0BE Breaking the Eyes",
+      "\uE0BE Kick Some Asp",
+      "\uE0BE Clutch Devastation",
       "Lives Apart"
     ],
     "StarterNpc": "Hermes",
+    "StarterNpcLocation": {
+      "RowId": 8960315,
+      "X": 368.911,
+      "Y": -1.12046,
+      "Z": 158.046,
+      "Yaw": -2.19674,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Hermes",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1877,7 +2915,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 577
+    "SortKey": 577,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69960,
@@ -1895,6 +2935,16 @@
       "Their Greatest Contribution"
     ],
     "StarterNpc": "Hermes",
+    "StarterNpcLocation": {
+      "RowId": 8960354,
+      "X": 151.769,
+      "Y": 17.34,
+      "Z": 51.2827,
+      "Yaw": 0.777343,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Hermes",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1905,7 +2955,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 578
+    "SortKey": 578,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69961,
@@ -1917,12 +2969,34 @@
       "Lives Apart"
     ],
     "NextQuestIds": [
-      69962
+      69815,
+      69820,
+      69821,
+      69822,
+      69823,
+      69962,
+      70043
     ],
     "NextQuestTitles": [
-      "Aether to Aether"
+      "\uE0BE Nothing to Sneeze At",
+      "\uE0BE Second Guest",
+      "\uE0BE Labors of My Fruit",
+      "\uE0BE I Order You to Relax",
+      "\uE0BE We\u0027ll Meet Again",
+      "Aether to Aether",
+      "\uE0BE Touring Anagnorisis, Part I"
     ],
     "StarterNpc": "Emet-Selch",
+    "StarterNpcLocation": {
+      "RowId": 8960516,
+      "X": 560.339,
+      "Y": 9.79557,
+      "Z": 63.7357,
+      "Yaw": 0.798172,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Emet-Selch",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1933,7 +3007,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 579
+    "SortKey": 579,
+    "Icon": 101123,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69962,
@@ -1951,6 +3027,16 @@
       "A Sentimental Gift"
     ],
     "StarterNpc": "Hermes",
+    "StarterNpcLocation": {
+      "RowId": 8960554,
+      "X": 132.836,
+      "Y": 10.3608,
+      "Z": 89.3551,
+      "Yaw": 0.43396,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Meteion",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1961,7 +3047,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 580
+    "SortKey": 580,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69963,
@@ -1973,12 +3061,38 @@
       "Aether to Aether"
     ],
     "NextQuestIds": [
+      69824,
+      69825,
+      69826,
+      69827,
+      69828,
+      69829,
+      69830,
+      69831,
       69964
     ],
     "NextQuestTitles": [
+      "\uE0BE You and the Ailouros",
+      "\uE0BE Sing, O Mews",
+      "\uE0BE Beg Pardon?",
+      "\uE0BE Unresolved Mysteries",
+      "\uE0BE Every Rose",
+      "\uE0BE Wonder-full",
+      "\uE0BE Background Research",
+      "\uE0BE Coming to Gryps",
       "Verdict and Execution"
     ],
     "StarterNpc": "Hermes",
+    "StarterNpcLocation": {
+      "RowId": 8961411,
+      "X": -659.308,
+      "Y": -22.3948,
+      "Z": 525.503,
+      "Yaw": -0.951209,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Meteion",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -1989,7 +3103,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 581
+    "SortKey": 581,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69964,
@@ -2007,6 +3123,16 @@
       "Travelers at the Crossroads"
     ],
     "StarterNpc": "Hermes",
+    "StarterNpcLocation": {
+      "RowId": 8961461,
+      "X": -655.719,
+      "Y": -22.3948,
+      "Z": 521.883,
+      "Yaw": 0.221769,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Emet-Selch",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2017,7 +3143,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 582
+    "SortKey": 582,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69965,
@@ -2035,6 +3163,16 @@
       "A Past, Not Yet Come to Pass"
     ],
     "StarterNpc": "Hythlodaeus",
+    "StarterNpcLocation": {
+      "RowId": 8961495,
+      "X": -635.558,
+      "Y": -22.3948,
+      "Z": 505.111,
+      "Yaw": -1.27022,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Venat",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2045,7 +3183,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 583
+    "SortKey": 583,
+    "Icon": 101124,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69966,
@@ -2057,12 +3197,32 @@
       "Travelers at the Crossroads"
     ],
     "NextQuestIds": [
+      69832,
+      69834,
+      69837,
+      69840,
+      69841,
       69967
     ],
     "NextQuestTitles": [
+      "\uE0BE Small Size Advantage",
+      "\uE0BE Naughty Little Ones",
+      "\uE0BE What\u0027s in a Name?",
+      "\uE0BE To Name a Tale",
+      "\uE0BE Meaningful Measurements",
       "Witness to the Spectacle"
     ],
     "StarterNpc": "Venat",
+    "StarterNpcLocation": {
+      "RowId": 8962117,
+      "X": -491.09,
+      "Y": 140.392,
+      "Z": -113.798,
+      "Yaw": 2.07902,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Venat",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2073,7 +3233,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 584
+    "SortKey": 584,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69967,
@@ -2085,12 +3247,34 @@
       "A Past, Not Yet Come to Pass"
     ],
     "NextQuestIds": [
+      69835,
+      69843,
+      69846,
+      69848,
+      69850,
+      69851,
       69968
     ],
     "NextQuestTitles": [
+      "\uE0BE Floating Like Clouds",
+      "\uE0BE Woken by the Familiar",
+      "\uE0BE Very Familiar Carrots",
+      "\uE0BE A Most Succulent Name",
+      "\uE0BE Taking the Minutes: Ktisis Hyperboreia",
+      "\uE0BE Terror on Two Legs",
       "Worthy of His Back"
     ],
     "StarterNpc": "Venat",
+    "StarterNpcLocation": {
+      "RowId": 8962129,
+      "X": -595.031,
+      "Y": 159.7,
+      "Z": -175.241,
+      "Yaw": 1.22102,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Venat",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2101,7 +3285,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 585
+    "SortKey": 585,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69968,
@@ -2119,6 +3305,16 @@
       "A Flower upon Your Return"
     ],
     "StarterNpc": "Venat",
+    "StarterNpcLocation": {
+      "RowId": 8962143,
+      "X": -664.424,
+      "Y": 178.057,
+      "Z": -334.585,
+      "Yaw": -2.00561,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Venat",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2129,7 +3325,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 586
+    "SortKey": 586,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69969,
@@ -2141,12 +3339,42 @@
       "Worthy of His Back"
     ],
     "NextQuestIds": [
-      69970
+      69833,
+      69836,
+      69838,
+      69839,
+      69842,
+      69844,
+      69845,
+      69847,
+      69849,
+      69970,
+      70047
     ],
     "NextQuestTitles": [
-      "Hunger in the Garden"
+      "\uE0BE Take to the Skies",
+      "\uE0BE Familiar vs. Familiar",
+      "\uE0BE Siren Flower",
+      "\uE0BE Searching for Eidos",
+      "\uE0BE Specializing in Sharks",
+      "\uE0BE The Abyss Stares Back",
+      "\uE0BE Rolling Bryons Gather No Moss",
+      "\uE0BE Flight of the Charybdis",
+      "\uE0BE The Perks of Being a Lost Flower ",
+      "Hunger in the Garden",
+      "\uE0BE An Expected Guest"
     ],
     "StarterNpc": "Venat",
+    "StarterNpcLocation": {
+      "RowId": 8962149,
+      "X": -629.042,
+      "Y": 138.676,
+      "Z": 62.3109,
+      "Yaw": 0.286598,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Venat",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2157,7 +3385,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 587
+    "SortKey": 587,
+    "Icon": 101125,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69970,
@@ -2175,6 +3405,16 @@
       "Words without Sound"
     ],
     "StarterNpc": "Hythlodaeus",
+    "StarterNpcLocation": {
+      "RowId": 8962172,
+      "X": -405.68,
+      "Y": 329.812,
+      "Z": -760.17,
+      "Yaw": -0.985138,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Hythlodaeus",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2185,7 +3425,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 588
+    "SortKey": 588,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69971,
@@ -2203,6 +3445,16 @@
       "Follow, Wander, Stumble, Listen"
     ],
     "StarterNpc": "Emet-Selch",
+    "StarterNpcLocation": {
+      "RowId": 8962179,
+      "X": -44.6194,
+      "Y": 151.701,
+      "Z": -623.414,
+      "Yaw": -1.44902,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Hermes",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2213,7 +3465,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 589
+    "SortKey": 589,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69972,
@@ -2231,6 +3485,16 @@
       "Caging the Messenger"
     ],
     "StarterNpc": "Hythlodaeus",
+    "StarterNpcLocation": {
+      "RowId": 8962221,
+      "X": 416.162,
+      "Y": 148.815,
+      "Z": -418.527,
+      "Yaw": -2.16225,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Emet-Selch",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2241,7 +3505,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 590
+    "SortKey": 590,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69973,
@@ -2259,6 +3525,16 @@
       "Thou Must Live, Die, and Know"
     ],
     "StarterNpc": "Hythlodaeus",
+    "StarterNpcLocation": {
+      "RowId": 8962237,
+      "X": 508.778,
+      "Y": 151.53,
+      "Z": -303.374,
+      "Yaw": -2.50349,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Venat",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2269,7 +3545,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 591
+    "SortKey": 591,
+    "Icon": 101126,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69974,
@@ -2287,6 +3565,16 @@
       "As the Heavens Burn"
     ],
     "StarterNpc": "Venat",
+    "StarterNpcLocation": {
+      "RowId": 8962249,
+      "X": 473.21,
+      "Y": -17.1332,
+      "Z": 49.6911,
+      "Yaw": 0.9592,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2297,7 +3585,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 592
+    "SortKey": 592,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69975,
@@ -2315,6 +3605,16 @@
       "Outside Help"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8962256,
+      "X": -0.343951,
+      "Y": 0,
+      "Z": -3.32139,
+      "Yaw": 1.28837,
+      "Radius": 1,
+      "MapId": 742,
+      "TerritoryId": 987
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2325,7 +3625,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 593
+    "SortKey": 593,
+    "Icon": 101127,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69976,
@@ -2337,12 +3639,26 @@
       "As the Heavens Burn"
     ],
     "NextQuestIds": [
+      69852,
+      69853,
       69977
     ],
     "NextQuestTitles": [
+      "\uE0BE For the Love of Pudding",
+      "\uE0BE Secret in the Box",
       "Going Underground"
     ],
     "StarterNpc": "Lucia",
+    "StarterNpcLocation": {
+      "RowId": 8954386,
+      "X": -401.374,
+      "Y": 22.0315,
+      "Z": 419.961,
+      "Yaw": -1.05371,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2353,7 +3669,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 594
+    "SortKey": 594,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69977,
@@ -2371,6 +3689,16 @@
       "No Job Too Small"
     ],
     "StarterNpc": "Fourchenault",
+    "StarterNpcLocation": {
+      "RowId": 8954520,
+      "X": 4.27091,
+      "Y": 40.2,
+      "Z": -234.187,
+      "Yaw": -2.24032,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Krile",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2381,7 +3709,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 595
+    "SortKey": 595,
+    "Icon": 101128,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69978,
@@ -2393,12 +3723,32 @@
       "Going Underground"
     ],
     "NextQuestIds": [
+      69862,
+      69864,
+      69865,
+      69866,
+      69869,
       69979
     ],
     "NextQuestTitles": [
+      "\uE0BE Seeing Red",
+      "\uE0BE Herbicidal Tendencies",
+      "\uE0BE Let the Good Times Troll",
+      "\uE0BE Apple-y Ever After",
+      "\uE0BE The Case of the Missing Gleaner",
       "Wise Guides"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8956970,
+      "X": -20.7593,
+      "Y": -30.1671,
+      "Z": 638.729,
+      "Yaw": -2.63412,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Livingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2409,7 +3759,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 596
+    "SortKey": 596,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69979,
@@ -2427,6 +3779,16 @@
       "Agriculture Shock"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8950418,
+      "X": -15.5843,
+      "Y": -31.5304,
+      "Z": -78.3006,
+      "Yaw": -0.91189,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Singingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2437,7 +3799,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 597
+    "SortKey": 597,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69980,
@@ -2455,6 +3819,16 @@
       "Sage Council"
     ],
     "StarterNpc": "Cookingway",
+    "StarterNpcLocation": {
+      "RowId": 8950456,
+      "X": 373.709,
+      "Y": 79.6674,
+      "Z": 299.885,
+      "Yaw": 2.59813,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Cookingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2465,7 +3839,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 598
+    "SortKey": 598,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69981,
@@ -2483,6 +3859,16 @@
       "Hither and Yarns"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8950457,
+      "X": 374.853,
+      "Y": 79.6905,
+      "Z": 298.109,
+      "Yaw": -1.23428,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2493,7 +3879,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 599
+    "SortKey": 599,
+    "Icon": 101129,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69982,
@@ -2505,12 +3893,42 @@
       "Sage Council"
     ],
     "NextQuestIds": [
-      69983
+      69856,
+      69857,
+      69858,
+      69859,
+      69860,
+      69861,
+      69863,
+      69867,
+      69868,
+      69983,
+      70020
     ],
     "NextQuestTitles": [
-      "Once Forged"
+      "\uE0BE Gleaner\u0027s Wish",
+      "\uE0BE A Job for a Loporrit",
+      "\uE0BE Gift for a Fan",
+      "\uE0BE Wayward Carbuncle",
+      "\uE0BE Don\u0027t Philter Yourself",
+      "\uE0BE Take a Look, It\u0027s in a Book",
+      "\uE0BE To Care Enough to Send the Very Best",
+      "\uE0BE The Dry Eyes Have It",
+      "\uE0BE Dolling out Punishment",
+      "Once Forged",
+      "\uE0BE The Lad in Labyrinthos"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8957071,
+      "X": -78.2366,
+      "Y": -29.53,
+      "Z": -58.8475,
+      "Yaw": -1.56463,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Theopauldin",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2521,7 +3939,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 600
+    "SortKey": 600,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69983,
@@ -2539,6 +3959,16 @@
       "Bonds of Adamant(ite)"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8950458,
+      "X": -709.283,
+      "Y": -31.5304,
+      "Z": 321.484,
+      "Yaw": -0.37428,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Kokkol Dankkol",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2549,7 +3979,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 601
+    "SortKey": 601,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69984,
@@ -2561,12 +3993,26 @@
       "Once Forged"
     ],
     "NextQuestIds": [
+      69854,
+      69855,
       69985
     ],
     "NextQuestTitles": [
+      "\uE0BE Leveilleur Philanthropy",
+      "\uE0BE Sandwiches and Pretzels",
       "Her Children, One and All"
     ],
     "StarterNpc": "Kokkol Dankkol",
+    "StarterNpcLocation": {
+      "RowId": 8941828,
+      "X": 10.1474,
+      "Y": -30.1555,
+      "Z": 619.65,
+      "Yaw": -1.7272,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Fourchenault",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2577,7 +4023,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 602
+    "SortKey": 602,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69985,
@@ -2589,12 +4037,28 @@
       "Bonds of Adamant(ite)"
     ],
     "NextQuestIds": [
+      69870,
+      69871,
+      69872,
       69986
     ],
     "NextQuestTitles": [
+      "\uE0BE Cooler than Being Cool",
+      "\uE0BE For the Record",
+      "\uE0BE Harbinger of Breath",
       "A Bold Decision"
     ],
     "StarterNpc": "Fourchenault",
+    "StarterNpcLocation": {
+      "RowId": 8957106,
+      "X": -406.952,
+      "Y": -220.191,
+      "Z": 304.204,
+      "Yaw": 2.55236,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
     "FinishNpc": "Ojika Tsunjika",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2605,7 +4069,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 603
+    "SortKey": 603,
+    "Icon": 100045,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69986,
@@ -2623,6 +4089,16 @@
       "Friends Gathered"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8929024,
+      "X": -99.0587,
+      "Y": 3.93347,
+      "Z": 1.4171,
+      "Yaw": 0.310866,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Varsarudh",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2633,7 +4109,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 604
+    "SortKey": 604,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69987,
@@ -2651,6 +4129,16 @@
       "Unto the Heavens"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 8958980,
+      "X": 29.8643,
+      "Y": 5.15,
+      "Z": -65.4311,
+      "Yaw": 0.400703,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Ojika Tsunjika",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2661,7 +4149,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 605
+    "SortKey": 605,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69988,
@@ -2679,6 +4169,16 @@
       "A \u00A7tr\u03B1nge New World"
     ],
     "StarterNpc": "Ojika Tsunjika",
+    "StarterNpcLocation": {
+      "RowId": 8929174,
+      "X": -101.738,
+      "Y": 4.3575,
+      "Z": 0.756975,
+      "Yaw": 0.734987,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
     "FinishNpc": "Livingway",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2689,7 +4189,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 606
+    "SortKey": 606,
+    "Icon": 101130,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69989,
@@ -2707,6 +4209,16 @@
       "On Burd\u03B5ned \u03C9ings"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8959191,
+      "X": -377.7,
+      "Y": 80.8597,
+      "Z": 606.537,
+      "Yaw": -2.8683,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2717,7 +4229,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 607
+    "SortKey": 607,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69990,
@@ -2729,12 +4243,26 @@
       "A \u00A7tr\u03B1nge New World"
     ],
     "NextQuestIds": [
+      69875,
+      69877,
       69991
     ],
     "NextQuestTitles": [
+      "\uE0BE The Sound of Fear",
+      "\uE0BE Aimless Protector",
       "\u0391 Test of W\u03B9ll"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8953885,
+      "X": -476.193,
+      "Y": 73.4766,
+      "Z": 309.893,
+      "Yaw": -2.28411,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "bereaved dragon",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2745,7 +4273,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 608
+    "SortKey": 608,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69991,
@@ -2763,6 +4293,16 @@
       "Roads P\u03B1ved\u2502\u2502Sacri\u2523ice"
     ],
     "StarterNpc": "Estinien",
+    "StarterNpcLocation": {
+      "RowId": 8981003,
+      "X": -575.003,
+      "Y": 65.2269,
+      "Z": -189.991,
+      "Yaw": 2.91142,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": null,
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2773,7 +4313,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 609
+    "SortKey": 609,
+    "Icon": 101131,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69992,
@@ -2791,6 +4333,16 @@
       "F//\u03B5sh Aban\u0394on\u2528\u0394"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8960041,
+      "X": -469.266,
+      "Y": 232.258,
+      "Z": -252.838,
+      "Yaw": -1.71026,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Coph-coodg",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2801,7 +4353,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 610
+    "SortKey": 610,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69993,
@@ -2819,6 +4373,16 @@
       "Where Kn\u221Ewledge Leads"
     ],
     "StarterNpc": "Coph-coodg",
+    "StarterNpcLocation": {
+      "RowId": 8960189,
+      "X": 30,
+      "Y": 270.455,
+      "Z": -535,
+      "Yaw": 2.43227,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2829,7 +4393,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 611
+    "SortKey": 611,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69994,
@@ -2841,12 +4407,28 @@
       "F//\u03B5sh Aban\u0394on\u2528\u0394"
     ],
     "NextQuestIds": [
+      69878,
+      69879,
+      69882,
       69995
     ],
     "NextQuestTitles": [
+      "\uE0BE Ending as One",
+      "\uE0BE Final Words, Final Thoughts",
+      "\uE0BE A Most Stimulating Discussion",
       "Vic\u2528\u03BFry  \u0308 \u0308 \u0308\u2573, \u2502\u0306\u2502\u2502\u03B5 Lost"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 9064197,
+      "X": 82.6624,
+      "Y": 269.09,
+      "Z": -490.425,
+      "Yaw": -3.03525,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2857,7 +4439,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 612
+    "SortKey": 612,
+    "Icon": 101132,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69995,
@@ -2869,12 +4453,26 @@
       "Where Kn\u221Ewledge Leads"
     ],
     "NextQuestIds": [
+      69890,
+      69891,
       69996
     ],
     "NextQuestTitles": [
+      "\uE0BE Combat Evolved",
+      "\uE0BE Learn to Love",
       "\u2523\u2528\u0308//\u0308 No\u2528\u03A6oun\u0394\u2022\u2022\u2022"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8954017,
+      "X": 183.148,
+      "Y": 268.968,
+      "Z": -633.516,
+      "Yaw": 2.42751,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "G\u0027raha Tia",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2885,7 +4483,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 613
+    "SortKey": 613,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69996,
@@ -2903,6 +4503,16 @@
       "Hello, World"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8961158,
+      "X": 544.541,
+      "Y": 438,
+      "Z": 301.466,
+      "Yaw": 0.544835,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "M-017",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2913,7 +4523,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 614
+    "SortKey": 614,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69997,
@@ -2931,6 +4543,16 @@
       "Forge Ahead"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 8961179,
+      "X": 799.985,
+      "Y": 478.996,
+      "Z": 199.451,
+      "Yaw": -2.95859,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2941,7 +4563,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 615
+    "SortKey": 615,
+    "Icon": 101133,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69998,
@@ -2959,6 +4583,16 @@
       "You\u0027re Not Alone"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8961182,
+      "X": 622.46,
+      "Y": 441.947,
+      "Z": 436.207,
+      "Yaw": 0.382423,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2969,7 +4603,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 616
+    "SortKey": 616,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69999,
@@ -2987,6 +4623,16 @@
       "Endwalker"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 8961228,
+      "X": 222.537,
+      "Y": 566,
+      "Z": 313.212,
+      "Yaw": -2.06189,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -2997,7 +4643,9 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 617
+    "SortKey": 617,
+    "Icon": 101134,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70000,
@@ -3009,12 +4657,78 @@
       "You\u0027re Not Alone"
     ],
     "NextQuestIds": [
-      70062
+      69703,
+      69704,
+      69707,
+      69709,
+      69873,
+      69874,
+      69876,
+      69880,
+      69881,
+      69883,
+      69884,
+      69885,
+      69886,
+      69887,
+      69888,
+      69889,
+      69892,
+      70011,
+      70059,
+      70062,
+      70078,
+      70081,
+      70122,
+      70179,
+      70187,
+      70199,
+      70217,
+      70251,
+      70266
     ],
     "NextQuestTitles": [
-      "Newfound Adventure"
+      "Cutting the Cheese",
+      "Where No Loporrit Has Gone Before",
+      "I Wandered Sharlayan as a Minstrel",
+      "A Place to Train",
+      "\uE0BE Futures Lost",
+      "\uE0BE That Once Rang Clear",
+      "\uE0BE Stars Like Gems",
+      "\uE0BE Come Back to Us",
+      "\uE0BE Eat Like an Ea",
+      "\uE0BE The Body Beautiful",
+      "\uE0BE Left Alive",
+      "\uE0BE Loud and Proud",
+      "\uE0BE A Parent\u0027s Love",
+      "\uE0BE Remember Me",
+      "\uE0BE Bodily Curiosity",
+      "\uE0BE A Life of Regret",
+      "\uE0BE Work Woes",
+      "The Crystal from Beyond",
+      "Of Mothers and Merchants",
+      "Newfound Adventure",
+      "The Sleeping Gentleman",
+      "\uE0BE Hippos Born to Run",
+      "A Heartless Hypothesis",
+      "Seeking Sanctuary",
+      "An Odd Job",
+      "Delve into Myth",
+      "\uE0BE Must Be Dreaming(way)",
+      "That\u0027s So Anden",
+      "An Original Improvement"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 9064134,
+      "X": 4.2224,
+      "Y": 637.103,
+      "Z": 4.23,
+      "Yaw": -2.6939,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
     "FinishNpc": "Tataru",
     "Expansion": "Endwalker",
     "JournalGenre": {
@@ -3025,6 +4739,8 @@
       },
       "Name": "Endwalker"
     },
-    "SortKey": 618
+    "SortKey": 618,
+    "Icon": 101135,
+    "IconSpecial": 0
   }
 ]

@@ -15,6 +15,16 @@
       "City of the First"
     ],
     "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 7746829,
+      "X": -2.39575,
+      "Y": 1.19209E-07,
+      "Z": -9.10968,
+      "Yaw": 0.55297,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
     "FinishNpc": "Crystal Exarch",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -25,7 +35,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 10
+    "SortKey": 10,
+    "Icon": 100891,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68816,
@@ -43,6 +55,16 @@
       "Travelers of Norvrandt"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7919035,
+      "X": -176.556,
+      "Y": 0,
+      "Z": 1.65824,
+      "Yaw": -2.56024,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Crystal Exarch",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -53,7 +75,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 20
+    "SortKey": 20,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68817,
@@ -66,13 +90,41 @@
     ],
     "NextQuestIds": [
       68818,
-      68827
+      68827,
+      68879,
+      68880,
+      68881,
+      68882,
+      68883,
+      68884,
+      69133,
+      69138,
+      69140
     ],
     "NextQuestTitles": [
       "In Search of Alphinaud",
-      "In Search of Alisaie"
+      "In Search of Alisaie",
+      "\uE0BE A Cry for Help",
+      "\uE0BE Rate and Review",
+      "\uE0BE Pour One Out",
+      "\uE0BE A Dirty Trick",
+      "\uE0BE From a Distance",
+      "\uE0BE A Fitting Challenge",
+      "Nuts to You",
+      "Leves of the Crystarium",
+      "Sights of the First"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7919037,
+      "X": 60.1208,
+      "Y": 0,
+      "Z": 1.604,
+      "Yaw": -2.1251,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Crystal Exarch",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -83,7 +135,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 30
+    "SortKey": 30,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68818,
@@ -101,6 +155,16 @@
       "A Still Tide"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7919070,
+      "X": 0,
+      "Y": 0,
+      "Z": -6,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 547,
+      "TerritoryId": 844
+    },
     "FinishNpc": "Szem Djenmai",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -111,7 +175,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 40
+    "SortKey": 40,
+    "Icon": 100892,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68819,
@@ -123,12 +189,28 @@
       "In Search of Alphinaud"
     ],
     "NextQuestIds": [
-      68820
+      68820,
+      68885,
+      68886,
+      68887
     ],
     "NextQuestTitles": [
-      "Open Arms, Closed Gate"
+      "Open Arms, Closed Gate",
+      "\uE0BE Before the Tide Comes",
+      "\uE0BE Retaking Territory",
+      "\uE0BE A Clam to Die For"
     ],
     "StarterNpc": "Szem Djenmai",
+    "StarterNpcLocation": {
+      "RowId": 7928993,
+      "X": 802.219,
+      "Y": 1.27202,
+      "Z": 253.031,
+      "Yaw": -1.5498,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Theva",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -139,7 +221,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 50
+    "SortKey": 50,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68820,
@@ -151,12 +235,30 @@
       "A Still Tide"
     ],
     "NextQuestIds": [
-      68821
+      68821,
+      68888,
+      68889,
+      68890,
+      68891
     ],
     "NextQuestTitles": [
-      "A Fickle Existence"
+      "A Fickle Existence",
+      "\uE0BE A Meating Long Overdue",
+      "\uE0BE Redolent Refuse",
+      "\uE0BE A Feeling in the Belly",
+      "\uE0BE Songstress of the Sea"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7929473,
+      "X": 687.135,
+      "Y": 30.1181,
+      "Z": 282.745,
+      "Yaw": 0.614901,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -167,7 +269,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 60
+    "SortKey": 60,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68821,
@@ -179,12 +283,34 @@
       "Open Arms, Closed Gate"
     ],
     "NextQuestIds": [
-      68822
+      68822,
+      68892,
+      68893,
+      68894,
+      68895,
+      68896,
+      68907
     ],
     "NextQuestTitles": [
-      "City of Final Pleasures"
+      "City of Final Pleasures",
+      "\uE0BE Witch of the Sea",
+      "\uE0BE Following the Grain",
+      "\uE0BE Bridge to the Other Side",
+      "\uE0BE A Drop of Sunshine",
+      "\uE0BE A Plankless Task",
+      "\uE0BE Village of Woe"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7929545,
+      "X": 165.82,
+      "Y": 41.1196,
+      "Z": 676.997,
+      "Yaw": 1.75459,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Tristol",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -195,7 +321,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 70
+    "SortKey": 70,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68822,
@@ -207,12 +335,24 @@
       "A Fickle Existence"
     ],
     "NextQuestIds": [
-      68823
+      68823,
+      69139
     ],
     "NextQuestTitles": [
-      "Free to Sightsee"
+      "Free to Sightsee",
+      "The Boutique Always Wins"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7929602,
+      "X": -328.602,
+      "Y": 19.3193,
+      "Z": 390.018,
+      "Yaw": -2.86346,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Dulia-Chai",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -223,7 +363,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 80
+    "SortKey": 80,
+    "Icon": 100893,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68823,
@@ -241,6 +383,16 @@
       "A Taste of Honey"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7929713,
+      "X": 28.8158,
+      "Y": 82.7821,
+      "Z": 24.9292,
+      "Yaw": 0.542351,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "amiable maiden",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -251,7 +403,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 90
+    "SortKey": 90,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68824,
@@ -269,6 +423,16 @@
       "A Blessed Instrument"
     ],
     "StarterNpc": "amiable maiden",
+    "StarterNpcLocation": {
+      "RowId": 7929635,
+      "X": -24.8811,
+      "Y": 82.2726,
+      "Z": -19.0327,
+      "Yaw": 0.943695,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "Dulia-Chai",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -279,7 +443,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 100
+    "SortKey": 100,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68825,
@@ -297,6 +463,16 @@
       "Emergent Splendor"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7929714,
+      "X": 26.8208,
+      "Y": 82.7802,
+      "Z": 23.8405,
+      "Yaw": 0.577283,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -307,7 +483,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 110
+    "SortKey": 110,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68826,
@@ -325,6 +503,16 @@
       "The Lightwardens"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7995786,
+      "X": 26.8208,
+      "Y": 82.7802,
+      "Z": 23.8405,
+      "Yaw": 0.577283,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -335,7 +523,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 120
+    "SortKey": 120,
+    "Icon": 100894,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68827,
@@ -353,6 +543,16 @@
       "City of the Mord"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7919070,
+      "X": 0,
+      "Y": 0,
+      "Z": -6,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 547,
+      "TerritoryId": 844
+    },
     "FinishNpc": "Cassard",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -363,7 +563,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 130
+    "SortKey": 130,
+    "Icon": 100895,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68828,
@@ -375,12 +577,32 @@
       "In Search of Alisaie"
     ],
     "NextQuestIds": [
-      68829
+      68829,
+      68897,
+      68898,
+      68899,
+      68901,
+      68902
     ],
     "NextQuestTitles": [
-      "Working Off the Meal"
+      "Working Off the Meal",
+      "\uE0BE Worm Food",
+      "\uE0BE The Most Succulent of Succulents",
+      "\uE0BE Mollycoddled Mord",
+      "\uE0BE A Shiver Down the Spine",
+      "\uE0BE Pass the Parcel"
     ],
     "StarterNpc": "Cassard",
+    "StarterNpcLocation": {
+      "RowId": 7925650,
+      "X": 327.057,
+      "Y": 1.46858,
+      "Z": -296.467,
+      "Yaw": 1.81403,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Ghen Gen",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -391,7 +613,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 140
+    "SortKey": 140,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68829,
@@ -403,12 +627,24 @@
       "City of the Mord"
     ],
     "NextQuestIds": [
-      68830
+      68830,
+      68911
     ],
     "NextQuestTitles": [
-      "A Desert Crossing"
+      "A Desert Crossing",
+      "\uE0BE Work to Live or Live to Work"
     ],
     "StarterNpc": "Cassard",
+    "StarterNpcLocation": {
+      "RowId": 7925863,
+      "X": 265.806,
+      "Y": 4.0297,
+      "Z": -145.768,
+      "Yaw": 1.5383,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Cassard",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -419,7 +655,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 150
+    "SortKey": 150,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68830,
@@ -437,6 +675,16 @@
       "Following in Her Footprints"
     ],
     "StarterNpc": "Tesleen",
+    "StarterNpcLocation": {
+      "RowId": 7925875,
+      "X": 313.893,
+      "Y": 1.46858,
+      "Z": -156.795,
+      "Yaw": -0.268277,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Tesleen",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -447,7 +695,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 160
+    "SortKey": 160,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68831,
@@ -465,6 +715,16 @@
       "Culling Their Ranks"
     ],
     "StarterNpc": "Tesleen",
+    "StarterNpcLocation": {
+      "RowId": 7926006,
+      "X": 373.1,
+      "Y": -26.6324,
+      "Z": 290.73,
+      "Yaw": 1.65847,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -475,7 +735,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 170
+    "SortKey": 170,
+    "Icon": 100896,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68832,
@@ -487,12 +749,30 @@
       "Following in Her Footprints"
     ],
     "NextQuestIds": [
-      68833
+      68833,
+      68903,
+      68904,
+      68905,
+      68906
     ],
     "NextQuestTitles": [
-      "A Purchase of Fruit"
+      "A Purchase of Fruit",
+      "\uE0BE Succulent Secretions",
+      "\uE0BE From Darts till Dawn",
+      "\uE0BE Absent without Leave",
+      "\uE0BE Like a Tonze of Bricks"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7926045,
+      "X": 271.382,
+      "Y": -45.2736,
+      "Z": 334.462,
+      "Yaw": -2.57281,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Tesleen",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -503,7 +783,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 180
+    "SortKey": 180,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68833,
@@ -521,6 +803,16 @@
       "The Time Left to Us"
     ],
     "StarterNpc": "Tesleen",
+    "StarterNpcLocation": {
+      "RowId": 7926006,
+      "X": 373.1,
+      "Y": -26.6324,
+      "Z": 290.73,
+      "Yaw": 1.65847,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Tesleen",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -531,7 +823,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 190
+    "SortKey": 190,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68834,
@@ -549,6 +843,16 @@
       "Tears on the Sand"
     ],
     "StarterNpc": "Tesleen",
+    "StarterNpcLocation": {
+      "RowId": 7926006,
+      "X": 373.1,
+      "Y": -26.6324,
+      "Z": 290.73,
+      "Yaw": 1.65847,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Halric",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -559,7 +863,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 200
+    "SortKey": 200,
+    "Icon": 100897,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68835,
@@ -577,6 +883,16 @@
       "The Lightwardens"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7926107,
+      "X": 401.332,
+      "Y": -28.8046,
+      "Z": 260.223,
+      "Yaw": -2.96473,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -587,7 +903,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 210
+    "SortKey": 210,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68836,
@@ -607,6 +925,16 @@
       "Warrior of Darkness"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7919070,
+      "X": 0,
+      "Y": 0,
+      "Z": -6,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 547,
+      "TerritoryId": 844
+    },
     "FinishNpc": "Crystal Exarch",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -617,7 +945,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 220
+    "SortKey": 220,
+    "Icon": 100898,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68837,
@@ -629,12 +959,34 @@
       "The Lightwardens"
     ],
     "NextQuestIds": [
-      68838
+      68779,
+      68803,
+      68809,
+      68838,
+      68915,
+      68916,
+      69159
     ],
     "NextQuestTitles": [
-      "An Unwelcome Guest"
+      "The Man with Too Many Scars",
+      "Traditions and Travails",
+      "No Greater Sport",
+      "An Unwelcome Guest",
+      "\uE0BE Do You Believe in Magic",
+      "\uE0BE A Jobb Well Done",
+      "Hollow Pursuits"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7929693,
+      "X": 682.368,
+      "Y": 101.702,
+      "Z": -710.323,
+      "Yaw": 2.38043,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "manager of suites",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -645,7 +997,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 230
+    "SortKey": 230,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68838,
@@ -663,6 +1017,16 @@
       "The Crystarium\u0027s Resolve"
     ],
     "StarterNpc": "manager of suites",
+    "StarterNpcLocation": {
+      "RowId": 7788933,
+      "X": 65.3848,
+      "Y": 1.71601,
+      "Z": 249.836,
+      "Yaw": -1.83313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -673,7 +1037,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 240
+    "SortKey": 240,
+    "Icon": 100899,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68839,
@@ -685,12 +1051,24 @@
       "An Unwelcome Guest"
     ],
     "NextQuestIds": [
-      68840
+      68840,
+      69191
     ],
     "NextQuestTitles": [
-      "Logistics of War"
+      "Logistics of War",
+      "The Crystalline Mean"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7921227,
+      "X": -65.4492,
+      "Y": -37.7,
+      "Z": -208.989,
+      "Yaw": -3.12332,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Szem Djenmai",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -701,7 +1079,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 250
+    "SortKey": 250,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68840,
@@ -713,12 +1093,36 @@
       "The Crystarium\u0027s Resolve"
     ],
     "NextQuestIds": [
-      68841
+      68841,
+      68920,
+      68921,
+      68922,
+      68924,
+      68925,
+      68926,
+      68927
     ],
     "NextQuestTitles": [
-      "The Oracle of Light"
+      "The Oracle of Light",
+      "\uE0BE Imperative Repairs",
+      "\uE0BE The Astute Amaro",
+      "\uE0BE An Unreasonable Request",
+      "\uE0BE All That Heavenly Glory",
+      "\uE0BE Beers for Fears",
+      "\uE0BE Loot Justice Mode",
+      "\uE0BE Inglourious Bath Stewards"
     ],
     "StarterNpc": "Szem Djenmai",
+    "StarterNpcLocation": {
+      "RowId": 7789184,
+      "X": -136.955,
+      "Y": 0,
+      "Z": -73.7541,
+      "Yaw": 0.971859,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Lyna",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -729,7 +1133,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 260
+    "SortKey": 260,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68841,
@@ -747,6 +1153,16 @@
       "Il Mheg, the Faerie Kingdom"
     ],
     "StarterNpc": "Lyna",
+    "StarterNpcLocation": {
+      "RowId": 7921385,
+      "X": -648.937,
+      "Y": 64.3267,
+      "Z": -271.652,
+      "Yaw": 1.63905,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -757,7 +1173,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 270
+    "SortKey": 270,
+    "Icon": 100900,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68842,
@@ -771,14 +1189,32 @@
     "NextQuestIds": [
       68843,
       68844,
-      68845
+      68845,
+      68928,
+      68929,
+      68930,
+      68931
     ],
     "NextQuestTitles": [
       "Sul Uin\u0027s Request",
       "Ys Iala\u0027s Errand",
-      "Oul Sigun\u0027s Plea"
+      "Oul Sigun\u0027s Plea",
+      "\uE0BE What\u0027s in a Name",
+      "\uE0BE A Hairy Request",
+      "\uE0BE Flowers of Fury",
+      "\uE0BE The Forbidden Lran"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7921472,
+      "X": -635.747,
+      "Y": 126.016,
+      "Z": 697.468,
+      "Yaw": -0.937292,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -789,7 +1225,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 280
+    "SortKey": 280,
+    "Icon": 100901,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68843,
@@ -807,6 +1245,16 @@
       "Unto the Truth"
     ],
     "StarterNpc": "Sul Uin",
+    "StarterNpcLocation": {
+      "RowId": 7803867,
+      "X": -355.276,
+      "Y": 46.6833,
+      "Z": 482.022,
+      "Yaw": -0.851596,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Sul Uin",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -817,7 +1265,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 290
+    "SortKey": 290,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68844,
@@ -835,6 +1285,16 @@
       "Unto the Truth"
     ],
     "StarterNpc": "Ys Iala",
+    "StarterNpcLocation": {
+      "RowId": 7803868,
+      "X": -424.647,
+      "Y": 60.4643,
+      "Z": 490.093,
+      "Yaw": 2.28539,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Ys Iala",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -845,7 +1305,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 300
+    "SortKey": 300,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68845,
@@ -863,6 +1325,16 @@
       "Unto the Truth"
     ],
     "StarterNpc": "Oul Sigun",
+    "StarterNpcLocation": {
+      "RowId": 7803869,
+      "X": -291.594,
+      "Y": 40.324,
+      "Z": 456.667,
+      "Yaw": 2.96665,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Oul Sigun",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -873,7 +1345,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 310
+    "SortKey": 310,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68846,
@@ -889,12 +1363,26 @@
       "Oul Sigun\u0027s Plea"
     ],
     "NextQuestIds": [
-      68847
+      68847,
+      68934,
+      68936
     ],
     "NextQuestTitles": [
-      "Courting Cooperation"
+      "Courting Cooperation",
+      "\uE0BE Delightful Decorations",
+      "\uE0BE Revolting Refreshments"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7947275,
+      "X": -405.162,
+      "Y": 57.4033,
+      "Z": 440.458,
+      "Yaw": -1.66262,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -905,7 +1393,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 320
+    "SortKey": 320,
+    "Icon": 100902,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68847,
@@ -917,12 +1407,30 @@
       "Unto the Truth"
     ],
     "NextQuestIds": [
-      68848
+      68848,
+      68937,
+      68938,
+      68939,
+      68940
     ],
     "NextQuestTitles": [
-      "The Key to the Castle"
+      "The Key to the Castle",
+      "\uE0BE An Artist\u0027s Tale",
+      "\uE0BE Counting Pixies",
+      "\uE0BE A Rosy Problem",
+      "\uE0BE The Path to Popularity"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7921732,
+      "X": -645,
+      "Y": 35.8616,
+      "Z": -223.09,
+      "Yaw": 1.61496,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Sul Uin",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -933,7 +1441,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 330
+    "SortKey": 330,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68848,
@@ -951,6 +1461,16 @@
       "A Visit to the Nu Mou"
     ],
     "StarterNpc": "Sul Uin",
+    "StarterNpcLocation": {
+      "RowId": 8052484,
+      "X": -355.306,
+      "Y": 46.6774,
+      "Z": 482.017,
+      "Yaw": -0.851613,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -961,7 +1481,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 340
+    "SortKey": 340,
+    "Icon": 112343,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68849,
@@ -979,6 +1501,16 @@
       "A Fitting Payment"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7921804,
+      "X": -300.649,
+      "Y": 1.48004,
+      "Z": 182.238,
+      "Yaw": -0.185096,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -989,7 +1521,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 350
+    "SortKey": 350,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68850,
@@ -1007,6 +1541,16 @@
       "Spore Sweeper"
     ],
     "StarterNpc": "Wyd Aenc",
+    "StarterNpcLocation": {
+      "RowId": 7922509,
+      "X": -143.243,
+      "Y": 100.186,
+      "Z": -848.886,
+      "Yaw": -1.38374,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Marn Ose",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1017,7 +1561,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 360
+    "SortKey": 360,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68851,
@@ -1035,6 +1581,16 @@
       "The Lawless Ones"
     ],
     "StarterNpc": "Ys Gyuf",
+    "StarterNpcLocation": {
+      "RowId": 7962972,
+      "X": -85.8265,
+      "Y": 101.654,
+      "Z": -866.028,
+      "Yaw": 1.30955,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Ys Gyuf",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1045,7 +1601,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 370
+    "SortKey": 370,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68852,
@@ -1057,12 +1615,44 @@
       "Spore Sweeper"
     ],
     "NextQuestIds": [
-      68853
+      68853,
+      68944,
+      68945,
+      68946,
+      68947,
+      68948,
+      68949,
+      68950,
+      68951,
+      68952,
+      68953,
+      68954
     ],
     "NextQuestTitles": [
-      "The Elder\u0027s Answer"
+      "The Elder\u0027s Answer",
+      "\uE0BE Scents of Security",
+      "\uE0BE A Lawful Trade",
+      "\uE0BE The Mushroom Menace",
+      "\uE0BE Growing Pla Enni",
+      "\uE0BE Much Ado About Giving",
+      "\uE0BE Help My Porxie",
+      "\uE0BE One Good Trick Deserves Another",
+      "\uE0BE A Leafman and a Hero",
+      "\uE0BE Magic Is Love, Magic Is Life",
+      "\uE0BE Are You Being Served",
+      "\uE0BE A Stranger Fuath"
     ],
     "StarterNpc": "Wyd Lad",
+    "StarterNpcLocation": {
+      "RowId": 7813315,
+      "X": -101.518,
+      "Y": 101.86,
+      "Z": -838.468,
+      "Yaw": -2.04047,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Wyd Lad",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1073,7 +1663,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 380
+    "SortKey": 380,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68853,
@@ -1091,6 +1683,16 @@
       "A Resounding Roar"
     ],
     "StarterNpc": "Wyd Lad",
+    "StarterNpcLocation": {
+      "RowId": 7813315,
+      "X": -101.518,
+      "Y": 101.86,
+      "Z": -838.468,
+      "Yaw": -2.04047,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1101,7 +1703,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 390
+    "SortKey": 390,
+    "Icon": 100904,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68854,
@@ -1113,12 +1717,42 @@
       "The Elder\u0027s Answer"
     ],
     "NextQuestIds": [
-      68855
+      68855,
+      68955,
+      68956,
+      68957,
+      68958,
+      68959,
+      68960,
+      68963,
+      68968,
+      68969,
+      68970
     ],
     "NextQuestTitles": [
-      "Memento of a Friend"
+      "Memento of a Friend",
+      "\uE0BE Pushy for Patronage",
+      "\uE0BE In His Mistress\u0027s Memory",
+      "\uE0BE Lurkers in the Lake",
+      "\uE0BE A Tale of a Tail",
+      "\uE0BE Not All Pixies",
+      "\uE0BE A Gift in Advance",
+      "\uE0BE A New Amaro",
+      "\uE0BE Duplicity in the Depths",
+      "\uE0BE Marks of the Monarch",
+      "\uE0BE An Eggshell a Day"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7924093,
+      "X": 456.856,
+      "Y": 86.142,
+      "Z": -709.991,
+      "Yaw": -2.6525,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Seto",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1129,7 +1763,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 400
+    "SortKey": 400,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68855,
@@ -1147,6 +1783,16 @@
       "Acht-la Ormh Inn"
     ],
     "StarterNpc": "Seto",
+    "StarterNpcLocation": {
+      "RowId": 7817597,
+      "X": 453.025,
+      "Y": 87.4799,
+      "Z": -691.981,
+      "Yaw": -2.56954,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Seto",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1157,7 +1803,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 410
+    "SortKey": 410,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68856,
@@ -1169,12 +1817,26 @@
       "Memento of a Friend"
     ],
     "NextQuestIds": [
-      68857
+      68857,
+      68961,
+      68962
     ],
     "NextQuestTitles": [
-      "The Wheel Turns"
+      "The Wheel Turns",
+      "\uE0BE In His Mistress\u0027s Name",
+      "\uE0BE Hide and Seek"
     ],
     "StarterNpc": "Seto",
+    "StarterNpcLocation": {
+      "RowId": 7817597,
+      "X": 453.025,
+      "Y": 87.4799,
+      "Z": -691.981,
+      "Yaw": -2.56954,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1185,7 +1847,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 420
+    "SortKey": 420,
+    "Icon": 100905,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68857,
@@ -1197,12 +1861,24 @@
       "Acht-la Ormh Inn"
     ],
     "NextQuestIds": [
-      68858
+      68858,
+      69219
     ],
     "NextQuestTitles": [
-      "A Party Soon Divided"
+      "A Party Soon Divided",
+      "\uE0BE Manic Pixie Dream Realm"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7924191,
+      "X": -373.545,
+      "Y": 48.1802,
+      "Z": 474.338,
+      "Yaw": 2.97907,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
     "FinishNpc": "manager of suites",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1213,7 +1889,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 430
+    "SortKey": 430,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68858,
@@ -1225,12 +1903,30 @@
       "The Wheel Turns"
     ],
     "NextQuestIds": [
-      68859
+      68859,
+      68971,
+      68972,
+      68973,
+      68992
     ],
     "NextQuestTitles": [
-      "A Little Faith"
+      "A Little Faith",
+      "\uE0BE Lofty Goals",
+      "\uE0BE You Had One Jobb",
+      "\uE0BE Of Graveyards and Gremlins",
+      "\uE0BE On Her Own"
     ],
     "StarterNpc": "manager of suites",
+    "StarterNpcLocation": {
+      "RowId": 7788933,
+      "X": 65.3848,
+      "Y": 1.71601,
+      "Z": 249.836,
+      "Yaw": -1.83313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1241,7 +1937,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 440
+    "SortKey": 440,
+    "Icon": 100906,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68859,
@@ -1259,6 +1957,16 @@
       "Into the Dark"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7926514,
+      "X": 751.473,
+      "Y": 21.38,
+      "Z": -2.70733,
+      "Yaw": 1.40352,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1269,7 +1977,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 450
+    "SortKey": 450,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68860,
@@ -1287,6 +1997,16 @@
       "A Day in the Neighborhood"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7979408,
+      "X": 699.429,
+      "Y": -1.70762,
+      "Z": -94.5132,
+      "Yaw": 1.61491,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1297,7 +2017,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 460
+    "SortKey": 460,
+    "Icon": 100907,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68861,
@@ -1309,12 +2031,32 @@
       "Into the Dark"
     ],
     "NextQuestIds": [
-      68862
+      68862,
+      68976,
+      68977,
+      68978,
+      68979,
+      68980
     ],
     "NextQuestTitles": [
-      "A Helping Hand"
+      "A Helping Hand",
+      "\uE0BE Barking Up the Right Tree",
+      "\uE0BE Plans Gone Awry",
+      "\uE0BE Like Pulling Teeth",
+      "\uE0BE Tea Time",
+      "\uE0BE What We Do for Family"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7926658,
+      "X": -37.1945,
+      "Y": -18.9205,
+      "Z": 336.645,
+      "Yaw": -2.50621,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Minfilia",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1325,7 +2067,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 470
+    "SortKey": 470,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68862,
@@ -1343,6 +2087,16 @@
       "Lost but Not Forgotten"
     ],
     "StarterNpc": "Runar",
+    "StarterNpcLocation": {
+      "RowId": 7926726,
+      "X": -118.159,
+      "Y": -19.713,
+      "Z": 385.545,
+      "Yaw": 1.2236,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Ersabel",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1353,7 +2107,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 480
+    "SortKey": 480,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68863,
@@ -1371,6 +2127,16 @@
       "Saying Good-bye"
     ],
     "StarterNpc": "Runar",
+    "StarterNpcLocation": {
+      "RowId": 7926710,
+      "X": -87.8746,
+      "Y": -19.0221,
+      "Z": 298.211,
+      "Yaw": -1.60931,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Runar",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1381,7 +2147,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 490
+    "SortKey": 490,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68864,
@@ -1393,12 +2161,38 @@
       "Lost but Not Forgotten"
     ],
     "NextQuestIds": [
-      68865
+      68865,
+      68983,
+      68984,
+      68985,
+      68986,
+      68987,
+      68989,
+      68990,
+      68991
     ],
     "NextQuestTitles": [
-      "Stirring Up Trouble"
+      "Stirring Up Trouble",
+      "\uE0BE Worth a Candle",
+      "\uE0BE Paved with Good Intentions",
+      "\uE0BE You\u0027re a Gem",
+      "\uE0BE Oh, Snap",
+      "\uE0BE Disturbing the Peace",
+      "\uE0BE From the Heart",
+      "\uE0BE Special Delivery",
+      "\uE0BE An Express Delivery"
     ],
     "StarterNpc": "Runar",
+    "StarterNpcLocation": {
+      "RowId": 7926710,
+      "X": -87.8746,
+      "Y": -19.0221,
+      "Z": 298.211,
+      "Yaw": -1.60931,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1409,7 +2203,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 500
+    "SortKey": 500,
+    "Icon": 100908,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68865,
@@ -1427,6 +2223,16 @@
       "A Beeautiful Plan"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7926658,
+      "X": -37.1945,
+      "Y": -18.9205,
+      "Z": 336.645,
+      "Yaw": -2.50621,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1437,7 +2243,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 510
+    "SortKey": 510,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68866,
@@ -1455,6 +2263,16 @@
       "An Unwanted Proposal"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7927417,
+      "X": -235.081,
+      "Y": 19.2248,
+      "Z": -70.7251,
+      "Yaw": 2.955,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1465,7 +2283,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 520
+    "SortKey": 520,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68867,
@@ -1477,12 +2297,24 @@
       "A Beeautiful Plan"
     ],
     "NextQuestIds": [
-      68868
+      68868,
+      69192
     ],
     "NextQuestTitles": [
-      "Put to the Proof"
+      "Put to the Proof",
+      "\uE0BE The Great Deceiver"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7927455,
+      "X": -523.086,
+      "Y": 2.95972,
+      "Z": -35.6195,
+      "Yaw": -2.22113,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1493,7 +2325,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 530
+    "SortKey": 530,
+    "Icon": 100909,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68868,
@@ -1511,6 +2345,16 @@
       "Into the Wood"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7926659,
+      "X": -35.7241,
+      "Y": -18.9194,
+      "Z": 335.728,
+      "Yaw": -1.73269,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1521,7 +2365,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 540
+    "SortKey": 540,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68869,
@@ -1539,6 +2385,16 @@
       "Top of the Tree"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7927494,
+      "X": -470.95,
+      "Y": 2.3053,
+      "Z": 301.49,
+      "Yaw": -1.4025,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "bow-wielding sentinel",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1549,7 +2405,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 550
+    "SortKey": 550,
+    "Icon": 100910,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68870,
@@ -1561,12 +2419,44 @@
       "Into the Wood"
     ],
     "NextQuestIds": [
-      68871
+      68871,
+      68996,
+      68997,
+      68998,
+      68999,
+      69000,
+      69001,
+      69002,
+      69003,
+      69004,
+      69005,
+      69006
     ],
     "NextQuestTitles": [
-      "Look to the Stars"
+      "Look to the Stars",
+      "\uE0BE Paying Respects",
+      "\uE0BE A Recipe for Trouble",
+      "\uE0BE Blessings of the Wood",
+      "\uE0BE Talk of the Town",
+      "\uE0BE A Sight Unseen",
+      "\uE0BE Back Where It Belongs",
+      "\uE0BE Not Unfamiliar",
+      "\uE0BE Suit Up",
+      "\uE0BE Delivery Time",
+      "\uE0BE Out on One\u0027s Own",
+      "\uE0BE One Last Bite"
     ],
     "StarterNpc": "Cymet",
+    "StarterNpcLocation": {
+      "RowId": 8013661,
+      "X": 452.949,
+      "Y": 18.9787,
+      "Z": -56.945,
+      "Yaw": 1.04661,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Almet",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1577,7 +2467,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 560
+    "SortKey": 560,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68871,
@@ -1595,6 +2487,16 @@
       "Mi Casa, Toupasa"
     ],
     "StarterNpc": "Almet",
+    "StarterNpcLocation": {
+      "RowId": 7945484,
+      "X": 453.081,
+      "Y": 33.6618,
+      "Z": -156.946,
+      "Yaw": -1.60488,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Almet",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1605,7 +2507,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 570
+    "SortKey": 570,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68872,
@@ -1623,6 +2527,16 @@
       "Legend of the Not-so-hidden Temple"
     ],
     "StarterNpc": "Almet",
+    "StarterNpcLocation": {
+      "RowId": 7944517,
+      "X": 173.266,
+      "Y": -19.584,
+      "Z": -536.828,
+      "Yaw": 0.544871,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Almet",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1633,7 +2547,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 580
+    "SortKey": 580,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68873,
@@ -1651,6 +2567,16 @@
       "The Aftermath"
     ],
     "StarterNpc": "Almet",
+    "StarterNpcLocation": {
+      "RowId": 7927573,
+      "X": 122.698,
+      "Y": -8.78199,
+      "Z": -891.386,
+      "Yaw": -2.05953,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1661,7 +2587,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 590
+    "SortKey": 590,
+    "Icon": 100911,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68874,
@@ -1679,6 +2607,16 @@
       "In Good Faith"
     ],
     "StarterNpc": "Almet",
+    "StarterNpcLocation": {
+      "RowId": 7927593,
+      "X": 166.946,
+      "Y": -19.8557,
+      "Z": -535.18,
+      "Yaw": 2.22233,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1689,7 +2627,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 600
+    "SortKey": 600,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68875,
@@ -1701,12 +2641,42 @@
       "The Aftermath"
     ],
     "NextQuestIds": [
-      68876
+      68876,
+      69007,
+      69008,
+      69009,
+      69010,
+      69011,
+      69012,
+      69014,
+      69019,
+      69020,
+      69021
     ],
     "NextQuestTitles": [
-      "The Burden of Knowledge"
+      "The Burden of Knowledge",
+      "\uE0BE Proving Your Worth",
+      "\uE0BE Reach for the Stars",
+      "\uE0BE Down Feathers",
+      "\uE0BE Out on Patrol",
+      "\uE0BE Thoughts and Prayers",
+      "\uE0BE Rock Solid",
+      "\uE0BE Stand on Ceremony",
+      "\uE0BE In Pursuit of Knowledge",
+      "\uE0BE A Test of Strength",
+      "\uE0BE Just the Two of Us"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7927602,
+      "X": 449.892,
+      "Y": 6.95506,
+      "Z": -208.737,
+      "Yaw": -0.913412,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1717,7 +2687,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 610
+    "SortKey": 610,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68876,
@@ -1735,6 +2707,16 @@
       "Bearing with It"
     ],
     "StarterNpc": "Almet",
+    "StarterNpcLocation": {
+      "RowId": 7928011,
+      "X": 453.716,
+      "Y": 6.95506,
+      "Z": -201.139,
+      "Yaw": -2.49586,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1745,7 +2727,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 620
+    "SortKey": 620,
+    "Icon": 100912,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68877,
@@ -1757,12 +2741,24 @@
       "The Burden of Knowledge"
     ],
     "NextQuestIds": [
-      68878
+      68878,
+      69330
     ],
     "NextQuestTitles": [
-      "Out of the Wood"
+      "Out of the Wood",
+      "\uE0BE The Stewards of Note"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7928436,
+      "X": 848.799,
+      "Y": -65.4249,
+      "Z": -394.656,
+      "Yaw": 0.0909462,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "Runar",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1773,7 +2769,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 630
+    "SortKey": 630,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 68878,
@@ -1791,6 +2789,16 @@
       "When It Rains"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7928457,
+      "X": -88.7931,
+      "Y": -19.0524,
+      "Z": 296.668,
+      "Yaw": 0.473547,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
     "FinishNpc": "manager of suites",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1801,7 +2809,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 640
+    "SortKey": 640,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69142,
@@ -1819,6 +2829,16 @@
       "Word from On High"
     ],
     "StarterNpc": "manager of suites",
+    "StarterNpcLocation": {
+      "RowId": 7788933,
+      "X": 65.3848,
+      "Y": 1.71601,
+      "Z": 249.836,
+      "Yaw": -1.83313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1829,7 +2849,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 650
+    "SortKey": 650,
+    "Icon": 100913,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69143,
@@ -1847,6 +2869,16 @@
       "Small Favors"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7934322,
+      "X": -707.541,
+      "Y": 51.5011,
+      "Z": -241.546,
+      "Yaw": -1.70355,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "Lyna",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1857,7 +2889,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 660
+    "SortKey": 660,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69144,
@@ -1875,6 +2909,16 @@
       "The Best Way Out"
     ],
     "StarterNpc": "Lyna",
+    "StarterNpcLocation": {
+      "RowId": 7954639,
+      "X": -728.043,
+      "Y": 52.6046,
+      "Z": -146.349,
+      "Yaw": 1.5334,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "Chessamile",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1885,7 +2929,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 670
+    "SortKey": 670,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69145,
@@ -1903,6 +2949,16 @@
       "Free Trade"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7931477,
+      "X": -30.9898,
+      "Y": -0.644857,
+      "Z": -49.6822,
+      "Yaw": 3.07101,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Minfilia",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1913,7 +2969,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 680
+    "SortKey": 680,
+    "Icon": 100914,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69146,
@@ -1925,12 +2983,34 @@
       "The Best Way Out"
     ],
     "NextQuestIds": [
+      69022,
+      69023,
+      69024,
+      69025,
+      69026,
+      69027,
       69147
     ],
     "NextQuestTitles": [
+      "\uE0BE Where There\u0027s a Well, There\u0027s a Way",
+      "\uE0BE Assault on a Deadly Weapon",
+      "\uE0BE Water Palaver",
+      "\uE0BE Shovel or Boogie",
+      "\uE0BE Shine On You Crazy Mordling",
+      "\uE0BE And Justice Feral",
       "The Trolley Problem"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7931494,
+      "X": -556.686,
+      "Y": 36.5842,
+      "Z": -670.047,
+      "Yaw": 1.28384,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1941,7 +3021,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 690
+    "SortKey": 690,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69147,
@@ -1959,6 +3041,16 @@
       "Rust and Ruin"
     ],
     "StarterNpc": "Zhun Zun",
+    "StarterNpcLocation": {
+      "RowId": 7963868,
+      "X": -403.65,
+      "Y": -20.223,
+      "Z": -589.978,
+      "Yaw": 2.97702,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1969,7 +3061,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 700
+    "SortKey": 700,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69148,
@@ -1987,6 +3081,16 @@
       "On Track"
     ],
     "StarterNpc": "Thaffe",
+    "StarterNpcLocation": {
+      "RowId": 7934659,
+      "X": 88.5076,
+      "Y": 45.7373,
+      "Z": -595.892,
+      "Yaw": 2.61977,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Minfilia",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -1997,7 +3101,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 710
+    "SortKey": 710,
+    "Icon": 100915,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69149,
@@ -2009,12 +3115,50 @@
       "Rust and Ruin"
     ],
     "NextQuestIds": [
+      69028,
+      69029,
+      69030,
+      69031,
+      69032,
+      69033,
+      69034,
+      69037,
+      69038,
+      69039,
+      69042,
+      69044,
+      69045,
+      69046,
       69150
     ],
     "NextQuestTitles": [
+      "\uE0BE A Relatively Miner Issue",
+      "\uE0BE I Drink, Therefore I Am (in Trouble)",
+      "\uE0BE To the Far Side",
+      "\uE0BE Whistle While You Shirk",
+      "\uE0BE Prankster\u0027s Paradise",
+      "\uE0BE A Tab in the Dark",
+      "\uE0BE The Creaky Mill Gets the Grease",
+      "\uE0BE Flower for a Friend",
+      "\uE0BE Church Warrant",
+      "\uE0BE Scavengers Assemble",
+      "\uE0BE The Yolk\u0027s on You",
+      "\uE0BE Repair for the Worst",
+      "\uE0BE Stripe for the Picking",
+      "\uE0BE Mystery Miners",
       "Down for Maintenance"
     ],
     "StarterNpc": "Minfilia",
+    "StarterNpcLocation": {
+      "RowId": 7934686,
+      "X": -483.23,
+      "Y": 45.4865,
+      "Z": -211.307,
+      "Yaw": -1.34314,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Jeryk",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2025,7 +3169,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 720
+    "SortKey": 720,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69150,
@@ -2043,6 +3189,16 @@
       "The Truth Hurts"
     ],
     "StarterNpc": "Jeryk",
+    "StarterNpcLocation": {
+      "RowId": 7934877,
+      "X": -453.58,
+      "Y": 45.4844,
+      "Z": -236.86,
+      "Yaw": 2.40989,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2053,7 +3209,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 730
+    "SortKey": 730,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69151,
@@ -2065,12 +3223,26 @@
       "Down for Maintenance"
     ],
     "NextQuestIds": [
+      69035,
+      69047,
       69152
     ],
     "NextQuestTitles": [
+      "\uE0BE Big Sister Is Watching You",
+      "\uE0BE Charmless Man",
       "A Convenient Distraction"
     ],
     "StarterNpc": "Jeryk",
+    "StarterNpcLocation": {
+      "RowId": 8051947,
+      "X": -504.463,
+      "Y": 45.8227,
+      "Z": -250.425,
+      "Yaw": -3.06058,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2081,7 +3253,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 740
+    "SortKey": 740,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69152,
@@ -2099,6 +3273,16 @@
       "A Dirty Job"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7935016,
+      "X": -462.535,
+      "Y": 45.366,
+      "Z": -205.31,
+      "Yaw": -1.68467,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Guthjon",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2109,7 +3293,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 750
+    "SortKey": 750,
+    "Icon": 100916,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69153,
@@ -2121,12 +3307,24 @@
       "A Convenient Distraction"
     ],
     "NextQuestIds": [
+      69061,
       69154
     ],
     "NextQuestTitles": [
+      "\uE0BE A Vein Pursuit",
       "Have a Heart"
     ],
     "StarterNpc": "Guthjon",
+    "StarterNpcLocation": {
+      "RowId": 7937274,
+      "X": -595.717,
+      "Y": 5.3176,
+      "Z": 38.171,
+      "Yaw": -2.69401,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Guthjon",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2137,7 +3335,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 760
+    "SortKey": 760,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69154,
@@ -2155,6 +3355,16 @@
       "Full Steam Ahead"
     ],
     "StarterNpc": "Guthjon",
+    "StarterNpcLocation": {
+      "RowId": 7935087,
+      "X": -342.324,
+      "Y": 19.0036,
+      "Z": 77.0428,
+      "Yaw": -1.72435,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2165,7 +3375,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 770
+    "SortKey": 770,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69155,
@@ -2183,6 +3395,16 @@
       "Crossing Paths"
     ],
     "StarterNpc": "Magnus",
+    "StarterNpcLocation": {
+      "RowId": 7935146,
+      "X": -455.405,
+      "Y": 45.6702,
+      "Z": -240.497,
+      "Yaw": 1.8784,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Minfilia",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2193,7 +3415,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 780
+    "SortKey": 780,
+    "Icon": 100917,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69156,
@@ -2211,6 +3435,16 @@
       "A Fresh Start"
     ],
     "StarterNpc": "Minfilia",
+    "StarterNpcLocation": {
+      "RowId": 7931505,
+      "X": 20.6805,
+      "Y": -91.1921,
+      "Z": 509.793,
+      "Yaw": 1.5035,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2221,7 +3455,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 790
+    "SortKey": 790,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69157,
@@ -2233,12 +3469,28 @@
       "Crossing Paths"
     ],
     "NextQuestIds": [
+      69066,
+      69067,
+      69068,
       69158
     ],
     "NextQuestTitles": [
+      "\uE0BE No Disassemble",
+      "\uE0BE Thy Well Be Done",
+      "\uE0BE The Crystal Knaves",
       "More than a Hunch"
     ],
     "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7931542,
+      "X": -281.361,
+      "Y": -62.8825,
+      "Z": 382.62,
+      "Yaw": -3.0464,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2249,7 +3501,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 800
+    "SortKey": 800,
+    "Icon": 100918,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69158,
@@ -2261,12 +3515,24 @@
       "A Fresh Start"
     ],
     "NextQuestIds": [
+      69069,
       69166
     ],
     "NextQuestTitles": [
+      "\uE0BE Scars of War",
       "Return to Eulmore"
     ],
     "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7935261,
+      "X": -431.083,
+      "Y": -86.3815,
+      "Z": 462.333,
+      "Yaw": -1.03872,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
     "FinishNpc": "manager of suites",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2277,7 +3543,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 810
+    "SortKey": 810,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69166,
@@ -2295,6 +3563,16 @@
       "A Feast of Lies"
     ],
     "StarterNpc": "manager of suites",
+    "StarterNpcLocation": {
+      "RowId": 7788933,
+      "X": 65.3848,
+      "Y": 1.71601,
+      "Z": 249.836,
+      "Yaw": -1.83313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2305,7 +3583,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 820
+    "SortKey": 820,
+    "Icon": 100919,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69167,
@@ -2323,6 +3603,16 @@
       "Paradise Fallen"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7934836,
+      "X": 165.881,
+      "Y": 39.9939,
+      "Z": 566.247,
+      "Yaw": 0.179562,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2333,7 +3623,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 830
+    "SortKey": 830,
+    "Icon": 100920,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69168,
@@ -2345,12 +3637,38 @@
       "A Feast of Lies"
     ],
     "NextQuestIds": [
+      69052,
+      69054,
+      69055,
+      69056,
+      69057,
+      69058,
+      69059,
+      69060,
       69169
     ],
     "NextQuestTitles": [
+      "\uE0BE My Heart Will (Not) Go On",
+      "\uE0BE The Invisible Hand",
+      "\uE0BE Scattered to the Winds",
+      "\uE0BE One Good Meal",
+      "\uE0BE Little and Late",
+      "\uE0BE Children of the Derelicts",
+      "\uE0BE Rebuild, Reuse, Recycle",
+      "\uE0BE Of Legacies Lost and Reclaimed",
       "The Ladder"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7942194,
+      "X": 4.27799,
+      "Y": 82.8,
+      "Z": 44.6913,
+      "Yaw": -0.611089,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "Ryne",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2361,7 +3679,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 840
+    "SortKey": 840,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69169,
@@ -2379,6 +3699,16 @@
       "The View from Above"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7936015,
+      "X": 21.3779,
+      "Y": 82.7802,
+      "Z": 25.0399,
+      "Yaw": -2.02448,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2389,7 +3719,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 850
+    "SortKey": 850,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69170,
@@ -2401,12 +3733,28 @@
       "The Ladder"
     ],
     "NextQuestIds": [
+      69079,
+      69080,
+      69081,
       69171
     ],
     "NextQuestTitles": [
+      "\uE0BE Supplying Estimates",
+      "\uE0BE Good, Honest Dirt",
+      "\uE0BE Sisterly Concern",
       "In Mt. Gulg\u0027s Shadow"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7935021,
+      "X": -456.657,
+      "Y": 65.7782,
+      "Z": 79.9115,
+      "Yaw": -2.80276,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2417,7 +3765,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 860
+    "SortKey": 860,
+    "Icon": 100921,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69171,
@@ -2435,6 +3785,16 @@
       "A Gigantic Undertaking"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7935045,
+      "X": -124.602,
+      "Y": 352.315,
+      "Z": -192.271,
+      "Yaw": 1.10922,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2445,7 +3805,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 870
+    "SortKey": 870,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69172,
@@ -2463,6 +3825,16 @@
       "Meet the Tholls"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7935051,
+      "X": -445.487,
+      "Y": 334.035,
+      "Z": -55.4056,
+      "Yaw": 0.534648,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Tristol",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2473,7 +3845,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 880
+    "SortKey": 880,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69173,
@@ -2485,12 +3859,46 @@
       "A Gigantic Undertaking"
     ],
     "NextQuestIds": [
-      69174
+      69083,
+      69084,
+      69085,
+      69086,
+      69087,
+      69088,
+      69089,
+      69090,
+      69091,
+      69092,
+      69097,
+      69174,
+      69207
     ],
     "NextQuestTitles": [
-      "A-Digging We Will Go"
+      "\uE0BE Too Sweet to Eat",
+      "\uE0BE Killer on the Loose",
+      "\uE0BE All for the Boom",
+      "\uE0BE Distract and Rescue",
+      "\uE0BE Beneath the Beard",
+      "\uE0BE Short on Courage",
+      "\uE0BE Knocking the Knockers",
+      "\uE0BE Goggeo and Tholliet",
+      "\uE0BE With Ale Due Respect",
+      "\uE0BE A Disagreeable Dwarf",
+      "\uE0BE Brew as the Tholl Do",
+      "A-Digging We Will Go",
+      "\uE0BE Word about Komra"
     ],
     "StarterNpc": "Tristol",
+    "StarterNpcLocation": {
+      "RowId": 7964307,
+      "X": -121.849,
+      "Y": 352.346,
+      "Z": -191.089,
+      "Yaw": -1.57837,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Xamott",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2501,7 +3909,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 890
+    "SortKey": 890,
+    "Icon": 100922,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69174,
@@ -2519,6 +3929,16 @@
       "The Duergar\u0027s Tewel"
     ],
     "StarterNpc": "Xamott",
+    "StarterNpcLocation": {
+      "RowId": 7790419,
+      "X": -469.766,
+      "Y": 417.23,
+      "Z": -649.255,
+      "Yaw": 0.626652,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Korutt",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2529,7 +3949,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 900
+    "SortKey": 900,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69175,
@@ -2547,6 +3969,16 @@
       "Rich Veins of Hope"
     ],
     "StarterNpc": "Korutt",
+    "StarterNpcLocation": {
+      "RowId": 7935126,
+      "X": 349.316,
+      "Y": 315.194,
+      "Z": -373.249,
+      "Yaw": 2.93929,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Crystal Exarch",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2557,7 +3989,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 910
+    "SortKey": 910,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69176,
@@ -2569,12 +4003,34 @@
       "The Duergar\u0027s Tewel"
     ],
     "NextQuestIds": [
+      69073,
+      69074,
+      69075,
+      69076,
+      69078,
+      69082,
       69177
     ],
     "NextQuestTitles": [
+      "\uE0BE Fugitive of Fear",
+      "\uE0BE Hobgob Smacker",
+      "\uE0BE Small Nuisances",
+      "\uE0BE Timber for the Taking",
+      "\uE0BE Fresh off the Wing",
+      "\uE0BE A Rocky Relationship",
       "That None Shall Ever Again"
     ],
     "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 7943552,
+      "X": 611.932,
+      "Y": 278.126,
+      "Z": -512.444,
+      "Yaw": -2.3343,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Alisaie",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2585,7 +4041,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 920
+    "SortKey": 920,
+    "Icon": 100923,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69177,
@@ -2603,6 +4061,16 @@
       "A Breath of Respite"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7943569,
+      "X": -466.086,
+      "Y": 334.053,
+      "Z": -81.1136,
+      "Yaw": 0.208385,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Chai-Nuzz",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2613,7 +4081,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 930
+    "SortKey": 930,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69178,
@@ -2631,6 +4101,16 @@
       "Extinguishing the Last Light"
     ],
     "StarterNpc": "Chai-Nuzz",
+    "StarterNpcLocation": {
+      "RowId": 7943573,
+      "X": -141.222,
+      "Y": 352.358,
+      "Z": -188.952,
+      "Yaw": -3.11897,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Crystal Exarch",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2641,7 +4121,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 940
+    "SortKey": 940,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69179,
@@ -2659,6 +4141,16 @@
       "Reassuring the Masses"
     ],
     "StarterNpc": "Chai-Nuzz",
+    "StarterNpcLocation": {
+      "RowId": 7935272,
+      "X": -139.979,
+      "Y": 352.346,
+      "Z": -187.905,
+      "Yaw": -2.41942,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
     "FinishNpc": "Ryne",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2669,7 +4161,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 950
+    "SortKey": 950,
+    "Icon": 100924,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69180,
@@ -2687,6 +4181,16 @@
       "In His Garden"
     ],
     "StarterNpc": "manager of suites",
+    "StarterNpcLocation": {
+      "RowId": 7788933,
+      "X": 65.3848,
+      "Y": 1.71601,
+      "Z": 249.836,
+      "Yaw": -1.83313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Katliss",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2697,7 +4201,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 960
+    "SortKey": 960,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69181,
@@ -2715,6 +4221,16 @@
       "The Unbroken Thread"
     ],
     "StarterNpc": "Katliss",
+    "StarterNpcLocation": {
+      "RowId": 7788925,
+      "X": -9.3233,
+      "Y": 20.1973,
+      "Z": -136.523,
+      "Yaw": -2.07853,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Lyna",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2725,7 +4241,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 970
+    "SortKey": 970,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69182,
@@ -2737,12 +4255,32 @@
       "In His Garden"
     ],
     "NextQuestIds": [
+      69100,
+      69101,
+      69102,
+      69103,
+      69104,
       69183
     ],
     "NextQuestTitles": [
+      "\uE0BE Simple Gifts",
+      "\uE0BE His Own Medicine",
+      "\uE0BE Welcome to the Future",
+      "\uE0BE Made, Not Born",
+      "\uE0BE The Poet Doesn\u0027t Know It",
       "To Storm-tossed Seas"
     ],
     "StarterNpc": "Lyna",
+    "StarterNpcLocation": {
+      "RowId": 7936554,
+      "X": 614.499,
+      "Y": 13.3097,
+      "Z": 305.814,
+      "Yaw": -0.987202,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2753,7 +4291,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 980
+    "SortKey": 980,
+    "Icon": 100925,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69183,
@@ -2765,12 +4305,36 @@
       "The Unbroken Thread"
     ],
     "NextQuestIds": [
+      69105,
+      69106,
+      69107,
+      69108,
+      69109,
+      69110,
+      69111,
       69184
     ],
     "NextQuestTitles": [
+      "\uE0BE The Sullen Man",
+      "\uE0BE Rite of Passage",
+      "\uE0BE Bigger Fish to Dry",
+      "\uE0BE Treasure-hunting Tykes",
+      "\uE0BE With Furious Anger",
+      "\uE0BE Scrumptious Squirmers",
+      "\uE0BE Simple Treasures",
       "Waiting in the Depths"
     ],
     "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 7936337,
+      "X": 58.4412,
+      "Y": 36.1791,
+      "Z": -162.389,
+      "Yaw": 2.91009,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
     "FinishNpc": "Urianger",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2781,7 +4345,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 990
+    "SortKey": 990,
+    "Icon": 100926,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69184,
@@ -2793,12 +4359,46 @@
       "To Storm-tossed Seas"
     ],
     "NextQuestIds": [
+      69112,
+      69113,
+      69114,
+      69115,
+      69116,
+      69117,
+      69118,
+      69119,
+      69120,
+      69121,
+      69123,
+      69124,
       69185
     ],
     "NextQuestTitles": [
+      "\uE0BE Ondo Dream of Oranges",
+      "\uE0BE Pearls of the Deep",
+      "\uE0BE Beware the Benthos",
+      "\uE0BE Beyond the Reach of Koal",
+      "\uE0BE Do the Chuckle",
+      "\uE0BE Strange Stew",
+      "\uE0BE Scales for the Scaled Ones",
+      "\uE0BE Secrets and Spears",
+      "\uE0BE Scavenger Deep",
+      "\uE0BE Mistake or Machination",
+      "\uE0BE Doggone Dagons",
+      "\uE0BE Koal of the Cups",
       "City of the Ancients"
     ],
     "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 7935533,
+      "X": 278.825,
+      "Y": 414.786,
+      "Z": -851.282,
+      "Yaw": 0.523392,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Paushs Ooan",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2809,7 +4409,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1000
+    "SortKey": 1000,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69185,
@@ -2827,6 +4429,16 @@
       "The Light of Inspiration"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7950494,
+      "X": 578.767,
+      "Y": 349.865,
+      "Z": -230.999,
+      "Yaw": 0.524499,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2837,7 +4449,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1010
+    "SortKey": 1010,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69186,
@@ -2855,6 +4469,16 @@
       "The Illuminated Land"
     ],
     "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 8050563,
+      "X": 28.8242,
+      "Y": 381.796,
+      "Z": -524.407,
+      "Yaw": -0.998206,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Grenoldt",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2865,7 +4489,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1020
+    "SortKey": 1020,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69187,
@@ -2883,6 +4509,16 @@
       "The End of a World"
     ],
     "StarterNpc": "Grenoldt",
+    "StarterNpcLocation": {
+      "RowId": 7954556,
+      "X": 638.989,
+      "Y": 402.212,
+      "Z": 212.794,
+      "Yaw": 2.43212,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Y\u0027shtola",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2893,7 +4529,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1030
+    "SortKey": 1030,
+    "Icon": 100927,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69188,
@@ -2905,12 +4543,28 @@
       "The Illuminated Land"
     ],
     "NextQuestIds": [
+      69128,
+      69129,
+      69130,
       69189
     ],
     "NextQuestTitles": [
+      "\uE0BE Responsible Creation",
+      "\uE0BE Debate and Discourse",
+      "\uE0BE Community Cohesion",
       "A Greater Purpose"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7935543,
+      "X": -794.906,
+      "Y": 72.4438,
+      "Z": -203.033,
+      "Yaw": -0.0680602,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Alphinaud",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2921,7 +4575,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1040
+    "SortKey": 1040,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69189,
@@ -2939,6 +4595,16 @@
       "Shadowbringers"
     ],
     "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7952527,
+      "X": -633.975,
+      "Y": -288.069,
+      "Z": 251.635,
+      "Yaw": -2.85081,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Thancred",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2949,7 +4615,9 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1050
+    "SortKey": 1050,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 69190,
@@ -2961,12 +4629,76 @@
       "A Greater Purpose"
     ],
     "NextQuestIds": [
-      69209
+      68746,
+      68747,
+      68748,
+      68749,
+      68750,
+      68751,
+      68752,
+      68753,
+      68754,
+      68755,
+      68756,
+      68757,
+      68758,
+      68759,
+      68760,
+      68761,
+      68762,
+      68791,
+      69131,
+      69132,
+      69137,
+      69141,
+      69198,
+      69209,
+      69253,
+      69370,
+      69501,
+      69569
     ],
     "NextQuestTitles": [
-      "Shaken Resolve"
+      "Worth Fighting For",
+      "A Monk\u0027s Legacy",
+      "Once, Twice, Three Times a Warrior",
+      "Gone but Not Forgiven",
+      "A Harmony from the Heavens",
+      "Whence the Healing Springs",
+      "A Home for a Tome",
+      "To Be Second Best",
+      "True Beauty",
+      "Oboro\u0027s Big Idea",
+      "Machinists for the Morrow",
+      "Our Closure",
+      "Love, Astrologically",
+      "The Legend of Musosai",
+      "Succession of Steel",
+      "Gunblades of the Patriots",
+      "Rising to the Occasion",
+      "In the Middle of Nowhere",
+      "By the Time You Hear This",
+      "Akadaemia Anyder",
+      "Yet Another Striking Opportunity",
+      "The Aspiring Skywatcher",
+      "Minstrel from Another Mother",
+      "Shaken Resolve",
+      "A Scandal in Komra",
+      "Hail to the Queen",
+      "Fantastic Mr. Faux",
+      "To Be Second Best"
     ],
     "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7952534,
+      "X": -244.699,
+      "Y": -266,
+      "Z": 448.366,
+      "Yaw": 2.93054,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
     "FinishNpc": "Tataru",
     "Expansion": "Shadowbringers",
     "JournalGenre": {
@@ -2977,6 +4709,8 @@
       },
       "Name": "Shadowbringers"
     },
-    "SortKey": 1060
+    "SortKey": 1060,
+    "Icon": 100928,
+    "IconSpecial": 0
   }
 ]

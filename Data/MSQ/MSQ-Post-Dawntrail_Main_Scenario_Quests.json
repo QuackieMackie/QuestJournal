@@ -15,6 +15,16 @@
       "Alexandria Mourns"
     ],
     "StarterNpc": "Bol Wuruq",
+    "StarterNpcLocation": {
+      "RowId": 10796179,
+      "X": -165.35,
+      "Y": -14.9994,
+      "Z": 203.957,
+      "Yaw": 1.41581,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
     "FinishNpc": "Gulool Ja",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -25,7 +35,9 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 101
+    "SortKey": 101,
+    "Icon": 101385,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70781,
@@ -43,6 +55,16 @@
       "In Search of the Past"
     ],
     "StarterNpc": "Gulool Ja",
+    "StarterNpcLocation": {
+      "RowId": 11039884,
+      "X": -4.82753,
+      "Y": 0,
+      "Z": 6.00056,
+      "Yaw": 0.494393,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
     "FinishNpc": "Wuk Lamat",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -53,7 +75,9 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 102
+    "SortKey": 102,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70782,
@@ -71,6 +95,16 @@
       "Among the Abandoned"
     ],
     "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 11040241,
+      "X": -305.836,
+      "Y": 9.50629,
+      "Z": 53.1471,
+      "Yaw": 2.69818,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
     "FinishNpc": "Gulool Ja",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -81,7 +115,9 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 103
+    "SortKey": 103,
+    "Icon": 112584,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70783,
@@ -99,6 +135,16 @@
       "Guidance of the Hhetso"
     ],
     "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 11041023,
+      "X": 118.273,
+      "Y": 12.5,
+      "Z": -68.9862,
+      "Yaw": -2.53602,
+      "Radius": 1,
+      "MapId": 973,
+      "TerritoryId": 1254
+    },
     "FinishNpc": "Shale",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -109,7 +155,9 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 104
+    "SortKey": 104,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70784,
@@ -127,6 +175,16 @@
       "The Warmth of Family"
     ],
     "StarterNpc": "Geode",
+    "StarterNpcLocation": {
+      "RowId": 11041671,
+      "X": -0.807419,
+      "Y": 0,
+      "Z": 6.45162,
+      "Yaw": -1.08835,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
     "FinishNpc": "Shepetto",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -137,7 +195,9 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 105
+    "SortKey": 105,
+    "Icon": 0,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70785,
@@ -149,12 +209,24 @@
       "Guidance of the Hhetso"
     ],
     "NextQuestIds": [
+      70775,
       70786
     ],
     "NextQuestTitles": [
+      "Laying New Tracks",
       "Crossroads"
     ],
     "StarterNpc": "Koana",
+    "StarterNpcLocation": {
+      "RowId": 11041724,
+      "X": 293.945,
+      "Y": -16.7128,
+      "Z": -528.707,
+      "Yaw": -0.525272,
+      "Radius": 1,
+      "MapId": 860,
+      "TerritoryId": 1190
+    },
     "FinishNpc": "Nitowikwe",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -165,7 +237,9 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 106
+    "SortKey": 106,
+    "Icon": 101386,
+    "IconSpecial": 0
   },
   {
     "QuestId": 70786,
@@ -179,6 +253,16 @@
     "NextQuestIds": [],
     "NextQuestTitles": [],
     "StarterNpc": "Wuk Lamat",
+    "StarterNpcLocation": {
+      "RowId": 11041761,
+      "X": -172.237,
+      "Y": 15.732,
+      "Z": -376.098,
+      "Yaw": 0.302509,
+      "Radius": 1,
+      "MapId": 860,
+      "TerritoryId": 1190
+    },
     "FinishNpc": "Krile",
     "Expansion": "Dawntrail",
     "JournalGenre": {
@@ -189,6 +273,8 @@
       },
       "Name": "The New Dawn"
     },
-    "SortKey": 107
+    "SortKey": 107,
+    "Icon": 101387,
+    "IconSpecial": 0
   }
 ]
