@@ -22,7 +22,7 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
     
     private string searchQuery = string.Empty;
     
-    public void DrawTest()
+    public void DrawMSQ()
     {
         InitializeDropDown();
 
@@ -36,6 +36,88 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         DrawSelectedQuestDetails(selectedQuest);
 
         DrawQuestWidgets(questList);
+    }
+
+    private void DrawQuestWidgets(List<QuestInfo> quests)
+    {
+        var childHeight = ImGui.GetContentRegionAvail().Y;
+        ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), true, ImGuiWindowFlags.HorizontalScrollbar | ImGuiWindowFlags.AlwaysVerticalScrollbar);
+
+        if (ImGui.BeginTable("QuestTable", 3, ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.ScrollY, new Vector2(-1, 0)))
+        {
+            ImGui.TableSetupColumn("", ImGuiTableColumnFlags.WidthFixed, 25);
+            ImGui.TableSetupColumn("Quest Name", ImGuiTableColumnFlags.WidthStretch);
+            ImGui.TableSetupColumn("Location", ImGuiTableColumnFlags.WidthStretch);
+            ImGui.TableHeadersRow();
+
+            for (int i = 0; i < quests.Count; i++)
+            {
+                ImGui.TableNextRow();
+
+                bool isComplete = QuestManager.IsQuestComplete(quests[i].QuestId);
+                bool isMatch = !string.IsNullOrEmpty(searchQuery) && 
+                               (quests[i].QuestTitle?.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ?? false);
+                bool isSelected = selectedQuest != null && selectedQuest.QuestId == quests[i].QuestId;
+
+                Vector4 rowColor = DetermineQuestColor(isComplete, isMatch, isSelected);
+
+                ImGui.PushStyleColor(ImGuiCol.Text, rowColor);
+
+                ImGui.TableNextColumn();
+                ImGui.Text(isComplete ? " ✓ " : " x ");
+
+                ImGui.TableNextColumn();
+                RenderSelectableRow(i, quests[i], isSelected);
+
+                ImGui.TableNextColumn();
+                ImGui.Text(quests[i].StarterNpc ?? "Unknown Location");
+
+                ImGui.PopStyleColor();
+            }
+
+            ImGui.EndTable();
+        }
+
+        ImGui.EndChild();
+    }
+
+    private void RenderSelectableRow(int rowIndex, QuestInfo quest, bool isSelected)
+    {
+        ImGui.PushStyleColor(ImGuiCol.Button, Vector4.Zero);
+        ImGui.PushStyleColor(ImGuiCol.ButtonHovered, Vector4.Zero);
+        ImGui.PushStyleColor(ImGuiCol.ButtonActive, Vector4.Zero);
+
+        if (ImGui.Selectable("##Selectable" + rowIndex, isSelected, ImGuiSelectableFlags.SpanAllColumns))
+        {
+            if (selectedQuest?.QuestId == quest.QuestId)
+            {
+                selectedQuest = null;
+                log.Info("Deselected the currently selected quest.");
+            }
+            else
+            {
+                selectedQuest = quest;
+                log.Info($"Quest selected: {quest.QuestTitle} (ID: {quest.QuestId})");
+            }
+        }
+        ImGui.PopStyleColor(3);
+
+        ImGui.SameLine();
+        ImGui.TextColored(ImGui.GetStyle().Colors[(int)ImGuiCol.Text], quest.QuestTitle ?? "Unknown Quest");
+    }
+
+    private Vector4 DetermineQuestColor(bool isComplete, bool isMatch, bool isSelected)
+    {
+        if (isSelected && isMatch) 
+            return new Vector4(0.8f, 0.5f, 1f, 1f); // Purple
+        if (isSelected)
+            return new Vector4(0.4f, 0.6f, 1f, 1f); // Blue
+        if (isMatch) 
+            return new Vector4(0.3f, 1f, 0.3f, 1f); // Green
+        if (isComplete)
+            return new Vector4(0.5f, 0.5f, 0.5f, 1f); // Gray for completed
+
+        return new Vector4(1f, 1f, 1f, 1f); // Default white
     }
     
     private void InitializeDropDown()
@@ -113,82 +195,6 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         {
             log.Info($"Updated search query: {searchQuery}");
         }
-    }
-
-    private void DrawQuestWidgets(List<QuestInfo> quests)
-    {
-        if (quests == null || quests.Count == 0)
-        {
-            ImGui.Text("No quests found.");
-            return;
-        }
-
-        var childHeight = ImGui.GetContentRegionAvail().Y;
-        ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), true, ImGuiWindowFlags.HorizontalScrollbar);
-
-        foreach (var quest in quests) DrawQuestWidget(quest);
-
-        ImGui.EndChild();
-    }
-
-    private void DrawQuestWidget(QuestInfo quest)
-    {
-        var availableWidth = ImGui.GetContentRegionAvail().X;
-
-        var isCompleted = QuestManager.IsQuestComplete(quest.QuestId);
-
-        var isSelected = selectedQuest != null && selectedQuest.QuestId == quest.QuestId;
-        var isMatch = !string.IsNullOrEmpty(searchQuery) &&
-                      quest.QuestTitle != null &&
-                      quest.QuestTitle.Contains(searchQuery, StringComparison.OrdinalIgnoreCase);
-
-        var styleCount = 0;
-        if (isCompleted)
-        {
-            ImGui.PushStyleColor(ImGuiCol.Text, new Vector4(0.5f, 0.5f, 0.5f, 1f));          // Gray text
-            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.3f, 0.3f, 0.3f, 1f));        // Gray background
-            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.4f, 0.4f, 0.4f, 1f)); // Slightly brighter hover
-            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.5f, 0.5f, 0.5f, 1f));  // Muted gray when active
-            styleCount += 4;
-        }
-
-        if (isSelected && isMatch)
-        {
-            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.4f, 0.2f, 0.6f, 1f)); // Purple background
-            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.5f, 0.3f, 0.7f, 1f)); // Purple hover
-            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.6f, 0.4f, 0.8f, 1f)); // Bright purple when active
-            styleCount += 3;
-        }
-        else if (isSelected)
-        {
-            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.2f, 0.3f, 0.6f, 1f));        // Blue background
-            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.3f, 0.4f, 0.7f, 1f)); // Slightly lighter blue
-            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.2f, 0.4f, 0.8f, 1f));  // Bright blue when active
-            styleCount += 3;
-        }
-        else if (isMatch)
-        {
-            ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(0.1f, 0.4f, 0.1f, 1f)); // Green background
-            ImGui.PushStyleColor(ImGuiCol.ButtonHovered, new Vector4(0.1f, 0.5f, 0.1f, 1f)); // Slightly brighter green hover
-            ImGui.PushStyleColor(ImGuiCol.ButtonActive, new Vector4(0.1f, 0.6f, 0.1f, 1f)); // Bright green when active
-            styleCount += 3;
-        }
-
-        if (ImGui.Button($"{(isCompleted ? "✓ " : string.Empty)}{quest.QuestTitle ?? "Unknown Quest"}", new Vector2(availableWidth, 0)))
-        {
-            if (selectedQuest?.QuestId == quest.QuestId)
-            {
-                selectedQuest = null;
-                log.Info("Deselected the currently selected quest.");
-            }
-            else
-            {
-                selectedQuest = quest;
-                log.Info($"Quest selected: {selectedQuest.QuestTitle} (ID: {selectedQuest.QuestId})");
-            }
-        }
-        
-        if (styleCount > 0) ImGui.PopStyleColor(styleCount);
     }
 
     private void DrawSelectedQuestDetails(QuestInfo? questInfo)

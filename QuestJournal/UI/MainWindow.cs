@@ -30,7 +30,7 @@ public class MainWindow : Window, IDisposable
         };
 
         msqHandler = new MsqHandler(log, pluginInterface, configuration);
-        
+
         msqRenderer = new MsqRenderer(msqHandler, log);
         informationRenderer = new InformationRenderer();
         settingsRenderer = new SettingsRenderer(configuration);
@@ -49,7 +49,7 @@ public class MainWindow : Window, IDisposable
         {
             if (ImGui.BeginTabItem("MSQ"))
             {
-                msqRenderer.DrawTest();
+                msqRenderer.DrawMSQ();
                 ImGui.EndTabItem();
             }
 
