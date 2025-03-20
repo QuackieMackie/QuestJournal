@@ -16,13 +16,13 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
     private string selectedDropDownCategory = string.Empty;
     private List<string> dropDownCategories = new List<string>();
     private Dictionary<string, string> dropDownCategoryMap = new();
-    
+
     private int questCount;
     private List<QuestInfo> questList = new List<QuestInfo>();
     private QuestInfo? selectedQuest = null;
-    
+
     private string searchQuery = string.Empty;
-    
+
     public void DrawMSQ()
     {
         InitializeDropDown();
@@ -49,20 +49,22 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
 
-        if (ImGui.BeginTable("QuestTable", 3, ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.ScrollY, new Vector2(-1, 0)))
+        if (ImGui.BeginTable("QuestTable", 3, ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.ScrollY,
+                             new Vector2(-1, 0)))
         {
             ImGui.TableSetupColumn("", ImGuiTableColumnFlags.WidthFixed, 25);
             ImGui.TableSetupColumn("Quest Name", ImGuiTableColumnFlags.WidthStretch);
             ImGui.TableSetupColumn("Start Location", ImGuiTableColumnFlags.WidthStretch);
-            
+
             ImGui.TableHeadersRow();
 
             for (int i = 0; i < quests.Count; i++)
             {
                 ImGui.TableNextRow();
                 bool isComplete = QuestManager.IsQuestComplete(quests[i].QuestId);
-                bool isMatch = !string.IsNullOrEmpty(searchQuery) && 
-                               (quests[i].QuestTitle?.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ?? false);
+                bool isMatch = !string.IsNullOrEmpty(searchQuery) &&
+                               (quests[i].QuestTitle?.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ??
+                                false);
                 bool isSelected = selectedQuest != null && selectedQuest.QuestId == quests[i].QuestId;
 
                 Vector4 rowColor = DetermineQuestColor(isComplete, isMatch, isSelected);
@@ -90,7 +92,8 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
                 ImGui.TableNextColumn();
                 if (ImGui.Selectable($"{quests[i].StarterNpc ?? "Unknown Location"}##StarterNpc{i}"))
                 {
-                    log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
+                    log.Info(
+                        $"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
                     OpenStarterLocation(quests[i]);
                 }
 
@@ -129,7 +132,8 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
             QuestJournal.GameGui.OpenMapWithMapLink(mapLink);
 
-            log.Info($"Opened map for starter NPC: {quest.StarterNpc} at coordinates X: {location.X}, Z: {location.Z}. Territory: {location.TerritoryId}, Map: {location.MapId}");
+            log.Info(
+                $"Opened map for starter NPC: {quest.StarterNpc} at coordinates X: {location.X}, Z: {location.Z}. Territory: {location.TerritoryId}, Map: {location.MapId}");
         }
         catch (Exception ex)
         {
@@ -139,18 +143,18 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
     private Vector4 DetermineQuestColor(bool isComplete, bool isMatch, bool isSelected)
     {
-        if (isSelected && isMatch) 
+        if (isSelected && isMatch)
             return new Vector4(0.8f, 0.5f, 1f, 1f); // Purple
         if (isSelected)
             return new Vector4(0.4f, 0.6f, 1f, 1f); // Blue
-        if (isMatch) 
+        if (isMatch)
             return new Vector4(0.3f, 1f, 0.3f, 1f); // Green
         if (isComplete)
             return new Vector4(0.5f, 0.5f, 0.5f, 1f); // Gray for completed
 
         return new Vector4(1f, 1f, 1f, 1f); // Default white
     }
-    
+
     private void InitializeDropDown()
     {
         if (dropDownCategoryMap.Count == 0)
@@ -171,7 +175,7 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
             }
         }
     }
-    
+
     private void UpdateQuestList(string category)
     {
         if (dropDownCategoryMap.TryGetValue(category, out var originalFileName))
@@ -192,7 +196,7 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
             }
         }
     }
-    
+
     private void DrawDropDown()
     {
         if (ImGui.BeginCombo("Select Journal Genre", selectedDropDownCategory))
@@ -213,10 +217,11 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
                     ImGui.SetItemDefaultFocus();
                 }
             }
+
             ImGui.EndCombo();
         }
     }
-    
+
     private void DrawSearchBar()
     {
         var previousSearchQuery = searchQuery;
@@ -238,143 +243,144 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
         ImGui.PushStyleColor(ImGuiCol.ChildBg, new Vector4(0.15f, 0.15f, 0.15f, 1f));
         ImGui.PushStyleVar(ImGuiStyleVar.FramePadding, new Vector2(6, 6));
-        
-        ImGui.BeginChild("QuestDetails", new Vector2(0, 260), true);
-        
-        var iconId = questInfo.Icon;
-        if (iconId != 0 && QuestJournal.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex) 
-                        && imageTex.TryGetWrap(out var image, out _))
+
+        try
         {
-            ImGui.PushStyleVar(ImGuiStyleVar.WindowPadding, Vector2.Zero);
-            ImGui.PushStyleVar(ImGuiStyleVar.FramePadding, Vector2.Zero);
+            ImGui.BeginChild("QuestDetails", new Vector2(0, 260), true);
 
-            Vector2 windowPos = ImGui.GetWindowPos();
-            Vector2 windowSize = ImGui.GetContentRegionAvail();
-
-            float aspectRatio = image.Size.Y / image.Size.X;
-            float newWidth = windowSize.X;
-            float newHeight = newWidth * aspectRatio;
-            
-            if (newHeight < windowSize.Y)
+            var iconId = questInfo.Icon;
+            if (iconId != 0 && QuestJournal.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex)
+                            && imageTex.TryGetWrap(out var image, out _))
             {
-                newHeight = windowSize.Y;
-                newWidth = newHeight / aspectRatio;
+                ImGui.PushStyleVar(ImGuiStyleVar.WindowPadding, Vector2.Zero);
+                ImGui.PushStyleVar(ImGuiStyleVar.FramePadding, Vector2.Zero);
+
+                try
+                {
+                    Vector2 windowPos = ImGui.GetWindowPos();
+                    Vector2 windowSize = ImGui.GetContentRegionAvail();
+                    float aspectRatio = image.Size.Y / image.Size.X;
+                    float newWidth = windowSize.X;
+                    float newHeight = newWidth * aspectRatio;
+
+                    if (newHeight < windowSize.Y)
+                    {
+                        newHeight = windowSize.Y;
+                        newWidth = newHeight / aspectRatio;
+                    }
+
+                    float centeredX = windowPos.X + (windowSize.X - newWidth) / 2f;
+                    float centeredY = windowPos.Y + (windowSize.Y - newHeight) / 2f;
+
+                    ImGui.GetWindowDrawList().AddImage(
+                        image.ImGuiHandle,
+                        new Vector2(centeredX, centeredY),
+                        new Vector2(centeredX + newWidth, centeredY + newHeight)
+                    );
+
+                    Vector4 overlayColor = new Vector4(0f, 0f, 0f, 0.8f);
+                    ImGui.GetWindowDrawList().AddRectFilled(
+                        new Vector2(centeredX, centeredY),
+                        new Vector2(centeredX + newWidth, centeredY + newHeight),
+                        ImGui.GetColorU32(overlayColor)
+                    );
+                } finally
+                {
+                    ImGui.PopStyleVar(2);
+                }
             }
 
-            float centeredX = windowPos.X + (windowSize.X - newWidth) / 2f;
-            float centeredY = windowPos.Y + (windowSize.Y - newHeight) / 2f;
+            ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), questInfo.QuestTitle);
+            ImGui.SameLine();
+            ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {questInfo.QuestId}").X);
+            ImGui.TextColored(new Vector4(0.6f, 0.6f, 0.6f, 1f), $"ID: {questInfo.QuestId}");
 
-            ImGui.GetWindowDrawList().AddImage(image.ImGuiHandle, 
-                                               new Vector2(centeredX, centeredY),
-                                               new Vector2(centeredX + newWidth, centeredY + newHeight));
+            ImGui.Text($"Expansion: {questInfo.Expansion}");
+            ImGui.SameLine();
+            var journalGenreX = ImGui.GetContentRegionMax().X -
+                                ImGui.CalcTextSize(
+                                         $"Journal Genre Category: {questInfo.JournalGenre?.JournalCategory?.Name ?? "None"}")
+                                     .X;
+            ImGui.SetCursorPosX(journalGenreX);
+            ImGui.Text($"Journal Genre Category: {questInfo.JournalGenre?.JournalCategory?.Name ?? "None"}");
 
-            Vector4 overlayColor = new Vector4(0f, 0f, 0f, 0.8f);
-            ImGui.GetWindowDrawList().AddRectFilled(
-                new Vector2(centeredX, centeredY), 
-                new Vector2(centeredX + newWidth, centeredY + newHeight), 
-                ImGui.GetColorU32(overlayColor));
+            var childWidth = ImGui.GetContentRegionAvail().X / 2f;
+            const float childHeight = 200;
 
-            ImGui.PopStyleVar(2);
-        }
-        
-        ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), questInfo.QuestTitle);
-        ImGui.SameLine();
-        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {questInfo.QuestId}").X);
-        ImGui.TextColored(new Vector4(0.6f, 0.6f, 0.6f, 1f), $"ID: {questInfo.QuestId}");
+            ImGui.PushStyleColor(ImGuiCol.ChildBg, new Vector4(0, 0, 0, 0));
+            try
+            {
+                ImGui.BeginChild("LeftSection", new Vector2(childWidth, childHeight), true);
+                ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Quest Details");
+                ImGui.Separator();
 
-        ImGui.Text($"Expansion: {questInfo.Expansion}");
-        ImGui.SameLine();
-        var journalGenreX = ImGui.GetContentRegionMax().X -
-                            ImGui.CalcTextSize(
-                                $"Journal Genre Category: {questInfo.JournalGenre?.JournalCategory?.Name ?? "None"}").X;
-        ImGui.SetCursorPosX(journalGenreX);
-        ImGui.Text($"Journal Genre Category: {questInfo.JournalGenre?.JournalCategory?.Name ?? "None"}");
+                if (ImGui.BeginTable("ChainTable", 2, ImGuiTableFlags.BordersInnerV))
+                {
+                    ImGui.TableNextColumn();
+                    ImGui.Text("First quest:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text(questList.FirstOrDefault()?.QuestTitle ?? "None");
 
-        var childWidth = ImGui.GetContentRegionAvail().X / 2f;
-        float childHeight = 200;
-        
-        ImGui.PushStyleColor(ImGuiCol.ChildBg, new Vector4(0, 0, 0, 0));
-        ImGui.BeginChild("LeftSection", new Vector2(childWidth, childHeight), true);
+                    ImGui.TableNextColumn();
+                    ImGui.Text("Previous quest:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text(questInfo.PreviousQuestTitles?.Any() == true
+                                   ? string.Join(", ", questInfo.PreviousQuestTitles)
+                                   : "None");
 
-        ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Quest Details");
-        ImGui.Separator();
+                    ImGui.TableNextColumn();
+                    ImGui.Text("Next quest:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text(questInfo.NextQuestTitles?.Any() == true
+                                   ? string.Join(", ", questInfo.NextQuestTitles)
+                                   : "None");
 
-        if (ImGui.BeginTable("ChainTable", 2, ImGuiTableFlags.BordersInnerV))
+                    ImGui.TableNextColumn();
+                    ImGui.Text("Starter NPC:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text(questInfo.StarterNpc ?? "None");
+
+                    ImGui.TableNextColumn();
+                    ImGui.Text("Finish NPC:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text(questInfo.FinishNpc ?? "None");
+
+                    ImGui.EndTable();
+                }
+
+                ImGui.EndChild();
+                ImGui.SameLine();
+
+                ImGui.BeginChild("RightSection", new Vector2(childWidth, childHeight), true);
+                ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Requirements");
+                ImGui.Separator();
+
+                if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
+                {
+                    ImGui.TableNextColumn();
+                    ImGui.Text("Requirement 1:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text("TBD");
+
+                    ImGui.TableNextColumn();
+                    ImGui.Text("Requirement 2:");
+                    ImGui.TableNextColumn();
+                    ImGui.Text("TBD");
+
+                    ImGui.EndTable();
+                }
+
+                ImGui.EndChild();
+            } finally
+            {
+                ImGui.PopStyleColor();
+            }
+
+            ImGui.EndChild();
+        } finally
         {
-            ImGui.TableNextColumn();
-            ImGui.Text("First quest:");
-            ImGui.TableNextColumn();
-            ImGui.Text(questList.FirstOrDefault()?.QuestTitle ?? "None");
-
-            ImGui.TableNextColumn();
-            ImGui.Text("Previous quest:");
-            ImGui.TableNextColumn();
-            if (questInfo.PreviousQuestTitles != null && questInfo.PreviousQuestTitles.Any())
-            {
-                ImGui.Text(string.Join(", ", questInfo.PreviousQuestTitles));
-            }
-            else
-            {
-                ImGui.Text("None");
-            }
-
-            ImGui.TableNextColumn();
-            ImGui.Text("Next quest:");
-            ImGui.TableNextColumn();
-            if (questInfo.NextQuestTitles != null && questInfo.NextQuestTitles.Any())
-            {
-                ImGui.Text(string.Join(", ", questInfo.NextQuestTitles));
-            }
-            else
-            {
-                ImGui.Text("None");
-            }
-
-            ImGui.Spacing();
-            ImGui.Spacing();
-            ImGui.Spacing();
-
-            ImGui.TableNextColumn();
-            ImGui.Text("Starter NPC:");
-            ImGui.TableNextColumn();
-            ImGui.Text(questInfo.StarterNpc ?? "None");
-
-            ImGui.TableNextColumn();
-            ImGui.Text("Finish NPC:");
-            ImGui.TableNextColumn();
-            ImGui.Text(questInfo.FinishNpc ?? "None");
-
-            ImGui.EndTable();
+            ImGui.PopStyleColor();
+            ImGui.PopStyleVar();
         }
-
-        ImGui.EndChild();
-        ImGui.SameLine();
-
-        ImGui.BeginChild("RightSection", new Vector2(childWidth, childHeight), true);
-
-        ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Requirements");
-        ImGui.Separator();
-
-        if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
-        {
-            ImGui.TableNextColumn();
-            ImGui.Text("Requirement 1:");
-            ImGui.TableNextColumn();
-            ImGui.Text("TBD");
-
-            ImGui.TableNextColumn();
-            ImGui.Text("Requirement 2:");
-            ImGui.TableNextColumn();
-            ImGui.Text("TBD");
-
-            ImGui.EndTable();
-        }
-
-        ImGui.EndChild();
-
-        ImGui.EndChild();
-        ImGui.PopStyleColor();
-        ImGui.PopStyleVar();
     }
 }
-
