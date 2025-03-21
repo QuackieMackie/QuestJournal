@@ -8,7 +8,7 @@ using Dalamud.Plugin.Services;
 using QuestJournal.Models;
 using QuestJournal.Utils;
 
-namespace QuestJournal.Handlers;
+namespace QuestJournal.Commands;
 
 public class CommandHandler : IDisposable
 {
@@ -47,12 +47,12 @@ public class CommandHandler : IDisposable
     {
         commandManager.AddHandler(FetchQuestCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = $"Fetch quest data from the game with {FetchQuestCommandName}"
+            HelpMessage = $"[Developer Mode] Fetch all quest data from the Lumina sheets and save it to the plugin's output directory."
         });
         
         commandManager.AddHandler(FetchMsqCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = $"Fetch quest data from the game with {FetchMsqCommandName}"
+            HelpMessage = $"[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory."
         });
     }
 
@@ -119,7 +119,7 @@ public class CommandHandler : IDisposable
         }
     }
 
-    private void SaveQuestDataToJson(List<QuestInfo> questData, string filePath, string msqCategory)
+    private void SaveQuestDataToJson(List<QuestModel> questData, string filePath, string msqCategory)
     {
         try
         {
@@ -134,7 +134,7 @@ public class CommandHandler : IDisposable
         }
     }
 
-    private void LogQuests(List<QuestInfo?> quests)
+    private void LogQuests(List<QuestModel?> quests)
     {
         var count = 0;
 

@@ -21,8 +21,8 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
     private Dictionary<string, string> dropDownCategoryMap = new();
 
     private int questCount;
-    private List<QuestInfo> questList = new List<QuestInfo>();
-    private QuestInfo? selectedQuest = null;
+    private List<QuestModel> questList = new List<QuestModel>();
+    private QuestModel? selectedQuest = null;
 
     private string searchQuery = string.Empty;
 
@@ -104,7 +104,7 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
             else
             {
                 log.Warning($"No quests found for category: {category}");
-                questList = new List<QuestInfo>();
+                questList = new List<QuestModel>();
                 questCount = 0;
             }
         }

@@ -7,7 +7,7 @@ namespace QuestJournal.Utils;
 
 public class QuestHandler
 {
-    public static void OpenStarterLocation(QuestInfo quest, IPluginLog log)
+    public static void OpenStarterLocation(QuestModel quest, IPluginLog log)
     {
         if (quest.StarterNpcLocation == null)
         {

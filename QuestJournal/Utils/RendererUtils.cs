@@ -55,7 +55,7 @@ public class RendererUtils(IPluginLog log)
         return new Vector4(1f, 1f, 1f, 1f); // Default white
     }
 
-    public void DrawQuestWidgets(List<QuestInfo> quests, ref string searchQuery, ref QuestInfo? selectedQuest)
+    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest)
     {
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
@@ -118,7 +118,7 @@ public class RendererUtils(IPluginLog log)
         ImGui.EndChild();
     }
 
-    public void DrawSelectedQuestDetails(QuestInfo? questInfo, ref List<QuestInfo> questList)
+    public void DrawSelectedQuestDetails(QuestModel? questInfo, ref List<QuestModel> questList)
     {
         if (questInfo == null)
         {

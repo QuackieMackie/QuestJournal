@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
-using Lumina.Excel;
-using Lumina.Excel.Sheets;
 
 namespace QuestJournal.Models;
 
-public class QuestInfo
+public class QuestModel
 {
     public uint QuestId { get; init; }
     public string? QuestTitle { get; init; }

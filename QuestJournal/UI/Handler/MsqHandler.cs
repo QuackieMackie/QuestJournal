@@ -158,7 +158,7 @@ public class MsqHandler : IDisposable
                         );
     }
     
-    public List<QuestInfo>? FetchQuestData(string fileName)
+    public List<QuestModel>? FetchQuestData(string fileName)
     {
         try
         {
@@ -177,7 +177,7 @@ public class MsqHandler : IDisposable
             }
 
             var fileContent = File.ReadAllText(filePath);
-            var quests = JsonSerializer.Deserialize<List<QuestInfo>>(fileContent);
+            var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
 
             if (quests == null)
             {
@@ -185,7 +185,7 @@ public class MsqHandler : IDisposable
                 return null;
             }
 
-            var filteredQuests = new List<QuestInfo>();
+            var filteredQuests = new List<QuestModel>();
 
             // Start Area Filtering
             if (!string.IsNullOrWhiteSpace(playerStartArea))

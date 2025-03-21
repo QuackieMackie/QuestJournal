@@ -28,7 +28,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Fetches all quests and their details.
     /// </summary>
-    public List<QuestInfo?> GetAllQuests()
+    public List<QuestModel?> GetAllQuests()
     {
         var exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
         var journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
@@ -61,7 +61,7 @@ public class QuestDataFetcher
     /// <summary>
     /// Groups main scenario quests by categories and fetches details.
     /// </summary>
-    public Dictionary<string, List<QuestInfo>> GetMainScenarioQuestsByCategory()
+    public Dictionary<string, List<QuestModel>> GetMainScenarioQuestsByCategory()
     {
         var allQuests = GetAllQuests();
         var msqCategories = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
@@ -82,11 +82,11 @@ public class QuestDataFetcher
             "Post-Dawntrail Main Scenario Quests"
         };
 
-        var categorizedQuests = new Dictionary<string, List<QuestInfo>>(StringComparer.OrdinalIgnoreCase);
+        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
 
         foreach (var category in msqCategories)
         {
-            categorizedQuests[category] = new List<QuestInfo>();
+            categorizedQuests[category] = new List<QuestModel>();
         }
 
         foreach (var quest in allQuests)
@@ -106,7 +106,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Saves a list of quests to a JSON file.
     /// </summary>
-    public void SaveQuestDataToJson(List<QuestInfo?> questData, string filePath)
+    public void SaveQuestDataToJson(List<QuestModel?> questData, string filePath)
     {
         try
         {
@@ -125,7 +125,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Builds a IQuestInfo object from raw quest data.
     /// </summary>
-    private QuestInfo? BuildQuestInfo(
+    private QuestModel? BuildQuestInfo(
         Quest questData, ExcelSheet<ExVersion>? exVersionSheet, ExcelSheet<JournalGenre>? journalGenreSheet)
     {
         try
@@ -136,7 +136,7 @@ public class QuestDataFetcher
             var expansionName = GetExpansionName(questData.Expansion, exVersionSheet, questData.Id);
             var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, journalGenreSheet, questData.Id);
 
-            var questDetails = new QuestInfo
+            var questDetails = new QuestModel
             {
                 QuestId = questData.RowId,
                 QuestTitle = questData.Name.ToString(),

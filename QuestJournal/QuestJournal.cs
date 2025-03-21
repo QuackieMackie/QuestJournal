@@ -4,7 +4,7 @@ using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
-using QuestJournal.Handlers;
+using QuestJournal.Commands;
 using QuestJournal.Models;
 using QuestJournal.UI;
 using QuestJournal.Utils;
