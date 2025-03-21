@@ -162,6 +162,28 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
             dropDownCategoryMap = msqHandler.GetMsqFileNames();
             dropDownCategories = dropDownCategoryMap.Keys.ToList();
 
+            var msqCategories = new List<string>()
+            {
+                "Seventh Umbral Era Main Scenario Quests",
+                "Seventh Astral Era Main Scenario Quests",
+                "Heavensward Main Scenario Quests",
+                "Dragonsong Main Scenario Quests",
+                "Post-Dragonsong Main Scenario Quests",
+                "Stormblood Main Scenario Quests",
+                "Post-Stormblood Main Scenario Quests",
+                "Shadowbringers Main Scenario Quests",
+                "Post-Shadowbringers Main Scenario Quests",
+                "Post-Shadowbringers Main Scenario Quests II",
+                "Endwalker Main Scenario Quests",
+                "Post-Endwalker Main Scenario Quests",
+                "Dawntrail Main Scenario Quests",
+                "Post-Dawntrail Main Scenario Quests"
+            };
+            
+            dropDownCategories = msqCategories
+                                 .Where(category => dropDownCategories.Contains(category))
+                                 .ToList();
+            
             selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? "Error";
             log.Info($"Populated msqFileNames list with {dropDownCategories.Count} items.");
 
@@ -278,7 +300,7 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
                         new Vector2(centeredX + newWidth, centeredY + newHeight)
                     );
 
-                    Vector4 overlayColor = new Vector4(0f, 0f, 0f, 0.8f);
+                    Vector4 overlayColor = new Vector4(0f, 0f, 0f, 0.6f);
                     ImGui.GetWindowDrawList().AddRectFilled(
                         new Vector2(centeredX, centeredY),
                         new Vector2(centeredX + newWidth, centeredY + newHeight),
@@ -316,6 +338,9 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
                 if (ImGui.BeginTable("ChainTable", 2, ImGuiTableFlags.BordersInnerV))
                 {
+                    ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 95);
+                    ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
+
                     ImGui.TableNextColumn();
                     ImGui.Text("First quest:");
                     ImGui.TableNextColumn();
@@ -324,22 +349,37 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
                     ImGui.TableNextColumn();
                     ImGui.Text("Previous quest:");
                     ImGui.TableNextColumn();
+                    ImGui.PushTextWrapPos();
                     ImGui.Text(questInfo.PreviousQuestTitles?.Any() == true
                                    ? string.Join(", ", questInfo.PreviousQuestTitles)
                                    : "None");
+                    ImGui.PopTextWrapPos();
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Next quest:");
                     ImGui.TableNextColumn();
+                    ImGui.PushTextWrapPos();
                     ImGui.Text(questInfo.NextQuestTitles?.Any() == true
                                    ? string.Join(", ", questInfo.NextQuestTitles)
                                    : "None");
+                    ImGui.PopTextWrapPos();
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Starter NPC:");
                     ImGui.TableNextColumn();
-                    ImGui.Text(questInfo.StarterNpc ?? "None");
-
+                    if (ImGui.Selectable(questInfo.StarterNpc ?? "None"))
+                    {
+                        if (questInfo.StarterNpcLocation != null)
+                        {
+                            log.Info($"Opening starter location for NPC: {questInfo.StarterNpc}");
+                            OpenStarterLocation(questInfo);
+                        }
+                        else
+                        {
+                            log.Warning($"No starter location available for NPC: {questInfo.StarterNpc}");
+                        }
+                    }
+                    
                     ImGui.TableNextColumn();
                     ImGui.Text("Finish NPC:");
                     ImGui.TableNextColumn();
@@ -357,15 +397,22 @@ public class MsqRenderer(MsqHandler msqHandler, IPluginLog log)
 
                 if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
                 {
+                    ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
+                    ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
+
                     ImGui.TableNextColumn();
                     ImGui.Text("Requirement 1:");
                     ImGui.TableNextColumn();
+                    ImGui.PushTextWrapPos();
                     ImGui.Text("TBD");
+                    ImGui.PopTextWrapPos();
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Requirement 2:");
                     ImGui.TableNextColumn();
+                    ImGui.PushTextWrapPos();
                     ImGui.Text("TBD");
+                    ImGui.PopTextWrapPos();
 
                     ImGui.EndTable();
                 }
