@@ -6,14 +6,18 @@ using Dalamud.Plugin.Services;
 using ImGuiNET;
 using QuestJournal.UI.Handler;
 using QuestJournal.UI.Renderer;
+using QuestJournal.Utils;
 
 namespace QuestJournal.UI;
 
 public class MainWindow : Window, IDisposable
 {
     private readonly QuestJournal plugin;
+    private readonly RendererUtils rendererUtils;
     private readonly IPluginLog log;
+    
     private readonly MsqHandler msqHandler;
+    
     private readonly MsqRenderer msqRenderer;
     private readonly InformationRenderer informationRenderer;
     private readonly SettingsRenderer settingsRenderer;
@@ -28,10 +32,12 @@ public class MainWindow : Window, IDisposable
             MinimumSize = new Vector2(480, 720),
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
-
+        
         msqHandler = new MsqHandler(log, pluginInterface, configuration);
+        
+        rendererUtils = new RendererUtils(log);
 
-        msqRenderer = new MsqRenderer(msqHandler, log);
+        msqRenderer = new MsqRenderer(msqHandler, rendererUtils, log);
         informationRenderer = new InformationRenderer();
         settingsRenderer = new SettingsRenderer(configuration, msqRenderer);
     }
@@ -53,12 +59,27 @@ public class MainWindow : Window, IDisposable
                 msqRenderer.DrawMSQ();
                 ImGui.EndTabItem();
             }
-
-            if (ImGui.BeginTabItem("Information"))
-            {
-                informationRenderer.DrawInformation();
-                ImGui.EndTabItem();
-            }
+            
+            // if (ImGui.BeginTabItem("Class & Jobs"))
+            // {
+            //     ImGui.EndTabItem();
+            // }
+            //
+            // if (ImGui.BeginTabItem("Feature"))
+            // {
+            //     ImGui.EndTabItem();
+            // }
+            //
+            // if (ImGui.BeginTabItem("Leve"))
+            // {
+            //     ImGui.EndTabItem();
+            // }
+            //
+            // if (ImGui.BeginTabItem("Information"))
+            // {
+            //     informationRenderer.DrawInformation();
+            //     ImGui.EndTabItem();
+            // }
 
             if (ImGui.BeginTabItem("Settings"))
             {
