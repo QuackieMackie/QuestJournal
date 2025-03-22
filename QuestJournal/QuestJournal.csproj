@@ -25,5 +25,6 @@
             <TargetPath>QuestJournal\MSQ\%(FileName)%(Extension)</TargetPath>
             <Visible>true</Visible>
         </Content>
+        <Content Include="QuestJournal.json" />
     </ItemGroup>
 </Project>
