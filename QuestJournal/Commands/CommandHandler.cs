@@ -12,12 +12,15 @@ namespace QuestJournal.Commands;
 
 public class CommandHandler : IDisposable
 {
+    private const string OpenJournalCommandShort = "/qj";
+    private const string OpenJournalCommandFull = "/questjournal";
     private const string FetchQuestCommandName = "/fetch-qd";
     private const string FetchMsqCommandName = "/fetch-msq";
     
     private const string QuestDataFileName = "QuestData.json";
     private const string MsqDataFileName = "MsqData.json";
 
+    private readonly QuestJournal questJournal;
     private readonly ICommandManager commandManager;
     private readonly Configuration configuration;
     private readonly IPluginLog log;
@@ -25,9 +28,10 @@ public class CommandHandler : IDisposable
     private readonly QuestDataFetcher questDataFetcher;
 
     public CommandHandler(
-        ICommandManager commandManager, QuestDataFetcher questDataFetcher, IPluginLog log,
-        IDalamudPluginInterface pluginInterface, Configuration configuration)
+        QuestJournal questJournal, ICommandManager commandManager, QuestDataFetcher questDataFetcher, 
+        IPluginLog log, IDalamudPluginInterface pluginInterface, Configuration configuration)
     {
+        this.questJournal = questJournal;
         this.commandManager = commandManager;
         this.questDataFetcher = questDataFetcher;
         this.log = log;
@@ -41,21 +45,41 @@ public class CommandHandler : IDisposable
     {
         commandManager.RemoveHandler(FetchQuestCommandName);
         commandManager.RemoveHandler(FetchMsqCommandName);
+        commandManager.RemoveHandler(OpenJournalCommandFull);
+        commandManager.RemoveHandler(OpenJournalCommandShort);
     }
 
     private void AddHandlers()
     {
+        commandManager.AddHandler(OpenJournalCommandShort, new CommandInfo(OnOpenCommand)
+        {
+            HelpMessage = "Open the Quest Journal."
+        });
+
+        commandManager.AddHandler(OpenJournalCommandFull, new CommandInfo(OnOpenCommand)
+        {
+            HelpMessage = "Open the Quest Journal."
+        });
+        
         commandManager.AddHandler(FetchQuestCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = $"[Developer Mode] Fetch all quest data from the Lumina sheets and save it to the plugin's output directory."
+            HelpMessage = "[Developer Mode] Fetch all quest data from the Lumina sheets and save it to the plugin's output directory."
         });
         
         commandManager.AddHandler(FetchMsqCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = $"[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory."
+            HelpMessage = "[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory."
         });
     }
-
+    
+    private void OnOpenCommand(string command, string args)
+    {
+        if (command == "/qj" || command == "/questjournal")
+        {
+            OpenJournal();
+        }
+    }
+    
     private void OnFetchCommand(string command, string args)
     {
         if (!configuration.DeveloperMode)
@@ -66,6 +90,11 @@ public class CommandHandler : IDisposable
 
         if (command == FetchQuestCommandName) FetchQuestData();
         if (command == FetchMsqCommandName) FetchMsqData();
+    }
+
+    private void OpenJournal()
+    {
+        questJournal.OpenMainWindow();
     }
 
     private void FetchQuestData()

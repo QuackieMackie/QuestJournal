@@ -27,6 +27,8 @@ public class QuestModel
     public uint Icon { get; init; }
     public uint IconSpecial { get; init; }
     
+    public Reward? Rewards { get; init; }
+    
     public override string ToString()
     {
         return
@@ -67,5 +69,36 @@ public class Level
                $"Yaw: {Yaw:F2}, Radius: {Radius:F2}, " +
                $"MapId: {MapId}, TerritoryId: {TerritoryId}";
     }
+}
+
+public class Reward
+{
+    public int Exp { get; init; }
+    public uint Gil { get; init; }
+    public CurrencyReward? Currency { get; init; }
+    public List<CatalystReward>? Catalysts { get; init; }
+    public List<ItemsReward>? Items { get; init; }
+}
+
+public class CurrencyReward
+{
+    public uint CurrencyId { get; init; }
+    public string? CurrencyName { get; init; }
+    public uint Count { get; init; }
+}
+
+public class CatalystReward
+{
+    public uint ItemId { get; init; }
+    public string? ItemName { get; init; }
+    public byte Count { get; init; }
+}
+
+public class ItemsReward
+{
+    public uint ItemId { get; init; }
+    public string? ItemName { get; init; }
+    public byte Count { get; init; }
+    public string? Stain { get; init; }
 }
 

@@ -33,10 +33,12 @@ public class QuestDataFetcher
         var exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
         var journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
         var questSheet = dataManager.GetExcelSheet<Quest>();
+        var itemSheet = dataManager.GetExcelSheet<Item>();
+        var stainSheet = dataManager.GetExcelSheet<Stain>();
 
         var questInfoLookup = questSheet.ToDictionary(
             quest => quest.RowId,
-            quest => BuildQuestInfo(quest, exVersionSheet, journalGenreSheet)
+            quest => BuildQuestInfo(quest, exVersionSheet, journalGenreSheet, itemSheet, stainSheet)
         );
 
         foreach (var quest in questSheet)
@@ -126,7 +128,7 @@ public class QuestDataFetcher
     ///     Builds a IQuestInfo object from raw quest data.
     /// </summary>
     private QuestModel? BuildQuestInfo(
-        Quest questData, ExcelSheet<ExVersion>? exVersionSheet, ExcelSheet<JournalGenre>? journalGenreSheet)
+        Quest questData, ExcelSheet<ExVersion>? exVersionSheet, ExcelSheet<JournalGenre>? journalGenreSheet, ExcelSheet<Item>? itemSheet, ExcelSheet<Stain>? stainSheet)
     {
         try
         {
@@ -135,6 +137,7 @@ public class QuestDataFetcher
 
             var expansionName = GetExpansionName(questData.Expansion, exVersionSheet, questData.Id);
             var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, journalGenreSheet, questData.Id);
+            var reward = GetRewards(questData, itemSheet, stainSheet);
 
             var questDetails = new QuestModel
             {
@@ -152,6 +155,7 @@ public class QuestDataFetcher
                 SortKey = questData.SortKey,
                 Icon = questData.Icon,
                 IconSpecial = questData.IconSpecial,
+                Rewards = reward
             };
             
             return questDetails;
@@ -163,6 +167,123 @@ public class QuestDataFetcher
         }
     }
 
+    /// <summary>
+    ///     Resolves rewards for the quest.
+    /// </summary>
+    private Reward? GetRewards(Quest quest, ExcelSheet<Item>? itemSheet, ExcelSheet<Stain>? stainSheet)
+    {
+        var level = quest.LevelMax != 0 ? quest.LevelMax : quest.ClassJobLevel.FirstOrDefault();
+        var paramGrow = dataManager.GetExcelSheet<ParamGrow>().GetRow(level);
+        var exp = paramGrow.ScaledQuestXP * paramGrow.QuestExpModifier * quest.ExpFactor / 100;
+        
+        var catalysts = GetCatalysts(quest, itemSheet);
+        var currencyReward = GetCurrencyReward(quest, itemSheet);
+        var itemReward = GetItemReward(quest, itemSheet, stainSheet);
+
+        return new Reward()
+        {
+            Exp = exp,
+            Gil = quest.GilReward,
+            Currency = currencyReward,
+            Catalysts = catalysts,
+            Items = itemReward
+        };
+    }
+    
+    public List<ItemsReward> GetItemReward(Quest quest, ExcelSheet<Item>? itemSheet, ExcelSheet<Stain>? stainSheet)
+    {
+        var itemRewards = quest.Reward;
+
+        if (itemRewards.Count == 0)
+            return new List<ItemsReward>();
+
+        var rewards = new List<ItemsReward>();
+
+        for (var i = 0; i < itemRewards.Count; i++)
+        {
+            var itemRef = itemRewards[i];
+
+            if (itemRef.RowId == 0)
+                continue;
+
+            var item = itemSheet?.GetRow(itemRef.RowId);
+            string? stainName = null;
+
+            if (i < quest.RewardStain.Count && quest.RewardStain[i].RowId != 0)
+            {
+                var stain = stainSheet?.GetRow(quest.RewardStain[i].RowId);
+                if (stain != null)
+                {
+                    stainName = stain.Value.Name.ToString();
+                }
+            }
+
+            if (item != null)
+            {
+                rewards.Add(new ItemsReward
+                {
+                    ItemId = itemRef.RowId,
+                    ItemName = item.Value.Name.ToString(),
+                    Count = (byte)(quest.ItemCountReward.Count > i ? quest.ItemCountReward[i] : 0),
+                    Stain = stainName
+                });
+            }
+        }
+
+        return rewards;
+    }
+    
+    private CurrencyReward? GetCurrencyReward(Quest quest, ExcelSheet<Item>? itemSheet)
+    {
+        if (quest.CurrencyReward.RowId == 0)
+            return null;
+
+        var currencyRow = itemSheet?.GetRow(quest.CurrencyReward.RowId);
+        if (currencyRow == null)
+            return null;
+
+        return new CurrencyReward
+        {
+            CurrencyId = quest.CurrencyReward.RowId,
+            CurrencyName = currencyRow.Value.Name.ToString(),
+            Count = quest.CurrencyRewardCount
+        };
+    }
+    
+    private List<CatalystReward> GetCatalysts(Quest quest, ExcelSheet<Item>? itemSheet)
+    {
+        var catalysts = new List<CatalystReward>();
+
+        for (int i = 0; i < quest.ItemCatalyst.Count; i++)
+        {
+            var itemRef = quest.ItemCatalyst[i];
+            if (itemRef.RowId == 0)
+                continue;
+
+            var itemCount = quest.ItemCountCatalyst.ElementAtOrDefault(i);
+            var currentItemName = itemSheet?.GetRow(itemRef.RowId).Name.ToString();
+
+            if (currentItemName == null)
+                continue;
+
+            var matchedItem = itemSheet?.FirstOrDefault(item => item.Name.ToString() == currentItemName);
+            var matchedItemId = matchedItem?.RowId ?? 0;
+
+            catalysts.Add(new CatalystReward
+            {
+                ItemId = matchedItemId,
+                ItemName = currentItemName,
+                Count = itemCount,
+            });
+        }
+
+        return catalysts;
+    }
+
+
+    /// <summary>
+    ///     Resolves JournalGenreDetails for the quest.
+    /// </summary>
     private JournalGenreDetails? GetJournalGenreDetails(
         RowRef<JournalGenre> journalGenreRef, ExcelSheet<JournalGenre>? journalGenreSheet, ReadOnlySeString questId)
     {
@@ -196,8 +317,6 @@ public class QuestDataFetcher
             return null;
         }
     }
-
-    // Data Parsers
 
     /// <summary>
     ///     Resolves the IDs of prerequisite quests.

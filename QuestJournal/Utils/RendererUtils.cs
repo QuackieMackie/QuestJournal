@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using Dalamud.Interface.Textures;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using ImGuiNET;
+using Lumina.Excel.Sheets;
 using QuestJournal.Models;
+using QuestJournal_QuestJournal = QuestJournal.QuestJournal;
 
 namespace QuestJournal.Utils;
 
@@ -118,9 +121,9 @@ public class RendererUtils(IPluginLog log)
         ImGui.EndChild();
     }
 
-    public void DrawSelectedQuestDetails(QuestModel? questInfo, ref List<QuestModel> questList)
+    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList)
     {
-        if (questInfo == null)
+        if (quest == null)
         {
             ImGui.Text("Select a quest to view details.");
             return;
@@ -133,7 +136,7 @@ public class RendererUtils(IPluginLog log)
         {
             ImGui.BeginChild("QuestDetails", new Vector2(0, 260), true);
 
-            var iconId = questInfo.Icon;
+            var iconId = quest.Icon;
             if (iconId != 0 && QuestJournal.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex)
                             && imageTex.TryGetWrap(out var image, out _))
             {
@@ -175,19 +178,19 @@ public class RendererUtils(IPluginLog log)
                 }
             }
 
-            ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), questInfo.QuestTitle);
+            ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), quest.QuestTitle);
             ImGui.SameLine();
-            ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {questInfo.QuestId}").X);
-            ImGui.TextColored(new Vector4(0.6f, 0.6f, 0.6f, 1f), $"ID: {questInfo.QuestId}");
+            ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {quest.QuestId}").X);
+            ImGui.TextColored(new Vector4(0.6f, 0.6f, 0.6f, 1f), $"ID: {quest.QuestId}");
 
-            ImGui.Text($"Expansion: {questInfo.Expansion}");
+            ImGui.Text($"Expansion: {quest.Expansion}");
             ImGui.SameLine();
             var journalGenreX = ImGui.GetContentRegionMax().X -
                                 ImGui.CalcTextSize(
-                                         $"Journal Genre Category: {questInfo.JournalGenre?.JournalCategory?.Name ?? "None"}")
+                                         $"Journal Genre Category: {quest.JournalGenre?.JournalCategory?.Name ?? "None"}")
                                      .X;
             ImGui.SetCursorPosX(journalGenreX);
-            ImGui.Text($"Journal Genre Category: {questInfo.JournalGenre?.JournalCategory?.Name ?? "None"}");
+            ImGui.Text($"Journal Genre Category: {quest.JournalGenre?.JournalCategory?.Name ?? "None"}");
 
             var childWidth = ImGui.GetContentRegionAvail().X / 2f;
             const float childHeight = 200;
@@ -201,7 +204,7 @@ public class RendererUtils(IPluginLog log)
 
                 if (ImGui.BeginTable("ChainTable", 2, ImGuiTableFlags.BordersInnerV))
                 {
-                    ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 95);
+                    ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
                     ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
 
                     ImGui.TableNextColumn();
@@ -213,8 +216,8 @@ public class RendererUtils(IPluginLog log)
                     ImGui.Text("Previous quest:");
                     ImGui.TableNextColumn();
                     ImGui.PushTextWrapPos();
-                    ImGui.Text(questInfo.PreviousQuestTitles?.Any() == true
-                                   ? string.Join(", ", questInfo.PreviousQuestTitles)
+                    ImGui.Text(quest.PreviousQuestTitles?.Any() == true
+                                   ? string.Join(", ", quest.PreviousQuestTitles)
                                    : "None");
                     ImGui.PopTextWrapPos();
 
@@ -222,31 +225,33 @@ public class RendererUtils(IPluginLog log)
                     ImGui.Text("Next quest:");
                     ImGui.TableNextColumn();
                     ImGui.PushTextWrapPos();
-                    ImGui.Text(questInfo.NextQuestTitles?.Any() == true
-                                   ? string.Join(", ", questInfo.NextQuestTitles)
+                    ImGui.Text(quest.NextQuestTitles?.Any() == true
+                                   ? string.Join(", ", quest.NextQuestTitles)
                                    : "None");
                     ImGui.PopTextWrapPos();
+                    
+                    ImGui.Spacing();
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Starter NPC:");
                     ImGui.TableNextColumn();
-                    if (ImGui.Selectable(questInfo.StarterNpc ?? "None"))
+                    if (ImGui.Selectable(quest.StarterNpc ?? "None"))
                     {
-                        if (questInfo.StarterNpcLocation != null)
+                        if (quest.StarterNpcLocation != null)
                         {
-                            log.Info($"Opening starter location for NPC: {questInfo.StarterNpc}");
-                            QuestHandler.OpenStarterLocation(questInfo, log);
+                            log.Info($"Opening starter location for NPC: {quest.StarterNpc}");
+                            QuestHandler.OpenStarterLocation(quest, log);
                         }
                         else
                         {
-                            log.Warning($"No starter location available for NPC: {questInfo.StarterNpc}");
+                            log.Warning($"No starter location available for NPC: {quest.StarterNpc}");
                         }
                     }
                     
                     ImGui.TableNextColumn();
                     ImGui.Text("Finish NPC:");
                     ImGui.TableNextColumn();
-                    ImGui.Text(questInfo.FinishNpc ?? "None");
+                    ImGui.Text(quest.FinishNpc ?? "None");
 
                     ImGui.EndTable();
                 }
@@ -255,29 +260,124 @@ public class RendererUtils(IPluginLog log)
                 ImGui.SameLine();
 
                 ImGui.BeginChild("RightSection", new Vector2(childWidth, childHeight), true);
-                ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Requirements");
-                ImGui.Separator();
 
-                if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
+                if (ImGui.BeginTabBar("QuestDetailsTabBar", ImGuiTabBarFlags.None))
                 {
-                    ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
-                    ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
+                    if (ImGui.BeginTabItem("Requirements"))
+                    {
+                        if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
+                        {
+                            ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
+                            ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
 
-                    ImGui.TableNextColumn();
-                    ImGui.Text("Requirement 1:");
-                    ImGui.TableNextColumn();
-                    ImGui.PushTextWrapPos();
-                    ImGui.Text("TBD");
-                    ImGui.PopTextWrapPos();
+                            ImGui.TableNextColumn();
+                            ImGui.Text("Requirement 1:");
+                            ImGui.TableNextColumn();
+                            ImGui.PushTextWrapPos();
+                            ImGui.Text("TBD");
+                            ImGui.PopTextWrapPos();
 
-                    ImGui.TableNextColumn();
-                    ImGui.Text("Requirement 2:");
-                    ImGui.TableNextColumn();
-                    ImGui.PushTextWrapPos();
-                    ImGui.Text("TBD");
-                    ImGui.PopTextWrapPos();
+                            ImGui.TableNextColumn();
+                            ImGui.Text("Requirement 2:");
+                            ImGui.TableNextColumn();
+                            ImGui.PushTextWrapPos();
+                            ImGui.Text("TBD");
+                            ImGui.PopTextWrapPos();
 
-                    ImGui.EndTable();
+                            ImGui.EndTable();
+                        }
+
+                        ImGui.EndTabItem();
+                    }
+                    
+                    if (ImGui.BeginTabItem("Rewards"))
+                    {
+                        ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Rewards");
+                        ImGui.Separator();
+
+                        if (ImGui.BeginTable("RewardsTable", 2, ImGuiTableFlags.BordersInnerV | ImGuiTableFlags.Resizable))
+                        {
+                            ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
+                            ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
+
+                            if (quest.Rewards?.Exp > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("EXP:");
+                            
+                                ImGui.TableNextColumn();
+                                ImGui.Text(quest.Rewards.Exp.ToString());
+                            }
+                            
+                            if (quest.Rewards?.Gil > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Gil:");
+
+                                ImGui.TableNextColumn();
+                                ImGui.Text(quest.Rewards.Gil.ToString());
+                            }
+                            
+                            if (quest.Rewards?.Currency != null)
+                            {
+                                var currency = quest.Rewards.Currency;
+
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Currency:");
+
+                                ImGui.TableNextColumn();
+                                DrawItemIconWithLabel(currency.CurrencyId, currency.CurrencyName ?? "Unknown", (byte)currency.Count);
+                            }
+                            
+                            if (quest.Rewards?.Catalysts != null && quest.Rewards.Catalysts.Count > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Catalysts:");
+
+                                ImGui.TableNextColumn();
+                                for (int i = 0; i < quest.Rewards.Catalysts.Count; i++)
+                                {
+                                    var catalyst = quest.Rewards.Catalysts[i];
+
+                                    DrawItemIconWithLabel(catalyst.ItemId, catalyst.ItemName ?? "Unknown", catalyst.Count);
+
+                                    if (i < quest.Rewards.Catalysts.Count - 1)
+                                    {
+                                        ImGui.SameLine();
+                                    }
+                                }
+                            }
+                            
+                            if (quest.Rewards?.Items != null && quest.Rewards.Items.Count > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Items:");
+
+                                ImGui.TableNextColumn();
+                                for (int i = 0; i < quest.Rewards.Items.Count; i++)
+                                {
+                                    var item = quest.Rewards.Items[i];
+                                    DrawItemIconWithLabel(item.ItemId, item.ItemName ?? "Unknown", item.Count, item.Stain);
+
+                                    if (i < quest.Rewards.Items.Count - 1)
+                                    {
+                                        ImGui.SameLine();
+                                    }
+                                }
+                            }
+
+                            ImGui.EndTable();
+                        }
+
+                        ImGui.EndTabItem();
+                    }
+
+                    ImGui.EndTabBar();
                 }
 
                 ImGui.EndChild();
@@ -293,4 +393,51 @@ public class RendererUtils(IPluginLog log)
             ImGui.PopStyleVar();
         }
     }
+    
+    public void DrawItemIconWithLabel(uint itemId, string itemName, byte count, string? stainName = null, float size = 27f)
+    {
+        try
+        {
+            var item = QuestJournal.DataManager.GetExcelSheet<Item>()?.GetRow(itemId);
+            if (item == null)
+            {
+                ImGui.Text("[Invalid Item]");
+                return;
+            }
+
+            var iconId = item.Value.Icon;
+            var lookup = new GameIconLookup(iconId);
+            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+
+            if (sharedTexture.TryGetWrap(out var textureWrap, out _))
+            {
+                ImGui.BeginGroup();
+
+                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                if (ImGui.IsItemHovered())
+                {
+                    ImGui.BeginTooltip();
+                    ImGui.Text(itemName);
+                    if (!string.IsNullOrEmpty(stainName)) ImGui.Text($"[{stainName}]");
+
+                    ImGui.EndTooltip();
+                }
+
+                ImGui.SameLine();
+                ImGui.SetCursorPosY(ImGui.GetCursorPosY() + (size / 4));
+                ImGui.TextColored(new Vector4(1f, 1f, 1f, 1f), $"x{count}");
+
+                ImGui.EndGroup();
+            }
+            else
+            {
+                ImGui.Text("[Missing Texture Wrap]");
+            }
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to render icon for itemId {itemId}: {ex.Message}");
+        }
+    }
+
 }
