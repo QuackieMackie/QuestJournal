@@ -6,14 +6,27 @@ using Dalamud.Interface.Textures;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using ImGuiNET;
-using Lumina.Excel.Sheets;
+using Lumina.Excel;
 using QuestJournal.Models;
-using QuestJournal_QuestJournal = QuestJournal.QuestJournal;
 
 namespace QuestJournal.Utils;
 
-public class RendererUtils(IPluginLog log)
+public class RendererUtils
 {
+    private readonly IPluginLog log;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Item>? ItemSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Emote>? EmoteSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? ActionSheet;
+
+    public RendererUtils(IPluginLog log)
+    {
+        this.log = log;
+
+        ItemSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Item>();
+        EmoteSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Emote>();
+        ActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
+    }
+    
     public void DrawDropDown(string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
     {
         if (ImGui.BeginCombo(label, selectedItem))
@@ -370,6 +383,52 @@ public class RendererUtils(IPluginLog log)
                                     }
                                 }
                             }
+                            
+                            if (quest.Rewards?.OptionalItems != null && quest.Rewards.OptionalItems.Count > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Optional Items:");
+
+                                ImGui.TableNextColumn();
+                                for (int i = 0; i < quest.Rewards.OptionalItems.Count; i++)
+                                {
+                                    var optionalItem = quest.Rewards.OptionalItems[i];
+                                    DrawItemIconWithLabel(
+                                        optionalItem.ItemId, 
+                                        optionalItem.ItemName ?? "Unknown", 
+                                        optionalItem.Count, 
+                                        optionalItem.Stain, 
+                                        optionalItem.IsHq);
+
+                                    if (i < quest.Rewards.OptionalItems.Count - 1)
+                                    {
+                                        ImGui.SameLine();
+                                    }
+                                }
+                            }
+                            
+                            if (quest.Rewards?.Emote != null)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Emote:");
+
+                                ImGui.TableNextColumn();
+                                var emote = quest.Rewards.Emote;
+                                DrawIconWithLabel(EmoteSheet, emote.Id, emote.EmoteName ?? "Unknown");
+                            }
+                            
+                            if (quest.Rewards?.Action != null)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Action:");
+
+                                ImGui.TableNextColumn();
+                                var action = quest.Rewards.Action;
+                                DrawIconWithLabel(ActionSheet, action.Id, action.ActionName ?? "Unknown");
+                            }
 
                             ImGui.EndTable();
                         }
@@ -394,11 +453,11 @@ public class RendererUtils(IPluginLog log)
         }
     }
     
-    public void DrawItemIconWithLabel(uint itemId, string itemName, byte count, string? stainName = null, float size = 27f)
+    public void DrawItemIconWithLabel(uint itemId, string itemName, byte count, string? stainName = null, bool isHq = false, float size = 27f)
     {
         try
         {
-            var item = QuestJournal.DataManager.GetExcelSheet<Item>()?.GetRow(itemId);
+            var item = ItemSheet?.GetRow(itemId);
             if (item == null)
             {
                 ImGui.Text("[Invalid Item]");
@@ -419,7 +478,7 @@ public class RendererUtils(IPluginLog log)
                     ImGui.BeginTooltip();
                     ImGui.Text(itemName);
                     if (!string.IsNullOrEmpty(stainName)) ImGui.Text($"[{stainName}]");
-
+                    if (isHq) ImGui.Text("[High Quality]");
                     ImGui.EndTooltip();
                 }
 
@@ -439,5 +498,58 @@ public class RendererUtils(IPluginLog log)
             log.Error($"Failed to render icon for itemId {itemId}: {ex.Message}");
         }
     }
+    
+    public void DrawIconWithLabel<T>(ExcelSheet<T>? sheet, uint entityId, string entityName, float size = 27f) where T : struct, IExcelRow<T>
+    {
+        try
+        {
+            var row = sheet?.GetRow(entityId);
+            if (row == null)
+            {
+                ImGui.Text("[Invalid Entity]");
+                return;
+            }
 
+            var iconProperty = typeof(T).GetProperty("Icon");
+            if (iconProperty == null)
+            {
+                ImGui.Text("[Icon Property Not Found]");
+                return;
+            }
+            
+            var iconValue = iconProperty.GetValue(row);
+            if (iconValue == null)
+            {
+                ImGui.Text("[Icon Value Not Found]");
+                return;
+            }
+
+            var iconId = Convert.ToUInt32(iconValue);
+            var lookup = new GameIconLookup(iconId);
+            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+
+            if (sharedTexture.TryGetWrap(out var textureWrap, out _))
+            {
+                ImGui.BeginGroup();
+
+                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                if (ImGui.IsItemHovered())
+                {
+                    ImGui.BeginTooltip();
+                    ImGui.Text(entityName);
+                    ImGui.EndTooltip();
+                }
+
+                ImGui.EndGroup();
+            }
+            else
+            {
+                ImGui.Text("[Missing Texture Wrap]");
+            }
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to render icon for entityId {entityId}: {ex.Message}");
+        }
+    }
 }

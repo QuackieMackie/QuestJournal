@@ -78,6 +78,9 @@ public class Reward
     public CurrencyReward? Currency { get; init; }
     public List<CatalystReward>? Catalysts { get; init; }
     public List<ItemsReward>? Items { get; init; }
+    public List<OptionalItemsReward>? OptionalItems { get; init; }
+    public EmoteReward? Emote { get; init; }
+    public ActionReward? Action { get; init; }
 }
 
 public class CurrencyReward
@@ -102,3 +105,23 @@ public class ItemsReward
     public string? Stain { get; init; }
 }
 
+public class OptionalItemsReward
+{
+    public uint ItemId { get; init; }
+    public string? ItemName { get; init; }
+    public byte Count { get; init; }
+    public string? Stain { get; init; }
+    public bool IsHq { get; init; }
+}
+
+public class EmoteReward
+{
+    public uint Id { get; init; }
+    public string? EmoteName { get; init; }
+}
+
+public class ActionReward
+{
+    public uint Id { get; init; }
+    public string? ActionName { get; init; }
+}

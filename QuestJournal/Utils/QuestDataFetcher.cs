@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -8,6 +9,7 @@ using Lumina.Excel;
 using Lumina.Excel.Sheets;
 using Lumina.Text.ReadOnly;
 using QuestJournal.Models;
+using Action = Lumina.Excel.Sheets.Action;
 using Level = QuestJournal.Models.Level;
 
 namespace QuestJournal.Utils;
@@ -16,13 +18,37 @@ public class QuestDataFetcher
 {
     private readonly IDataManager dataManager;
     private readonly IPluginLog log;
+    
+    private Lazy<ExcelSheet<ExVersion>?> exVersionSheet;
+    private Lazy<ExcelSheet<JournalGenre>?> journalGenreSheet;
+    private Lazy<ExcelSheet<Quest>?> questSheet;
+    private Lazy<ExcelSheet<Item>?> itemSheet;
+    private Lazy<ExcelSheet<Stain>?> stainSheet;
+    private Lazy<ExcelSheet<Emote>?> emoteSheet;
+    private Lazy<ExcelSheet<Action>?> actionSheet;
 
     public QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     {
         this.dataManager = dataManager;
         this.log = log;
+        
+        exVersionSheet = new Lazy<ExcelSheet<ExVersion>?>(() => dataManager.GetExcelSheet<ExVersion>());
+        journalGenreSheet = new Lazy<ExcelSheet<JournalGenre>?>(() => dataManager.GetExcelSheet<JournalGenre>());
+        questSheet = new Lazy<ExcelSheet<Quest>?>(() => dataManager.GetExcelSheet<Quest>());
+        itemSheet = new Lazy<ExcelSheet<Item>?>(() => dataManager.GetExcelSheet<Item>());
+        stainSheet = new Lazy<ExcelSheet<Stain>?>(() => dataManager.GetExcelSheet<Stain>());
+        emoteSheet = new Lazy<ExcelSheet<Emote>?>(() => dataManager.GetExcelSheet<Emote>());
+        actionSheet = new Lazy<ExcelSheet<Action>?>(() => dataManager.GetExcelSheet<Action>());
     }
 
+    private ExcelSheet<ExVersion>? ExVersionSheet => exVersionSheet.Value;
+    private ExcelSheet<JournalGenre>? JournalGenreSheet => journalGenreSheet.Value;
+    private ExcelSheet<Quest>? QuestSheet => questSheet.Value;
+    private ExcelSheet<Item>? ItemSheet => itemSheet.Value;
+    private ExcelSheet<Stain>? StainSheet => stainSheet.Value;
+    private ExcelSheet<Emote>? EmoteSheet => emoteSheet.Value;
+    private ExcelSheet<Action>? ActionSheet => actionSheet.Value;
+    
     // Main Public Methods
 
     /// <summary>
@@ -30,18 +56,13 @@ public class QuestDataFetcher
     /// </summary>
     public List<QuestModel?> GetAllQuests()
     {
-        var exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
-        var journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
-        var questSheet = dataManager.GetExcelSheet<Quest>();
-        var itemSheet = dataManager.GetExcelSheet<Item>();
-        var stainSheet = dataManager.GetExcelSheet<Stain>();
-
-        var questInfoLookup = questSheet.ToDictionary(
+        Debug.Assert(QuestSheet != null, nameof(QuestSheet) + " != null");
+        var questInfoLookup = QuestSheet.ToDictionary(
             quest => quest.RowId,
-            quest => BuildQuestInfo(quest, exVersionSheet, journalGenreSheet, itemSheet, stainSheet)
+            quest => BuildQuestInfo(quest)
         );
 
-        foreach (var quest in questSheet)
+        foreach (var quest in QuestSheet)
         {
             if (questInfoLookup.TryGetValue(quest.RowId, out var questInfo) && quest.PreviousQuest.Count > 0)
             {
@@ -127,17 +148,16 @@ public class QuestDataFetcher
     /// <summary>
     ///     Builds a IQuestInfo object from raw quest data.
     /// </summary>
-    private QuestModel? BuildQuestInfo(
-        Quest questData, ExcelSheet<ExVersion>? exVersionSheet, ExcelSheet<JournalGenre>? journalGenreSheet, ExcelSheet<Item>? itemSheet, ExcelSheet<Stain>? stainSheet)
+    private QuestModel? BuildQuestInfo(Quest questData)
     {
         try
         {
             var previousQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest);
             var previousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest);
 
-            var expansionName = GetExpansionName(questData.Expansion, exVersionSheet, questData.Id);
-            var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, journalGenreSheet, questData.Id);
-            var reward = GetRewards(questData, itemSheet, stainSheet);
+            var expansionName = GetExpansionName(questData.Expansion, questData.Id);
+            var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, questData.Id);
+            var reward = GetRewards(questData);
 
             var questDetails = new QuestModel
             {
@@ -170,27 +190,26 @@ public class QuestDataFetcher
     /// <summary>
     ///     Resolves rewards for the quest.
     /// </summary>
-    private Reward? GetRewards(Quest quest, ExcelSheet<Item>? itemSheet, ExcelSheet<Stain>? stainSheet)
+    private Reward? GetRewards(Quest quest)
     {
         var level = quest.LevelMax != 0 ? quest.LevelMax : quest.ClassJobLevel.FirstOrDefault();
         var paramGrow = dataManager.GetExcelSheet<ParamGrow>().GetRow(level);
         var exp = paramGrow.ScaledQuestXP * paramGrow.QuestExpModifier * quest.ExpFactor / 100;
         
-        var catalysts = GetCatalysts(quest, itemSheet);
-        var currencyReward = GetCurrencyReward(quest, itemSheet);
-        var itemReward = GetItemReward(quest, itemSheet, stainSheet);
-
         return new Reward()
         {
             Exp = exp,
             Gil = quest.GilReward,
-            Currency = currencyReward,
-            Catalysts = catalysts,
-            Items = itemReward
+            Currency = GetCurrencyReward(quest),
+            Catalysts = GetCatalysts(quest),
+            Items = GetItemReward(quest),
+            OptionalItems = GetOptionalItemReward(quest),
+            Emote = GetEmoteReward(quest),
+            Action = GetActionReward(quest)
         };
     }
     
-    public List<ItemsReward> GetItemReward(Quest quest, ExcelSheet<Item>? itemSheet, ExcelSheet<Stain>? stainSheet)
+    public List<ItemsReward> GetItemReward(Quest quest)
     {
         var itemRewards = quest.Reward;
 
@@ -206,12 +225,12 @@ public class QuestDataFetcher
             if (itemRef.RowId == 0)
                 continue;
 
-            var item = itemSheet?.GetRow(itemRef.RowId);
+            var item = ItemSheet?.GetRow(itemRef.RowId);
             string? stainName = null;
 
             if (i < quest.RewardStain.Count && quest.RewardStain[i].RowId != 0)
             {
-                var stain = stainSheet?.GetRow(quest.RewardStain[i].RowId);
+                var stain = StainSheet?.GetRow(quest.RewardStain[i].RowId);
                 if (stain != null)
                 {
                     stainName = stain.Value.Name.ToString();
@@ -233,12 +252,64 @@ public class QuestDataFetcher
         return rewards;
     }
     
-    private CurrencyReward? GetCurrencyReward(Quest quest, ExcelSheet<Item>? itemSheet)
+    public List<OptionalItemsReward> GetOptionalItemReward(Quest quest)
+    {
+        var optionalItemRewards = quest.OptionalItemReward;
+
+        if (optionalItemRewards.Count == 0)
+            return new List<OptionalItemsReward>();
+
+        var rewards = new List<OptionalItemsReward>();
+
+        for (var i = 0; i < optionalItemRewards.Count; i++)
+        {
+            var itemRef = optionalItemRewards[i];
+
+            if (itemRef.RowId == 0)
+                continue;
+
+            var item = ItemSheet?.GetRow(itemRef.RowId);
+            string? stainName = null;
+            bool isHq = false;
+
+            // Stain information
+            if (i < quest.OptionalItemStainReward.Count && quest.OptionalItemStainReward[i].RowId != 0)
+            {
+                var stain = StainSheet?.GetRow(quest.OptionalItemStainReward[i].RowId);
+                if (stain != null)
+                {
+                    stainName = stain.Value.Name.ToString();
+                }
+            }
+
+            // Is HQ
+            if (i < quest.OptionalItemIsHQReward.Count)
+            {
+                isHq = quest.OptionalItemIsHQReward[i];
+            }
+
+            if (item != null)
+            {
+                rewards.Add(new OptionalItemsReward
+                {
+                    ItemId = itemRef.RowId,
+                    ItemName = item.Value.Name.ToString(),
+                    Count = (byte)(quest.OptionalItemCountReward.Count > i ? quest.OptionalItemCountReward[i] : 0),
+                    Stain = stainName,
+                    IsHq = isHq
+                });
+            }
+        }
+
+        return rewards;
+    }
+    
+    private CurrencyReward? GetCurrencyReward(Quest quest)
     {
         if (quest.CurrencyReward.RowId == 0)
             return null;
 
-        var currencyRow = itemSheet?.GetRow(quest.CurrencyReward.RowId);
+        var currencyRow = ItemSheet?.GetRow(quest.CurrencyReward.RowId);
         if (currencyRow == null)
             return null;
 
@@ -250,7 +321,7 @@ public class QuestDataFetcher
         };
     }
     
-    private List<CatalystReward> GetCatalysts(Quest quest, ExcelSheet<Item>? itemSheet)
+    private List<CatalystReward> GetCatalysts(Quest quest)
     {
         var catalysts = new List<CatalystReward>();
 
@@ -261,12 +332,12 @@ public class QuestDataFetcher
                 continue;
 
             var itemCount = quest.ItemCountCatalyst.ElementAtOrDefault(i);
-            var currentItemName = itemSheet?.GetRow(itemRef.RowId).Name.ToString();
+            var currentItemName = ItemSheet?.GetRow(itemRef.RowId).Name.ToString();
 
             if (currentItemName == null)
                 continue;
 
-            var matchedItem = itemSheet?.FirstOrDefault(item => item.Name.ToString() == currentItemName);
+            var matchedItem = ItemSheet?.FirstOrDefault(item => item.Name.ToString() == currentItemName);
             var matchedItemId = matchedItem?.RowId ?? 0;
 
             catalysts.Add(new CatalystReward
@@ -280,14 +351,40 @@ public class QuestDataFetcher
         return catalysts;
     }
 
+    private EmoteReward? GetEmoteReward(Quest quest)
+    {
+        if (quest.EmoteReward.RowId == 0) return null;
+
+        var emote = EmoteSheet?.GetRow(quest.EmoteReward.RowId);
+        if (emote == null) return null;
+
+        return new EmoteReward
+        {
+            Id = quest.EmoteReward.RowId,
+            EmoteName = emote.Value.Name.ToString()
+        };
+    }
+    
+    private ActionReward? GetActionReward(Quest quest)
+    {
+        if (quest.ActionReward.RowId == 0) return null;
+
+        var action = ActionSheet?.GetRow(quest.ActionReward.RowId);
+        if (action == null) return null;
+
+        return new ActionReward
+        {
+            Id = quest.ActionReward.RowId,
+            ActionName = action.Value.Name.ToString(),
+        };
+    }
 
     /// <summary>
     ///     Resolves JournalGenreDetails for the quest.
     /// </summary>
-    private JournalGenreDetails? GetJournalGenreDetails(
-        RowRef<JournalGenre> journalGenreRef, ExcelSheet<JournalGenre>? journalGenreSheet, ReadOnlySeString questId)
+    private JournalGenreDetails? GetJournalGenreDetails(RowRef<JournalGenre> journalGenreRef, ReadOnlySeString questId)
     {
-        if (journalGenreSheet == null || journalGenreRef.RowId <= 0) return null;
+        if (JournalGenreSheet == null || journalGenreRef.RowId <= 0) return null;
 
         try
         {
@@ -368,14 +465,13 @@ public class QuestDataFetcher
     /// <summary>
     ///     Resolves the expansion name for the quest.
     /// </summary>
-    private string GetExpansionName(
-        RowRef<ExVersion> expansionRef, ExcelSheet<ExVersion>? exVersionSheet, ReadOnlySeString questId)
+    private string GetExpansionName(RowRef<ExVersion> expansionRef, ReadOnlySeString questId)
     {
-        if (expansionRef.RowId <= 0 || exVersionSheet == null) return "";
+        if (expansionRef.RowId <= 0 || ExVersionSheet == null) return "";
 
         try
         {
-            var expansionRow = exVersionSheet.GetRow(expansionRef.RowId);
+            var expansionRow = ExVersionSheet.GetRow(expansionRef.RowId);
             return expansionRow.Name.ToString() ?? "";
         }
         catch (Exception ex)
