@@ -12,20 +12,17 @@ namespace QuestJournal.UI;
 
 public class MainWindow : Window, IDisposable
 {
-    private readonly QuestJournal plugin;
     private readonly RendererUtils rendererUtils;
     private readonly IPluginLog log;
     
     private readonly MsqHandler msqHandler;
     
     private readonly MsqRenderer msqRenderer;
-    private readonly InformationRenderer informationRenderer;
     private readonly SettingsRenderer settingsRenderer;
 
-    public MainWindow(QuestJournal plugin, IPluginLog log, Configuration configuration, IDalamudPluginInterface pluginInterface) 
+    public MainWindow(IPluginLog log, Configuration configuration, IDalamudPluginInterface pluginInterface) 
         : base("QuestJournal###QuestJournal-QuackieMackie", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
-        this.plugin = plugin;
         this.log = log;
         SizeConstraints = new WindowSizeConstraints
         {
@@ -38,7 +35,6 @@ public class MainWindow : Window, IDisposable
         rendererUtils = new RendererUtils(log);
 
         msqRenderer = new MsqRenderer(msqHandler, rendererUtils, log);
-        informationRenderer = new InformationRenderer();
         settingsRenderer = new SettingsRenderer(configuration, msqRenderer);
     }
 
@@ -77,7 +73,6 @@ public class MainWindow : Window, IDisposable
             //
             // if (ImGui.BeginTabItem("Information"))
             // {
-            //     informationRenderer.DrawInformation();
             //     ImGui.EndTabItem();
             // }
 

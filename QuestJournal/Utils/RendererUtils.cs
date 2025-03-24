@@ -14,21 +14,21 @@ namespace QuestJournal.Utils;
 public class RendererUtils
 {
     private readonly IPluginLog log;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Item>? ItemSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Emote>? EmoteSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? ActionSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? GeneralActionSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? OtherRewardSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Item>? itemSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Emote>? emoteSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? actionSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? generalActionSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? otherRewardSheet;
 
     public RendererUtils(IPluginLog log)
     {
         this.log = log;
 
-        ItemSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Item>();
-        EmoteSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Emote>();
-        ActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
-        GeneralActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>();
-        OtherRewardSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>();
+        itemSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Item>();
+        emoteSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Emote>();
+        actionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
+        generalActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>();
+        otherRewardSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>();
     }
     
     public void DrawDropDown(string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
@@ -417,7 +417,7 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 var emote = quest.Rewards.Emote;
-                                DrawIconWithLabel(EmoteSheet, emote.Id, emote.EmoteName ?? "Unknown");
+                                DrawIconWithLabel(emoteSheet, emote.Id, emote.EmoteName ?? "Unknown");
                             }
                             
                             if (quest.Rewards?.Action != null)
@@ -428,7 +428,7 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 var action = quest.Rewards.Action;
-                                DrawIconWithLabel(ActionSheet, action.Id, action.ActionName ?? "Unknown");
+                                DrawIconWithLabel(actionSheet, action.Id, action.ActionName ?? "Unknown");
                             }
                             
                             if (quest.Rewards?.GeneralActions != null && quest.Rewards.GeneralActions.Count > 0)
@@ -441,7 +441,7 @@ public class RendererUtils
                                 for (int i = 0; i < quest.Rewards.GeneralActions.Count; i++)
                                 {
                                     var generalAction = quest.Rewards.GeneralActions[i];
-                                    DrawIconWithLabel(GeneralActionSheet, generalAction.Id, generalAction.Name ?? "Unknown");
+                                    DrawIconWithLabel(generalActionSheet, generalAction.Id, generalAction.Name ?? "Unknown");
 
                                     if (i < quest.Rewards.GeneralActions.Count - 1)
                                     {
@@ -458,7 +458,7 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 var otherReward = quest.Rewards.OtherReward;
-                                DrawIconWithLabel(OtherRewardSheet, otherReward.Id, otherReward.Name ?? "Unknown");
+                                DrawIconWithLabel(otherRewardSheet, otherReward.Id, otherReward.Name ?? "Unknown");
                             }
 
                             ImGui.EndTable();
@@ -488,7 +488,7 @@ public class RendererUtils
     {
         try
         {
-            var item = ItemSheet?.GetRow(itemId);
+            var item = itemSheet?.GetRow(itemId);
             if (item == null)
             {
                 ImGui.Text("[Invalid Item]");

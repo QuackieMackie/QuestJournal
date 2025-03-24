@@ -1,20 +1,10 @@
 ﻿using System.Collections.Generic;
 using ImGuiNET;
-using QuestJournal.UI.Handler;
 
 namespace QuestJournal.UI.Renderer;
 
-public class SettingsRenderer
+public class SettingsRenderer(Configuration configuration, MsqRenderer msqRenderer)
 {
-    private readonly Configuration configuration;
-    private readonly MsqRenderer msqRenderer;
-
-    public SettingsRenderer(Configuration configuration, MsqRenderer msqRenderer)
-    {
-        this.configuration = configuration;
-        this.msqRenderer = msqRenderer;
-    }
-
     public void DrawSettings()
     {
         ImGui.Text("Settings");

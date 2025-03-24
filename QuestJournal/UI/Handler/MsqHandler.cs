@@ -149,7 +149,7 @@ public class MsqHandler : IDisposable
                         .ToDictionary(
                             file => 
                             {
-                                var fileName = Path.GetFileNameWithoutExtension(file) ?? string.Empty;
+                                var fileName = Path.GetFileNameWithoutExtension(file);
                                 return fileName.StartsWith("MSQ-") 
                                            ? fileName.Substring(4).Replace("_", " ") 
                                            : fileName.Replace("_", " ");

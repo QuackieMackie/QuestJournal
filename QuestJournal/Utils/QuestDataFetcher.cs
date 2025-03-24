@@ -18,33 +18,33 @@ public class QuestDataFetcher
 {
     private readonly IDataManager dataManager;
     private readonly IPluginLog log;
-    
-    private Lazy<ExcelSheet<ExVersion>?> exVersionSheet;
-    private Lazy<ExcelSheet<JournalGenre>?> journalGenreSheet;
-    private Lazy<ExcelSheet<Quest>?> questSheet;
-    private Lazy<ExcelSheet<Item>?> itemSheet;
-    private Lazy<ExcelSheet<Stain>?> stainSheet;
-    private Lazy<ExcelSheet<Emote>?> emoteSheet;
-    private Lazy<ExcelSheet<Action>?> actionSheet;
-    private Lazy<ExcelSheet<GeneralAction>?> generalActionSheet;
-    private Lazy<ExcelSheet<QuestRewardOther>?> questRewardOtherSheet;
-    private Lazy<ExcelSheet<ContentFinderCondition>?> contentFinderConditionSheet;
+
+    private readonly Lazy<ExcelSheet<ExVersion>?> exVersionSheet;
+    private readonly Lazy<ExcelSheet<JournalGenre>?> journalGenreSheet;
+    private readonly Lazy<ExcelSheet<Quest>?> questSheet;
+    private readonly Lazy<ExcelSheet<Item>?> itemSheet;
+    private readonly Lazy<ExcelSheet<Stain>?> stainSheet;
+    private readonly Lazy<ExcelSheet<Emote>?> emoteSheet;
+    private readonly Lazy<ExcelSheet<Action>?> actionSheet;
+    private readonly Lazy<ExcelSheet<GeneralAction>?> generalActionSheet;
+    private readonly Lazy<ExcelSheet<QuestRewardOther>?> questRewardOtherSheet;
+    private readonly Lazy<ExcelSheet<ContentFinderCondition>?> contentFinderConditionSheet;
 
     public QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     {
         this.dataManager = dataManager;
         this.log = log;
-        
-        exVersionSheet = new Lazy<ExcelSheet<ExVersion>?>(() => dataManager.GetExcelSheet<ExVersion>());
-        journalGenreSheet = new Lazy<ExcelSheet<JournalGenre>?>(() => dataManager.GetExcelSheet<JournalGenre>());
-        questSheet = new Lazy<ExcelSheet<Quest>?>(() => dataManager.GetExcelSheet<Quest>());
-        itemSheet = new Lazy<ExcelSheet<Item>?>(() => dataManager.GetExcelSheet<Item>());
-        stainSheet = new Lazy<ExcelSheet<Stain>?>(() => dataManager.GetExcelSheet<Stain>());
-        emoteSheet = new Lazy<ExcelSheet<Emote>?>(() => dataManager.GetExcelSheet<Emote>());
-        actionSheet = new Lazy<ExcelSheet<Action>?>(() => dataManager.GetExcelSheet<Action>());
-        generalActionSheet = new Lazy<ExcelSheet<GeneralAction>?>(() => dataManager.GetExcelSheet<GeneralAction>());
-        questRewardOtherSheet = new Lazy<ExcelSheet<QuestRewardOther>?>(() => dataManager.GetExcelSheet<QuestRewardOther>());
-        contentFinderConditionSheet = new Lazy<ExcelSheet<ContentFinderCondition>?>(() => dataManager.GetExcelSheet<ContentFinderCondition>());
+
+        exVersionSheet = new Lazy<ExcelSheet<ExVersion>?>(() => this.dataManager.GetExcelSheet<ExVersion>());
+        journalGenreSheet = new Lazy<ExcelSheet<JournalGenre>?>(() => this.dataManager.GetExcelSheet<JournalGenre>());
+        questSheet = new Lazy<ExcelSheet<Quest>?>(() => this.dataManager.GetExcelSheet<Quest>());
+        itemSheet = new Lazy<ExcelSheet<Item>?>(() => this.dataManager.GetExcelSheet<Item>());
+        stainSheet = new Lazy<ExcelSheet<Stain>?>(() => this.dataManager.GetExcelSheet<Stain>());
+        emoteSheet = new Lazy<ExcelSheet<Emote>?>(() => this.dataManager.GetExcelSheet<Emote>());
+        actionSheet = new Lazy<ExcelSheet<Action>?>(() => this.dataManager.GetExcelSheet<Action>());
+        generalActionSheet = new Lazy<ExcelSheet<GeneralAction>?>(() => this.dataManager.GetExcelSheet<GeneralAction>());
+        questRewardOtherSheet = new Lazy<ExcelSheet<QuestRewardOther>?>(() => this.dataManager.GetExcelSheet<QuestRewardOther>());
+        contentFinderConditionSheet = new Lazy<ExcelSheet<ContentFinderCondition>?>(() => this.dataManager.GetExcelSheet<ContentFinderCondition>());
     }
 
     private ExcelSheet<ExVersion>? ExVersionSheet => exVersionSheet.Value;
@@ -57,6 +57,7 @@ public class QuestDataFetcher
     private ExcelSheet<GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
     private ExcelSheet<QuestRewardOther>? QuestRewardOtherSheet => questRewardOtherSheet.Value;
     private ExcelSheet<ContentFinderCondition>? ContentFinderConditionSheet => contentFinderConditionSheet.Value;
+
     
     // Main Public Methods
 
@@ -73,7 +74,7 @@ public class QuestDataFetcher
 
         foreach (var quest in QuestSheet)
         {
-            if (questInfoLookup.TryGetValue(quest.RowId, out var questInfo) && quest.PreviousQuest.Count > 0)
+            if (questInfoLookup.TryGetValue(quest.RowId, out _) && quest.PreviousQuest.Count > 0)
             {
                 var prevQuestIds = GetPrerequisiteQuestIds(quest.PreviousQuest);
 
@@ -177,9 +178,9 @@ public class QuestDataFetcher
                 PreviousQuestTitles = previousQuestTitles,
                 NextQuestIds = new List<uint>(),
                 NextQuestTitles = new List<string>(),
-                StarterNpc = ResolveNpcName(questData.IssuerStart, dataManager),
-                StarterNpcLocation = ResolveNpcLocation(questData, dataManager),
-                FinishNpc = ResolveNpcName(questData.TargetEnd, dataManager),
+                StarterNpc = ResolveNpcName(questData.IssuerStart),
+                StarterNpcLocation = ResolveNpcLocation(questData),
+                FinishNpc = ResolveNpcName(questData.TargetEnd),
                 Expansion = expansionName,
                 JournalGenre = journalGenreDetails,
                 SortKey = questData.SortKey,
@@ -200,7 +201,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Resolves rewards for the quest.
     /// </summary>
-    private Reward? GetRewards(uint questId, Quest quest)
+    private Reward GetRewards(uint questId, Quest quest)
     {
         var level = quest.LevelMax != 0 ? quest.LevelMax : quest.ClassJobLevel.FirstOrDefault();
         var paramGrow = dataManager.GetExcelSheet<ParamGrow>().GetRow(level);
@@ -550,7 +551,7 @@ public class QuestDataFetcher
         try
         {
             var expansionRow = ExVersionSheet.GetRow(expansionRef.RowId);
-            return expansionRow.Name.ToString() ?? "";
+            return expansionRow.Name.ToString();
         }
         catch (Exception ex)
         {
@@ -562,7 +563,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Resolves the NPC name for the given RowRef.
     /// </summary>
-    private string? ResolveNpcName(RowRef npcRef, IDataManager dataManager)
+    private string? ResolveNpcName(RowRef npcRef)
     {
         if (npcRef.RowId == 0) return null;
 
@@ -586,7 +587,7 @@ public class QuestDataFetcher
     /// <summary>
     /// Resolves the NPC's location based on the issuer (NPC location).
     /// </summary>
-    private Level? ResolveNpcLocation(Quest questData, IDataManager dataManager)
+    private Level? ResolveNpcLocation(Quest questData)
     {
         try
         {
