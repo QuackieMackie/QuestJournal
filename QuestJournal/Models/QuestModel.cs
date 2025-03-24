@@ -81,6 +81,9 @@ public class Reward
     public List<OptionalItemsReward>? OptionalItems { get; init; }
     public EmoteReward? Emote { get; init; }
     public ActionReward? Action { get; init; }
+    public List<GeneralActionReward>? GeneralActions { get; init; }
+    public OtherReward? OtherReward { get; init; }
+    public List<InstanceContentUnlockReward>? InstanceContentUnlock { get; init; }
 }
 
 public class CurrencyReward
@@ -125,3 +128,22 @@ public class ActionReward
     public uint Id { get; init; }
     public string? ActionName { get; init; }
 }
+
+public class GeneralActionReward
+{
+    public uint Id { get; init; }
+    public string? Name { get; init; }
+}
+
+public class OtherReward
+{
+    public uint Id { get; init; }
+    public string? Name { get; init; }
+}
+
+public class InstanceContentUnlockReward
+{
+    public uint InstanceId { get; init; }
+    public string? InstanceName { get; init; }
+}
+

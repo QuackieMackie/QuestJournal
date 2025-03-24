@@ -17,6 +17,8 @@ public class RendererUtils
     private readonly ExcelSheet<Lumina.Excel.Sheets.Item>? ItemSheet;
     private readonly ExcelSheet<Lumina.Excel.Sheets.Emote>? EmoteSheet;
     private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? ActionSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? GeneralActionSheet;
+    private readonly ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? OtherRewardSheet;
 
     public RendererUtils(IPluginLog log)
     {
@@ -25,6 +27,8 @@ public class RendererUtils
         ItemSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Item>();
         EmoteSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Emote>();
         ActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
+        GeneralActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>();
+        OtherRewardSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>();
     }
     
     public void DrawDropDown(string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
@@ -305,9 +309,6 @@ public class RendererUtils
                     
                     if (ImGui.BeginTabItem("Rewards"))
                     {
-                        ImGui.TextColored(new Vector4(0.9f, 0.75f, 0.4f, 1f), "Rewards");
-                        ImGui.Separator();
-
                         if (ImGui.BeginTable("RewardsTable", 2, ImGuiTableFlags.BordersInnerV | ImGuiTableFlags.Resizable))
                         {
                             ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
@@ -429,6 +430,36 @@ public class RendererUtils
                                 var action = quest.Rewards.Action;
                                 DrawIconWithLabel(ActionSheet, action.Id, action.ActionName ?? "Unknown");
                             }
+                            
+                            if (quest.Rewards?.GeneralActions != null && quest.Rewards.GeneralActions.Count > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("General Actions:");
+
+                                ImGui.TableNextColumn();
+                                for (int i = 0; i < quest.Rewards.GeneralActions.Count; i++)
+                                {
+                                    var generalAction = quest.Rewards.GeneralActions[i];
+                                    DrawIconWithLabel(GeneralActionSheet, generalAction.Id, generalAction.Name ?? "Unknown");
+
+                                    if (i < quest.Rewards.GeneralActions.Count - 1)
+                                    {
+                                        ImGui.SameLine();
+                                    }
+                                }
+                            }
+                            
+                            if (quest.Rewards?.OtherReward != null)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Other Reward:");
+
+                                ImGui.TableNextColumn();
+                                var otherReward = quest.Rewards.OtherReward;
+                                DrawIconWithLabel(OtherRewardSheet, otherReward.Id, otherReward.Name ?? "Unknown");
+                            }
 
                             ImGui.EndTable();
                         }
@@ -483,7 +514,7 @@ public class RendererUtils
                 }
 
                 ImGui.SameLine();
-                ImGui.SetCursorPosY(ImGui.GetCursorPosY() + (size / 4));
+                ImGui.AlignTextToFramePadding();
                 ImGui.TextColored(new Vector4(1f, 1f, 1f, 1f), $"x{count}");
 
                 ImGui.EndGroup();

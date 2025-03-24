@@ -26,6 +26,9 @@ public class QuestDataFetcher
     private Lazy<ExcelSheet<Stain>?> stainSheet;
     private Lazy<ExcelSheet<Emote>?> emoteSheet;
     private Lazy<ExcelSheet<Action>?> actionSheet;
+    private Lazy<ExcelSheet<GeneralAction>?> generalActionSheet;
+    private Lazy<ExcelSheet<QuestRewardOther>?> questRewardOtherSheet;
+    private Lazy<ExcelSheet<ContentFinderCondition>?> contentFinderConditionSheet;
 
     public QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     {
@@ -39,6 +42,9 @@ public class QuestDataFetcher
         stainSheet = new Lazy<ExcelSheet<Stain>?>(() => dataManager.GetExcelSheet<Stain>());
         emoteSheet = new Lazy<ExcelSheet<Emote>?>(() => dataManager.GetExcelSheet<Emote>());
         actionSheet = new Lazy<ExcelSheet<Action>?>(() => dataManager.GetExcelSheet<Action>());
+        generalActionSheet = new Lazy<ExcelSheet<GeneralAction>?>(() => dataManager.GetExcelSheet<GeneralAction>());
+        questRewardOtherSheet = new Lazy<ExcelSheet<QuestRewardOther>?>(() => dataManager.GetExcelSheet<QuestRewardOther>());
+        contentFinderConditionSheet = new Lazy<ExcelSheet<ContentFinderCondition>?>(() => dataManager.GetExcelSheet<ContentFinderCondition>());
     }
 
     private ExcelSheet<ExVersion>? ExVersionSheet => exVersionSheet.Value;
@@ -48,6 +54,9 @@ public class QuestDataFetcher
     private ExcelSheet<Stain>? StainSheet => stainSheet.Value;
     private ExcelSheet<Emote>? EmoteSheet => emoteSheet.Value;
     private ExcelSheet<Action>? ActionSheet => actionSheet.Value;
+    private ExcelSheet<GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
+    private ExcelSheet<QuestRewardOther>? QuestRewardOtherSheet => questRewardOtherSheet.Value;
+    private ExcelSheet<ContentFinderCondition>? ContentFinderConditionSheet => contentFinderConditionSheet.Value;
     
     // Main Public Methods
 
@@ -152,16 +161,17 @@ public class QuestDataFetcher
     {
         try
         {
+            var questId = questData.RowId;
             var previousQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest);
             var previousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest);
 
             var expansionName = GetExpansionName(questData.Expansion, questData.Id);
             var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, questData.Id);
-            var reward = GetRewards(questData);
+            var reward = GetRewards(questId, questData);
 
             var questDetails = new QuestModel
             {
-                QuestId = questData.RowId,
+                QuestId = questId,
                 QuestTitle = questData.Name.ToString(),
                 PreviousQuestIds = previousQuestIds,
                 PreviousQuestTitles = previousQuestTitles,
@@ -190,7 +200,7 @@ public class QuestDataFetcher
     /// <summary>
     ///     Resolves rewards for the quest.
     /// </summary>
-    private Reward? GetRewards(Quest quest)
+    private Reward? GetRewards(uint questId, Quest quest)
     {
         var level = quest.LevelMax != 0 ? quest.LevelMax : quest.ClassJobLevel.FirstOrDefault();
         var paramGrow = dataManager.GetExcelSheet<ParamGrow>().GetRow(level);
@@ -205,7 +215,10 @@ public class QuestDataFetcher
             Items = GetItemReward(quest),
             OptionalItems = GetOptionalItemReward(quest),
             Emote = GetEmoteReward(quest),
-            Action = GetActionReward(quest)
+            Action = GetActionReward(quest),
+            GeneralActions = GetGeneralActionRewards(quest),
+            OtherReward = GetOtherReward(quest),
+            //InstanceContentUnlock = GetInstanceContentUnlockReward(questId)
         };
     }
     
@@ -378,6 +391,71 @@ public class QuestDataFetcher
             ActionName = action.Value.Name.ToString(),
         };
     }
+    
+    private List<GeneralActionReward> GetGeneralActionRewards(Quest quest)
+    {
+        var generalActionRewards = quest.GeneralActionReward;
+
+        if (generalActionRewards.Count == 0)
+            return new List<GeneralActionReward>();
+
+        var rewards = new List<GeneralActionReward>();
+
+        foreach (var generalActionRef in generalActionRewards)
+        {
+            if (generalActionRef.RowId == 0)
+                continue;
+
+            var generalAction = GeneralActionSheet?.GetRow(generalActionRef.RowId);
+            if (generalAction != null)
+            {
+                rewards.Add(new GeneralActionReward
+                {
+                    Id = generalAction.Value.RowId,
+                    Name = generalAction.Value.Name.ToString()
+                });
+            }
+        }
+
+        return rewards;
+    }
+    
+    private OtherReward? GetOtherReward(Quest quest)
+    {
+        var otherRewardRef = quest.OtherReward;
+
+        if (otherRewardRef.RowId == 0)
+            return null;
+
+        var otherReward = QuestRewardOtherSheet?.GetRow(otherRewardRef.RowId);
+        if (otherReward != null)
+        {
+            return new OtherReward
+            {
+                Id = otherReward.Value.RowId,
+                Name = otherReward.Value.Name.ToString()
+            };
+        }
+
+        return null;
+    }
+    
+    // private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(uint questId)
+    // {
+    //     if (ContentFinderConditionSheet == null)
+    //         return null;
+    //
+    //     var instanceContentRewards = ContentFinderConditionSheet
+    //                                  .Where(c => c.UnlockQuest.RowId == questId)
+    //                                  .Select(content => new InstanceContentUnlockReward
+    //                                  {
+    //                                      InstanceId = content.RowId,
+    //                                      InstanceName = content.Name.ToString()
+    //                                  })
+    //                                  .ToList();
+    //
+    //     return instanceContentRewards.Count > 0 ? instanceContentRewards : null;
+    // }
 
     /// <summary>
     ///     Resolves JournalGenreDetails for the quest.
