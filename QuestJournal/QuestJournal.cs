@@ -1,13 +1,9 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using Dalamud.Interface;
+﻿using System.IO;
 using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
-using FFXIVClientStructs.FFXIV.Client.Game.UI;
 using QuestJournal.Commands;
-using QuestJournal.Models;
 using QuestJournal.UI;
 using QuestJournal.Utils;
 

@@ -219,7 +219,7 @@ public class QuestDataFetcher
             Action = GetActionReward(quest),
             GeneralActions = GetGeneralActionRewards(quest),
             OtherReward = GetOtherReward(quest),
-            //InstanceContentUnlock = GetInstanceContentUnlockReward(questId)
+            InstanceContentUnlock = GetInstanceContentUnlockReward(questId)
         };
     }
     
@@ -441,22 +441,42 @@ public class QuestDataFetcher
         return null;
     }
     
-    // private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(uint questId)
-    // {
-    //     if (ContentFinderConditionSheet == null)
-    //         return null;
-    //
-    //     var instanceContentRewards = ContentFinderConditionSheet
-    //                                  .Where(c => c.UnlockQuest.RowId == questId)
-    //                                  .Select(content => new InstanceContentUnlockReward
-    //                                  {
-    //                                      InstanceId = content.RowId,
-    //                                      InstanceName = content.Name.ToString()
-    //                                  })
-    //                                  .ToList();
-    //
-    //     return instanceContentRewards.Count > 0 ? instanceContentRewards : null;
-    // }
+    private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(uint questId)
+    {
+        if (ContentFinderConditionSheet == null)
+            return null;
+    
+        var instanceContentRewards = ContentFinderConditionSheet
+                                     .Where(c => c.UnlockQuest.RowId == questId)
+                                     .Select(content => new InstanceContentUnlockReward
+                                     {
+                                         InstanceId = content.RowId,
+                                         InstanceName = content.Name.ToString()
+                                     })
+                                     .ToList();
+    
+        var quest = QuestSheet?.GetRow(questId);
+        if (quest != null)
+        {
+            var instanceContentUnlockRowId = quest.Value.InstanceContentUnlock.RowId;
+            if (instanceContentUnlockRowId != 0)
+            {
+                var matchingContent = ContentFinderConditionSheet.GetRow(instanceContentUnlockRowId);
+                if (matchingContent.RowId != 0)
+                {
+                    instanceContentRewards.Add(new InstanceContentUnlockReward
+                    {
+                        InstanceId = matchingContent.RowId,
+                        InstanceName = matchingContent.Name.ToString()
+                    });
+                }
+
+            }
+        }
+
+        return instanceContentRewards.Count > 0 ? instanceContentRewards : null;
+
+    }
 
     /// <summary>
     ///     Resolves JournalGenreDetails for the quest.

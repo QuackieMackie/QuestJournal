@@ -14,22 +14,29 @@ namespace QuestJournal.Utils;
 public class RendererUtils
 {
     private readonly IPluginLog log;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Item>? itemSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Emote>? emoteSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? actionSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? generalActionSheet;
-    private readonly ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? otherRewardSheet;
+    
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.Item>> itemSheet;
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.Emote>> emoteSheet;
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.Action>> actionSheet;
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.GeneralAction>> generalActionSheet;
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>> otherRewardSheet;
 
     public RendererUtils(IPluginLog log)
     {
         this.log = log;
 
-        itemSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Item>();
-        emoteSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Emote>();
-        actionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
-        generalActionSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>();
-        otherRewardSheet = QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>();
+        itemSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.Item>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Item>());
+        emoteSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.Emote>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Emote>());
+        actionSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.Action>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>());
+        generalActionSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.GeneralAction>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>());
+        otherRewardSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>());
     }
+    
+    private ExcelSheet<Lumina.Excel.Sheets.Item>? ItemSheet => itemSheet.Value;
+    private ExcelSheet<Lumina.Excel.Sheets.Emote>? EmoteSheet => emoteSheet.Value;
+    private ExcelSheet<Lumina.Excel.Sheets.Action>? ActionSheet => actionSheet.Value;
+    private ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
+    private ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? OtherRewardSheet => otherRewardSheet.Value;
     
     public void DrawDropDown(string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
     {
@@ -417,7 +424,7 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 var emote = quest.Rewards.Emote;
-                                DrawIconWithLabel(emoteSheet, emote.Id, emote.EmoteName ?? "Unknown");
+                                DrawIconWithLabel(EmoteSheet, emote.Id, emote.EmoteName ?? "Unknown");
                             }
                             
                             if (quest.Rewards?.Action != null)
@@ -428,7 +435,7 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 var action = quest.Rewards.Action;
-                                DrawIconWithLabel(actionSheet, action.Id, action.ActionName ?? "Unknown");
+                                DrawIconWithLabel(ActionSheet, action.Id, action.ActionName ?? "Unknown");
                             }
                             
                             if (quest.Rewards?.GeneralActions != null && quest.Rewards.GeneralActions.Count > 0)
@@ -441,7 +448,7 @@ public class RendererUtils
                                 for (int i = 0; i < quest.Rewards.GeneralActions.Count; i++)
                                 {
                                     var generalAction = quest.Rewards.GeneralActions[i];
-                                    DrawIconWithLabel(generalActionSheet, generalAction.Id, generalAction.Name ?? "Unknown");
+                                    DrawIconWithLabel(GeneralActionSheet, generalAction.Id, generalAction.Name ?? "Unknown");
 
                                     if (i < quest.Rewards.GeneralActions.Count - 1)
                                     {
@@ -458,7 +465,26 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 var otherReward = quest.Rewards.OtherReward;
-                                DrawIconWithLabel(otherRewardSheet, otherReward.Id, otherReward.Name ?? "Unknown");
+                                DrawIconWithLabel(OtherRewardSheet, otherReward.Id, otherReward.Name ?? "Unknown");
+                            }
+
+                            if (quest.Rewards?.InstanceContentUnlock != null && quest.Rewards?.InstanceContentUnlock.Count > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Instance Content:");
+
+                                ImGui.TableNextColumn();
+                                for (int i = 0; i < quest.Rewards.InstanceContentUnlock.Count; i++)
+                                {
+                                    var instanceContentUnlock = quest.Rewards.InstanceContentUnlock[i];
+                                    ImGui.Text(instanceContentUnlock.InstanceName ?? "Unknown");
+
+                                    if (i < quest.Rewards.InstanceContentUnlock.Count - 1)
+                                    {
+                                        ImGui.SameLine();
+                                    }
+                                }
                             }
 
                             ImGui.EndTable();
@@ -488,7 +514,7 @@ public class RendererUtils
     {
         try
         {
-            var item = itemSheet?.GetRow(itemId);
+            var item = ItemSheet?.GetRow(itemId);
             if (item == null)
             {
                 ImGui.Text("[Invalid Item]");
