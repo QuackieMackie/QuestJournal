@@ -77,7 +77,8 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   },
   {
@@ -129,7 +130,8 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   },
   {
@@ -210,7 +212,8 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   },
   {
@@ -262,7 +265,8 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   },
   {
@@ -343,7 +347,8 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   },
   {
@@ -397,7 +402,8 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   },
   {
@@ -409,8 +415,12 @@
     "PreviousQuestTitles": [
       "The Warmth of Family"
     ],
-    "NextQuestIds": [],
-    "NextQuestTitles": [],
+    "NextQuestIds": [
+      70835
+    ],
+    "NextQuestTitles": [
+      "A Glimmer of the Past"
+    ],
     "StarterNpc": "Wuk Lamat",
     "StarterNpcLocation": {
       "RowId": 11041761,
@@ -467,7 +477,551 @@
       "Emote": null,
       "Action": null,
       "GeneralActions": [],
-      "OtherReward": null
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70835,
+    "QuestTitle": "A Glimmer of the Past",
+    "PreviousQuestIds": [
+      70786
+    ],
+    "PreviousQuestTitles": [
+      "Crossroads"
+    ],
+    "NextQuestIds": [
+      70836
+    ],
+    "NextQuestTitles": [
+      "Memories of a Bygone Age"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 11158314,
+      "X": -4.87403,
+      "Y": 0,
+      "Z": 8.94141,
+      "Yaw": 2.80494,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 201,
+    "Icon": 101412,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1241,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44104,
+          "ItemName": "Tacos de Carne Asada",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44098,
+          "ItemName": "Mesquite Soup",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44087,
+          "ItemName": "Creamy Alpaca Pasta",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44090,
+          "ItemName": "Broccoli and Spinach Saute",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70836,
+    "QuestTitle": "Memories of a Bygone Age",
+    "PreviousQuestIds": [
+      70835
+    ],
+    "PreviousQuestTitles": [
+      "A Glimmer of the Past"
+    ],
+    "NextQuestIds": [
+      70837
+    ],
+    "NextQuestTitles": [
+      "In Search of Meaning"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11682769,
+      "X": 5.218,
+      "Y": 0.025,
+      "Z": 2.326,
+      "Yaw": -3.13746,
+      "Radius": 1,
+      "MapId": 1023,
+      "TerritoryId": 1268
+    },
+    "FinishNpc": "Wuk Lamat",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 202,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1241,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70837,
+    "QuestTitle": "In Search of Meaning",
+    "PreviousQuestIds": [
+      70836
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Bygone Age"
+    ],
+    "NextQuestIds": [
+      70838
+    ],
+    "NextQuestTitles": [
+      "A Jewel Shattered"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11546360,
+      "X": -343.283,
+      "Y": 10.0146,
+      "Z": -11.6927,
+      "Yaw": 0.671509,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "lively citizen",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 203,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1150,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70838,
+    "QuestTitle": "A Jewel Shattered",
+    "PreviousQuestIds": [
+      70837
+    ],
+    "PreviousQuestTitles": [
+      "In Search of Meaning"
+    ],
+    "NextQuestIds": [
+      70839
+    ],
+    "NextQuestTitles": [
+      "The Meeting"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11546576,
+      "X": 239.9,
+      "Y": 50.75,
+      "Z": 273.99,
+      "Yaw": 1.83902,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 204,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1104,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70839,
+    "QuestTitle": "The Meeting",
+    "PreviousQuestIds": [
+      70838
+    ],
+    "PreviousQuestTitles": [
+      "A Jewel Shattered"
+    ],
+    "NextQuestIds": [
+      70840
+    ],
+    "NextQuestTitles": [
+      "Descent to the Foundation"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11547051,
+      "X": 271.134,
+      "Y": 50.75,
+      "Z": 186.074,
+      "Yaw": -2.84484,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 205,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 920,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44104,
+          "ItemName": "Tacos de Carne Asada",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44098,
+          "ItemName": "Mesquite Soup",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44087,
+          "ItemName": "Creamy Alpaca Pasta",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44090,
+          "ItemName": "Broccoli and Spinach Saute",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70840,
+    "QuestTitle": "Descent to the Foundation",
+    "PreviousQuestIds": [
+      70839
+    ],
+    "PreviousQuestTitles": [
+      "The Meeting"
+    ],
+    "NextQuestIds": [
+      70841
+    ],
+    "NextQuestTitles": [
+      "Shared Paths"
+    ],
+    "StarterNpc": "Shale",
+    "StarterNpcLocation": {
+      "RowId": 10414091,
+      "X": -5.85494,
+      "Y": -0.0153198,
+      "Z": 6.87689,
+      "Yaw": 1.13015,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 206,
+    "Icon": 112592,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 6000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70841,
+    "QuestTitle": "Shared Paths",
+    "PreviousQuestIds": [
+      70840
+    ],
+    "PreviousQuestTitles": [
+      "Descent to the Foundation"
+    ],
+    "NextQuestIds": [
+      70842
+    ],
+    "NextQuestTitles": [
+      "Seekers of Eternity"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11557732,
+      "X": 0.0264338,
+      "Y": 0,
+      "Z": 20.6649,
+      "Yaw": -3.04952,
+      "Radius": 1,
+      "MapId": 1024,
+      "TerritoryId": 1274
+    },
+    "FinishNpc": "Milos",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 207,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1287,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70842,
+    "QuestTitle": "Seekers of Eternity",
+    "PreviousQuestIds": [
+      70841
+    ],
+    "PreviousQuestTitles": [
+      "Shared Paths"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11558604,
+      "X": -403.314,
+      "Y": 14.03,
+      "Z": 272.954,
+      "Yaw": 1.02204,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Shale",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 208,
+    "Icon": 101413,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2373,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
     }
   }
 ]
