@@ -145,5 +145,6 @@ public class InstanceContentUnlockReward
 {
     public uint InstanceId { get; init; }
     public string? InstanceName { get; init; }
+    public uint ContentType { get; init; }
 }
 

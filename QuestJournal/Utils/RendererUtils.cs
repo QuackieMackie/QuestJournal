@@ -4,9 +4,12 @@ using System.Linq;
 using System.Numerics;
 using Dalamud.Interface.Textures;
 using Dalamud.Plugin.Services;
+using Dalamud.Utility;
 using FFXIVClientStructs.FFXIV.Client.Game;
+using FFXIVClientStructs.FFXIV.Common.Component.Excel;
 using ImGuiNET;
 using Lumina.Excel;
+using Lumina.Excel.Sheets;
 using QuestJournal.Models;
 
 namespace QuestJournal.Utils;
@@ -20,6 +23,7 @@ public class RendererUtils
     private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.Action>> actionSheet;
     private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.GeneralAction>> generalActionSheet;
     private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>> otherRewardSheet;
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.ContentType>> contentTypeSheet;
 
     public RendererUtils(IPluginLog log)
     {
@@ -30,6 +34,7 @@ public class RendererUtils
         actionSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.Action>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>());
         generalActionSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.GeneralAction>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>());
         otherRewardSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>());
+        contentTypeSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.ContentType>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.ContentType>());
     }
     
     private ExcelSheet<Lumina.Excel.Sheets.Item>? ItemSheet => itemSheet.Value;
@@ -37,6 +42,7 @@ public class RendererUtils
     private ExcelSheet<Lumina.Excel.Sheets.Action>? ActionSheet => actionSheet.Value;
     private ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
     private ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? OtherRewardSheet => otherRewardSheet.Value;
+    private ExcelSheet<Lumina.Excel.Sheets.ContentType>? ContentTypeSheet => contentTypeSheet.Value;
     
     public void DrawDropDown(string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
     {
@@ -478,8 +484,7 @@ public class RendererUtils
                                 for (int i = 0; i < quest.Rewards.InstanceContentUnlock.Count; i++)
                                 {
                                     var instanceContentUnlock = quest.Rewards.InstanceContentUnlock[i];
-                                    ImGui.Text(instanceContentUnlock.InstanceName ?? "Unknown");
-
+                                    DrawIconWithLabel(ContentTypeSheet, instanceContentUnlock.ContentType, instanceContentUnlock.InstanceName ?? "Unknown");
                                     if (i < quest.Rewards.InstanceContentUnlock.Count - 1)
                                     {
                                         ImGui.SameLine();
@@ -593,7 +598,7 @@ public class RendererUtils
                 if (ImGui.IsItemHovered())
                 {
                     ImGui.BeginTooltip();
-                    ImGui.Text(entityName);
+                    ImGui.Text(entityName.FirstCharToUpper());
                     ImGui.EndTooltip();
                 }
 

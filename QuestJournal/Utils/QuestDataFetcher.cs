@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Text.Json;
 using Dalamud.Plugin.Services;
 using Lumina.Excel;
 using Lumina.Excel.Sheets;
@@ -29,6 +27,7 @@ public class QuestDataFetcher
     private readonly Lazy<ExcelSheet<GeneralAction>?> generalActionSheet;
     private readonly Lazy<ExcelSheet<QuestRewardOther>?> questRewardOtherSheet;
     private readonly Lazy<ExcelSheet<ContentFinderCondition>?> contentFinderConditionSheet;
+    private readonly Lazy<ExcelSheet<ContentType>?> contentTypeSheet;
 
     public QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     {
@@ -45,6 +44,7 @@ public class QuestDataFetcher
         generalActionSheet = new Lazy<ExcelSheet<GeneralAction>?>(() => this.dataManager.GetExcelSheet<GeneralAction>());
         questRewardOtherSheet = new Lazy<ExcelSheet<QuestRewardOther>?>(() => this.dataManager.GetExcelSheet<QuestRewardOther>());
         contentFinderConditionSheet = new Lazy<ExcelSheet<ContentFinderCondition>?>(() => this.dataManager.GetExcelSheet<ContentFinderCondition>());
+        contentTypeSheet = new Lazy<ExcelSheet<ContentType>?>(() => this.dataManager.GetExcelSheet<ContentType>());
     }
 
     private ExcelSheet<ExVersion>? ExVersionSheet => exVersionSheet.Value;
@@ -57,19 +57,19 @@ public class QuestDataFetcher
     private ExcelSheet<GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
     private ExcelSheet<QuestRewardOther>? QuestRewardOtherSheet => questRewardOtherSheet.Value;
     private ExcelSheet<ContentFinderCondition>? ContentFinderConditionSheet => contentFinderConditionSheet.Value;
-
+    private ExcelSheet<ContentType>? ContentTypeSheet => contentTypeSheet.Value;
     
     // Main Public Methods
 
     /// <summary>
     ///     Fetches all quests and their details.
     /// </summary>
-    public List<QuestModel?> GetAllQuests()
+    public List<QuestModel> GetAllQuests()
     {
         Debug.Assert(QuestSheet != null, nameof(QuestSheet) + " != null");
         var questInfoLookup = QuestSheet.ToDictionary(
             quest => quest.RowId,
-            quest => BuildQuestInfo(quest)
+            BuildQuestInfo
         );
 
         foreach (var quest in QuestSheet)
@@ -83,12 +83,13 @@ public class QuestDataFetcher
                     if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
                     {
                         prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
-                        prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ToString());
+                        prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
                     }
                 }
             }
         }
-        return questInfoLookup.Values.ToList();
+        
+        return questInfoLookup.Values.Where(quest => quest != null).Select(quest => quest!).ToList();
     }
 
     /// <summary>
@@ -124,8 +125,6 @@ public class QuestDataFetcher
 
         foreach (var quest in allQuests)
         {
-            if (quest == null) continue;
-
             var categoryName = quest.JournalGenre?.JournalCategory?.Name;
             if (categoryName != null && msqCategories.Contains(categoryName))
             {
@@ -134,23 +133,6 @@ public class QuestDataFetcher
         }
 
         return categorizedQuests;
-    }
-
-    /// <summary>
-    ///     Saves a list of quests to a JSON file.
-    /// </summary>
-    public void SaveQuestDataToJson(List<QuestModel?> questData, string filePath)
-    {
-        try
-        {
-            var jsonString = JsonSerializer.Serialize(questData, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(filePath, jsonString);
-        }
-        catch (Exception ex)
-        {
-            log.Error($"Failed to save quest data to JSON file at '{filePath}': {ex.Message}");
-            throw;
-        }
     }
 
     // IQuestInfo Builders
@@ -163,39 +145,29 @@ public class QuestDataFetcher
         try
         {
             var questId = questData.RowId;
-            var previousQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest);
-            var previousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest);
-
-            var expansionName = GetExpansionName(questData.Expansion, questData.Id);
-            var journalGenreDetails = GetJournalGenreDetails(questData.JournalGenre, questData.Id);
-            var reward = GetRewards(questId, questData);
 
             var questDetails = new QuestModel
             {
                 QuestId = questId,
-                QuestTitle = questData.Name.ToString(),
-                PreviousQuestIds = previousQuestIds,
-                PreviousQuestTitles = previousQuestTitles,
+                QuestTitle = questData.Name.ExtractText(),
+                PreviousQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest),
+                PreviousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest),
                 NextQuestIds = new List<uint>(),
                 NextQuestTitles = new List<string>(),
                 StarterNpc = ResolveNpcName(questData.IssuerStart),
                 StarterNpcLocation = ResolveNpcLocation(questData),
                 FinishNpc = ResolveNpcName(questData.TargetEnd),
-                Expansion = expansionName,
-                JournalGenre = journalGenreDetails,
+                Expansion = GetExpansionName(questData.Expansion, questData.Id),
+                JournalGenre = GetJournalGenreDetails(questData.JournalGenre, questData.Id),
                 SortKey = questData.SortKey,
                 Icon = questData.Icon,
                 IconSpecial = questData.IconSpecial,
-                Rewards = reward
+                Rewards = GetRewards(questId, questData)
             };
-            
+
             return questDetails;
         }
-        catch (Exception ex)
-        {
-            log.Error($"Failed to build IQuestInfo for QuestId {questData.RowId}: {ex.Message}");
-            return null;
-        }
+        catch { return null; }
     }
 
     /// <summary>
@@ -247,7 +219,7 @@ public class QuestDataFetcher
                 var stain = StainSheet?.GetRow(quest.RewardStain[i].RowId);
                 if (stain != null)
                 {
-                    stainName = stain.Value.Name.ToString();
+                    stainName = stain.Value.Name.ExtractText();
                 }
             }
 
@@ -256,7 +228,7 @@ public class QuestDataFetcher
                 rewards.Add(new ItemsReward
                 {
                     ItemId = itemRef.RowId,
-                    ItemName = item.Value.Name.ToString(),
+                    ItemName = item.Value.Name.ExtractText(),
                     Count = (byte)(quest.ItemCountReward.Count > i ? quest.ItemCountReward[i] : 0),
                     Stain = stainName
                 });
@@ -292,7 +264,7 @@ public class QuestDataFetcher
                 var stain = StainSheet?.GetRow(quest.OptionalItemStainReward[i].RowId);
                 if (stain != null)
                 {
-                    stainName = stain.Value.Name.ToString();
+                    stainName = stain.Value.Name.ExtractText();
                 }
             }
 
@@ -307,7 +279,7 @@ public class QuestDataFetcher
                 rewards.Add(new OptionalItemsReward
                 {
                     ItemId = itemRef.RowId,
-                    ItemName = item.Value.Name.ToString(),
+                    ItemName = item.Value.Name.ExtractText(),
                     Count = (byte)(quest.OptionalItemCountReward.Count > i ? quest.OptionalItemCountReward[i] : 0),
                     Stain = stainName,
                     IsHq = isHq
@@ -330,7 +302,7 @@ public class QuestDataFetcher
         return new CurrencyReward
         {
             CurrencyId = quest.CurrencyReward.RowId,
-            CurrencyName = currencyRow.Value.Name.ToString(),
+            CurrencyName = currencyRow.Value.Name.ExtractText(),
             Count = quest.CurrencyRewardCount
         };
     }
@@ -346,12 +318,12 @@ public class QuestDataFetcher
                 continue;
 
             var itemCount = quest.ItemCountCatalyst.ElementAtOrDefault(i);
-            var currentItemName = ItemSheet?.GetRow(itemRef.RowId).Name.ToString();
+            var currentItemName = ItemSheet?.GetRow(itemRef.RowId).Name.ExtractText();
 
             if (currentItemName == null)
                 continue;
 
-            var matchedItem = ItemSheet?.FirstOrDefault(item => item.Name.ToString() == currentItemName);
+            var matchedItem = ItemSheet?.FirstOrDefault(item => item.Name.ExtractText() == currentItemName);
             var matchedItemId = matchedItem?.RowId ?? 0;
 
             catalysts.Add(new CatalystReward
@@ -375,7 +347,7 @@ public class QuestDataFetcher
         return new EmoteReward
         {
             Id = quest.EmoteReward.RowId,
-            EmoteName = emote.Value.Name.ToString()
+            EmoteName = emote.Value.Name.ExtractText()
         };
     }
     
@@ -389,7 +361,7 @@ public class QuestDataFetcher
         return new ActionReward
         {
             Id = quest.ActionReward.RowId,
-            ActionName = action.Value.Name.ToString(),
+            ActionName = action.Value.Name.ExtractText(),
         };
     }
     
@@ -413,7 +385,7 @@ public class QuestDataFetcher
                 rewards.Add(new GeneralActionReward
                 {
                     Id = generalAction.Value.RowId,
-                    Name = generalAction.Value.Name.ToString()
+                    Name = generalAction.Value.Name.ExtractText()
                 });
             }
         }
@@ -434,7 +406,7 @@ public class QuestDataFetcher
             return new OtherReward
             {
                 Id = otherReward.Value.RowId,
-                Name = otherReward.Value.Name.ToString()
+                Name = otherReward.Value.Name.ExtractText()
             };
         }
 
@@ -443,18 +415,25 @@ public class QuestDataFetcher
     
     private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(uint questId)
     {
-        if (ContentFinderConditionSheet == null)
+        if (ContentFinderConditionSheet == null || ContentTypeSheet == null)
             return null;
-    
+
+        uint ResolveContentType(RowRef<ContentType> contentTypeRef)
+        {
+            var contentType = ContentTypeSheet.GetRow(contentTypeRef.RowId);
+            return contentType.RowId;
+        }
+
         var instanceContentRewards = ContentFinderConditionSheet
                                      .Where(c => c.UnlockQuest.RowId == questId)
                                      .Select(content => new InstanceContentUnlockReward
                                      {
                                          InstanceId = content.RowId,
-                                         InstanceName = content.Name.ToString()
+                                         InstanceName = content.Name.ExtractText(),
+                                         ContentType = ResolveContentType(content.ContentType)
                                      })
                                      .ToList();
-    
+
         var quest = QuestSheet?.GetRow(questId);
         if (quest != null)
         {
@@ -467,15 +446,14 @@ public class QuestDataFetcher
                     instanceContentRewards.Add(new InstanceContentUnlockReward
                     {
                         InstanceId = matchingContent.RowId,
-                        InstanceName = matchingContent.Name.ToString()
+                        InstanceName = matchingContent.Name.ExtractText(),
+                        ContentType = ResolveContentType(matchingContent.ContentType)
                     });
                 }
-
             }
         }
 
         return instanceContentRewards.Count > 0 ? instanceContentRewards : null;
-
     }
 
     /// <summary>
@@ -496,14 +474,14 @@ public class QuestDataFetcher
                 journalCategoryDetails = new JournalCategoryDetails
                 {
                     Id = journalCategory.RowId,
-                    Name = journalCategory.Name.ToString()
+                    Name = journalCategory.Name.ExtractText()
                 };
             }
 
             return new JournalGenreDetails
             {
                 Id = journalGenre.RowId,
-                Name = journalGenre.Name.ToString(),
+                Name = journalGenre.Name.ExtractText(),
                 JournalCategory = journalCategoryDetails
             };
         }
@@ -550,7 +528,7 @@ public class QuestDataFetcher
             try
             {
                 var preQuest = preQuestRef.Value;
-                titles.Add(preQuest.Name.ToString());
+                titles.Add(preQuest.Name.ExtractText());
             }
             catch (Exception ex)
             {
@@ -571,7 +549,7 @@ public class QuestDataFetcher
         try
         {
             var expansionRow = ExVersionSheet.GetRow(expansionRef.RowId);
-            return expansionRow.Name.ToString();
+            return expansionRow.Name.ExtractText();
         }
         catch (Exception ex)
         {
@@ -593,7 +571,7 @@ public class QuestDataFetcher
             try
             {
                 var npc = enpcSheet.GetRow(npcRef.RowId);
-                return npc.Singular.ToString();
+                return npc.Singular.ExtractText();
             }
             catch (ArgumentOutOfRangeException) { return null; }
         }
@@ -614,11 +592,7 @@ public class QuestDataFetcher
             var levelSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Level>();
             var npcLocationRef = questData.IssuerLocation;
 
-            if (npcLocationRef.RowId == 0)
-            {
-                log.Warning($"Invalid IssuerLocation RowId for QuestId: {questData.RowId}. Skipping.");
-                return null;
-            }
+            if (npcLocationRef.RowId == 0) return null;
 
             var levelRow = levelSheet.GetRow(npcLocationRef.RowId);
             if (levelRow.RowId == 0)

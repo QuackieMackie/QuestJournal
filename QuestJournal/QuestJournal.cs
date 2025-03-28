@@ -3,6 +3,7 @@ using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
+using Dalamud.Utility;
 using QuestJournal.Commands;
 using QuestJournal.UI;
 using QuestJournal.Utils;
@@ -31,6 +32,8 @@ public sealed class QuestJournal : IDalamudPlugin
         PluginInterface.UiBuilder.Draw += DrawUi;
         PluginInterface.UiBuilder.OpenConfigUi += OpenMainWindow;
         PluginInterface.UiBuilder.OpenMainUi += OpenMainWindow;
+
+        Log.Information("test message".FirstCharToUpper());
     }
 
     [PluginService] internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;

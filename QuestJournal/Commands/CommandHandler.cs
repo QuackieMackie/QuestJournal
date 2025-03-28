@@ -103,12 +103,8 @@ public class CommandHandler : IDisposable
         {
             var allQuests = questDataFetcher.GetAllQuests();
 
-            LogQuests(allQuests);
-
             var filePath = GetOutputFilePath(QuestDataFileName);
-            questDataFetcher.SaveQuestDataToJson(allQuests, filePath);
-
-            log.Information($"Quest data successfully fetched and saved to {filePath}.");
+            SaveQuestDataToJson(allQuests, filePath);
         }
         catch (Exception ex)
         {
@@ -138,7 +134,7 @@ public class CommandHandler : IDisposable
 
                 var sanitizedFileName = $"MSQ-{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
                 var filePath = Path.Combine(msqDirectoryPath, sanitizedFileName);
-
+                
                 SaveQuestDataToJson(quests, filePath, categoryName);
             }
         }
@@ -148,44 +144,20 @@ public class CommandHandler : IDisposable
         }
     }
 
-    private void SaveQuestDataToJson(List<QuestModel> questData, string filePath, string msqCategory)
+    private void SaveQuestDataToJson(List<QuestModel> questData, string filePath, string? msqCategory = null)
     {
         try
         {
             var jsonString = JsonSerializer.Serialize(questData, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(filePath, jsonString);
 
-            log.Info($"Saved {questData.Count} quests for MSQ category '{msqCategory}; to file path: '{filePath}'");
+            if (msqCategory != null) log.Info($"Saved {questData.Count} quests for MSQ category '{msqCategory}; to file path: '{filePath}'");
+            if (msqCategory == null) log.Info($"Saved {questData.Count} quests to file path: '{filePath}'");
         }
         catch (Exception ex)
         {
             log.Error($"Failed to save the file at '{filePath}': {ex.Message}");
         }
-    }
-
-    private void LogQuests(List<QuestModel?> quests)
-    {
-        var count = 0;
-
-        foreach (var quest in quests)
-        {
-            if (quest != null)
-            {
-                log.Information(
-                    $"Quest ID: {quest.QuestId}, " +
-                    $"Title: {quest.QuestTitle}, " +
-                    $"Prerequisite Quest IDs: [{string.Join(", ", quest.PreviousQuestIds ?? new List<uint>())}], " +
-                    $"Prerequisite Quest Titles: [{string.Join(", ", quest.PreviousQuestTitles ?? new List<string>())}], " +
-                    $"Starter NPC: {quest.StarterNpc}, " +
-                    $"Finish NPC: {quest.FinishNpc}, " +
-                    $"Expansion: {quest.Expansion}, " +
-                    $"Journal Genre: {quest.JournalGenre}, ");
-            }
-
-            count++;
-        }
-
-        log.Information($"Total quests fetched: {count}");
     }
 
     private string GetOutputFilePath(string fileName)
