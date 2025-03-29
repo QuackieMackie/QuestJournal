@@ -16,8 +16,10 @@ public class MainWindow : Window, IDisposable
     private readonly IPluginLog log;
     
     private readonly MsqHandler msqHandler;
+    private readonly JobHandler jobHandler;
     
     private readonly MsqRenderer msqRenderer;
+    private readonly JobRenderer jobRenderer;
     private readonly SettingsRenderer settingsRenderer;
 
     public MainWindow(IPluginLog log, Configuration configuration, IDalamudPluginInterface pluginInterface) 
@@ -31,10 +33,12 @@ public class MainWindow : Window, IDisposable
         };
         
         msqHandler = new MsqHandler(log, pluginInterface, configuration);
+        jobHandler = new JobHandler(log, pluginInterface);
         
         rendererUtils = new RendererUtils(log);
 
         msqRenderer = new MsqRenderer(msqHandler, rendererUtils, log);
+        jobRenderer = new JobRenderer(jobHandler, rendererUtils, log);
         settingsRenderer = new SettingsRenderer(configuration, msqRenderer);
     }
 
@@ -56,11 +60,12 @@ public class MainWindow : Window, IDisposable
                 ImGui.EndTabItem();
             }
             
-            // if (ImGui.BeginTabItem("Class & Jobs"))
-            // {
-            //     ImGui.EndTabItem();
-            // }
-            //
+            if (ImGui.BeginTabItem("Class & Jobs"))
+            {
+                jobRenderer.DrawJobs();
+                ImGui.EndTabItem();
+            }
+
             // if (ImGui.BeginTabItem("Feature"))
             // {
             //     ImGui.EndTabItem();

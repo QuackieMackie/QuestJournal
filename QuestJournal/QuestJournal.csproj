@@ -25,6 +25,15 @@
             <TargetPath>QuestJournal\MSQ\%(FileName)%(Extension)</TargetPath>
             <Visible>true</Visible>
         </Content>
+		
+		<!-- Include Job subdirectory and all its files in data directory -->
+        <Content Include="..\Data\JOB\*">
+			<Link>Data\JOB\%(FileName)%(Extension)</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>QuestJournal\JOB\%(FileName)%(Extension)</TargetPath>
+            <Visible>true</Visible>
+        </Content>
+		
         <Content Include="QuestJournal.json" />
     </ItemGroup>
 </Project>

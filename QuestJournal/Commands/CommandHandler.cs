@@ -16,9 +16,11 @@ public class CommandHandler : IDisposable
     private const string OpenJournalCommandFull = "/questjournal";
     private const string FetchQuestCommandName = "/fetch-qd";
     private const string FetchMsqCommandName = "/fetch-msq";
+    private const string FetchJobCommandName = "/fetch-job";
     
     private const string QuestDataFileName = "QuestData.json";
     private const string MsqDataFileName = "MsqData.json";
+    private const string JobDataFileName = "JobData.json";
 
     private readonly QuestJournal questJournal;
     private readonly ICommandManager commandManager;
@@ -45,6 +47,7 @@ public class CommandHandler : IDisposable
     {
         commandManager.RemoveHandler(FetchQuestCommandName);
         commandManager.RemoveHandler(FetchMsqCommandName);
+        commandManager.RemoveHandler(FetchJobCommandName);
         commandManager.RemoveHandler(OpenJournalCommandFull);
         commandManager.RemoveHandler(OpenJournalCommandShort);
     }
@@ -70,6 +73,11 @@ public class CommandHandler : IDisposable
         {
             HelpMessage = "[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory."
         });
+        
+        commandManager.AddHandler(FetchJobCommandName, new CommandInfo(OnFetchCommand)
+        {
+            HelpMessage = "[Developer Mode] Fetch job data from the Lumina sheets and save it to the plugin's output directory."
+        });
     }
     
     private void OnOpenCommand(string command, string args)
@@ -90,6 +98,7 @@ public class CommandHandler : IDisposable
 
         if (command == FetchQuestCommandName) FetchQuestData();
         if (command == FetchMsqCommandName) FetchMsqData();
+        if (command == FetchJobCommandName) FetchJobData();
     }
 
     private void OpenJournal()
@@ -143,16 +152,48 @@ public class CommandHandler : IDisposable
             log.Error($"Error fetching or saving MSQ data: {ex.Message}");
         }
     }
+    
+    public void FetchJobData()
+    {
+        try
+        {
+            var categorizedJobData = questDataFetcher.GetJobQuestsByCategory();
 
-    private void SaveQuestDataToJson(List<QuestModel> questData, string filePath, string? msqCategory = null)
+            var baseFilePath = GetOutputFilePath(JobDataFileName);
+            var baseDirectoryPath = Path.GetDirectoryName(baseFilePath);
+
+            var jobDirectoryPath = Path.Combine(baseDirectoryPath ?? ".", "JOB");
+            if (!Directory.Exists(jobDirectoryPath))
+            {
+                Directory.CreateDirectory(jobDirectoryPath);
+            }
+
+            foreach (var categoryEntry in categorizedJobData)
+            {
+                var categoryName = categoryEntry.Key;
+                var quests = categoryEntry.Value;
+
+                var sanitizedFileName = $"Job-{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
+                var filePath = Path.Combine(jobDirectoryPath, sanitizedFileName);
+
+                SaveQuestDataToJson(quests, filePath, categoryName);
+            }
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Error fetching or saving Job data: {ex.Message}");
+        }
+    }
+
+    private void SaveQuestDataToJson(List<QuestModel> questData, string filePath, string? category = null)
     {
         try
         {
             var jsonString = JsonSerializer.Serialize(questData, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(filePath, jsonString);
 
-            if (msqCategory != null) log.Info($"Saved {questData.Count} quests for MSQ category '{msqCategory}; to file path: '{filePath}'");
-            if (msqCategory == null) log.Info($"Saved {questData.Count} quests to file path: '{filePath}'");
+            if (category != null) log.Info($"Saved {questData.Count} quests for category '{category}; to file path: '{filePath}'");
+            if (category == null) log.Info($"Saved {questData.Count} quests to file path: '{filePath}'");
         }
         catch (Exception ex)
         {

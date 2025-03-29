@@ -293,32 +293,32 @@ public class RendererUtils
 
                 if (ImGui.BeginTabBar("QuestDetailsTabBar", ImGuiTabBarFlags.None))
                 {
-                    if (ImGui.BeginTabItem("Requirements"))
-                    {
-                        if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
-                        {
-                            ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
-                            ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
-
-                            ImGui.TableNextColumn();
-                            ImGui.Text("Requirement 1:");
-                            ImGui.TableNextColumn();
-                            ImGui.PushTextWrapPos();
-                            ImGui.Text("TBD");
-                            ImGui.PopTextWrapPos();
-
-                            ImGui.TableNextColumn();
-                            ImGui.Text("Requirement 2:");
-                            ImGui.TableNextColumn();
-                            ImGui.PushTextWrapPos();
-                            ImGui.Text("TBD");
-                            ImGui.PopTextWrapPos();
-
-                            ImGui.EndTable();
-                        }
-
-                        ImGui.EndTabItem();
-                    }
+                    // if (ImGui.BeginTabItem("Requirements"))
+                    // {
+                    //     if (ImGui.BeginTable("RequirementsTable", 2, ImGuiTableFlags.BordersInnerV))
+                    //     {
+                    //         ImGui.TableSetupColumn("LabelColumn", ImGuiTableColumnFlags.WidthFixed, 100);
+                    //         ImGui.TableSetupColumn("ValueColumn", ImGuiTableColumnFlags.WidthStretch);
+                    //
+                    //         ImGui.TableNextColumn();
+                    //         ImGui.Text("Requirement 1:");
+                    //         ImGui.TableNextColumn();
+                    //         ImGui.PushTextWrapPos();
+                    //         ImGui.Text("TBD");
+                    //         ImGui.PopTextWrapPos();
+                    //
+                    //         ImGui.TableNextColumn();
+                    //         ImGui.Text("Requirement 2:");
+                    //         ImGui.TableNextColumn();
+                    //         ImGui.PushTextWrapPos();
+                    //         ImGui.Text("TBD");
+                    //         ImGui.PopTextWrapPos();
+                    //
+                    //         ImGui.EndTable();
+                    //     }
+                    //
+                    //     ImGui.EndTabItem();
+                    // }
                     
                     if (ImGui.BeginTabItem("Rewards"))
                     {

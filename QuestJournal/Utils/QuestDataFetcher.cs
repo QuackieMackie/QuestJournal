@@ -134,6 +134,44 @@ public class QuestDataFetcher
 
         return categorizedQuests;
     }
+    
+    public Dictionary<string, List<QuestModel>> GetJobQuestsByCategory()
+    {
+        var allQuests = GetAllQuests();
+
+        var jobCategoryIds = new[]
+        {
+            84, // "Disciple of War Quests"
+            85, // "Disciple of Magic Quests"
+            86, // "Disciple of the Hand Quests"
+            87, // "Disciple of the Land Quests"
+            91, // "Disciple of the War Job Quests"
+            92, // "Disciple of the Magic Job Quests"
+        };
+
+        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (var quest in allQuests)
+        {
+            var category = quest.JournalGenre?.JournalCategory;
+
+            if (category != null && jobCategoryIds.Contains((int) category.Id))
+            {
+                var journalGenreName = quest.JournalGenre?.Name;
+                if (!string.IsNullOrEmpty(journalGenreName))
+                {
+                    if (!categorizedQuests.ContainsKey(journalGenreName))
+                    {
+                        categorizedQuests[journalGenreName] = new List<QuestModel>();
+                    }
+
+                    categorizedQuests[journalGenreName].Add(quest);
+                }
+            }
+        }
+
+        return categorizedQuests;
+    }
 
     // IQuestInfo Builders
 
