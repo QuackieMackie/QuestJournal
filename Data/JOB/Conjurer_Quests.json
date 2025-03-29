@@ -1,0 +1,874 @@
+[
+  {
+    "QuestId": 65558,
+    "QuestTitle": "Way of the Conjurer",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65584,
+      65627
+    ],
+    "NextQuestTitles": [
+      "Trial by Earth",
+      "Trial by Wind"
+    ],
+    "StarterNpc": "Madelle",
+    "StarterNpcLocation": {
+      "RowId": 1161195,
+      "X": -234.028,
+      "Y": -4.00022,
+      "Z": -11.0628,
+      "Yaw": -0.000143883,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4728,
+          "ItemName": "Raisins",
+          "Count": 5,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65584,
+    "QuestTitle": "Trial by Earth",
+    "PreviousQuestIds": [
+      65558,
+      65747
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Conjurer",
+      "My First Cane"
+    ],
+    "NextQuestIds": [
+      65627,
+      65683
+    ],
+    "NextQuestTitles": [
+      "Trial by Wind",
+      "Trial by Wind"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1958,
+          "ItemName": "Maple Wand",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 2219,
+          "ItemName": "Square Maple Shield",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3004,
+          "ItemName": "Custom-made Robe of Healing",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2655,
+          "ItemName": "Hempen Hat",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4421,
+          "ItemName": "Bone Ring",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4091,
+          "ItemName": "Copper Wristlets",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65627,
+    "QuestTitle": "Trial by Wind",
+    "PreviousQuestIds": [
+      65584,
+      65558
+    ],
+    "PreviousQuestTitles": [
+      "Trial by Earth",
+      "Way of the Conjurer"
+    ],
+    "NextQuestIds": [
+      65628
+    ],
+    "NextQuestTitles": [
+      "Trial by Water"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1997,
+          "ItemName": "Maple Crook",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3015,
+          "ItemName": "Amateur\u0027s Dalmatica",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2661,
+          "ItemName": "Amateur\u0027s Hempen Coif",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3538,
+          "ItemName": "Hempen Dress Gloves",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3769,
+          "ItemName": "Amateur\u0027s Duckbills",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65628,
+    "QuestTitle": "Trial by Water",
+    "PreviousQuestIds": [
+      65627,
+      65683
+    ],
+    "PreviousQuestTitles": [
+      "Trial by Wind",
+      "Trial by Wind"
+    ],
+    "NextQuestIds": [
+      65629
+    ],
+    "NextQuestTitles": [
+      "Sylphie\u0027s Trials"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5760,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1961,
+          "ItemName": "Ash Wand",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 2233,
+          "ItemName": "Square Ash Shield",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3024,
+          "ItemName": "Cotton Cowl",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3547,
+          "ItemName": "Hard Leather Ringbands",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3327,
+          "ItemName": "Cotton Tights",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3777,
+          "ItemName": "Hard Leather Boots",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65629,
+    "QuestTitle": "Sylphie\u0027s Trials",
+    "PreviousQuestIds": [
+      65628
+    ],
+    "PreviousQuestTitles": [
+      "Trial by Water"
+    ],
+    "NextQuestIds": [
+      65976
+    ],
+    "NextQuestTitles": [
+      "Like Mother, Like Daughter"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2002,
+          "ItemName": "Elm Crook",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27666,
+          "ItemName": "Altered Cotton Dalmatica",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2703,
+          "ItemName": "Ash Mask (Lapis Lazuli)",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3568,
+          "ItemName": "Cotton Dress Gloves",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3800,
+          "ItemName": "Cotton Dress Shoes",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65669,
+    "QuestTitle": "Way of the Conjurer",
+    "PreviousQuestIds": [
+      65718
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Conjurer"
+    ],
+    "NextQuestIds": [
+      65683,
+      65747
+    ],
+    "NextQuestTitles": [
+      "Trial by Wind",
+      "My First Cane"
+    ],
+    "StarterNpc": "Madelle",
+    "StarterNpcLocation": {
+      "RowId": 1161195,
+      "X": -234.028,
+      "Y": -4.00022,
+      "Z": -11.0628,
+      "Yaw": -0.000143883,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1995,
+          "ItemName": "Weathered Cane",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65683,
+    "QuestTitle": "Trial by Wind",
+    "PreviousQuestIds": [
+      65584,
+      65669
+    ],
+    "PreviousQuestTitles": [
+      "Trial by Earth",
+      "Way of the Conjurer"
+    ],
+    "NextQuestIds": [
+      65628
+    ],
+    "NextQuestTitles": [
+      "Trial by Water"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1997,
+          "ItemName": "Maple Crook",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3015,
+          "ItemName": "Amateur\u0027s Dalmatica",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2661,
+          "ItemName": "Amateur\u0027s Hempen Coif",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3538,
+          "ItemName": "Hempen Dress Gloves",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3769,
+          "ItemName": "Amateur\u0027s Duckbills",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65747,
+    "QuestTitle": "My First Cane",
+    "PreviousQuestIds": [
+      65669
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Conjurer"
+    ],
+    "NextQuestIds": [
+      65584
+    ],
+    "NextQuestTitles": [
+      "Trial by Earth"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 12,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65976,
+    "QuestTitle": "Like Mother, Like Daughter",
+    "PreviousQuestIds": [
+      65629
+    ],
+    "PreviousQuestTitles": [
+      "Sylphie\u0027s Trials"
+    ],
+    "NextQuestIds": [
+      65977
+    ],
+    "NextQuestTitles": [
+      "In Nature\u0027s Embrace"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 8160,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1965,
+          "ItemName": "Whispering Ash Wand",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3050,
+          "ItemName": "Cotton Halfrobe",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3581,
+          "ItemName": "Goatskin Ringbands",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27667,
+          "ItemName": "Altered Goatskin Moccasins",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2728,
+          "ItemName": "Silver Spectacles",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65977,
+    "QuestTitle": "In Nature\u0027s Embrace",
+    "PreviousQuestIds": [
+      65976
+    ],
+    "PreviousQuestTitles": [
+      "Like Mother, Like Daughter"
+    ],
+    "NextQuestIds": [
+      65730,
+      66615
+    ],
+    "NextQuestTitles": [
+      "Unicorn Power",
+      "Seer Folly"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 157,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Conjurer Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100051,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2015,
+          "ItemName": "Walnut Cane",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27669,
+          "ItemName": "Velveteen Bliaud",
+          "Count": 1,
+          "Stain": "Desert Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27671,
+          "ItemName": "Altered Velveteen Hose",
+          "Count": 1,
+          "Stain": "Desert Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27670,
+          "ItemName": "Velveteen Gloves",
+          "Count": 1,
+          "Stain": "Desert Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27672,
+          "ItemName": "Toadskin Boots",
+          "Count": 1,
+          "Stain": "Desert Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 135,
+        "ActionName": "Cure II"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

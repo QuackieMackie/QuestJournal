@@ -1,0 +1,1918 @@
+[
+  {
+    "QuestId": 65674,
+    "QuestTitle": "Way of the Carpenter",
+    "PreviousQuestIds": [
+      65720
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Carpenter"
+    ],
+    "NextQuestIds": [
+      65741
+    ],
+    "NextQuestTitles": [
+      "My First Saw"
+    ],
+    "StarterNpc": "Corgg",
+    "StarterNpcLocation": {
+      "RowId": 1141127,
+      "X": -20.2619,
+      "Y": -3.25,
+      "Z": 46.0059,
+      "Yaw": 1.63664,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 100
+        },
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 50
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 2314,
+          "ItemName": "Weathered Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65675,
+    "QuestTitle": "To Be the Wood",
+    "PreviousQuestIds": [
+      65741
+    ],
+    "PreviousQuestTitles": [
+      "My First Saw"
+    ],
+    "NextQuestIds": [
+      65676
+    ],
+    "NextQuestTitles": [
+      "Supplies for the Sick"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1435,
+      "Gil": 194,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 200
+        },
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 150
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 2328,
+          "ItemName": "Amateur\u0027s Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2652,
+          "ItemName": "Hempen Bandana",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3309,
+          "ItemName": "Hempen Chausses",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3763,
+          "ItemName": "Maple Pattens",
+          "Count": 1,
+          "Stain": "Salmon Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65676,
+    "QuestTitle": "Supplies for the Sick",
+    "PreviousQuestIds": [
+      65675
+    ],
+    "PreviousQuestTitles": [
+      "To Be the Wood"
+    ],
+    "NextQuestIds": [
+      65677
+    ],
+    "NextQuestTitles": [
+      "A Carpenter in Need"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5899,
+      "Gil": 289,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 250
+        },
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 200
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 2315,
+          "ItemName": "Bronze Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2660,
+          "ItemName": "Amateur\u0027s Headgear",
+          "Count": 1,
+          "Stain": "Salmon Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3014,
+          "ItemName": "Amateur\u0027s Kurta",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3536,
+          "ItemName": "Amateur\u0027s Smithing Gloves",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65677,
+    "QuestTitle": "A Carpenter in Need",
+    "PreviousQuestIds": [
+      65676
+    ],
+    "PreviousQuestTitles": [
+      "Supplies for the Sick"
+    ],
+    "NextQuestIds": [
+      65678
+    ],
+    "NextQuestTitles": [
+      "The Lance\u0027s Lesson"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12960,
+      "Gil": 382,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2330,
+          "ItemName": "Recruit\u0027s Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3019,
+          "ItemName": "Hempen Doublet Vest of Crafting",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3779,
+          "ItemName": "Ash Pattens",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65678,
+    "QuestTitle": "The Lance\u0027s Lesson",
+    "PreviousQuestIds": [
+      65677
+    ],
+    "PreviousQuestTitles": [
+      "A Carpenter in Need"
+    ],
+    "NextQuestIds": [
+      65704
+    ],
+    "NextQuestTitles": [
+      "A Crisis of Confidence"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 24360,
+      "Gil": 470,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2318,
+          "ItemName": "Initiate\u0027s Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2714,
+          "ItemName": "Initiate\u0027s Headgear",
+          "Count": 1,
+          "Stain": "Salmon Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3562,
+          "ItemName": "Initiate\u0027s Gloves",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3336,
+          "ItemName": "Cotton Breeches of Crafting",
+          "Count": 1,
+          "Stain": "Gloom Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 4,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65704,
+    "QuestTitle": "A Crisis of Confidence",
+    "PreviousQuestIds": [
+      65678
+    ],
+    "PreviousQuestTitles": [
+      "The Lance\u0027s Lesson"
+    ],
+    "NextQuestIds": [
+      65705
+    ],
+    "NextQuestTitles": [
+      "Between Captain and Conjurer"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 40800,
+      "Gil": 557,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2332,
+          "ItemName": "Initiate\u0027s Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2731,
+          "ItemName": "Silver Magnifiers",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3065,
+          "ItemName": "Initiate\u0027s Gown",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3575,
+          "ItemName": "Velveteen Halfgloves",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65705,
+    "QuestTitle": "Between Captain and Conjurer",
+    "PreviousQuestIds": [
+      65704
+    ],
+    "PreviousQuestTitles": [
+      "A Crisis of Confidence"
+    ],
+    "NextQuestIds": [
+      66072
+    ],
+    "NextQuestTitles": [
+      "Growing Apart"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 68640,
+      "Gil": 639,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2320,
+          "ItemName": "Iron Chocobotail Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2750,
+          "ItemName": "Velveteen Beret",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3104,
+          "ItemName": "Velveteen Gown",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3583,
+          "ItemName": "Velveteen Shortgloves",
+          "Count": 1,
+          "Stain": "Gloom Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 6,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65741,
+    "QuestTitle": "My First Saw",
+    "PreviousQuestIds": [
+      65674
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Carpenter"
+    ],
+    "NextQuestIds": [
+      65675
+    ],
+    "NextQuestTitles": [
+      "To Be the Wood"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 300,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 150
+        },
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 100
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 5380,
+          "ItemName": "Maple Log",
+          "Count": 30,
+          "Stain": null
+        },
+        {
+          "ItemId": 2961,
+          "ItemName": "Hempen Kurta",
+          "Count": 1,
+          "Stain": "Mud Green"
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66072,
+    "QuestTitle": "Growing Apart",
+    "PreviousQuestIds": [
+      65705
+    ],
+    "PreviousQuestTitles": [
+      "Between Captain and Conjurer"
+    ],
+    "NextQuestIds": [
+      66073
+    ],
+    "NextQuestTitles": [
+      "Memento Mori"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 350,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 102960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2322,
+          "ItemName": "Crosscut Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2769,
+          "ItemName": "Mythril Magnifiers",
+          "Count": 1,
+          "Stain": "Salmon Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3130,
+          "ItemName": "Apprentice\u0027s Smock",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3607,
+          "ItemName": "Linen Halfgloves",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66073,
+    "QuestTitle": "Memento Mori",
+    "PreviousQuestIds": [
+      66072
+    ],
+    "PreviousQuestTitles": [
+      "Growing Apart"
+    ],
+    "NextQuestIds": [
+      66074
+    ],
+    "NextQuestTitles": [
+      "Gone till the Sixth Astral Moon"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 400,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 156310,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2336,
+          "ItemName": "Apprentice\u0027s Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2816,
+          "ItemName": "Linen Deerstalker",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3162,
+          "ItemName": "Linen Smock",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3639,
+          "ItemName": "Boarskin Smithy\u0027s Gloves",
+          "Count": 1,
+          "Stain": "Salmon Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 6,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66074,
+    "QuestTitle": "Gone till the Sixth Astral Moon",
+    "PreviousQuestIds": [
+      66073
+    ],
+    "PreviousQuestTitles": [
+      "Memento Mori"
+    ],
+    "NextQuestIds": [
+      66075
+    ],
+    "NextQuestTitles": [
+      "Saving Captain Gairhard"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 450,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 196020,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2324,
+          "ItemName": "Mythril Chocobotail Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2854,
+          "ItemName": "Woolen Deerstalker",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3187,
+          "ItemName": "Woolen Smock",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3668,
+          "ItemName": "Raptorskin Smithy\u0027s Gloves",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66075,
+    "QuestTitle": "Saving Captain Gairhard",
+    "PreviousQuestIds": [
+      66074
+    ],
+    "PreviousQuestTitles": [
+      "Gone till the Sixth Astral Moon"
+    ],
+    "NextQuestIds": [
+      67533
+    ],
+    "NextQuestTitles": [
+      "Lance of a Lifetime"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100062,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 210600,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2327,
+          "ItemName": "Ullikummi",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2920,
+          "ItemName": "Carpenter\u0027s Hood",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3706,
+          "ItemName": "Carpenter\u0027s Gloves",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3927,
+          "ItemName": "Carpenter\u0027s Workboots",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67533,
+    "QuestTitle": "Lance of a Lifetime",
+    "PreviousQuestIds": [
+      66075,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Saving Captain Gairhard",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67534
+    ],
+    "NextQuestTitles": [
+      "A-hunting He Will Go"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Barthovieu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 502,
+    "Icon": 100456,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 210600,
+      "Gil": 722,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 120
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 12667,
+          "ItemName": "Commercial Engineering Manual",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67534,
+    "QuestTitle": "A-hunting He Will Go",
+    "PreviousQuestIds": [
+      67533
+    ],
+    "PreviousQuestTitles": [
+      "Lance of a Lifetime"
+    ],
+    "NextQuestIds": [
+      67535
+    ],
+    "NextQuestTitles": [
+      "Ministers of Grace Defend Him"
+    ],
+    "StarterNpc": "Barthovieu",
+    "StarterNpcLocation": {
+      "RowId": 5841392,
+      "X": 96.6001,
+      "Y": -20,
+      "Z": 64.7344,
+      "Yaw": 1.40717,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Barthovieu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 530,
+    "Icon": 100456,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 663390,
+      "Gil": 390,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 160
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 11915,
+          "ItemName": "Mythrite Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 11956,
+          "ItemName": "Holy Rainbow Wedge Cap",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11961,
+          "ItemName": "Holy Rainbow Coatee",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11966,
+          "ItemName": "Holy Rainbow Gloves",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11974,
+          "ItemName": "Holy Rainbow Bottoms",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67535,
+    "QuestTitle": "Ministers of Grace Defend Him",
+    "PreviousQuestIds": [
+      67534
+    ],
+    "PreviousQuestTitles": [
+      "A-hunting He Will Go"
+    ],
+    "NextQuestIds": [
+      67536
+    ],
+    "NextQuestTitles": [
+      "The Son Also Rises"
+    ],
+    "StarterNpc": "Barthovieu",
+    "StarterNpcLocation": {
+      "RowId": 5841392,
+      "X": 96.6001,
+      "Y": -20,
+      "Z": 64.7344,
+      "Yaw": 1.40717,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Barthovieu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 550,
+    "Icon": 100456,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 836550,
+      "Gil": 1212,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 200
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 11872,
+          "ItemName": "Hardsilver Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 11957,
+          "ItemName": "Ramie Turban of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11962,
+          "ItemName": "Ramie Doublet of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11967,
+          "ItemName": "Dhalmelskin Halfgloves of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11975,
+          "ItemName": "Ramie Skirt",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67536,
+    "QuestTitle": "The Son Also Rises",
+    "PreviousQuestIds": [
+      67535
+    ],
+    "PreviousQuestTitles": [
+      "Ministers of Grace Defend Him"
+    ],
+    "NextQuestIds": [
+      67537
+    ],
+    "NextQuestTitles": [
+      "More Fierce than Fire"
+    ],
+    "StarterNpc": "Barthovieu",
+    "StarterNpcLocation": {
+      "RowId": 5841392,
+      "X": 96.6001,
+      "Y": -20,
+      "Z": 64.7344,
+      "Yaw": 1.40717,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Barthovieu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100456,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1113840,
+      "Gil": 770,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 240
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 11873,
+          "ItemName": "Titanium Halfheart Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67537,
+    "QuestTitle": "More Fierce than Fire",
+    "PreviousQuestIds": [
+      67536
+    ],
+    "PreviousQuestTitles": [
+      "The Son Also Rises"
+    ],
+    "NextQuestIds": [
+      67977
+    ],
+    "NextQuestTitles": [
+      "Uncharted Territory"
+    ],
+    "StarterNpc": "Barthovieu",
+    "StarterNpcLocation": {
+      "RowId": 5841392,
+      "X": 96.6001,
+      "Y": -20,
+      "Z": 64.7344,
+      "Yaw": 1.40717,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Barthovieu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100456,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 662500,
+      "Gil": 599,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67977,
+    "QuestTitle": "Uncharted Territory",
+    "PreviousQuestIds": [
+      67537,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "More Fierce than Fire",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      67978
+    ],
+    "NextQuestTitles": [
+      "The Game of Confidence"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100685,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1337500,
+      "Gil": 713,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 12667,
+          "ItemName": "Commercial Engineering Manual",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67978,
+    "QuestTitle": "The Game of Confidence",
+    "PreviousQuestIds": [
+      67977
+    ],
+    "PreviousQuestTitles": [
+      "Uncharted Territory"
+    ],
+    "NextQuestIds": [
+      67979
+    ],
+    "NextQuestTitles": [
+      "A Lesson in Listening"
+    ],
+    "StarterNpc": "Beatin",
+    "StarterNpcLocation": {
+      "RowId": 1141132,
+      "X": -44.8463,
+      "Y": -1.26655,
+      "Z": 56.8398,
+      "Yaw": 2.13705,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Cemi Jinjahl",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100685,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1557875,
+      "Gil": 1938,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 19517,
+          "ItemName": "High Steel Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 19623,
+          "ItemName": "Ruby Cotton Coatee",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19624,
+          "ItemName": "Gyuki Leather Gloves of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19625,
+          "ItemName": "Ruby Cotton Bottoms",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19626,
+          "ItemName": "Gyuki Leather Shoes",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67979,
+    "QuestTitle": "A Lesson in Listening",
+    "PreviousQuestIds": [
+      67978
+    ],
+    "PreviousQuestTitles": [
+      "The Game of Confidence"
+    ],
+    "NextQuestIds": [
+      67980
+    ],
+    "NextQuestTitles": [
+      "Live and Let Dine"
+    ],
+    "StarterNpc": "Cemi Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 6797651,
+      "X": -46.9358,
+      "Y": 3.0135,
+      "Z": -69.0018,
+      "Yaw": -3.12599,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Cemi Jinjahl",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100685,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1758750,
+      "Gil": 890,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 19527,
+          "ItemName": "Doman Iron Halfheart Saw",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 19633,
+          "ItemName": "Kudzu Robe of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19634,
+          "ItemName": "Durium Chaplets",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19635,
+          "ItemName": "Kudzu Culottes of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19636,
+          "ItemName": "Tigerskin Boots of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 6,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 4574,
+        "ActionName": "Manipulation"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67980,
+    "QuestTitle": "Live and Let Dine",
+    "PreviousQuestIds": [
+      67979
+    ],
+    "PreviousQuestTitles": [
+      "A Lesson in Listening"
+    ],
+    "NextQuestIds": [
+      67981
+    ],
+    "NextQuestTitles": [
+      "Tea Party Rules"
+    ],
+    "StarterNpc": "Kotokaze",
+    "StarterNpcLocation": {
+      "RowId": 6654205,
+      "X": -48.0507,
+      "Y": -2.9,
+      "Z": -50.248,
+      "Yaw": 3.1185,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Cemi Jinjahl",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100685,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2227500,
+      "Gil": 2539,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 19559,
+          "ItemName": "Doman Steel Claw Hammer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5703,
+          "ItemName": "Craftsman\u0027s Competence Materia V",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5708,
+          "ItemName": "Craftsman\u0027s Cunning Materia V",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5713,
+          "ItemName": "Craftsman\u0027s Command Materia V",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67981,
+    "QuestTitle": "Tea Party Rules",
+    "PreviousQuestIds": [
+      67980
+    ],
+    "PreviousQuestTitles": [
+      "Live and Let Dine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Cemi Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 6797123,
+      "X": -22.8583,
+      "Y": -3.25,
+      "Z": 35.2284,
+      "Yaw": -3.13423,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Beatin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 160,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Carpenter Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100685,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2889000,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5703,
+          "ItemName": "Craftsman\u0027s Competence Materia V",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5708,
+          "ItemName": "Craftsman\u0027s Cunning Materia V",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5713,
+          "ItemName": "Craftsman\u0027s Command Materia V",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

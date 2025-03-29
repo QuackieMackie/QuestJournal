@@ -1,0 +1,860 @@
+[
+  {
+    "QuestId": 66068,
+    "QuestTitle": "Way of the Pugilist",
+    "PreviousQuestIds": [
+      65714
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Pugilist"
+    ],
+    "NextQuestIds": [
+      66089
+    ],
+    "NextQuestTitles": [
+      "My First Hora"
+    ],
+    "StarterNpc": "Gagaruna",
+    "StarterNpcLocation": {
+      "RowId": 2360563,
+      "X": -88.9667,
+      "Y": 2.55,
+      "Z": -51.1446,
+      "Yaw": 1.54453,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1680,
+          "ItemName": "Weathered Hora",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66069,
+    "QuestTitle": "Way of the Pugilist",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66090,
+      66091
+    ],
+    "NextQuestTitles": [
+      "Harder than Rock",
+      "Burning Up the Quarter Malm"
+    ],
+    "StarterNpc": "Gagaruna",
+    "StarterNpcLocation": {
+      "RowId": 2360563,
+      "X": -88.9667,
+      "Y": 2.55,
+      "Z": -51.1446,
+      "Yaw": 1.54453,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4639,
+          "ItemName": "Marmot Steak",
+          "Count": 5,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66089,
+    "QuestTitle": "My First Hora",
+    "PreviousQuestIds": [
+      66068
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Pugilist"
+    ],
+    "NextQuestIds": [
+      66090,
+      66234
+    ],
+    "NextQuestTitles": [
+      "Harder than Rock",
+      "Burning Up the Quarter Malm"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 12,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66090,
+    "QuestTitle": "Harder than Rock",
+    "PreviousQuestIds": [
+      66089,
+      66069
+    ],
+    "PreviousQuestTitles": [
+      "My First Hora",
+      "Way of the Pugilist"
+    ],
+    "NextQuestIds": [
+      66091,
+      66234
+    ],
+    "NextQuestTitles": [
+      "Burning Up the Quarter Malm",
+      "Burning Up the Quarter Malm"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1681,
+          "ItemName": "Bone Hora",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3002,
+          "ItemName": "Custom-made Shirt",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2653,
+          "ItemName": "Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Blood Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3530,
+          "ItemName": "Fingerless Leather Gloves",
+          "Count": 1,
+          "Stain": "Blood Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27634,
+          "ItemName": "Altered Thighboots",
+          "Count": 1,
+          "Stain": "Blood Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66091,
+    "QuestTitle": "Burning Up the Quarter Malm",
+    "PreviousQuestIds": [
+      66090,
+      66069
+    ],
+    "PreviousQuestTitles": [
+      "Harder than Rock",
+      "Way of the Pugilist"
+    ],
+    "NextQuestIds": [
+      66094
+    ],
+    "NextQuestTitles": [
+      "The Spirit Is Willing"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1683,
+          "ItemName": "Ramhorn Claws",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3016,
+          "ItemName": "Leather Jacket",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2662,
+          "ItemName": "Bronze Sallet",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3539,
+          "ItemName": "Hempen Bracers",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3770,
+          "ItemName": "Leather Jackboots",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66094,
+    "QuestTitle": "The Spirit Is Willing",
+    "PreviousQuestIds": [
+      66091,
+      66234
+    ],
+    "PreviousQuestTitles": [
+      "Burning Up the Quarter Malm",
+      "Burning Up the Quarter Malm"
+    ],
+    "NextQuestIds": [
+      66098
+    ],
+    "NextQuestTitles": [
+      "Keeping the Spirit Alive"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Chuchuto",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5760,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1685,
+          "ItemName": "Hard Leather Himantes",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3022,
+          "ItemName": "Cotton Shirt",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2677,
+          "ItemName": "Hunting Hat",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3546,
+          "ItemName": "Fingerless Hard Leather Gloves",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3780,
+          "ItemName": "Hard Leather Crakows",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 25761,
+        "ActionName": "Steel Peak"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66098,
+    "QuestTitle": "Keeping the Spirit Alive",
+    "PreviousQuestIds": [
+      66094
+    ],
+    "PreviousQuestTitles": [
+      "The Spirit Is Willing"
+    ],
+    "NextQuestIds": [
+      66102
+    ],
+    "NextQuestTitles": [
+      "Star-crossed Rivals"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1688,
+          "ItemName": "Goatskin Cesti",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3043,
+          "ItemName": "Goatskin Jacket",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2710,
+          "ItemName": "Goatskin Eyepatch",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3559,
+          "ItemName": "Goatskin Armguards",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3791,
+          "ItemName": "Goatskin Leg Guards",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66102,
+    "QuestTitle": "Star-crossed Rivals",
+    "PreviousQuestIds": [
+      66098
+    ],
+    "PreviousQuestTitles": [
+      "Keeping the Spirit Alive"
+    ],
+    "NextQuestIds": [
+      66103
+    ],
+    "NextQuestTitles": [
+      "Return of the Holyfist"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 8160,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1697,
+          "ItemName": "Toadskin Cesti",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3066,
+          "ItemName": "Velveteen Shirt",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3576,
+          "ItemName": "Fingerless Goatskin Gloves",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3349,
+          "ItemName": "Velveteen Sarouel",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27638,
+          "ItemName": "Altered Velveteen Bandana",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66103,
+    "QuestTitle": "Return of the Holyfist",
+    "PreviousQuestIds": [
+      66102
+    ],
+    "PreviousQuestTitles": [
+      "Star-crossed Rivals"
+    ],
+    "NextQuestIds": [
+      66597
+    ],
+    "NextQuestTitles": [
+      "Brother from Another Mother"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1699,
+          "ItemName": "Steel Claws",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3100,
+          "ItemName": "Toadskin Jacket",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2753,
+          "ItemName": "Steel Sallet",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3597,
+          "ItemName": "Toadskin Armguards",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3827,
+          "ItemName": "Toadskin Leg Guards",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66234,
+    "QuestTitle": "Burning Up the Quarter Malm",
+    "PreviousQuestIds": [
+      66090,
+      66089
+    ],
+    "PreviousQuestTitles": [
+      "Harder than Rock",
+      "My First Hora"
+    ],
+    "NextQuestIds": [
+      66094
+    ],
+    "NextQuestTitles": [
+      "The Spirit Is Willing"
+    ],
+    "StarterNpc": "Hamon",
+    "StarterNpcLocation": {
+      "RowId": 3947222,
+      "X": -74.5413,
+      "Y": 1.99999,
+      "Z": -42.3795,
+      "Yaw": 2.76998,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Pugilist Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100059,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1683,
+          "ItemName": "Ramhorn Claws",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3016,
+          "ItemName": "Leather Jacket",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2662,
+          "ItemName": "Bronze Sallet",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3539,
+          "ItemName": "Hempen Bracers",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3770,
+          "ItemName": "Leather Jackboots",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,2570 @@
+[
+  {
+    "QuestId": 68498,
+    "QuestTitle": "Arenvald\u0027s Adventure",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      68499
+    ],
+    "NextQuestTitles": [
+      "The Darkness Below"
+    ],
+    "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6865805,
+      "X": 170.601,
+      "Y": 13.0237,
+      "Z": -91.963,
+      "Yaw": -1.25609,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": null,
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 1,
+    "Icon": 100740,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 166,
+        "EmoteName": "Box"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68499,
+    "QuestTitle": "The Darkness Below",
+    "PreviousQuestIds": [
+      68498
+    ],
+    "PreviousQuestTitles": [
+      "Arenvald\u0027s Adventure"
+    ],
+    "NextQuestIds": [
+      68500
+    ],
+    "NextQuestTitles": [
+      "The Mad King\u0027s Trove"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7074884,
+      "X": 47.7907,
+      "Y": 0,
+      "Z": 58.6599,
+      "Yaw": 2.01151,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Arenvald",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 2,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1062,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 26886,
+          "ItemName": "Dai-ryumyaku Accessories of Fending Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26887,
+          "ItemName": "Dai-ryumyaku Accessories of Slaying Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26888,
+          "ItemName": "Dai-ryumyaku Accessories of Aiming Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26889,
+          "ItemName": "Dai-ryumyaku Accessories of Healing Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26890,
+          "ItemName": "Dai-ryumyaku Accessories of Casting Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68500,
+    "QuestTitle": "The Mad King\u0027s Trove",
+    "PreviousQuestIds": [
+      68499
+    ],
+    "PreviousQuestTitles": [
+      "The Darkness Below"
+    ],
+    "NextQuestIds": [
+      68501
+    ],
+    "NextQuestTitles": [
+      "The Butcher\u0027s Blood"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7074634,
+      "X": 530.835,
+      "Y": 70,
+      "Z": 576.013,
+      "Yaw": 0.164203,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 3,
+    "Icon": 100741,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 4325,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68501,
+    "QuestTitle": "The Butcher\u0027s Blood",
+    "PreviousQuestIds": [
+      68500
+    ],
+    "PreviousQuestTitles": [
+      "The Mad King\u0027s Trove"
+    ],
+    "NextQuestIds": [
+      68502
+    ],
+    "NextQuestTitles": [
+      "Echoes of an Echo"
+    ],
+    "StarterNpc": "Arenvald",
+    "StarterNpcLocation": {
+      "RowId": 7074633,
+      "X": 532.506,
+      "Y": 70,
+      "Z": 576.183,
+      "Yaw": -0.293385,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "prison guard",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 4,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1189,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21317,
+          "ItemName": "The Measure of Our Reach Orchestrion Roll",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68502,
+    "QuestTitle": "Echoes of an Echo",
+    "PreviousQuestIds": [
+      68501
+    ],
+    "PreviousQuestTitles": [
+      "The Butcher\u0027s Blood"
+    ],
+    "NextQuestIds": [
+      68503
+    ],
+    "NextQuestTitles": [
+      "A Sultana\u0027s Strings"
+    ],
+    "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 7074672,
+      "X": 775.62,
+      "Y": 69.9999,
+      "Z": 639.454,
+      "Yaw": 2.48511,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 5,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 898,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68503,
+    "QuestTitle": "A Sultana\u0027s Strings",
+    "PreviousQuestIds": [
+      68502
+    ],
+    "PreviousQuestTitles": [
+      "Echoes of an Echo"
+    ],
+    "NextQuestIds": [
+      68504
+    ],
+    "NextQuestTitles": [
+      "A Sultana\u0027s Duty"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7075127,
+      "X": 757.692,
+      "Y": 70,
+      "Z": 444.336,
+      "Yaw": 0.436645,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Nanamo Ul Namo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 6,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1875,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 19827,
+          "ItemName": "Stewed River Bream",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19807,
+          "ItemName": "Doman Tea",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19813,
+          "ItemName": "Persimmon Pudding",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68504,
+    "QuestTitle": "A Sultana\u0027s Duty",
+    "PreviousQuestIds": [
+      68503
+    ],
+    "PreviousQuestTitles": [
+      "A Sultana\u0027s Strings"
+    ],
+    "NextQuestIds": [
+      68505
+    ],
+    "NextQuestTitles": [
+      "A Sultana\u0027s Resolve"
+    ],
+    "StarterNpc": "Nanamo Ul Namo",
+    "StarterNpcLocation": {
+      "RowId": 7074628,
+      "X": -105.73,
+      "Y": 6.97333,
+      "Z": -4.10474,
+      "Yaw": 1.35468,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Nanamo Ul Namo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 7,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 825,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68505,
+    "QuestTitle": "A Sultana\u0027s Resolve",
+    "PreviousQuestIds": [
+      68504
+    ],
+    "PreviousQuestTitles": [
+      "A Sultana\u0027s Duty"
+    ],
+    "NextQuestIds": [
+      68506
+    ],
+    "NextQuestTitles": [
+      "Securing the Saltery"
+    ],
+    "StarterNpc": "Nanamo Ul Namo",
+    "StarterNpcLocation": {
+      "RowId": 7074652,
+      "X": -12.7503,
+      "Y": 20.9997,
+      "Z": 47.8548,
+      "Yaw": 2.63119,
+      "Radius": 1,
+      "MapId": 196,
+      "TerritoryId": 144
+    },
+    "FinishNpc": "Nanamo Ul Namo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2896,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 19821,
+          "ItemName": "Onigara-yaki",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19812,
+          "ItemName": "Jellied Compote",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19815,
+          "ItemName": "Persimmon Leaf Sushi",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68506,
+    "QuestTitle": "Securing the Saltery",
+    "PreviousQuestIds": [
+      68505
+    ],
+    "PreviousQuestTitles": [
+      "A Sultana\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      68507
+    ],
+    "NextQuestTitles": [
+      "A Blissful Arrival"
+    ],
+    "StarterNpc": "Nanamo Ul Namo",
+    "StarterNpcLocation": {
+      "RowId": 7074976,
+      "X": -2.81786,
+      "Y": -2.02948,
+      "Z": -17.1598,
+      "Yaw": 0.347762,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Watt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 9,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1954,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68507,
+    "QuestTitle": "A Blissful Arrival",
+    "PreviousQuestIds": [
+      68506
+    ],
+    "PreviousQuestTitles": [
+      "Securing the Saltery"
+    ],
+    "NextQuestIds": [
+      68508
+    ],
+    "NextQuestTitles": [
+      "Return of the Bull"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7074699,
+      "X": -285.298,
+      "Y": 11.1543,
+      "Z": 187.03,
+      "Yaw": 0.175883,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 10,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 861,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21278,
+          "ItemName": "The Measure of His Reach Orchestrion Roll",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 26891,
+          "ItemName": "Dai-ryumyaku Weapon Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68508,
+    "QuestTitle": "Return of the Bull",
+    "PreviousQuestIds": [
+      68507
+    ],
+    "PreviousQuestTitles": [
+      "A Blissful Arrival"
+    ],
+    "NextQuestIds": [
+      68541,
+      68558
+    ],
+    "NextQuestTitles": [
+      "None Forgotten, None Forsaken",
+      "Tidings from the East"
+    ],
+    "StarterNpc": "Raubahn",
+    "StarterNpcLocation": {
+      "RowId": 7074872,
+      "X": 339.629,
+      "Y": 73.991,
+      "Z": 75.4863,
+      "Yaw": 2.46812,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 11,
+    "Icon": 100742,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 3481,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21066,
+          "ItemName": "Dress-up Raubahn",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68558,
+    "QuestTitle": "Tidings from the East",
+    "PreviousQuestIds": [
+      68508
+    ],
+    "PreviousQuestTitles": [
+      "Return of the Bull"
+    ],
+    "NextQuestIds": [
+      68559
+    ],
+    "NextQuestTitles": [
+      "The Sword in the Store"
+    ],
+    "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 6865805,
+      "X": 170.601,
+      "Y": 13.0237,
+      "Z": -91.963,
+      "Yaw": -1.25609,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 12,
+    "Icon": 100755,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 969,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 172,
+        "EmoteName": "Greeting"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68559,
+    "QuestTitle": "The Sword in the Store",
+    "PreviousQuestIds": [
+      68558
+    ],
+    "PreviousQuestTitles": [
+      "Tidings from the East"
+    ],
+    "NextQuestIds": [
+      68560
+    ],
+    "NextQuestTitles": [
+      "Hope on the Waves"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7178501,
+      "X": -12.3733,
+      "Y": 10.5039,
+      "Z": -213.757,
+      "Yaw": 1.17366,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Ume",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 13,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 715,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9738,
+          "ItemName": "Green Tea Set",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68560,
+    "QuestTitle": "Hope on the Waves",
+    "PreviousQuestIds": [
+      68559
+    ],
+    "PreviousQuestTitles": [
+      "The Sword in the Store"
+    ],
+    "NextQuestIds": [
+      68551,
+      68561
+    ],
+    "NextQuestTitles": [
+      "An Auspicious Encounter",
+      "Elation and Trepidation"
+    ],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 7178526,
+      "X": 1.39395,
+      "Y": 0,
+      "Z": -78.1285,
+      "Yaw": -2.67168,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Soroban",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 14,
+    "Icon": 100756,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2392,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68561,
+    "QuestTitle": "Elation and Trepidation",
+    "PreviousQuestIds": [
+      68560
+    ],
+    "PreviousQuestTitles": [
+      "Hope on the Waves"
+    ],
+    "NextQuestIds": [
+      68562,
+      68622
+    ],
+    "NextQuestTitles": [
+      "Storm on the Horizon",
+      "Precious Reclamation"
+    ],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 7182515,
+      "X": -791.024,
+      "Y": 12.3462,
+      "Z": -283.788,
+      "Yaw": -2.75921,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 15,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1276,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68562,
+    "QuestTitle": "Storm on the Horizon",
+    "PreviousQuestIds": [
+      68561
+    ],
+    "PreviousQuestTitles": [
+      "Elation and Trepidation"
+    ],
+    "NextQuestIds": [
+      68563
+    ],
+    "NextQuestTitles": [
+      "His Forgotten Home"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 6843953,
+      "X": 173.227,
+      "Y": 5.19113,
+      "Z": -433.249,
+      "Yaw": 0.865711,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 16,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 872,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 22435,
+          "ItemName": "Dzo Steak",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22432,
+          "ItemName": "Tako-yaki",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22445,
+          "ItemName": "Tofu Pancakes",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68563,
+    "QuestTitle": "His Forgotten Home",
+    "PreviousQuestIds": [
+      68562
+    ],
+    "PreviousQuestTitles": [
+      "Storm on the Horizon"
+    ],
+    "NextQuestIds": [
+      68564
+    ],
+    "NextQuestTitles": [
+      "A Guilty Conscience"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7226672,
+      "X": 6.03388,
+      "Y": 0,
+      "Z": 18.6616,
+      "Yaw": -1.99628,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Asahi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 17,
+    "Icon": 100757,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2174,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68564,
+    "QuestTitle": "A Guilty Conscience",
+    "PreviousQuestIds": [
+      68563
+    ],
+    "PreviousQuestTitles": [
+      "His Forgotten Home"
+    ],
+    "NextQuestIds": [
+      68565
+    ],
+    "NextQuestTitles": [
+      "Rise of a New Sun"
+    ],
+    "StarterNpc": "Asahi",
+    "StarterNpcLocation": {
+      "RowId": 7226598,
+      "X": 464.118,
+      "Y": 17.7196,
+      "Z": 301.602,
+      "Yaw": -1.21825,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 18,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68565,
+    "QuestTitle": "Rise of a New Sun",
+    "PreviousQuestIds": [
+      68564
+    ],
+    "PreviousQuestTitles": [
+      "A Guilty Conscience"
+    ],
+    "NextQuestIds": [
+      68606
+    ],
+    "NextQuestTitles": [
+      "Gosetsu and Tsuyu"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7227016,
+      "X": -0.178163,
+      "Y": 0,
+      "Z": -2.73538,
+      "Yaw": -1.01659,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Hancock",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 19,
+    "Icon": 100758,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2072,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22469,
+          "ItemName": "Cyan\u0027s Theme Orchestrion Roll",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 26879,
+          "ItemName": "Dai-ryumyaku Armor of Fending Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26880,
+          "ItemName": "Dai-ryumyaku Armor of Maiming Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26881,
+          "ItemName": "Dai-ryumyaku Armor of Striking Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68606,
+    "QuestTitle": "Gosetsu and Tsuyu",
+    "PreviousQuestIds": [
+      68565
+    ],
+    "PreviousQuestTitles": [
+      "Rise of a New Sun"
+    ],
+    "NextQuestIds": [
+      68607
+    ],
+    "NextQuestTitles": [
+      "Gone Like the Morning Dew"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 7226658,
+      "X": -1.78314,
+      "Y": 0.0241513,
+      "Z": 0.0058616,
+      "Yaw": 2.38061,
+      "Radius": 1,
+      "MapId": 377,
+      "TerritoryId": 639
+    },
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 20,
+    "Icon": 100779,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1277,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 26883,
+          "ItemName": "Dai-ryumyaku Armor of Scouting Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26882,
+          "ItemName": "Dai-ryumyaku Armor of Aiming Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26884,
+          "ItemName": "Dai-ryumyaku Armor of Healing Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26885,
+          "ItemName": "Dai-ryumyaku Armor of Casting Coffer (IL 370)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68607,
+    "QuestTitle": "Gone Like the Morning Dew",
+    "PreviousQuestIds": [
+      68606
+    ],
+    "PreviousQuestTitles": [
+      "Gosetsu and Tsuyu"
+    ],
+    "NextQuestIds": [
+      68608
+    ],
+    "NextQuestTitles": [
+      "Fruits of Her Labor"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7350620,
+      "X": 146.38,
+      "Y": -4.17872,
+      "Z": 60.1508,
+      "Yaw": 0.860282,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": null,
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 21,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 970,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 22435,
+          "ItemName": "Dzo Steak",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 23186,
+          "ItemName": "Banh Xeo",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 23188,
+          "ItemName": "Ema Datshi",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22445,
+          "ItemName": "Tofu Pancakes",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68608,
+    "QuestTitle": "Fruits of Her Labor",
+    "PreviousQuestIds": [
+      68607
+    ],
+    "PreviousQuestTitles": [
+      "Gone Like the Morning Dew"
+    ],
+    "NextQuestIds": [
+      68609
+    ],
+    "NextQuestTitles": [
+      "Conscripts and Contingencies"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7235773,
+      "X": 466.269,
+      "Y": 70.277,
+      "Z": -58.6974,
+      "Yaw": -2.65515,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 22,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1262,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68609,
+    "QuestTitle": "Conscripts and Contingencies",
+    "PreviousQuestIds": [
+      68608
+    ],
+    "PreviousQuestTitles": [
+      "Fruits of Her Labor"
+    ],
+    "NextQuestIds": [
+      68610
+    ],
+    "NextQuestTitles": [
+      "The Primary Agreement"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7227008,
+      "X": 0.218423,
+      "Y": 0,
+      "Z": -3.09579,
+      "Yaw": -0.806236,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 23,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1313,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 22447,
+          "ItemName": "Grade 2 Infusion of Strength",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22448,
+          "ItemName": "Grade 2 Infusion of Dexterity",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22449,
+          "ItemName": "Grade 2 Infusion of Vitality",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22450,
+          "ItemName": "Grade 2 Infusion of Intelligence",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22451,
+          "ItemName": "Grade 2 Infusion of Mind",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68610,
+    "QuestTitle": "The Primary Agreement",
+    "PreviousQuestIds": [
+      68609
+    ],
+    "PreviousQuestTitles": [
+      "Conscripts and Contingencies"
+    ],
+    "NextQuestIds": [
+      68566,
+      68611
+    ],
+    "NextQuestTitles": [
+      "A Fortune in Salt",
+      "Under the Moonlight"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7227008,
+      "X": 0.218423,
+      "Y": 0,
+      "Z": -3.09579,
+      "Yaw": -0.806236,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 24,
+    "Icon": 100780,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 3000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68611,
+    "QuestTitle": "Under the Moonlight",
+    "PreviousQuestIds": [
+      68610
+    ],
+    "PreviousQuestTitles": [
+      "The Primary Agreement"
+    ],
+    "NextQuestIds": [
+      68612
+    ],
+    "NextQuestTitles": [
+      "Emissary of the Dawn"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7227017,
+      "X": 1.34799,
+      "Y": 0,
+      "Z": 0.602425,
+      "Yaw": -2.60052,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 25,
+    "Icon": 100781,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 5000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68612,
+    "QuestTitle": "Emissary of the Dawn",
+    "PreviousQuestIds": [
+      68611
+    ],
+    "PreviousQuestTitles": [
+      "Under the Moonlight"
+    ],
+    "NextQuestIds": [
+      68679,
+      69525
+    ],
+    "NextQuestTitles": [
+      "Sisterly Act",
+      "Second-rate Entertainment"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7344076,
+      "X": 1.48004,
+      "Y": -0.0153197,
+      "Z": -11.7343,
+      "Yaw": -0.639892,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 26,
+    "Icon": 100782,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 183,
+        "EmoteName": "Ponder"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68679,
+    "QuestTitle": "Sisterly Act",
+    "PreviousQuestIds": [
+      68612
+    ],
+    "PreviousQuestTitles": [
+      "Emissary of the Dawn"
+    ],
+    "NextQuestIds": [
+      68680
+    ],
+    "NextQuestTitles": [
+      "Feel the Burn"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7344076,
+      "X": 1.48004,
+      "Y": -0.0153197,
+      "Z": -11.7343,
+      "Yaw": -0.639892,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 27,
+    "Icon": 100802,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2729,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 24276,
+          "ItemName": "Laghman",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24278,
+          "ItemName": "Papanasi",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24277,
+          "ItemName": "Imam Bayildi",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24275,
+          "ItemName": "Ginger Salad",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68680,
+    "QuestTitle": "Feel the Burn",
+    "PreviousQuestIds": [
+      68679
+    ],
+    "PreviousQuestTitles": [
+      "Sisterly Act"
+    ],
+    "NextQuestIds": [
+      68681
+    ],
+    "NextQuestTitles": [
+      "Shadows in the Empire"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7350474,
+      "X": 0.210898,
+      "Y": 0.0210915,
+      "Z": -2.98395,
+      "Yaw": 0.106032,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 28,
+    "Icon": 112311,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 4265,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68681,
+    "QuestTitle": "Shadows in the Empire",
+    "PreviousQuestIds": [
+      68680
+    ],
+    "PreviousQuestTitles": [
+      "Feel the Burn"
+    ],
+    "NextQuestIds": [
+      68682
+    ],
+    "NextQuestTitles": [
+      "A Power in Slumber"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7592887,
+      "X": 117.794,
+      "Y": -4.17871,
+      "Z": 87.2978,
+      "Yaw": -0.737861,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 29,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1007,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68682,
+    "QuestTitle": "A Power in Slumber",
+    "PreviousQuestIds": [
+      68681
+    ],
+    "PreviousQuestTitles": [
+      "Shadows in the Empire"
+    ],
+    "NextQuestIds": [
+      68683
+    ],
+    "NextQuestTitles": [
+      "The Will of the Moon"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7350474,
+      "X": 0.210898,
+      "Y": 0.0210915,
+      "Z": -2.98395,
+      "Yaw": 0.106032,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 30,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1054,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 24274,
+          "ItemName": "Rooibos Tea",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24279,
+          "ItemName": "Salmon Muffin",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24280,
+          "ItemName": "Shakshouka",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68683,
+    "QuestTitle": "The Will of the Moon",
+    "PreviousQuestIds": [
+      68682
+    ],
+    "PreviousQuestTitles": [
+      "A Power in Slumber"
+    ],
+    "NextQuestIds": [
+      68684
+    ],
+    "NextQuestTitles": [
+      "The Call"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7593417,
+      "X": 498.311,
+      "Y": 40.8685,
+      "Z": -503.374,
+      "Yaw": -3.10896,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Cirina",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 31,
+    "Icon": 100803,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2465,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68684,
+    "QuestTitle": "The Call",
+    "PreviousQuestIds": [
+      68683
+    ],
+    "PreviousQuestTitles": [
+      "The Will of the Moon"
+    ],
+    "NextQuestIds": [
+      68685
+    ],
+    "NextQuestTitles": [
+      "Prelude in Violet"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7593417,
+      "X": 498.311,
+      "Y": 40.8685,
+      "Z": -503.374,
+      "Yaw": -3.10896,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 32,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2490,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 190,
+        "EmoteName": "Endure"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68685,
+    "QuestTitle": "Prelude in Violet",
+    "PreviousQuestIds": [
+      68684
+    ],
+    "PreviousQuestTitles": [
+      "The Call"
+    ],
+    "NextQuestIds": [
+      68715
+    ],
+    "NextQuestTitles": [
+      "Soul Searching"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7587640,
+      "X": 773.372,
+      "Y": 80,
+      "Z": 437.718,
+      "Yaw": 2.20424,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 33,
+    "Icon": 100804,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 3500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68715,
+    "QuestTitle": "Soul Searching",
+    "PreviousQuestIds": [
+      68685
+    ],
+    "PreviousQuestTitles": [
+      "Prelude in Violet"
+    ],
+    "NextQuestIds": [
+      68716
+    ],
+    "NextQuestTitles": [
+      "A Defector\u0027s Tidings"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7344076,
+      "X": 1.48004,
+      "Y": -0.0153197,
+      "Z": -11.7343,
+      "Yaw": -0.639892,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 34,
+    "Icon": 100819,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 1331,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68716,
+    "QuestTitle": "A Defector\u0027s Tidings",
+    "PreviousQuestIds": [
+      68715
+    ],
+    "PreviousQuestTitles": [
+      "Soul Searching"
+    ],
+    "NextQuestIds": [
+      68717
+    ],
+    "NextQuestTitles": [
+      "Seiryu\u0027s Wall"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 7732629,
+      "X": -478.411,
+      "Y": 137.429,
+      "Z": 696.962,
+      "Yaw": -0.271693,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 35,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2823,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 24276,
+          "ItemName": "Laghman",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24278,
+          "ItemName": "Papanasi",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24277,
+          "ItemName": "Imam Bayildi",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24275,
+          "ItemName": "Ginger Salad",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68717,
+    "QuestTitle": "Seiryu\u0027s Wall",
+    "PreviousQuestIds": [
+      68716
+    ],
+    "PreviousQuestTitles": [
+      "A Defector\u0027s Tidings"
+    ],
+    "NextQuestIds": [
+      68718,
+      68722
+    ],
+    "NextQuestTitles": [
+      "Parley on the Front Lines",
+      "Take with a Tonze of Salt"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7732670,
+      "X": 0,
+      "Y": 0.0210915,
+      "Z": -3,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 36,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 998,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68718,
+    "QuestTitle": "Parley on the Front Lines",
+    "PreviousQuestIds": [
+      68717
+    ],
+    "PreviousQuestTitles": [
+      "Seiryu\u0027s Wall"
+    ],
+    "NextQuestIds": [
+      68719
+    ],
+    "NextQuestTitles": [
+      "The Face of War"
+    ],
+    "StarterNpc": "Hien",
+    "StarterNpcLocation": {
+      "RowId": 7350474,
+      "X": 0.210898,
+      "Y": 0.0210915,
+      "Z": -2.98395,
+      "Yaw": 0.106032,
+      "Radius": 1,
+      "MapId": 461,
+      "TerritoryId": 744
+    },
+    "FinishNpc": "Lyse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 37,
+    "Icon": 100820,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 2298,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 24274,
+          "ItemName": "Rooibos Tea",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24279,
+          "ItemName": "Salmon Muffin",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24280,
+          "ItemName": "Shakshouka",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68719,
+    "QuestTitle": "The Face of War",
+    "PreviousQuestIds": [
+      68718
+    ],
+    "PreviousQuestTitles": [
+      "Parley on the Front Lines"
+    ],
+    "NextQuestIds": [
+      68720
+    ],
+    "NextQuestTitles": [
+      "A Brief Reprieve"
+    ],
+    "StarterNpc": "Lyse",
+    "StarterNpcLocation": {
+      "RowId": 7739100,
+      "X": -468.895,
+      "Y": 107.622,
+      "Z": 130.93,
+      "Yaw": -2.49405,
+      "Radius": 1,
+      "MapId": 518,
+      "TerritoryId": 829
+    },
+    "FinishNpc": "Hoary Boulder",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 38,
+    "Icon": 100821,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 5000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68720,
+    "QuestTitle": "A Brief Reprieve",
+    "PreviousQuestIds": [
+      68719
+    ],
+    "PreviousQuestTitles": [
+      "The Face of War"
+    ],
+    "NextQuestIds": [
+      68721
+    ],
+    "NextQuestTitles": [
+      "A Requiem for Heroes"
+    ],
+    "StarterNpc": "Hoary Boulder",
+    "StarterNpcLocation": {
+      "RowId": 7722004,
+      "X": -1.57677,
+      "Y": -0.0153198,
+      "Z": -9.62848,
+      "Yaw": 0.550934,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 39,
+    "Icon": 100841,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 3679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68721,
+    "QuestTitle": "A Requiem for Heroes",
+    "PreviousQuestIds": [
+      68720
+    ],
+    "PreviousQuestTitles": [
+      "A Brief Reprieve"
+    ],
+    "NextQuestIds": [
+      68815
+    ],
+    "NextQuestTitles": [
+      "The Syrcus Trench"
+    ],
+    "StarterNpc": "Resistance fighter",
+    "StarterNpcLocation": {
+      "RowId": 7722044,
+      "X": -524.556,
+      "Y": 8.69831,
+      "Z": -15.4608,
+      "Yaw": -1.61126,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Tataru",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 7,
+      "JournalCategory": {
+        "Id": 7,
+        "Name": "Post-Stormblood Main Scenario Quests"
+      },
+      "Name": "Post-Ala Mhigan Liberation"
+    },
+    "SortKey": 40,
+    "Icon": 100840,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27969,
+          "ItemName": "Scion Traveler\u0027s Attire Coffer",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

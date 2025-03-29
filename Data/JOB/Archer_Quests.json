@@ -1,0 +1,863 @@
+[
+  {
+    "QuestId": 65557,
+    "QuestTitle": "Way of the Archer",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65582,
+      65603
+    ],
+    "NextQuestTitles": [
+      "A Matter of Perspective",
+      "School of Hard Nocks"
+    ],
+    "StarterNpc": "Athelyna",
+    "StarterNpcLocation": {
+      "RowId": 1141208,
+      "X": 201.312,
+      "Y": -0.015306,
+      "Z": 43.9307,
+      "Yaw": -1.39244,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4657,
+          "ItemName": "Braised Pipira",
+          "Count": 5,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65582,
+    "QuestTitle": "A Matter of Perspective",
+    "PreviousQuestIds": [
+      65557,
+      65755
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Archer",
+      "My First Bow"
+    ],
+    "NextQuestIds": [
+      65603,
+      65670
+    ],
+    "NextQuestTitles": [
+      "School of Hard Nocks",
+      "Training with Leih"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1891,
+          "ItemName": "Maple Shortbow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3003,
+          "ItemName": "Custom-made Tunic",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2653,
+          "ItemName": "Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3530,
+          "ItemName": "Fingerless Leather Gloves",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4305,
+          "ItemName": "Copper Gorget",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65603,
+    "QuestTitle": "School of Hard Nocks",
+    "PreviousQuestIds": [
+      65582,
+      65557
+    ],
+    "PreviousQuestTitles": [
+      "A Matter of Perspective",
+      "Way of the Archer"
+    ],
+    "NextQuestIds": [
+      65604
+    ],
+    "NextQuestTitles": [
+      "Violators Will Be Shot"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1893,
+          "ItemName": "Plumed Maple Shortbow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3016,
+          "ItemName": "Leather Jacket",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2662,
+          "ItemName": "Bronze Sallet",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3539,
+          "ItemName": "Hempen Bracers",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27637,
+          "ItemName": "Hard Leather Thighboots",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65604,
+    "QuestTitle": "Violators Will Be Shot",
+    "PreviousQuestIds": [
+      65603,
+      65670
+    ],
+    "PreviousQuestTitles": [
+      "School of Hard Nocks",
+      "Training with Leih"
+    ],
+    "NextQuestIds": [
+      65606
+    ],
+    "NextQuestTitles": [
+      "To Catch a Poacher"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5760,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1895,
+          "ItemName": "Ash Shortbow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3028,
+          "ItemName": "Cotton Tabard",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2677,
+          "ItemName": "Hunting Hat",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3546,
+          "ItemName": "Fingerless Hard Leather Gloves",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3780,
+          "ItemName": "Hard Leather Crakows",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 112,
+        "ActionName": "Repelling Shot"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65606,
+    "QuestTitle": "To Catch a Poacher",
+    "PreviousQuestIds": [
+      65604
+    ],
+    "PreviousQuestTitles": [
+      "Violators Will Be Shot"
+    ],
+    "NextQuestIds": [
+      65607
+    ],
+    "NextQuestTitles": [
+      "Homecoming"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1899,
+          "ItemName": "Elm Velocity Bow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3043,
+          "ItemName": "Goatskin Jacket",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2708,
+          "ItemName": "Iron Sallet",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3559,
+          "ItemName": "Goatskin Armguards",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3791,
+          "ItemName": "Goatskin Leg Guards",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65607,
+    "QuestTitle": "Homecoming",
+    "PreviousQuestIds": [
+      65606
+    ],
+    "PreviousQuestTitles": [
+      "To Catch a Poacher"
+    ],
+    "NextQuestIds": [
+      65612
+    ],
+    "NextQuestTitles": [
+      "The One That Got Away"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 8160,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1905,
+          "ItemName": "Wrapped Elm Longbow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3066,
+          "ItemName": "Velveteen Shirt",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27638,
+          "ItemName": "Altered Velveteen Bandana",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3576,
+          "ItemName": "Fingerless Goatskin Gloves",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3808,
+          "ItemName": "Goatskin Crakows",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65612,
+    "QuestTitle": "The One That Got Away",
+    "PreviousQuestIds": [
+      65607
+    ],
+    "PreviousQuestTitles": [
+      "Homecoming"
+    ],
+    "NextQuestIds": [
+      66621
+    ],
+    "NextQuestTitles": [
+      "A Song of Bards and Bowmen"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1915,
+          "ItemName": "Ash Cavalry Bow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3100,
+          "ItemName": "Toadskin Jacket",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2753,
+          "ItemName": "Steel Sallet",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3597,
+          "ItemName": "Toadskin Armguards",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3827,
+          "ItemName": "Toadskin Leg Guards",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 113,
+        "ActionName": "Windbite"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65667,
+    "QuestTitle": "Way of the Archer",
+    "PreviousQuestIds": [
+      65717
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be an Archer"
+    ],
+    "NextQuestIds": [
+      65670,
+      65755
+    ],
+    "NextQuestTitles": [
+      "Training with Leih",
+      "My First Bow"
+    ],
+    "StarterNpc": "Athelyna",
+    "StarterNpcLocation": {
+      "RowId": 1141208,
+      "X": 201.312,
+      "Y": -0.015306,
+      "Z": 43.9307,
+      "Yaw": -1.39244,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1889,
+          "ItemName": "Weathered Shortbow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65670,
+    "QuestTitle": "Training with Leih",
+    "PreviousQuestIds": [
+      65582,
+      65667
+    ],
+    "PreviousQuestTitles": [
+      "A Matter of Perspective",
+      "Way of the Archer"
+    ],
+    "NextQuestIds": [
+      65604
+    ],
+    "NextQuestTitles": [
+      "Violators Will Be Shot"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1893,
+          "ItemName": "Plumed Maple Shortbow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3016,
+          "ItemName": "Leather Jacket",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2662,
+          "ItemName": "Bronze Sallet",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3539,
+          "ItemName": "Hempen Bracers",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3772,
+          "ItemName": "Hard Leather Caligae",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65755,
+    "QuestTitle": "My First Bow",
+    "PreviousQuestIds": [
+      65667
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Archer"
+    ],
+    "NextQuestIds": [
+      65582
+    ],
+    "NextQuestTitles": [
+      "A Matter of Perspective"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Luciane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 155,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Archer Quests"
+    },
+    "SortKey": 12,
+    "Icon": 100048,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

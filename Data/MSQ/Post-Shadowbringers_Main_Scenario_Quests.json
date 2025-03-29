@@ -1,0 +1,2176 @@
+[
+  {
+    "QuestId": 69209,
+    "QuestTitle": "Shaken Resolve",
+    "PreviousQuestIds": [
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [
+      69210
+    ],
+    "NextQuestTitles": [
+      "A Grand Adventure"
+    ],
+    "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 8035854,
+      "X": -2.4262,
+      "Y": -0.0153,
+      "Z": -9.1097,
+      "Yaw": 0.552864,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 10,
+    "Icon": 100939,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 2014,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35716,
+          "ItemName": "Crystarium Weapon Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27879,
+          "ItemName": "Ovim Cordon Bleu",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27880,
+          "ItemName": "Lemonade",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27881,
+          "ItemName": "Jellied Harcot",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27882,
+          "ItemName": "Oysters on the Half Shell",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69210,
+    "QuestTitle": "A Grand Adventure",
+    "PreviousQuestIds": [
+      69209
+    ],
+    "PreviousQuestTitles": [
+      "Shaken Resolve"
+    ],
+    "NextQuestIds": [
+      69211
+    ],
+    "NextQuestTitles": [
+      "A Welcome Guest"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 8147080,
+      "X": 0.0685,
+      "Y": 0,
+      "Z": -5.5123,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 547,
+      "TerritoryId": 844
+    },
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 20,
+    "Icon": 112373,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 4800,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69211,
+    "QuestTitle": "A Welcome Guest",
+    "PreviousQuestIds": [
+      69210
+    ],
+    "PreviousQuestTitles": [
+      "A Grand Adventure"
+    ],
+    "NextQuestIds": [
+      69212
+    ],
+    "NextQuestTitles": [
+      "Good for the Soul"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8227883,
+      "X": -113.353,
+      "Y": -0.667149,
+      "Z": 656.799,
+      "Yaw": 2.63056,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Beq Lugg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 30,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27891,
+          "ItemName": "Rare Roast Beef",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27883,
+          "ItemName": "Creamy Salmon Pasta",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27884,
+          "ItemName": "King Salmon Meuniere",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69212,
+    "QuestTitle": "Good for the Soul",
+    "PreviousQuestIds": [
+      69211
+    ],
+    "PreviousQuestTitles": [
+      "A Welcome Guest"
+    ],
+    "NextQuestIds": [
+      69213
+    ],
+    "NextQuestTitles": [
+      "Nowhere to Turn"
+    ],
+    "StarterNpc": "Beq Lugg",
+    "StarterNpcLocation": {
+      "RowId": 8132192,
+      "X": 366.716,
+      "Y": -27.966,
+      "Z": 305.224,
+      "Yaw": -2.7064,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 40,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1407,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69213,
+    "QuestTitle": "Nowhere to Turn",
+    "PreviousQuestIds": [
+      69212
+    ],
+    "PreviousQuestTitles": [
+      "Good for the Soul"
+    ],
+    "NextQuestIds": [
+      69214
+    ],
+    "NextQuestTitles": [
+      "A Notable Absence"
+    ],
+    "StarterNpc": "Kai-Shirr",
+    "StarterNpcLocation": {
+      "RowId": 8132224,
+      "X": 368.188,
+      "Y": -27.966,
+      "Z": 302.332,
+      "Yaw": -1.06122,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Dulia-Chai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 50,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1152,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27887,
+          "ItemName": "Pixieberry Tea",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27885,
+          "ItemName": "Popoto Salad",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27886,
+          "ItemName": "Robe Lettuce Salad",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69214,
+    "QuestTitle": "A Notable Absence",
+    "PreviousQuestIds": [
+      69213
+    ],
+    "PreviousQuestTitles": [
+      "Nowhere to Turn"
+    ],
+    "NextQuestIds": [
+      69215
+    ],
+    "NextQuestTitles": [
+      "For the People"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8132560,
+      "X": -18.5865,
+      "Y": 82.8498,
+      "Z": -48.2725,
+      "Yaw": -2.80263,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 60,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69215,
+    "QuestTitle": "For the People",
+    "PreviousQuestIds": [
+      69214
+    ],
+    "PreviousQuestTitles": [
+      "A Notable Absence"
+    ],
+    "NextQuestIds": [
+      69216
+    ],
+    "NextQuestTitles": [
+      "Finding Good Help"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8132572,
+      "X": -4.02368,
+      "Y": -5.09093,
+      "Z": -98.1839,
+      "Yaw": 2.29847,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Chai-Nuzz",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 70,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1339,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27892,
+          "ItemName": "Exquisite Beef Stew",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27888,
+          "ItemName": "Pixieberry Cheesecake",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27889,
+          "ItemName": "Kukuru Rusk",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27890,
+          "ItemName": "Lemon Curd Sachertorte",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69216,
+    "QuestTitle": "Finding Good Help",
+    "PreviousQuestIds": [
+      69215
+    ],
+    "PreviousQuestTitles": [
+      "For the People"
+    ],
+    "NextQuestIds": [
+      69217
+    ],
+    "NextQuestTitles": [
+      "Moving Forward"
+    ],
+    "StarterNpc": "Chai-Nuzz",
+    "StarterNpcLocation": {
+      "RowId": 8132826,
+      "X": -60.0443,
+      "Y": 377.927,
+      "Z": -451.652,
+      "Yaw": -2.5811,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Wrenden",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 80,
+    "Icon": 100940,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1055,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69217,
+    "QuestTitle": "Moving Forward",
+    "PreviousQuestIds": [
+      69216
+    ],
+    "PreviousQuestTitles": [
+      "Finding Good Help"
+    ],
+    "NextQuestIds": [
+      69218,
+      69265
+    ],
+    "NextQuestTitles": [
+      "Vows of Virtue, Deeds of Cruelty",
+      "Oh, Beehive Yourself"
+    ],
+    "StarterNpc": "Chai-Nuzz",
+    "StarterNpcLocation": {
+      "RowId": 8134560,
+      "X": 170.458,
+      "Y": 39.9738,
+      "Z": 586.206,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Kai-Shirr",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 90,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1073,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28886,
+          "ItemName": "Pain in Pleasure Orchestrion Roll",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69218,
+    "QuestTitle": "Vows of Virtue, Deeds of Cruelty",
+    "PreviousQuestIds": [
+      69217
+    ],
+    "PreviousQuestTitles": [
+      "Moving Forward"
+    ],
+    "NextQuestIds": [
+      69286,
+      69297,
+      69477
+    ],
+    "NextQuestTitles": [
+      "One Final Journey",
+      "Old Enemies, New Threats",
+      "Where Eagles Nest"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8134591,
+      "X": 25.8694,
+      "Y": 82.7824,
+      "Z": 24.7577,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Tataru",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 100,
+    "Icon": 100941,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 4200,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69297,
+    "QuestTitle": "Old Enemies, New Threats",
+    "PreviousQuestIds": [
+      69218
+    ],
+    "PreviousQuestTitles": [
+      "Vows of Virtue, Deeds of Cruelty"
+    ],
+    "NextQuestIds": [
+      69298,
+      69319
+    ],
+    "NextQuestTitles": [
+      "The Way Home",
+      "Ruby Doomsday"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8132556,
+      "X": -3.01567,
+      "Y": 0.0180402,
+      "Z": -8.09963,
+      "Yaw": 1.33272,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 110,
+    "Icon": 100981,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1611,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69298,
+    "QuestTitle": "The Way Home",
+    "PreviousQuestIds": [
+      69297
+    ],
+    "PreviousQuestTitles": [
+      "Old Enemies, New Threats"
+    ],
+    "NextQuestIds": [
+      69299
+    ],
+    "NextQuestTitles": [
+      "Seeking Counsel"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 8259150,
+      "X": 739.668,
+      "Y": 70,
+      "Z": 514.231,
+      "Yaw": -0.606536,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 120,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1694,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27891,
+          "ItemName": "Rare Roast Beef",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27883,
+          "ItemName": "Creamy Salmon Pasta",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27884,
+          "ItemName": "King Salmon Meuniere",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69299,
+    "QuestTitle": "Seeking Counsel",
+    "PreviousQuestIds": [
+      69298
+    ],
+    "PreviousQuestTitles": [
+      "The Way Home"
+    ],
+    "NextQuestIds": [
+      69300
+    ],
+    "NextQuestTitles": [
+      "Facing the Truth"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8133495,
+      "X": -1.7796,
+      "Y": 0,
+      "Z": -1.7992,
+      "Yaw": 2.74621,
+      "Radius": 1,
+      "MapId": 547,
+      "TerritoryId": 844
+    },
+    "FinishNpc": "Lyna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 130,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1245,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69300,
+    "QuestTitle": "Facing the Truth",
+    "PreviousQuestIds": [
+      69299
+    ],
+    "PreviousQuestTitles": [
+      "Seeking Counsel"
+    ],
+    "NextQuestIds": [
+      69301
+    ],
+    "NextQuestTitles": [
+      "A Sleep Disturbed"
+    ],
+    "StarterNpc": "Lyna",
+    "StarterNpcLocation": {
+      "RowId": 8259163,
+      "X": 629.114,
+      "Y": 94.3919,
+      "Z": -644.953,
+      "Yaw": -0.655813,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 140,
+    "Icon": 100982,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1165,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27887,
+          "ItemName": "Pixieberry Tea",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27885,
+          "ItemName": "Popoto Salad",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27886,
+          "ItemName": "Robe Lettuce Salad",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69301,
+    "QuestTitle": "A Sleep Disturbed",
+    "PreviousQuestIds": [
+      69300
+    ],
+    "PreviousQuestTitles": [
+      "Facing the Truth"
+    ],
+    "NextQuestIds": [
+      69302
+    ],
+    "NextQuestTitles": [
+      "An Old Friend"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 8147080,
+      "X": 0.0685,
+      "Y": 0,
+      "Z": -5.5123,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 547,
+      "TerritoryId": 844
+    },
+    "FinishNpc": "Almet",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 150,
+    "Icon": 100983,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 2760,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69302,
+    "QuestTitle": "An Old Friend",
+    "PreviousQuestIds": [
+      69301
+    ],
+    "PreviousQuestTitles": [
+      "A Sleep Disturbed"
+    ],
+    "NextQuestIds": [
+      69303
+    ],
+    "NextQuestTitles": [
+      "Deep Designs"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 7945496,
+      "X": 449.037,
+      "Y": 33.6618,
+      "Z": -157.927,
+      "Yaw": 1.38202,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 160,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1155,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27892,
+          "ItemName": "Exquisite Beef Stew",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27888,
+          "ItemName": "Pixieberry Cheesecake",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27889,
+          "ItemName": "Kukuru Rusk",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27890,
+          "ItemName": "Lemon Curd Sachertorte",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69303,
+    "QuestTitle": "Deep Designs",
+    "PreviousQuestIds": [
+      69302
+    ],
+    "PreviousQuestTitles": [
+      "An Old Friend"
+    ],
+    "NextQuestIds": [
+      69304
+    ],
+    "NextQuestTitles": [
+      "A Whale\u0027s Tale"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 8260024,
+      "X": -641.839,
+      "Y": 3.114,
+      "Z": 19.729,
+      "Yaw": 2.70641,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Tolshs Aath",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 170,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1314,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 35724,
+          "ItemName": "Crystarium Accessories of Fending Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35725,
+          "ItemName": "Crystarium Accessories of Slaying Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35726,
+          "ItemName": "Crystarium Accessories of Aiming Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35727,
+          "ItemName": "Crystarium Accessories of Healing Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35728,
+          "ItemName": "Crystarium Accessories of Casting Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69304,
+    "QuestTitle": "A Whale\u0027s Tale",
+    "PreviousQuestIds": [
+      69303
+    ],
+    "PreviousQuestTitles": [
+      "Deep Designs"
+    ],
+    "NextQuestIds": [
+      69305
+    ],
+    "NextQuestTitles": [
+      "Beneath the Surface"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8260100,
+      "X": 606.113,
+      "Y": 350.352,
+      "Z": -199.988,
+      "Yaw": 0.412072,
+      "Radius": 1,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 180,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 26728,
+          "ItemName": "Heavens\u0027 Eye Materia VIII",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26729,
+          "ItemName": "Savage Aim Materia VIII",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26730,
+          "ItemName": "Savage Might Materia VIII",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69305,
+    "QuestTitle": "Beneath the Surface",
+    "PreviousQuestIds": [
+      69304
+    ],
+    "PreviousQuestTitles": [
+      "A Whale\u0027s Tale"
+    ],
+    "NextQuestIds": [
+      69306
+    ],
+    "NextQuestTitles": [
+      "Echoes of a Fallen Star"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8262664,
+      "X": 235.425,
+      "Y": 5.73331,
+      "Z": 552.369,
+      "Yaw": 2.4285,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 190,
+    "Icon": 112378,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 4000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69306,
+    "QuestTitle": "Echoes of a Fallen Star",
+    "PreviousQuestIds": [
+      69305
+    ],
+    "PreviousQuestTitles": [
+      "Beneath the Surface"
+    ],
+    "NextQuestIds": [
+      69307,
+      69329
+    ],
+    "NextQuestTitles": [
+      "In the Name of the Light",
+      "Worlds Apart"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8260753,
+      "X": -534.149,
+      "Y": 63.561,
+      "Z": 735.156,
+      "Yaw": -2.44347,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "manager of suites",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 200,
+    "Icon": 100984,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 4500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69307,
+    "QuestTitle": "In the Name of the Light",
+    "PreviousQuestIds": [
+      69306
+    ],
+    "PreviousQuestTitles": [
+      "Echoes of a Fallen Star"
+    ],
+    "NextQuestIds": [
+      69308
+    ],
+    "NextQuestTitles": [
+      "Heroic Dreams"
+    ],
+    "StarterNpc": "manager of suites",
+    "StarterNpcLocation": {
+      "RowId": 7788933,
+      "X": 65.3848,
+      "Y": 1.71601,
+      "Z": 249.836,
+      "Yaw": -1.83313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chessamile",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 210,
+    "Icon": 101006,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1295,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69308,
+    "QuestTitle": "Heroic Dreams",
+    "PreviousQuestIds": [
+      69307
+    ],
+    "PreviousQuestTitles": [
+      "In the Name of the Light"
+    ],
+    "NextQuestIds": [
+      69309
+    ],
+    "NextQuestTitles": [
+      "Fraying Threads"
+    ],
+    "StarterNpc": "Eirwel",
+    "StarterNpcLocation": {
+      "RowId": 8370606,
+      "X": -27.875,
+      "Y": -0.656189,
+      "Z": -51.2731,
+      "Yaw": -1.60839,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 220,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 29503,
+          "ItemName": "Pickled Herring",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29498,
+          "ItemName": "Mors",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29500,
+          "ItemName": "Honey Croissant",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69309,
+    "QuestTitle": "Fraying Threads",
+    "PreviousQuestIds": [
+      69308
+    ],
+    "PreviousQuestTitles": [
+      "Heroic Dreams"
+    ],
+    "NextQuestIds": [
+      69310
+    ],
+    "NextQuestTitles": [
+      "Food for the Soul"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8370748,
+      "X": -205.834,
+      "Y": 38.6147,
+      "Z": -82.8034,
+      "Yaw": -2.19405,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 230,
+    "Icon": 101007,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 2014,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 35717,
+          "ItemName": "Crystarium Gear of Fending Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35718,
+          "ItemName": "Crystarium Gear of Maiming Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35719,
+          "ItemName": "Crystarium Gear of Striking Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 7,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69310,
+    "QuestTitle": "Food for the Soul",
+    "PreviousQuestIds": [
+      69309
+    ],
+    "PreviousQuestTitles": [
+      "Fraying Threads"
+    ],
+    "NextQuestIds": [
+      69311
+    ],
+    "NextQuestTitles": [
+      "Faded Memories"
+    ],
+    "StarterNpc": "Tataru",
+    "StarterNpcLocation": {
+      "RowId": 8147802,
+      "X": -2.40453,
+      "Y": 0,
+      "Z": -9.10574,
+      "Yaw": 0.233431,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 240,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1894,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 35720,
+          "ItemName": "Crystarium Gear of Aiming Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35721,
+          "ItemName": "Crystarium Gear of Scouting Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35722,
+          "ItemName": "Crystarium Gear of Healing Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 35723,
+          "ItemName": "Crystarium Gear of Casting Coffer (IL 500)",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 7,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69311,
+    "QuestTitle": "Faded Memories",
+    "PreviousQuestIds": [
+      69310
+    ],
+    "PreviousQuestTitles": [
+      "Food for the Soul"
+    ],
+    "NextQuestIds": [
+      69312
+    ],
+    "NextQuestTitles": [
+      "Etched in the Stars"
+    ],
+    "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8370807,
+      "X": 40.3583,
+      "Y": 0,
+      "Z": 1.93956,
+      "Yaw": 2.24708,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 250,
+    "Icon": 101008,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 2970,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69312,
+    "QuestTitle": "Etched in the Stars",
+    "PreviousQuestIds": [
+      69311
+    ],
+    "PreviousQuestTitles": [
+      "Faded Memories"
+    ],
+    "NextQuestIds": [
+      69313
+    ],
+    "NextQuestTitles": [
+      "The Converging Light"
+    ],
+    "StarterNpc": null,
+    "StarterNpcLocation": {
+      "RowId": 8371033,
+      "X": -382.823,
+      "Y": -229.065,
+      "Z": 755.343,
+      "Yaw": 0,
+      "Radius": 0.99176,
+      "MapId": 496,
+      "TerritoryId": 818
+    },
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 260,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 29506,
+          "ItemName": "Silkie Pudding",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29501,
+          "ItemName": "Sausage and Sauerkraut",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29502,
+          "ItemName": "Stuffed Highland Cabbage",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29504,
+          "ItemName": "Herring Pie",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69313,
+    "QuestTitle": "The Converging Light",
+    "PreviousQuestIds": [
+      69312
+    ],
+    "PreviousQuestTitles": [
+      "Etched in the Stars"
+    ],
+    "NextQuestIds": [
+      69314
+    ],
+    "NextQuestTitles": [
+      "Hope\u0027s Confluence"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 8370975,
+      "X": -497.917,
+      "Y": 8.98691,
+      "Z": 584.205,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Crystal Exarch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 270,
+    "Icon": 101009,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 5353,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69314,
+    "QuestTitle": "Hope\u0027s Confluence",
+    "PreviousQuestIds": [
+      69313
+    ],
+    "PreviousQuestTitles": [
+      "The Converging Light"
+    ],
+    "NextQuestIds": [
+      69315
+    ],
+    "NextQuestTitles": [
+      "Nothing Unsaid"
+    ],
+    "StarterNpc": "Crystal Exarch",
+    "StarterNpcLocation": {
+      "RowId": 8370815,
+      "X": 60.0035,
+      "Y": 0,
+      "Z": 1.63016,
+      "Yaw": -2.32784,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 280,
+    "Icon": 101010,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 3575,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69315,
+    "QuestTitle": "Nothing Unsaid",
+    "PreviousQuestIds": [
+      69314
+    ],
+    "PreviousQuestTitles": [
+      "Hope\u0027s Confluence"
+    ],
+    "NextQuestIds": [
+      69316
+    ],
+    "NextQuestTitles": [
+      "The Journey Continues"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 8370826,
+      "X": 53.2956,
+      "Y": 0,
+      "Z": 1.4293,
+      "Yaw": 2.35064,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Alphinaud",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 290,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 1687,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69316,
+    "QuestTitle": "The Journey Continues",
+    "PreviousQuestIds": [
+      69315
+    ],
+    "PreviousQuestTitles": [
+      "Nothing Unsaid"
+    ],
+    "NextQuestIds": [
+      69317
+    ],
+    "NextQuestTitles": [
+      "Unto the Morrow"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 8371168,
+      "X": 19.5779,
+      "Y": 82.7821,
+      "Z": 48.5508,
+      "Yaw": 1.08595,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 300,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 29505,
+          "ItemName": "Farmer\u0027s Breakfast",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29497,
+          "ItemName": "Ovim Meatballs",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 29499,
+          "ItemName": "Lemon Waffle",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69317,
+    "QuestTitle": "Unto the Morrow",
+    "PreviousQuestIds": [
+      69316
+    ],
+    "PreviousQuestTitles": [
+      "The Journey Continues"
+    ],
+    "NextQuestIds": [
+      69318
+    ],
+    "NextQuestTitles": [
+      "Reflections in Crystal"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8371211,
+      "X": -634.251,
+      "Y": 35.8616,
+      "Z": -234.192,
+      "Yaw": -2.39647,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Thancred",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 310,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30868,
+          "ItemName": "Wind-up Mystel",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69318,
+    "QuestTitle": "Reflections in Crystal",
+    "PreviousQuestIds": [
+      69317
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Morrow"
+    ],
+    "NextQuestIds": [
+      69511,
+      69521,
+      69543,
+      70309
+    ],
+    "NextQuestTitles": [
+      "Empty Promise",
+      "Safekeeping",
+      "Alisaie\u0027s Quest",
+      "And the Crowd Goes Mild"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8370840,
+      "X": 24.2893,
+      "Y": 0,
+      "Z": -0.747113,
+      "Yaw": 0.132291,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 9,
+      "JournalCategory": {
+        "Id": 9,
+        "Name": "Post-Shadowbringers Main Scenario Quests"
+      },
+      "Name": "The Voyage Home"
+    },
+    "SortKey": 320,
+    "Icon": 101011,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 22440,
+      "Gil": 4500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]
