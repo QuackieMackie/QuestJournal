@@ -1,0 +1,334 @@
+[
+  {
+    "QuestId": 69603,
+    "QuestTitle": "Sage\u0027s Path",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      69604
+    ],
+    "NextQuestTitles": [
+      "Sage\u0027s Focus"
+    ],
+    "StarterNpc": "Sharlayan maiden",
+    "StarterNpcLocation": {
+      "RowId": 8907026,
+      "X": -90.274,
+      "Y": 20,
+      "Z": 85.5702,
+      "Yaw": -3.07324,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Lalah Jinjahl",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 188,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Sage Quests"
+    },
+    "SortKey": 700,
+    "Icon": 101095,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33355,
+          "ItemName": "Soul of the Sage",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 35873,
+          "ItemName": "Bookwyrm\u0027s Attire Coffer (IL 385)",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 35778,
+          "ItemName": "Stonegold Milpreves",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69604,
+    "QuestTitle": "Sage\u0027s Focus",
+    "PreviousQuestIds": [
+      69603
+    ],
+    "PreviousQuestTitles": [
+      "Sage\u0027s Path"
+    ],
+    "NextQuestIds": [
+      69605
+    ],
+    "NextQuestTitles": [
+      "Sands of Despair"
+    ],
+    "StarterNpc": "Lalah Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 9012516,
+      "X": -27.5387,
+      "Y": 42.5977,
+      "Z": 163.774,
+      "Yaw": 1.87433,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Lalah Jinjahl",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 188,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Sage Quests"
+    },
+    "SortKey": 701,
+    "Icon": 101095,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2383,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69605,
+    "QuestTitle": "Sands of Despair",
+    "PreviousQuestIds": [
+      69604
+    ],
+    "PreviousQuestTitles": [
+      "Sage\u0027s Focus"
+    ],
+    "NextQuestIds": [
+      69606
+    ],
+    "NextQuestTitles": [
+      "A Poisoned Gift"
+    ],
+    "StarterNpc": "Lalah Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 8907320,
+      "X": 0.370117,
+      "Y": 211,
+      "Z": -17.7265,
+      "Yaw": 2.75886,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Lalah Jinjahl",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 188,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Sage Quests"
+    },
+    "SortKey": 730,
+    "Icon": 101095,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 220320,
+      "Gil": 2678,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69606,
+    "QuestTitle": "A Poisoned Gift",
+    "PreviousQuestIds": [
+      69605
+    ],
+    "PreviousQuestTitles": [
+      "Sands of Despair"
+    ],
+    "NextQuestIds": [
+      69607
+    ],
+    "NextQuestTitles": [
+      "Pledge of Hope"
+    ],
+    "StarterNpc": "Lalah Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 8907320,
+      "X": 0.370117,
+      "Y": 211,
+      "Z": -17.7265,
+      "Yaw": 2.75886,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Lalah Jinjahl",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 188,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Sage Quests"
+    },
+    "SortKey": 750,
+    "Icon": 101095,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 223200,
+      "Gil": 1807,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69607,
+    "QuestTitle": "Pledge of Hope",
+    "PreviousQuestIds": [
+      69606
+    ],
+    "PreviousQuestTitles": [
+      "A Poisoned Gift"
+    ],
+    "NextQuestIds": [
+      69608
+    ],
+    "NextQuestTitles": [
+      "Life Ephemeral, Path Eternal"
+    ],
+    "StarterNpc": "Lalah Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 8907320,
+      "X": 0.370117,
+      "Y": 211,
+      "Z": -17.7265,
+      "Yaw": 2.75886,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Lalah Jinjahl",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 188,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Sage Quests"
+    },
+    "SortKey": 780,
+    "Icon": 101095,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 227520,
+      "Gil": 1179,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69608,
+    "QuestTitle": "Life Ephemeral, Path Eternal",
+    "PreviousQuestIds": [
+      69607
+    ],
+    "PreviousQuestTitles": [
+      "Pledge of Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lalah Jinjahl",
+    "StarterNpcLocation": {
+      "RowId": 8907320,
+      "X": 0.370117,
+      "Y": 211,
+      "Z": -17.7265,
+      "Yaw": 2.75886,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Loifa",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 188,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Sage Quests"
+    },
+    "SortKey": 800,
+    "Icon": 101095,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3031,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 24311,
+        "ActionName": "Panhaima"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,1147 @@
+[
+  {
+    "QuestId": 67548,
+    "QuestTitle": "Stairway to the Heavens",
+    "PreviousQuestIds": [
+      67659
+    ],
+    "PreviousQuestTitles": [
+      "What\u0027s Your Sign"
+    ],
+    "NextQuestIds": [
+      67549
+    ],
+    "NextQuestTitles": [
+      "Fortune Favors the Bole"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Quimperain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8840,
+          "ItemName": "Soul of the Astrologian",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 10524,
+          "ItemName": "Star Globe",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 3090,
+          "ItemName": "Velveteen Cowl",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 3355,
+          "ItemName": "Velveteen Tights",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67549,
+    "QuestTitle": "Fortune Favors the Bole",
+    "PreviousQuestIds": [
+      67548
+    ],
+    "PreviousQuestTitles": [
+      "Stairway to the Heavens"
+    ],
+    "NextQuestIds": [
+      67550
+    ],
+    "NextQuestTitles": [
+      "Hanging in the Balance"
+    ],
+    "StarterNpc": "Leveva",
+    "StarterNpcLocation": {
+      "RowId": 5926523,
+      "X": 185.645,
+      "Y": 14.0403,
+      "Z": 50.5174,
+      "Yaw": -1.39706,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 301,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67550,
+    "QuestTitle": "Hanging in the Balance",
+    "PreviousQuestIds": [
+      67549
+    ],
+    "PreviousQuestTitles": [
+      "Fortune Favors the Bole"
+    ],
+    "NextQuestIds": [
+      67551
+    ],
+    "NextQuestTitles": [
+      "A Lesson in Patience"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 350,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67551,
+    "QuestTitle": "A Lesson in Patience",
+    "PreviousQuestIds": [
+      67550
+    ],
+    "PreviousQuestTitles": [
+      "Hanging in the Balance"
+    ],
+    "NextQuestIds": [
+      67552
+    ],
+    "NextQuestTitles": [
+      "Slings and Arrows"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Leveva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 400,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10780,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3601,
+        "ActionName": "Aspected Helios"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67552,
+    "QuestTitle": "Slings and Arrows",
+    "PreviousQuestIds": [
+      67551
+    ],
+    "PreviousQuestTitles": [
+      "A Lesson in Patience"
+    ],
+    "NextQuestIds": [
+      67553
+    ],
+    "NextQuestTitles": [
+      "Ewer Right"
+    ],
+    "StarterNpc": "Leveva",
+    "StarterNpcLocation": {
+      "RowId": 5927105,
+      "X": 199.941,
+      "Y": -0.899981,
+      "Z": -48.7176,
+      "Yaw": -0.304241,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 401,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10780,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67553,
+    "QuestTitle": "Ewer Right",
+    "PreviousQuestIds": [
+      67552
+    ],
+    "PreviousQuestTitles": [
+      "Slings and Arrows"
+    ],
+    "NextQuestIds": [
+      67554
+    ],
+    "NextQuestTitles": [
+      "Loved by the Sun"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 450,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23760,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3615,
+        "ActionName": "Gravity"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67554,
+    "QuestTitle": "Loved by the Sun",
+    "PreviousQuestIds": [
+      67553
+    ],
+    "PreviousQuestTitles": [
+      "Ewer Right"
+    ],
+    "NextQuestIds": [
+      67555
+    ],
+    "NextQuestTitles": [
+      "Spearheading Initiatives"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Leveva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3612,
+        "ActionName": "Synastry"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67555,
+    "QuestTitle": "Spearheading Initiatives",
+    "PreviousQuestIds": [
+      67554
+    ],
+    "PreviousQuestTitles": [
+      "Loved by the Sun"
+    ],
+    "NextQuestIds": [
+      67556
+    ],
+    "NextQuestTitles": [
+      "Sharlayan Ascending"
+    ],
+    "StarterNpc": "Leveva",
+    "StarterNpcLocation": {
+      "RowId": 5927105,
+      "X": 199.941,
+      "Y": -0.899981,
+      "Z": -48.7176,
+      "Yaw": -0.304241,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 501,
+    "Icon": 100442,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20654,
+          "ItemName": "Astrologian\u0027s Attire Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67556,
+    "QuestTitle": "Sharlayan Ascending",
+    "PreviousQuestIds": [
+      67555
+    ],
+    "PreviousQuestTitles": [
+      "Spearheading Initiatives"
+    ],
+    "NextQuestIds": [
+      67557
+    ],
+    "NextQuestTitles": [
+      "Empty Nest"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5938140,
+      "X": 204.614,
+      "Y": 307.871,
+      "Z": 414.636,
+      "Yaw": 2.79804,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 502,
+    "Icon": 100443,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 683,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67557,
+    "QuestTitle": "Empty Nest",
+    "PreviousQuestIds": [
+      67556
+    ],
+    "PreviousQuestTitles": [
+      "Sharlayan Ascending"
+    ],
+    "NextQuestIds": [
+      67558
+    ],
+    "NextQuestTitles": [
+      "Conviction"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100443,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 1163,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67558,
+    "QuestTitle": "Conviction",
+    "PreviousQuestIds": [
+      67557
+    ],
+    "PreviousQuestTitles": [
+      "Empty Nest"
+    ],
+    "NextQuestIds": [
+      67559
+    ],
+    "NextQuestTitles": [
+      "Feather in the Cap"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100443,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 993,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3598,
+        "ActionName": "Malefic II"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67559,
+    "QuestTitle": "Feather in the Cap",
+    "PreviousQuestIds": [
+      67558
+    ],
+    "PreviousQuestTitles": [
+      "Conviction"
+    ],
+    "NextQuestIds": [
+      67560
+    ],
+    "NextQuestTitles": [
+      "Trumped"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100443,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1691,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67560,
+    "QuestTitle": "Trumped",
+    "PreviousQuestIds": [
+      67559
+    ],
+    "PreviousQuestTitles": [
+      "Feather in the Cap"
+    ],
+    "NextQuestIds": [
+      67561
+    ],
+    "NextQuestTitles": [
+      "The Hands of Fate"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100443,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 1213,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3613,
+        "ActionName": "Collective Unconscious"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67561,
+    "QuestTitle": "The Hands of Fate",
+    "PreviousQuestIds": [
+      67560
+    ],
+    "PreviousQuestTitles": [
+      "Trumped"
+    ],
+    "NextQuestIds": [
+      67945
+    ],
+    "NextQuestTitles": [
+      "East Meets West"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100443,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1610,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20667,
+          "ItemName": "Welkin Attire Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16553,
+        "ActionName": "Celestial Opposition"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67945,
+    "QuestTitle": "East Meets West",
+    "PreviousQuestIds": [
+      67561,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "The Hands of Fate",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      67946
+    ],
+    "NextQuestTitles": [
+      "Ride Like the Wind"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Leveva",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100680,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1691,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67946,
+    "QuestTitle": "Ride Like the Wind",
+    "PreviousQuestIds": [
+      67945
+    ],
+    "PreviousQuestTitles": [
+      "East Meets West"
+    ],
+    "NextQuestIds": [
+      67947
+    ],
+    "NextQuestTitles": [
+      "Come Rain or Shrine"
+    ],
+    "StarterNpc": "Leveva",
+    "StarterNpcLocation": {
+      "RowId": 6841447,
+      "X": 195.19,
+      "Y": -5.4,
+      "Z": -67.0341,
+      "Yaw": -0.479112,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Jannequinard",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100680,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1204,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67947,
+    "QuestTitle": "Come Rain or Shrine",
+    "PreviousQuestIds": [
+      67946
+    ],
+    "PreviousQuestTitles": [
+      "Ride Like the Wind"
+    ],
+    "NextQuestIds": [
+      67948
+    ],
+    "NextQuestTitles": [
+      "Behind Door Number Two"
+    ],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Kyokuho",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100680,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2994,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67948,
+    "QuestTitle": "Behind Door Number Two",
+    "PreviousQuestIds": [
+      67947
+    ],
+    "PreviousQuestTitles": [
+      "Come Rain or Shrine"
+    ],
+    "NextQuestIds": [
+      67949
+    ],
+    "NextQuestTitles": [
+      "Foxfire"
+    ],
+    "StarterNpc": "Kyokuho",
+    "StarterNpcLocation": {
+      "RowId": 6841722,
+      "X": 98.1289,
+      "Y": 3.99358,
+      "Z": 87.4591,
+      "Yaw": -1.17018,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Kyokuho",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100680,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1771,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67949,
+    "QuestTitle": "Foxfire",
+    "PreviousQuestIds": [
+      67948
+    ],
+    "PreviousQuestTitles": [
+      "Behind Door Number Two"
+    ],
+    "NextQuestIds": [
+      68758
+    ],
+    "NextQuestTitles": [
+      "Love, Astrologically"
+    ],
+    "StarterNpc": "Kyokuho",
+    "StarterNpcLocation": {
+      "RowId": 6841722,
+      "X": 98.1289,
+      "Y": 3.99358,
+      "Z": 87.4591,
+      "Yaw": -1.17018,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Kyokuho",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100680,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20286,
+          "ItemName": "Constellation Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68758,
+    "QuestTitle": "Love, Astrologically",
+    "PreviousQuestIds": [
+      67949,
+      68808,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Foxfire",
+      "The Soul of Temperance",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jannequinard",
+    "StarterNpcLocation": {
+      "RowId": 5841369,
+      "X": 202.38,
+      "Y": -5.41699,
+      "Z": -58.9151,
+      "Yaw": -1.88198,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Leveva",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 183,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Astrologian Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100885,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1627,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

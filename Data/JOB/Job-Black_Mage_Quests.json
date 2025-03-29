@@ -1,0 +1,1098 @@
+[
+  {
+    "QuestId": 66609,
+    "QuestTitle": "Taking the Black",
+    "PreviousQuestIds": [
+      65889,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "Facing Your Demons",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66610
+    ],
+    "NextQuestTitles": [
+      "You\u0027ll Never Go Back"
+    ],
+    "StarterNpc": "Yayake",
+    "StarterNpcLocation": {
+      "RowId": 3642535,
+      "X": -196.887,
+      "Y": 18.46,
+      "Z": 59.9526,
+      "Yaw": -0.560343,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100102,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 158,
+        "ActionName": "Manafont"
+      },
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 16,
+        "Name": "Soul of the Black Mage"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66610,
+    "QuestTitle": "You\u0027ll Never Go Back",
+    "PreviousQuestIds": [
+      66609
+    ],
+    "PreviousQuestTitles": [
+      "Taking the Black"
+    ],
+    "NextQuestIds": [
+      66611
+    ],
+    "NextQuestTitles": [
+      "International Relations"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100102,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 154,
+        "ActionName": "Blizzard III"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66611,
+    "QuestTitle": "International Relations",
+    "PreviousQuestIds": [
+      66610
+    ],
+    "PreviousQuestTitles": [
+      "You\u0027ll Never Go Back"
+    ],
+    "NextQuestIds": [
+      66612
+    ],
+    "NextQuestTitles": [
+      "The Voidgate Breathes Gloomy"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Kazagg Chah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100102,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 159,
+        "ActionName": "Freeze"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66612,
+    "QuestTitle": "The Voidgate Breathes Gloomy",
+    "PreviousQuestIds": [
+      66611
+    ],
+    "PreviousQuestTitles": [
+      "International Relations"
+    ],
+    "NextQuestIds": [
+      66613
+    ],
+    "NextQuestTitles": [
+      "The Blood Must Flow"
+    ],
+    "StarterNpc": "Kazagg Chah",
+    "StarterNpcLocation": {
+      "RowId": 4254776,
+      "X": 325.082,
+      "Y": 11.2386,
+      "Z": -6.20174,
+      "Yaw": 2.68991,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Kazagg Chah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100102,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 153,
+        "ActionName": "Thunder III"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66613,
+    "QuestTitle": "The Blood Must Flow",
+    "PreviousQuestIds": [
+      66612
+    ],
+    "PreviousQuestTitles": [
+      "The Voidgate Breathes Gloomy"
+    ],
+    "NextQuestIds": [
+      66614
+    ],
+    "NextQuestTitles": [
+      "Always Bet on Black"
+    ],
+    "StarterNpc": "Kazagg Chah",
+    "StarterNpcLocation": {
+      "RowId": 4254776,
+      "X": 325.082,
+      "Y": 11.2386,
+      "Z": -6.20174,
+      "Yaw": 2.68991,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Kazagg Chah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100102,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66614,
+    "QuestTitle": "Always Bet on Black",
+    "PreviousQuestIds": [
+      66613
+    ],
+    "PreviousQuestTitles": [
+      "The Blood Must Flow"
+    ],
+    "NextQuestIds": [
+      66659,
+      67214
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Stardust Rod)",
+      "Black Books"
+    ],
+    "StarterNpc": "Kazagg Chah",
+    "StarterNpcLocation": {
+      "RowId": 4254776,
+      "X": 325.082,
+      "Y": 11.2386,
+      "Z": -6.20174,
+      "Yaw": 2.68991,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Kazagg Chah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100102,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3226,
+          "ItemName": "Wizard\u0027s Coat",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20649,
+          "ItemName": "Sorcerer\u0027s Attire Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 162,
+        "ActionName": "Flare"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66659,
+    "QuestTitle": "A Relic Reborn (Stardust Rod)",
+    "PreviousQuestIds": [
+      66614,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Always Bet on Black",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2140,
+          "ItemName": "Stardust Rod",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67214,
+    "QuestTitle": "Black Books",
+    "PreviousQuestIds": [
+      66614,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Always Bet on Black",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67215
+    ],
+    "NextQuestTitles": [
+      "An Unexpected Journey"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100438,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 1090,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67215,
+    "QuestTitle": "An Unexpected Journey",
+    "PreviousQuestIds": [
+      67214
+    ],
+    "PreviousQuestTitles": [
+      "Black Books"
+    ],
+    "NextQuestIds": [
+      67216
+    ],
+    "NextQuestTitles": [
+      "A Cunning Plan"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100438,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 1043,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3573,
+        "ActionName": "Ley Lines"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67216,
+    "QuestTitle": "A Cunning Plan",
+    "PreviousQuestIds": [
+      67215
+    ],
+    "PreviousQuestTitles": [
+      "An Unexpected Journey"
+    ],
+    "NextQuestIds": [
+      67217
+    ],
+    "NextQuestTitles": [
+      "Black Squawk Down"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100438,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1462,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67217,
+    "QuestTitle": "Black Squawk Down",
+    "PreviousQuestIds": [
+      67216
+    ],
+    "PreviousQuestTitles": [
+      "A Cunning Plan"
+    ],
+    "NextQuestIds": [
+      67218
+    ],
+    "NextQuestTitles": [
+      "Destruction in the Name of Justice"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100438,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1524,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67218,
+    "QuestTitle": "Destruction in the Name of Justice",
+    "PreviousQuestIds": [
+      67217
+    ],
+    "PreviousQuestTitles": [
+      "Black Squawk Down"
+    ],
+    "NextQuestIds": [
+      67219
+    ],
+    "NextQuestTitles": [
+      "The Defiant Ones"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100438,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 2208,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3576,
+        "ActionName": "Blizzard IV"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67219,
+    "QuestTitle": "The Defiant Ones",
+    "PreviousQuestIds": [
+      67218
+    ],
+    "PreviousQuestTitles": [
+      "Destruction in the Name of Justice"
+    ],
+    "NextQuestIds": [
+      68124
+    ],
+    "NextQuestTitles": [
+      "Shades of Shatotto"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100438,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1466,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20662,
+          "ItemName": "Goetia Attire Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3577,
+        "ActionName": "Fire IV"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68124,
+    "QuestTitle": "Shades of Shatotto",
+    "PreviousQuestIds": [
+      67219,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "The Defiant Ones",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68125
+    ],
+    "NextQuestTitles": [
+      "Golems Gone Wild"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100676,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 2026,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68125,
+    "QuestTitle": "Golems Gone Wild",
+    "PreviousQuestIds": [
+      68124
+    ],
+    "PreviousQuestTitles": [
+      "Shades of Shatotto"
+    ],
+    "NextQuestIds": [
+      68126
+    ],
+    "NextQuestTitles": [
+      "When the Golems Get Tough"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Shatotto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100676,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68126,
+    "QuestTitle": "When the Golems Get Tough",
+    "PreviousQuestIds": [
+      68125
+    ],
+    "PreviousQuestTitles": [
+      "Golems Gone Wild"
+    ],
+    "NextQuestIds": [
+      68127
+    ],
+    "NextQuestTitles": [
+      "Unnatural Selection"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100676,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 1610,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68127,
+    "QuestTitle": "Unnatural Selection",
+    "PreviousQuestIds": [
+      68126
+    ],
+    "PreviousQuestTitles": [
+      "When the Golems Get Tough"
+    ],
+    "NextQuestIds": [
+      68128
+    ],
+    "NextQuestTitles": [
+      "One Golem to Rule Them All"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100676,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 2606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68128,
+    "QuestTitle": "One Golem to Rule Them All",
+    "PreviousQuestIds": [
+      68127
+    ],
+    "PreviousQuestTitles": [
+      "Unnatural Selection"
+    ],
+    "NextQuestIds": [
+      68752
+    ],
+    "NextQuestTitles": [
+      "A Home for a Tome"
+    ],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100676,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 3800,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20280,
+          "ItemName": "Seventh Hell Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7422,
+        "ActionName": "Foul"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68752,
+    "QuestTitle": "A Home for a Tome",
+    "PreviousQuestIds": [
+      68128,
+      69164,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "One Golem to Rule Them All",
+      "A Tearful Reunion",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lalai",
+    "StarterNpcLocation": {
+      "RowId": 4323301,
+      "X": 87.5105,
+      "Y": 17.9904,
+      "Z": 113.726,
+      "Yaw": -1.97096,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Lalai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 178,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Black Mage Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100879,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1295,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

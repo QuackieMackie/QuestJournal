@@ -1,0 +1,1157 @@
+[
+  {
+    "QuestId": 66615,
+    "QuestTitle": "Seer Folly",
+    "PreviousQuestIds": [
+      65977,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "In Nature\u0027s Embrace",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66616
+    ],
+    "NextQuestTitles": [
+      "Only You Can Prevent Forest Ire"
+    ],
+    "StarterNpc": "E-Sumi-Yan",
+    "StarterNpcLocation": {
+      "RowId": 1170796,
+      "X": -258.808,
+      "Y": -5.7735,
+      "Z": -27.2374,
+      "Yaw": 0.758038,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100110,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 136,
+        "ActionName": "Presence of Mind"
+      },
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 15,
+        "Name": "Soul of the White Mage"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66616,
+    "QuestTitle": "Only You Can Prevent Forest Ire",
+    "PreviousQuestIds": [
+      66615
+    ],
+    "PreviousQuestTitles": [
+      "Seer Folly"
+    ],
+    "NextQuestIds": [
+      66617
+    ],
+    "NextQuestTitles": [
+      "O Brother, Where Art Thou"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100110,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 137,
+        "ActionName": "Regen"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66617,
+    "QuestTitle": "O Brother, Where Art Thou",
+    "PreviousQuestIds": [
+      66616
+    ],
+    "PreviousQuestTitles": [
+      "Only You Can Prevent Forest Ire"
+    ],
+    "NextQuestIds": [
+      66618
+    ],
+    "NextQuestTitles": [
+      "Following in His Footsteps"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100110,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 131,
+        "ActionName": "Cure III"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66618,
+    "QuestTitle": "Following in His Footsteps",
+    "PreviousQuestIds": [
+      66617
+    ],
+    "PreviousQuestTitles": [
+      "O Brother, Where Art Thou"
+    ],
+    "NextQuestIds": [
+      66619
+    ],
+    "NextQuestTitles": [
+      "Yearn for the Urn"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100110,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66619,
+    "QuestTitle": "Yearn for the Urn",
+    "PreviousQuestIds": [
+      66618
+    ],
+    "PreviousQuestTitles": [
+      "Following in His Footsteps"
+    ],
+    "NextQuestIds": [
+      66620
+    ],
+    "NextQuestTitles": [
+      "Heart of the Forest"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100110,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 139,
+        "ActionName": "Holy"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66620,
+    "QuestTitle": "Heart of the Forest",
+    "PreviousQuestIds": [
+      66619
+    ],
+    "PreviousQuestTitles": [
+      "Yearn for the Urn"
+    ],
+    "NextQuestIds": [
+      66660,
+      67255
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Thyrus)",
+      "Taint Misbehaving"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100110,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3225,
+          "ItemName": "Healer\u0027s Robe",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20648,
+          "ItemName": "Cleric\u0027s Attire Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 140,
+        "ActionName": "Benediction"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66660,
+    "QuestTitle": "A Relic Reborn (Thyrus)",
+    "PreviousQuestIds": [
+      66620,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Heart of the Forest",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2052,
+          "ItemName": "Thyrus",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67255,
+    "QuestTitle": "Taint Misbehaving",
+    "PreviousQuestIds": [
+      66620,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Heart of the Forest",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67256
+    ],
+    "NextQuestTitles": [
+      "A Journey of Purification"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Eschiva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 770,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67256,
+    "QuestTitle": "A Journey of Purification",
+    "PreviousQuestIds": [
+      67255
+    ],
+    "PreviousQuestTitles": [
+      "Taint Misbehaving"
+    ],
+    "NextQuestIds": [
+      67257
+    ],
+    "NextQuestTitles": [
+      "The Girl with the Dragon Tissue"
+    ],
+    "StarterNpc": "Eschiva",
+    "StarterNpcLocation": {
+      "RowId": 5889862,
+      "X": -44.4695,
+      "Y": -40.95,
+      "Z": 187.782,
+      "Yaw": -1.83184,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Eschiva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 589,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3569,
+        "ActionName": "Asylum"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67257,
+    "QuestTitle": "The Girl with the Dragon Tissue",
+    "PreviousQuestIds": [
+      67256
+    ],
+    "PreviousQuestTitles": [
+      "A Journey of Purification"
+    ],
+    "NextQuestIds": [
+      67258
+    ],
+    "NextQuestTitles": [
+      "The Dark Blight Writhes"
+    ],
+    "StarterNpc": "Eschiva",
+    "StarterNpcLocation": {
+      "RowId": 5889983,
+      "X": 209.244,
+      "Y": 302,
+      "Z": -204.85,
+      "Yaw": 0.203296,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Eschiva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 635,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3568,
+        "ActionName": "Stone III"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67258,
+    "QuestTitle": "The Dark Blight Writhes",
+    "PreviousQuestIds": [
+      67257
+    ],
+    "PreviousQuestTitles": [
+      "The Girl with the Dragon Tissue"
+    ],
+    "NextQuestIds": [
+      67259
+    ],
+    "NextQuestTitles": [
+      "In the Wake of Death"
+    ],
+    "StarterNpc": "Eschiva",
+    "StarterNpcLocation": {
+      "RowId": 5890021,
+      "X": 463.525,
+      "Y": 200.238,
+      "Z": 651.941,
+      "Yaw": 1.83525,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Eschiva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 558,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3571,
+        "ActionName": "Assize"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67259,
+    "QuestTitle": "In the Wake of Death",
+    "PreviousQuestIds": [
+      67258
+    ],
+    "PreviousQuestTitles": [
+      "The Dark Blight Writhes"
+    ],
+    "NextQuestIds": [
+      67260
+    ],
+    "NextQuestTitles": [
+      "Trials of the Padjals"
+    ],
+    "StarterNpc": "Eschiva",
+    "StarterNpcLocation": {
+      "RowId": 5890185,
+      "X": 486.95,
+      "Y": -51.14,
+      "Z": 25.99,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Eschiva",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 26520,
+      "Gil": 634,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7430,
+        "ActionName": "Thin Air"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67260,
+    "QuestTitle": "Trials of the Padjals",
+    "PreviousQuestIds": [
+      67259
+    ],
+    "PreviousQuestTitles": [
+      "In the Wake of Death"
+    ],
+    "NextQuestIds": [
+      67261
+    ],
+    "NextQuestTitles": [
+      "Hands of Healing"
+    ],
+    "StarterNpc": "Eschiva",
+    "StarterNpcLocation": {
+      "RowId": 5890236,
+      "X": -679.937,
+      "Y": -100.497,
+      "Z": 775.177,
+      "Yaw": -0.986701,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 581,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 26520,
+      "Gil": 507,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67261,
+    "QuestTitle": "Hands of Healing",
+    "PreviousQuestIds": [
+      67260
+    ],
+    "PreviousQuestTitles": [
+      "Trials of the Padjals"
+    ],
+    "NextQuestIds": [
+      67950
+    ],
+    "NextQuestTitles": [
+      "Unease in East End"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100439,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1005,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20661,
+          "ItemName": "Orison Attire Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3570,
+        "ActionName": "Tetragrammaton"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67950,
+    "QuestTitle": "Unease in East End",
+    "PreviousQuestIds": [
+      67261,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "Hands of Healing",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      67951
+    ],
+    "NextQuestTitles": [
+      "An Aura for Trouble"
+    ],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "E-Sumi-Yan",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100679,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1509,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67951,
+    "QuestTitle": "An Aura for Trouble",
+    "PreviousQuestIds": [
+      67950
+    ],
+    "PreviousQuestTitles": [
+      "Unease in East End"
+    ],
+    "NextQuestIds": [
+      67952
+    ],
+    "NextQuestTitles": [
+      "A Beacon for Bad Things"
+    ],
+    "StarterNpc": "Sylphie",
+    "StarterNpcLocation": {
+      "RowId": 6647021,
+      "X": -623.607,
+      "Y": 130.221,
+      "Z": -474.719,
+      "Yaw": 1.82123,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Sylphie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100679,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1396,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67952,
+    "QuestTitle": "A Beacon for Bad Things",
+    "PreviousQuestIds": [
+      67951
+    ],
+    "PreviousQuestTitles": [
+      "An Aura for Trouble"
+    ],
+    "NextQuestIds": [
+      67953
+    ],
+    "NextQuestTitles": [
+      "The Problem with Padjals"
+    ],
+    "StarterNpc": "Sylphie",
+    "StarterNpcLocation": {
+      "RowId": 6647021,
+      "X": -623.607,
+      "Y": 130.221,
+      "Z": -474.719,
+      "Yaw": 1.82123,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Sylphie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100679,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2064,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67953,
+    "QuestTitle": "The Problem with Padjals",
+    "PreviousQuestIds": [
+      67952
+    ],
+    "PreviousQuestTitles": [
+      "A Beacon for Bad Things"
+    ],
+    "NextQuestIds": [
+      67954
+    ],
+    "NextQuestTitles": [
+      "What She Always Wanted"
+    ],
+    "StarterNpc": "Sylphie",
+    "StarterNpcLocation": {
+      "RowId": 6647021,
+      "X": -623.607,
+      "Y": 130.221,
+      "Z": -474.719,
+      "Yaw": 1.82123,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Sylphie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100679,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 845,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67954,
+    "QuestTitle": "What She Always Wanted",
+    "PreviousQuestIds": [
+      67953
+    ],
+    "PreviousQuestTitles": [
+      "The Problem with Padjals"
+    ],
+    "NextQuestIds": [
+      68751
+    ],
+    "NextQuestTitles": [
+      "Whence the Healing Springs"
+    ],
+    "StarterNpc": "Sylphie",
+    "StarterNpcLocation": {
+      "RowId": 6664167,
+      "X": -655,
+      "Y": 40.4306,
+      "Z": 375.97,
+      "Yaw": 1.63078,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Gatty",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100679,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20279,
+          "ItemName": "Seventh Heaven Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7433,
+        "ActionName": "Plenary Indulgence"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68751,
+    "QuestTitle": "Whence the Healing Springs",
+    "PreviousQuestIds": [
+      67954,
+      68808,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "What She Always Wanted",
+      "The Soul of Temperance",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Raya-O-Senna",
+    "StarterNpcLocation": {
+      "RowId": 4254719,
+      "X": -139.452,
+      "Y": 8.71952,
+      "Z": 281.697,
+      "Yaw": -0.175979,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 177,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "White Mage Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100878,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1625,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

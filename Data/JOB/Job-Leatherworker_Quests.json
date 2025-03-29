@@ -1,0 +1,1911 @@
+[
+  {
+    "QuestId": 65587,
+    "QuestTitle": "Skin in the Game",
+    "PreviousQuestIds": [
+      65673
+    ],
+    "PreviousQuestTitles": [
+      "Aldgoat Everything"
+    ],
+    "NextQuestIds": [
+      65597
+    ],
+    "NextQuestTitles": [
+      "Toadskins of the Father"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 40800,
+      "Gil": 557,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2434,
+          "ItemName": "Initiate\u0027s Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2731,
+          "ItemName": "Silver Magnifiers",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3065,
+          "ItemName": "Initiate\u0027s Gown",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3575,
+          "ItemName": "Velveteen Halfgloves",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65597,
+    "QuestTitle": "Toadskins of the Father",
+    "PreviousQuestIds": [
+      65587
+    ],
+    "PreviousQuestTitles": [
+      "Skin in the Game"
+    ],
+    "NextQuestIds": [
+      65599
+    ],
+    "NextQuestTitles": [
+      "Lead by Example"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 68640,
+      "Gil": 639,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2422,
+          "ItemName": "Iron Head Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2750,
+          "ItemName": "Velveteen Beret",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3104,
+          "ItemName": "Velveteen Gown",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3583,
+          "ItemName": "Velveteen Shortgloves",
+          "Count": 1,
+          "Stain": "Mud Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65599,
+    "QuestTitle": "Lead by Example",
+    "PreviousQuestIds": [
+      65597
+    ],
+    "PreviousQuestTitles": [
+      "Toadskins of the Father"
+    ],
+    "NextQuestIds": [
+      65600
+    ],
+    "NextQuestTitles": [
+      "Brand Loyalty"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 350,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 102960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2424,
+          "ItemName": "Steel Round Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2769,
+          "ItemName": "Mythril Magnifiers",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3130,
+          "ItemName": "Apprentice\u0027s Smock",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3607,
+          "ItemName": "Linen Halfgloves",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65600,
+    "QuestTitle": "Brand Loyalty",
+    "PreviousQuestIds": [
+      65599
+    ],
+    "PreviousQuestTitles": [
+      "Lead by Example"
+    ],
+    "NextQuestIds": [
+      65601
+    ],
+    "NextQuestTitles": [
+      "Dissension in the Ranks"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 400,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 156310,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2438,
+          "ItemName": "Apprentice\u0027s Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2816,
+          "ItemName": "Linen Deerstalker",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3162,
+          "ItemName": "Linen Smock",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3639,
+          "ItemName": "Boarskin Smithy\u0027s Gloves",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 6,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65601,
+    "QuestTitle": "Dissension in the Ranks",
+    "PreviousQuestIds": [
+      65600
+    ],
+    "PreviousQuestTitles": [
+      "Brand Loyalty"
+    ],
+    "NextQuestIds": [
+      65602
+    ],
+    "NextQuestTitles": [
+      "Accept No Imitations"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 450,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 196020,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2426,
+          "ItemName": "Mythril Round Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2854,
+          "ItemName": "Woolen Deerstalker",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3187,
+          "ItemName": "Woolen Smock",
+          "Count": 1,
+          "Stain": "Midnight Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3668,
+          "ItemName": "Raptorskin Smithy\u0027s Gloves",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65602,
+    "QuestTitle": "Accept No Imitations",
+    "PreviousQuestIds": [
+      65601
+    ],
+    "PreviousQuestTitles": [
+      "Dissension in the Ranks"
+    ],
+    "NextQuestIds": [
+      67611
+    ],
+    "NextQuestTitles": [
+      "Turndown Service"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 210600,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2429,
+          "ItemName": "Pinga",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2924,
+          "ItemName": "Leatherworker\u0027s Hat",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3710,
+          "ItemName": "Leatherworker\u0027s Gloves",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3931,
+          "ItemName": "Leatherworker\u0027s Workboots",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65641,
+    "QuestTitle": "Way of the Leatherworker",
+    "PreviousQuestIds": [
+      65724
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Leatherworker"
+    ],
+    "NextQuestIds": [
+      65745
+    ],
+    "NextQuestTitles": [
+      "My First Head Knife"
+    ],
+    "StarterNpc": "Randall",
+    "StarterNpcLocation": {
+      "RowId": 1143829,
+      "X": 65.69,
+      "Y": 8,
+      "Z": -147.417,
+      "Yaw": -0.492943,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 100
+        },
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 50
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 2416,
+          "ItemName": "Weathered Head Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65642,
+    "QuestTitle": "A Test of Technique",
+    "PreviousQuestIds": [
+      65745
+    ],
+    "PreviousQuestTitles": [
+      "My First Head Knife"
+    ],
+    "NextQuestIds": [
+      65671
+    ],
+    "NextQuestTitles": [
+      "Geva\u0027s Gambit"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1435,
+      "Gil": 194,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 200
+        },
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 150
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 2430,
+          "ItemName": "Amateur\u0027s Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2652,
+          "ItemName": "Hempen Bandana",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3309,
+          "ItemName": "Hempen Chausses",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3763,
+          "ItemName": "Maple Pattens",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65671,
+    "QuestTitle": "Geva\u0027s Gambit",
+    "PreviousQuestIds": [
+      65642
+    ],
+    "PreviousQuestTitles": [
+      "A Test of Technique"
+    ],
+    "NextQuestIds": [
+      65672
+    ],
+    "NextQuestTitles": [
+      "Working Hells for Leather"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5899,
+      "Gil": 289,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 250
+        },
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 200
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 2417,
+          "ItemName": "Bronze Head Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2660,
+          "ItemName": "Amateur\u0027s Headgear",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3014,
+          "ItemName": "Amateur\u0027s Kurta",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3536,
+          "ItemName": "Amateur\u0027s Smithing Gloves",
+          "Count": 1,
+          "Stain": "Mesa Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65672,
+    "QuestTitle": "Working Hells for Leather",
+    "PreviousQuestIds": [
+      65671
+    ],
+    "PreviousQuestTitles": [
+      "Geva\u0027s Gambit"
+    ],
+    "NextQuestIds": [
+      65673
+    ],
+    "NextQuestTitles": [
+      "Aldgoat Everything"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Sosobati",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12960,
+      "Gil": 382,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2432,
+          "ItemName": "Recruit\u0027s Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3019,
+          "ItemName": "Hempen Doublet Vest of Crafting",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3779,
+          "ItemName": "Ash Pattens",
+          "Count": 1,
+          "Stain": "Rose Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65673,
+    "QuestTitle": "Aldgoat Everything",
+    "PreviousQuestIds": [
+      65672
+    ],
+    "PreviousQuestTitles": [
+      "Working Hells for Leather"
+    ],
+    "NextQuestIds": [
+      65587
+    ],
+    "NextQuestTitles": [
+      "Skin in the Game"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 24360,
+      "Gil": 470,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2420,
+          "ItemName": "Initiate\u0027s Head Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2714,
+          "ItemName": "Initiate\u0027s Headgear",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3562,
+          "ItemName": "Initiate\u0027s Gloves",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3336,
+          "ItemName": "Cotton Breeches of Crafting",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 4,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65745,
+    "QuestTitle": "My First Head Knife",
+    "PreviousQuestIds": [
+      65641
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Leatherworker"
+    ],
+    "NextQuestIds": [
+      65642
+    ],
+    "NextQuestTitles": [
+      "A Test of Technique"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Geva",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100060,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 300,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 150
+        },
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 100
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 5291,
+          "ItemName": "Animal Skin",
+          "Count": 10,
+          "Stain": null
+        },
+        {
+          "ItemId": 2961,
+          "ItemName": "Hempen Kurta",
+          "Count": 1,
+          "Stain": "Mud Green"
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67611,
+    "QuestTitle": "Turndown Service",
+    "PreviousQuestIds": [
+      65602,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Accept No Imitations",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67612
+    ],
+    "NextQuestTitles": [
+      "By Your Bootstraps"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Elde",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 502,
+    "Icon": 100455,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 210600,
+      "Gil": 517,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 120
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 12667,
+          "ItemName": "Commercial Engineering Manual",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67612,
+    "QuestTitle": "By Your Bootstraps",
+    "PreviousQuestIds": [
+      67611
+    ],
+    "PreviousQuestTitles": [
+      "Turndown Service"
+    ],
+    "NextQuestIds": [
+      67613
+    ],
+    "NextQuestTitles": [
+      "Perfect Pitch"
+    ],
+    "StarterNpc": "Elde",
+    "StarterNpcLocation": {
+      "RowId": 5841129,
+      "X": -259.069,
+      "Y": -20.0349,
+      "Z": -84.3817,
+      "Yaw": -0.155777,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Elde",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 530,
+    "Icon": 100455,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 663390,
+      "Gil": 567,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 160
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 11931,
+          "ItemName": "Mythrite Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 11961,
+          "ItemName": "Holy Rainbow Coatee",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11966,
+          "ItemName": "Holy Rainbow Gloves",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11974,
+          "ItemName": "Holy Rainbow Bottoms",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11979,
+          "ItemName": "Holy Rainbow Shoes",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67613,
+    "QuestTitle": "Perfect Pitch",
+    "PreviousQuestIds": [
+      67612
+    ],
+    "PreviousQuestTitles": [
+      "By Your Bootstraps"
+    ],
+    "NextQuestIds": [
+      67614
+    ],
+    "NextQuestTitles": [
+      "From the Hoplon to the Brume"
+    ],
+    "StarterNpc": "Elde",
+    "StarterNpcLocation": {
+      "RowId": 5841129,
+      "X": -259.069,
+      "Y": -20.0349,
+      "Z": -84.3817,
+      "Yaw": -0.155777,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Elde",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 550,
+    "Icon": 100455,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 836550,
+      "Gil": 612,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 200
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 11888,
+          "ItemName": "Titanium Creasing Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 11962,
+          "ItemName": "Ramie Doublet of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11975,
+          "ItemName": "Ramie Skirt",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 11980,
+          "ItemName": "Dhalmelskin Shoes",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67614,
+    "QuestTitle": "From the Hoplon to the Brume",
+    "PreviousQuestIds": [
+      67613
+    ],
+    "PreviousQuestTitles": [
+      "Perfect Pitch"
+    ],
+    "NextQuestIds": [
+      67615
+    ],
+    "NextQuestTitles": [
+      "A Winter\u0027s Sale"
+    ],
+    "StarterNpc": "Elde",
+    "StarterNpcLocation": {
+      "RowId": 5841129,
+      "X": -259.069,
+      "Y": -20.0349,
+      "Z": -84.3817,
+      "Yaw": -0.155777,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Elde",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100455,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1113840,
+      "Gil": 602,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 240
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 11889,
+          "ItemName": "Hardsilver Round Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67615,
+    "QuestTitle": "A Winter\u0027s Sale",
+    "PreviousQuestIds": [
+      67614
+    ],
+    "PreviousQuestTitles": [
+      "From the Hoplon to the Brume"
+    ],
+    "NextQuestIds": [
+      68145
+    ],
+    "NextQuestTitles": [
+      "A Taxing Request"
+    ],
+    "StarterNpc": "Elde",
+    "StarterNpcLocation": {
+      "RowId": 5841129,
+      "X": -259.069,
+      "Y": -20.0349,
+      "Z": -84.3817,
+      "Yaw": -0.155777,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Elde",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100455,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 662500,
+      "Gil": 1500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68145,
+    "QuestTitle": "A Taxing Request",
+    "PreviousQuestIds": [
+      67615,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "A Winter\u0027s Sale",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68146
+    ],
+    "NextQuestTitles": [
+      "Mounting Expectations"
+    ],
+    "StarterNpc": "Geva",
+    "StarterNpcLocation": {
+      "RowId": 1170781,
+      "X": 71.9768,
+      "Y": 8,
+      "Z": -166.522,
+      "Yaw": -0.174925,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Atelloune",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100689,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1337500,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 12667,
+          "ItemName": "Commercial Engineering Manual",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68146,
+    "QuestTitle": "Mounting Expectations",
+    "PreviousQuestIds": [
+      68145
+    ],
+    "PreviousQuestTitles": [
+      "A Taxing Request"
+    ],
+    "NextQuestIds": [
+      68147
+    ],
+    "NextQuestTitles": [
+      "The Value of Life"
+    ],
+    "StarterNpc": "Atelloune",
+    "StarterNpcLocation": {
+      "RowId": 6858903,
+      "X": 141.711,
+      "Y": 13.5652,
+      "Z": -90.4402,
+      "Yaw": -2.50982,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Enion",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100689,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1557875,
+      "Gil": 1626,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 19521,
+          "ItemName": "High Steel Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 19623,
+          "ItemName": "Ruby Cotton Coatee",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19624,
+          "ItemName": "Gyuki Leather Gloves of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19625,
+          "ItemName": "Ruby Cotton Bottoms",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19626,
+          "ItemName": "Gyuki Leather Shoes",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68147,
+    "QuestTitle": "The Value of Life",
+    "PreviousQuestIds": [
+      68146
+    ],
+    "PreviousQuestTitles": [
+      "Mounting Expectations"
+    ],
+    "NextQuestIds": [
+      68150
+    ],
+    "NextQuestTitles": [
+      "The Trouble with Taxidermy"
+    ],
+    "StarterNpc": "Atelloune",
+    "StarterNpcLocation": {
+      "RowId": 6860004,
+      "X": 76.1695,
+      "Y": 0,
+      "Z": -124.394,
+      "Yaw": 1.35339,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Enion",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100689,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1758750,
+      "Gil": 2639,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 19531,
+          "ItemName": "Doman Iron Head Knife",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 19633,
+          "ItemName": "Kudzu Robe of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19634,
+          "ItemName": "Durium Chaplets",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19635,
+          "ItemName": "Kudzu Culottes of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19636,
+          "ItemName": "Tigerskin Boots of Crafting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 6,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 4578,
+        "ActionName": "Manipulation"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68150,
+    "QuestTitle": "The Trouble with Taxidermy",
+    "PreviousQuestIds": [
+      68147
+    ],
+    "PreviousQuestTitles": [
+      "The Value of Life"
+    ],
+    "NextQuestIds": [
+      68151
+    ],
+    "NextQuestTitles": [
+      "True to Life"
+    ],
+    "StarterNpc": "Atelloune",
+    "StarterNpcLocation": {
+      "RowId": 6860004,
+      "X": 76.1695,
+      "Y": 0,
+      "Z": -124.394,
+      "Yaw": 1.35339,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Atelloune",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100689,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2227500,
+      "Gil": 952,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 19563,
+          "ItemName": "Doman Steel Awl",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5703,
+          "ItemName": "Craftsman\u0027s Competence Materia V",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5708,
+          "ItemName": "Craftsman\u0027s Cunning Materia V",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5713,
+          "ItemName": "Craftsman\u0027s Command Materia V",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68151,
+    "QuestTitle": "True to Life",
+    "PreviousQuestIds": [
+      68150
+    ],
+    "PreviousQuestTitles": [
+      "The Trouble with Taxidermy"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Atelloune",
+    "StarterNpcLocation": {
+      "RowId": 6860004,
+      "X": 76.1695,
+      "Y": 0,
+      "Z": -124.394,
+      "Yaw": 1.35339,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Enion",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 164,
+      "JournalCategory": {
+        "Id": 86,
+        "Name": "Disciple of the Hand Quests"
+      },
+      "Name": "Leatherworker Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100689,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2889000,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5703,
+          "ItemName": "Craftsman\u0027s Competence Materia V",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5708,
+          "ItemName": "Craftsman\u0027s Cunning Materia V",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 5713,
+          "ItemName": "Craftsman\u0027s Command Materia V",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

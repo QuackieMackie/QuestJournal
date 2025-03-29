@@ -1,0 +1,1098 @@
+[
+  {
+    "QuestId": 66597,
+    "QuestTitle": "Brother from Another Mother",
+    "PreviousQuestIds": [
+      66103,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "Return of the Holyfist",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66598
+    ],
+    "NextQuestTitles": [
+      "Insulted Intelligence"
+    ],
+    "StarterNpc": "Gagaruna",
+    "StarterNpcLocation": {
+      "RowId": 2360563,
+      "X": -88.9667,
+      "Y": 2.55,
+      "Z": -51.1446,
+      "Yaw": 1.54453,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Erik",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100105,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 70,
+        "ActionName": "Rockbreaker"
+      },
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 11,
+        "Name": "Soul of the Monk"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66598,
+    "QuestTitle": "Insulted Intelligence",
+    "PreviousQuestIds": [
+      66597
+    ],
+    "PreviousQuestTitles": [
+      "Brother from Another Mother"
+    ],
+    "NextQuestIds": [
+      66599
+    ],
+    "NextQuestTitles": [
+      "A Slave to the Aether"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Erik",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100105,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 25762,
+        "ActionName": "Thunderclap"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66599,
+    "QuestTitle": "A Slave to the Aether",
+    "PreviousQuestIds": [
+      66598
+    ],
+    "PreviousQuestTitles": [
+      "Insulted Intelligence"
+    ],
+    "NextQuestIds": [
+      66600
+    ],
+    "NextQuestTitles": [
+      "The Pursuit of Power"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Erik",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100105,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 25763,
+        "ActionName": "Howling Fist"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66600,
+    "QuestTitle": "The Pursuit of Power",
+    "PreviousQuestIds": [
+      66599
+    ],
+    "PreviousQuestTitles": [
+      "A Slave to the Aether"
+    ],
+    "NextQuestIds": [
+      66601
+    ],
+    "NextQuestTitles": [
+      "Good Vibrations"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Erik",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100105,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16473,
+        "ActionName": "Four-point Fury"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66601,
+    "QuestTitle": "Good Vibrations",
+    "PreviousQuestIds": [
+      66600
+    ],
+    "PreviousQuestTitles": [
+      "The Pursuit of Power"
+    ],
+    "NextQuestIds": [
+      66602
+    ],
+    "NextQuestTitles": [
+      "Five Easy Pieces"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Erik",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100105,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66602,
+    "QuestTitle": "Five Easy Pieces",
+    "PreviousQuestIds": [
+      66601
+    ],
+    "PreviousQuestTitles": [
+      "Good Vibrations"
+    ],
+    "NextQuestIds": [
+      66657,
+      67562
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Sphairai)",
+      "The Legend Continues"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100105,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3221,
+          "ItemName": "Temple Cyclas",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20643,
+          "ItemName": "Melee Attire Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 69,
+        "ActionName": "Perfect Balance"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66657,
+    "QuestTitle": "A Relic Reborn (Sphairai)",
+    "PreviousQuestIds": [
+      66602,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Five Easy Pieces",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1746,
+          "ItemName": "Sphairai",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67562,
+    "QuestTitle": "The Legend Continues",
+    "PreviousQuestIds": [
+      66602,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Five Easy Pieces",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67563
+    ],
+    "NextQuestTitles": [
+      "Let\u0027s Talk about Sects"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100435,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 1018,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67563,
+    "QuestTitle": "Let\u0027s Talk about Sects",
+    "PreviousQuestIds": [
+      67562
+    ],
+    "PreviousQuestTitles": [
+      "The Legend Continues"
+    ],
+    "NextQuestIds": [
+      67564
+    ],
+    "NextQuestTitles": [
+      "Against the Shadow"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 5899707,
+      "X": 15.8564,
+      "Y": 28.6208,
+      "Z": -682.747,
+      "Yaw": -2.4352,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100435,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 718,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 4262,
+        "ActionName": "Form Shift"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67564,
+    "QuestTitle": "Against the Shadow",
+    "PreviousQuestIds": [
+      67563
+    ],
+    "PreviousQuestTitles": [
+      "Let\u0027s Talk about Sects"
+    ],
+    "NextQuestIds": [
+      67565
+    ],
+    "NextQuestTitles": [
+      "Fight the Battle to Win"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 5899707,
+      "X": 15.8564,
+      "Y": 28.6208,
+      "Z": -682.747,
+      "Yaw": -2.4352,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100435,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1076,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3547,
+        "ActionName": "the Forbidden Chakra"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67565,
+    "QuestTitle": "Fight the Battle to Win",
+    "PreviousQuestIds": [
+      67564
+    ],
+    "PreviousQuestTitles": [
+      "Against the Shadow"
+    ],
+    "NextQuestIds": [
+      67566
+    ],
+    "NextQuestTitles": [
+      "Stop the Senseless Killing"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 5899707,
+      "X": 15.8564,
+      "Y": 28.6208,
+      "Z": -682.747,
+      "Yaw": -2.4352,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100435,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1124,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67566,
+    "QuestTitle": "Stop the Senseless Killing",
+    "PreviousQuestIds": [
+      67565
+    ],
+    "PreviousQuestTitles": [
+      "Fight the Battle to Win"
+    ],
+    "NextQuestIds": [
+      67567
+    ],
+    "NextQuestTitles": [
+      "Appetite for Destruction"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 5899707,
+      "X": 15.8564,
+      "Y": 28.6208,
+      "Z": -682.747,
+      "Yaw": -2.4352,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100435,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 1447,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67567,
+    "QuestTitle": "Appetite for Destruction",
+    "PreviousQuestIds": [
+      67566
+    ],
+    "PreviousQuestTitles": [
+      "Stop the Senseless Killing"
+    ],
+    "NextQuestIds": [
+      67962
+    ],
+    "NextQuestTitles": [
+      "A Fistful of Resolve"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 5899707,
+      "X": 15.8564,
+      "Y": 28.6208,
+      "Z": -682.747,
+      "Yaw": -2.4352,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100435,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1413,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20656,
+          "ItemName": "Tantra Armor Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 25764,
+        "ActionName": "Masterful Blitz"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67962,
+    "QuestTitle": "A Fistful of Resolve",
+    "PreviousQuestIds": [
+      67567,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "Appetite for Destruction",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      67963
+    ],
+    "NextQuestTitles": [
+      "Return of the Monk"
+    ],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100672,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1767,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67963,
+    "QuestTitle": "Return of the Monk",
+    "PreviousQuestIds": [
+      67962
+    ],
+    "PreviousQuestTitles": [
+      "A Fistful of Resolve"
+    ],
+    "NextQuestIds": [
+      67964
+    ],
+    "NextQuestTitles": [
+      "Cross-fist Training"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 5899707,
+      "X": 15.8564,
+      "Y": 28.6208,
+      "Z": -682.747,
+      "Yaw": -2.4352,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100672,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1628,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67964,
+    "QuestTitle": "Cross-fist Training",
+    "PreviousQuestIds": [
+      67963
+    ],
+    "PreviousQuestTitles": [
+      "Return of the Monk"
+    ],
+    "NextQuestIds": [
+      67965
+    ],
+    "NextQuestTitles": [
+      "Choices and Paths"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 6905373,
+      "X": 51.1329,
+      "Y": 118.43,
+      "Z": -789.272,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100672,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 3061,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67965,
+    "QuestTitle": "Choices and Paths",
+    "PreviousQuestIds": [
+      67964
+    ],
+    "PreviousQuestTitles": [
+      "Cross-fist Training"
+    ],
+    "NextQuestIds": [
+      67966
+    ],
+    "NextQuestTitles": [
+      "The Power to Protect"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 7018734,
+      "X": 51.1329,
+      "Y": 118.43,
+      "Z": -789.272,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100672,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 3074,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67966,
+    "QuestTitle": "The Power to Protect",
+    "PreviousQuestIds": [
+      67965
+    ],
+    "PreviousQuestTitles": [
+      "Choices and Paths"
+    ],
+    "NextQuestIds": [
+      68747
+    ],
+    "NextQuestTitles": [
+      "A Monk\u0027s Legacy"
+    ],
+    "StarterNpc": "Widargelt",
+    "StarterNpcLocation": {
+      "RowId": 6905373,
+      "X": 51.1329,
+      "Y": 118.43,
+      "Z": -789.272,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Widargelt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100672,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20276,
+          "ItemName": "Pacifist\u0027s Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7396,
+        "ActionName": "Brotherhood"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68747,
+    "QuestTitle": "A Monk\u0027s Legacy",
+    "PreviousQuestIds": [
+      67966,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "The Power to Protect",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Erik",
+    "StarterNpcLocation": {
+      "RowId": 4254631,
+      "X": -30.4534,
+      "Y": 13.5999,
+      "Z": 95.2703,
+      "Yaw": 0.650314,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Erik",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 172,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Monk Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100874,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3645,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

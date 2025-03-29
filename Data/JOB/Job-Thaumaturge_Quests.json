@@ -1,0 +1,881 @@
+[
+  {
+    "QuestId": 65880,
+    "QuestTitle": "Way of the Thaumaturge",
+    "PreviousQuestIds": [
+      65719
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Thaumaturge"
+    ],
+    "NextQuestIds": [
+      65882
+    ],
+    "NextQuestTitles": [
+      "My First Scepter"
+    ],
+    "StarterNpc": "Yayake",
+    "StarterNpcLocation": {
+      "RowId": 3642535,
+      "X": -196.887,
+      "Y": 18.46,
+      "Z": 59.9526,
+      "Yaw": -0.560343,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobygo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2055,
+          "ItemName": "Weathered Scepter",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 2219,
+          "ItemName": "Square Maple Shield",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65881,
+    "QuestTitle": "Way of the Thaumaturge",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65883,
+      65884
+    ],
+    "NextQuestTitles": [
+      "The Threat of Intimacy",
+      "The Threat of Paucity"
+    ],
+    "StarterNpc": "Yayake",
+    "StarterNpcLocation": {
+      "RowId": 3642535,
+      "X": -196.887,
+      "Y": 18.46,
+      "Z": 59.9526,
+      "Yaw": -0.560343,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobuki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4728,
+          "ItemName": "Raisins",
+          "Count": 5,
+          "Stain": null
+        },
+        {
+          "ItemId": 2219,
+          "ItemName": "Square Maple Shield",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65882,
+    "QuestTitle": "My First Scepter",
+    "PreviousQuestIds": [
+      65880
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Thaumaturge"
+    ],
+    "NextQuestIds": [
+      65883,
+      65885
+    ],
+    "NextQuestTitles": [
+      "The Threat of Intimacy",
+      "The Threat of Paucity"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobuki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 12,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65883,
+    "QuestTitle": "The Threat of Intimacy",
+    "PreviousQuestIds": [
+      65881,
+      65882
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Thaumaturge",
+      "My First Scepter"
+    ],
+    "NextQuestIds": [
+      65884,
+      65885
+    ],
+    "NextQuestTitles": [
+      "The Threat of Paucity",
+      "The Threat of Paucity"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobygo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2106,
+          "ItemName": "Bone Staff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3007,
+          "ItemName": "Custom-made Robe of Casting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2655,
+          "ItemName": "Hempen Hat",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4421,
+          "ItemName": "Bone Ring",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4091,
+          "ItemName": "Copper Wristlets",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65884,
+    "QuestTitle": "The Threat of Paucity",
+    "PreviousQuestIds": [
+      65881,
+      65883
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Thaumaturge",
+      "The Threat of Intimacy"
+    ],
+    "NextQuestIds": [
+      65886
+    ],
+    "NextQuestTitles": [
+      "The Threat of Superiority"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobuki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2057,
+          "ItemName": "Copper Scepter",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3015,
+          "ItemName": "Amateur\u0027s Dalmatica",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2661,
+          "ItemName": "Amateur\u0027s Hempen Coif",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3538,
+          "ItemName": "Hempen Dress Gloves",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3769,
+          "ItemName": "Amateur\u0027s Duckbills",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65885,
+    "QuestTitle": "The Threat of Paucity",
+    "PreviousQuestIds": [
+      65882,
+      65883
+    ],
+    "PreviousQuestTitles": [
+      "My First Scepter",
+      "The Threat of Intimacy"
+    ],
+    "NextQuestIds": [
+      65886
+    ],
+    "NextQuestTitles": [
+      "The Threat of Superiority"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobani",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2057,
+          "ItemName": "Copper Scepter",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3015,
+          "ItemName": "Amateur\u0027s Dalmatica",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2661,
+          "ItemName": "Amateur\u0027s Hempen Coif",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3538,
+          "ItemName": "Hempen Dress Gloves",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3769,
+          "ItemName": "Amateur\u0027s Duckbills",
+          "Count": 1,
+          "Stain": "Cream Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65886,
+    "QuestTitle": "The Threat of Superiority",
+    "PreviousQuestIds": [
+      65884,
+      65885
+    ],
+    "PreviousQuestTitles": [
+      "The Threat of Paucity",
+      "The Threat of Paucity"
+    ],
+    "NextQuestIds": [
+      65887
+    ],
+    "NextQuestTitles": [
+      "The Threat of Perplexity"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobezi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5760,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2059,
+          "ItemName": "Brass Cudgel",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 2233,
+          "ItemName": "Square Ash Shield",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3024,
+          "ItemName": "Cotton Cowl",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3547,
+          "ItemName": "Hard Leather Ringbands",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3327,
+          "ItemName": "Cotton Tights",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3777,
+          "ItemName": "Hard Leather Boots",
+          "Count": 1,
+          "Stain": "Nophica Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 156,
+        "ActionName": "Scathe"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65887,
+    "QuestTitle": "The Threat of Perplexity",
+    "PreviousQuestIds": [
+      65886
+    ],
+    "PreviousQuestTitles": [
+      "The Threat of Superiority"
+    ],
+    "NextQuestIds": [
+      65888
+    ],
+    "NextQuestTitles": [
+      "The Hidden Chapter"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobuki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2111,
+          "ItemName": "Staghorn Staff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27666,
+          "ItemName": "Altered Cotton Dalmatica",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2703,
+          "ItemName": "Ash Mask (Lapis Lazuli)",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3568,
+          "ItemName": "Cotton Dress Gloves",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3800,
+          "ItemName": "Cotton Dress Shoes",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65888,
+    "QuestTitle": "The Hidden Chapter",
+    "PreviousQuestIds": [
+      65887
+    ],
+    "PreviousQuestTitles": [
+      "The Threat of Perplexity"
+    ],
+    "NextQuestIds": [
+      65889
+    ],
+    "NextQuestTitles": [
+      "Facing Your Demons"
+    ],
+    "StarterNpc": "Cocobygo",
+    "StarterNpcLocation": {
+      "RowId": 3996616,
+      "X": -240.474,
+      "Y": 18.7,
+      "Z": 85.6117,
+      "Yaw": 1.97914,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobuki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 8160,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2118,
+          "ItemName": "Toothed Staghorn Staff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3050,
+          "ItemName": "Cotton Halfrobe",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3581,
+          "ItemName": "Goatskin Ringbands",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27667,
+          "ItemName": "Altered Goatskin Moccasins",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2728,
+          "ItemName": "Silver Spectacles",
+          "Count": 1,
+          "Stain": "Grape Purple",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65889,
+    "QuestTitle": "Facing Your Demons",
+    "PreviousQuestIds": [
+      65888
+    ],
+    "PreviousQuestTitles": [
+      "The Hidden Chapter"
+    ],
+    "NextQuestIds": [
+      66609
+    ],
+    "NextQuestTitles": [
+      "Taking the Black"
+    ],
+    "StarterNpc": "Cocobuki",
+    "StarterNpcLocation": {
+      "RowId": 3994611,
+      "X": -250.347,
+      "Y": 18,
+      "Z": 80.9036,
+      "Yaw": 2.02494,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Cocobuki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 158,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Thaumaturge Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100061,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2069,
+          "ItemName": "Silver Scepter",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27669,
+          "ItemName": "Velveteen Bliaud",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27671,
+          "ItemName": "Altered Velveteen Hose",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27670,
+          "ItemName": "Velveteen Gloves",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27672,
+          "ItemName": "Toadskin Boots",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 157,
+        "ActionName": "Manaward"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

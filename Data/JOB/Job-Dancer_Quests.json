@@ -1,0 +1,410 @@
+[
+  {
+    "QuestId": 68762,
+    "QuestTitle": "Rising to the Occasion",
+    "PreviousQuestIds": [
+      68790,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Save the Last Dance for Me",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nashmeira",
+    "StarterNpcLocation": {
+      "RowId": 7918225,
+      "X": -104.306,
+      "Y": 6,
+      "Z": 195.98,
+      "Yaw": -1.82512,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Ranaa Mihgo",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100889,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1361,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68785,
+    "QuestTitle": "Shall We Dance",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      68786
+    ],
+    "NextQuestTitles": [
+      "Gamboling for Gil"
+    ],
+    "StarterNpc": "eager Lominsan",
+    "StarterNpcLocation": {
+      "RowId": 7883450,
+      "X": -70.5267,
+      "Y": 20.0003,
+      "Z": 42.1771,
+      "Yaw": 0.0676799,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Nashmeira",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 201,
+    "Icon": 100872,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 50000,
+      "Gil": 745,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25217,
+          "ItemName": "Soul of the Dancer",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 27358,
+          "ItemName": "High Steel Chakrams",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 27267,
+          "ItemName": "Softstepper\u0027s Attire Coffer (IL 255)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68786,
+    "QuestTitle": "Gamboling for Gil",
+    "PreviousQuestIds": [
+      68785
+    ],
+    "PreviousQuestTitles": [
+      "Shall We Dance"
+    ],
+    "NextQuestIds": [
+      68787
+    ],
+    "NextQuestTitles": [
+      "A Soir\u00E9e in the Sultanate"
+    ],
+    "StarterNpc": "Nashmeira",
+    "StarterNpcLocation": {
+      "RowId": 7883482,
+      "X": -104.326,
+      "Y": 6,
+      "Z": 195.941,
+      "Yaw": -1.79137,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Nashmeira",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 202,
+    "Icon": 100872,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1983,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68787,
+    "QuestTitle": "A Soir\u00E9e in the Sultanate",
+    "PreviousQuestIds": [
+      68786
+    ],
+    "PreviousQuestTitles": [
+      "Gamboling for Gil"
+    ],
+    "NextQuestIds": [
+      68788
+    ],
+    "NextQuestTitles": [
+      "Dances with Duskwights"
+    ],
+    "StarterNpc": "Nashmeira",
+    "StarterNpcLocation": {
+      "RowId": 7883713,
+      "X": 480.194,
+      "Y": 16.4086,
+      "Z": 447.811,
+      "Yaw": -0.318811,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Nashmeira",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 211,
+    "Icon": 100872,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1463,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68788,
+    "QuestTitle": "Dances with Duskwights",
+    "PreviousQuestIds": [
+      68787
+    ],
+    "PreviousQuestTitles": [
+      "A Soir\u00E9e in the Sultanate"
+    ],
+    "NextQuestIds": [
+      68789
+    ],
+    "NextQuestTitles": [
+      "High-steppin\u0027 in the Holy See"
+    ],
+    "StarterNpc": "Nashmeira",
+    "StarterNpcLocation": {
+      "RowId": 7883787,
+      "X": 47.6246,
+      "Y": 8,
+      "Z": -118.64,
+      "Yaw": -3.13586,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Gavin",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 221,
+    "Icon": 100872,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 1890,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68789,
+    "QuestTitle": "High-steppin\u0027 in the Holy See",
+    "PreviousQuestIds": [
+      68788
+    ],
+    "PreviousQuestTitles": [
+      "Dances with Duskwights"
+    ],
+    "NextQuestIds": [
+      68790
+    ],
+    "NextQuestTitles": [
+      "Save the Last Dance for Me"
+    ],
+    "StarterNpc": "Nashmeira",
+    "StarterNpcLocation": {
+      "RowId": 7883930,
+      "X": -57.3576,
+      "Y": -2.82495,
+      "Z": 28.4358,
+      "Yaw": -2.96066,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Ranaa Mihgo",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 231,
+    "Icon": 100872,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1742,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68790,
+    "QuestTitle": "Save the Last Dance for Me",
+    "PreviousQuestIds": [
+      68789
+    ],
+    "PreviousQuestTitles": [
+      "High-steppin\u0027 in the Holy See"
+    ],
+    "NextQuestIds": [
+      68762
+    ],
+    "NextQuestTitles": [
+      "Rising to the Occasion"
+    ],
+    "StarterNpc": "Ranaa Mihgo",
+    "StarterNpcLocation": {
+      "RowId": 7883944,
+      "X": -58.2132,
+      "Y": -2.84475,
+      "Z": 28.9159,
+      "Yaw": 2.77922,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Ranaa Mihgo",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 187,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dancer Quests"
+    },
+    "SortKey": 241,
+    "Icon": 100872,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 3587,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 15998,
+        "ActionName": "Technical Step"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

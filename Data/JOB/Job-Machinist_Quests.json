@@ -1,0 +1,1265 @@
+[
+  {
+    "QuestId": 67232,
+    "QuestTitle": "Savior of Skysteel",
+    "PreviousQuestIds": [
+      67645
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Machinist"
+    ],
+    "NextQuestIds": [
+      67233
+    ],
+    "NextQuestTitles": [
+      "Master of Marksmanship"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8574,
+          "ItemName": "Soul of the Machinist",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 10462,
+          "ItemName": "Steel-barreled Carbine",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 3100,
+          "ItemName": "Toadskin Jacket",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 3367,
+          "ItemName": "Toadskin Brais",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67233,
+    "QuestTitle": "Master of Marksmanship",
+    "PreviousQuestIds": [
+      67232
+    ],
+    "PreviousQuestTitles": [
+      "Savior of Skysteel"
+    ],
+    "NextQuestIds": [
+      67234
+    ],
+    "NextQuestTitles": [
+      "Always the Last Place You Look"
+    ],
+    "StarterNpc": "Rostnsthal",
+    "StarterNpcLocation": {
+      "RowId": 5920038,
+      "X": -97.3373,
+      "Y": 62.5546,
+      "Z": -175.341,
+      "Yaw": -2.87069,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 17209,
+        "ActionName": "Hypercharge"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67234,
+    "QuestTitle": "Always the Last Place You Look",
+    "PreviousQuestIds": [
+      67233
+    ],
+    "PreviousQuestTitles": [
+      "Master of Marksmanship"
+    ],
+    "NextQuestIds": [
+      67235
+    ],
+    "NextQuestTitles": [
+      "Rook Before You Reap"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7410,
+        "ActionName": "Heat Blast"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67235,
+    "QuestTitle": "Rook Before You Reap",
+    "PreviousQuestIds": [
+      67234
+    ],
+    "PreviousQuestTitles": [
+      "Always the Last Place You Look"
+    ],
+    "NextQuestIds": [
+      67236
+    ],
+    "NextQuestTitles": [
+      "Securing the Locks"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10780,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2864,
+        "ActionName": "Rook Autoturret"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67236,
+    "QuestTitle": "Securing the Locks",
+    "PreviousQuestIds": [
+      67235
+    ],
+    "PreviousQuestTitles": [
+      "Rook Before You Reap"
+    ],
+    "NextQuestIds": [
+      67237
+    ],
+    "NextQuestTitles": [
+      "A Suppressive Strategy"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10780,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67237,
+    "QuestTitle": "A Suppressive Strategy",
+    "PreviousQuestIds": [
+      67236
+    ],
+    "PreviousQuestTitles": [
+      "Securing the Locks"
+    ],
+    "NextQuestIds": [
+      67238
+    ],
+    "NextQuestTitles": [
+      "Blood on the Sands"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67238,
+    "QuestTitle": "Blood on the Sands",
+    "PreviousQuestIds": [
+      67237
+    ],
+    "PreviousQuestTitles": [
+      "A Suppressive Strategy"
+    ],
+    "NextQuestIds": [
+      67239
+    ],
+    "NextQuestTitles": [
+      "Rage against the Machinists"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67239,
+    "QuestTitle": "Rage against the Machinists",
+    "PreviousQuestIds": [
+      67238
+    ],
+    "PreviousQuestTitles": [
+      "Blood on the Sands"
+    ],
+    "NextQuestIds": [
+      67240
+    ],
+    "NextQuestTitles": [
+      "The Power of a Tourney"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 8,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67240,
+    "QuestTitle": "The Power of a Tourney",
+    "PreviousQuestIds": [
+      67239
+    ],
+    "PreviousQuestTitles": [
+      "Rage against the Machinists"
+    ],
+    "NextQuestIds": [
+      67241
+    ],
+    "NextQuestTitles": [
+      "A Joye-less Celebration"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 9,
+    "Icon": 100444,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20653,
+          "ItemName": "Junior Machinist\u0027s Armor Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2890,
+        "ActionName": "Ricochet"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67241,
+    "QuestTitle": "A Joye-less Celebration",
+    "PreviousQuestIds": [
+      67240
+    ],
+    "PreviousQuestTitles": [
+      "The Power of a Tourney"
+    ],
+    "NextQuestIds": [
+      67242
+    ],
+    "NextQuestTitles": [
+      "Pushing the Brume"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Count Baurendouin de Haillenarte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 1153,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67242,
+    "QuestTitle": "Pushing the Brume",
+    "PreviousQuestIds": [
+      67241
+    ],
+    "PreviousQuestTitles": [
+      "A Joye-less Celebration"
+    ],
+    "NextQuestIds": [
+      67243
+    ],
+    "NextQuestTitles": [
+      "A Joye-ful Reunion"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 822,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16497,
+        "ActionName": "Auto Crossbow"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67243,
+    "QuestTitle": "A Joye-ful Reunion",
+    "PreviousQuestIds": [
+      67242
+    ],
+    "PreviousQuestTitles": [
+      "Pushing the Brume"
+    ],
+    "NextQuestIds": [
+      67244
+    ],
+    "NextQuestTitles": [
+      "Wheels of Justice"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 12,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 2796,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7411,
+        "ActionName": "Heated Split Shot"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67244,
+    "QuestTitle": "Wheels of Justice",
+    "PreviousQuestIds": [
+      67243
+    ],
+    "PreviousQuestTitles": [
+      "A Joye-ful Reunion"
+    ],
+    "NextQuestIds": [
+      67246
+    ],
+    "NextQuestTitles": [
+      "Taking the Fall"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 13,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 2113,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16889,
+        "ActionName": "Tactician"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67246,
+    "QuestTitle": "Taking the Fall",
+    "PreviousQuestIds": [
+      67244
+    ],
+    "PreviousQuestTitles": [
+      "Wheels of Justice"
+    ],
+    "NextQuestIds": [
+      67247
+    ],
+    "NextQuestTitles": [
+      "Rusted Steel"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 14,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 26520,
+      "Gil": 1595,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16498,
+        "ActionName": "Drill"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67247,
+    "QuestTitle": "Rusted Steel",
+    "PreviousQuestIds": [
+      67246
+    ],
+    "PreviousQuestTitles": [
+      "Taking the Fall"
+    ],
+    "NextQuestIds": [
+      67248
+    ],
+    "NextQuestTitles": [
+      "Rise of the Machinists"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 15,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 26520,
+      "Gil": 507,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67248,
+    "QuestTitle": "Rise of the Machinists",
+    "PreviousQuestIds": [
+      67247
+    ],
+    "PreviousQuestTitles": [
+      "Rusted Steel"
+    ],
+    "NextQuestIds": [
+      68441
+    ],
+    "NextQuestTitles": [
+      "The Machinists\u0027 Choice"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 16,
+    "Icon": 100445,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1656,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20666,
+          "ItemName": "Machinist\u0027s Armor Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7412,
+        "ActionName": "Heated Slug Shot"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68441,
+    "QuestTitle": "The Machinists\u0027 Choice",
+    "PreviousQuestIds": [
+      67248,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "Rise of the Machinists",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68442
+    ],
+    "NextQuestTitles": [
+      "The Hrunting Heist"
+    ],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hilda",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100675,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1545,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68442,
+    "QuestTitle": "The Hrunting Heist",
+    "PreviousQuestIds": [
+      68441
+    ],
+    "PreviousQuestTitles": [
+      "The Machinists\u0027 Choice"
+    ],
+    "NextQuestIds": [
+      68443
+    ],
+    "NextQuestTitles": [
+      "Release the Hounds"
+    ],
+    "StarterNpc": "Hilda",
+    "StarterNpcLocation": {
+      "RowId": 5860637,
+      "X": 12.3433,
+      "Y": -12.0209,
+      "Z": 40.2871,
+      "Yaw": 1.32128,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hilda",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100675,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1263,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68443,
+    "QuestTitle": "Release the Hounds",
+    "PreviousQuestIds": [
+      68442
+    ],
+    "PreviousQuestTitles": [
+      "The Hrunting Heist"
+    ],
+    "NextQuestIds": [
+      68444
+    ],
+    "NextQuestTitles": [
+      "Snouts Down, Tails Up"
+    ],
+    "StarterNpc": "Hilda",
+    "StarterNpcLocation": {
+      "RowId": 5860637,
+      "X": 12.3433,
+      "Y": -12.0209,
+      "Z": 40.2871,
+      "Yaw": 1.32128,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hilda",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100675,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2224,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68444,
+    "QuestTitle": "Snouts Down, Tails Up",
+    "PreviousQuestIds": [
+      68443
+    ],
+    "PreviousQuestTitles": [
+      "Release the Hounds"
+    ],
+    "NextQuestIds": [
+      68445
+    ],
+    "NextQuestTitles": [
+      "The Mongrel and the Knight"
+    ],
+    "StarterNpc": "Hilda",
+    "StarterNpcLocation": {
+      "RowId": 5860637,
+      "X": 12.3433,
+      "Y": -12.0209,
+      "Z": 40.2871,
+      "Yaw": 1.32128,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hilda",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100675,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 2182,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68445,
+    "QuestTitle": "The Mongrel and the Knight",
+    "PreviousQuestIds": [
+      68444
+    ],
+    "PreviousQuestTitles": [
+      "Snouts Down, Tails Up"
+    ],
+    "NextQuestIds": [
+      68756
+    ],
+    "NextQuestTitles": [
+      "Machinists for the Morrow"
+    ],
+    "StarterNpc": "Hilda",
+    "StarterNpcLocation": {
+      "RowId": 5860637,
+      "X": 12.3433,
+      "Y": -12.0209,
+      "Z": 40.2871,
+      "Yaw": 1.32128,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hilda",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100675,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20285,
+          "ItemName": "Gunner\u0027s Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7418,
+        "ActionName": "Flamethrower"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68756,
+    "QuestTitle": "Machinists for the Morrow",
+    "PreviousQuestIds": [
+      68445,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "The Mongrel and the Knight",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stephanivien",
+    "StarterNpcLocation": {
+      "RowId": 5840378,
+      "X": -154.3,
+      "Y": 17,
+      "Z": -53.3595,
+      "Yaw": -0.518986,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Stephanivien",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 182,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Machinist Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100883,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1693,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

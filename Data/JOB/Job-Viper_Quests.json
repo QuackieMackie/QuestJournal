@@ -1,0 +1,331 @@
+[
+  {
+    "QuestId": 70384,
+    "QuestTitle": "Enter the Viper",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      70385
+    ],
+    "NextQuestTitles": [
+      "Fangs of the Viper"
+    ],
+    "StarterNpc": "worried weaver",
+    "StarterNpcLocation": {
+      "RowId": 10207110,
+      "X": -92.197,
+      "Y": 4,
+      "Z": -99.3194,
+      "Yaw": -2.33886,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Keshkwa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 190,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Viper Quests"
+    },
+    "SortKey": 10,
+    "Icon": 101293,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 224400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41456,
+          "ItemName": "Soul of the Viper",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 43537,
+          "ItemName": "Weathered Snakebite Attire Coffer (IL 515)",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 41808,
+          "ItemName": "Weathered Twinfangs",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70385,
+    "QuestTitle": "Fangs of the Viper",
+    "PreviousQuestIds": [
+      70384
+    ],
+    "PreviousQuestTitles": [
+      "Enter the Viper"
+    ],
+    "NextQuestIds": [
+      70386
+    ],
+    "NextQuestTitles": [
+      "Viper in the Vidraal\u0027s Shadow"
+    ],
+    "StarterNpc": "Keshkwa",
+    "StarterNpcLocation": {
+      "RowId": 10207124,
+      "X": 89.0523,
+      "Y": 12,
+      "Z": 47.3052,
+      "Yaw": 1.02788,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Keshkwa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 190,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Viper Quests"
+    },
+    "SortKey": 20,
+    "Icon": 101293,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 2455,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70386,
+    "QuestTitle": "Viper in the Vidraal\u0027s Shadow",
+    "PreviousQuestIds": [
+      70385
+    ],
+    "PreviousQuestTitles": [
+      "Fangs of the Viper"
+    ],
+    "NextQuestIds": [
+      70387
+    ],
+    "NextQuestTitles": [
+      "Vipers on the Hunt"
+    ],
+    "StarterNpc": "Keshkwa",
+    "StarterNpcLocation": {
+      "RowId": 10208245,
+      "X": -152.159,
+      "Y": 12,
+      "Z": 11.7539,
+      "Yaw": 1.16404,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Innocent Stork",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 190,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Viper Quests"
+    },
+    "SortKey": 30,
+    "Icon": 101293,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 468600,
+      "Gil": 1407,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70387,
+    "QuestTitle": "Vipers on the Hunt",
+    "PreviousQuestIds": [
+      70386
+    ],
+    "PreviousQuestTitles": [
+      "Viper in the Vidraal\u0027s Shadow"
+    ],
+    "NextQuestIds": [
+      70388
+    ],
+    "NextQuestTitles": [
+      "Into the Viper Pit"
+    ],
+    "StarterNpc": "Keshkwa",
+    "StarterNpcLocation": {
+      "RowId": 10208518,
+      "X": 205.088,
+      "Y": 8.66152,
+      "Z": -71.6747,
+      "Yaw": -1.82874,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Golias",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 190,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Viper Quests"
+    },
+    "SortKey": 40,
+    "Icon": 101293,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 481800,
+      "Gil": 1303,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70388,
+    "QuestTitle": "Into the Viper Pit",
+    "PreviousQuestIds": [
+      70387
+    ],
+    "PreviousQuestTitles": [
+      "Vipers on the Hunt"
+    ],
+    "NextQuestIds": [
+      70389
+    ],
+    "NextQuestTitles": [
+      "Vengeance of the Viper"
+    ],
+    "StarterNpc": "Keshkwa",
+    "StarterNpcLocation": {
+      "RowId": 10208518,
+      "X": 205.088,
+      "Y": 8.66152,
+      "Z": -71.6747,
+      "Yaw": -1.82874,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Keshkwa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 190,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Viper Quests"
+    },
+    "SortKey": 50,
+    "Icon": 101293,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 501600,
+      "Gil": 1287,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70389,
+    "QuestTitle": "Vengeance of the Viper",
+    "PreviousQuestIds": [
+      70388
+    ],
+    "PreviousQuestTitles": [
+      "Into the Viper Pit"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Keshkwa",
+    "StarterNpcLocation": {
+      "RowId": 10208518,
+      "X": 205.088,
+      "Y": 8.66152,
+      "Z": -71.6747,
+      "Yaw": -1.82874,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Keshkwa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 190,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Viper Quests"
+    },
+    "SortKey": 60,
+    "Icon": 101293,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2510,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

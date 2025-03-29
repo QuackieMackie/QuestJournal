@@ -1,0 +1,1107 @@
+[
+  {
+    "QuestId": 66591,
+    "QuestTitle": "Paladin\u0027s Pledge",
+    "PreviousQuestIds": [
+      65801,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "The Rematch",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66592
+    ],
+    "NextQuestTitles": [
+      "Honor Lost"
+    ],
+    "StarterNpc": "Lulutsu",
+    "StarterNpcLocation": {
+      "RowId": 3279279,
+      "X": -97.5204,
+      "Y": 6.97333,
+      "Z": 23.6057,
+      "Yaw": 0.663984,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Jenlyns",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100106,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 29,
+        "ActionName": "Spirits Within"
+      },
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 10,
+        "Name": "Soul of the Paladin"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66592,
+    "QuestTitle": "Honor Lost",
+    "PreviousQuestIds": [
+      66591
+    ],
+    "PreviousQuestTitles": [
+      "Paladin\u0027s Pledge"
+    ],
+    "NextQuestIds": [
+      66593
+    ],
+    "NextQuestTitles": [
+      "Power Struggles"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Jenlyns",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100106,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3542,
+        "ActionName": "Sheltron"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66593,
+    "QuestTitle": "Power Struggles",
+    "PreviousQuestIds": [
+      66592
+    ],
+    "PreviousQuestTitles": [
+      "Honor Lost"
+    ],
+    "NextQuestIds": [
+      66594
+    ],
+    "NextQuestTitles": [
+      "Poisoned Hearts"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Jenlyns",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100106,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16457,
+        "ActionName": "Prominence"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66594,
+    "QuestTitle": "Poisoned Hearts",
+    "PreviousQuestIds": [
+      66593
+    ],
+    "PreviousQuestTitles": [
+      "Power Struggles"
+    ],
+    "NextQuestIds": [
+      66595
+    ],
+    "NextQuestTitles": [
+      "Parley in the Sagolii"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Jenlyns",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100106,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66595,
+    "QuestTitle": "Parley in the Sagolii",
+    "PreviousQuestIds": [
+      66594
+    ],
+    "PreviousQuestTitles": [
+      "Poisoned Hearts"
+    ],
+    "NextQuestIds": [
+      66596
+    ],
+    "NextQuestTitles": [
+      "Keeping the Oath"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Jenlyns",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100106,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 27,
+        "ActionName": "Cover"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66596,
+    "QuestTitle": "Keeping the Oath",
+    "PreviousQuestIds": [
+      66595
+    ],
+    "PreviousQuestTitles": [
+      "Parley in the Sagolii"
+    ],
+    "NextQuestIds": [
+      66656,
+      67568
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Curtana)",
+      "An Exemplary Example"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Jenlyns",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100106,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3220,
+          "ItemName": "Gallant Surcoat",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20642,
+          "ItemName": "Valor Armor Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 30,
+        "ActionName": "Hallowed Ground"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66656,
+    "QuestTitle": "A Relic Reborn (Curtana)",
+    "PreviousQuestIds": [
+      66596,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Keeping the Oath",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1675,
+          "ItemName": "Curtana",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 2306,
+          "ItemName": "Holy Shield",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67568,
+    "QuestTitle": "An Exemplary Example",
+    "PreviousQuestIds": [
+      66596,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Keeping the Oath",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67569
+    ],
+    "NextQuestTitles": [
+      "The Paladin Who Cried Wolf"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Papashan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100433,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 994,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67569,
+    "QuestTitle": "The Paladin Who Cried Wolf",
+    "PreviousQuestIds": [
+      67568
+    ],
+    "PreviousQuestTitles": [
+      "An Exemplary Example"
+    ],
+    "NextQuestIds": [
+      67570
+    ],
+    "NextQuestTitles": [
+      "Big Sollerets to Fill"
+    ],
+    "StarterNpc": "Papashan",
+    "StarterNpcLocation": {
+      "RowId": 3970164,
+      "X": 75.3384,
+      "Y": 2.13811,
+      "Z": 316.362,
+      "Yaw": 0.928138,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Constaint",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100433,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 1245,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67570,
+    "QuestTitle": "Big Sollerets to Fill",
+    "PreviousQuestIds": [
+      67569
+    ],
+    "PreviousQuestTitles": [
+      "The Paladin Who Cried Wolf"
+    ],
+    "NextQuestIds": [
+      67571
+    ],
+    "NextQuestTitles": [
+      "Hey Soul Crystal"
+    ],
+    "StarterNpc": "Constaint",
+    "StarterNpcLocation": {
+      "RowId": 5900165,
+      "X": 509.178,
+      "Y": 212.482,
+      "Z": 695.826,
+      "Yaw": -0.218552,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Constaint",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100433,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1004,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3538,
+        "ActionName": "Goring Blade"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67571,
+    "QuestTitle": "Hey Soul Crystal",
+    "PreviousQuestIds": [
+      67570
+    ],
+    "PreviousQuestTitles": [
+      "Big Sollerets to Fill"
+    ],
+    "NextQuestIds": [
+      67572
+    ],
+    "NextQuestTitles": [
+      "All According to Plan"
+    ],
+    "StarterNpc": "Constaint",
+    "StarterNpcLocation": {
+      "RowId": 5900260,
+      "X": 509.178,
+      "Y": 212.482,
+      "Z": 695.826,
+      "Yaw": -0.218552,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Constaint",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100433,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1212,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3540,
+        "ActionName": "Divine Veil"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67572,
+    "QuestTitle": "All According to Plan",
+    "PreviousQuestIds": [
+      67571
+    ],
+    "PreviousQuestTitles": [
+      "Hey Soul Crystal"
+    ],
+    "NextQuestIds": [
+      67573
+    ],
+    "NextQuestTitles": [
+      "This Little Sword of Mine"
+    ],
+    "StarterNpc": "Constaint",
+    "StarterNpcLocation": {
+      "RowId": 5900327,
+      "X": 51.1617,
+      "Y": 125.05,
+      "Z": 178.701,
+      "Yaw": 0.407272,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Constaint",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100433,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 1581,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3541,
+        "ActionName": "Clemency"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67573,
+    "QuestTitle": "This Little Sword of Mine",
+    "PreviousQuestIds": [
+      67572
+    ],
+    "PreviousQuestTitles": [
+      "All According to Plan"
+    ],
+    "NextQuestIds": [
+      68107
+    ],
+    "NextQuestTitles": [
+      "Tournament of the Century"
+    ],
+    "StarterNpc": "Constaint",
+    "StarterNpcLocation": {
+      "RowId": 5900380,
+      "X": 509.178,
+      "Y": 212.54,
+      "Z": 695.796,
+      "Yaw": -0.218644,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Constaint",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100433,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1443,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20655,
+          "ItemName": "Creed Armor Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3539,
+        "ActionName": "Royal Authority"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68107,
+    "QuestTitle": "Tournament of the Century",
+    "PreviousQuestIds": [
+      67573,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "This Little Sword of Mine",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68108
+    ],
+    "NextQuestTitles": [
+      "In Thal\u0027s Name"
+    ],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Mylla",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100668,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 648,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68108,
+    "QuestTitle": "In Thal\u0027s Name",
+    "PreviousQuestIds": [
+      68107
+    ],
+    "PreviousQuestTitles": [
+      "Tournament of the Century"
+    ],
+    "NextQuestIds": [
+      68109
+    ],
+    "NextQuestTitles": [
+      "In Nald\u0027s Name"
+    ],
+    "StarterNpc": "Mylla",
+    "StarterNpcLocation": {
+      "RowId": 2617212,
+      "X": -94.5297,
+      "Y": 6.49997,
+      "Z": 39.8107,
+      "Yaw": 1.89934,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Mylla",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100668,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1884,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68109,
+    "QuestTitle": "In Nald\u0027s Name",
+    "PreviousQuestIds": [
+      68108
+    ],
+    "PreviousQuestTitles": [
+      "In Thal\u0027s Name"
+    ],
+    "NextQuestIds": [
+      68110
+    ],
+    "NextQuestTitles": [
+      "Fade to Black Lotus"
+    ],
+    "StarterNpc": "Mylla",
+    "StarterNpcLocation": {
+      "RowId": 2617212,
+      "X": -94.5297,
+      "Y": 6.49997,
+      "Z": 39.8107,
+      "Yaw": 1.89934,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Mylla",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100668,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 959,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68110,
+    "QuestTitle": "Fade to Black Lotus",
+    "PreviousQuestIds": [
+      68109
+    ],
+    "PreviousQuestTitles": [
+      "In Nald\u0027s Name"
+    ],
+    "NextQuestIds": [
+      68111
+    ],
+    "NextQuestTitles": [
+      "Raising the Sword"
+    ],
+    "StarterNpc": "Mylla",
+    "StarterNpcLocation": {
+      "RowId": 2617212,
+      "X": -94.5297,
+      "Y": 6.49997,
+      "Z": 39.8107,
+      "Yaw": 1.89934,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Mylla",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100668,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1447,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68111,
+    "QuestTitle": "Raising the Sword",
+    "PreviousQuestIds": [
+      68110
+    ],
+    "PreviousQuestTitles": [
+      "Fade to Black Lotus"
+    ],
+    "NextQuestIds": [
+      68746
+    ],
+    "NextQuestTitles": [
+      "Worth Fighting For"
+    ],
+    "StarterNpc": "Mylla",
+    "StarterNpcLocation": {
+      "RowId": 2617212,
+      "X": -94.5297,
+      "Y": 6.49997,
+      "Z": 39.8107,
+      "Yaw": 1.89934,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Mylla",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100668,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2300,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20275,
+          "ItemName": "Chivalrous Armor Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7385,
+        "ActionName": "Passage of Arms"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68746,
+    "QuestTitle": "Worth Fighting For",
+    "PreviousQuestIds": [
+      68111,
+      68784,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Raising the Sword",
+      "To Have Loved and Lost",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jenlyns",
+    "StarterNpcLocation": {
+      "RowId": 4253800,
+      "X": -20.8243,
+      "Y": 29.984,
+      "Z": -2.39575,
+      "Yaw": -1.74993,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Mylla",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 171,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Paladin Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100873,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1167,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

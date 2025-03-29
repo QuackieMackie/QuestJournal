@@ -1,0 +1,1261 @@
+[
+  {
+    "QuestId": 65748,
+    "QuestTitle": "Peasants by Day, Ninjas by Night",
+    "PreviousQuestIds": [
+      65691,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "Cloying Victory",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      65749
+    ],
+    "NextQuestTitles": [
+      "My First Mudra"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6240,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7886,
+          "ItemName": "Soul of the Ninja",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2259,
+        "ActionName": "Ten"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65749,
+    "QuestTitle": "My First Mudra",
+    "PreviousQuestIds": [
+      65748
+    ],
+    "PreviousQuestTitles": [
+      "Peasants by Day, Ninjas by Night"
+    ],
+    "NextQuestIds": [
+      65750
+    ],
+    "NextQuestTitles": [
+      "Killer Combinations"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6240,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65750,
+    "QuestTitle": "Killer Combinations",
+    "PreviousQuestIds": [
+      65749
+    ],
+    "PreviousQuestTitles": [
+      "My First Mudra"
+    ],
+    "NextQuestIds": [
+      65751
+    ],
+    "NextQuestTitles": [
+      "Once Upon a Time in Doma"
+    ],
+    "StarterNpc": "Tsubame",
+    "StarterNpcLocation": {
+      "RowId": 5327233,
+      "X": -8.69807,
+      "Y": 39.5883,
+      "Z": 255.268,
+      "Yaw": 1.61923,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 7920,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2261,
+        "ActionName": "Chi"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65751,
+    "QuestTitle": "Once Upon a Time in Doma",
+    "PreviousQuestIds": [
+      65750
+    ],
+    "PreviousQuestTitles": [
+      "Killer Combinations"
+    ],
+    "NextQuestIds": [
+      65752
+    ],
+    "NextQuestTitles": [
+      "Pirates versus Ninjas"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 7920,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65752,
+    "QuestTitle": "Pirates versus Ninjas",
+    "PreviousQuestIds": [
+      65751
+    ],
+    "PreviousQuestTitles": [
+      "Once Upon a Time in Doma"
+    ],
+    "NextQuestIds": [
+      65753
+    ],
+    "NextQuestTitles": [
+      "Ninja Bathin\u0027"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10780,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2262,
+        "ActionName": "Shukuchi"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65753,
+    "QuestTitle": "Ninja Bathin\u0027",
+    "PreviousQuestIds": [
+      65752
+    ],
+    "PreviousQuestTitles": [
+      "Pirates versus Ninjas"
+    ],
+    "NextQuestIds": [
+      65768
+    ],
+    "NextQuestTitles": [
+      "Tough Guys"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327283,
+      "X": 473.138,
+      "Y": 16.493,
+      "Z": 67.367,
+      "Yaw": -1.30356,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 10780,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65768,
+    "QuestTitle": "Tough Guys",
+    "PreviousQuestIds": [
+      65753
+    ],
+    "PreviousQuestTitles": [
+      "Ninja Bathin\u0027"
+    ],
+    "NextQuestIds": [
+      65769
+    ],
+    "NextQuestTitles": [
+      "The Crow Knows"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": null,
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2263,
+        "ActionName": "Jin"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65769,
+    "QuestTitle": "The Crow Knows",
+    "PreviousQuestIds": [
+      65768
+    ],
+    "PreviousQuestTitles": [
+      "Tough Guys"
+    ],
+    "NextQuestIds": [
+      65770
+    ],
+    "NextQuestTitles": [
+      "Master and Student"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5360271,
+      "X": -189.009,
+      "Y": 30.9355,
+      "Z": -687.263,
+      "Yaw": 1.54525,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 8,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65770,
+    "QuestTitle": "Master and Student",
+    "PreviousQuestIds": [
+      65769
+    ],
+    "PreviousQuestTitles": [
+      "The Crow Knows"
+    ],
+    "NextQuestIds": [
+      65771,
+      67115
+    ],
+    "NextQuestTitles": [
+      "Strangers in a Strange Land",
+      "A Relic Reborn (Yoshimitsu)"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 9,
+    "Icon": 100327,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7890,
+          "ItemName": "Ninja Chainmail",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20647,
+          "ItemName": "Koga Garb Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2264,
+        "ActionName": "Kassatsu"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65771,
+    "QuestTitle": "Strangers in a Strange Land",
+    "PreviousQuestIds": [
+      65770,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Master and Student",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67220
+    ],
+    "NextQuestTitles": [
+      "The Impossible Girl"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100436,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 1201,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67115,
+    "QuestTitle": "A Relic Reborn (Yoshimitsu)",
+    "PreviousQuestIds": [
+      65770,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Master and Student",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7888,
+          "ItemName": "Yoshimitsu",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67220,
+    "QuestTitle": "The Impossible Girl",
+    "PreviousQuestIds": [
+      65771
+    ],
+    "PreviousQuestTitles": [
+      "Strangers in a Strange Land"
+    ],
+    "NextQuestIds": [
+      67221
+    ],
+    "NextQuestTitles": [
+      "Ninja Assassin"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100436,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 1063,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16488,
+        "ActionName": "Hakke Mujinsatsu"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67221,
+    "QuestTitle": "Ninja Assassin",
+    "PreviousQuestIds": [
+      67220
+    ],
+    "PreviousQuestTitles": [
+      "The Impossible Girl"
+    ],
+    "NextQuestIds": [
+      67222
+    ],
+    "NextQuestTitles": [
+      "Medieval Espionage"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100436,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1038,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3563,
+        "ActionName": "Armor Crush"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67222,
+    "QuestTitle": "Medieval Espionage",
+    "PreviousQuestIds": [
+      67221
+    ],
+    "PreviousQuestTitles": [
+      "Ninja Assassin"
+    ],
+    "NextQuestIds": [
+      67223
+    ],
+    "NextQuestTitles": [
+      "Staying Alive"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100436,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1330,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3566,
+        "ActionName": "Dream Within a Dream"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67223,
+    "QuestTitle": "Staying Alive",
+    "PreviousQuestIds": [
+      67222
+    ],
+    "PreviousQuestTitles": [
+      "Medieval Espionage"
+    ],
+    "NextQuestIds": [
+      67224
+    ],
+    "NextQuestTitles": [
+      "In Her Defense"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100436,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 1913,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67224,
+    "QuestTitle": "In Her Defense",
+    "PreviousQuestIds": [
+      67223
+    ],
+    "PreviousQuestTitles": [
+      "Staying Alive"
+    ],
+    "NextQuestIds": [
+      68484
+    ],
+    "NextQuestTitles": [
+      "Search for the Stolen Scroll"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100436,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1446,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20660,
+          "ItemName": "Iga Garb Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68484,
+    "QuestTitle": "Search for the Stolen Scroll",
+    "PreviousQuestIds": [
+      67224,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "In Her Defense",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68485
+    ],
+    "NextQuestTitles": [
+      "Ninja Bathin\u0027 Redux"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100673,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1312,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68485,
+    "QuestTitle": "Ninja Bathin\u0027 Redux",
+    "PreviousQuestIds": [
+      68484
+    ],
+    "PreviousQuestTitles": [
+      "Search for the Stolen Scroll"
+    ],
+    "NextQuestIds": [
+      68486
+    ],
+    "NextQuestTitles": [
+      "A Game of Life and Death"
+    ],
+    "StarterNpc": "Yomei",
+    "StarterNpcLocation": {
+      "RowId": 5412376,
+      "X": -28.8549,
+      "Y": -24.7732,
+      "Z": 265.309,
+      "Yaw": 3.12394,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": null,
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100673,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 2073,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68486,
+    "QuestTitle": "A Game of Life and Death",
+    "PreviousQuestIds": [
+      68485
+    ],
+    "PreviousQuestTitles": [
+      "Ninja Bathin\u0027 Redux"
+    ],
+    "NextQuestIds": [
+      68487
+    ],
+    "NextQuestTitles": [
+      "True Enlightenment"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 6989384,
+      "X": 116.362,
+      "Y": 11.9935,
+      "Z": -40.4487,
+      "Yaw": 0.333674,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100673,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2740,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68487,
+    "QuestTitle": "True Enlightenment",
+    "PreviousQuestIds": [
+      68486
+    ],
+    "PreviousQuestTitles": [
+      "A Game of Life and Death"
+    ],
+    "NextQuestIds": [
+      68488
+    ],
+    "NextQuestTitles": [
+      "When Clans Collide"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 6991215,
+      "X": 413.081,
+      "Y": 68.0285,
+      "Z": -99.3174,
+      "Yaw": 2.26689,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100673,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1131,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68488,
+    "QuestTitle": "When Clans Collide",
+    "PreviousQuestIds": [
+      68487
+    ],
+    "PreviousQuestTitles": [
+      "True Enlightenment"
+    ],
+    "NextQuestIds": [
+      68755
+    ],
+    "NextQuestTitles": [
+      "Oboro\u0027s Big Idea"
+    ],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 6991211,
+      "X": 412.184,
+      "Y": 68.0094,
+      "Z": -96.732,
+      "Yaw": 1.66569,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100673,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 3500,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20283,
+          "ItemName": "Kage-kakushi Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7403,
+        "ActionName": "Ten Chi Jin"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68755,
+    "QuestTitle": "Oboro\u0027s Big Idea",
+    "PreviousQuestIds": [
+      68488,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "When Clans Collide",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Oboro",
+    "StarterNpcLocation": {
+      "RowId": 5327230,
+      "X": -33.2119,
+      "Y": -24.6744,
+      "Z": 257.998,
+      "Yaw": 1.61487,
+      "Radius": 1,
+      "MapId": 549,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Oboro",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 176,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Ninja Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100882,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1863,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

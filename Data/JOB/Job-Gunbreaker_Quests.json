@@ -1,0 +1,410 @@
+[
+  {
+    "QuestId": 68761,
+    "QuestTitle": "Gunblades of the Patriots",
+    "PreviousQuestIds": [
+      68802,
+      68784,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Steel against Steel",
+      "To Have Loved and Lost",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Radovan",
+    "StarterNpcLocation": {
+      "RowId": 7956098,
+      "X": 17.7465,
+      "Y": 20.6876,
+      "Z": -660.105,
+      "Yaw": 1.84494,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Radovan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100888,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3335,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68797,
+    "QuestTitle": "The Makings of a Gunbreaker",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      68798
+    ],
+    "NextQuestTitles": [
+      "Hired Gunblades"
+    ],
+    "StarterNpc": "Gods\u0027 Quiver bow",
+    "StarterNpcLocation": {
+      "RowId": 7952973,
+      "X": 15.6981,
+      "Y": -1.59436,
+      "Z": 37.7072,
+      "Yaw": -1.08463,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Radovan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 101,
+    "Icon": 100871,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 50000,
+      "Gil": 1094,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25216,
+          "ItemName": "Soul of the Gunbreaker",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 27357,
+          "ItemName": "High Steel Gunblade",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 27266,
+          "ItemName": "Outsider\u0027s Attire Coffer (IL 255)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68798,
+    "QuestTitle": "Hired Gunblades",
+    "PreviousQuestIds": [
+      68797
+    ],
+    "PreviousQuestTitles": [
+      "The Makings of a Gunbreaker"
+    ],
+    "NextQuestIds": [
+      68799
+    ],
+    "NextQuestTitles": [
+      "For Better or Worse"
+    ],
+    "StarterNpc": "Radovan",
+    "StarterNpcLocation": {
+      "RowId": 7953148,
+      "X": -214.654,
+      "Y": 11.9734,
+      "Z": 25.2022,
+      "Yaw": -3.11729,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Radovan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 102,
+    "Icon": 100871,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 2661,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68799,
+    "QuestTitle": "For Better or Worse",
+    "PreviousQuestIds": [
+      68798
+    ],
+    "PreviousQuestTitles": [
+      "Hired Gunblades"
+    ],
+    "NextQuestIds": [
+      68800
+    ],
+    "NextQuestTitles": [
+      "Confessions of a Flaming Mongrel"
+    ],
+    "StarterNpc": "Radovan",
+    "StarterNpcLocation": {
+      "RowId": 7954348,
+      "X": 18.4481,
+      "Y": 7.98047,
+      "Z": -115.312,
+      "Yaw": 0.457637,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Radovan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 111,
+    "Icon": 100871,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1535,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68800,
+    "QuestTitle": "Confessions of a Flaming Mongrel",
+    "PreviousQuestIds": [
+      68799
+    ],
+    "PreviousQuestTitles": [
+      "For Better or Worse"
+    ],
+    "NextQuestIds": [
+      68801
+    ],
+    "NextQuestTitles": [
+      "Of Defectors and Defenders"
+    ],
+    "StarterNpc": "Radovan",
+    "StarterNpcLocation": {
+      "RowId": 7955730,
+      "X": -17.3517,
+      "Y": 40.0006,
+      "Z": -0.31923,
+      "Yaw": 1.26601,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Radovan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 121,
+    "Icon": 100871,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 1863,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68801,
+    "QuestTitle": "Of Defectors and Defenders",
+    "PreviousQuestIds": [
+      68800
+    ],
+    "PreviousQuestTitles": [
+      "Confessions of a Flaming Mongrel"
+    ],
+    "NextQuestIds": [
+      68802
+    ],
+    "NextQuestTitles": [
+      "Steel against Steel"
+    ],
+    "StarterNpc": "Radovan",
+    "StarterNpcLocation": {
+      "RowId": 7956005,
+      "X": 54.0016,
+      "Y": 23.9719,
+      "Z": 8.10248,
+      "Yaw": 2.35355,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sophie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 131,
+    "Icon": 100871,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1261,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68802,
+    "QuestTitle": "Steel against Steel",
+    "PreviousQuestIds": [
+      68801
+    ],
+    "PreviousQuestTitles": [
+      "Of Defectors and Defenders"
+    ],
+    "NextQuestIds": [
+      68761
+    ],
+    "NextQuestTitles": [
+      "Gunblades of the Patriots"
+    ],
+    "StarterNpc": "Sophie",
+    "StarterNpcLocation": {
+      "RowId": 7956006,
+      "X": 54.9262,
+      "Y": 23.9719,
+      "Z": 8.92659,
+      "Yaw": 2.37704,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Radovan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 186,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Gunbreaker Quests"
+    },
+    "SortKey": 141,
+    "Icon": 100871,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 1186,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16155,
+        "ActionName": "Continuation"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,1151 @@
+[
+  {
+    "QuestId": 66121,
+    "QuestTitle": "Better Axe Around",
+    "PreviousQuestIds": [
+      66590,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "How to Quit You",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      66122
+    ],
+    "NextQuestTitles": [
+      "Duty and the Beast"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 1479,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66122,
+    "QuestTitle": "Duty and the Beast",
+    "PreviousQuestIds": [
+      66121
+    ],
+    "PreviousQuestTitles": [
+      "Better Axe Around"
+    ],
+    "NextQuestIds": [
+      66124
+    ],
+    "NextQuestTitles": [
+      "The Bear Necessity"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 5871288,
+      "X": 441.71,
+      "Y": 8.6705,
+      "Z": 18.8171,
+      "Yaw": -1.04473,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 1439,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66124,
+    "QuestTitle": "The Bear Necessity",
+    "PreviousQuestIds": [
+      66122
+    ],
+    "PreviousQuestTitles": [
+      "Duty and the Beast"
+    ],
+    "NextQuestIds": [
+      66132
+    ],
+    "NextQuestTitles": [
+      "Pirates of Shallow Water"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 5871288,
+      "X": 441.71,
+      "Y": 8.6705,
+      "Z": 18.8171,
+      "Yaw": -1.04473,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1497,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3549,
+        "ActionName": "Fell Cleave"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66132,
+    "QuestTitle": "Pirates of Shallow Water",
+    "PreviousQuestIds": [
+      66124
+    ],
+    "PreviousQuestTitles": [
+      "The Bear Necessity"
+    ],
+    "NextQuestIds": [
+      67213
+    ],
+    "NextQuestTitles": [
+      "How to Train Your Warrior"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 5871288,
+      "X": 441.71,
+      "Y": 8.6705,
+      "Z": 18.8171,
+      "Yaw": -1.04473,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "storm captain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 25740,
+      "Gil": 844,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3551,
+        "ActionName": "Raw Intuition"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66134,
+    "QuestTitle": "Slap an\u0027 Chop",
+    "PreviousQuestIds": [
+      67213
+    ],
+    "PreviousQuestTitles": [
+      "How to Train Your Warrior"
+    ],
+    "NextQuestIds": [
+      66137
+    ],
+    "NextQuestTitles": [
+      "And My Axe"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 5871288,
+      "X": 441.71,
+      "Y": 8.6705,
+      "Z": 18.8171,
+      "Yaw": -1.04473,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 697,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3552,
+        "ActionName": "Equilibrium"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66137,
+    "QuestTitle": "And My Axe",
+    "PreviousQuestIds": [
+      66134
+    ],
+    "PreviousQuestTitles": [
+      "Slap an\u0027 Chop"
+    ],
+    "NextQuestIds": [
+      68436
+    ],
+    "NextQuestTitles": [
+      "Curious Gorge Meets His Match"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 5871288,
+      "X": 441.71,
+      "Y": 8.6705,
+      "Z": 18.8171,
+      "Yaw": -1.04473,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1128,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20657,
+          "ItemName": "Ravager\u0027s Armor Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3550,
+        "ActionName": "Decimate"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66585,
+    "QuestTitle": "Pride and Duty (Will Take You from the Mountain)",
+    "PreviousQuestIds": [
+      65855,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "Bringing Down the Mountain",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66586
+    ],
+    "NextQuestTitles": [
+      "Embracing the Beast"
+    ],
+    "StarterNpc": "Wyrnzoen",
+    "StarterNpcLocation": {
+      "RowId": 1673098,
+      "X": -1.18483,
+      "Y": 44.9683,
+      "Z": -255.865,
+      "Yaw": 1.32792,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100109,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 12,
+        "Name": "Soul of the Warrior"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66586,
+    "QuestTitle": "Embracing the Beast",
+    "PreviousQuestIds": [
+      66585
+    ],
+    "PreviousQuestTitles": [
+      "Pride and Duty (Will Take You from the Mountain)"
+    ],
+    "NextQuestIds": [
+      66587
+    ],
+    "NextQuestTitles": [
+      "Curious Gorge Goes to Wineport"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100109,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 49,
+        "ActionName": "Inner Beast"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66587,
+    "QuestTitle": "Curious Gorge Goes to Wineport",
+    "PreviousQuestIds": [
+      66586
+    ],
+    "PreviousQuestTitles": [
+      "Embracing the Beast"
+    ],
+    "NextQuestIds": [
+      66588
+    ],
+    "NextQuestTitles": [
+      "Looking the Part"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100109,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16462,
+        "ActionName": "Mythril Tempest"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66588,
+    "QuestTitle": "Looking the Part",
+    "PreviousQuestIds": [
+      66587
+    ],
+    "PreviousQuestTitles": [
+      "Curious Gorge Goes to Wineport"
+    ],
+    "NextQuestIds": [
+      66589
+    ],
+    "NextQuestTitles": [
+      "Proof Is the Pudding"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100109,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66589,
+    "QuestTitle": "Proof Is the Pudding",
+    "PreviousQuestIds": [
+      66588
+    ],
+    "PreviousQuestTitles": [
+      "Looking the Part"
+    ],
+    "NextQuestIds": [
+      66590
+    ],
+    "NextQuestTitles": [
+      "How to Quit You"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100109,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 51,
+        "ActionName": "Steel Cyclone"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66590,
+    "QuestTitle": "How to Quit You",
+    "PreviousQuestIds": [
+      66589
+    ],
+    "PreviousQuestTitles": [
+      "Proof Is the Pudding"
+    ],
+    "NextQuestIds": [
+      66121,
+      66655
+    ],
+    "NextQuestTitles": [
+      "Better Axe Around",
+      "A Relic Reborn (Bravura)"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100109,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3222,
+          "ItemName": "Fighter\u0027s Cuirass",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20644,
+          "ItemName": "Warrior\u0027s Armor Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 52,
+        "ActionName": "Infuriate"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66655,
+    "QuestTitle": "A Relic Reborn (Bravura)",
+    "PreviousQuestIds": [
+      66590,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "How to Quit You",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1816,
+          "ItemName": "Bravura",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67213,
+    "QuestTitle": "How to Train Your Warrior",
+    "PreviousQuestIds": [
+      66132
+    ],
+    "PreviousQuestTitles": [
+      "Pirates of Shallow Water"
+    ],
+    "NextQuestIds": [
+      66134
+    ],
+    "NextQuestTitles": [
+      "Slap an\u0027 Chop"
+    ],
+    "StarterNpc": "storm captain",
+    "StarterNpcLocation": {
+      "RowId": 5871868,
+      "X": 304.212,
+      "Y": -36.41,
+      "Z": 332.701,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 561,
+    "Icon": 100434,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 25740,
+      "Gil": 631,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68436,
+    "QuestTitle": "Curious Gorge Meets His Match",
+    "PreviousQuestIds": [
+      66137,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "And My Axe",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68437
+    ],
+    "NextQuestTitles": [
+      "Field Training"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100669,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1978,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68437,
+    "QuestTitle": "Field Training",
+    "PreviousQuestIds": [
+      68436
+    ],
+    "PreviousQuestTitles": [
+      "Curious Gorge Meets His Match"
+    ],
+    "NextQuestIds": [
+      68438
+    ],
+    "NextQuestTitles": [
+      "When Push Comes to Shove"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 7022370,
+      "X": 217.331,
+      "Y": 7.99998,
+      "Z": 686.43,
+      "Yaw": 2.50746,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100669,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1294,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68438,
+    "QuestTitle": "When Push Comes to Shove",
+    "PreviousQuestIds": [
+      68437
+    ],
+    "PreviousQuestTitles": [
+      "Field Training"
+    ],
+    "NextQuestIds": [
+      68439
+    ],
+    "NextQuestTitles": [
+      "Going the Distance"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 7022370,
+      "X": 217.331,
+      "Y": 7.99998,
+      "Z": 686.43,
+      "Yaw": 2.50746,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100669,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 1487,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68439,
+    "QuestTitle": "Going the Distance",
+    "PreviousQuestIds": [
+      68438
+    ],
+    "PreviousQuestTitles": [
+      "When Push Comes to Shove"
+    ],
+    "NextQuestIds": [
+      68440
+    ],
+    "NextQuestTitles": [
+      "The Heart of the Problem"
+    ],
+    "StarterNpc": "Broken Mountain",
+    "StarterNpcLocation": {
+      "RowId": 7022370,
+      "X": 217.331,
+      "Y": 7.99998,
+      "Z": 686.43,
+      "Yaw": 2.50746,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100669,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1844,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68440,
+    "QuestTitle": "The Heart of the Problem",
+    "PreviousQuestIds": [
+      68439
+    ],
+    "PreviousQuestTitles": [
+      "Going the Distance"
+    ],
+    "NextQuestIds": [
+      68748
+    ],
+    "NextQuestTitles": [
+      "Once, Twice, Three Times a Warrior"
+    ],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 6938546,
+      "X": 525.138,
+      "Y": -19.5068,
+      "Z": 403.401,
+      "Yaw": 0.155108,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Broken Mountain",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100669,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 3700,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20277,
+          "ItemName": "Brutal Armor Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7389,
+        "ActionName": "Inner Release"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68748,
+    "QuestTitle": "Once, Twice, Three Times a Warrior",
+    "PreviousQuestIds": [
+      68440,
+      68784,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "The Heart of the Problem",
+      "To Have Loved and Lost",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Curious Gorge",
+    "StarterNpcLocation": {
+      "RowId": 4253717,
+      "X": 460.681,
+      "Y": 8.43817,
+      "Z": 74.4803,
+      "Yaw": -1.45188,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Curious Gorge",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 173,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Warrior Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100875,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1641,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

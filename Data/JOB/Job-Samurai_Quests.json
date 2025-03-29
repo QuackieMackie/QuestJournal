@@ -1,0 +1,740 @@
+[
+  {
+    "QuestId": 68095,
+    "QuestTitle": "The Way of the Samurai",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      68096
+    ],
+    "NextQuestTitles": [
+      "Master Musosai"
+    ],
+    "StarterNpc": "Ul\u0027dahn citizen",
+    "StarterNpcLocation": {
+      "RowId": 6876481,
+      "X": -98.436,
+      "Y": 3.98254,
+      "Z": -104.997,
+      "Yaw": 2.35238,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Far Eastern elder",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 517,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17741,
+          "ItemName": "Soul of the Samurai",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20388,
+          "ItemName": "Mythrite Uchigatana",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20620,
+          "ItemName": "Nameless Armor Coffer (IL 115)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68096,
+    "QuestTitle": "Master Musosai",
+    "PreviousQuestIds": [
+      68095
+    ],
+    "PreviousQuestTitles": [
+      "The Way of the Samurai"
+    ],
+    "NextQuestIds": [
+      68097
+    ],
+    "NextQuestTitles": [
+      "The Sands of Debt"
+    ],
+    "StarterNpc": "Musosai",
+    "StarterNpcLocation": {
+      "RowId": 7008764,
+      "X": -89.2582,
+      "Y": 2.15,
+      "Z": 59.7435,
+      "Yaw": 1.56921,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Musosai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 501,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 1502,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68097,
+    "QuestTitle": "The Sands of Debt",
+    "PreviousQuestIds": [
+      68096
+    ],
+    "PreviousQuestTitles": [
+      "Master Musosai"
+    ],
+    "NextQuestIds": [
+      68098
+    ],
+    "NextQuestTitles": [
+      "Blood on the Deck"
+    ],
+    "StarterNpc": "Musosai",
+    "StarterNpcLocation": {
+      "RowId": 6876493,
+      "X": 35.6603,
+      "Y": 6.97333,
+      "Z": -82.9938,
+      "Yaw": -2.57245,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Musosai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 1302,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68098,
+    "QuestTitle": "Blood on the Deck",
+    "PreviousQuestIds": [
+      68097
+    ],
+    "PreviousQuestTitles": [
+      "The Sands of Debt"
+    ],
+    "NextQuestIds": [
+      68099
+    ],
+    "NextQuestTitles": [
+      "A Fraudster in the Forest"
+    ],
+    "StarterNpc": "Musosai",
+    "StarterNpcLocation": {
+      "RowId": 6877068,
+      "X": 9.55027,
+      "Y": 39.9941,
+      "Z": -15.2069,
+      "Yaw": -0.544161,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Musosai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 2877,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68099,
+    "QuestTitle": "A Fraudster in the Forest",
+    "PreviousQuestIds": [
+      68098
+    ],
+    "PreviousQuestTitles": [
+      "Blood on the Deck"
+    ],
+    "NextQuestIds": [
+      68100
+    ],
+    "NextQuestTitles": [
+      "Tears in the Snow"
+    ],
+    "StarterNpc": "Musosai",
+    "StarterNpcLocation": {
+      "RowId": 6877319,
+      "X": 43.2625,
+      "Y": -8,
+      "Z": 99.2056,
+      "Yaw": -1.60885,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Musosai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1273,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68100,
+    "QuestTitle": "Tears in the Snow",
+    "PreviousQuestIds": [
+      68099
+    ],
+    "PreviousQuestTitles": [
+      "A Fraudster in the Forest"
+    ],
+    "NextQuestIds": [
+      68101
+    ],
+    "NextQuestTitles": [
+      "The Face of True Evil"
+    ],
+    "StarterNpc": "Musosai",
+    "StarterNpcLocation": {
+      "RowId": 6879095,
+      "X": 112.413,
+      "Y": 3.61633,
+      "Z": 62.3061,
+      "Yaw": -1.59839,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Momozigo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 919,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68101,
+    "QuestTitle": "The Face of True Evil",
+    "PreviousQuestIds": [
+      68100
+    ],
+    "PreviousQuestTitles": [
+      "Tears in the Snow"
+    ],
+    "NextQuestIds": [
+      68102
+    ],
+    "NextQuestTitles": [
+      "A Dignified Visitor"
+    ],
+    "StarterNpc": "Momozigo",
+    "StarterNpcLocation": {
+      "RowId": 6879096,
+      "X": 112.505,
+      "Y": 3.61633,
+      "Z": 60.8682,
+      "Yaw": -1.57714,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Momozigo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100682,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 2151,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7497,
+        "ActionName": "Meditate"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68102,
+    "QuestTitle": "A Dignified Visitor",
+    "PreviousQuestIds": [
+      68101,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "The Face of True Evil",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68103
+    ],
+    "NextQuestTitles": [
+      "Trials of the Sekiseigumi"
+    ],
+    "StarterNpc": "Momozigo",
+    "StarterNpcLocation": {
+      "RowId": 6876495,
+      "X": 36.864,
+      "Y": 6.97333,
+      "Z": -83.7703,
+      "Yaw": -2.57654,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Momozigo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100684,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 778,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68103,
+    "QuestTitle": "Trials of the Sekiseigumi",
+    "PreviousQuestIds": [
+      68102
+    ],
+    "PreviousQuestTitles": [
+      "A Dignified Visitor"
+    ],
+    "NextQuestIds": [
+      68104
+    ],
+    "NextQuestTitles": [
+      "Matsuba Mayhem"
+    ],
+    "StarterNpc": "Momozigo",
+    "StarterNpcLocation": {
+      "RowId": 6876495,
+      "X": 36.864,
+      "Y": 6.97333,
+      "Z": -83.7703,
+      "Yaw": -2.57654,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "soft-spoken Sekiseigumi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100684,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1769,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68104,
+    "QuestTitle": "Matsuba Mayhem",
+    "PreviousQuestIds": [
+      68103
+    ],
+    "PreviousQuestTitles": [
+      "Trials of the Sekiseigumi"
+    ],
+    "NextQuestIds": [
+      68105
+    ],
+    "NextQuestTitles": [
+      "The Hunt for Ugetsu"
+    ],
+    "StarterNpc": "Makoto",
+    "StarterNpcLocation": {
+      "RowId": 6901975,
+      "X": 129.721,
+      "Y": 15,
+      "Z": -157.596,
+      "Yaw": -0.386866,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Kongo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100684,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2030,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68105,
+    "QuestTitle": "The Hunt for Ugetsu",
+    "PreviousQuestIds": [
+      68104
+    ],
+    "PreviousQuestTitles": [
+      "Matsuba Mayhem"
+    ],
+    "NextQuestIds": [
+      68106
+    ],
+    "NextQuestTitles": [
+      "The Battle on Bekko"
+    ],
+    "StarterNpc": "Makoto",
+    "StarterNpcLocation": {
+      "RowId": 6901975,
+      "X": 129.721,
+      "Y": 15,
+      "Z": -157.596,
+      "Yaw": -0.386866,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Makoto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100684,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1576,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68106,
+    "QuestTitle": "The Battle on Bekko",
+    "PreviousQuestIds": [
+      68105
+    ],
+    "PreviousQuestTitles": [
+      "The Hunt for Ugetsu"
+    ],
+    "NextQuestIds": [
+      68759
+    ],
+    "NextQuestTitles": [
+      "The Legend of Musosai"
+    ],
+    "StarterNpc": "Makoto",
+    "StarterNpcLocation": {
+      "RowId": 6901975,
+      "X": 129.721,
+      "Y": 15,
+      "Z": -157.596,
+      "Yaw": -0.386866,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Makoto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100684,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2700,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20287,
+          "ItemName": "Myochin Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7496,
+        "ActionName": "Hissatsu: Guren"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68759,
+    "QuestTitle": "The Legend of Musosai",
+    "PreviousQuestIds": [
+      68106,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "The Battle on Bekko",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Makoto",
+    "StarterNpcLocation": {
+      "RowId": 6901975,
+      "X": 129.721,
+      "Y": 15,
+      "Z": -157.596,
+      "Yaw": -0.386866,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Makoto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 184,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Samurai Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100886,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 2518,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

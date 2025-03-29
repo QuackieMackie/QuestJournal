@@ -1,0 +1,1050 @@
+[
+  {
+    "QuestId": 67589,
+    "QuestTitle": "Our End",
+    "PreviousQuestIds": [
+      67646
+    ],
+    "PreviousQuestTitles": [
+      "A Dark Spectacle"
+    ],
+    "NextQuestIds": [
+      67590
+    ],
+    "NextQuestTitles": [
+      "Ishgardian Justice"
+    ],
+    "StarterNpc": "Ishgardian citizen",
+    "StarterNpcLocation": {
+      "RowId": 5922554,
+      "X": 101.583,
+      "Y": 12.4133,
+      "Z": -117.599,
+      "Yaw": -0.927314,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Fray",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100446,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8839,
+          "ItemName": "Soul of the Dark Knight",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 10400,
+          "ItemName": "Steel Claymore",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 3102,
+          "ItemName": "Steel Cuirass",
+          "Count": 1,
+          "Stain": "Soot Black"
+        },
+        {
+          "ItemId": 3370,
+          "ItemName": "Padded Velveteen Trousers",
+          "Count": 1,
+          "Stain": "Soot Black"
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67590,
+    "QuestTitle": "Ishgardian Justice",
+    "PreviousQuestIds": [
+      67589
+    ],
+    "PreviousQuestTitles": [
+      "Our End"
+    ],
+    "NextQuestIds": [
+      67591
+    ],
+    "NextQuestTitles": [
+      "The Voice in the Abyss"
+    ],
+    "StarterNpc": "Fray",
+    "StarterNpcLocation": {
+      "RowId": 5922556,
+      "X": 6.94264,
+      "Y": -1.92101,
+      "Z": 47.3133,
+      "Yaw": 1.52049,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Fray",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 301,
+    "Icon": 100446,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16466,
+        "ActionName": "Flood of Darkness"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67591,
+    "QuestTitle": "The Voice in the Abyss",
+    "PreviousQuestIds": [
+      67590
+    ],
+    "PreviousQuestTitles": [
+      "Ishgardian Justice"
+    ],
+    "NextQuestIds": [
+      67592
+    ],
+    "NextQuestTitles": [
+      "Heroic Reprise"
+    ],
+    "StarterNpc": "Fray",
+    "StarterNpcLocation": {
+      "RowId": 5922940,
+      "X": 6.9426,
+      "Y": -1.921,
+      "Z": 47.3133,
+      "Yaw": 1.52049,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Fray",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 350,
+    "Icon": 100446,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3625,
+        "ActionName": "Blood Weapon"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67592,
+    "QuestTitle": "Heroic Reprise",
+    "PreviousQuestIds": [
+      67591
+    ],
+    "PreviousQuestTitles": [
+      "The Voice in the Abyss"
+    ],
+    "NextQuestIds": [
+      67593
+    ],
+    "NextQuestTitles": [
+      "Declaration of Blood"
+    ],
+    "StarterNpc": "Fray",
+    "StarterNpcLocation": {
+      "RowId": 5922940,
+      "X": 6.9426,
+      "Y": -1.921,
+      "Z": 47.3133,
+      "Yaw": 1.52049,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Fray",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 400,
+    "Icon": 100446,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 16467,
+        "ActionName": "Edge of Darkness"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67593,
+    "QuestTitle": "Declaration of Blood",
+    "PreviousQuestIds": [
+      67592
+    ],
+    "PreviousQuestTitles": [
+      "Heroic Reprise"
+    ],
+    "NextQuestIds": [
+      67594
+    ],
+    "NextQuestTitles": [
+      "Our Answer"
+    ],
+    "StarterNpc": "Fray",
+    "StarterNpcLocation": {
+      "RowId": 5922940,
+      "X": 6.9426,
+      "Y": -1.921,
+      "Z": 47.3133,
+      "Yaw": 1.52049,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Fray",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 450,
+    "Icon": 100446,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 23760,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67594,
+    "QuestTitle": "Our Answer",
+    "PreviousQuestIds": [
+      67593
+    ],
+    "PreviousQuestTitles": [
+      "Declaration of Blood"
+    ],
+    "NextQuestIds": [
+      67595
+    ],
+    "NextQuestTitles": [
+      "The Wages of Mercy"
+    ],
+    "StarterNpc": "Fray",
+    "StarterNpcLocation": {
+      "RowId": 5922940,
+      "X": 6.9426,
+      "Y": -1.921,
+      "Z": 47.3133,
+      "Yaw": 1.52049,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "untiring knight",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100446,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20652,
+          "ItemName": "Dark Knight\u0027s Armor Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3638,
+        "ActionName": "Living Dead"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67595,
+    "QuestTitle": "The Wages of Mercy",
+    "PreviousQuestIds": [
+      67594
+    ],
+    "PreviousQuestTitles": [
+      "Our Answer"
+    ],
+    "NextQuestIds": [
+      67596
+    ],
+    "NextQuestTitles": [
+      "The Knight and the Maiden Fair"
+    ],
+    "StarterNpc": "unflinching Temple Knight",
+    "StarterNpcLocation": {
+      "RowId": 5923002,
+      "X": -427.103,
+      "Y": 211,
+      "Z": -267.25,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 501,
+    "Icon": 100447,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 574,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67596,
+    "QuestTitle": "The Knight and the Maiden Fair",
+    "PreviousQuestIds": [
+      67595
+    ],
+    "PreviousQuestTitles": [
+      "The Wages of Mercy"
+    ],
+    "NextQuestIds": [
+      67597
+    ],
+    "NextQuestTitles": [
+      "Kindred Spirits"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100447,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 954,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3639,
+        "ActionName": "Salted Earth"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67597,
+    "QuestTitle": "Kindred Spirits",
+    "PreviousQuestIds": [
+      67596
+    ],
+    "PreviousQuestTitles": [
+      "The Knight and the Maiden Fair"
+    ],
+    "NextQuestIds": [
+      67598
+    ],
+    "NextQuestTitles": [
+      "Original Sins"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100447,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1348,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 36926,
+        "ActionName": "Shadowstride"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67598,
+    "QuestTitle": "Original Sins",
+    "PreviousQuestIds": [
+      67597
+    ],
+    "PreviousQuestTitles": [
+      "Kindred Spirits"
+    ],
+    "NextQuestIds": [
+      67599
+    ],
+    "NextQuestTitles": [
+      "The Flame in the Abyss"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100447,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1421,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3641,
+        "ActionName": "Abyssal Drain"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67599,
+    "QuestTitle": "The Flame in the Abyss",
+    "PreviousQuestIds": [
+      67598
+    ],
+    "PreviousQuestTitles": [
+      "Original Sins"
+    ],
+    "NextQuestIds": [
+      67600
+    ],
+    "NextQuestTitles": [
+      "Absolution"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100447,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 1691,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67600,
+    "QuestTitle": "Absolution",
+    "PreviousQuestIds": [
+      67599
+    ],
+    "PreviousQuestTitles": [
+      "The Flame in the Abyss"
+    ],
+    "NextQuestIds": [
+      68451
+    ],
+    "NextQuestTitles": [
+      "In Memories We Walked"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100447,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1698,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20665,
+          "ItemName": "Chaos Armor Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3643,
+        "ActionName": "Carve and Spit"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68451,
+    "QuestTitle": "In Memories We Walked",
+    "PreviousQuestIds": [
+      67600,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "Absolution",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68452
+    ],
+    "NextQuestTitles": [
+      "The Widow and Her Love"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100670,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1282,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68452,
+    "QuestTitle": "The Widow and Her Love",
+    "PreviousQuestIds": [
+      68451
+    ],
+    "PreviousQuestTitles": [
+      "In Memories We Walked"
+    ],
+    "NextQuestIds": [
+      68453
+    ],
+    "NextQuestTitles": [
+      "The Orphans and the Broken Blade"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 6945358,
+      "X": 482.093,
+      "Y": 203.433,
+      "Z": 680.757,
+      "Yaw": 0.931777,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100670,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 1223,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68453,
+    "QuestTitle": "The Orphans and the Broken Blade",
+    "PreviousQuestIds": [
+      68452
+    ],
+    "PreviousQuestTitles": [
+      "The Widow and Her Love"
+    ],
+    "NextQuestIds": [
+      68454
+    ],
+    "NextQuestTitles": [
+      "We Can Never Go Home"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 6950296,
+      "X": 461.448,
+      "Y": -51.1635,
+      "Z": 43.4729,
+      "Yaw": 1.11487,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100670,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2185,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68454,
+    "QuestTitle": "We Can Never Go Home",
+    "PreviousQuestIds": [
+      68453
+    ],
+    "PreviousQuestTitles": [
+      "The Orphans and the Broken Blade"
+    ],
+    "NextQuestIds": [
+      68455
+    ],
+    "NextQuestTitles": [
+      "Our Compromise"
+    ],
+    "StarterNpc": "Myste",
+    "StarterNpcLocation": {
+      "RowId": 6945457,
+      "X": 252.644,
+      "Y": -43.0763,
+      "Z": 625.116,
+      "Yaw": 0.0278518,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100670,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 2887,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68455,
+    "QuestTitle": "Our Compromise",
+    "PreviousQuestIds": [
+      68454
+    ],
+    "PreviousQuestTitles": [
+      "We Can Never Go Home"
+    ],
+    "NextQuestIds": [
+      68757
+    ],
+    "NextQuestTitles": [
+      "Our Closure"
+    ],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": null,
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100670,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2700,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20284,
+          "ItemName": "Abyss Armor Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7393,
+        "ActionName": "The Blackest Night"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68757,
+    "QuestTitle": "Our Closure",
+    "PreviousQuestIds": [
+      68455,
+      68784,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Our Compromise",
+      "To Have Loved and Lost",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sidurgu",
+    "StarterNpcLocation": {
+      "RowId": 5898686,
+      "X": 104.234,
+      "Y": 15,
+      "Z": 40.7873,
+      "Yaw": -2.72843,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sidurgu",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 181,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dark Knight Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100884,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

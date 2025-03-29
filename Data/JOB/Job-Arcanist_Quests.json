@@ -1,0 +1,918 @@
+[
+  {
+    "QuestId": 65988,
+    "QuestTitle": "Way of the Arcanist",
+    "PreviousQuestIds": [
+      65987
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be an Arcanist"
+    ],
+    "NextQuestIds": [
+      65990
+    ],
+    "NextQuestTitles": [
+      "My First Grimoire"
+    ],
+    "StarterNpc": "Murie",
+    "StarterNpcLocation": {
+      "RowId": 1673275,
+      "X": -335.744,
+      "Y": 12.8938,
+      "Z": 1.38849,
+      "Yaw": -0.150764,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2142,
+          "ItemName": "Weathered Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65989,
+    "QuestTitle": "Way of the Arcanist",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65991,
+      65992
+    ],
+    "NextQuestTitles": [
+      "What\u0027s in the Box",
+      "Tactical Planning"
+    ],
+    "StarterNpc": "Murie",
+    "StarterNpcLocation": {
+      "RowId": 1673275,
+      "X": -335.744,
+      "Y": 12.8938,
+      "Z": 1.38849,
+      "Yaw": -0.150764,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4728,
+          "ItemName": "Raisins",
+          "Count": 5,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65990,
+    "QuestTitle": "My First Grimoire",
+    "PreviousQuestIds": [
+      65988
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Arcanist"
+    ],
+    "NextQuestIds": [
+      65991,
+      65993
+    ],
+    "NextQuestTitles": [
+      "What\u0027s in the Box",
+      "Tactical Planning"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 12,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65991,
+    "QuestTitle": "What\u0027s in the Box",
+    "PreviousQuestIds": [
+      65989,
+      65990
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Arcanist",
+      "My First Grimoire"
+    ],
+    "NextQuestIds": [
+      65992,
+      65993
+    ],
+    "NextQuestTitles": [
+      "Tactical Planning",
+      "Tactical Planning"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2143,
+          "ItemName": "Leather Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3007,
+          "ItemName": "Custom-made Robe of Casting",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2655,
+          "ItemName": "Hempen Hat",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4421,
+          "ItemName": "Bone Ring",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4091,
+          "ItemName": "Copper Wristlets",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65992,
+    "QuestTitle": "Tactical Planning",
+    "PreviousQuestIds": [
+      65989,
+      65991
+    ],
+    "PreviousQuestTitles": [
+      "Way of the Arcanist",
+      "What\u0027s in the Box"
+    ],
+    "NextQuestIds": [
+      66639
+    ],
+    "NextQuestTitles": [
+      "Topaz Teachings"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2145,
+          "ItemName": "Engraved Leather Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3015,
+          "ItemName": "Amateur\u0027s Dalmatica",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2661,
+          "ItemName": "Amateur\u0027s Hempen Coif",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3538,
+          "ItemName": "Hempen Dress Gloves",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3769,
+          "ItemName": "Amateur\u0027s Duckbills",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65993,
+    "QuestTitle": "Tactical Planning",
+    "PreviousQuestIds": [
+      65990,
+      65991
+    ],
+    "PreviousQuestTitles": [
+      "My First Grimoire",
+      "What\u0027s in the Box"
+    ],
+    "NextQuestIds": [
+      66639
+    ],
+    "NextQuestTitles": [
+      "Topaz Teachings"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2145,
+          "ItemName": "Engraved Leather Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3015,
+          "ItemName": "Amateur\u0027s Dalmatica",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2661,
+          "ItemName": "Amateur\u0027s Hempen Coif",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3538,
+          "ItemName": "Hempen Dress Gloves",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3769,
+          "ItemName": "Amateur\u0027s Duckbills",
+          "Count": 1,
+          "Stain": "Ash Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65994,
+    "QuestTitle": "Over the Rails",
+    "PreviousQuestIds": [
+      66639
+    ],
+    "PreviousQuestTitles": [
+      "Topaz Teachings"
+    ],
+    "NextQuestIds": [
+      65995
+    ],
+    "NextQuestTitles": [
+      "Pincer Maneuver"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 151,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2147,
+          "ItemName": "Hard Leather Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3024,
+          "ItemName": "Cotton Cowl",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3547,
+          "ItemName": "Hard Leather Ringbands",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3327,
+          "ItemName": "Cotton Tights",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3777,
+          "ItemName": "Hard Leather Boots",
+          "Count": 1,
+          "Stain": "Rolanberry Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65995,
+    "QuestTitle": "Pincer Maneuver",
+    "PreviousQuestIds": [
+      65994
+    ],
+    "PreviousQuestTitles": [
+      "Over the Rails"
+    ],
+    "NextQuestIds": [
+      65996
+    ],
+    "NextQuestTitles": [
+      "Grimoire Fandango"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2149,
+          "ItemName": "Engraved Hard Leather Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27666,
+          "ItemName": "Altered Cotton Dalmatica",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2703,
+          "ItemName": "Ash Mask (Lapis Lazuli)",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3568,
+          "ItemName": "Cotton Dress Gloves",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3800,
+          "ItemName": "Cotton Dress Shoes",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65996,
+    "QuestTitle": "Grimoire Fandango",
+    "PreviousQuestIds": [
+      65995
+    ],
+    "PreviousQuestTitles": [
+      "Pincer Maneuver"
+    ],
+    "NextQuestIds": [
+      65997
+    ],
+    "NextQuestTitles": [
+      "Sinking Doesmaga"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 8160,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2151,
+          "ItemName": "Yew Picatrix",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3050,
+          "ItemName": "Cotton Halfrobe",
+          "Count": 1,
+          "Stain": "Olive Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3581,
+          "ItemName": "Goatskin Ringbands",
+          "Count": 1,
+          "Stain": "Olive Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27667,
+          "ItemName": "Altered Goatskin Moccasins",
+          "Count": 1,
+          "Stain": "Olive Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2728,
+          "ItemName": "Silver Spectacles",
+          "Count": 1,
+          "Stain": "Olive Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65997,
+    "QuestTitle": "Sinking Doesmaga",
+    "PreviousQuestIds": [
+      65996
+    ],
+    "PreviousQuestTitles": [
+      "Grimoire Fandango"
+    ],
+    "NextQuestIds": [
+      66627,
+      66633
+    ],
+    "NextQuestTitles": [
+      "Austerities of Flame",
+      "Forgotten but Not Gone"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 2160,
+          "ItemName": "Engraved Goatskin Grimoire",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27669,
+          "ItemName": "Velveteen Bliaud",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27671,
+          "ItemName": "Altered Velveteen Hose",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27670,
+          "ItemName": "Velveteen Gloves",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27672,
+          "ItemName": "Toadskin Boots",
+          "Count": 1,
+          "Stain": "Sky Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 172,
+        "ActionName": "Ruin II"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66639,
+    "QuestTitle": "Topaz Teachings",
+    "PreviousQuestIds": [
+      65992,
+      65993
+    ],
+    "PreviousQuestTitles": [
+      "Tactical Planning",
+      "Tactical Planning"
+    ],
+    "NextQuestIds": [
+      65994
+    ],
+    "NextQuestTitles": [
+      "Over the Rails"
+    ],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 159,
+      "JournalCategory": {
+        "Id": 85,
+        "Name": "Disciple of Magic Quests"
+      },
+      "Name": "Arcanist Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100100,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 25803,
+        "ActionName": "Summon Topaz"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

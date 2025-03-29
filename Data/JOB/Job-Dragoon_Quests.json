@@ -1,0 +1,1154 @@
+[
+  {
+    "QuestId": 66603,
+    "QuestTitle": "Eye of the Dragon",
+    "PreviousQuestIds": [
+      65975,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "Proof of Might",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66604
+    ],
+    "NextQuestTitles": [
+      "Lance of Fury"
+    ],
+    "StarterNpc": "Ywain",
+    "StarterNpcLocation": {
+      "RowId": 1141274,
+      "X": 157.705,
+      "Y": 15.8845,
+      "Z": -270.327,
+      "Yaw": 2.36582,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100104,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 92,
+        "ActionName": "Jump"
+      },
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 13,
+        "Name": "Soul of the Dragoon"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66604,
+    "QuestTitle": "Lance of Fury",
+    "PreviousQuestIds": [
+      66603
+    ],
+    "PreviousQuestTitles": [
+      "Eye of the Dragon"
+    ],
+    "NextQuestIds": [
+      66605
+    ],
+    "NextQuestTitles": [
+      "Unfading Skies"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100104,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 94,
+        "ActionName": "Elusive Jump"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66605,
+    "QuestTitle": "Unfading Skies",
+    "PreviousQuestIds": [
+      66604
+    ],
+    "PreviousQuestTitles": [
+      "Lance of Fury"
+    ],
+    "NextQuestIds": [
+      66606
+    ],
+    "NextQuestTitles": [
+      "Double Dragoon"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100104,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 86,
+        "ActionName": "Doom Spike"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66606,
+    "QuestTitle": "Double Dragoon",
+    "PreviousQuestIds": [
+      66605
+    ],
+    "PreviousQuestTitles": [
+      "Unfading Skies"
+    ],
+    "NextQuestIds": [
+      66607
+    ],
+    "NextQuestTitles": [
+      "Fatal Seduction"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100104,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66607,
+    "QuestTitle": "Fatal Seduction",
+    "PreviousQuestIds": [
+      66606
+    ],
+    "PreviousQuestTitles": [
+      "Double Dragoon"
+    ],
+    "NextQuestIds": [
+      66608
+    ],
+    "NextQuestTitles": [
+      "Into the Dragon\u0027s Maw"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100104,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 36951,
+        "ActionName": "Winged Glide"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66608,
+    "QuestTitle": "Into the Dragon\u0027s Maw",
+    "PreviousQuestIds": [
+      66607
+    ],
+    "PreviousQuestTitles": [
+      "Fatal Seduction"
+    ],
+    "NextQuestIds": [
+      66658,
+      67225
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Gae Bolg)",
+      "Sky\u0027s the Limit"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100104,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3223,
+          "ItemName": "Drachen Mail",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20645,
+          "ItemName": "Wyrm\u0027s Armor Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 96,
+        "ActionName": "Dragonfire Dive"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66658,
+    "QuestTitle": "A Relic Reborn (Gae Bolg)",
+    "PreviousQuestIds": [
+      66608,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Into the Dragon\u0027s Maw",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1885,
+          "ItemName": "Gae Bolg",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67225,
+    "QuestTitle": "Sky\u0027s the Limit",
+    "PreviousQuestIds": [
+      66608,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Into the Dragon\u0027s Maw",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67226
+    ],
+    "NextQuestTitles": [
+      "Days of Azure"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 702,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67226,
+    "QuestTitle": "Days of Azure",
+    "PreviousQuestIds": [
+      67225
+    ],
+    "PreviousQuestTitles": [
+      "Sky\u0027s the Limit"
+    ],
+    "NextQuestIds": [
+      67227
+    ],
+    "NextQuestTitles": [
+      "Heart of Justice"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Heustienne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 24180,
+      "Gil": 816,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3557,
+        "ActionName": "Battle Litany"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67227,
+    "QuestTitle": "Heart of Justice",
+    "PreviousQuestIds": [
+      67226
+    ],
+    "PreviousQuestTitles": [
+      "Days of Azure"
+    ],
+    "NextQuestIds": [
+      67228
+    ],
+    "NextQuestTitles": [
+      "Sworn Upon a Lance"
+    ],
+    "StarterNpc": "Heustienne",
+    "StarterNpcLocation": {
+      "RowId": 5882902,
+      "X": 202.197,
+      "Y": 183.66,
+      "Z": -96.1166,
+      "Yaw": -2.59861,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 521,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 24180,
+      "Gil": 876,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67228,
+    "QuestTitle": "Sworn Upon a Lance",
+    "PreviousQuestIds": [
+      67227
+    ],
+    "PreviousQuestTitles": [
+      "Heart of Justice"
+    ],
+    "NextQuestIds": [
+      67229
+    ],
+    "NextQuestTitles": [
+      "Dragoon\u0027s Errand"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 1504,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67229,
+    "QuestTitle": "Dragoon\u0027s Errand",
+    "PreviousQuestIds": [
+      67228
+    ],
+    "PreviousQuestTitles": [
+      "Sworn Upon a Lance"
+    ],
+    "NextQuestIds": [
+      67230
+    ],
+    "NextQuestTitles": [
+      "Sanguine Dragoon"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Montorgains",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 1284,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3554,
+        "ActionName": "Fang and Claw"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67230,
+    "QuestTitle": "Sanguine Dragoon",
+    "PreviousQuestIds": [
+      67229
+    ],
+    "PreviousQuestTitles": [
+      "Dragoon\u0027s Errand"
+    ],
+    "NextQuestIds": [
+      67231
+    ],
+    "NextQuestTitles": [
+      "Dragoon\u0027s Fate"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 1377,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3556,
+        "ActionName": "Wheeling Thrust"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67231,
+    "QuestTitle": "Dragoon\u0027s Fate",
+    "PreviousQuestIds": [
+      67230
+    ],
+    "PreviousQuestTitles": [
+      "Sanguine Dragoon"
+    ],
+    "NextQuestIds": [
+      68446
+    ],
+    "NextQuestTitles": [
+      "Friends through Eternity"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Heustienne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100489,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1037,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20658,
+          "ItemName": "Dragonlancer\u0027s Armor Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3555,
+        "ActionName": "Geirskogul"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68446,
+    "QuestTitle": "Friends through Eternity",
+    "PreviousQuestIds": [
+      67231,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "Dragoon\u0027s Fate",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68447
+    ],
+    "NextQuestTitles": [
+      "Drowsy Dragons"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100671,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1327,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68447,
+    "QuestTitle": "Drowsy Dragons",
+    "PreviousQuestIds": [
+      68446
+    ],
+    "PreviousQuestTitles": [
+      "Friends through Eternity"
+    ],
+    "NextQuestIds": [
+      68448
+    ],
+    "NextQuestTitles": [
+      "Serpent and the Sea of Rubies"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100671,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 2476,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68448,
+    "QuestTitle": "Serpent and the Sea of Rubies",
+    "PreviousQuestIds": [
+      68447
+    ],
+    "PreviousQuestTitles": [
+      "Drowsy Dragons"
+    ],
+    "NextQuestIds": [
+      68449
+    ],
+    "NextQuestTitles": [
+      "Dark as the Night Sky"
+    ],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Orn Khai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100671,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 2659,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68449,
+    "QuestTitle": "Dark as the Night Sky",
+    "PreviousQuestIds": [
+      68448
+    ],
+    "PreviousQuestTitles": [
+      "Serpent and the Sea of Rubies"
+    ],
+    "NextQuestIds": [
+      68450
+    ],
+    "NextQuestTitles": [
+      "Dragon Sound"
+    ],
+    "StarterNpc": "Orn Khai",
+    "StarterNpcLocation": {
+      "RowId": 6922578,
+      "X": -92.5884,
+      "Y": 18.9999,
+      "Z": -194.413,
+      "Yaw": 1.43714,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Orn Khai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100671,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 2710,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68450,
+    "QuestTitle": "Dragon Sound",
+    "PreviousQuestIds": [
+      68449
+    ],
+    "PreviousQuestTitles": [
+      "Dark as the Night Sky"
+    ],
+    "NextQuestIds": [
+      68749
+    ],
+    "NextQuestTitles": [
+      "Gone but Not Forgiven"
+    ],
+    "StarterNpc": "Orn Khai",
+    "StarterNpcLocation": {
+      "RowId": 6924269,
+      "X": 528.492,
+      "Y": -19.4508,
+      "Z": 273.357,
+      "Yaw": 0.388142,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Orn Khai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100671,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2400,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20303,
+          "ItemName": "Trueblood Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7400,
+        "ActionName": "Nastrond"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68749,
+    "QuestTitle": "Gone but Not Forgiven",
+    "PreviousQuestIds": [
+      68450,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Dragon Sound",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Alberic",
+    "StarterNpcLocation": {
+      "RowId": 4254173,
+      "X": 217.889,
+      "Y": 222,
+      "Z": 345.331,
+      "Yaw": -1.0337,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Alberic",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 174,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Dragoon Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100876,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3268,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

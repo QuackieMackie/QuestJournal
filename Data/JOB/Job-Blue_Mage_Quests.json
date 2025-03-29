@@ -1,0 +1,1497 @@
+[
+  {
+    "QuestId": 68728,
+    "QuestTitle": "Out of the Blue",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      68729
+    ],
+    "NextQuestTitles": [
+      "Blue Leading the Blue"
+    ],
+    "StarterNpc": "zealous Yellowjacket",
+    "StarterNpcLocation": {
+      "RowId": 7736929,
+      "X": -64.32,
+      "Y": 18.0003,
+      "Z": -11.01,
+      "Yaw": -1.06601,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22747,
+          "ItemName": "Soul of the Blue Mage",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 22746,
+          "ItemName": "Rainmaker",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 24587,
+          "ItemName": "True Blue Attire Coffer (IL 1)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 11385,
+        "ActionName": "Water Cannon"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68729,
+    "QuestTitle": "Blue Leading the Blue",
+    "PreviousQuestIds": [
+      68728
+    ],
+    "PreviousQuestTitles": [
+      "Out of the Blue"
+    ],
+    "NextQuestIds": [
+      68730
+    ],
+    "NextQuestTitles": [
+      "Blue Collar Work"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7780596,
+      "X": -105.889,
+      "Y": 1.57334,
+      "Z": 750.062,
+      "Yaw": 3.01404,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Royse",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 459,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68730,
+    "QuestTitle": "Blue Collar Work",
+    "PreviousQuestIds": [
+      68729
+    ],
+    "PreviousQuestTitles": [
+      "Blue Leading the Blue"
+    ],
+    "NextQuestIds": [
+      68731
+    ],
+    "NextQuestTitles": [
+      "Why They Call It the Blues"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 414,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68731,
+    "QuestTitle": "Why They Call It the Blues",
+    "PreviousQuestIds": [
+      68730
+    ],
+    "PreviousQuestTitles": [
+      "Blue Collar Work"
+    ],
+    "NextQuestIds": [
+      68732
+    ],
+    "NextQuestTitles": [
+      "Scream Blue Murder"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 546,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68732,
+    "QuestTitle": "Scream Blue Murder",
+    "PreviousQuestIds": [
+      68731
+    ],
+    "PreviousQuestTitles": [
+      "Why They Call It the Blues"
+    ],
+    "NextQuestIds": [
+      68733
+    ],
+    "NextQuestTitles": [
+      "Blue Gold"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 759,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68733,
+    "QuestTitle": "Blue Gold",
+    "PreviousQuestIds": [
+      68732
+    ],
+    "PreviousQuestTitles": [
+      "Scream Blue Murder"
+    ],
+    "NextQuestIds": [
+      68734
+    ],
+    "NextQuestTitles": [
+      "The Real Folk Blues"
+    ],
+    "StarterNpc": "Maudlin Latool Ja",
+    "StarterNpcLocation": {
+      "RowId": 7735771,
+      "X": 64.4694,
+      "Y": 14.005,
+      "Z": 88.7007,
+      "Yaw": 0.466289,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Whastrach",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 400,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 754,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68734,
+    "QuestTitle": "The Real Folk Blues",
+    "PreviousQuestIds": [
+      68733
+    ],
+    "PreviousQuestTitles": [
+      "Blue Gold"
+    ],
+    "NextQuestIds": [
+      68735
+    ],
+    "NextQuestTitles": [
+      "Turning Over a Blue Leaf"
+    ],
+    "StarterNpc": "Maudlin Latool Ja",
+    "StarterNpcLocation": {
+      "RowId": 7735771,
+      "X": 64.4694,
+      "Y": 14.005,
+      "Z": 88.7007,
+      "Yaw": 0.466289,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Royse",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 952,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24551,
+          "ItemName": "The Spirit of the Whalaqee",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 24588,
+          "ItemName": "Magus\u0027s Attire Coffer (IL 130)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68735,
+    "QuestTitle": "Turning Over a Blue Leaf",
+    "PreviousQuestIds": [
+      68734
+    ],
+    "PreviousQuestTitles": [
+      "The Real Folk Blues"
+    ],
+    "NextQuestIds": [
+      69268
+    ],
+    "NextQuestTitles": [
+      "Into the Blue Again"
+    ],
+    "StarterNpc": "Maudlin Latool Ja",
+    "StarterNpcLocation": {
+      "RowId": 7735771,
+      "X": 64.4694,
+      "Y": 14.005,
+      "Z": 88.7007,
+      "Yaw": 0.466289,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 501,
+    "Icon": 100830,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24796,
+          "ItemName": "Azulmagia",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69268,
+    "QuestTitle": "Into the Blue Again",
+    "PreviousQuestIds": [
+      68735,
+      67783
+    ],
+    "PreviousQuestTitles": [
+      "Turning Over a Blue Leaf",
+      "Litany of Peace"
+    ],
+    "NextQuestIds": [
+      69269
+    ],
+    "NextQuestTitles": [
+      "Something Borrowed, Something Blue"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 502,
+    "Icon": 100943,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 686,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69269,
+    "QuestTitle": "Something Borrowed, Something Blue",
+    "PreviousQuestIds": [
+      69268
+    ],
+    "PreviousQuestTitles": [
+      "Into the Blue Again"
+    ],
+    "NextQuestIds": [
+      69270
+    ],
+    "NextQuestTitles": [
+      "Bolt from the Blue"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 530,
+    "Icon": 100943,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 848,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69270,
+    "QuestTitle": "Bolt from the Blue",
+    "PreviousQuestIds": [
+      69269
+    ],
+    "PreviousQuestTitles": [
+      "Something Borrowed, Something Blue"
+    ],
+    "NextQuestIds": [
+      69271
+    ],
+    "NextQuestTitles": [
+      "Blue in the Face"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 550,
+    "Icon": 100943,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 855,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69271,
+    "QuestTitle": "Blue in the Face",
+    "PreviousQuestIds": [
+      69270
+    ],
+    "PreviousQuestTitles": [
+      "Bolt from the Blue"
+    ],
+    "NextQuestIds": [
+      69272
+    ],
+    "NextQuestTitles": [
+      "Blue Scream of Death"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100943,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 1176,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69272,
+    "QuestTitle": "Blue Scream of Death",
+    "PreviousQuestIds": [
+      69271
+    ],
+    "PreviousQuestTitles": [
+      "Blue in the Face"
+    ],
+    "NextQuestIds": [
+      69273
+    ],
+    "NextQuestTitles": [
+      "Blue Cheese"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100943,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 810,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 695,
+          "InstanceName": "Papa Mia",
+          "ContentType": 27
+        },
+        {
+          "InstanceId": 696,
+          "InstanceName": "Lock up Your Snorters",
+          "ContentType": 27
+        },
+        {
+          "InstanceId": 697,
+          "InstanceName": "Dangerous When Dead",
+          "ContentType": 27
+        },
+        {
+          "InstanceId": 698,
+          "InstanceName": "Red, Fraught, and Blue",
+          "ContentType": 27
+        },
+        {
+          "InstanceId": 699,
+          "InstanceName": "The Catch of the Siegfried",
+          "ContentType": 27
+        }
+      ]
+    }
+  },
+  {
+    "QuestId": 69273,
+    "QuestTitle": "Blue Cheese",
+    "PreviousQuestIds": [
+      69272
+    ],
+    "PreviousQuestTitles": [
+      "Blue Scream of Death"
+    ],
+    "NextQuestIds": [
+      69525
+    ],
+    "NextQuestTitles": [
+      "Second-rate Entertainment"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100943,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28647,
+          "ItemName": "Mask of Azuro",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69525,
+    "QuestTitle": "Second-rate Entertainment",
+    "PreviousQuestIds": [
+      69273,
+      68612
+    ],
+    "PreviousQuestTitles": [
+      "Blue Cheese",
+      "Emissary of the Dawn"
+    ],
+    "NextQuestIds": [
+      69526
+    ],
+    "NextQuestTitles": [
+      "Everybody Was Fukumen Fighting"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 602,
+    "Icon": 101050,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 713,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69526,
+    "QuestTitle": "Everybody Was Fukumen Fighting",
+    "PreviousQuestIds": [
+      69525
+    ],
+    "PreviousQuestTitles": [
+      "Second-rate Entertainment"
+    ],
+    "NextQuestIds": [
+      69527
+    ],
+    "NextQuestTitles": [
+      "Azuro and Goliath"
+    ],
+    "StarterNpc": "P\u0027yandih",
+    "StarterNpcLocation": {
+      "RowId": 8504987,
+      "X": 63.0252,
+      "Y": 14.005,
+      "Z": 89.8329,
+      "Yaw": 0.679925,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 630,
+    "Icon": 101050,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 2141,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69527,
+    "QuestTitle": "Azuro and Goliath",
+    "PreviousQuestIds": [
+      69526
+    ],
+    "PreviousQuestTitles": [
+      "Everybody Was Fukumen Fighting"
+    ],
+    "NextQuestIds": [
+      69528
+    ],
+    "NextQuestTitles": [
+      "Where the Gold Goes"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 8504989,
+      "X": 130.846,
+      "Y": 11.999,
+      "Z": -82.1088,
+      "Yaw": -1.36166,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 650,
+    "Icon": 101050,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 26250,
+      "Gil": 1132,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69528,
+    "QuestTitle": "Where the Gold Goes",
+    "PreviousQuestIds": [
+      69527
+    ],
+    "PreviousQuestTitles": [
+      "Azuro and Goliath"
+    ],
+    "NextQuestIds": [
+      69529
+    ],
+    "NextQuestTitles": [
+      "Master of Mimicry"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 8504989,
+      "X": 130.846,
+      "Y": 11.999,
+      "Z": -82.1088,
+      "Yaw": -1.36166,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 680,
+    "Icon": 101050,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 1950,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69529,
+    "QuestTitle": "Master of Mimicry",
+    "PreviousQuestIds": [
+      69528
+    ],
+    "PreviousQuestTitles": [
+      "Where the Gold Goes"
+    ],
+    "NextQuestIds": [
+      69530
+    ],
+    "NextQuestTitles": [
+      "A Future in Blue"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 8504989,
+      "X": 130.846,
+      "Y": 11.999,
+      "Z": -82.1088,
+      "Yaw": -1.36166,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Royse",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 700,
+    "Icon": 101050,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 32866,
+          "ItemName": "Mirage Gear Coffer (IL 400)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 754,
+          "InstanceName": "Anything Gogo\u0027s",
+          "ContentType": 27
+        }
+      ]
+    }
+  },
+  {
+    "QuestId": 69530,
+    "QuestTitle": "A Future in Blue",
+    "PreviousQuestIds": [
+      69529
+    ],
+    "PreviousQuestTitles": [
+      "Master of Mimicry"
+    ],
+    "NextQuestIds": [
+      70309
+    ],
+    "NextQuestTitles": [
+      "And the Crowd Goes Mild"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 701,
+    "Icon": 101050,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 32644,
+          "ItemName": "Predatrice",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70309,
+    "QuestTitle": "And the Crowd Goes Mild",
+    "PreviousQuestIds": [
+      69530,
+      69318
+    ],
+    "PreviousQuestTitles": [
+      "A Future in Blue",
+      "Reflections in Crystal"
+    ],
+    "NextQuestIds": [
+      70310
+    ],
+    "NextQuestTitles": [
+      "The Beard, the Myth, the Legend"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Royse",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 702,
+    "Icon": 101256,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70310,
+    "QuestTitle": "The Beard, the Myth, the Legend",
+    "PreviousQuestIds": [
+      70309
+    ],
+    "PreviousQuestTitles": [
+      "And the Crowd Goes Mild"
+    ],
+    "NextQuestIds": [
+      70311
+    ],
+    "NextQuestTitles": [
+      "Gridania\u0027s Most Wanted"
+    ],
+    "StarterNpc": "P\u0027yandih",
+    "StarterNpcLocation": {
+      "RowId": 8504987,
+      "X": 63.0252,
+      "Y": 14.005,
+      "Z": 89.8329,
+      "Yaw": 0.679925,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "P\u0027yandih",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 730,
+    "Icon": 101256,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 55080,
+      "Gil": 1298,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70311,
+    "QuestTitle": "Gridania\u0027s Most Wanted",
+    "PreviousQuestIds": [
+      70310
+    ],
+    "PreviousQuestTitles": [
+      "The Beard, the Myth, the Legend"
+    ],
+    "NextQuestIds": [
+      70312
+    ],
+    "NextQuestTitles": [
+      "No Butts About It"
+    ],
+    "StarterNpc": "P\u0027yandih",
+    "StarterNpcLocation": {
+      "RowId": 8504987,
+      "X": 63.0252,
+      "Y": 14.005,
+      "Z": 89.8329,
+      "Yaw": 0.679925,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "P\u0027yandih",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 750,
+    "Icon": 101256,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 55800,
+      "Gil": 1014,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70312,
+    "QuestTitle": "No Butts About It",
+    "PreviousQuestIds": [
+      70311
+    ],
+    "PreviousQuestTitles": [
+      "Gridania\u0027s Most Wanted"
+    ],
+    "NextQuestIds": [
+      70313
+    ],
+    "NextQuestTitles": [
+      "A New Gold Standard"
+    ],
+    "StarterNpc": "P\u0027yandih",
+    "StarterNpcLocation": {
+      "RowId": 8504987,
+      "X": 63.0252,
+      "Y": 14.005,
+      "Z": 89.8329,
+      "Yaw": 0.679925,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 780,
+    "Icon": 101256,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 56880,
+      "Gil": 1393,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70313,
+    "QuestTitle": "A New Gold Standard",
+    "PreviousQuestIds": [
+      70312
+    ],
+    "PreviousQuestTitles": [
+      "No Butts About It"
+    ],
+    "NextQuestIds": [
+      70314
+    ],
+    "NextQuestTitles": [
+      "The Brave and the Blue"
+    ],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 800,
+    "Icon": 101256,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 935,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 40355,
+          "ItemName": "Phantasmal Attire Coffer (IL 530)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 948,
+          "InstanceName": "A Golden Opportunity",
+          "ContentType": 27
+        }
+      ]
+    }
+  },
+  {
+    "QuestId": 70314,
+    "QuestTitle": "The Brave and the Blue",
+    "PreviousQuestIds": [
+      70313
+    ],
+    "PreviousQuestTitles": [
+      "A New Gold Standard"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Martyn",
+    "StarterNpcLocation": {
+      "RowId": 7720577,
+      "X": 63.1527,
+      "Y": 14.005,
+      "Z": 89.8879,
+      "Yaw": 1.11547,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Martyn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 192,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Disciple of Magic Job Quests"
+      },
+      "Name": "Blue Mage Quests"
+    },
+    "SortKey": 801,
+    "Icon": 101256,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 695,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 40345,
+          "ItemName": "Blue-eyes",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

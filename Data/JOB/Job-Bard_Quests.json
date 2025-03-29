@@ -1,0 +1,1103 @@
+[
+  {
+    "QuestId": 66621,
+    "QuestTitle": "A Song of Bards and Bowmen",
+    "PreviousQuestIds": [
+      65612,
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "The One That Got Away",
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      66622,
+      68555
+    ],
+    "NextQuestTitles": [
+      "The Archer\u0027s Anthem",
+      "Plucking the Heartstrings"
+    ],
+    "StarterNpc": "Luciane",
+    "StarterNpcLocation": {
+      "RowId": 1141211,
+      "X": 209.552,
+      "Y": 0.991789,
+      "Z": 35.0194,
+      "Yaw": 1.25467,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 1,
+    "Icon": 100103,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 114,
+        "ActionName": "Mage\u0027s Ballad"
+      },
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 14,
+        "Name": "Soul of the Bard"
+      },
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66622,
+    "QuestTitle": "The Archer\u0027s Anthem",
+    "PreviousQuestIds": [
+      66621
+    ],
+    "PreviousQuestTitles": [
+      "A Song of Bards and Bowmen"
+    ],
+    "NextQuestIds": [
+      66623
+    ],
+    "NextQuestTitles": [
+      "Bard\u0027s-eye View"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 2,
+    "Icon": 100103,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 15840,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3561,
+        "ActionName": "the Warden\u0027s Paean"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66623,
+    "QuestTitle": "Bard\u0027s-eye View",
+    "PreviousQuestIds": [
+      66622
+    ],
+    "PreviousQuestTitles": [
+      "The Archer\u0027s Anthem"
+    ],
+    "NextQuestIds": [
+      66624
+    ],
+    "NextQuestTitles": [
+      "Doing It the Bard Way"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 3,
+    "Icon": 100103,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 21560,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 116,
+        "ActionName": "Army\u0027s Paeon"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66624,
+    "QuestTitle": "Doing It the Bard Way",
+    "PreviousQuestIds": [
+      66623
+    ],
+    "PreviousQuestTitles": [
+      "Bard\u0027s-eye View"
+    ],
+    "NextQuestIds": [
+      66625
+    ],
+    "NextQuestTitles": [
+      "Pieces of the Past"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 4,
+    "Icon": 100103,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 117,
+        "ActionName": "Rain of Death"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66625,
+    "QuestTitle": "Pieces of the Past",
+    "PreviousQuestIds": [
+      66624
+    ],
+    "PreviousQuestTitles": [
+      "Doing It the Bard Way"
+    ],
+    "NextQuestIds": [
+      66626
+    ],
+    "NextQuestTitles": [
+      "Requiem for the Fallen"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 5,
+    "Icon": 100103,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 11880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66626,
+    "QuestTitle": "Requiem for the Fallen",
+    "PreviousQuestIds": [
+      66625
+    ],
+    "PreviousQuestTitles": [
+      "Pieces of the Past"
+    ],
+    "NextQuestIds": [
+      66661,
+      67249
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Artemis Bow)",
+      "On the Road Again"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 6,
+    "Icon": 100103,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3224,
+          "ItemName": "Choral Shirt",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 20646,
+          "ItemName": "Bard\u0027s Attire Coffer (IL 90)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 118,
+        "ActionName": "Battle Voice"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66661,
+    "QuestTitle": "A Relic Reborn (Artemis Bow)",
+    "PreviousQuestIds": [
+      66626,
+      66241
+    ],
+    "PreviousQuestTitles": [
+      "Requiem for the Fallen",
+      "The Weaponsmith of Legend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 7,
+    "Icon": 100165,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 1955,
+          "ItemName": "Artemis Bow",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67249,
+    "QuestTitle": "On the Road Again",
+    "PreviousQuestIds": [
+      66626,
+      65964
+    ],
+    "PreviousQuestTitles": [
+      "Requiem for the Fallen",
+      "Before the Dawn"
+    ],
+    "NextQuestIds": [
+      67250
+    ],
+    "NextQuestTitles": [
+      "The Stiff and the Spent"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Sanson",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 500,
+    "Icon": 100437,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 46800,
+      "Gil": 714,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67250,
+    "QuestTitle": "The Stiff and the Spent",
+    "PreviousQuestIds": [
+      67249
+    ],
+    "PreviousQuestTitles": [
+      "On the Road Again"
+    ],
+    "NextQuestIds": [
+      67251
+    ],
+    "NextQuestTitles": [
+      "Requiem on Ice"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 5907094,
+      "X": -52.5218,
+      "Y": 8.05915,
+      "Z": 31.7288,
+      "Yaw": -3.08397,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Sanson",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 520,
+    "Icon": 100437,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 48360,
+      "Gil": 676,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3559,
+        "ActionName": "the Wanderer\u0027s Minuet"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67251,
+    "QuestTitle": "Requiem on Ice",
+    "PreviousQuestIds": [
+      67250
+    ],
+    "PreviousQuestTitles": [
+      "The Stiff and the Spent"
+    ],
+    "NextQuestIds": [
+      67252
+    ],
+    "NextQuestTitles": [
+      "When Gnaths Cry"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 5907113,
+      "X": 445.388,
+      "Y": 212.54,
+      "Z": 699.815,
+      "Yaw": 0.435831,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Sanson",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 540,
+    "Icon": 100437,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 49920,
+      "Gil": 695,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3558,
+        "ActionName": "Empyreal Arrow"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67252,
+    "QuestTitle": "When Gnaths Cry",
+    "PreviousQuestIds": [
+      67251
+    ],
+    "PreviousQuestTitles": [
+      "Requiem on Ice"
+    ],
+    "NextQuestIds": [
+      67253
+    ],
+    "NextQuestTitles": [
+      "A Saint of Song"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 5907646,
+      "X": 544.989,
+      "Y": -51.2856,
+      "Z": 65.4048,
+      "Yaw": 1.90199,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Sanson",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 560,
+    "Icon": 100437,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 51480,
+      "Gil": 866,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3560,
+        "ActionName": "Iron Jaws"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67253,
+    "QuestTitle": "A Saint of Song",
+    "PreviousQuestIds": [
+      67252
+    ],
+    "PreviousQuestTitles": [
+      "When Gnaths Cry"
+    ],
+    "NextQuestIds": [
+      67254
+    ],
+    "NextQuestTitles": [
+      "The Ballad of Oblivion"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 5907646,
+      "X": 544.989,
+      "Y": -51.2856,
+      "Z": 65.4048,
+      "Yaw": 1.90199,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Moglin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 580,
+    "Icon": 100437,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 53040,
+      "Gil": 855,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67254,
+    "QuestTitle": "The Ballad of Oblivion",
+    "PreviousQuestIds": [
+      67253
+    ],
+    "PreviousQuestTitles": [
+      "A Saint of Song"
+    ],
+    "NextQuestIds": [
+      68426
+    ],
+    "NextQuestTitles": [
+      "Three\u0027s a Company"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 5908479,
+      "X": 377.371,
+      "Y": -69.4438,
+      "Z": 695.613,
+      "Yaw": 0.262534,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 600,
+    "Icon": 100437,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 908,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20659,
+          "ItemName": "Aoidos\u0027 Attire Coffer (IL 210)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 3562,
+        "ActionName": "Sidewinder"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68426,
+    "QuestTitle": "Three\u0027s a Company",
+    "PreviousQuestIds": [
+      67254,
+      67895
+    ],
+    "PreviousQuestTitles": [
+      "The Ballad of Oblivion",
+      "The Far Edge of Fate"
+    ],
+    "NextQuestIds": [
+      68427
+    ],
+    "NextQuestTitles": [
+      "Masked Motives"
+    ],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Nourval",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 601,
+    "Icon": 100674,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100000,
+      "Gil": 1407,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68427,
+    "QuestTitle": "Masked Motives",
+    "PreviousQuestIds": [
+      68426
+    ],
+    "PreviousQuestTitles": [
+      "Three\u0027s a Company"
+    ],
+    "NextQuestIds": [
+      68428
+    ],
+    "NextQuestTitles": [
+      "One Autumn\u0027s Secret"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 6918655,
+      "X": -653.022,
+      "Y": 130,
+      "Z": -522.144,
+      "Yaw": 2.52307,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Guydelot",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 630,
+    "Icon": 100674,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 103000,
+      "Gil": 737,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68428,
+    "QuestTitle": "One Autumn\u0027s Secret",
+    "PreviousQuestIds": [
+      68427
+    ],
+    "PreviousQuestTitles": [
+      "Masked Motives"
+    ],
+    "NextQuestIds": [
+      68429
+    ],
+    "NextQuestTitles": [
+      "Sleeping Truths Lie"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 6918655,
+      "X": -653.022,
+      "Y": 130,
+      "Z": -522.144,
+      "Yaw": 2.52307,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Sanson",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 650,
+    "Icon": 100674,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 105000,
+      "Gil": 1995,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68429,
+    "QuestTitle": "Sleeping Truths Lie",
+    "PreviousQuestIds": [
+      68428
+    ],
+    "PreviousQuestTitles": [
+      "One Autumn\u0027s Secret"
+    ],
+    "NextQuestIds": [
+      68430
+    ],
+    "NextQuestTitles": [
+      "Sweet Dreams Are Made of Peace"
+    ],
+    "StarterNpc": "Sanson",
+    "StarterNpcLocation": {
+      "RowId": 6920007,
+      "X": -653.04,
+      "Y": 129.992,
+      "Z": -522.148,
+      "Yaw": 2.52307,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Guydelot",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 680,
+    "Icon": 100674,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 1158,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68430,
+    "QuestTitle": "Sweet Dreams Are Made of Peace",
+    "PreviousQuestIds": [
+      68429
+    ],
+    "PreviousQuestTitles": [
+      "Sleeping Truths Lie"
+    ],
+    "NextQuestIds": [
+      68750
+    ],
+    "NextQuestTitles": [
+      "A Harmony from the Heavens"
+    ],
+    "StarterNpc": "Guydelot",
+    "StarterNpcLocation": {
+      "RowId": 6918611,
+      "X": -52.3331,
+      "Y": -3.32997,
+      "Z": 20.5919,
+      "Yaw": -2.41564,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Jehantel",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 700,
+    "Icon": 100674,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 3100,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20278,
+          "ItemName": "Storyteller\u0027s Attire Coffer (IL 290)",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 7409,
+        "ActionName": "Refulgent Arrow"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68750,
+    "QuestTitle": "A Harmony from the Heavens",
+    "PreviousQuestIds": [
+      68430,
+      68814,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Sweet Dreams Are Made of Peace",
+      "Courage Born of Fear",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jehantel",
+    "StarterNpcLocation": {
+      "RowId": 4254700,
+      "X": 16.4836,
+      "Y": 6.75218,
+      "Z": -7.32295,
+      "Yaw": -1.93801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Sanson",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 175,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Bard Quests"
+    },
+    "SortKey": 800,
+    "Icon": 100877,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 1748,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

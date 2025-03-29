@@ -1,0 +1,334 @@
+[
+  {
+    "QuestId": 69609,
+    "QuestTitle": "The Killer Instinct",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      69610
+    ],
+    "NextQuestTitles": [
+      "The Harvest Begins"
+    ],
+    "StarterNpc": "flustered attendant",
+    "StarterNpcLocation": {
+      "RowId": 8692539,
+      "X": 82.8987,
+      "Y": 4.1,
+      "Z": -131.286,
+      "Yaw": -0.585371,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Drusilla",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 189,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Reaper Quests"
+    },
+    "SortKey": 700,
+    "Icon": 101096,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 108000,
+      "Gil": 970,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33354,
+          "ItemName": "Soul of the Reaper",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 35872,
+          "ItemName": "Muzhik Attire Coffer (IL 385)",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 35760,
+          "ItemName": "Deepgold War Scythe",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69610,
+    "QuestTitle": "The Harvest Begins",
+    "PreviousQuestIds": [
+      69609
+    ],
+    "PreviousQuestTitles": [
+      "The Killer Instinct"
+    ],
+    "NextQuestIds": [
+      69611
+    ],
+    "NextQuestTitles": [
+      "On the Hunt"
+    ],
+    "StarterNpc": "Drusilla",
+    "StarterNpcLocation": {
+      "RowId": 8806467,
+      "X": 0.912475,
+      "Y": 0.0148077,
+      "Z": -4.37114,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 741,
+      "TerritoryId": 971
+    },
+    "FinishNpc": "Drusilla",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 189,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Reaper Quests"
+    },
+    "SortKey": 701,
+    "Icon": 101096,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 2343,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69611,
+    "QuestTitle": "On the Hunt",
+    "PreviousQuestIds": [
+      69610
+    ],
+    "PreviousQuestTitles": [
+      "The Harvest Begins"
+    ],
+    "NextQuestIds": [
+      69612
+    ],
+    "NextQuestTitles": [
+      "Dark Days"
+    ],
+    "StarterNpc": "Drusilla",
+    "StarterNpcLocation": {
+      "RowId": 8776738,
+      "X": 0.79543,
+      "Y": 0.0148077,
+      "Z": -1.94239,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 741,
+      "TerritoryId": 971
+    },
+    "FinishNpc": "Drusilla",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 189,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Reaper Quests"
+    },
+    "SortKey": 730,
+    "Icon": 101096,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 220320,
+      "Gil": 1848,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69612,
+    "QuestTitle": "Dark Days",
+    "PreviousQuestIds": [
+      69611
+    ],
+    "PreviousQuestTitles": [
+      "On the Hunt"
+    ],
+    "NextQuestIds": [
+      69613
+    ],
+    "NextQuestTitles": [
+      "Thicker than Blood"
+    ],
+    "StarterNpc": "Drusilla",
+    "StarterNpcLocation": {
+      "RowId": 8776738,
+      "X": 0.79543,
+      "Y": 0.0148077,
+      "Z": -1.94239,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 741,
+      "TerritoryId": 971
+    },
+    "FinishNpc": "Drusilla",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 189,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Reaper Quests"
+    },
+    "SortKey": 750,
+    "Icon": 101096,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 223200,
+      "Gil": 1556,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69613,
+    "QuestTitle": "Thicker than Blood",
+    "PreviousQuestIds": [
+      69612
+    ],
+    "PreviousQuestTitles": [
+      "Dark Days"
+    ],
+    "NextQuestIds": [
+      69614
+    ],
+    "NextQuestTitles": [
+      "The Killing Art"
+    ],
+    "StarterNpc": "Drusilla",
+    "StarterNpcLocation": {
+      "RowId": 8776738,
+      "X": 0.79543,
+      "Y": 0.0148077,
+      "Z": -1.94239,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 741,
+      "TerritoryId": 971
+    },
+    "FinishNpc": "Hermin",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 189,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Reaper Quests"
+    },
+    "SortKey": 780,
+    "Icon": 101096,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 227520,
+      "Gil": 1860,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69614,
+    "QuestTitle": "The Killing Art",
+    "PreviousQuestIds": [
+      69613
+    ],
+    "PreviousQuestTitles": [
+      "Thicker than Blood"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hermin",
+    "StarterNpcLocation": {
+      "RowId": 8776741,
+      "X": 2.79773,
+      "Y": -2.38419E-07,
+      "Z": -0.439458,
+      "Yaw": -0.703368,
+      "Radius": 1,
+      "MapId": 741,
+      "TerritoryId": 971
+    },
+    "FinishNpc": "Drusilla",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 189,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Disciple of War Job Quests"
+      },
+      "Name": "Reaper Quests"
+    },
+    "SortKey": 800,
+    "Icon": 101096,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3751,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 24394,
+        "ActionName": "Enshroud"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

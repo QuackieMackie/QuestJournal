@@ -1,0 +1,803 @@
+[
+  {
+    "QuestId": 65638,
+    "QuestTitle": "My First Daggers",
+    "PreviousQuestIds": [
+      65637
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Rogue"
+    ],
+    "NextQuestIds": [
+      65640
+    ],
+    "NextQuestTitles": [
+      "Stabbers in Yer Fambles"
+    ],
+    "StarterNpc": "Lonwoerd",
+    "StarterNpcLocation": {
+      "RowId": 5013509,
+      "X": -152.656,
+      "Y": 2.85624,
+      "Z": 243.188,
+      "Yaw": -3.12728,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 10,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7952,
+          "ItemName": "Weathered Daggers",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65640,
+    "QuestTitle": "Stabbers in Yer Fambles",
+    "PreviousQuestIds": [
+      65638
+    ],
+    "PreviousQuestTitles": [
+      "My First Daggers"
+    ],
+    "NextQuestIds": [
+      65646
+    ],
+    "NextQuestTitles": [
+      "A Dainty Dilemma"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 11,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 115,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65646,
+    "QuestTitle": "A Dainty Dilemma",
+    "PreviousQuestIds": [
+      65640
+    ],
+    "PreviousQuestTitles": [
+      "Stabbers in Yer Fambles"
+    ],
+    "NextQuestIds": [
+      65662
+    ],
+    "NextQuestTitles": [
+      "Stray into the Shadows"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 50,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1400,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9184,
+          "ItemName": "Bronze Daggers",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3003,
+          "ItemName": "Custom-made Tunic",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2653,
+          "ItemName": "Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Apple Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3530,
+          "ItemName": "Fingerless Leather Gloves",
+          "Count": 1,
+          "Stain": "Apple Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27634,
+          "ItemName": "Altered Thighboots",
+          "Count": 1,
+          "Stain": "Apple Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65662,
+    "QuestTitle": "Stray into the Shadows",
+    "PreviousQuestIds": [
+      65646
+    ],
+    "PreviousQuestTitles": [
+      "A Dainty Dilemma"
+    ],
+    "NextQuestIds": [
+      65680
+    ],
+    "NextQuestTitles": [
+      "Stifled Screams"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 100,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3420,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8660,
+          "ItemName": "Bronze Baselards",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3016,
+          "ItemName": "Leather Jacket",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2662,
+          "ItemName": "Bronze Sallet",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3539,
+          "ItemName": "Hempen Bracers",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3770,
+          "ItemName": "Leather Jackboots",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65680,
+    "QuestTitle": "Stifled Screams",
+    "PreviousQuestIds": [
+      65662
+    ],
+    "PreviousQuestTitles": [
+      "Stray into the Shadows"
+    ],
+    "NextQuestIds": [
+      65681
+    ],
+    "NextQuestTitles": [
+      "Slave to the Code"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 150,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": {
+        "Id": 2247,
+        "ActionName": "Throwing Dagger"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65681,
+    "QuestTitle": "Slave to the Code",
+    "PreviousQuestIds": [
+      65680
+    ],
+    "PreviousQuestTitles": [
+      "Stifled Screams"
+    ],
+    "NextQuestIds": [
+      65682
+    ],
+    "NextQuestTitles": [
+      "Grinners in the Mist"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5106386,
+      "X": 319.475,
+      "Y": -36.3538,
+      "Z": 346.763,
+      "Yaw": -0.367407,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 151,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2880,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8661,
+          "ItemName": "Brass Knives",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3022,
+          "ItemName": "Cotton Shirt",
+          "Count": 1,
+          "Stain": "Coral Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2677,
+          "ItemName": "Hunting Hat",
+          "Count": 1,
+          "Stain": "Coral Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3546,
+          "ItemName": "Fingerless Hard Leather Gloves",
+          "Count": 1,
+          "Stain": "Coral Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3780,
+          "ItemName": "Hard Leather Crakows",
+          "Count": 1,
+          "Stain": "Coral Pink",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": {
+        "Id": 2248,
+        "ActionName": "Mug"
+      },
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65682,
+    "QuestTitle": "Grinners in the Mist",
+    "PreviousQuestIds": [
+      65681
+    ],
+    "PreviousQuestTitles": [
+      "Slave to the Code"
+    ],
+    "NextQuestIds": [
+      65684
+    ],
+    "NextQuestTitles": [
+      "Sweet Sorrows"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 200,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8662,
+          "ItemName": "Iron Daggers",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3043,
+          "ItemName": "Goatskin Jacket",
+          "Count": 1,
+          "Stain": "Gobbiebag Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2710,
+          "ItemName": "Goatskin Eyepatch",
+          "Count": 1,
+          "Stain": "Gobbiebag Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3559,
+          "ItemName": "Goatskin Armguards",
+          "Count": 1,
+          "Stain": "Gobbiebag Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3791,
+          "ItemName": "Goatskin Leg Guards",
+          "Count": 1,
+          "Stain": "Gobbiebag Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 5,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65684,
+    "QuestTitle": "Sweet Sorrows",
+    "PreviousQuestIds": [
+      65682
+    ],
+    "PreviousQuestTitles": [
+      "Grinners in the Mist"
+    ],
+    "NextQuestIds": [
+      65690
+    ],
+    "NextQuestTitles": [
+      "Market for Death"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 250,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 8160,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8663,
+          "ItemName": "Iron Pugiones",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3066,
+          "ItemName": "Velveteen Shirt",
+          "Count": 1,
+          "Stain": "Adamantoise Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3576,
+          "ItemName": "Fingerless Goatskin Gloves",
+          "Count": 1,
+          "Stain": "Adamantoise Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3349,
+          "ItemName": "Velveteen Sarouel",
+          "Count": 1,
+          "Stain": "Adamantoise Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27638,
+          "ItemName": "Altered Velveteen Bandana",
+          "Count": 1,
+          "Stain": "Adamantoise Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65690,
+    "QuestTitle": "Market for Death",
+    "PreviousQuestIds": [
+      65684
+    ],
+    "PreviousQuestTitles": [
+      "Sweet Sorrows"
+    ],
+    "NextQuestIds": [
+      65691
+    ],
+    "NextQuestTitles": [
+      "Cloying Victory"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 300,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6240,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 65691,
+    "QuestTitle": "Cloying Victory",
+    "PreviousQuestIds": [
+      65690
+    ],
+    "PreviousQuestTitles": [
+      "Market for Death"
+    ],
+    "NextQuestIds": [
+      65748
+    ],
+    "NextQuestTitles": [
+      "Peasants by Day, Ninjas by Night"
+    ],
+    "StarterNpc": "Jacke",
+    "StarterNpcLocation": {
+      "RowId": 5013506,
+      "X": -153.367,
+      "Y": -129.44,
+      "Z": 265.908,
+      "Yaw": 2.01386,
+      "Radius": 1,
+      "MapId": 548,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jacke",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 156,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Disciple of War Quests"
+      },
+      "Name": "Rogue Quests"
+    },
+    "SortKey": 301,
+    "Icon": 100344,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6240,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8664,
+          "ItemName": "Steel Knives",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3100,
+          "ItemName": "Toadskin Jacket",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2753,
+          "ItemName": "Steel Sallet",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3597,
+          "ItemName": "Toadskin Armguards",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3827,
+          "ItemName": "Toadskin Leg Guards",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]
