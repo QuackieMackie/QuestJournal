@@ -56,27 +56,32 @@ public class CommandHandler : IDisposable
     {
         commandManager.AddHandler(OpenJournalCommandShort, new CommandInfo(OnOpenCommand)
         {
-            HelpMessage = "Open the Quest Journal."
+            HelpMessage = "Open the Quest Journal.",
+            ShowInHelp = false
         });
 
         commandManager.AddHandler(OpenJournalCommandFull, new CommandInfo(OnOpenCommand)
         {
-            HelpMessage = "Open the Quest Journal."
+            HelpMessage = "Open the Quest Journal.",
+            ShowInHelp = true
         });
         
         commandManager.AddHandler(FetchQuestCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = "[Developer Mode] Fetch all quest data from the Lumina sheets and save it to the plugin's output directory."
+            HelpMessage = "[Developer Mode] Fetch all quest data from the Lumina sheets and save it to the plugin's output directory.",
+            ShowInHelp = false
         });
         
         commandManager.AddHandler(FetchMsqCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = "[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory."
+            HelpMessage = "[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory.",
+            ShowInHelp = false
         });
         
         commandManager.AddHandler(FetchJobCommandName, new CommandInfo(OnFetchCommand)
         {
-            HelpMessage = "[Developer Mode] Fetch job data from the Lumina sheets and save it to the plugin's output directory."
+            HelpMessage = "[Developer Mode] Fetch job data from the Lumina sheets and save it to the plugin's output directory.",
+            ShowInHelp = false
         });
     }
     
@@ -96,92 +101,90 @@ public class CommandHandler : IDisposable
             return;
         }
 
-        if (command == FetchQuestCommandName) FetchQuestData();
-        if (command == FetchMsqCommandName) FetchMsqData();
-        if (command == FetchJobCommandName) FetchJobData();
+        if (command == FetchQuestCommandName) FetchData("Quest");
+        if (command == FetchMsqCommandName) FetchData("MSQ");
+        if (command == FetchJobCommandName) FetchData("Job");
     }
 
     private void OpenJournal()
     {
         questJournal.OpenMainWindow();
     }
-
-    private void FetchQuestData()
-    {
-        try
-        {
-            var allQuests = questDataFetcher.GetAllQuests();
-
-            var filePath = GetOutputFilePath(QuestDataFileName);
-            SaveQuestDataToJson(allQuests, filePath);
-        }
-        catch (Exception ex)
-        {
-            log.Error($"Error fetching or saving quest data: {ex.Message}");
-        }
-    }
-
-    public void FetchMsqData()
-    {
-        try
-        {
-            var categorizedMsqData = questDataFetcher.GetMainScenarioQuestsByCategory();
-
-            var baseFilePath = GetOutputFilePath(MsqDataFileName);
-            var baseDirectoryPath = Path.GetDirectoryName(baseFilePath);
-
-            var msqDirectoryPath = Path.Combine(baseDirectoryPath ?? ".", "MSQ");
-            if (!Directory.Exists(msqDirectoryPath))
-            {
-                Directory.CreateDirectory(msqDirectoryPath);
-            }
-
-            foreach (var categoryEntry in categorizedMsqData)
-            {
-                var categoryName = categoryEntry.Key;
-                var quests = categoryEntry.Value;
-
-                var sanitizedFileName = $"MSQ-{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
-                var filePath = Path.Combine(msqDirectoryPath, sanitizedFileName);
-                
-                SaveQuestDataToJson(quests, filePath, categoryName);
-            }
-        }
-        catch (Exception ex)
-        {
-            log.Error($"Error fetching or saving MSQ data: {ex.Message}");
-        }
-    }
     
-    public void FetchJobData()
+    private void FetchData(string fetchType)
     {
         try
         {
-            var categorizedJobData = questDataFetcher.GetJobQuestsByCategory();
+            List<QuestModel> questsToSave = new();
+            Dictionary<string, List<QuestModel>> categorizedQuests = new();
+            string baseFileName;
+            string parentFolderName;
 
-            var baseFilePath = GetOutputFilePath(JobDataFileName);
-            var baseDirectoryPath = Path.GetDirectoryName(baseFilePath);
-
-            var jobDirectoryPath = Path.Combine(baseDirectoryPath ?? ".", "JOB");
-            if (!Directory.Exists(jobDirectoryPath))
+            switch (fetchType)
             {
-                Directory.CreateDirectory(jobDirectoryPath);
+                case "Quest":
+                    questsToSave = questDataFetcher.GetAllQuests();
+                    baseFileName = QuestDataFileName;
+                    parentFolderName = "Fetched-QuestJournal-Data"; // Place under parent folder
+                    break;
+
+                case "MSQ":
+                    categorizedQuests = questDataFetcher.GetMainScenarioQuestsByCategory();
+                    baseFileName = MsqDataFileName;
+                    parentFolderName = "Fetched-QuestJournal-Data\\MSQ";
+                    break;
+
+                case "Job":
+                    categorizedQuests = questDataFetcher.GetJobQuestsByCategory();
+                    baseFileName = JobDataFileName;
+                    parentFolderName = "Fetched-QuestJournal-Data\\JOB";
+                    break;
+
+                default:
+                    log.Error($"Invalid fetch type: {fetchType}");
+                    return;
             }
 
-            foreach (var categoryEntry in categorizedJobData)
+            if (fetchType == "Quest")
+            {
+                var baseFilePath = GetOutputFilePath("");
+                var parentDirectory = Path.Combine(baseFilePath, parentFolderName);
+
+                if (!Directory.Exists(parentDirectory))
+                {
+                    Directory.CreateDirectory(parentDirectory);
+                }
+
+                var filePath = Path.Combine(parentDirectory, baseFileName);
+                SaveQuestDataToJson(questsToSave, filePath);
+                log.Info($"Fetched and saved {questsToSave.Count} total quests to {filePath}.");
+                return;
+            }
+            
+            var outputBasePath = GetOutputFilePath("");
+            var categoryDirectory = Path.Combine(outputBasePath, parentFolderName);
+
+            if (!string.IsNullOrEmpty(parentFolderName) && !Directory.Exists(categoryDirectory))
+            {
+                Directory.CreateDirectory(categoryDirectory);
+            }
+
+            foreach (var categoryEntry in categorizedQuests)
             {
                 var categoryName = categoryEntry.Key;
                 var quests = categoryEntry.Value;
 
-                var sanitizedFileName = $"Job-{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
-                var filePath = Path.Combine(jobDirectoryPath, sanitizedFileName);
+                var sanitizedFileName = $"{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
+                var filePath = Path.Combine(categoryDirectory, sanitizedFileName);
 
                 SaveQuestDataToJson(quests, filePath, categoryName);
             }
+
+            log.Info($"Fetched and saved categorized {fetchType} data in the `{categoryDirectory}` directory.");
         }
         catch (Exception ex)
         {
-            log.Error($"Error fetching or saving Job data: {ex.Message}");
+            log.Error($"Error fetching or saving {fetchType} data: {ex.Message}");
         }
     }
 

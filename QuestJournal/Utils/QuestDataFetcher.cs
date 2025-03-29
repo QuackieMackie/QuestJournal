@@ -141,10 +141,10 @@ public class QuestDataFetcher
 
         var jobCategoryIds = new[]
         {
-            84, // "Disciple of War Quests"
-            85, // "Disciple of Magic Quests"
-            86, // "Disciple of the Hand Quests"
-            87, // "Disciple of the Land Quests"
+            // 84, // "Disciple of War Quests"
+            // 85, // "Disciple of Magic Quests"
+            // 86, // "Disciple of the Hand Quests"
+            // 87, // "Disciple of the Land Quests"
             91, // "Disciple of the War Job Quests"
             92, // "Disciple of the Magic Job Quests"
         };

@@ -74,7 +74,7 @@ public class JobHandler : IDisposable
                             file => 
                             {
                                 var fileName = Path.GetFileNameWithoutExtension(file);
-                                return fileName.StartsWith("Job-") 
+                                return fileName.StartsWith("JOB-") 
                                            ? fileName.Substring(4).Replace("_", " ") 
                                            : fileName.Replace("_", " ");
                             },
