@@ -14,7 +14,7 @@ public class CommandHandler : IDisposable
 {
     private const string OpenJournalCommandShort = "/qj";
     private const string OpenJournalCommandFull = "/questjournal";
-    private const string FetchQuestCommandName = "/fetch-qd";
+    private const string FetchQuestCommandName = "/fetch-all";
     private const string FetchMsqCommandName = "/fetch-msq";
     private const string FetchJobCommandName = "/fetch-job";
     
@@ -125,7 +125,7 @@ public class CommandHandler : IDisposable
                 case "Quest":
                     questsToSave = questDataFetcher.GetAllQuests();
                     baseFileName = QuestDataFileName;
-                    parentFolderName = "Fetched-QuestJournal-Data"; // Place under parent folder
+                    parentFolderName = "Fetched-QuestJournal-Data";
                     break;
 
                 case "MSQ":
