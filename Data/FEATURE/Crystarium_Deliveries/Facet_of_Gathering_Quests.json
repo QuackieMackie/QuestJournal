@@ -1,0 +1,186 @@
+[
+  {
+    "QuestId": 68772,
+    "QuestTitle": "On the Trail of a Myth",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68773
+    ],
+    "NextQuestTitles": [
+      "Shedding Light on the Myth"
+    ],
+    "StarterNpc": "Qeshi-Rae",
+    "StarterNpcLocation": {
+      "RowId": 7788929,
+      "X": -3.15869,
+      "Y": 20.1571,
+      "Z": -148.902,
+      "Yaw": -2.87468,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Qeshi-Rae",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 196,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Gathering Quests"
+    },
+    "SortKey": 410,
+    "EventIcon": 8,
+    "Icon": 100848,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68773,
+    "QuestTitle": "Shedding Light on the Myth",
+    "PreviousQuestIds": [
+      68772
+    ],
+    "PreviousQuestTitles": [
+      "On the Trail of a Myth"
+    ],
+    "NextQuestIds": [
+      68774
+    ],
+    "NextQuestTitles": [
+      "The Myth Takes Form"
+    ],
+    "StarterNpc": "Qeshi-Rae",
+    "StarterNpcLocation": {
+      "RowId": 7788929,
+      "X": -3.15869,
+      "Y": 20.1571,
+      "Z": -148.902,
+      "Yaw": -2.87468,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Qeshi-Rae",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 196,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Gathering Quests"
+    },
+    "SortKey": 420,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1372,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68774,
+    "QuestTitle": "The Myth Takes Form",
+    "PreviousQuestIds": [
+      68773
+    ],
+    "PreviousQuestTitles": [
+      "Shedding Light on the Myth"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qeshi-Rae",
+    "StarterNpcLocation": {
+      "RowId": 7788929,
+      "X": -3.15869,
+      "Y": 20.1571,
+      "Z": -148.902,
+      "Yaw": -2.87468,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Qeshi-Rae",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 196,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Gathering Quests"
+    },
+    "SortKey": 430,
+    "EventIcon": 1,
+    "Icon": 100848,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1701,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26732,
+          "ItemName": "Gatherer\u0027s Guerdon Materia VIII",
+          "Count": 2,
+          "Stain": null
+        },
+        {
+          "ItemId": 26733,
+          "ItemName": "Gatherer\u0027s Guile Materia VIII",
+          "Count": 2,
+          "Stain": null
+        },
+        {
+          "ItemId": 26734,
+          "ItemName": "Gatherer\u0027s Grasp Materia VIII",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

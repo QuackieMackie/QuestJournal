@@ -1,0 +1,112 @@
+[
+  {
+    "QuestId": 68778,
+    "QuestTitle": "For Every Child a Star",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Katliss",
+    "StarterNpcLocation": {
+      "RowId": 7788925,
+      "X": -9.3233,
+      "Y": 20.1973,
+      "Z": -136.523,
+      "Yaw": -2.07853,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": null,
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 198,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Crystalline Mean Quests"
+    },
+    "SortKey": 600,
+    "EventIcon": 1,
+    "Icon": 100850,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1055,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69191,
+    "QuestTitle": "The Crystalline Mean",
+    "PreviousQuestIds": [
+      68839
+    ],
+    "PreviousQuestTitles": [
+      "The Crystarium\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      68763,
+      68766,
+      68769,
+      68772,
+      68775,
+      70266
+    ],
+    "NextQuestTitles": [
+      "Iola, Forgemaster",
+      "Cherished Memories",
+      "Friends of a Feather",
+      "On the Trail of a Myth",
+      "Well Eel Be Damned",
+      "An Original Improvement"
+    ],
+    "StarterNpc": "Katliss",
+    "StarterNpcLocation": {
+      "RowId": 7788925,
+      "X": -9.3233,
+      "Y": 20.1973,
+      "Z": -136.523,
+      "Yaw": -2.07853,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Katliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 198,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Crystalline Mean Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 569,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "QuestId": 68763,
+    "QuestTitle": "Iola, Forgemaster",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68764
+    ],
+    "NextQuestTitles": [
+      "To Struggle Nu Mou"
+    ],
+    "StarterNpc": "Iola",
+    "StarterNpcLocation": {
+      "RowId": 7788926,
+      "X": 9.30292,
+      "Y": 20.186,
+      "Z": -124.536,
+      "Yaw": -2.43307,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Iola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 193,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Forging Quests"
+    },
+    "SortKey": 110,
+    "EventIcon": 8,
+    "Icon": 100845,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68764,
+    "QuestTitle": "To Struggle Nu Mou",
+    "PreviousQuestIds": [
+      68763
+    ],
+    "PreviousQuestTitles": [
+      "Iola, Forgemaster"
+    ],
+    "NextQuestIds": [
+      68765
+    ],
+    "NextQuestTitles": [
+      "The Iron Bellows"
+    ],
+    "StarterNpc": "Iola",
+    "StarterNpcLocation": {
+      "RowId": 7788926,
+      "X": 9.30292,
+      "Y": 20.186,
+      "Z": -124.536,
+      "Yaw": -2.43307,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Iola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 193,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Forging Quests"
+    },
+    "SortKey": 120,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1772,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68765,
+    "QuestTitle": "The Iron Bellows",
+    "PreviousQuestIds": [
+      68764
+    ],
+    "PreviousQuestTitles": [
+      "To Struggle Nu Mou"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iola",
+    "StarterNpcLocation": {
+      "RowId": 7788926,
+      "X": 9.30292,
+      "Y": 20.186,
+      "Z": -124.536,
+      "Yaw": -2.43307,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Iola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 193,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Forging Quests"
+    },
+    "SortKey": 130,
+    "EventIcon": 1,
+    "Icon": 100845,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1215,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26736,
+          "ItemName": "Craftsman\u0027s Cunning Materia VIII",
+          "Count": 2,
+          "Stain": null
+        },
+        {
+          "ItemId": 26737,
+          "ItemName": "Craftsman\u0027s Command Materia VIII",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "QuestId": 68769,
+    "QuestTitle": "Friends of a Feather",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68770
+    ],
+    "NextQuestTitles": [
+      "Where We Belong"
+    ],
+    "StarterNpc": "Bethric",
+    "StarterNpcLocation": {
+      "RowId": 7788928,
+      "X": -19.4864,
+      "Y": 20.1571,
+      "Z": -130.155,
+      "Yaw": -1.3323,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Bethric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 195,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Nourishing Quests"
+    },
+    "SortKey": 310,
+    "EventIcon": 8,
+    "Icon": 100847,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 825,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68770,
+    "QuestTitle": "Where We Belong",
+    "PreviousQuestIds": [
+      68769
+    ],
+    "PreviousQuestTitles": [
+      "Friends of a Feather"
+    ],
+    "NextQuestIds": [
+      68771
+    ],
+    "NextQuestTitles": [
+      "Healing Old Wounds"
+    ],
+    "StarterNpc": "Bethric",
+    "StarterNpcLocation": {
+      "RowId": 7788928,
+      "X": -19.4864,
+      "Y": 20.1571,
+      "Z": -130.155,
+      "Yaw": -1.3323,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Bethric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 195,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Nourishing Quests"
+    },
+    "SortKey": 320,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1723,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68771,
+    "QuestTitle": "Healing Old Wounds",
+    "PreviousQuestIds": [
+      68770
+    ],
+    "PreviousQuestTitles": [
+      "Where We Belong"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bethric",
+    "StarterNpcLocation": {
+      "RowId": 7788928,
+      "X": -19.4864,
+      "Y": 20.1571,
+      "Z": -130.155,
+      "Yaw": -1.3323,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Bethric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 195,
+      "JournalCategory": {
+        "Id": 88,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Nourishing Quests"
+    },
+    "SortKey": 330,
+    "EventIcon": 1,
+    "Icon": 100847,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1325,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26735,
+          "ItemName": "Craftsman\u0027s Competence Materia VIII",
+          "Count": 2,
+          "Stain": null
+        },
+        {
+          "ItemId": 26736,
+          "ItemName": "Craftsman\u0027s Cunning Materia VIII",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]
