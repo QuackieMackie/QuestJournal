@@ -33,7 +33,19 @@
             <TargetPath>QuestJournal\JOB\%(FileName)%(Extension)</TargetPath>
             <Visible>true</Visible>
         </Content>
-		
+
+        <!-- Include Feature subdirectory and all its files recursively -->
+        <Content Include="..\Data\FEATURE\**\*">
+            <Link>Data\FEATURE\%(RecursiveDir)%(FileName)%(Extension)</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>QuestJournal\FEATURE\%(RecursiveDir)%(FileName)%(Extension)</TargetPath>
+            <Visible>true</Visible>
+        </Content>
+
         <Content Include="QuestJournal.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="UI\Renderer\FeatureUtils\" />
     </ItemGroup>
 </Project>

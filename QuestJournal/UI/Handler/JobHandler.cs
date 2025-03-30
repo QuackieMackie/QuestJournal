@@ -67,7 +67,7 @@ public class JobHandler : IDisposable
             return new Dictionary<string, string>();
         }
 
-        log.Info($"Searching MSQ files in: {jobDirectoryPath}");
+        log.Info($"Searching JOB files in: {jobDirectoryPath}");
 
         return Directory.GetFiles(jobDirectoryPath, "*.json", SearchOption.TopDirectoryOnly)
                         .ToDictionary(

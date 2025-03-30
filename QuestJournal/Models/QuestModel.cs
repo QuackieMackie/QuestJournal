@@ -23,6 +23,7 @@ public class QuestModel
     public JournalGenreDetails? JournalGenre { get; init; }
     
     public ushort SortKey { get; init; }
+    public uint EventIcon { get; init; }
     
     public uint Icon { get; init; }
     public uint IconSpecial { get; init; }

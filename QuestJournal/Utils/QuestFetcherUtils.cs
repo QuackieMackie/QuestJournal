@@ -1,184 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using Dalamud.Plugin.Services;
 using Lumina.Excel;
 using Lumina.Excel.Sheets;
 using Lumina.Text.ReadOnly;
 using QuestJournal.Models;
-using Action = Lumina.Excel.Sheets.Action;
 using Level = QuestJournal.Models.Level;
 
 namespace QuestJournal.Utils;
 
-public class QuestDataFetcher
+public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 {
-    private readonly IDataManager dataManager;
-    private readonly IPluginLog log;
+    private readonly ExcelSheet<ExVersion>? exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
+    private readonly ExcelSheet<JournalGenre>? journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
+    private readonly ExcelSheet<Quest>? questSheet = dataManager.GetExcelSheet<Quest>();
+    private readonly ExcelSheet<Item>? itemSheet = dataManager.GetExcelSheet<Item>();
+    private readonly ExcelSheet<Stain>? stainSheet = dataManager.GetExcelSheet<Stain>();
+    private readonly ExcelSheet<Emote>? emoteSheet = dataManager.GetExcelSheet<Emote>();
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? actionSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
+    private readonly ExcelSheet<GeneralAction>? generalActionSheet = dataManager.GetExcelSheet<GeneralAction>();
+    private readonly ExcelSheet<QuestRewardOther>? questRewardOtherSheet = dataManager.GetExcelSheet<QuestRewardOther>();
+    private readonly ExcelSheet<ContentFinderCondition>? contentFinderConditionSheet = dataManager.GetExcelSheet<ContentFinderCondition>();
+    private readonly ExcelSheet<ContentType>? contentTypeSheet = dataManager.GetExcelSheet<ContentType>();
+    private readonly ExcelSheet<EventIconType>? eventIconTypeSheet = dataManager.GetExcelSheet<EventIconType>();
 
-    private readonly Lazy<ExcelSheet<ExVersion>?> exVersionSheet;
-    private readonly Lazy<ExcelSheet<JournalGenre>?> journalGenreSheet;
-    private readonly Lazy<ExcelSheet<Quest>?> questSheet;
-    private readonly Lazy<ExcelSheet<Item>?> itemSheet;
-    private readonly Lazy<ExcelSheet<Stain>?> stainSheet;
-    private readonly Lazy<ExcelSheet<Emote>?> emoteSheet;
-    private readonly Lazy<ExcelSheet<Action>?> actionSheet;
-    private readonly Lazy<ExcelSheet<GeneralAction>?> generalActionSheet;
-    private readonly Lazy<ExcelSheet<QuestRewardOther>?> questRewardOtherSheet;
-    private readonly Lazy<ExcelSheet<ContentFinderCondition>?> contentFinderConditionSheet;
-    private readonly Lazy<ExcelSheet<ContentType>?> contentTypeSheet;
+    public ExcelSheet<ExVersion>? ExVersionSheet => exVersionSheet;
+    public ExcelSheet<JournalGenre>? JournalGenreSheet => journalGenreSheet;
+    public ExcelSheet<Quest>? QuestSheet => questSheet;
+    public ExcelSheet<Item>? ItemSheet => itemSheet;
+    public ExcelSheet<Stain>? StainSheet => stainSheet;
+    public ExcelSheet<Emote>? EmoteSheet => emoteSheet;
+    public ExcelSheet<Lumina.Excel.Sheets.Action>? ActionSheet => actionSheet;
+    public ExcelSheet<GeneralAction>? GeneralActionSheet => generalActionSheet;
+    public ExcelSheet<QuestRewardOther>? QuestRewardOtherSheet => questRewardOtherSheet;
+    public ExcelSheet<ContentFinderCondition>? ContentFinderConditionSheet => contentFinderConditionSheet;
+    public ExcelSheet<ContentType>? ContentTypeSheet => contentTypeSheet;
+    public ExcelSheet<EventIconType>? EventIconTypes => eventIconTypeSheet;
 
-    public QuestDataFetcher(IDataManager dataManager, IPluginLog log)
-    {
-        this.dataManager = dataManager;
-        this.log = log;
-
-        exVersionSheet = new Lazy<ExcelSheet<ExVersion>?>(() => this.dataManager.GetExcelSheet<ExVersion>());
-        journalGenreSheet = new Lazy<ExcelSheet<JournalGenre>?>(() => this.dataManager.GetExcelSheet<JournalGenre>());
-        questSheet = new Lazy<ExcelSheet<Quest>?>(() => this.dataManager.GetExcelSheet<Quest>());
-        itemSheet = new Lazy<ExcelSheet<Item>?>(() => this.dataManager.GetExcelSheet<Item>());
-        stainSheet = new Lazy<ExcelSheet<Stain>?>(() => this.dataManager.GetExcelSheet<Stain>());
-        emoteSheet = new Lazy<ExcelSheet<Emote>?>(() => this.dataManager.GetExcelSheet<Emote>());
-        actionSheet = new Lazy<ExcelSheet<Action>?>(() => this.dataManager.GetExcelSheet<Action>());
-        generalActionSheet = new Lazy<ExcelSheet<GeneralAction>?>(() => this.dataManager.GetExcelSheet<GeneralAction>());
-        questRewardOtherSheet = new Lazy<ExcelSheet<QuestRewardOther>?>(() => this.dataManager.GetExcelSheet<QuestRewardOther>());
-        contentFinderConditionSheet = new Lazy<ExcelSheet<ContentFinderCondition>?>(() => this.dataManager.GetExcelSheet<ContentFinderCondition>());
-        contentTypeSheet = new Lazy<ExcelSheet<ContentType>?>(() => this.dataManager.GetExcelSheet<ContentType>());
-    }
-
-    private ExcelSheet<ExVersion>? ExVersionSheet => exVersionSheet.Value;
-    private ExcelSheet<JournalGenre>? JournalGenreSheet => journalGenreSheet.Value;
-    private ExcelSheet<Quest>? QuestSheet => questSheet.Value;
-    private ExcelSheet<Item>? ItemSheet => itemSheet.Value;
-    private ExcelSheet<Stain>? StainSheet => stainSheet.Value;
-    private ExcelSheet<Emote>? EmoteSheet => emoteSheet.Value;
-    private ExcelSheet<Action>? ActionSheet => actionSheet.Value;
-    private ExcelSheet<GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
-    private ExcelSheet<QuestRewardOther>? QuestRewardOtherSheet => questRewardOtherSheet.Value;
-    private ExcelSheet<ContentFinderCondition>? ContentFinderConditionSheet => contentFinderConditionSheet.Value;
-    private ExcelSheet<ContentType>? ContentTypeSheet => contentTypeSheet.Value;
-    
-    // Main Public Methods
-
-    /// <summary>
-    ///     Fetches all quests and their details.
-    /// </summary>
-    public List<QuestModel> GetAllQuests()
-    {
-        Debug.Assert(QuestSheet != null, nameof(QuestSheet) + " != null");
-        var questInfoLookup = QuestSheet.ToDictionary(
-            quest => quest.RowId,
-            BuildQuestInfo
-        );
-
-        foreach (var quest in QuestSheet)
-        {
-            if (questInfoLookup.TryGetValue(quest.RowId, out _) && quest.PreviousQuest.Count > 0)
-            {
-                var prevQuestIds = GetPrerequisiteQuestIds(quest.PreviousQuest);
-
-                foreach (var prevQuestId in prevQuestIds)
-                {
-                    if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
-                    {
-                        prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
-                        prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
-                    }
-                }
-            }
-        }
-        
-        return questInfoLookup.Values.Where(quest => quest != null).Select(quest => quest!).ToList();
-    }
-
-    /// <summary>
-    /// Groups main scenario quests by categories and fetches details.
-    /// </summary>
-    public Dictionary<string, List<QuestModel>> GetMainScenarioQuestsByCategory()
-    {
-        var allQuests = GetAllQuests();
-        var msqCategories = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-        {
-            "Seventh Umbral Era Main Scenario Quests",
-            "Seventh Astral Era Main Scenario Quests",
-            "Heavensward Main Scenario Quests",
-            "Dragonsong Main Scenario Quests",
-            "Post-Dragonsong Main Scenario Quests",
-            "Stormblood Main Scenario Quests",
-            "Post-Stormblood Main Scenario Quests",
-            "Shadowbringers Main Scenario Quests",
-            "Post-Shadowbringers Main Scenario Quests",
-            "Post-Shadowbringers Main Scenario Quests II",
-            "Endwalker Main Scenario Quests",
-            "Post-Endwalker Main Scenario Quests",
-            "Dawntrail Main Scenario Quests",
-            "Post-Dawntrail Main Scenario Quests"
-        };
-
-        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
-
-        foreach (var category in msqCategories)
-        {
-            categorizedQuests[category] = new List<QuestModel>();
-        }
-
-        foreach (var quest in allQuests)
-        {
-            var categoryName = quest.JournalGenre?.JournalCategory?.Name;
-            if (categoryName != null && msqCategories.Contains(categoryName))
-            {
-                categorizedQuests[categoryName].Add(quest);
-            }
-        }
-
-        return categorizedQuests;
-    }
-    
-    public Dictionary<string, List<QuestModel>> GetJobQuestsByCategory()
-    {
-        var allQuests = GetAllQuests();
-
-        var jobCategoryIds = new[]
-        {
-            84, // "Disciple of War Quests"
-            85, // "Disciple of Magic Quests"
-            86, // "Disciple of the Hand Quests"
-            87, // "Disciple of the Land Quests"
-            91, // "Disciple of the War Job Quests"
-            92, // "Disciple of the Magic Job Quests"
-        };
-
-        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
-
-        foreach (var quest in allQuests)
-        {
-            var category = quest.JournalGenre?.JournalCategory;
-
-            if (category != null && jobCategoryIds.Contains((int) category.Id))
-            {
-                var journalGenreName = quest.JournalGenre?.Name;
-                if (!string.IsNullOrEmpty(journalGenreName))
-                {
-                    if (!categorizedQuests.ContainsKey(journalGenreName))
-                    {
-                        categorizedQuests[journalGenreName] = new List<QuestModel>();
-                    }
-
-                    categorizedQuests[journalGenreName].Add(quest);
-                }
-            }
-        }
-
-        return categorizedQuests;
-    }
-
-    // IQuestInfo Builders
-
-    /// <summary>
-    ///     Builds a IQuestInfo object from raw quest data.
-    /// </summary>
-    private QuestModel? BuildQuestInfo(Quest questData)
+    public QuestModel? BuildQuestInfo(Quest questData)
     {
         try
         {
@@ -198,6 +58,7 @@ public class QuestDataFetcher
                 Expansion = GetExpansionName(questData.Expansion, questData.Id),
                 JournalGenre = GetJournalGenreDetails(questData.JournalGenre, questData.Id),
                 SortKey = questData.SortKey,
+                EventIcon = questData.EventIconType.Value.RowId,
                 Icon = questData.Icon,
                 IconSpecial = questData.IconSpecial,
                 Rewards = GetRewards(questId, questData)
@@ -208,9 +69,6 @@ public class QuestDataFetcher
         catch { return null; }
     }
 
-    /// <summary>
-    ///     Resolves rewards for the quest.
-    /// </summary>
     private Reward GetRewards(uint questId, Quest quest)
     {
         var level = quest.LevelMax != 0 ? quest.LevelMax : quest.ClassJobLevel.FirstOrDefault();
@@ -494,9 +352,6 @@ public class QuestDataFetcher
         return instanceContentRewards.Count > 0 ? instanceContentRewards : null;
     }
 
-    /// <summary>
-    ///     Resolves JournalGenreDetails for the quest.
-    /// </summary>
     private JournalGenreDetails? GetJournalGenreDetails(RowRef<JournalGenre> journalGenreRef, ReadOnlySeString questId)
     {
         if (JournalGenreSheet == null || journalGenreRef.RowId <= 0) return null;
@@ -530,10 +385,7 @@ public class QuestDataFetcher
         }
     }
 
-    /// <summary>
-    ///     Resolves the IDs of prerequisite quests.
-    /// </summary>
-    private List<uint> GetPrerequisiteQuestIds(Collection<RowRef<Quest>> previousQuests)
+    public List<uint> GetPrerequisiteQuestIds(Collection<RowRef<Quest>> previousQuests)
     {
         var ids = new List<uint>();
         foreach (var preQuestRef in previousQuests)
@@ -553,9 +405,6 @@ public class QuestDataFetcher
         return ids;
     }
 
-    /// <summary>
-    ///     Resolves the titles of prerequisite quests.
-    /// </summary>
     private List<string> GetPrerequisiteQuestTitles(Collection<RowRef<Quest>> previousQuests)
     {
         var titles = new List<string>();
@@ -577,9 +426,6 @@ public class QuestDataFetcher
         return titles;
     }
 
-    /// <summary>
-    ///     Resolves the expansion name for the quest.
-    /// </summary>
     private string GetExpansionName(RowRef<ExVersion> expansionRef, ReadOnlySeString questId)
     {
         if (expansionRef.RowId <= 0 || ExVersionSheet == null) return "";
@@ -596,9 +442,6 @@ public class QuestDataFetcher
         }
     }
 
-    /// <summary>
-    ///     Resolves the NPC name for the given RowRef.
-    /// </summary>
     private string? ResolveNpcName(RowRef npcRef)
     {
         if (npcRef.RowId == 0) return null;
@@ -620,9 +463,6 @@ public class QuestDataFetcher
         }
     }
     
-    /// <summary>
-    /// Resolves the NPC's location based on the issuer (NPC location).
-    /// </summary>
     private Level? ResolveNpcLocation(Quest questData)
     {
         try
