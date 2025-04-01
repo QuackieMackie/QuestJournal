@@ -127,33 +127,67 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     public Dictionary<string, Dictionary<string, List<QuestModel>>> GetFeatureQuestsByCategory()
     {
         var allQuests = GetAllQuests();
-        
+
         var categorizedQuests = new Dictionary<string, Dictionary<string, List<QuestModel>>>(StringComparer.OrdinalIgnoreCase);
-        var categoryFolders = new Dictionary<int, string>
+
+        // Mapping: JournalCategory.Id, Folder Name, Grouping Logic (0: JournalGenre.Name, 1: JournalCategory.Name)
+        var categoryFolders = new List<(int CategoryId, string FolderName, int GroupBy)>
         {
-            { 88, "Crystarium Deliveries" }, // "Crystalline Mean Quests"
+            (88, "Crystarium Deliveries", 0), // "Crystalline Mean Quests"
+    
+            (31, "Tribe Quests", 1), // Mamool Ja Quests ?? maybe
+            (32, "Tribe Quests", 1), // Pelupelu Quests
+            (33, "Tribe Quests", 1), // Intersocietal Quests
+            (34, "Tribe Quests", 1), // Amaj'aa Quests
+            (35, "Tribe Quests", 1), // Sylph Quests
+            (36, "Tribe Quests", 1), // Kobold Quests
+            (37, "Tribe Quests", 1), // Sahagin Quests
+            (38, "Tribe Quests", 1), // Ixal Quests
+            (39, "Tribe Quests", 1), // Vanu Vanu Quests
+            (40, "Tribe Quests", 1), // Vath Quests
+            (41, "Tribe Quests", 1), // Moogle Quests
+            (42, "Tribe Quests", 1), // Kojin Quests
+            (43, "Tribe Quests", 1), // Ananta Quests
+            (44, "Tribe Quests", 1), // Namazu Quests
+            (45, "Tribe Quests", 1), // Pixie Quests
+            (46, "Tribe Quests", 1), // Qitari Quests
+            (47, "Tribe Quests", 1), // Dwarf Quests
+            (48, "Tribe Quests", 1), // Arkasodara Quests
+            (49, "Tribe Quests", 1), // Omnicron Quests
+            (50, "Tribe Quests", 1), // Loporrit Quests
+            (51, "Tribe Quests", 1), // Intersocietal Quests
         };
 
         foreach (var quest in allQuests)
         {
             var category = quest.JournalGenre?.JournalCategory;
 
-            if (category != null && categoryFolders.TryGetValue((int)category.Id, out var folderName))
+            if (category != null)
             {
-                var journalGenreName = quest.JournalGenre?.Name;
-                if (!string.IsNullOrEmpty(journalGenreName))
+                var folderEntry = categoryFolders.FirstOrDefault(entry => entry.CategoryId == (int)category.Id);
+
+                if (folderEntry != default)
                 {
+                    var (_, folderName, groupBy) = folderEntry;
+
+                    string subFolderName = groupBy switch
+                    {
+                        0 => quest.JournalGenre?.Name ?? "Unknown Genre",
+                        1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category",
+                        _ => "Unknown"
+                    };
+
                     if (!categorizedQuests.ContainsKey(folderName))
                     {
                         categorizedQuests[folderName] = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
                     }
 
-                    if (!categorizedQuests[folderName].ContainsKey(journalGenreName))
+                    if (!categorizedQuests[folderName].ContainsKey(subFolderName))
                     {
-                        categorizedQuests[folderName][journalGenreName] = new List<QuestModel>();
+                        categorizedQuests[folderName][subFolderName] = new List<QuestModel>();
                     }
 
-                    categorizedQuests[folderName][journalGenreName].Add(quest);
+                    categorizedQuests[folderName][subFolderName].Add(quest);
                 }
             }
         }

@@ -148,4 +148,3 @@ public class InstanceContentUnlockReward
     public string? InstanceName { get; init; }
     public uint ContentType { get; init; }
 }
-

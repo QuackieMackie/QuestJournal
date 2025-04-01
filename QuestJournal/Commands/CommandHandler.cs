@@ -6,7 +6,6 @@ using Dalamud.Game.Command;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using QuestJournal.Models;
-using QuestJournal.Utils;
 
 namespace QuestJournal.Commands;
 
@@ -18,7 +17,7 @@ public class CommandHandler : IDisposable
     private const string FetchMsqCommandName = "/fetch-msq";
     private const string FetchJobCommandName = "/fetch-job";
     private const string FetchFeatureCommandName = "/fetch-feature";
-    
+
     private const string QuestDataFileName = "QuestData.json";
     private const string MsqDataFileName = "MsqData.json";
     private const string JobDataFileName = "JobData.json";
@@ -32,7 +31,7 @@ public class CommandHandler : IDisposable
     private readonly QuestDataFetcher questDataFetcher;
 
     public CommandHandler(
-        QuestJournal questJournal, ICommandManager commandManager, QuestDataFetcher questDataFetcher, 
+        QuestJournal questJournal, ICommandManager commandManager, QuestDataFetcher questDataFetcher,
         IPluginLog log, IDalamudPluginInterface pluginInterface, Configuration configuration)
     {
         this.questJournal = questJournal;
@@ -68,32 +67,32 @@ public class CommandHandler : IDisposable
             HelpMessage = "Open the Quest Journal.",
             ShowInHelp = true
         });
-        
+
         commandManager.AddHandler(FetchQuestCommandName, new CommandInfo(OnFetchCommand)
         {
             HelpMessage = "[Developer Mode] Fetch all quest data from the Lumina sheets and save it to the plugin's output directory.",
             ShowInHelp = false
         });
-        
+
         commandManager.AddHandler(FetchMsqCommandName, new CommandInfo(OnFetchCommand)
         {
             HelpMessage = "[Developer Mode] Fetch msq data from the Lumina sheets and save it to the plugin's output directory.",
             ShowInHelp = false
         });
-        
+
         commandManager.AddHandler(FetchJobCommandName, new CommandInfo(OnFetchCommand)
         {
             HelpMessage = "[Developer Mode] Fetch job data from the Lumina sheets and save it to the plugin's output directory.",
             ShowInHelp = false
         });
-        
+
         commandManager.AddHandler(FetchFeatureCommandName, new CommandInfo(OnFetchCommand)
         {
             HelpMessage = "[Developer Mode] Fetch feature data from the Lumina sheets and save it to the plugin's output directory.",
             ShowInHelp = false
         });
     }
-    
+
     private void OnOpenCommand(string command, string args)
     {
         if (command == "/qj" || command == "/questjournal")
@@ -101,7 +100,7 @@ public class CommandHandler : IDisposable
             OpenJournal();
         }
     }
-    
+
     private void OnFetchCommand(string command, string args)
     {
         if (!configuration.DeveloperMode)
@@ -120,14 +119,15 @@ public class CommandHandler : IDisposable
     {
         questJournal.OpenMainWindow();
     }
-    
+
     private void FetchData(string fetchType)
     {
         try
         {
-            List<QuestModel> questsToSave = new();
-            Dictionary<string, List<QuestModel>> categorizedQuests = new();
-            Dictionary<string, Dictionary<string, List<QuestModel>>> groupedCategorizedQuests = new();
+            List<QuestModel>? questsToSave = null;
+            Dictionary<string, List<QuestModel>>? categorizedQuests = null;
+            Dictionary<string, Dictionary<string, List<QuestModel>>>? groupedQuests = null;
+
             string baseFileName;
             string parentFolderName;
 
@@ -142,19 +142,19 @@ public class CommandHandler : IDisposable
                 case "MSQ":
                     categorizedQuests = questDataFetcher.GetMainScenarioQuestsByCategory();
                     baseFileName = MsqDataFileName;
-                    parentFolderName = "Fetched-QuestJournal-Data\\MSQ";
+                    parentFolderName = "Fetched-QuestJournal-Data/MSQ";
                     break;
 
                 case "Job":
                     categorizedQuests = questDataFetcher.GetJobQuestsByCategory();
                     baseFileName = JobDataFileName;
-                    parentFolderName = "Fetched-QuestJournal-Data\\JOB";
+                    parentFolderName = "Fetched-QuestJournal-Data/JOB";
                     break;
 
                 case "Feature":
-                    groupedCategorizedQuests = questDataFetcher.GetFeatureQuestsByCategory();
+                    groupedQuests = questDataFetcher.GetFeatureQuestsByCategory();
                     baseFileName = FeatureDataFileName;
-                    parentFolderName = "Fetched-QuestJournal-Data\\FEATURE";
+                    parentFolderName = "Fetched-QuestJournal-Data/FEATURE";
                     break;
 
                 default:
@@ -162,79 +162,47 @@ public class CommandHandler : IDisposable
                     return;
             }
 
-            if (fetchType == "Quest")
+            if (questsToSave != null)
             {
-                var baseFilePath = GetOutputFilePath("");
-                var parentDirectory = Path.Combine(baseFilePath, parentFolderName);
-
-                if (!Directory.Exists(parentDirectory))
-                {
-                    Directory.CreateDirectory(parentDirectory);
-                }
-
-                var filePath = Path.Combine(parentDirectory, baseFileName);
+                var filePath = Path.Combine(GetOutputPath(parentFolderName), baseFileName);
                 SaveQuestDataToJson(questsToSave, filePath);
                 log.Info($"Fetched and saved {questsToSave.Count} total quests to {filePath}.");
                 return;
             }
 
-            if (fetchType == "Feature")
+            if (categorizedQuests != null)
             {
-                var outputBasePath = GetOutputFilePath("");
-                var featureDirectory = Path.Combine(outputBasePath, parentFolderName);
+                var categoryDirectory = GetOutputPath(parentFolderName);
 
-                if (!Directory.Exists(featureDirectory))
+                foreach (var categoryEntry in categorizedQuests)
                 {
-                    Directory.CreateDirectory(featureDirectory);
+                    var sanitizedFileName = $"{SanitizeFileName(categoryEntry.Key)}.json";
+                    var filePath = Path.Combine(categoryDirectory, sanitizedFileName);
+                    SaveQuestDataToJson(categoryEntry.Value, filePath, categoryEntry.Key);
                 }
 
-                foreach (var folderEntry in groupedCategorizedQuests)
-                {
-                    var folderName = folderEntry.Key;
-                    var categories = folderEntry.Value;
-                    
-                    var folderPath = Path.Combine(featureDirectory, folderName.Replace(" ", "_"));
-                    if (!Directory.Exists(folderPath))
-                    {
-                        Directory.CreateDirectory(folderPath);
-                    }
-
-                    foreach (var categoryEntry in categories)
-                    {
-                        var categoryName = categoryEntry.Key;
-                        var quests = categoryEntry.Value;
-                        
-                        var sanitizedFileName = $"{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
-                        var filePath = Path.Combine(folderPath, sanitizedFileName);
-
-                        SaveQuestDataToJson(quests, filePath, categoryName);
-                    }
-                }
-
-                log.Info($"Fetched and saved categorized {fetchType} data in the `{featureDirectory}` directory.");
+                log.Info($"Fetched and saved categorized {fetchType} data in the `{categoryDirectory}` directory.");
                 return;
             }
-            
-            var outputPath = GetOutputFilePath("");
-            var categoryDirectory = Path.Combine(outputPath, parentFolderName);
 
-            if (!string.IsNullOrEmpty(parentFolderName) && !Directory.Exists(categoryDirectory))
+            if (groupedQuests != null)
             {
-                Directory.CreateDirectory(categoryDirectory);
+                var featureDirectory = GetOutputPath(parentFolderName);
+
+                foreach (var folderEntry in groupedQuests)
+                {
+                    var folderPath = Path.Combine(featureDirectory, folderEntry.Key.Replace(" ", "_"));
+                    DoesDirectoryExists(folderPath);
+
+                    foreach (var category in folderEntry.Value)
+                    {
+                        var filePath = Path.Combine(folderPath, $"{SanitizeFileName(category.Key)}.json");
+                        SaveQuestDataToJson(category.Value, filePath, category.Key);
+                    }
+                }
+
+                log.Info($"Fetched and saved grouped {fetchType} data in the `{featureDirectory}` directory.");
             }
-
-            foreach (var categoryEntry in categorizedQuests)
-            {
-                var categoryName = categoryEntry.Key;
-                var quests = categoryEntry.Value;
-
-                var sanitizedFileName = $"{string.Concat(categoryName.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()))}.json";
-                var filePath = Path.Combine(categoryDirectory, sanitizedFileName);
-
-                SaveQuestDataToJson(quests, filePath, categoryName);
-            }
-
-            log.Info($"Fetched and saved categorized {fetchType} data in the `{categoryDirectory}` directory.");
         }
         catch (Exception ex)
         {
@@ -249,8 +217,9 @@ public class CommandHandler : IDisposable
             var jsonString = JsonSerializer.Serialize(questData, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(filePath, jsonString);
 
-            if (category != null) log.Info($"Saved {questData.Count} quests for category '{category}; to file path: '{filePath}'");
-            if (category == null) log.Info($"Saved {questData.Count} quests to file path: '{filePath}'");
+            log.Info(category != null
+                         ? $"Saved {questData.Count} quests for category '{category}' to file path '{filePath}'."
+                         : $"Saved {questData.Count} quests to file path '{filePath}'.");
         }
         catch (Exception ex)
         {
@@ -258,9 +227,24 @@ public class CommandHandler : IDisposable
         }
     }
 
-    private string GetOutputFilePath(string fileName)
+    private string SanitizeFileName(string name)
     {
-        var outputDirectory = pluginInterface.AssemblyLocation.Directory?.FullName ?? "";
-        return Path.Combine(outputDirectory, fileName);
+        return string.Concat(name.Replace(" ", "_").Split(Path.GetInvalidFileNameChars()));
+    }
+
+    private string GetOutputPath(string folderName)
+    {
+        var outputBasePath = pluginInterface.AssemblyLocation.Directory?.FullName ?? "";
+        var fullPath = Path.Combine(outputBasePath, folderName);
+        DoesDirectoryExists(fullPath);
+        return fullPath;
+    }
+
+    private void DoesDirectoryExists(string path)
+    {
+        if (!Directory.Exists(path))
+        {
+            Directory.CreateDirectory(path);
+        }
     }
 }
