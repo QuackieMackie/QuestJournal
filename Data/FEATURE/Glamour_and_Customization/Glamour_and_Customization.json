@@ -1,0 +1,852 @@
+[
+  {
+    "QuestId": 66174,
+    "QuestTitle": "Forging the Spirit",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66175
+    ],
+    "NextQuestTitles": [
+      "Waking the Spirit"
+    ],
+    "StarterNpc": "Swynbroes",
+    "StarterNpcLocation": {
+      "RowId": 2465083,
+      "X": 123.347,
+      "Y": 30.9998,
+      "Z": -384.914,
+      "Yaw": -0.954471,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Swynbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5594,
+          "ItemName": "Grade 1 Dark Matter",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [
+        {
+          "Id": 14,
+          "Name": "Materia Extraction"
+        }
+      ],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66175,
+    "QuestTitle": "Waking the Spirit",
+    "PreviousQuestIds": [
+      66174
+    ],
+    "PreviousQuestTitles": [
+      "Forging the Spirit"
+    ],
+    "NextQuestIds": [
+      66176
+    ],
+    "NextQuestTitles": [
+      "Melding Materia Muchly"
+    ],
+    "StarterNpc": "F\u0027hobhas",
+    "StarterNpcLocation": {
+      "RowId": 2465084,
+      "X": 102.92,
+      "Y": 30.9386,
+      "Z": -377.95,
+      "Yaw": 1.66025,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "F\u0027hobhas",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [
+        {
+          "Id": 12,
+          "Name": "Materia Melding"
+        }
+      ],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66176,
+    "QuestTitle": "Melding Materia Muchly",
+    "PreviousQuestIds": [
+      66175
+    ],
+    "PreviousQuestTitles": [
+      "Waking the Spirit"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mutamix Bubblypots",
+    "StarterNpcLocation": {
+      "RowId": 2465082,
+      "X": 115.156,
+      "Y": 31.9002,
+      "Z": -392.182,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Mutamix Bubblypots",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2040,
+      "Gil": 5157,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [
+        {
+          "Id": 13,
+          "Name": "Advanced Materia Melding"
+        }
+      ],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66235,
+    "QuestTitle": "Color Your World",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67094
+    ],
+    "NextQuestTitles": [
+      "Simply to Dye For"
+    ],
+    "StarterNpc": "Swyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 4201198,
+      "X": -441.612,
+      "Y": 23.6667,
+      "Z": -358.969,
+      "Yaw": 1.46828,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Swyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 150,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5735,
+          "ItemName": "Rose Pink Dye",
+          "Count": 3,
+          "Stain": null
+        },
+        {
+          "ItemId": 5762,
+          "ItemName": "Bone White Dye",
+          "Count": 3,
+          "Stain": null
+        },
+        {
+          "ItemId": 5788,
+          "ItemName": "Ice Blue Dye",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [
+        {
+          "Id": 15,
+          "Name": "Dye"
+        }
+      ],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66746,
+    "QuestTitle": "Beauty Is Only Scalp Deep",
+    "PreviousQuestIds": [
+      66209,
+      66210
+    ],
+    "PreviousQuestTitles": [
+      "Call of the Sea",
+      "Call of the Sea"
+    ],
+    "NextQuestIds": [
+      67109
+    ],
+    "NextQuestTitles": [
+      "Of Siblings and Side-whiskers"
+    ],
+    "StarterNpc": "S\u0027dhodjbi",
+    "StarterNpcLocation": {
+      "RowId": 2367404,
+      "X": -3.25022,
+      "Y": 39.5056,
+      "Z": -9.41486,
+      "Yaw": -0.159986,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "flustered man",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "EventIcon": 8,
+    "Icon": 100186,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7005,
+          "ItemName": "Jandelaine\u0027s Token",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66957,
+    "QuestTitle": "A Self-improving Man",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66958
+    ],
+    "NextQuestTitles": [
+      "Submission Impossible"
+    ],
+    "StarterNpc": "Wiscard",
+    "StarterNpcLocation": {
+      "RowId": 4615596,
+      "X": 35.7863,
+      "Y": 29,
+      "Z": -736.751,
+      "Yaw": -1.48217,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Wiscard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 150,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 12,
+          "Stain": null
+        },
+        {
+          "ItemId": 13258,
+          "ItemName": "Green Beret",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [
+        {
+          "Id": 22,
+          "Name": "Cast Glamour"
+        },
+        {
+          "Id": 25,
+          "Name": "Glamour Plate"
+        }
+      ],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66958,
+    "QuestTitle": "Submission Impossible",
+    "PreviousQuestIds": [
+      66957
+    ],
+    "PreviousQuestTitles": [
+      "A Self-improving Man"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wiscard",
+    "StarterNpcLocation": {
+      "RowId": 4615596,
+      "X": 35.7863,
+      "Y": 29,
+      "Z": -736.751,
+      "Yaw": -1.48217,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Wiscard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 150,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7671,
+          "ItemName": "Clear Prism",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66999,
+    "QuestTitle": "Marvelously Mutable Materia",
+    "PreviousQuestIds": [
+      65808
+    ],
+    "PreviousQuestTitles": [
+      "Life, Materia and Everything"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kokosamu",
+    "StarterNpcLocation": {
+      "RowId": 2465085,
+      "X": 116.808,
+      "Y": 30.9086,
+      "Z": -359.615,
+      "Yaw": -1.80608,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Mutamix Bubblypots",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 840,
+      "Gil": 227,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67094,
+    "QuestTitle": "Simply to Dye For",
+    "PreviousQuestIds": [
+      66235
+    ],
+    "PreviousQuestTitles": [
+      "Color Your World"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Alys",
+    "StarterNpcLocation": {
+      "RowId": 4506687,
+      "X": 14.776,
+      "Y": 21.2527,
+      "Z": -640.695,
+      "Yaw": 1.34601,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Eginolf",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 10,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 433,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5741,
+          "ItemName": "Coral Pink Dye",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5782,
+          "ItemName": "Adamantoise Green Dye",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5792,
+          "ItemName": "Rhotano Blue Dye",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67896,
+    "QuestTitle": "An Egi by Any Other Name",
+    "PreviousQuestIds": [
+      66632
+    ],
+    "PreviousQuestTitles": [
+      "Primal Burdens"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 520,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68553,
+    "QuestTitle": "If I Had a Glamour",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      68554
+    ],
+    "NextQuestTitles": [
+      "Absolutely Glamourous"
+    ],
+    "StarterNpc": "Swyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 4201198,
+      "X": -441.612,
+      "Y": 23.6667,
+      "Z": -358.969,
+      "Yaw": 1.46828,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Swyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 151,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 12,
+          "Stain": null
+        },
+        {
+          "ItemId": 13258,
+          "ItemName": "Green Beret",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [
+        {
+          "Id": 22,
+          "Name": "Cast Glamour"
+        },
+        {
+          "Id": 25,
+          "Name": "Glamour Plate"
+        }
+      ],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68554,
+    "QuestTitle": "Absolutely Glamourous",
+    "PreviousQuestIds": [
+      68553
+    ],
+    "PreviousQuestTitles": [
+      "If I Had a Glamour"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Swyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 4201198,
+      "X": -441.612,
+      "Y": 23.6667,
+      "Z": -358.969,
+      "Yaw": 1.46828,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Goberin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 152,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7671,
+          "ItemName": "Clear Prism",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70300,
+    "QuestTitle": "A Faerie Tale Come True",
+    "PreviousQuestIds": [
+      66633
+    ],
+    "PreviousQuestTitles": [
+      "Forgotten but Not Gone"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thubyrgeim",
+    "StarterNpcLocation": {
+      "RowId": 2470123,
+      "X": -326.361,
+      "Y": 12.8937,
+      "Z": 10.001,
+      "Yaw": 1.12652,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Thubyrgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 315,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 367,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70723,
+    "QuestTitle": "Bottled Fantasy",
+    "PreviousQuestIds": [
+      66045
+    ],
+    "PreviousQuestTitles": [
+      "The Scions of the Seventh Dawn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "medicine merchant",
+    "StarterNpcLocation": {
+      "RowId": 10824243,
+      "X": 111.187,
+      "Y": 4,
+      "Z": -98.9096,
+      "Yaw": -1.54095,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "medicine merchant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 35,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 105,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6221,
+          "ItemName": "Fantasia",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]
