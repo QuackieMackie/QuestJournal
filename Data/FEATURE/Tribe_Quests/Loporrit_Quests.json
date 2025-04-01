@@ -1,0 +1,1822 @@
+[
+  {
+    "QuestId": 70217,
+    "QuestTitle": "\uE0BE Must Be Dreaming(way)",
+    "PreviousQuestIds": [
+      70055,
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Dream a Little Dream",
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70218
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Incredible Machines"
+    ],
+    "StarterNpc": "Dreamingway",
+    "StarterNpcLocation": {
+      "RowId": 9620042,
+      "X": 23.785,
+      "Y": 2.45338,
+      "Z": -12.6711,
+      "Yaw": -0.532392,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 69,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 101221,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1255,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70218,
+    "QuestTitle": "\uE0BE The Incredible Machines",
+    "PreviousQuestIds": [
+      70217
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Must Be Dreaming(way)"
+    ],
+    "NextQuestIds": [
+      70219
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Too Few Cooks"
+    ],
+    "StarterNpc": "Dreamingway",
+    "StarterNpcLocation": {
+      "RowId": 9527713,
+      "X": -193.896,
+      "Y": -49.1997,
+      "Z": -262.135,
+      "Yaw": 2.38239,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Dreamingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 69,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 101222,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1055,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70219,
+    "QuestTitle": "\uE0BE Too Few Cooks",
+    "PreviousQuestIds": [
+      70218
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Incredible Machines"
+    ],
+    "NextQuestIds": [
+      70220
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Teamwork Makes the Dream Work"
+    ],
+    "StarterNpc": "Dreamingway",
+    "StarterNpcLocation": {
+      "RowId": 9527713,
+      "X": -193.896,
+      "Y": -49.1997,
+      "Z": -262.135,
+      "Yaw": 2.38239,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Dreamingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 69,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 101223,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1215,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37282,
+          "ItemName": "Calamari Ripieni",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70220,
+    "QuestTitle": "\uE0BE Teamwork Makes the Dream Work",
+    "PreviousQuestIds": [
+      70219
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Too Few Cooks"
+    ],
+    "NextQuestIds": [
+      70221
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Million Malms Away"
+    ],
+    "StarterNpc": "Dreamingway",
+    "StarterNpcLocation": {
+      "RowId": 9527713,
+      "X": -193.896,
+      "Y": -49.1997,
+      "Z": -262.135,
+      "Yaw": 2.38239,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Dreamingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 69,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 101224,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1335,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70221,
+    "QuestTitle": "\uE0BE A Million Malms Away",
+    "PreviousQuestIds": [
+      70220
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Teamwork Makes the Dream Work"
+    ],
+    "NextQuestIds": [
+      70222
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Dreams Come True"
+    ],
+    "StarterNpc": "Dreamingway",
+    "StarterNpcLocation": {
+      "RowId": 9527713,
+      "X": -193.896,
+      "Y": -49.1997,
+      "Z": -262.135,
+      "Yaw": 2.38239,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Dreamingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 69,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 101225,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1095,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70222,
+    "QuestTitle": "\uE0BE Dreams Come True",
+    "PreviousQuestIds": [
+      70221
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Million Malms Away"
+    ],
+    "NextQuestIds": [
+      70323
+    ],
+    "NextQuestTitles": [
+      "Dinner and a Show"
+    ],
+    "StarterNpc": "Dreamingway",
+    "StarterNpcLocation": {
+      "RowId": 9527713,
+      "X": -193.896,
+      "Y": -49.1997,
+      "Z": -262.135,
+      "Yaw": 2.38239,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Dreamingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 69,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 101226,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1055,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 252,
+        "EmoteName": "Ear Wiggle"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70223,
+    "QuestTitle": "\uE0BE Don\u0027t Stop the Music",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70224,
+    "QuestTitle": "\uE0BE A Pipe Dream",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70225,
+    "QuestTitle": "\uE0BE Money Makes the Moon Go Round",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70226,
+    "QuestTitle": "\uE0BE Dancing King",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 815,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70227,
+    "QuestTitle": "\uE0BE Pieces of You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70228,
+    "QuestTitle": "\uE0BE Underneath the Starry Lights",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70229,
+    "QuestTitle": "\uE0BE Carrotlight, Carrot Bright",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70230,
+    "QuestTitle": "\uE0BE Pitch Perfect",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70231,
+    "QuestTitle": "\uE0BE Clean Times",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70232,
+    "QuestTitle": "\uE0BE A Sound Endeavor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70233,
+    "QuestTitle": "\uE0BE Prototypical Retrieval",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70234,
+    "QuestTitle": "\uE0BE Always Wear Protection",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70235,
+    "QuestTitle": "\uE0BE Hare-raising Thrills",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70236,
+    "QuestTitle": "\uE0BE Be Carrotful What You Wish For",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 815,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70237,
+    "QuestTitle": "\uE0BE Hungry for Knowledge",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70238,
+    "QuestTitle": "\uE0BE No Chill",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70239,
+    "QuestTitle": "\uE0BE Fungi Frustrations",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70240,
+    "QuestTitle": "\uE0BE For Every Mouth, a Carrot",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70241,
+    "QuestTitle": "\uE0BE Whisks for Whiskers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70242,
+    "QuestTitle": "\uE0BE Sets, Reps, and Loporrits",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70243,
+    "QuestTitle": "\uE0BE Lunar Beats for Hopping",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70244,
+    "QuestTitle": "\uE0BE Most Like It Sparkly",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70245,
+    "QuestTitle": "\uE0BE Spatial Cleanse",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70246,
+    "QuestTitle": "\uE0BE Clean Paws Make Good Artists",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70247,
+    "QuestTitle": "\uE0BE By the Muse Forsaken",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70248,
+    "QuestTitle": "\uE0BE Art Is an Explosion!",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70249,
+    "QuestTitle": "\uE0BE Craft, Craft, Fashion, Baby",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27,
+          "ItemName": "Allied Seal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70250,
+    "QuestTitle": "\uE0BE Sparking Artist",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Managingway",
+    "StarterNpcLocation": {
+      "RowId": 9527714,
+      "X": -203.511,
+      "Y": -48.9497,
+      "Z": -273.609,
+      "Yaw": 1.58068,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Managingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 70,
+      "JournalCategory": {
+        "Id": 50,
+        "Name": "Loporrit Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38952,
+          "ItemName": "Loporrit Carat",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

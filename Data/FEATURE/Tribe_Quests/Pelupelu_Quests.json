@@ -1,0 +1,1809 @@
+[
+  {
+    "QuestId": 70729,
+    "QuestTitle": "\uE0BE An Intrepid New Enterprise",
+    "PreviousQuestIds": [
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail"
+    ],
+    "NextQuestIds": [
+      70730
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Tentative First Tour"
+    ],
+    "StarterNpc": "blue-garbed Pelu",
+    "StarterNpcLocation": {
+      "RowId": 10958602,
+      "X": 12.373,
+      "Y": -14,
+      "Z": 96.1794,
+      "Yaw": 0.263333,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Liplu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 101377,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 278880,
+      "Gil": 1000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 285,
+        "EmoteName": "Ohokaliy"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70730,
+    "QuestTitle": "\uE0BE A Tentative First Tour",
+    "PreviousQuestIds": [
+      70729
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE An Intrepid New Enterprise"
+    ],
+    "NextQuestIds": [
+      70731
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Earthenshire Awaits"
+    ],
+    "StarterNpc": "Liplu",
+    "StarterNpcLocation": {
+      "RowId": 10957890,
+      "X": 822.629,
+      "Y": 17.1026,
+      "Z": -263.203,
+      "Yaw": -0.925317,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Liplu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 101378,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 278880,
+      "Gil": 1000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70731,
+    "QuestTitle": "\uE0BE Earthenshire Awaits",
+    "PreviousQuestIds": [
+      70730
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Tentative First Tour"
+    ],
+    "NextQuestIds": [
+      70732
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Recruitment Drive"
+    ],
+    "StarterNpc": "Liplu",
+    "StarterNpcLocation": {
+      "RowId": 10957890,
+      "X": 822.629,
+      "Y": 17.1026,
+      "Z": -263.203,
+      "Yaw": -0.925317,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Liplu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 101379,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 278880,
+      "Gil": 1000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70732,
+    "QuestTitle": "\uE0BE Recruitment Drive",
+    "PreviousQuestIds": [
+      70731
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Earthenshire Awaits"
+    ],
+    "NextQuestIds": [
+      70733
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Guest from Across the Salt"
+    ],
+    "StarterNpc": "Liplu",
+    "StarterNpcLocation": {
+      "RowId": 10957890,
+      "X": 822.629,
+      "Y": 17.1026,
+      "Z": -263.203,
+      "Yaw": -0.925317,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Liplu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 101380,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 278880,
+      "Gil": 1000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70733,
+    "QuestTitle": "\uE0BE A Guest from Across the Salt",
+    "PreviousQuestIds": [
+      70732
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Recruitment Drive"
+    ],
+    "NextQuestIds": [
+      70734
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Partners in Pel"
+    ],
+    "StarterNpc": "Liplu",
+    "StarterNpcLocation": {
+      "RowId": 10957890,
+      "X": 822.629,
+      "Y": 17.1026,
+      "Z": -263.203,
+      "Yaw": -0.925317,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Tseeya",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 101381,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 278880,
+      "Gil": 1000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70734,
+    "QuestTitle": "\uE0BE Partners in Pel",
+    "PreviousQuestIds": [
+      70733
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Guest from Across the Salt"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Liplu",
+    "StarterNpcLocation": {
+      "RowId": 10957890,
+      "X": 822.629,
+      "Y": 17.1026,
+      "Z": -263.203,
+      "Yaw": -0.925317,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Liplu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 101382,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 278880,
+      "Gil": 885,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70735,
+    "QuestTitle": "\uE0BE A Notion of Promotion",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70736,
+    "QuestTitle": "\uE0BE A Sackful of Memories",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70737,
+    "QuestTitle": "\uE0BE Ferocious Foliage, Fearful Tourists",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70738,
+    "QuestTitle": "\uE0BE Community Outreach in Kozanuakiy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70739,
+    "QuestTitle": "\uE0BE Preventative Measures",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70740,
+    "QuestTitle": "\uE0BE Burden of Beasts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70741,
+    "QuestTitle": "\uE0BE Growing as a Guide",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70742,
+    "QuestTitle": "\uE0BE Bag Your Pardon",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70743,
+    "QuestTitle": "\uE0BE Thrilled to Be Here",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70744,
+    "QuestTitle": "\uE0BE Canvassing in Kozama\u0027uka",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70745,
+    "QuestTitle": "\uE0BE Reed between the Lines",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70746,
+    "QuestTitle": "\uE0BE The Rudiments of Fiend Removal",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 872,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70747,
+    "QuestTitle": "\uE0BE The Nectar Collector",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70748,
+    "QuestTitle": "\uE0BE Starting from Scrap",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70749,
+    "QuestTitle": "\uE0BE Advisor vs. Predator",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70750,
+    "QuestTitle": "\uE0BE Let Mobbie Be Your Guide",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 872,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70751,
+    "QuestTitle": "\uE0BE The Popularity of Punutiys",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70752,
+    "QuestTitle": "\uE0BE Breath of Foul Air",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70753,
+    "QuestTitle": "\uE0BE Big Bellies to Fill",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70754,
+    "QuestTitle": "\uE0BE The Hand That Feeds",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70755,
+    "QuestTitle": "\uE0BE Born to Run Away",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70756,
+    "QuestTitle": "\uE0BE Bird Meat\u0027s Back on the Menu",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70757,
+    "QuestTitle": "\uE0BE A Sympathetic Ear",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70758,
+    "QuestTitle": "\uE0BE Worth the Weight",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70759,
+    "QuestTitle": "\uE0BE In Time for Lunch",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70760,
+    "QuestTitle": "\uE0BE His Swarm Enemy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70761,
+    "QuestTitle": "\uE0BE Seasoned Adventurer",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70762,
+    "QuestTitle": "\uE0BE Animal Friendship",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yubli",
+    "StarterNpcLocation": {
+      "RowId": 10958050,
+      "X": 770.737,
+      "Y": 12.8466,
+      "Z": -263.974,
+      "Yaw": 0.120006,
+      "Radius": 1,
+      "MapId": 858,
+      "TerritoryId": 1188
+    },
+    "FinishNpc": "Yubli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 36,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Pelupelu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44472,
+          "ItemName": "Pelu Pelplume",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

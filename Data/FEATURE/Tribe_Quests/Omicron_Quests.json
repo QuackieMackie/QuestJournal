@@ -1,0 +1,1924 @@
+[
+  {
+    "QuestId": 70137,
+    "QuestTitle": "\uE0BE The Caf\u00E9 at the End of the Universe",
+    "PreviousQuestIds": [
+      69704
+    ],
+    "PreviousQuestTitles": [
+      "Where No Loporrit Has Gone Before"
+    ],
+    "NextQuestIds": [
+      70138
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Longing So for All the Fish"
+    ],
+    "StarterNpc": "Jammingway",
+    "StarterNpcLocation": {
+      "RowId": 9057565,
+      "X": 200.507,
+      "Y": 567.498,
+      "Z": 242.801,
+      "Yaw": 0.729186,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "N-7000",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 67,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 101187,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2244000,
+      "Gil": 1415,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70138,
+    "QuestTitle": "\uE0BE Longing So for All the Fish",
+    "PreviousQuestIds": [
+      70137
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Caf\u00E9 at the End of the Universe"
+    ],
+    "NextQuestIds": [
+      70139
+    ],
+    "NextQuestTitles": [
+      "\uE0BE And Another Question..."
+    ],
+    "StarterNpc": "N-7000",
+    "StarterNpcLocation": {
+      "RowId": 9349737,
+      "X": 303.876,
+      "Y": 481.994,
+      "Z": 154.846,
+      "Yaw": 1.78148,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "N-7000",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 67,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 101188,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2244000,
+      "Gil": 1375,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70139,
+    "QuestTitle": "\uE0BE And Another Question...",
+    "PreviousQuestIds": [
+      70138
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Longing So for All the Fish"
+    ],
+    "NextQuestIds": [
+      70140
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Restaurateur\u0027s Guide to the Dragonstar"
+    ],
+    "StarterNpc": "N-7000",
+    "StarterNpcLocation": {
+      "RowId": 9349737,
+      "X": 303.876,
+      "Y": 481.994,
+      "Z": 154.846,
+      "Yaw": 1.78148,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "N-7000",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 67,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 101189,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2244000,
+      "Gil": 1295,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70140,
+    "QuestTitle": "\uE0BE The Restaurateur\u0027s Guide to the Dragonstar",
+    "PreviousQuestIds": [
+      70139
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE And Another Question..."
+    ],
+    "NextQuestIds": [
+      70141
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Mostly Heartless"
+    ],
+    "StarterNpc": "N-7000",
+    "StarterNpcLocation": {
+      "RowId": 9349737,
+      "X": 303.876,
+      "Y": 481.994,
+      "Z": 154.846,
+      "Yaw": 1.78148,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "N-7000",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 67,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 101190,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2244000,
+      "Gil": 1135,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70141,
+    "QuestTitle": "\uE0BE Mostly Heartless",
+    "PreviousQuestIds": [
+      70140
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Restaurateur\u0027s Guide to the Dragonstar"
+    ],
+    "NextQuestIds": [
+      70142
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Life, the Universe, and Coffee Beans"
+    ],
+    "StarterNpc": "N-7000",
+    "StarterNpcLocation": {
+      "RowId": 9349737,
+      "X": 303.876,
+      "Y": 481.994,
+      "Z": 154.846,
+      "Yaw": 1.78148,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Jammingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 67,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 101191,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2244000,
+      "Gil": 1335,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70142,
+    "QuestTitle": "\uE0BE Life, the Universe, and Coffee Beans",
+    "PreviousQuestIds": [
+      70141
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Mostly Heartless"
+    ],
+    "NextQuestIds": [
+      70323
+    ],
+    "NextQuestTitles": [
+      "Dinner and a Show"
+    ],
+    "StarterNpc": "N-7000",
+    "StarterNpcLocation": {
+      "RowId": 9349737,
+      "X": 303.876,
+      "Y": 481.994,
+      "Z": 154.846,
+      "Yaw": 1.78148,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "N-7000",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 67,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 101192,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2244000,
+      "Gil": 975,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70143,
+    "QuestTitle": "\uE0BE Signs of the Past",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70144,
+    "QuestTitle": "\uE0BE Coffee Talk",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70145,
+    "QuestTitle": "\uE0BE Well Below Standard",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 575,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70146,
+    "QuestTitle": "\uE0BE A Brewing Reputation",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70147,
+    "QuestTitle": "\uE0BE Grounds for Improvement",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 575,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70148,
+    "QuestTitle": "\uE0BE A Fertile Blend",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70149,
+    "QuestTitle": "\uE0BE The Hunger Pangs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70150,
+    "QuestTitle": "\uE0BE The Robot and the Sea",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70151,
+    "QuestTitle": "\uE0BE Using Their Heads",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 575,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70152,
+    "QuestTitle": "\uE0BE Working Up a Thirst",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70153,
+    "QuestTitle": "\uE0BE I\u0027ll Fish It Myself",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70154,
+    "QuestTitle": "\uE0BE Sold Out",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70155,
+    "QuestTitle": "\uE0BE A Grebuloff Out of Water",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70156,
+    "QuestTitle": "\uE0BE A Taste of the Sea",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70157,
+    "QuestTitle": "\uE0BE It\u0027s Electric!",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70158,
+    "QuestTitle": "\uE0BE Ea Epicurious",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70159,
+    "QuestTitle": "\uE0BE I, Omicron",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70160,
+    "QuestTitle": "\uE0BE Guardians of the Galaxy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70161,
+    "QuestTitle": "\uE0BE Corporeal Hand to Proverbial Mouth",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70162,
+    "QuestTitle": "\uE0BE Mush for Miw Miisv",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70163,
+    "QuestTitle": "\uE0BE Corporeal Comforts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70164,
+    "QuestTitle": "\uE0BE Remote Debugging",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70165,
+    "QuestTitle": "\uE0BE A Light in the Dark",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70166,
+    "QuestTitle": "\uE0BE Reclaiming the Taste of Home",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70167,
+    "QuestTitle": "\uE0BE Not Forgotten",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70168,
+    "QuestTitle": "\uE0BE Checking for Cavities",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70169,
+    "QuestTitle": "\uE0BE Brainstorm",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 735,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70170,
+    "QuestTitle": "\uE0BE The Lost World",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stigma-4",
+    "StarterNpcLocation": {
+      "RowId": 9308276,
+      "X": 314.928,
+      "Y": 481.994,
+      "Z": 148.144,
+      "Yaw": 0.18429,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Stigma-4",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 68,
+      "JournalCategory": {
+        "Id": 49,
+        "Name": "Omicron Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 655,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37854,
+          "ItemName": "Omicron Omnitoken",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

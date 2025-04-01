@@ -1,0 +1,2078 @@
+[
+  {
+    "QuestId": 66910,
+    "QuestTitle": "They Came from the Deep",
+    "PreviousQuestIds": [
+      66488
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of the Past"
+    ],
+    "NextQuestIds": [
+      66911
+    ],
+    "NextQuestTitles": [
+      "Clutch and Kin"
+    ],
+    "StarterNpc": "R\u0027ashaht Rhiki",
+    "StarterNpcLocation": {
+      "RowId": 4101423,
+      "X": 97.5204,
+      "Y": 40.238,
+      "Z": 81.1322,
+      "Yaw": -1.59464,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Novv",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 43,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100239,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 729,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66911,
+    "QuestTitle": "Clutch and Kin",
+    "PreviousQuestIds": [
+      66910
+    ],
+    "PreviousQuestTitles": [
+      "They Came from the Deep"
+    ],
+    "NextQuestIds": [
+      66912
+    ],
+    "NextQuestTitles": [
+      "The Scarlet Bloodletter"
+    ],
+    "StarterNpc": "Novv",
+    "StarterNpcLocation": {
+      "RowId": 4618737,
+      "X": -238.024,
+      "Y": -40.8283,
+      "Z": 68.2947,
+      "Yaw": -2.97716,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Novv",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 43,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100240,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 729,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66912,
+    "QuestTitle": "The Scarlet Bloodletter",
+    "PreviousQuestIds": [
+      66911
+    ],
+    "PreviousQuestTitles": [
+      "Clutch and Kin"
+    ],
+    "NextQuestIds": [
+      66913
+    ],
+    "NextQuestTitles": [
+      "Watching the Spawn"
+    ],
+    "StarterNpc": "Novv",
+    "StarterNpcLocation": {
+      "RowId": 4618737,
+      "X": -238.024,
+      "Y": -40.8283,
+      "Z": 68.2947,
+      "Yaw": -2.97716,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Novv",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 43,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100241,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 753,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66913,
+    "QuestTitle": "Watching the Spawn",
+    "PreviousQuestIds": [
+      66912
+    ],
+    "PreviousQuestTitles": [
+      "The Scarlet Bloodletter"
+    ],
+    "NextQuestIds": [
+      66914
+    ],
+    "NextQuestTitles": [
+      "Like Clutchfather, Like Son"
+    ],
+    "StarterNpc": "Novv",
+    "StarterNpcLocation": {
+      "RowId": 4618737,
+      "X": -238.024,
+      "Y": -40.8283,
+      "Z": 68.2947,
+      "Yaw": -2.97716,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Novv",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 43,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100242,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 776,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66914,
+    "QuestTitle": "Like Clutchfather, Like Son",
+    "PreviousQuestIds": [
+      66913
+    ],
+    "PreviousQuestTitles": [
+      "Watching the Spawn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Novv",
+    "StarterNpcLocation": {
+      "RowId": 4618737,
+      "X": -238.024,
+      "Y": -40.8283,
+      "Z": 68.2947,
+      "Yaw": -2.97716,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "R\u0027ashaht Rhiki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 43,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100243,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 1184,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66915,
+    "QuestTitle": "A Killer Strategy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66916,
+    "QuestTitle": "Standard Procedure",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66917,
+    "QuestTitle": "Enemy at the Tidegates",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66918,
+    "QuestTitle": "A Taste for Paste",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66919,
+    "QuestTitle": "Spawning Ground Salvation",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66920,
+    "QuestTitle": "A Quick Snip",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66921,
+    "QuestTitle": "Violence of the Clams",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66922,
+    "QuestTitle": "Wind from Their Sails",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66923,
+    "QuestTitle": "A Crate-ful Response",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66924,
+    "QuestTitle": "Skullduggery",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyuu",
+    "StarterNpcLocation": {
+      "RowId": 4618738,
+      "X": -220.716,
+      "Y": -40.7197,
+      "Z": 37.2728,
+      "Yaw": 2.93255,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Fyuu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66926,
+    "QuestTitle": "Move Along, Nothing to Heal Here",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66927,
+    "QuestTitle": "Ain\u0027t Got Time to Breed",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66928,
+    "QuestTitle": "Get a Lode of This",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66929,
+    "QuestTitle": "Ballista Bust-up",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66930,
+    "QuestTitle": "Better Ash than Blood",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66931,
+    "QuestTitle": "Put a Shhhock in It",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66932,
+    "QuestTitle": "Clutchfather Knows Best",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 27,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66933,
+    "QuestTitle": "A Nap Before Drowning",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 28,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66934,
+    "QuestTitle": "In the Shadow of the Moon",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 26,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66935,
+    "QuestTitle": "Learn by Destroying",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Houu",
+    "StarterNpcLocation": {
+      "RowId": 4618746,
+      "X": -247.703,
+      "Y": -42.0895,
+      "Z": 52.0461,
+      "Yaw": 2.88794,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Houu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 29,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66936,
+    "QuestTitle": "Tines of the Trident",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 30,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66937,
+    "QuestTitle": "Shellfish Schemes",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 33,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66938,
+    "QuestTitle": "An Enthralling Engagement",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 31,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66939,
+    "QuestTitle": "Up in Shhhmoke",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 34,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66940,
+    "QuestTitle": "Reaving in a Hurry",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 32,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66941,
+    "QuestTitle": "The Tail\u0027s the Best Part",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 35,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66942,
+    "QuestTitle": "Unfair Trading",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 36,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66943,
+    "QuestTitle": "Sea Scraps",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 37,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66944,
+    "QuestTitle": "Plunder Fire",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 38,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66945,
+    "QuestTitle": "Removing the Stain",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seww",
+    "StarterNpcLocation": {
+      "RowId": 4618748,
+      "X": -226.115,
+      "Y": -40.4858,
+      "Z": 57.1024,
+      "Yaw": -2.44262,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Seww",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 44,
+      "JournalCategory": {
+        "Id": 37,
+        "Name": "Sahagin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 39,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21077,
+          "ItemName": "Rainbowtide Psashp",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

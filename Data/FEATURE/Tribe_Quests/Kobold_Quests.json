@@ -1,0 +1,2078 @@
+[
+  {
+    "QuestId": 66856,
+    "QuestTitle": "Highway Robbery",
+    "PreviousQuestIds": [
+      66488
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of the Past"
+    ],
+    "NextQuestIds": [
+      66857
+    ],
+    "NextQuestTitles": [
+      "How Low Can You Go"
+    ],
+    "StarterNpc": "Trachraet",
+    "StarterNpcLocation": {
+      "RowId": 4167110,
+      "X": 76.872,
+      "Y": 39.9963,
+      "Z": 79.0158,
+      "Yaw": -2.14534,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "789th Order Pickman Gi Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 41,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100234,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5500,
+      "Gil": 691,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66857,
+    "QuestTitle": "How Low Can You Go",
+    "PreviousQuestIds": [
+      66856
+    ],
+    "PreviousQuestTitles": [
+      "Highway Robbery"
+    ],
+    "NextQuestIds": [
+      66858
+    ],
+    "NextQuestTitles": [
+      "No-good Zo Ga\u0027s Ambition"
+    ],
+    "StarterNpc": "789th Order Pickman Gi Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618729,
+      "X": -2.8502,
+      "Y": 16.0394,
+      "Z": -172.493,
+      "Yaw": 1.30075,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Pickman Gi Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 41,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100235,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5500,
+      "Gil": 691,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66858,
+    "QuestTitle": "No-good Zo Ga\u0027s Ambition",
+    "PreviousQuestIds": [
+      66857
+    ],
+    "PreviousQuestTitles": [
+      "How Low Can You Go"
+    ],
+    "NextQuestIds": [
+      66859
+    ],
+    "NextQuestTitles": [
+      "The Kobold and the Beautiful"
+    ],
+    "StarterNpc": "789th Order Pickman Gi Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618729,
+      "X": -2.8502,
+      "Y": 16.0394,
+      "Z": -172.493,
+      "Yaw": 1.30075,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Pickman Gi Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 41,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100236,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 729,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66859,
+    "QuestTitle": "The Kobold and the Beautiful",
+    "PreviousQuestIds": [
+      66858
+    ],
+    "PreviousQuestTitles": [
+      "No-good Zo Ga\u0027s Ambition"
+    ],
+    "NextQuestIds": [
+      66860
+    ],
+    "NextQuestTitles": [
+      "Revenge of the Furred"
+    ],
+    "StarterNpc": "Skaetswys",
+    "StarterNpcLocation": {
+      "RowId": 4618728,
+      "X": 0.80337,
+      "Y": 16.1817,
+      "Z": -171.486,
+      "Yaw": -1.82865,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Skaetswys",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 41,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100237,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 776,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66860,
+    "QuestTitle": "Revenge of the Furred",
+    "PreviousQuestIds": [
+      66859
+    ],
+    "PreviousQuestTitles": [
+      "The Kobold and the Beautiful"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Pickman Gi Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618729,
+      "X": -2.8502,
+      "Y": 16.0394,
+      "Z": -172.493,
+      "Yaw": 1.30075,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Trachraet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 41,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100238,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 1184,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66861,
+    "QuestTitle": "Rubbish for Refuse",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66862,
+    "QuestTitle": "No Such Thing as a Free Lunch",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66863,
+    "QuestTitle": "Finger Licking Good",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66864,
+    "QuestTitle": "Battle of the Bottom-feeders",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66865,
+    "QuestTitle": "Mothers of All Bombs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66866,
+    "QuestTitle": "Know Your Place",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66867,
+    "QuestTitle": "Misery Loves Company",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66868,
+    "QuestTitle": "Ill-gotten Gains",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66869,
+    "QuestTitle": "Hells Have No Fury",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66870,
+    "QuestTitle": "Bo Zu\u0027s Blown Cover",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Zu",
+    "StarterNpcLocation": {
+      "RowId": 4618734,
+      "X": 7.10241,
+      "Y": 16.1677,
+      "Z": -188.669,
+      "Yaw": 1.58426,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Zu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4125,
+      "Gil": 360,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66871,
+    "QuestTitle": "Ambushing the Assessors",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66872,
+    "QuestTitle": "The Lode Warrior",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 27,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66873,
+    "QuestTitle": "Armed and Dangerous",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66874,
+    "QuestTitle": "Too Hot to Handle",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66875,
+    "QuestTitle": "Operation Riffraff",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 28,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66876,
+    "QuestTitle": "The Sly Salvages",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66877,
+    "QuestTitle": "Belles of the Ball",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66878,
+    "QuestTitle": "Contents Unknown",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66879,
+    "QuestTitle": "Brain Buster",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 26,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66880,
+    "QuestTitle": "A Dangerous Delivery",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Craftsman Bo Gu",
+    "StarterNpcLocation": {
+      "RowId": 4618735,
+      "X": 21.5615,
+      "Y": 16.3426,
+      "Z": -183.743,
+      "Yaw": 1.14883,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Craftsman Bo Gu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 29,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4372,
+      "Gil": 540,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66900,
+    "QuestTitle": "A Coblyn Catastrophe",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 37,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66901,
+    "QuestTitle": "Friends in Low Places",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 30,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66902,
+    "QuestTitle": "Glutton for Punishment",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 33,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66903,
+    "QuestTitle": "Genius at Work",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 31,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66904,
+    "QuestTitle": "Fulminating Furnaces",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 34,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66905,
+    "QuestTitle": "A Meal Fit for a Fugleman",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 35,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66906,
+    "QuestTitle": "Spread the Wealth",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 36,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66907,
+    "QuestTitle": "Ba Go\u0027s Behest",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 32,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66908,
+    "QuestTitle": "Wrath of the Roundsman",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 38,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66909,
+    "QuestTitle": "Angry Angry Acolyte",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "789th Order Dustman Bo Bu",
+    "StarterNpcLocation": {
+      "RowId": 4618736,
+      "X": 12.5763,
+      "Y": 16.1627,
+      "Z": -176.56,
+      "Yaw": 1.77495,
+      "Radius": 1.5,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "789th Order Dustman Bo Bu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 42,
+      "JournalCategory": {
+        "Id": 36,
+        "Name": "Kobold Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 39,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21078,
+          "ItemName": "Titan Cobaltpiece",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,1810 @@
+[
+  {
+    "QuestId": 68572,
+    "QuestTitle": "\uE0BE Brooding Broodmother",
+    "PreviousQuestIds": [
+      68364
+    ],
+    "PreviousQuestTitles": [
+      "The Rose Blooms Twice"
+    ],
+    "NextQuestIds": [
+      68573
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Griffins Rampant"
+    ],
+    "StarterNpc": "M\u0027rahz Nunh",
+    "StarterNpcLocation": {
+      "RowId": 6904630,
+      "X": 440.142,
+      "Y": 114.254,
+      "Z": 212.865,
+      "Yaw": 0.153657,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Alpa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 55,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100747,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1158,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68573,
+    "QuestTitle": "\uE0BE Griffins Rampant",
+    "PreviousQuestIds": [
+      68572
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Brooding Broodmother"
+    ],
+    "NextQuestIds": [
+      68574
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Chance of Gales"
+    ],
+    "StarterNpc": "Alpa",
+    "StarterNpcLocation": {
+      "RowId": 7186843,
+      "X": 12.0379,
+      "Y": 55.9548,
+      "Z": 237.965,
+      "Yaw": -0.478305,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Alpa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 55,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100748,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1681,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68574,
+    "QuestTitle": "\uE0BE Chance of Gales",
+    "PreviousQuestIds": [
+      68573
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Griffins Rampant"
+    ],
+    "NextQuestIds": [
+      68575
+    ],
+    "NextQuestTitles": [
+      "\uE0BE It Can Be Cruel Sometimes"
+    ],
+    "StarterNpc": "Alpa",
+    "StarterNpcLocation": {
+      "RowId": 7186843,
+      "X": 12.0379,
+      "Y": 55.9548,
+      "Z": 237.965,
+      "Yaw": -0.478305,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Gales",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 55,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100749,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1585,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68575,
+    "QuestTitle": "\uE0BE It Can Be Cruel Sometimes",
+    "PreviousQuestIds": [
+      68574
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Chance of Gales"
+    ],
+    "NextQuestIds": [
+      68576
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Schism between Sisters"
+    ],
+    "StarterNpc": "Alpa",
+    "StarterNpcLocation": {
+      "RowId": 7186843,
+      "X": 12.0379,
+      "Y": 55.9548,
+      "Z": 237.965,
+      "Yaw": -0.478305,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Alpa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 55,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100750,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1523,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68576,
+    "QuestTitle": "\uE0BE Schism between Sisters",
+    "PreviousQuestIds": [
+      68575
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE It Can Be Cruel Sometimes"
+    ],
+    "NextQuestIds": [
+      68577
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Celebratory Smorgasbord"
+    ],
+    "StarterNpc": "Alpa",
+    "StarterNpcLocation": {
+      "RowId": 7186843,
+      "X": 12.0379,
+      "Y": 55.9548,
+      "Z": 237.965,
+      "Yaw": -0.478305,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Alpa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 55,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100751,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 2045,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68577,
+    "QuestTitle": "\uE0BE Celebratory Smorgasbord",
+    "PreviousQuestIds": [
+      68576
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Schism between Sisters"
+    ],
+    "NextQuestIds": [
+      68697
+    ],
+    "NextQuestTitles": [
+      "The Ananta Maid\u0027s Tail"
+    ],
+    "StarterNpc": "Alpa",
+    "StarterNpcLocation": {
+      "RowId": 7186843,
+      "X": 12.0379,
+      "Y": 55.9548,
+      "Z": 237.965,
+      "Yaw": -0.478305,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Alpa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 55,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 100752,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1075,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68578,
+    "QuestTitle": "\uE0BE Have I Got News for You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68579,
+    "QuestTitle": "\uE0BE A Real Fixer-upper",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68580,
+    "QuestTitle": "\uE0BE A Sluggish Endeavor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68581,
+    "QuestTitle": "\uE0BE Deep-rooted Problems",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 9,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68582,
+    "QuestTitle": "\uE0BE Beating the Heat",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68583,
+    "QuestTitle": "\uE0BE Out for Delivery",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68584,
+    "QuestTitle": "\uE0BE A Bit of Home Cooking",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68585,
+    "QuestTitle": "\uE0BE Snack between Meals",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68586,
+    "QuestTitle": "\uE0BE A Signal for the Senses",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68587,
+    "QuestTitle": "\uE0BE Criminal Crossings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68588,
+    "QuestTitle": "\uE0BE When Feathers Fly",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68589,
+    "QuestTitle": "\uE0BE Sparring Lesson",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68590,
+    "QuestTitle": "\uE0BE Funnel and Games",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68591,
+    "QuestTitle": "\uE0BE A Swarm Welcome",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68592,
+    "QuestTitle": "\uE0BE Keeping an Eye off Things",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68593,
+    "QuestTitle": "\uE0BE Bhoot Camps",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 28,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68594,
+    "QuestTitle": "\uE0BE The Very Hungry Marid",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 745,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68595,
+    "QuestTitle": "\uE0BE The Antlion\u0027s Share",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68596,
+    "QuestTitle": "\uE0BE Hearts of Precious Stone",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68597,
+    "QuestTitle": "\uE0BE Ants in the Pants",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68598,
+    "QuestTitle": "\uE0BE Up Sheet Creek",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 26,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68599,
+    "QuestTitle": "\uE0BE Let There Be Lard",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 27,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68600,
+    "QuestTitle": "\uE0BE Thin-skinned",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 29,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68601,
+    "QuestTitle": "\uE0BE A Delicate Operation",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 30,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68602,
+    "QuestTitle": "\uE0BE A Business Proposal",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 31,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68603,
+    "QuestTitle": "\uE0BE For Fast, Temporary Relief",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 32,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68604,
+    "QuestTitle": "\uE0BE Soothing the Sting",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 33,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68605,
+    "QuestTitle": "\uE0BE Catching and Fletching",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eshana",
+    "StarterNpcLocation": {
+      "RowId": 7186922,
+      "X": -28.3347,
+      "Y": 56.0215,
+      "Z": 236.28,
+      "Yaw": 2.64791,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Eshana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 56,
+      "JournalCategory": {
+        "Id": 43,
+        "Name": "Ananta Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 34,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21935,
+          "ItemName": "Ananta Dreamstaff",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

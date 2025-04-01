@@ -1,0 +1,2270 @@
+[
+  {
+    "QuestId": 69330,
+    "QuestTitle": "\uE0BE The Stewards of Note",
+    "PreviousQuestIds": [
+      68877,
+      69018
+    ],
+    "PreviousQuestTitles": [
+      "Bearing with It",
+      "\uE0BE Protectors of the Wood"
+    ],
+    "NextQuestIds": [
+      69331
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Wisdom of the Night"
+    ],
+    "StarterNpc": "concerned mother",
+    "StarterNpcLocation": {
+      "RowId": 8267968,
+      "X": -22.8772,
+      "Y": -25.2077,
+      "Z": 310.629,
+      "Yaw": 2.55026,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100967,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1153,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69331,
+    "QuestTitle": "\uE0BE Wisdom of the Night",
+    "PreviousQuestIds": [
+      69330
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Stewards of Note"
+    ],
+    "NextQuestIds": [
+      69336,
+      69337
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The First Stela: Of Ronkan Might",
+      "\uE0BE The First Stela: Of Ronkan Benevolence"
+    ],
+    "StarterNpc": "Chaqurl Qhotl",
+    "StarterNpcLocation": {
+      "RowId": 8267959,
+      "X": 802.793,
+      "Y": -45.9175,
+      "Z": -218.565,
+      "Yaw": -1.19658,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100968,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1080000,
+      "Gil": 898,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69332,
+    "QuestTitle": "\uE0BE Delving Deeper",
+    "PreviousQuestIds": [
+      69336,
+      69337
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The First Stela: Of Ronkan Might",
+      "\uE0BE The First Stela: Of Ronkan Benevolence"
+    ],
+    "NextQuestIds": [
+      69338,
+      69339
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Second Stela: The Hunters and the Hunted",
+      "\uE0BE The Second Stela: Fast Friends"
+    ],
+    "StarterNpc": "Qitari serpent",
+    "StarterNpcLocation": {
+      "RowId": 8267964,
+      "X": 803.806,
+      "Y": -45.9245,
+      "Z": -217.916,
+      "Yaw": -1.29447,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100969,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1080000,
+      "Gil": 1007,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69333,
+    "QuestTitle": "\uE0BE A Chilling Fate",
+    "PreviousQuestIds": [
+      69338,
+      69339
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Second Stela: The Hunters and the Hunted",
+      "\uE0BE The Second Stela: Fast Friends"
+    ],
+    "NextQuestIds": [
+      69340,
+      69341
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Third Stela: A Famine for Fishmen",
+      "\uE0BE The Third Stela: A Feast for Fishmen"
+    ],
+    "StarterNpc": "Qitari serpent",
+    "StarterNpcLocation": {
+      "RowId": 8267964,
+      "X": 803.806,
+      "Y": -45.9245,
+      "Z": -217.916,
+      "Yaw": -1.29447,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 8,
+    "Icon": 100970,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1080000,
+      "Gil": 898,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69334,
+    "QuestTitle": "\uE0BE What Ails the Forest",
+    "PreviousQuestIds": [
+      69340,
+      69341
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Third Stela: A Famine for Fishmen",
+      "\uE0BE The Third Stela: A Feast for Fishmen"
+    ],
+    "NextQuestIds": [
+      69335
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Glory Be to the Scree"
+    ],
+    "StarterNpc": "Qitari serpent",
+    "StarterNpcLocation": {
+      "RowId": 8267964,
+      "X": 803.806,
+      "Y": -45.9245,
+      "Z": -217.916,
+      "Yaw": -1.29447,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qitarl Natl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 8,
+    "Icon": 100971,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1262,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69335,
+    "QuestTitle": "\uE0BE Glory Be to the Scree",
+    "PreviousQuestIds": [
+      69334
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE What Ails the Forest"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Chaqurl Qhotl",
+    "StarterNpcLocation": {
+      "RowId": 8267959,
+      "X": 802.793,
+      "Y": -45.9175,
+      "Z": -218.565,
+      "Yaw": -1.19658,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qitarl Natl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 8,
+    "Icon": 100972,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1007,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69336,
+    "QuestTitle": "\uE0BE The First Stela: Of Ronkan Might",
+    "PreviousQuestIds": [
+      69331
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Wisdom of the Night"
+    ],
+    "NextQuestIds": [
+      69332
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Delving Deeper"
+    ],
+    "StarterNpc": "Qitarl Natl",
+    "StarterNpcLocation": {
+      "RowId": 8267960,
+      "X": 804.412,
+      "Y": -45.9255,
+      "Z": -216.413,
+      "Yaw": -1.26324,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qitarl Natl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100973,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 270000,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69337,
+    "QuestTitle": "\uE0BE The First Stela: Of Ronkan Benevolence",
+    "PreviousQuestIds": [
+      69331
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Wisdom of the Night"
+    ],
+    "NextQuestIds": [
+      69332
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Delving Deeper"
+    ],
+    "StarterNpc": "Chaqurl Qhotl",
+    "StarterNpcLocation": {
+      "RowId": 8267959,
+      "X": 802.793,
+      "Y": -45.9175,
+      "Z": -218.565,
+      "Yaw": -1.19658,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100974,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 270000,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69338,
+    "QuestTitle": "\uE0BE The Second Stela: The Hunters and the Hunted",
+    "PreviousQuestIds": [
+      69332
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Delving Deeper"
+    ],
+    "NextQuestIds": [
+      69333
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Chilling Fate"
+    ],
+    "StarterNpc": "Qitarl Natl",
+    "StarterNpcLocation": {
+      "RowId": 8267960,
+      "X": 804.412,
+      "Y": -45.9255,
+      "Z": -216.413,
+      "Yaw": -1.26324,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qitarl Natl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 100973,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 270000,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69339,
+    "QuestTitle": "\uE0BE The Second Stela: Fast Friends",
+    "PreviousQuestIds": [
+      69332
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Delving Deeper"
+    ],
+    "NextQuestIds": [
+      69333
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Chilling Fate"
+    ],
+    "StarterNpc": "Chaqurl Qhotl",
+    "StarterNpcLocation": {
+      "RowId": 8267959,
+      "X": 802.793,
+      "Y": -45.9175,
+      "Z": -218.565,
+      "Yaw": -1.19658,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 8,
+    "Icon": 100974,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 270000,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69340,
+    "QuestTitle": "\uE0BE The Third Stela: A Famine for Fishmen",
+    "PreviousQuestIds": [
+      69333
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Chilling Fate"
+    ],
+    "NextQuestIds": [
+      69334
+    ],
+    "NextQuestTitles": [
+      "\uE0BE What Ails the Forest"
+    ],
+    "StarterNpc": "Qitarl Natl",
+    "StarterNpcLocation": {
+      "RowId": 8267960,
+      "X": 804.412,
+      "Y": -45.9255,
+      "Z": -216.413,
+      "Yaw": -1.26324,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qitarl Natl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 9,
+    "EventIcon": 8,
+    "Icon": 100973,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 270000,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69341,
+    "QuestTitle": "\uE0BE The Third Stela: A Feast for Fishmen",
+    "PreviousQuestIds": [
+      69333
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Chilling Fate"
+    ],
+    "NextQuestIds": [
+      69334
+    ],
+    "NextQuestTitles": [
+      "\uE0BE What Ails the Forest"
+    ],
+    "StarterNpc": "Chaqurl Qhotl",
+    "StarterNpcLocation": {
+      "RowId": 8267959,
+      "X": 802.793,
+      "Y": -45.9175,
+      "Z": -218.565,
+      "Yaw": -1.19658,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Chaqurl Qhotl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 61,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 8,
+    "Icon": 100974,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 270000,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69342,
+    "QuestTitle": "\uE0BE A Tool\u0027s Errand",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69343,
+    "QuestTitle": "\uE0BE Where the Sun Don\u0027t Shine",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69344,
+    "QuestTitle": "\uE0BE A Touch of Home",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69345,
+    "QuestTitle": "\uE0BE Mother\u0027s Recipe",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69346,
+    "QuestTitle": "\uE0BE Power to the Vegetables",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69347,
+    "QuestTitle": "\uE0BE Rational Thinking",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69348,
+    "QuestTitle": "\uE0BE Making Scents",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69349,
+    "QuestTitle": "\uE0BE Marks of Friendship",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69350,
+    "QuestTitle": "\uE0BE Prayers and Poison",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69351,
+    "QuestTitle": "\uE0BE Salve Our Souls",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69352,
+    "QuestTitle": "\uE0BE Rings of Pattern",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69353,
+    "QuestTitle": "\uE0BE You Dirty Rats",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69354,
+    "QuestTitle": "\uE0BE If It\u0027s Broke, Fix It",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69355,
+    "QuestTitle": "\uE0BE La-hee",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69356,
+    "QuestTitle": "\uE0BE The Qitari Book of Records",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69357,
+    "QuestTitle": "\uE0BE Meat and Greet",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69358,
+    "QuestTitle": "\uE0BE I Have Never Exploded",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69359,
+    "QuestTitle": "\uE0BE By the Power Invested in Scree",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69360,
+    "QuestTitle": "\uE0BE Rock \u0027n Ronka",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69361,
+    "QuestTitle": "\uE0BE There\u0027s No Clean Like Qhoterl Clean",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69362,
+    "QuestTitle": "\uE0BE Legends of the Ronkan Temple",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69363,
+    "QuestTitle": "\uE0BE Her Splendid Materials",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69364,
+    "QuestTitle": "\uE0BE Splendid Eats",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69365,
+    "QuestTitle": "\uE0BE Eggspotting",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69366,
+    "QuestTitle": "\uE0BE Safety Is No Accident",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69367,
+    "QuestTitle": "\uE0BE One Fish, Two Fish, Bread Fish, Stew Fish",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69368,
+    "QuestTitle": "\uE0BE Serpent\u0027s Will Be Done",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69369,
+    "QuestTitle": "\uE0BE Qhoterl\u0027s Chronicles",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qhoterl Pasol",
+    "StarterNpcLocation": {
+      "RowId": 8261555,
+      "X": 787.025,
+      "Y": -45.8534,
+      "Z": -218.554,
+      "Yaw": -0.655675,
+      "Radius": 1,
+      "MapId": 495,
+      "TerritoryId": 817
+    },
+    "FinishNpc": "Qhoterl Pasol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 62,
+      "JournalCategory": {
+        "Id": 46,
+        "Name": "Qitari Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28187,
+          "ItemName": "Qitari Compliment",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

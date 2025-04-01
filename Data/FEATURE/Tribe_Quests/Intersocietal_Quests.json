@@ -1,0 +1,1034 @@
+[
+  {
+    "QuestId": 67001,
+    "QuestTitle": "Call of the Wild (Twin Adder)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67004
+    ],
+    "NextQuestTitles": [
+      "Little Sylphs Lost"
+    ],
+    "StarterNpc": "Scarlet",
+    "StarterNpcLocation": {
+      "RowId": 4760560,
+      "X": -63.767,
+      "Y": -1.71717,
+      "Z": 11.6794,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Gavin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 525,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67002,
+    "QuestTitle": "Call of the Wild (Maelstrom)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67004
+    ],
+    "NextQuestTitles": [
+      "Little Sylphs Lost"
+    ],
+    "StarterNpc": "Trachraet",
+    "StarterNpcLocation": {
+      "RowId": 4167110,
+      "X": 76.872,
+      "Y": 39.9963,
+      "Z": 79.0158,
+      "Yaw": -2.14534,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Gavin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 525,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67003,
+    "QuestTitle": "Call of the Wild (Immortal Flames)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67004
+    ],
+    "NextQuestTitles": [
+      "Little Sylphs Lost"
+    ],
+    "StarterNpc": "Mimio Mio",
+    "StarterNpcLocation": {
+      "RowId": 2494993,
+      "X": -130.938,
+      "Y": 4.09965,
+      "Z": -91.0201,
+      "Yaw": 1.08277,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Gavin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 525,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67004,
+    "QuestTitle": "Little Sylphs Lost",
+    "PreviousQuestIds": [
+      67001,
+      67002,
+      67003
+    ],
+    "PreviousQuestTitles": [
+      "Call of the Wild (Twin Adder)",
+      "Call of the Wild (Maelstrom)",
+      "Call of the Wild (Immortal Flames)"
+    ],
+    "NextQuestIds": [
+      67005
+    ],
+    "NextQuestTitles": [
+      "Clutching at Straws"
+    ],
+    "StarterNpc": "Gavin",
+    "StarterNpcLocation": {
+      "RowId": 1369401,
+      "X": -56.7508,
+      "Y": -1.71721,
+      "Z": 7.90794,
+      "Yaw": 0.994869,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Voyce",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 1,
+    "Icon": 100266,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 760,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67005,
+    "QuestTitle": "Clutching at Straws",
+    "PreviousQuestIds": [
+      67004
+    ],
+    "PreviousQuestTitles": [
+      "Little Sylphs Lost"
+    ],
+    "NextQuestIds": [
+      67006
+    ],
+    "NextQuestTitles": [
+      "Digging for Answers"
+    ],
+    "StarterNpc": "Voyce",
+    "StarterNpcLocation": {
+      "RowId": 4494860,
+      "X": 22.4921,
+      "Y": -6.20406,
+      "Z": 252.559,
+      "Yaw": -2.24841,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Novv",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 1,
+    "Icon": 100267,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1502,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67006,
+    "QuestTitle": "Digging for Answers",
+    "PreviousQuestIds": [
+      67005
+    ],
+    "PreviousQuestTitles": [
+      "Clutching at Straws"
+    ],
+    "NextQuestIds": [
+      67007
+    ],
+    "NextQuestTitles": [
+      "Rattled in Ehcatl"
+    ],
+    "StarterNpc": "Novv",
+    "StarterNpcLocation": {
+      "RowId": 4618737,
+      "X": -238.024,
+      "Y": -40.8283,
+      "Z": 68.2947,
+      "Yaw": -2.97716,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Skaetswys",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 1,
+    "Icon": 100268,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1190,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67007,
+    "QuestTitle": "Rattled in Ehcatl",
+    "PreviousQuestIds": [
+      67006
+    ],
+    "PreviousQuestTitles": [
+      "Digging for Answers"
+    ],
+    "NextQuestIds": [
+      67008
+    ],
+    "NextQuestTitles": [
+      "Ash Not What Your Brotherhood Can Do for You"
+    ],
+    "StarterNpc": "Skaetswys",
+    "StarterNpcLocation": {
+      "RowId": 4618728,
+      "X": 0.80337,
+      "Y": 16.1817,
+      "Z": -171.486,
+      "Yaw": -1.82865,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Tataramu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 1,
+    "Icon": 100269,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1024,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67008,
+    "QuestTitle": "Ash Not What Your Brotherhood Can Do for You",
+    "PreviousQuestIds": [
+      67007
+    ],
+    "PreviousQuestTitles": [
+      "Rattled in Ehcatl"
+    ],
+    "NextQuestIds": [
+      67009
+    ],
+    "NextQuestTitles": [
+      "Friends Forever"
+    ],
+    "StarterNpc": "Tataramu",
+    "StarterNpcLocation": {
+      "RowId": 4753819,
+      "X": 151.958,
+      "Y": -18.4194,
+      "Z": 100.727,
+      "Yaw": -0.90881,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Hamujj Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 1,
+    "Icon": 100270,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1161,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67009,
+    "QuestTitle": "Friends Forever",
+    "PreviousQuestIds": [
+      67008
+    ],
+    "PreviousQuestTitles": [
+      "Ash Not What Your Brotherhood Can Do for You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hamujj Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496986,
+      "X": 122.606,
+      "Y": 16.3853,
+      "Z": -362.085,
+      "Yaw": -1.51364,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Sylvie",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 71,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "A Realm Reborn Allied Society Quests"
+    },
+    "SortKey": 9,
+    "EventIcon": 1,
+    "Icon": 100271,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8562,
+          "ItemName": "Sable Death Mask",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67918,
+    "QuestTitle": "When Good Dragons Go Bad",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67919
+    ],
+    "NextQuestTitles": [
+      "Who Was That Masked Man"
+    ],
+    "StarterNpc": "Drydox",
+    "StarterNpcLocation": {
+      "RowId": 5864095,
+      "X": 43.0156,
+      "Y": 206.033,
+      "Z": 56.5204,
+      "Yaw": -1.90625,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Master Mogzin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 72,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Heavensward Allied Society Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 1,
+    "Icon": 100600,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1098,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67919,
+    "QuestTitle": "Who Was That Masked Man",
+    "PreviousQuestIds": [
+      67918
+    ],
+    "PreviousQuestTitles": [
+      "When Good Dragons Go Bad"
+    ],
+    "NextQuestIds": [
+      67920
+    ],
+    "NextQuestTitles": [
+      "Lift Me to the Moon"
+    ],
+    "StarterNpc": "Master Mogzin",
+    "StarterNpcLocation": {
+      "RowId": 6323298,
+      "X": -342.123,
+      "Y": 59.038,
+      "Z": 315.145,
+      "Yaw": 0.947883,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Jantellot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 72,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Heavensward Allied Society Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 1,
+    "Icon": 100601,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 935,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67920,
+    "QuestTitle": "Lift Me to the Moon",
+    "PreviousQuestIds": [
+      67919
+    ],
+    "PreviousQuestTitles": [
+      "Who Was That Masked Man"
+    ],
+    "NextQuestIds": [
+      67921
+    ],
+    "NextQuestTitles": [
+      "Eternity, Loyalty, Honesty"
+    ],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6502533,
+      "X": -287.319,
+      "Y": 126.775,
+      "Z": 3.37713,
+      "Yaw": 2.69573,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Vath deftarm",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 72,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Heavensward Allied Society Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 1,
+    "Icon": 100602,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1430,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67921,
+    "QuestTitle": "Eternity, Loyalty, Honesty",
+    "PreviousQuestIds": [
+      67920
+    ],
+    "PreviousQuestTitles": [
+      "Lift Me to the Moon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6502551,
+      "X": -793.774,
+      "Y": -133.27,
+      "Z": -412.66,
+      "Yaw": -0.34992,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 72,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Heavensward Allied Society Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 1,
+    "Icon": 100603,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 145,
+        "EmoteName": "Moonlift Dance"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68697,
+    "QuestTitle": "The Ananta Maid\u0027s Tail",
+    "PreviousQuestIds": [
+      68514,
+      68577,
+      68638
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE True-blue",
+      "\uE0BE Celebratory Smorgasbord",
+      "\uE0BE Disciples of Creation"
+    ],
+    "NextQuestIds": [
+      68698
+    ],
+    "NextQuestTitles": [
+      "Ruby Seas under Ruby Skies"
+    ],
+    "StarterNpc": "East Aldenard Trading Company assistant",
+    "StarterNpcLocation": {
+      "RowId": 7629591,
+      "X": 94.2322,
+      "Y": 12,
+      "Z": -72.543,
+      "Yaw": -0.888785,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "M\u0027zhet Tia",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 73,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Stormblood Allied Society Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 1,
+    "Icon": 100836,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1372,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68698,
+    "QuestTitle": "Ruby Seas under Ruby Skies",
+    "PreviousQuestIds": [
+      68697
+    ],
+    "PreviousQuestTitles": [
+      "The Ananta Maid\u0027s Tail"
+    ],
+    "NextQuestIds": [
+      68699
+    ],
+    "NextQuestTitles": [
+      "Fish in a Barrel"
+    ],
+    "StarterNpc": "J\u0027olhmyn",
+    "StarterNpcLocation": {
+      "RowId": 7630179,
+      "X": -82.401,
+      "Y": -2.99999,
+      "Z": 62.4265,
+      "Yaw": -1.3502,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "J\u0027olhmyn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 73,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Stormblood Allied Society Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 1,
+    "Icon": 100837,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 934,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68699,
+    "QuestTitle": "Fish in a Barrel",
+    "PreviousQuestIds": [
+      68698
+    ],
+    "PreviousQuestTitles": [
+      "Ruby Seas under Ruby Skies"
+    ],
+    "NextQuestIds": [
+      68700
+    ],
+    "NextQuestTitles": [
+      "What a Wonder-full World"
+    ],
+    "StarterNpc": "J\u0027olhmyn",
+    "StarterNpcLocation": {
+      "RowId": 7630575,
+      "X": -773.108,
+      "Y": 2.94111,
+      "Z": -360.91,
+      "Yaw": -3.08164,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Gyoshin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 73,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Stormblood Allied Society Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 1,
+    "Icon": 100838,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1183,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68700,
+    "QuestTitle": "What a Wonder-full World",
+    "PreviousQuestIds": [
+      68699
+    ],
+    "PreviousQuestTitles": [
+      "Fish in a Barrel"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kabuto",
+    "StarterNpcLocation": {
+      "RowId": 7630806,
+      "X": -779.782,
+      "Y": 127.269,
+      "Z": 129.747,
+      "Yaw": 2.66302,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Alpa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 73,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Stormblood Allied Society Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 1,
+    "Icon": 100839,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1479,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 194,
+        "EmoteName": "Gratuity"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70323,
+    "QuestTitle": "Dinner and a Show",
+    "PreviousQuestIds": [
+      70086,
+      70142,
+      70222
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Hippo Riders",
+      "\uE0BE Life, the Universe, and Coffee Beans",
+      "\uE0BE Dreams Come True"
+    ],
+    "NextQuestIds": [
+      70324
+    ],
+    "NextQuestTitles": [
+      "A Dream Worth Chasing"
+    ],
+    "StarterNpc": "Jammingway",
+    "StarterNpcLocation": {
+      "RowId": 9319741,
+      "X": 303.408,
+      "Y": 481.994,
+      "Z": 152.846,
+      "Yaw": 1.15208,
+      "Radius": 1,
+      "MapId": 699,
+      "TerritoryId": 960
+    },
+    "FinishNpc": "Jammingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 74,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Endwalker Allied Society Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 1,
+    "Icon": 101266,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2346,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 70324,
+    "QuestTitle": "A Dream Worth Chasing",
+    "PreviousQuestIds": [
+      70323
+    ],
+    "PreviousQuestTitles": [
+      "Dinner and a Show"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jammingway",
+    "StarterNpcLocation": {
+      "RowId": 10058661,
+      "X": -79.6281,
+      "Y": 39.9889,
+      "Z": 311.808,
+      "Yaw": 1.7998,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Jammingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 74,
+      "JournalCategory": {
+        "Id": 51,
+        "Name": "Intersocietal Quests"
+      },
+      "Name": "Endwalker Allied Society Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 1,
+    "Icon": 101267,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3266,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41114,
+          "ItemName": "Hyper Hustle Trophy",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 41457,
+          "ItemName": "Ballroom Etiquette - The Lop Hop",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

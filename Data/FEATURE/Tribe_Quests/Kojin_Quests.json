@@ -1,0 +1,1598 @@
+[
+  {
+    "QuestId": 68509,
+    "QuestTitle": "\uE0BE Heaven-sent",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [
+      68510
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Under Wraps"
+    ],
+    "StarterNpc": "vexed villager",
+    "StarterNpcLocation": {
+      "RowId": 7094123,
+      "X": -729.609,
+      "Y": 0.280521,
+      "Z": -404.94,
+      "Yaw": 1.64291,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kabuto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 53,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100728,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 940,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68510,
+    "QuestTitle": "\uE0BE Under Wraps",
+    "PreviousQuestIds": [
+      68509
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Heaven-sent"
+    ],
+    "NextQuestIds": [
+      68511
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Value of Silence"
+    ],
+    "StarterNpc": "Kabuto",
+    "StarterNpcLocation": {
+      "RowId": 7091586,
+      "X": 400.077,
+      "Y": -119.616,
+      "Z": -247.527,
+      "Yaw": -1.38713,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kabuto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 53,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100729,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1516,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68511,
+    "QuestTitle": "\uE0BE The Value of Silence",
+    "PreviousQuestIds": [
+      68510
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Under Wraps"
+    ],
+    "NextQuestIds": [
+      68512
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Misdelivered"
+    ],
+    "StarterNpc": "Kabuto",
+    "StarterNpcLocation": {
+      "RowId": 7091586,
+      "X": 400.077,
+      "Y": -119.616,
+      "Z": -247.527,
+      "Yaw": -1.38713,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kabuto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 53,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100730,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1415,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68512,
+    "QuestTitle": "\uE0BE Misdelivered",
+    "PreviousQuestIds": [
+      68511
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Value of Silence"
+    ],
+    "NextQuestIds": [
+      68513
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Test of Courage"
+    ],
+    "StarterNpc": "Kabuto",
+    "StarterNpcLocation": {
+      "RowId": 7091586,
+      "X": 400.077,
+      "Y": -119.616,
+      "Z": -247.527,
+      "Yaw": -1.38713,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kabuto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 53,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100731,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 2272,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68513,
+    "QuestTitle": "\uE0BE A Test of Courage",
+    "PreviousQuestIds": [
+      68512
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Misdelivered"
+    ],
+    "NextQuestIds": [
+      68514
+    ],
+    "NextQuestTitles": [
+      "\uE0BE True-blue"
+    ],
+    "StarterNpc": "Kabuto",
+    "StarterNpcLocation": {
+      "RowId": 7091586,
+      "X": 400.077,
+      "Y": -119.616,
+      "Z": -247.527,
+      "Yaw": -1.38713,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kabuto",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 53,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100732,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1135,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68514,
+    "QuestTitle": "\uE0BE True-blue",
+    "PreviousQuestIds": [
+      68513
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Test of Courage"
+    ],
+    "NextQuestIds": [
+      68697
+    ],
+    "NextQuestTitles": [
+      "The Ananta Maid\u0027s Tail"
+    ],
+    "StarterNpc": "Kabuto",
+    "StarterNpcLocation": {
+      "RowId": 7091603,
+      "X": 400.077,
+      "Y": -119.616,
+      "Z": -247.527,
+      "Yaw": -1.38713,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Bunchin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 53,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 100733,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1950,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68515,
+    "QuestTitle": "\uE0BE Best Served Foul",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68516,
+    "QuestTitle": "\uE0BE A Real Pearler",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68517,
+    "QuestTitle": "\uE0BE You Have the Rite",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 9,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68518,
+    "QuestTitle": "\uE0BE Krilled to Pieces",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68519,
+    "QuestTitle": "\uE0BE Tonight We Dine in Shells",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68520,
+    "QuestTitle": "\uE0BE Pickles of Partnership",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68521,
+    "QuestTitle": "\uE0BE Little Kojin Lost",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68522,
+    "QuestTitle": "\uE0BE Much at Steak",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68523,
+    "QuestTitle": "\uE0BE Confused Courier",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68524,
+    "QuestTitle": "\uE0BE Buoyant Bounty",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68525,
+    "QuestTitle": "\uE0BE Anala-lyze This",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68526,
+    "QuestTitle": "\uE0BE Sand-sifting Specialist",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68527,
+    "QuestTitle": "\uE0BE Forever Blowing Bubbles",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 583,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68528,
+    "QuestTitle": "\uE0BE No, Not the Boo Box",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68529,
+    "QuestTitle": "\uE0BE Pleasure Doing Business",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68530,
+    "QuestTitle": "\uE0BE Deep Turquoise Sea",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68531,
+    "QuestTitle": "\uE0BE Holy Mother of Pearl",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68532,
+    "QuestTitle": "\uE0BE Flotsam and Jetsam",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68533,
+    "QuestTitle": "\uE0BE Clammed Up",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68534,
+    "QuestTitle": "\uE0BE Tale of Roe",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 26,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68535,
+    "QuestTitle": "\uE0BE You Blow It Up",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 27,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68536,
+    "QuestTitle": "\uE0BE Tentacles of Trade",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 28,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68537,
+    "QuestTitle": "\uE0BE The Hot-blooded Kojin",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 29,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68538,
+    "QuestTitle": "\uE0BE Disciplinary Action",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zukin",
+    "StarterNpcLocation": {
+      "RowId": 7091589,
+      "X": 394.428,
+      "Y": -119.589,
+      "Z": -232.276,
+      "Yaw": -2.36509,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zukin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 54,
+      "JournalCategory": {
+        "Id": 42,
+        "Name": "Kojin Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 30,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21081,
+          "ItemName": "Kojin Sango",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,2005 @@
+[
+  {
+    "QuestId": 68632,
+    "QuestTitle": "Something Fishy This Way Comes",
+    "PreviousQuestIds": [
+      68053,
+      68276
+    ],
+    "PreviousQuestTitles": [
+      "In Crimson They Walked",
+      "Kurobana vs. Gyorin"
+    ],
+    "NextQuestIds": [
+      68633
+    ],
+    "NextQuestTitles": [
+      "\uE0BE One Size Fits All"
+    ],
+    "StarterNpc": "floundering Namazu",
+    "StarterNpcLocation": {
+      "RowId": 7386369,
+      "X": -200.158,
+      "Y": 1.69149,
+      "Z": 801.773,
+      "Yaw": 2.63498,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyoshin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100770,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 1383,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68633,
+    "QuestTitle": "\uE0BE One Size Fits All",
+    "PreviousQuestIds": [
+      68632
+    ],
+    "PreviousQuestTitles": [
+      "Something Fishy This Way Comes"
+    ],
+    "NextQuestIds": [
+      68634
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Big, Big Fish"
+    ],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7386681,
+      "X": -767.288,
+      "Y": 127.367,
+      "Z": 92.5081,
+      "Yaw": 2.6915,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyorei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100771,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 648,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5688,
+          "ItemName": "Gatherer\u0027s Guerdon Materia V",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5698,
+          "ItemName": "Gatherer\u0027s Grasp Materia V",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5703,
+          "ItemName": "Craftsman\u0027s Competence Materia V",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68634,
+    "QuestTitle": "\uE0BE Big, Big Fish",
+    "PreviousQuestIds": [
+      68633
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE One Size Fits All"
+    ],
+    "NextQuestIds": [
+      68635
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Waiting for Gyodo"
+    ],
+    "StarterNpc": "Gyoshin",
+    "StarterNpcLocation": {
+      "RowId": 7380332,
+      "X": -766.73,
+      "Y": 127.392,
+      "Z": 91.1309,
+      "Yaw": 0.299496,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyorei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100772,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 1318,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5693,
+          "ItemName": "Gatherer\u0027s Guile Materia V",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5708,
+          "ItemName": "Craftsman\u0027s Cunning Materia V",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5713,
+          "ItemName": "Craftsman\u0027s Command Materia V",
+          "Count": 3,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68635,
+    "QuestTitle": "\uE0BE Waiting for Gyodo",
+    "PreviousQuestIds": [
+      68634
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Big, Big Fish"
+    ],
+    "NextQuestIds": [
+      68636
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Out of the Frypan"
+    ],
+    "StarterNpc": "Gyoshin",
+    "StarterNpcLocation": {
+      "RowId": 7380332,
+      "X": -766.73,
+      "Y": 127.392,
+      "Z": 91.1309,
+      "Yaw": 0.299496,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyoshin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100773,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 1986,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18022,
+          "ItemName": "Gatherer\u0027s Guerdon Materia VI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18024,
+          "ItemName": "Gatherer\u0027s Grasp Materia VI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18025,
+          "ItemName": "Craftsman\u0027s Competence Materia VI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68636,
+    "QuestTitle": "\uE0BE Out of the Frypan",
+    "PreviousQuestIds": [
+      68635
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Waiting for Gyodo"
+    ],
+    "NextQuestIds": [
+      68637
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Into the Fire"
+    ],
+    "StarterNpc": "Gyoshin",
+    "StarterNpcLocation": {
+      "RowId": 7380332,
+      "X": -766.73,
+      "Y": 127.392,
+      "Z": 91.1309,
+      "Yaw": 0.299496,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyoshin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100774,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 1103,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18023,
+          "ItemName": "Gatherer\u0027s Guile Materia VI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18026,
+          "ItemName": "Craftsman\u0027s Cunning Materia VI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18027,
+          "ItemName": "Craftsman\u0027s Command Materia VI",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68637,
+    "QuestTitle": "\uE0BE Into the Fire",
+    "PreviousQuestIds": [
+      68636
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Out of the Frypan"
+    ],
+    "NextQuestIds": [
+      68638
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Disciples of Creation"
+    ],
+    "StarterNpc": "Gyoshin",
+    "StarterNpcLocation": {
+      "RowId": 7380332,
+      "X": -766.73,
+      "Y": 127.392,
+      "Z": 91.1309,
+      "Yaw": 0.299496,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyorei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 100775,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 2938,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18022,
+          "ItemName": "Gatherer\u0027s Guerdon Materia VI",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18024,
+          "ItemName": "Gatherer\u0027s Grasp Materia VI",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18025,
+          "ItemName": "Craftsman\u0027s Competence Materia VI",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68638,
+    "QuestTitle": "\uE0BE Disciples of Creation",
+    "PreviousQuestIds": [
+      68637
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Into the Fire"
+    ],
+    "NextQuestIds": [
+      68697
+    ],
+    "NextQuestTitles": [
+      "The Ananta Maid\u0027s Tail"
+    ],
+    "StarterNpc": "Gyoshin",
+    "StarterNpcLocation": {
+      "RowId": 7380332,
+      "X": -766.73,
+      "Y": 127.392,
+      "Z": 91.1309,
+      "Yaw": 0.299496,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Gyoshin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 57,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 8,
+    "Icon": 100776,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1500000,
+      "Gil": 810,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23360,
+          "ItemName": "Namazu Bell",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 18023,
+          "ItemName": "Gatherer\u0027s Guile Materia VI",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18026,
+          "ItemName": "Craftsman\u0027s Cunning Materia VI",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 18027,
+          "ItemName": "Craftsman\u0027s Command Materia VI",
+          "Count": 2,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68639,
+    "QuestTitle": "\uE0BE The Importance of Being Yes, Yes",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68640,
+    "QuestTitle": "\uE0BE Pilgrim\u0027s Regress",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22525,
+          "ItemName": "Namazu Koban",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68641,
+    "QuestTitle": "\uE0BE Unidentified Festive Objects",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68642,
+    "QuestTitle": "\uE0BE Carry That Crate",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68643,
+    "QuestTitle": "\uE0BE Free for Most",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68644,
+    "QuestTitle": "\uE0BE Simpler Gifts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68645,
+    "QuestTitle": "\uE0BE Catching Catfish",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68646,
+    "QuestTitle": "\uE0BE Wood You Believe It",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68647,
+    "QuestTitle": "\uE0BE Ghosts of Honor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 9,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68648,
+    "QuestTitle": "\uE0BE Carving a Niche",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68649,
+    "QuestTitle": "\uE0BE Great Buuz Up",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68650,
+    "QuestTitle": "\uE0BE Local Special Tea",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68651,
+    "QuestTitle": "\uE0BE Collision of Cultures",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22525,
+          "ItemName": "Namazu Koban",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68652,
+    "QuestTitle": "\uE0BE A Stable\u0027s Condition",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68653,
+    "QuestTitle": "\uE0BE Beat of the Drum",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68654,
+    "QuestTitle": "\uE0BE Cannot Say Neigh",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22525,
+          "ItemName": "Namazu Koban",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68655,
+    "QuestTitle": "\uE0BE Ready the Confetti",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68656,
+    "QuestTitle": "\uE0BE Surprise Offerings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68657,
+    "QuestTitle": "\uE0BE Bearers Wanted",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22525,
+          "ItemName": "Namazu Koban",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68658,
+    "QuestTitle": "\uE0BE Roasting a New Dish",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68659,
+    "QuestTitle": "\uE0BE Give till It Hurts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 26,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68660,
+    "QuestTitle": "\uE0BE Bull\u0027s-eye",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22525,
+          "ItemName": "Namazu Koban",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68661,
+    "QuestTitle": "\uE0BE Taking the Plunge",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 27,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68662,
+    "QuestTitle": "\uE0BE A Favor Repaid",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68663,
+    "QuestTitle": "\uE0BE In Steep Trouble",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 550,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22525,
+          "ItemName": "Namazu Koban",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68664,
+    "QuestTitle": "\uE0BE A Welcome Surprise",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68665,
+    "QuestTitle": "\uE0BE The Deadliest Sport",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 28,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 615,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 68666,
+    "QuestTitle": "\uE0BE Overcommitment",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seigetsu the Enlightened",
+    "StarterNpcLocation": {
+      "RowId": 7380346,
+      "X": -780.148,
+      "Y": 128.263,
+      "Z": 97.1542,
+      "Yaw": 0.994425,
+      "Radius": 1,
+      "MapId": 372,
+      "TerritoryId": 622
+    },
+    "FinishNpc": "Seigetsu the Enlightened",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 58,
+      "JournalCategory": {
+        "Id": 44,
+        "Name": "Namazu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 150000,
+      "Gil": 680,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

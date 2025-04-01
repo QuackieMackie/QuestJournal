@@ -1,0 +1,2610 @@
+[
+  {
+    "QuestId": 67022,
+    "QuestTitle": "A Bad Bladder",
+    "PreviousQuestIds": [
+      66488
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of the Past"
+    ],
+    "NextQuestIds": [
+      67023
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Reaching for Cloud Nine"
+    ],
+    "StarterNpc": "Scarlet",
+    "StarterNpcLocation": {
+      "RowId": 4760560,
+      "X": -63.767,
+      "Y": -1.71717,
+      "Z": 11.6794,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Sezul Totoloc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100258,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 690,
+      "Gil": 501,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67023,
+    "QuestTitle": "\uE0BE Reaching for Cloud Nine",
+    "PreviousQuestIds": [
+      67022
+    ],
+    "PreviousQuestTitles": [
+      "A Bad Bladder"
+    ],
+    "NextQuestIds": [
+      67024,
+      67105
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Designer Job",
+      "\uE0BE Deliverance"
+    ],
+    "StarterNpc": "Sezul Totoloc",
+    "StarterNpcLocation": {
+      "RowId": 4753811,
+      "X": 149.439,
+      "Y": -18.143,
+      "Z": 99.2297,
+      "Yaw": 0.355772,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Sezul Totoloc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100259,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1394,
+      "Gil": 572,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67024,
+    "QuestTitle": "\uE0BE A Designer Job",
+    "PreviousQuestIds": [
+      67023
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Reaching for Cloud Nine"
+    ],
+    "NextQuestIds": [
+      67025
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Boy from Gridania"
+    ],
+    "StarterNpc": "Sezul Totoloc",
+    "StarterNpcLocation": {
+      "RowId": 4753811,
+      "X": 149.439,
+      "Y": -18.143,
+      "Z": 99.2297,
+      "Yaw": 0.355772,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Sezul Totoloc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100260,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2000,
+      "Gil": 572,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67025,
+    "QuestTitle": "\uE0BE The Boy from Gridania",
+    "PreviousQuestIds": [
+      67024
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Designer Job"
+    ],
+    "NextQuestIds": [
+      67026
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Lathe to the Party"
+    ],
+    "StarterNpc": "Tataramu",
+    "StarterNpcLocation": {
+      "RowId": 4753819,
+      "X": 151.958,
+      "Y": -18.4194,
+      "Z": 100.727,
+      "Yaw": -0.90881,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tataramu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100261,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2193,
+      "Gil": 952,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67026,
+    "QuestTitle": "\uE0BE Lathe to the Party",
+    "PreviousQuestIds": [
+      67025
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Boy from Gridania"
+    ],
+    "NextQuestIds": [
+      67027
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Standing at the Helm"
+    ],
+    "StarterNpc": "Sezul Totoloc",
+    "StarterNpcLocation": {
+      "RowId": 4753811,
+      "X": 149.439,
+      "Y": -18.143,
+      "Z": 99.2297,
+      "Yaw": 0.355772,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Sezul Totoloc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100262,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2576,
+      "Gil": 971,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67027,
+    "QuestTitle": "\uE0BE Standing at the Helm",
+    "PreviousQuestIds": [
+      67026
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Lathe to the Party"
+    ],
+    "NextQuestIds": [
+      67028
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Never Be Royal"
+    ],
+    "StarterNpc": "Tataramu",
+    "StarterNpcLocation": {
+      "RowId": 4753819,
+      "X": 151.958,
+      "Y": -18.4194,
+      "Z": 100.727,
+      "Yaw": -0.90881,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Sezul Totoloc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 100263,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 2875,
+      "Gil": 630,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67028,
+    "QuestTitle": "\uE0BE Never Be Royal",
+    "PreviousQuestIds": [
+      67027
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Standing at the Helm"
+    ],
+    "NextQuestIds": [
+      67029
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Spread Your Wings and Soar"
+    ],
+    "StarterNpc": "Sezul Totoloc",
+    "StarterNpcLocation": {
+      "RowId": 4753811,
+      "X": 149.439,
+      "Y": -18.143,
+      "Z": 99.2297,
+      "Yaw": 0.355772,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Sezul Totoloc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 8,
+    "Icon": 100264,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3287,
+      "Gil": 1352,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67029,
+    "QuestTitle": "\uE0BE Spread Your Wings and Soar",
+    "PreviousQuestIds": [
+      67028
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Never Be Royal"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sezul Totoloc",
+    "StarterNpcLocation": {
+      "RowId": 4753811,
+      "X": 149.439,
+      "Y": -18.143,
+      "Z": 99.2297,
+      "Yaw": 0.355772,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Scarlet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 45,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 8,
+    "Icon": 100265,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 3600,
+      "Gil": 3000,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67030,
+    "QuestTitle": "\uE0BE Trust, but Verify",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yazel Ahuatan the Able",
+    "StarterNpcLocation": {
+      "RowId": 4889077,
+      "X": 153.892,
+      "Y": -9.00584,
+      "Z": 77.5179,
+      "Yaw": -0.474234,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Yazel Ahuatan the Able",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 600,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67031,
+    "QuestTitle": "\uE0BE Misdirected Woo",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yazel Ahuatan the Able",
+    "StarterNpcLocation": {
+      "RowId": 4889077,
+      "X": 153.892,
+      "Y": -9.00584,
+      "Z": 77.5179,
+      "Yaw": -0.474234,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Yazel Ahuatan the Able",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 600,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67032,
+    "QuestTitle": "\uE0BE Keeping Up Appearances",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yazel Ahuatan the Able",
+    "StarterNpcLocation": {
+      "RowId": 4889077,
+      "X": 153.892,
+      "Y": -9.00584,
+      "Z": 77.5179,
+      "Yaw": -0.474234,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Yazel Ahuatan the Able",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 600,
+      "Gil": 549,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67033,
+    "QuestTitle": "\uE0BE Blow, Ye Winds",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yazel Ahuatan the Able",
+    "StarterNpcLocation": {
+      "RowId": 4889077,
+      "X": 153.892,
+      "Y": -9.00584,
+      "Z": 77.5179,
+      "Yaw": -0.474234,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Yazel Ahuatan the Able",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 600,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67034,
+    "QuestTitle": "\uE0BE Reach for the Starboard",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tazel Meyean the Lettered",
+    "StarterNpcLocation": {
+      "RowId": 4889080,
+      "X": 159.38,
+      "Y": -5.6866,
+      "Z": 69.2911,
+      "Yaw": 0.803578,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tazel Meyean the Lettered",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 41,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 763,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 25
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67035,
+    "QuestTitle": "\uE0BE Larboard and Lodging",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tazel Meyean the Lettered",
+    "StarterNpcLocation": {
+      "RowId": 4889080,
+      "X": 159.38,
+      "Y": -5.6866,
+      "Z": 69.2911,
+      "Yaw": 0.803578,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tazel Meyean the Lettered",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 42,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 763,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 25
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67036,
+    "QuestTitle": "\uE0BE Right-wing Aeronautics",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tazel Meyean the Lettered",
+    "StarterNpcLocation": {
+      "RowId": 4889080,
+      "X": 159.38,
+      "Y": -5.6866,
+      "Z": 69.2911,
+      "Yaw": 0.803578,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tazel Meyean the Lettered",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 43,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 583,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 25
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67037,
+    "QuestTitle": "\uE0BE Left-wing Aeronautics",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tazel Meyean the Lettered",
+    "StarterNpcLocation": {
+      "RowId": 4889080,
+      "X": 159.38,
+      "Y": -5.6866,
+      "Z": 69.2911,
+      "Yaw": 0.803578,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tazel Meyean the Lettered",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 44,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 703,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 25
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67038,
+    "QuestTitle": "\uE0BE Getting into Gear",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tazel Meyean the Lettered",
+    "StarterNpcLocation": {
+      "RowId": 4889080,
+      "X": 159.38,
+      "Y": -5.6866,
+      "Z": 69.2911,
+      "Yaw": 0.803578,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tazel Meyean the Lettered",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 45,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 643,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 25
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67039,
+    "QuestTitle": "\uE0BE Hells-vent on the Heavens",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tazel Meyean the Lettered",
+    "StarterNpcLocation": {
+      "RowId": 4889080,
+      "X": 159.38,
+      "Y": -5.6866,
+      "Z": 69.2911,
+      "Yaw": 0.803578,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Tazel Meyean the Lettered",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 46,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 763,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 25
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67040,
+    "QuestTitle": "\uE0BE Gyrodriven",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Methuli Cattlan the Hard",
+    "StarterNpcLocation": {
+      "RowId": 4889078,
+      "X": 151.299,
+      "Y": -9.81978,
+      "Z": 79.7165,
+      "Yaw": 2.14297,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Methuli Cattlan the Hard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 640,
+      "Gil": 623,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67041,
+    "QuestTitle": "\uE0BE Of Rodents and Rigging",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Methuli Cattlan the Hard",
+    "StarterNpcLocation": {
+      "RowId": 4889078,
+      "X": 151.299,
+      "Y": -9.81978,
+      "Z": 79.7165,
+      "Yaw": 2.14297,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Methuli Cattlan the Hard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 640,
+      "Gil": 563,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67042,
+    "QuestTitle": "\uE0BE What Evil Lurks in the Hearts of Golems",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Methuli Cattlan the Hard",
+    "StarterNpcLocation": {
+      "RowId": 4889078,
+      "X": 151.299,
+      "Y": -9.81978,
+      "Z": 79.7165,
+      "Yaw": 2.14297,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Methuli Cattlan the Hard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 640,
+      "Gil": 503,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67043,
+    "QuestTitle": "\uE0BE One Ixal\u0027s Buzzard",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Methuli Cattlan the Hard",
+    "StarterNpcLocation": {
+      "RowId": 4889078,
+      "X": 151.299,
+      "Y": -9.81978,
+      "Z": 79.7165,
+      "Yaw": 2.14297,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Methuli Cattlan the Hard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 640,
+      "Gil": 503,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67044,
+    "QuestTitle": "\uE0BE The Right Tool for the Tools",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Methuli Cattlan the Hard",
+    "StarterNpcLocation": {
+      "RowId": 4889078,
+      "X": 151.299,
+      "Y": -9.81978,
+      "Z": 79.7165,
+      "Yaw": 2.14297,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Methuli Cattlan the Hard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 640,
+      "Gil": 563,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67045,
+    "QuestTitle": "\uE0BE Crazy Like the Pox",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duzal Meyean the Steady",
+    "StarterNpcLocation": {
+      "RowId": 4889081,
+      "X": 167.01,
+      "Y": -13.6263,
+      "Z": 110.887,
+      "Yaw": 0.432829,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Duzal Meyean the Steady",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 51,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 760,
+      "Gil": 700,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67046,
+    "QuestTitle": "\uE0BE A Hard Knock Life",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duzal Meyean the Steady",
+    "StarterNpcLocation": {
+      "RowId": 4889081,
+      "X": 167.01,
+      "Y": -13.6263,
+      "Z": 110.887,
+      "Yaw": 0.432829,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Duzal Meyean the Steady",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 52,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 760,
+      "Gil": 760,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67047,
+    "QuestTitle": "\uE0BE Manual Labor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duzal Meyean the Steady",
+    "StarterNpcLocation": {
+      "RowId": 4889081,
+      "X": 167.01,
+      "Y": -13.6263,
+      "Z": 110.887,
+      "Yaw": 0.432829,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Duzal Meyean the Steady",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 53,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 760,
+      "Gil": 700,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67048,
+    "QuestTitle": "\uE0BE Leave Nothing to Waste",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duzal Meyean the Steady",
+    "StarterNpcLocation": {
+      "RowId": 4889081,
+      "X": 167.01,
+      "Y": -13.6263,
+      "Z": 110.887,
+      "Yaw": 0.432829,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Duzal Meyean the Steady",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 54,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 760,
+      "Gil": 760,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67049,
+    "QuestTitle": "\uE0BE Tanks for Nothing",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duzal Meyean the Steady",
+    "StarterNpcLocation": {
+      "RowId": 4889081,
+      "X": 167.01,
+      "Y": -13.6263,
+      "Z": 110.887,
+      "Yaw": 0.432829,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Duzal Meyean the Steady",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 55,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 760,
+      "Gil": 700,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67050,
+    "QuestTitle": "\uE0BE And Thanks for All the Fish",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rozol Cattlan the Prudent",
+    "StarterNpcLocation": {
+      "RowId": 4889079,
+      "X": 159.297,
+      "Y": -3.70668,
+      "Z": 64.3157,
+      "Yaw": 2.76616,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Rozol Cattlan the Prudent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 31,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 680,
+      "Gil": 628,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 20
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67051,
+    "QuestTitle": "\uE0BE An Empty Sack Cannot Hang Downright",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rozol Cattlan the Prudent",
+    "StarterNpcLocation": {
+      "RowId": 4889079,
+      "X": 159.297,
+      "Y": -3.70668,
+      "Z": 64.3157,
+      "Yaw": 2.76616,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Rozol Cattlan the Prudent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 32,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 680,
+      "Gil": 628,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 20
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67052,
+    "QuestTitle": "\uE0BE Hot Cross Buns",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rozol Cattlan the Prudent",
+    "StarterNpcLocation": {
+      "RowId": 4889079,
+      "X": 159.297,
+      "Y": -3.70668,
+      "Z": 64.3157,
+      "Yaw": 2.76616,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Rozol Cattlan the Prudent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 33,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 680,
+      "Gil": 568,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 20
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67053,
+    "QuestTitle": "\uE0BE Simply the Biast",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rozol Cattlan the Prudent",
+    "StarterNpcLocation": {
+      "RowId": 4889079,
+      "X": 159.297,
+      "Y": -3.70668,
+      "Z": 64.3157,
+      "Yaw": 2.76616,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Rozol Cattlan the Prudent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 34,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 680,
+      "Gil": 568,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 20
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67054,
+    "QuestTitle": "\uE0BE A Long Way to the Top",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rozol Cattlan the Prudent",
+    "StarterNpcLocation": {
+      "RowId": 4889079,
+      "X": 159.297,
+      "Y": -3.70668,
+      "Z": 64.3157,
+      "Yaw": 2.76616,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Rozol Cattlan the Prudent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 35,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 680,
+      "Gil": 568,
+      "Currency": null,
+      "Catalysts": [
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 20
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67055,
+    "QuestTitle": "\uE0BE Never Steer You Wrong",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duzal Meyean the Steady",
+    "StarterNpcLocation": {
+      "RowId": 4889081,
+      "X": 167.01,
+      "Y": -13.6263,
+      "Z": 110.887,
+      "Yaw": 0.432829,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Duzal Meyean the Steady",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 56,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 760,
+      "Gil": 760,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67056,
+    "QuestTitle": "\uE0BE West for Fishing",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 61,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 709,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5687,
+          "ItemName": "Gatherer\u0027s Guerdon Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5697,
+          "ItemName": "Gatherer\u0027s Grasp Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67057,
+    "QuestTitle": "\uE0BE Your Gil\u0027s No Good Here",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 62,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 769,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5697,
+          "ItemName": "Gatherer\u0027s Grasp Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5692,
+          "ItemName": "Gatherer\u0027s Guile Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67058,
+    "QuestTitle": "\uE0BE Mining for Compliments",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 63,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 769,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5687,
+          "ItemName": "Gatherer\u0027s Guerdon Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5692,
+          "ItemName": "Gatherer\u0027s Guile Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67059,
+    "QuestTitle": "\uE0BE A High Wind in Ishgard",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 64,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 829,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5692,
+          "ItemName": "Gatherer\u0027s Guile Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67102,
+    "QuestTitle": "\uE0BE Bring Your Own Ectoplasm",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 65,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 769,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5687,
+          "ItemName": "Gatherer\u0027s Guerdon Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67103,
+    "QuestTitle": "\uE0BE In Case of Emergency",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 66,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 709,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5697,
+          "ItemName": "Gatherer\u0027s Grasp Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67104,
+    "QuestTitle": "\uE0BE We Fly High (Squawkin\u0027)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jezul Ahuatan the Second",
+    "StarterNpcLocation": {
+      "RowId": 4889082,
+      "X": 164.364,
+      "Y": -22.8428,
+      "Z": 114.657,
+      "Yaw": -1.78707,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jezul Ahuatan the Second",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 67,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 800,
+      "Gil": 769,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        },
+        {
+          "ItemId": 21073,
+          "ItemName": "Ixali Oaknot",
+          "Count": 2,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5687,
+          "ItemName": "Gatherer\u0027s Guerdon Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67105,
+    "QuestTitle": "\uE0BE Deliverance",
+    "PreviousQuestIds": [
+      67023
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Reaching for Cloud Nine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ehcatl Nine manciple",
+    "StarterNpcLocation": {
+      "RowId": 4753816,
+      "X": 176.067,
+      "Y": -5.101,
+      "Z": 82.7744,
+      "Yaw": 2.57157,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Ehcatl Nine manciple",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 46,
+      "JournalCategory": {
+        "Id": 38,
+        "Name": "Ixal Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 2,
+          "Stain": null
+        },
+        {
+          "ItemId": 10124,
+          "ItemName": "Moonstone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

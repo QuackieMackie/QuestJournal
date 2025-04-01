@@ -1,0 +1,2078 @@
+[
+  {
+    "QuestId": 66788,
+    "QuestTitle": "Seeking Solace",
+    "PreviousQuestIds": [
+      66488
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of the Past"
+    ],
+    "NextQuestIds": [
+      66789
+    ],
+    "NextQuestTitles": [
+      "Voyce of Concern"
+    ],
+    "StarterNpc": "Vorsaile Heuloix",
+    "StarterNpcLocation": {
+      "RowId": 1141151,
+      "X": -75.4815,
+      "Y": -0.501378,
+      "Z": -5.07031,
+      "Yaw": 0.992908,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Olmxio",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 39,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100214,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5610,
+      "Gil": 825,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66789,
+    "QuestTitle": "Voyce of Concern",
+    "PreviousQuestIds": [
+      66788
+    ],
+    "PreviousQuestTitles": [
+      "Seeking Solace"
+    ],
+    "NextQuestIds": [
+      66790
+    ],
+    "NextQuestTitles": [
+      "Pilfered Podlings"
+    ],
+    "StarterNpc": "Olmxio",
+    "StarterNpcLocation": {
+      "RowId": 4494858,
+      "X": 48.2232,
+      "Y": 6.07347,
+      "Z": 247.809,
+      "Yaw": -0.881537,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Olmxio",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 39,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100215,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5610,
+      "Gil": 825,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66790,
+    "QuestTitle": "Pilfered Podlings",
+    "PreviousQuestIds": [
+      66789
+    ],
+    "PreviousQuestTitles": [
+      "Voyce of Concern"
+    ],
+    "NextQuestIds": [
+      66791
+    ],
+    "NextQuestTitles": [
+      "Idle Hands"
+    ],
+    "StarterNpc": "Voyce",
+    "StarterNpcLocation": {
+      "RowId": 4494860,
+      "X": 22.4921,
+      "Y": -6.20406,
+      "Z": 252.559,
+      "Yaw": -2.24841,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Voyce",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 39,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100216,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 869,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66791,
+    "QuestTitle": "Idle Hands",
+    "PreviousQuestIds": [
+      66790
+    ],
+    "PreviousQuestTitles": [
+      "Pilfered Podlings"
+    ],
+    "NextQuestIds": [
+      66792
+    ],
+    "NextQuestTitles": [
+      "Feathers and Folly"
+    ],
+    "StarterNpc": "Olmxio",
+    "StarterNpcLocation": {
+      "RowId": 4494858,
+      "X": 48.2232,
+      "Y": 6.07347,
+      "Z": 247.809,
+      "Yaw": -0.881537,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Olmxio",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 39,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100217,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 912,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66792,
+    "QuestTitle": "Feathers and Folly",
+    "PreviousQuestIds": [
+      66791
+    ],
+    "PreviousQuestTitles": [
+      "Idle Hands"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Olmxio",
+    "StarterNpcLocation": {
+      "RowId": 4494858,
+      "X": 48.2232,
+      "Y": 6.07347,
+      "Z": 247.809,
+      "Yaw": -0.881537,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Vorsaile Heuloix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 39,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100218,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 912,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66793,
+    "QuestTitle": "Deck the Hut",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66794,
+    "QuestTitle": "Malodorous Mischief",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66795,
+    "QuestTitle": "Gourd Grief",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66796,
+    "QuestTitle": "Feed Me",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66797,
+    "QuestTitle": "Giddy for Goobbues",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66798,
+    "QuestTitle": "Now You See Me",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66799,
+    "QuestTitle": "Imperial Intruders",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66800,
+    "QuestTitle": "The Magitek Menace",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66801,
+    "QuestTitle": "Not Who They Seem",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66802,
+    "QuestTitle": "Raising a Stink",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tonaxia",
+    "StarterNpcLocation": {
+      "RowId": 4494851,
+      "X": 47.0332,
+      "Y": 6.0578,
+      "Z": 254.034,
+      "Yaw": -2.31711,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Tonaxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4207,
+      "Gil": 420,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66803,
+    "QuestTitle": "With One Stone",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66804,
+    "QuestTitle": "I Dream of Slimy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66805,
+    "QuestTitle": "Mushroom Madness",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66806,
+    "QuestTitle": "Milkroot in Moderation",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66807,
+    "QuestTitle": "Something to Sneeze At",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66808,
+    "QuestTitle": "Shocking Developments",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66809,
+    "QuestTitle": "Waterbringer",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66810,
+    "QuestTitle": "In the Sylphlands, Treasure Hunts You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66811,
+    "QuestTitle": "Perilous Pumpkins",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66812,
+    "QuestTitle": "Fungal Foulness",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ponnixia",
+    "StarterNpcLocation": {
+      "RowId": 4494853,
+      "X": 36.8505,
+      "Y": -4.89825,
+      "Z": 249.225,
+      "Yaw": -1.2806,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ponnixia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4455,
+      "Gil": 600,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66813,
+    "QuestTitle": "Ripe for the Picking",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66814,
+    "QuestTitle": "A Sticky Situation",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66815,
+    "QuestTitle": "Sympathy for the Sentinel",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66816,
+    "QuestTitle": "No Root for You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66817,
+    "QuestTitle": "Mist Opportunities",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66818,
+    "QuestTitle": "Clearing the Air",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66819,
+    "QuestTitle": "Podling Peril",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66820,
+    "QuestTitle": "Boar Wars",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66821,
+    "QuestTitle": "Moxia\u0027s Magnum Opus",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66822,
+    "QuestTitle": "Bane of the Barbs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moxia",
+    "StarterNpcLocation": {
+      "RowId": 4494857,
+      "X": 48.8779,
+      "Y": 6.05779,
+      "Z": 251.185,
+      "Yaw": -1.59727,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Moxia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 40,
+      "JournalCategory": {
+        "Id": 35,
+        "Name": "Sylph Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21075,
+          "ItemName": "Sylphic Goldleaf",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,1806 @@
+[
+  {
+    "QuestId": 69432,
+    "QuestTitle": "\uE0BE It\u0027s Dwarfin\u0027 Time",
+    "PreviousQuestIds": [
+      69096
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Ronitt to the Rescue"
+    ],
+    "NextQuestIds": [
+      69433
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Piss-up in a Brewery"
+    ],
+    "StarterNpc": "affable townsdwarf",
+    "StarterNpcLocation": {
+      "RowId": 8371837,
+      "X": -286.808,
+      "Y": 17.7721,
+      "Z": 444.25,
+      "Yaw": -2.66115,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 63,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100995,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1694,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69433,
+    "QuestTitle": "\uE0BE A Piss-up in a Brewery",
+    "PreviousQuestIds": [
+      69432
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE It\u0027s Dwarfin\u0027 Time"
+    ],
+    "NextQuestIds": [
+      69434
+    ],
+    "NextQuestTitles": [
+      "\uE0BE I Heard You Like Tanks"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 8368172,
+      "X": -607.707,
+      "Y": 65.601,
+      "Z": -412.685,
+      "Yaw": -2.1649,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ozogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 63,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100996,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 934,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69434,
+    "QuestTitle": "\uE0BE I Heard You Like Tanks",
+    "PreviousQuestIds": [
+      69433
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Piss-up in a Brewery"
+    ],
+    "NextQuestIds": [
+      69435
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Tanking Is Hard"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 8368172,
+      "X": -607.707,
+      "Y": 65.601,
+      "Z": -412.685,
+      "Yaw": -2.1649,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 63,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100997,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1189,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69435,
+    "QuestTitle": "\uE0BE Tanking Is Hard",
+    "PreviousQuestIds": [
+      69434
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE I Heard You Like Tanks"
+    ],
+    "NextQuestIds": [
+      69436
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Chief Concerns"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 8368172,
+      "X": -607.707,
+      "Y": 65.601,
+      "Z": -412.685,
+      "Yaw": -2.1649,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 63,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100998,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1007,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69436,
+    "QuestTitle": "\uE0BE Chief Concerns",
+    "PreviousQuestIds": [
+      69435
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Tanking Is Hard"
+    ],
+    "NextQuestIds": [
+      69437
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Tanks for the Memory"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 8368172,
+      "X": -607.707,
+      "Y": 65.601,
+      "Z": -412.685,
+      "Yaw": -2.1649,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 63,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100999,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1444,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69437,
+    "QuestTitle": "\uE0BE Tanks for the Memory",
+    "PreviousQuestIds": [
+      69436
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Chief Concerns"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 8368172,
+      "X": -607.707,
+      "Y": 65.601,
+      "Z": -412.685,
+      "Yaw": -2.1649,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 63,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 101000,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 1350000,
+      "Gil": 1007,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69438,
+    "QuestTitle": "\uE0BE Lakeland Neighbors",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69439,
+    "QuestTitle": "\uE0BE Clean Beard, Clear Mind",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69440,
+    "QuestTitle": "\uE0BE Quality Parts, Guaranteed",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69441,
+    "QuestTitle": "\uE0BE The New Batch",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69442,
+    "QuestTitle": "\uE0BE The Telltale Axles",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69443,
+    "QuestTitle": "\uE0BE A Blueprint a Day",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69444,
+    "QuestTitle": "\uE0BE Foundations of Steel",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69445,
+    "QuestTitle": "\uE0BE How Do You Do, Fellow Dwarves",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69446,
+    "QuestTitle": "\uE0BE Wood for What Ales You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69447,
+    "QuestTitle": "\uE0BE The Heart of Tankiness",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69448,
+    "QuestTitle": "\uE0BE Boom and Dust",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69449,
+    "QuestTitle": "\uE0BE One Hundred Tankards of Solitude",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69450,
+    "QuestTitle": "\uE0BE Cooler Tanks Prevail",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69451,
+    "QuestTitle": "\uE0BE What\u0027s in a Locket",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69452,
+    "QuestTitle": "\uE0BE Wayward \u0027Tons",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69453,
+    "QuestTitle": "\uE0BE Taking the Heat",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69454,
+    "QuestTitle": "\uE0BE Sealing the Deal",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69455,
+    "QuestTitle": "\uE0BE Spreading the Word",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69456,
+    "QuestTitle": "\uE0BE Targets Required",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69457,
+    "QuestTitle": "\uE0BE Unbreakable Plate",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69458,
+    "QuestTitle": "\uE0BE Close to Clearmeltdown",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69459,
+    "QuestTitle": "\uE0BE Demolition Demo",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69460,
+    "QuestTitle": "\uE0BE A Crude Awakening",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69461,
+    "QuestTitle": "\uE0BE Fast and Loud",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69462,
+    "QuestTitle": "\uE0BE Not for Drinking",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69463,
+    "QuestTitle": "\uE0BE Remote Repairs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69464,
+    "QuestTitle": "\uE0BE Tip-top Gear",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 606,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16,
+          "ItemName": "Wind Cluster",
+          "Count": 0,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 69465,
+    "QuestTitle": "\uE0BE Substitute Tester",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Regitt",
+    "StarterNpcLocation": {
+      "RowId": 8368176,
+      "X": -617.112,
+      "Y": 65.601,
+      "Z": -425.231,
+      "Yaw": 0.800596,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Regitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 64,
+      "JournalCategory": {
+        "Id": 47,
+        "Name": "Dwarf Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 679,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28188,
+          "ItemName": "Hammered Frogment",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

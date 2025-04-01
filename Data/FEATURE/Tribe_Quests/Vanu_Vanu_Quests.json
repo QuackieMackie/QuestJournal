@@ -1,0 +1,2030 @@
+[
+  {
+    "QuestId": 67700,
+    "QuestTitle": "\uE0BE Three Beaks to the Wind",
+    "PreviousQuestIds": [
+      67184
+    ],
+    "PreviousQuestTitles": [
+      "A Difference of Opinion"
+    ],
+    "NextQuestIds": [
+      67701
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Tribal Reunion"
+    ],
+    "StarterNpc": "Sonu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5814369,
+      "X": -542.773,
+      "Y": -37.1163,
+      "Z": -386.685,
+      "Yaw": 1.41275,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100501,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 658,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67701,
+    "QuestTitle": "\uE0BE A Tribal Reunion",
+    "PreviousQuestIds": [
+      67700
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Three Beaks to the Wind"
+    ],
+    "NextQuestIds": [
+      67702
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Linu\u0027s Lovely Bones"
+    ],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100502,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 822,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67702,
+    "QuestTitle": "\uE0BE Linu\u0027s Lovely Bones",
+    "PreviousQuestIds": [
+      67701
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Tribal Reunion"
+    ],
+    "NextQuestIds": [
+      67703
+    ],
+    "NextQuestTitles": [
+      "\uE0BE In the Skycage over the Sea"
+    ],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100503,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 724,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67703,
+    "QuestTitle": "\uE0BE In the Skycage over the Sea",
+    "PreviousQuestIds": [
+      67702
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Linu\u0027s Lovely Bones"
+    ],
+    "NextQuestIds": [
+      67704
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Fishing for Friendship"
+    ],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100504,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 602,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67704,
+    "QuestTitle": "\uE0BE Fishing for Friendship",
+    "PreviousQuestIds": [
+      67703
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE In the Skycage over the Sea"
+    ],
+    "NextQuestIds": [
+      67705
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Sundrop the Beat"
+    ],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100505,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 814,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67705,
+    "QuestTitle": "\uE0BE Sundrop the Beat",
+    "PreviousQuestIds": [
+      67704
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Fishing for Friendship"
+    ],
+    "NextQuestIds": [
+      67706
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Nest Side Story"
+    ],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 100506,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 602,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 120,
+        "EmoteName": "Sundrop Dance"
+      },
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67706,
+    "QuestTitle": "\uE0BE Nest Side Story",
+    "PreviousQuestIds": [
+      67705
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Sundrop the Beat"
+    ],
+    "NextQuestIds": [
+      67761
+    ],
+    "NextQuestTitles": [
+      "The Nest of Honor"
+    ],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": null,
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 8,
+    "Icon": 100507,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 630,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67707,
+    "QuestTitle": "\uE0BE Veni, Vundu, Vici",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67708,
+    "QuestTitle": "\uE0BE Pussyfooting About",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67709,
+    "QuestTitle": "\uE0BE Endymion Disco",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 581,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67710,
+    "QuestTitle": "\uE0BE Pilfering Pots from the Pantry",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 637,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67711,
+    "QuestTitle": "\uE0BE Chigoe Cha-cha",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 581,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67712,
+    "QuestTitle": "\uE0BE Water Crystal Waltz",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 681,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67713,
+    "QuestTitle": "\uE0BE Hard-boiled Hustle",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 737,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67714,
+    "QuestTitle": "\uE0BE Sanuwa Samba",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 581,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67715,
+    "QuestTitle": "\uE0BE Bird Watching",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 665,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67716,
+    "QuestTitle": "\uE0BE Comb and Get It",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67717,
+    "QuestTitle": "\uE0BE The Binding Soil",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ranu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67718,
+    "QuestTitle": "\uE0BE Flight of the Midges",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ranu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67719,
+    "QuestTitle": "\uE0BE Fishing in Troubled Waters",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Eenu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67720,
+    "QuestTitle": "\uE0BE Reeling in the Vundu",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Eenu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67721,
+    "QuestTitle": "\uE0BE Nailed Down",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ginu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 31,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 665,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67722,
+    "QuestTitle": "\uE0BE The House That Ginu Built",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ginu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 32,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67723,
+    "QuestTitle": "\uE0BE A Bone to Pick",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ginu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 33,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 709,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67724,
+    "QuestTitle": "\uE0BE A Hut to Dye For",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ginu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 34,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67725,
+    "QuestTitle": "\uE0BE Shady Premonitions",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 41,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67726,
+    "QuestTitle": "\uE0BE Pestered Ancestors",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 42,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 737,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67727,
+    "QuestTitle": "\uE0BE Smooth as Silk, Cool as Air",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 43,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67728,
+    "QuestTitle": "\uE0BE Gaelicat\u0027s Out of the Bag",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ginu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 44,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 709,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67729,
+    "QuestTitle": "\uE0BE Rotten to the Korrigan",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ranu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 51,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 709,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67730,
+    "QuestTitle": "\uE0BE Gastornis Groove",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Luna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 52,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 681,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67731,
+    "QuestTitle": "\uE0BE The Cat\u0027s Meow",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 53,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 709,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67732,
+    "QuestTitle": "\uE0BE Easy as Paissa",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Muna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 54,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 681,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67733,
+    "QuestTitle": "\uE0BE Dance Commander",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 61,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 637,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67734,
+    "QuestTitle": "\uE0BE Electric Gunduloo",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 62,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 637,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67735,
+    "QuestTitle": "\uE0BE Wildwort and Sundrop",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 63,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67736,
+    "QuestTitle": "\uE0BE Vanish, Vile Vundu",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Muna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 6085422,
+      "X": -799.466,
+      "Y": -133.288,
+      "Z": -404.135,
+      "Yaw": 2.47823,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 48,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 64,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21074,
+          "ItemName": "Vanu Whitebone",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67761,
+    "QuestTitle": "The Nest of Honor",
+    "PreviousQuestIds": [
+      67706
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Nest Side Story"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Linu Vali",
+    "StarterNpcLocation": {
+      "RowId": 6085420,
+      "X": -796.735,
+      "Y": -133.27,
+      "Z": -410.666,
+      "Yaw": 1.08602,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Linu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 47,
+      "JournalCategory": {
+        "Id": 39,
+        "Name": "Vanu Vanu Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 405,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

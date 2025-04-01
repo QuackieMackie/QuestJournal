@@ -1,0 +1,2078 @@
+[
+  {
+    "QuestId": 66753,
+    "QuestTitle": "Peace for Thanalan",
+    "PreviousQuestIds": [
+      66488
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of the Past"
+    ],
+    "NextQuestIds": [
+      66754
+    ],
+    "NextQuestTitles": [
+      "Brotherhood of Ash"
+    ],
+    "StarterNpc": "Swift",
+    "StarterNpcLocation": {
+      "RowId": 4101490,
+      "X": -141.637,
+      "Y": 4.09995,
+      "Z": -114.663,
+      "Yaw": 0.79504,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hamujj Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 37,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100209,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5720,
+      "Gil": 592,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66754,
+    "QuestTitle": "Brotherhood of Ash",
+    "PreviousQuestIds": [
+      66753
+    ],
+    "PreviousQuestTitles": [
+      "Peace for Thanalan"
+    ],
+    "NextQuestIds": [
+      66755
+    ],
+    "NextQuestTitles": [
+      "Ranger Rescue"
+    ],
+    "StarterNpc": "Hamujj Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496986,
+      "X": 122.606,
+      "Y": 16.3853,
+      "Z": -362.085,
+      "Yaw": -1.51364,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hamujj Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 37,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100210,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5720,
+      "Gil": 840,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66755,
+    "QuestTitle": "Ranger Rescue",
+    "PreviousQuestIds": [
+      66754
+    ],
+    "PreviousQuestTitles": [
+      "Brotherhood of Ash"
+    ],
+    "NextQuestIds": [
+      66756
+    ],
+    "NextQuestTitles": [
+      "An Eye on the Inside"
+    ],
+    "StarterNpc": "Hamujj Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496986,
+      "X": 122.606,
+      "Y": 16.3853,
+      "Z": -362.085,
+      "Yaw": -1.51364,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hamujj Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 37,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100211,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 884,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66756,
+    "QuestTitle": "An Eye on the Inside",
+    "PreviousQuestIds": [
+      66755
+    ],
+    "PreviousQuestTitles": [
+      "Ranger Rescue"
+    ],
+    "NextQuestIds": [
+      66757
+    ],
+    "NextQuestTitles": [
+      "Martial Perfection"
+    ],
+    "StarterNpc": "Hamujj Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496986,
+      "X": 122.606,
+      "Y": 16.3853,
+      "Z": -362.085,
+      "Yaw": -1.51364,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hamujj Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 37,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100212,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 912,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66757,
+    "QuestTitle": "Martial Perfection",
+    "PreviousQuestIds": [
+      66756
+    ],
+    "PreviousQuestTitles": [
+      "An Eye on the Inside"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Swift",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 37,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 8,
+    "Icon": 100213,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 912,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66758,
+    "QuestTitle": "A Shell to Scry On",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66759,
+    "QuestTitle": "Borderline Slaughter",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66760,
+    "QuestTitle": "A Sappy Ending",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66761,
+    "QuestTitle": "Luring Lacovie",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66762,
+    "QuestTitle": "Fighting Firesand with Fire",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66763,
+    "QuestTitle": "Smothering Instinct",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66764,
+    "QuestTitle": "Losing One\u0027s Tempered",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66765,
+    "QuestTitle": "Ravage the Ravagers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66766,
+    "QuestTitle": "Arms of the U",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66767,
+    "QuestTitle": "Blitzing the Beacons",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fibubb Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496854,
+      "X": 105.283,
+      "Y": 15.3614,
+      "Z": -357.37,
+      "Yaw": -1.4875,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Fibubb Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4290,
+      "Gil": 480,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66768,
+    "QuestTitle": "Rite Where It Hurts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66769,
+    "QuestTitle": "Thinning the Ranks",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66770,
+    "QuestTitle": "Forged in Flame",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66771,
+    "QuestTitle": "Beacon Keepers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66772,
+    "QuestTitle": "Singed Fur Their Own Good",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66773,
+    "QuestTitle": "The Gland That Feeds You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66774,
+    "QuestTitle": "Douse Them While They\u0027re Down",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66775,
+    "QuestTitle": "Before They Are Tempered",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66776,
+    "QuestTitle": "Hard to Port",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66777,
+    "QuestTitle": "This Infernal Heat",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Narujj Boh",
+    "StarterNpcLocation": {
+      "RowId": 4496978,
+      "X": 98.944,
+      "Y": 15.3021,
+      "Z": -349.432,
+      "Yaw": -2.2385,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Narujj Boh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 4743,
+      "Gil": 660,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66778,
+    "QuestTitle": "Elite Beating",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66779,
+    "QuestTitle": "Unholier than Thou",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66780,
+    "QuestTitle": "Raiding the Cache",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66781,
+    "QuestTitle": "Pulling Fangs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66782,
+    "QuestTitle": "Demolition Drake",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66783,
+    "QuestTitle": "Fire-spitting Image",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66784,
+    "QuestTitle": "Nothing Sacred",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66785,
+    "QuestTitle": "Fodder for the Flamefangs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66786,
+    "QuestTitle": "Hatchling Humiliation",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 66787,
+    "QuestTitle": "The Beacon That Burns You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yadovv Gah",
+    "StarterNpcLocation": {
+      "RowId": 4496979,
+      "X": 85.6442,
+      "Y": 15.2945,
+      "Z": -355.697,
+      "Yaw": -1.42663,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Yadovv Gah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 38,
+      "JournalCategory": {
+        "Id": 34,
+        "Name": "Amalj\u0027aa Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 0,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 5130,
+      "Gil": 780,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21076,
+          "ItemName": "Steel Amalj\u0027ok",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "Stain": null,
+          "IsHq": false
+        }
+      ],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]

@@ -1,0 +1,1391 @@
+[
+  {
+    "QuestId": 67791,
+    "QuestTitle": "\uE0BE The Naming of Vath",
+    "PreviousQuestIds": [
+      67152
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive"
+    ],
+    "NextQuestIds": [
+      67792
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Adventurers Don\u0027t Get Cold Feet"
+    ],
+    "StarterNpc": "Vath storyteller",
+    "StarterNpcLocation": {
+      "RowId": 5802613,
+      "X": 73.2041,
+      "Y": -49.1958,
+      "Z": -139.04,
+      "Yaw": -3.11373,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "nameless one",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 49,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "EventIcon": 8,
+    "Icon": 100540,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 1027,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67792,
+    "QuestTitle": "\uE0BE Adventurers Don\u0027t Get Cold Feet",
+    "PreviousQuestIds": [
+      67791
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Naming of Vath"
+    ],
+    "NextQuestIds": [
+      67793,
+      69374
+    ],
+    "NextQuestTitles": [
+      "\uE0BE An Acquired Taste",
+      "Adventurers and Admirers"
+    ],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6209460,
+      "X": 53.3893,
+      "Y": -48,
+      "Z": -169.944,
+      "Yaw": 0.678661,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath deftarm",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 49,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "EventIcon": 8,
+    "Icon": 100541,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 1064,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67793,
+    "QuestTitle": "\uE0BE An Acquired Taste",
+    "PreviousQuestIds": [
+      67792
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Adventurers Don\u0027t Get Cold Feet"
+    ],
+    "NextQuestIds": [
+      67794
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Your Enemy and Mine"
+    ],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6209460,
+      "X": 53.3893,
+      "Y": -48,
+      "Z": -169.944,
+      "Yaw": 0.678661,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath deftarm",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 49,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "EventIcon": 8,
+    "Icon": 100542,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 1022,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67794,
+    "QuestTitle": "\uE0BE Your Enemy and Mine",
+    "PreviousQuestIds": [
+      67793
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE An Acquired Taste"
+    ],
+    "NextQuestIds": [
+      67795
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Resistance Is Futile"
+    ],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6209460,
+      "X": 53.3893,
+      "Y": -48,
+      "Z": -169.944,
+      "Yaw": 0.678661,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath storyteller",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 49,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "EventIcon": 8,
+    "Icon": 100543,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 924,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67795,
+    "QuestTitle": "\uE0BE Resistance Is Futile",
+    "PreviousQuestIds": [
+      67794
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Your Enemy and Mine"
+    ],
+    "NextQuestIds": [
+      67796
+    ],
+    "NextQuestTitles": [
+      "A Symbiotic Friendship"
+    ],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6209460,
+      "X": 53.3893,
+      "Y": -48,
+      "Z": -169.944,
+      "Yaw": 0.678661,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath deftarm",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 49,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "EventIcon": 8,
+    "Icon": 100544,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 742,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67796,
+    "QuestTitle": "A Symbiotic Friendship",
+    "PreviousQuestIds": [
+      67795
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Resistance Is Futile"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath deftarm",
+    "StarterNpcLocation": {
+      "RowId": 6209460,
+      "X": 53.3893,
+      "Y": -48,
+      "Z": -169.944,
+      "Yaw": 0.678661,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath storyteller",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 49,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "EventIcon": 8,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 405,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 3,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67797,
+    "QuestTitle": "\uE0BE Getting the Shaft",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 7,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67798,
+    "QuestTitle": "\uE0BE Breath of Fresh Air",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 8,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67799,
+    "QuestTitle": "\uE0BE Bugging the Bugs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 9,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67800,
+    "QuestTitle": "\uE0BE Too Much to Bear",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 10,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67801,
+    "QuestTitle": "\uE0BE The Foodstuff of Champions",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 11,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67802,
+    "QuestTitle": "\uE0BE A Long Shot",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 12,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67803,
+    "QuestTitle": "\uE0BE Where the Silver Dew Grows",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 13,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67804,
+    "QuestTitle": "\uE0BE The Caelumtree Wine Spree",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Convictor knight",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 14,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67805,
+    "QuestTitle": "\uE0BE Ploughing Ahead",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 15,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67806,
+    "QuestTitle": "\uE0BE At Full Pelt",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 16,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67807,
+    "QuestTitle": "\uE0BE Failure to Deliver",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 17,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 517,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67808,
+    "QuestTitle": "\uE0BE Shoo Fly, Don\u0027t Bother Me",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 18,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67809,
+    "QuestTitle": "\uE0BE All about the Eggs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 19,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67810,
+    "QuestTitle": "\uE0BE Smells Like Trouble",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "goblin herbalist",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 20,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67811,
+    "QuestTitle": "\uE0BE When Hunting Goes Wrong",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 21,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 489,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67812,
+    "QuestTitle": "\uE0BE Flea Troubles",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 22,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67813,
+    "QuestTitle": "\uE0BE Fifty Shades of Yellow",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 23,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 461,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67814,
+    "QuestTitle": "\uE0BE A Romp around the Foothills",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 24,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 642,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67815,
+    "QuestTitle": "\uE0BE Neighborhood Squabbles",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 25,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 517,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  },
+  {
+    "QuestId": 67816,
+    "QuestTitle": "\uE0BE Not for the Faint of Heart",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath keeneye",
+    "StarterNpcLocation": {
+      "RowId": 6209461,
+      "X": 57.313,
+      "Y": -47.8428,
+      "Z": -174.625,
+      "Yaw": 0.482991,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath keeneye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 50,
+      "JournalCategory": {
+        "Id": 40,
+        "Name": "Vath Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 26,
+    "EventIcon": 1,
+    "Icon": 0,
+    "IconSpecial": 0,
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Currency": null,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21079,
+          "ItemName": "Black Copper Gil",
+          "Count": 1,
+          "Stain": null
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": null,
+      "Action": null,
+      "GeneralActions": [],
+      "OtherReward": null,
+      "InstanceContentUnlock": null
+    }
+  }
+]
