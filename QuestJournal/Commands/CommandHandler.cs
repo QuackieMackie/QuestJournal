@@ -214,7 +214,13 @@ public class CommandHandler : IDisposable
     {
         try
         {
-            var jsonString = JsonSerializer.Serialize(questData, new JsonSerializerOptions { WriteIndented = true });
+            var serializerOptions = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+            };
+            
+            var jsonString = JsonSerializer.Serialize(questData, serializerOptions);
             File.WriteAllText(filePath, jsonString);
 
             log.Info(category != null

@@ -38,15 +38,31 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 PreviousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest),
                 NextQuestIds = new List<uint>(),
                 NextQuestTitles = new List<string>(),
+                
+                // Location
                 StarterNpc = ResolveNpcName(questData.IssuerStart),
                 StarterNpcLocation = ResolveNpcLocation(questData),
                 FinishNpc = ResolveNpcName(questData.TargetEnd),
+                
+                // Organisation
                 Expansion = GetExpansionName(questData.Expansion, questData.Id),
                 JournalGenre = GetJournalGenreDetails(questData.JournalGenre, questData.Id),
                 SortKey = questData.SortKey,
+                
+                // Icons
                 EventIcon = questData.EventIconType.Value.RowId,
                 Icon = questData.Icon,
-                IconSpecial = questData.IconSpecial,
+                
+                // Requirements
+                JobLevel = questData.ClassJobLevel.FirstOrDefault(),
+                ClassJobCategory = questData.ClassJobCategory0.Value.Name.ExtractText(),
+                BeastTribeRequirements = new BeastTribeRequirements()
+                {
+                    BeastTribeName = questData.BeastTribe.Value.Name.ExtractText(),
+                    BeastTribeRank = questData.BeastReputationRank.Value.Name.ExtractText(),
+                },
+                
+                // Rewards
                 Rewards = GetRewards(questId, questData)
             };
 

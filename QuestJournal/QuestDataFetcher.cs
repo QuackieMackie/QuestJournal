@@ -148,6 +148,43 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             70723, // "Bottled Fantasy"
         };
 
+        List<int> locationsQuestIds = new()
+        {
+            66749, // "Where the Heart Is (The Goblet)"
+            66750, // "Where the Heart Is (Mist)"
+            66748, // "Where the Heart Is (The Lavender Beds)"
+            65970, // "It Could Happen to You"
+            66338, // "Broadening Horizons"
+            69708, // "Ascending to Empyreum"
+            68167, // "I Dream of Shirogane"
+        };
+
+        List<int> collectableQuestIds = new()
+        {
+            0, // "Inscrutable Tastes"
+            0, // "No Longer a Collectable"
+            0, // "Go West, Craftsman"
+            0, // "Reach Long and Prosper"
+            0, // "The Boutique Always Wins"
+            0, // "Expanding House of Splendors"
+            0, // "Dawn of a New Deal"
+        };
+        // Custom Deliveries clients require that you first unlock an expansion's inventory with one of the above quests. 
+        List<int> customDeliveriesQuestIds = new()
+        {
+            0, // "Arms Wide Open"
+            0, // "None Forgotten, None Forsaken"
+            0, // "The Seaweed Is Always Greener"
+            0, // "Between a Rock and the Hard Place"
+            0, // "Oh, Beehive Yourself"
+            0, // "O Crafter, My Crafter"
+            0, // "You Can Count on It"
+            0, // "Of Mothers and Merchants"
+            0, // "That's So Anden"
+            0, // "A Request of One's Own"
+            0, // "Laying New Tracks"
+        };
+        
         // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic
         // Grouping Logic:
         // 0: Use JournalGenre.Name
@@ -180,6 +217,8 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (51, "Tribe Quests", 1), // Intersocietal Quests
             
             (glamourQuestIds, "Glamour and Customization", 2),
+            
+            (locationsQuestIds, "Locations", 2),
         };
 
         foreach (var quest in allQuests)

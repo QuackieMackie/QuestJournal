@@ -6,28 +6,33 @@ public class QuestModel
 {
     public uint QuestId { get; init; }
     public string? QuestTitle { get; init; }
-
+    
     public List<uint>? PreviousQuestIds { get; init; }
     public List<string>? PreviousQuestTitles { get; init; }
 
     public List<uint>? NextQuestIds { get; init; }
     public List<string>? NextQuestTitles { get; init; }
 
+    // Locations
     public string? StarterNpc { get; init; }
     public Level? StarterNpcLocation { get; init; }
-    
     public string? FinishNpc { get; init; }
-
+    
+    // Organisation
     public string? Expansion { get; init; }
-
     public JournalGenreDetails? JournalGenre { get; init; }
-    
     public ushort SortKey { get; init; }
+    
+    // Icons
     public uint EventIcon { get; init; }
-    
     public uint Icon { get; init; }
-    public uint IconSpecial { get; init; }
     
+    // Requirements
+    public uint? JobLevel { get; init; }
+    public string? ClassJobCategory { get; init; }
+    public BeastTribeRequirements? BeastTribeRequirements { get; init; }
+    
+    // Rewards
     public Reward? Rewards { get; init; }
     
     public override string ToString()
@@ -38,6 +43,12 @@ public class QuestModel
             $"StarterNpc: {StarterNpc}, StarterNpcLocation: {StarterNpcLocation}, FinishNpc: {FinishNpc}, Expansion: {Expansion}, JournalGenre: {JournalGenre}";
     }
 
+}
+
+public class BeastTribeRequirements
+{
+    public string? BeastTribeName  { get; init; }
+    public string? BeastTribeRank { get; init; }
 }
 
 public class JournalGenreDetails
