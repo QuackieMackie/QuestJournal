@@ -42,15 +42,18 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100103,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "ARC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 114,
         "ActionName": "Mage\u0027s Ballad"
@@ -59,8 +62,7 @@
       "OtherReward": {
         "Id": 14,
         "Name": "Soul of the Bard"
-      },
-      "InstanceContentUnlock": null
+      }
     }
   },
   {
@@ -102,22 +104,23 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100103,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3561,
         "ActionName": "the Warden\u0027s Paean"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -159,22 +162,23 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100103,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 116,
         "ActionName": "Army\u0027s Paeon"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -216,22 +220,23 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100103,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 117,
         "ActionName": "Rain of Death"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -273,19 +278,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100103,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -329,35 +334,34 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100103,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 3224,
           "ItemName": "Choral Shirt",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20646,
           "ItemName": "Bard\u0027s Attire Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 118,
         "ActionName": "Battle Voice"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -397,26 +401,25 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100165,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1955,
           "ItemName": "Artemis Bow",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -460,19 +463,19 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100437,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 714,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -514,22 +517,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100437,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 676,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3559,
         "ActionName": "the Wanderer\u0027s Minuet"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -571,22 +575,23 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100437,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 695,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3558,
         "ActionName": "Empyreal Arrow"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -628,22 +633,23 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100437,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 866,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3560,
         "ActionName": "Iron Jaws"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -685,19 +691,19 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100437,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 855,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -739,29 +745,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100437,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 908,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20659,
           "ItemName": "Aoidos\u0027 Attire Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3562,
         "ActionName": "Sidewinder"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -805,19 +811,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100674,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1407,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -859,19 +865,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100674,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 737,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -913,19 +919,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100674,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 1995,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -967,19 +973,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100674,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1158,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1021,29 +1027,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100674,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 3100,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20278,
           "ItemName": "Storyteller\u0027s Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7409,
         "ActionName": "Refulgent Arrow"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1085,38 +1091,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100877,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "BRD",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 1748,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

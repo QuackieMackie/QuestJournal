@@ -38,32 +38,30 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2055,
           "ItemName": "Weathered Scepter",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2219,
           "ItemName": "Square Maple Shield",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -103,32 +101,30 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 4728,
           "ItemName": "Raisins",
-          "Count": 5,
-          "Stain": null
+          "Count": 5
         },
         {
           "ItemId": 2219,
           "ItemName": "Square Maple Shield",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -172,19 +168,19 @@
     "SortKey": 12,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -230,18 +226,21 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2106,
           "ItemName": "Bone Staff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -249,7 +248,6 @@
           "ItemId": 3007,
           "ItemName": "Custom-made Robe of Casting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -263,29 +261,22 @@
           "ItemId": 4421,
           "ItemName": "Bone Ring",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 4091,
           "ItemName": "Copper Wristlets",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -329,18 +320,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2057,
           "ItemName": "Copper Scepter",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -376,15 +370,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -428,18 +417,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2057,
           "ItemName": "Copper Scepter",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -475,15 +467,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -527,24 +514,26 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5760,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2059,
           "ItemName": "Brass Cudgel",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2233,
           "ItemName": "Square Ash Shield",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -580,18 +569,14 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 156,
         "ActionName": "Scathe"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -633,18 +618,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 6960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2111,
           "ItemName": "Staghorn Staff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -680,15 +668,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -730,18 +713,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 8160,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2118,
           "ItemName": "Toothed Staghorn Staff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -777,15 +763,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -827,18 +808,21 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100061,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2069,
           "ItemName": "Silver Scepter",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -874,18 +858,14 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 157,
         "ActionName": "Manaward"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

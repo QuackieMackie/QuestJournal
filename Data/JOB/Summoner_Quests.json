@@ -40,29 +40,29 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100108,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 4549,
           "ItemName": "Soul of the Summoner",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25805,
         "ActionName": "Summon Ifrit"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -104,22 +104,23 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100108,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25806,
         "ActionName": "Summon Titan"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -161,22 +162,23 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100108,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3578,
         "ActionName": "Painflare"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -218,19 +220,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100108,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -272,22 +274,23 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100108,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25807,
         "ActionName": "Summon Garuda"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -333,32 +336,30 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100108,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 3227,
           "ItemName": "Evoker\u0027s Doublet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20650,
           "ItemName": "Summoner\u0027s Attire Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -398,26 +399,25 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100165,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2213,
           "ItemName": "The Veil of Wiyu",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -461,19 +461,19 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100440,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 1093,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -515,22 +515,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100440,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 1151,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 16510,
         "ActionName": "Energy Siphon"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -572,22 +573,23 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100440,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 1047,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3579,
         "ActionName": "Ruin III"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -629,19 +631,19 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100440,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1009,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -683,22 +685,23 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100440,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 1906,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3581,
         "ActionName": "Dreadwyrm Trance"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -740,29 +743,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100440,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1633,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20663,
           "ItemName": "Caller\u0027s Attire Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25822,
         "ActionName": "Astral Flow"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -806,19 +809,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100677,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1326,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -860,19 +863,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100677,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1625,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -914,19 +917,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100677,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 2577,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -968,19 +971,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100677,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1429,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1024,29 +1027,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100677,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 3200,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20281,
           "ItemName": "Channeler\u0027s Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7427,
         "ActionName": "Summon Bahamut"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1088,38 +1091,35 @@
     "SortKey": 801,
     "EventIcon": 1,
     "Icon": 100880,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 2052,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

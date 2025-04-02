@@ -38,38 +38,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100888,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "GNB",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 3335,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25190,
           "ItemName": "Battledance Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -107,38 +104,35 @@
     "SortKey": 101,
     "EventIcon": 8,
     "Icon": 100871,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 50000,
       "Gil": 1094,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25216,
           "ItemName": "Soul of the Gunbreaker",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 27357,
           "ItemName": "High Steel Gunblade",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 27266,
           "ItemName": "Outsider\u0027s Attire Coffer (IL 255)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -180,19 +174,19 @@
     "SortKey": 102,
     "EventIcon": 8,
     "Icon": 100871,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "GNB",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 2661,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -234,19 +228,19 @@
     "SortKey": 111,
     "EventIcon": 8,
     "Icon": 100871,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "GNB",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1535,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -288,19 +282,19 @@
     "SortKey": 121,
     "EventIcon": 8,
     "Icon": 100871,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "GNB",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 1863,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -342,19 +336,19 @@
     "SortKey": 131,
     "EventIcon": 8,
     "Icon": 100871,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "GNB",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1261,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -396,22 +390,23 @@
     "SortKey": 141,
     "EventIcon": 8,
     "Icon": 100871,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "GNB",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 1186,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 16155,
         "ActionName": "Continuation"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

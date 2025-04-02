@@ -38,19 +38,19 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100995,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1350000,
       "Gil": 1694,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -92,19 +92,19 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100996,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 1350000,
       "Gil": 934,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -146,19 +146,19 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100997,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 1350000,
       "Gil": 1189,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -200,19 +200,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100998,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 1350000,
       "Gil": 1007,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -254,19 +254,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100999,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 1350000,
       "Gil": 1444,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -304,19 +304,19 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 101000,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Sworn"
+    },
     "Rewards": {
       "Exp": 1350000,
       "Gil": 1007,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -350,26 +350,25 @@
     "SortKey": 101,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -403,26 +402,25 @@
     "SortKey": 102,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -456,26 +454,25 @@
     "SortKey": 103,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -509,26 +506,25 @@
     "SortKey": 104,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -562,26 +558,25 @@
     "SortKey": 105,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -615,26 +610,25 @@
     "SortKey": 106,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -668,26 +662,25 @@
     "SortKey": 107,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -721,26 +714,25 @@
     "SortKey": 108,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -774,26 +766,25 @@
     "SortKey": 109,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -827,26 +818,25 @@
     "SortKey": 110,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -880,26 +870,25 @@
     "SortKey": 111,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -933,26 +922,25 @@
     "SortKey": 112,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -986,26 +974,25 @@
     "SortKey": 113,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1039,26 +1026,25 @@
     "SortKey": 114,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1092,26 +1078,25 @@
     "SortKey": 115,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1145,26 +1130,25 @@
     "SortKey": 116,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1198,26 +1182,25 @@
     "SortKey": 117,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1251,26 +1234,25 @@
     "SortKey": 118,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1304,26 +1286,25 @@
     "SortKey": 119,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1357,26 +1338,25 @@
     "SortKey": 120,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1410,26 +1390,25 @@
     "SortKey": 121,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1463,26 +1442,25 @@
     "SortKey": 122,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 752,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1516,26 +1494,25 @@
     "SortKey": 123,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1569,26 +1546,25 @@
     "SortKey": 124,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1622,26 +1598,25 @@
     "SortKey": 125,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1675,26 +1650,25 @@
     "SortKey": 126,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1728,26 +1702,25 @@
     "SortKey": 127,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 16,
           "ItemName": "Wind Cluster",
-          "Count": 0,
-          "Stain": null
+          "Count": 0
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1781,26 +1754,25 @@
     "SortKey": 128,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "dwarves",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 679,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28188,
           "ItemName": "Hammered Frogment",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

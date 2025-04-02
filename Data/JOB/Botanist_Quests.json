@@ -38,26 +38,25 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2545,
           "ItemName": "Weathered Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -99,18 +98,21 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1435,
       "Gil": 194,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2546,
           "ItemName": "Bronze Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -132,15 +134,10 @@
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -182,18 +179,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5899,
       "Gil": 289,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2560,
           "ItemName": "Bronze Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -215,15 +215,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -265,18 +260,21 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12960,
       "Gil": 382,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2561,
           "ItemName": "Recruit\u0027s Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -312,15 +310,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -362,18 +355,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 24360,
       "Gil": 470,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2549,
           "ItemName": "Initiate\u0027s Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -409,15 +405,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -459,18 +450,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 40800,
       "Gil": 557,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2564,
           "ItemName": "Novice\u0027s Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -506,15 +500,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -556,18 +545,21 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 68640,
       "Gil": 639,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2552,
           "ItemName": "Steel Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -603,15 +595,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -653,18 +640,21 @@
     "SortKey": 350,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 102960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2553,
           "ItemName": "Plumed Steel Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -672,7 +662,6 @@
           "ItemId": 3129,
           "ItemName": "Apprentice\u0027s Doublet",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -700,15 +689,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -750,18 +734,21 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 156310,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2567,
           "ItemName": "Apprentice\u0027s Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -797,15 +784,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -847,18 +829,21 @@
     "SortKey": 450,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 196020,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2555,
           "ItemName": "Cobalt Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -894,15 +879,10 @@
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -944,18 +924,21 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2558,
           "ItemName": "Rauni",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -963,43 +946,34 @@
           "ItemId": 2929,
           "ItemName": "Hamlet Cutter\u0027s Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3490,
           "ItemName": "Botanist\u0027s Slops",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3715,
           "ItemName": "Botanist\u0027s Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3936,
           "ItemName": "Botanist\u0027s Workboots",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1041,11 +1015,15 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100056,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 300,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
@@ -1056,11 +1034,7 @@
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1104,11 +1078,15 @@
     "SortKey": 502,
     "EventIcon": 8,
     "Icon": 100449,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 985,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 9,
@@ -1125,16 +1103,11 @@
         {
           "ItemId": 12668,
           "ItemName": "Commercial Survival Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1176,18 +1149,21 @@
     "SortKey": 530,
     "EventIcon": 8,
     "Icon": 100449,
-    "IconSpecial": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 663390,
       "Gil": 2470,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11951,
           "ItemName": "Mythrite Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1195,43 +1171,34 @@
           "ItemId": 11989,
           "ItemName": "Wyvernskin Jerkin",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11994,
           "ItemName": "Holy Rainbow Work Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12002,
           "ItemName": "Wyvernskin Culottes",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12007,
           "ItemName": "Wyvernskin Workboots",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1273,18 +1240,21 @@
     "SortKey": 550,
     "EventIcon": 8,
     "Icon": 100449,
-    "IconSpecial": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 836550,
       "Gil": 3107,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11908,
           "ItemName": "Titanium Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1292,46 +1262,38 @@
           "ItemId": 11990,
           "ItemName": "Dhalmelskin Vest",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11995,
           "ItemName": "Dhalmelskin Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12003,
           "ItemName": "Ramie Trousers of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12008,
           "ItemName": "Dhalmelskin Fringe Boots",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 4095,
         "ActionName": "Luck of the Pioneer"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1373,24 +1335,26 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100449,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1113840,
       "Gil": 2050,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11909,
           "ItemName": "Hardsilver Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1398,29 +1362,22 @@
           "ItemId": 5687,
           "ItemName": "Gatherer\u0027s Guerdon Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5692,
           "ItemName": "Gatherer\u0027s Guile Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5697,
           "ItemName": "Gatherer\u0027s Grasp Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1462,18 +1419,21 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100449,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 662500,
       "Gil": 3037,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [
@@ -1481,29 +1441,22 @@
           "ItemId": 5687,
           "ItemName": "Gatherer\u0027s Guerdon Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5692,
           "ItemName": "Gatherer\u0027s Guile Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5697,
           "ItemName": "Gatherer\u0027s Grasp Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1547,11 +1500,15 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100694,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1337500,
       "Gil": 1208,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 9,
@@ -1568,16 +1525,11 @@
         {
           "ItemId": 12668,
           "ItemName": "Commercial Survival Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1619,18 +1571,21 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100694,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1557875,
       "Gil": 2613,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19526,
           "ItemName": "High Steel Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1638,43 +1593,34 @@
           "ItemId": 19627,
           "ItemName": "Gyuki Leather Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19628,
           "ItemName": "Gyuki Leather Jacket",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19629,
           "ItemName": "Gyuki Leather Gloves of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19630,
           "ItemName": "Gyuki Leather Chaps",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1716,18 +1662,21 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100694,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1758750,
       "Gil": 4409,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19536,
           "ItemName": "Doman Iron Hatchet",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1735,43 +1684,34 @@
           "ItemId": 19637,
           "ItemName": "Tigerskin Cap of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19638,
           "ItemName": "Kudzu Coat of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19639,
           "ItemName": "Tigerskin Fingerless Gloves of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19640,
           "ItemName": "Kudzu Culottes of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1813,24 +1753,26 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100694,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2227500,
       "Gil": 4236,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19568,
           "ItemName": "Doman Steel Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [
@@ -1838,32 +1780,26 @@
           "ItemId": 5688,
           "ItemName": "Gatherer\u0027s Guerdon Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5693,
           "ItemName": "Gatherer\u0027s Guile Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5698,
           "ItemName": "Gatherer\u0027s Grasp Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 273,
         "ActionName": "Bountiful Harvest II"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1901,38 +1837,35 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100694,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2889000,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5688,
           "ItemName": "Gatherer\u0027s Guerdon Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5693,
           "ItemName": "Gatherer\u0027s Guile Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5698,
           "ItemName": "Gatherer\u0027s Grasp Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

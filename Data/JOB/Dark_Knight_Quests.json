@@ -38,24 +38,26 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100446,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8839,
           "ItemName": "Soul of the Dark Knight",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 10400,
           "ItemName": "Steel Claymore",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 3102,
@@ -71,11 +73,7 @@
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -117,22 +115,23 @@
     "SortKey": 301,
     "EventIcon": 8,
     "Icon": 100446,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 16466,
         "ActionName": "Flood of Darkness"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -174,22 +173,23 @@
     "SortKey": 350,
     "EventIcon": 8,
     "Icon": 100446,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3625,
         "ActionName": "Blood Weapon"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -231,22 +231,23 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100446,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 16467,
         "ActionName": "Edge of Darkness"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -288,19 +289,19 @@
     "SortKey": 450,
     "EventIcon": 8,
     "Icon": 100446,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23760,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -342,29 +343,29 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100446,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20652,
           "ItemName": "Dark Knight\u0027s Armor Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3638,
         "ActionName": "Living Dead"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -406,19 +407,19 @@
     "SortKey": 501,
     "EventIcon": 8,
     "Icon": 100447,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 574,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -460,22 +461,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100447,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 954,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3639,
         "ActionName": "Salted Earth"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -517,22 +519,23 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100447,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 1348,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 36926,
         "ActionName": "Shadowstride"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -574,22 +577,23 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100447,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1421,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3641,
         "ActionName": "Abyssal Drain"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -631,19 +635,19 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100447,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 1691,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -685,29 +689,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100447,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1698,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20665,
           "ItemName": "Chaos Armor Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3643,
         "ActionName": "Carve and Spit"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -751,19 +755,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100670,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1282,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -805,19 +809,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100670,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1223,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -859,19 +863,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100670,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 2185,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -913,19 +917,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100670,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 2887,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -954,7 +958,6 @@
       "MapId": 218,
       "TerritoryId": 418
     },
-    "FinishNpc": null,
     "Expansion": "Stormblood",
     "JournalGenre": {
       "Id": 181,
@@ -967,29 +970,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100670,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2700,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20284,
           "ItemName": "Abyss Armor Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7393,
         "ActionName": "The Blackest Night"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1031,38 +1034,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100884,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "DRK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 3615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25190,
           "ItemName": "Battledance Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

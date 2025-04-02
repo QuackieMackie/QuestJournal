@@ -38,41 +38,39 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11700,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 22747,
           "ItemName": "Soul of the Blue Mage",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 22746,
           "ItemName": "Rainmaker",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 24587,
           "ItemName": "True Blue Attire Coffer (IL 1)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 11385,
         "ActionName": "Water Cannon"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -114,19 +112,19 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100,
       "Gil": 459,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -168,19 +166,19 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 855,
       "Gil": 414,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -222,19 +220,19 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1740,
       "Gil": 546,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -276,19 +274,19 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3120,
       "Gil": 759,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -330,19 +328,19 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5390,
       "Gil": 754,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -384,32 +382,30 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11700,
       "Gil": 952,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 24551,
           "ItemName": "The Spirit of the Whalaqee",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 24588,
           "ItemName": "Magus\u0027s Attire Coffer (IL 130)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -451,26 +447,25 @@
     "SortKey": 501,
     "EventIcon": 8,
     "Icon": 100830,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11700,
       "Gil": 517,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 24796,
           "ItemName": "Azulmagia",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -514,19 +509,19 @@
     "SortKey": 502,
     "EventIcon": 8,
     "Icon": 100943,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11700,
       "Gil": 686,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -568,19 +563,19 @@
     "SortKey": 530,
     "EventIcon": 8,
     "Icon": 100943,
-    "IconSpecial": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12285,
       "Gil": 848,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -622,19 +617,19 @@
     "SortKey": 550,
     "EventIcon": 8,
     "Icon": 100943,
-    "IconSpecial": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12675,
       "Gil": 855,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -676,19 +671,19 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100943,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 13260,
       "Gil": 1176,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -730,18 +725,19 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100943,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 25000,
       "Gil": 810,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [],
-      "OtherReward": null,
       "InstanceContentUnlock": [
         {
           "InstanceId": 695,
@@ -810,26 +806,25 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100943,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 25000,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 28647,
           "ItemName": "Mask of Azuro",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -873,19 +868,19 @@
     "SortKey": 602,
     "EventIcon": 8,
     "Icon": 101050,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 25000,
       "Gil": 713,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -927,19 +922,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 101050,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 25750,
       "Gil": 2141,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -981,19 +976,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 101050,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 26250,
       "Gil": 1132,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1035,19 +1030,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 101050,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 27000,
       "Gil": 1950,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1089,25 +1084,25 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 101050,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 32866,
           "ItemName": "Mirage Gear Coffer (IL 400)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [],
-      "OtherReward": null,
       "InstanceContentUnlock": [
         {
           "InstanceId": 754,
@@ -1156,26 +1151,25 @@
     "SortKey": 701,
     "EventIcon": 8,
     "Icon": 101050,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 32644,
           "ItemName": "Predatrice",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1219,19 +1213,19 @@
     "SortKey": 702,
     "EventIcon": 8,
     "Icon": 101256,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 752,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1273,19 +1267,19 @@
     "SortKey": 730,
     "EventIcon": 8,
     "Icon": 101256,
-    "IconSpecial": 0,
+    "JobLevel": 73,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 55080,
       "Gil": 1298,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1327,19 +1321,19 @@
     "SortKey": 750,
     "EventIcon": 8,
     "Icon": 101256,
-    "IconSpecial": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 55800,
       "Gil": 1014,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1381,19 +1375,19 @@
     "SortKey": 780,
     "EventIcon": 8,
     "Icon": 101256,
-    "IconSpecial": 0,
+    "JobLevel": 78,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 56880,
       "Gil": 1393,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1435,25 +1429,25 @@
     "SortKey": 800,
     "EventIcon": 8,
     "Icon": 101256,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 935,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 40355,
           "ItemName": "Phantasmal Attire Coffer (IL 530)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [],
-      "OtherReward": null,
       "InstanceContentUnlock": [
         {
           "InstanceId": 948,
@@ -1498,26 +1492,25 @@
     "SortKey": 801,
     "EventIcon": 8,
     "Icon": 101256,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "BLU",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 695,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 40345,
           "ItemName": "Blue-eyes",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

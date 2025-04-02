@@ -40,15 +40,18 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100102,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "THM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 158,
         "ActionName": "Manafont"
@@ -57,8 +60,7 @@
       "OtherReward": {
         "Id": 16,
         "Name": "Soul of the Black Mage"
-      },
-      "InstanceContentUnlock": null
+      }
     }
   },
   {
@@ -100,22 +102,23 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100102,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 154,
         "ActionName": "Blizzard III"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -157,22 +160,23 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100102,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 159,
         "ActionName": "Freeze"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -214,22 +218,23 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100102,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 153,
         "ActionName": "Thunder III"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -271,19 +276,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100102,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -327,35 +332,34 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100102,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 3226,
           "ItemName": "Wizard\u0027s Coat",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20649,
           "ItemName": "Sorcerer\u0027s Attire Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 162,
         "ActionName": "Flare"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -395,26 +399,25 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100165,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2140,
           "ItemName": "Stardust Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -458,19 +461,19 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100438,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 1090,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -512,22 +515,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100438,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 1043,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3573,
         "ActionName": "Ley Lines"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -569,19 +573,19 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100438,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 1462,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -623,19 +627,19 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100438,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1524,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -677,22 +681,23 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100438,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 2208,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3576,
         "ActionName": "Blizzard IV"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -734,29 +739,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100438,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1466,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20662,
           "ItemName": "Goetia Attire Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3577,
         "ActionName": "Fire IV"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -800,19 +805,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100676,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 2026,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -854,19 +859,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100676,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1480,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -908,19 +913,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100676,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 1610,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -962,19 +967,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100676,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 2606,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1016,29 +1021,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100676,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 3800,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20280,
           "ItemName": "Seventh Hell Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7422,
         "ActionName": "Foul"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1080,38 +1085,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100879,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "BLM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 1295,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

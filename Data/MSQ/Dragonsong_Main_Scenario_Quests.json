@@ -38,11 +38,15 @@
     "SortKey": 1,
     "EventIcon": 3,
     "Icon": 100508,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 745,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -50,36 +54,28 @@
           "ItemId": 12844,
           "ItemName": "Hot Chocolate",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12848,
           "ItemName": "Creme Brulee",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12852,
           "ItemName": "Almond Cream Croissant",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12857,
           "ItemName": "Urchin Loaf",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -121,19 +117,19 @@
     "SortKey": 2,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1066,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -175,19 +171,19 @@
     "SortKey": 3,
     "EventIcon": 3,
     "Icon": 100509,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 824,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -216,7 +212,6 @@
       "MapId": 213,
       "TerritoryId": 399
     },
-    "FinishNpc": null,
     "Expansion": "Heavensward",
     "JournalGenre": {
       "Id": 4,
@@ -229,32 +224,30 @@
     "SortKey": 4,
     "EventIcon": 3,
     "Icon": 100510,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1019,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 13637,
           "ItemName": "Max-Potion",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         },
         {
           "ItemId": 13638,
           "ItemName": "Max-Ether",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -296,19 +289,19 @@
     "SortKey": 5,
     "EventIcon": 3,
     "Icon": 100511,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 843,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -350,19 +343,19 @@
     "SortKey": 6,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 974,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -404,11 +397,15 @@
     "SortKey": 7,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 713,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -416,29 +413,22 @@
           "ItemId": 20608,
           "ItemName": "Primal Accessories of Fending Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20609,
           "ItemName": "Primal Accessories of Slaying Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 7,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -482,24 +472,26 @@
     "SortKey": 8,
     "EventIcon": 3,
     "Icon": 100512,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 10000,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 13118,
           "ItemName": "House Fortemps Kite Shield",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 13774,
           "ItemName": "Wind-up Haurchefant",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -507,36 +499,28 @@
           "ItemId": 20610,
           "ItemName": "Primal Accessories of Aiming Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20611,
           "ItemName": "Primal Accessories of Healing Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20612,
           "ItemName": "Primal Accessories of Casting Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 7,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -578,11 +562,15 @@
     "SortKey": 9,
     "EventIcon": 3,
     "Icon": 100525,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1807,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -590,22 +578,16 @@
           "ItemId": 13742,
           "ItemName": "Steamed Staff",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 13743,
           "ItemName": "Sesame Cookie",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -647,26 +629,25 @@
     "SortKey": 10,
     "EventIcon": 3,
     "Icon": 100526,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 4500,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 14101,
           "ItemName": "Poro Roggo",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -708,19 +689,19 @@
     "SortKey": 11,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1194,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -762,19 +743,19 @@
     "SortKey": 12,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -816,11 +797,15 @@
     "SortKey": 13,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 810,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -828,22 +813,16 @@
           "ItemId": 13637,
           "ItemName": "Max-Potion",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 13638,
           "ItemName": "Max-Ether",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -885,19 +864,19 @@
     "SortKey": 14,
     "EventIcon": 3,
     "Icon": 100527,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 810,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -939,11 +918,15 @@
     "SortKey": 15,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 680,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -951,43 +934,34 @@
           "ItemId": 14388,
           "ItemName": "Augmented Hellfire Blade",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14390,
           "ItemName": "Augmented Hellfire Battleaxe",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14394,
           "ItemName": "Augmented Hellfire Guillotine",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20418,
           "ItemName": "Augmented Hellfire Katana",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1029,11 +1003,15 @@
     "SortKey": 16,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1087,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1041,43 +1019,34 @@
           "ItemId": 14389,
           "ItemName": "Augmented Hellfire Claws",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14391,
           "ItemName": "Augmented Slipstream Partisan",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14393,
           "ItemName": "Augmented Torrent Kris",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14401,
           "ItemName": "Augmented Hellfire Shield",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1119,11 +1088,15 @@
     "SortKey": 17,
     "EventIcon": 3,
     "Icon": 100528,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 2793,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1131,35 +1104,30 @@
           "ItemId": 14392,
           "ItemName": "Augmented Torrent Longbow",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14395,
           "ItemName": "Augmented Torrent Musketoon",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14397,
           "ItemName": "Augmented Hailstorm Rod",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14398,
           "ItemName": "Augmented Hailstorm Grimoire",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
@@ -1167,10 +1135,7 @@
         "Id": 122,
         "EmoteName": "Victory"
       },
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1212,11 +1177,15 @@
     "SortKey": 18,
     "EventIcon": 3,
     "Icon": 100546,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1087,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1224,43 +1193,34 @@
           "ItemId": 14396,
           "ItemName": "Augmented Hailstorm Cane",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14399,
           "ItemName": "Augmented Hailstorm Codex",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14400,
           "ItemName": "Augmented Hailstorm Astrometer",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20419,
           "ItemName": "Augmented Hailstorm Rapier",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1302,11 +1262,15 @@
     "SortKey": 19,
     "EventIcon": 3,
     "Icon": 100529,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1200,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1314,35 +1278,30 @@
           "ItemId": 20601,
           "ItemName": "Hellfire Armor of Fending Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20602,
           "ItemName": "Slipstream Armor of Maiming Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20603,
           "ItemName": "Hellfire Armor of Striking Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20605,
           "ItemName": "Torrent Attire of Scouting Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
@@ -1350,10 +1309,7 @@
         "Id": 121,
         "EmoteName": "Battle Stance"
       },
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1395,11 +1351,15 @@
     "SortKey": 20,
     "EventIcon": 3,
     "Icon": 100558,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 713,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1407,36 +1367,28 @@
           "ItemId": 20604,
           "ItemName": "Torrent Attire of Aiming Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20606,
           "ItemName": "Hailstorm Attire of Healing Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 20607,
           "ItemName": "Hailstorm Attire of Casting Coffer (IL 240)",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1478,11 +1430,15 @@
     "SortKey": 21,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 1031,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1490,43 +1446,34 @@
           "ItemId": 14136,
           "ItemName": "Peperoncino",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14137,
           "ItemName": "Boscaiola",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14138,
           "ItemName": "Loaghtan Steak",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14135,
           "ItemName": "Apple Strudel",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 14134,
           "ItemName": "Spiced Cider",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1568,11 +1515,15 @@
     "SortKey": 22,
     "EventIcon": 3,
     "Icon": 100559,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 5000,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -1580,22 +1531,16 @@
           "ItemId": 13637,
           "ItemName": "Max-Potion",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 13638,
           "ItemName": "Max-Ether",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1637,19 +1582,19 @@
     "SortKey": 23,
     "EventIcon": 3,
     "Icon": 100560,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 5000,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1691,19 +1636,19 @@
     "SortKey": 24,
     "EventIcon": 3,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 583,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1755,38 +1700,35 @@
     "SortKey": 25,
     "EventIcon": 3,
     "Icon": 100561,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5000,
       "Gil": 10000,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 15444,
           "ItemName": "Wind-up Aymeric",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 15830,
           "ItemName": "Dragonsong Orchestrion Roll",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 15854,
           "ItemName": "Alpine Coat",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

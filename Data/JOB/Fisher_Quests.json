@@ -40,32 +40,30 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2571,
           "ItemName": "Weathered Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2585,
           "ItemName": "Lugworm",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -109,11 +107,15 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 300,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
@@ -124,11 +126,7 @@
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -170,24 +168,26 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1435,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2572,
           "ItemName": "Maple Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2588,
           "ItemName": "Crayfish Ball",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -209,15 +209,10 @@
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -259,24 +254,26 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5899,
       "Gil": 289,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2573,
           "ItemName": "Amateur\u0027s Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2590,
           "ItemName": "Bloodworm",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -298,15 +295,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -348,24 +340,26 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12960,
       "Gil": 382,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2574,
           "ItemName": "Elm Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2591,
           "ItemName": "Rat Tail",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -401,15 +395,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -451,24 +440,26 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 24360,
       "Gil": 470,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2575,
           "ItemName": "Initiate\u0027s Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2611,
           "ItemName": "Floating Minnow",
-          "Count": 15,
-          "Stain": null
+          "Count": 15
         }
       ],
       "OptionalItems": [
@@ -504,15 +495,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -554,24 +540,26 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 40800,
       "Gil": 557,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2576,
           "ItemName": "Yew Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2595,
           "ItemName": "Bass Ball",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -607,15 +595,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -657,24 +640,26 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 68640,
       "Gil": 639,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2577,
           "ItemName": "Staghorn Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2596,
           "ItemName": "Spoon Worm",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -710,15 +695,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -760,24 +740,26 @@
     "SortKey": 350,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 102960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2579,
           "ItemName": "Horn Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2599,
           "ItemName": "Honey Worm",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -785,7 +767,6 @@
           "ItemId": 3129,
           "ItemName": "Apprentice\u0027s Doublet",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -813,15 +794,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -863,24 +839,26 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 156310,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2580,
           "ItemName": "Mahogany Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2601,
           "ItemName": "Stem Borer",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -916,15 +894,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -966,24 +939,26 @@
     "SortKey": 450,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 196020,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2581,
           "ItemName": "Rosewood Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2621,
           "ItemName": "Krill Cage Feeder",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -1019,15 +994,10 @@
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1071,24 +1041,26 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100101,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2584,
           "ItemName": "Halcyon Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 2606,
           "ItemName": "Northern Krill",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -1096,43 +1068,34 @@
           "ItemId": 2930,
           "ItemName": "Hamlet Puller\u0027s Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3491,
           "ItemName": "Fisher\u0027s Gaskins",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3716,
           "ItemName": "Fisher\u0027s Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3937,
           "ItemName": "Fisher\u0027s Wading Boots",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1176,11 +1139,15 @@
     "SortKey": 502,
     "EventIcon": 8,
     "Icon": 100450,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 1014,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1197,16 +1164,11 @@
         {
           "ItemId": 12668,
           "ItemName": "Commercial Survival Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1248,24 +1210,26 @@
     "SortKey": 530,
     "EventIcon": 8,
     "Icon": 100450,
-    "IconSpecial": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 663390,
       "Gil": 923,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11911,
           "ItemName": "Cedar Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12708,
           "ItemName": "Red Balloon",
-          "Count": 50,
-          "Stain": null
+          "Count": 50
         }
       ],
       "OptionalItems": [
@@ -1273,43 +1237,34 @@
           "ItemId": 11984,
           "ItemName": "Holy Rainbow Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11989,
           "ItemName": "Wyvernskin Jerkin",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11994,
           "ItemName": "Holy Rainbow Work Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12002,
           "ItemName": "Wyvernskin Culottes",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1351,24 +1306,26 @@
     "SortKey": 550,
     "EventIcon": 8,
     "Icon": 100450,
-    "IconSpecial": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 836550,
       "Gil": 1811,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11912,
           "ItemName": "Dark Chestnut Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12709,
           "ItemName": "Magma Worm",
-          "Count": 50,
-          "Stain": null
+          "Count": 50
         }
       ],
       "OptionalItems": [
@@ -1376,36 +1333,28 @@
           "ItemId": 11985,
           "ItemName": "Dhalmelskin Bush Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11990,
           "ItemName": "Dhalmelskin Vest",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12003,
           "ItemName": "Ramie Trousers of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1447,24 +1396,26 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100450,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1113840,
       "Gil": 2439,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11913,
           "ItemName": "Hallowed Chestnut Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12710,
           "ItemName": "Fiend Worm",
-          "Count": 50,
-          "Stain": null
+          "Count": 50
         }
       ],
       "OptionalItems": [
@@ -1472,29 +1423,22 @@
           "ItemId": 5687,
           "ItemName": "Gatherer\u0027s Guerdon Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5692,
           "ItemName": "Gatherer\u0027s Guile Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5697,
           "ItemName": "Gatherer\u0027s Grasp Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1536,18 +1480,21 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100450,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 662500,
       "Gil": 2388,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [
@@ -1555,32 +1502,26 @@
           "ItemId": 5687,
           "ItemName": "Gatherer\u0027s Guerdon Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5692,
           "ItemName": "Gatherer\u0027s Guile Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5697,
           "ItemName": "Gatherer\u0027s Grasp Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 4106,
         "ActionName": "Patience II"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1624,11 +1565,15 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100695,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1337500,
       "Gil": 1053,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1645,16 +1590,11 @@
         {
           "ItemId": 12668,
           "ItemName": "Commercial Survival Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1696,24 +1636,26 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100695,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1557875,
       "Gil": 2277,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19516,
           "ItemName": "Muudhorn Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20613,
           "ItemName": "Salmon Roe",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -1721,46 +1663,38 @@
           "ItemId": 19627,
           "ItemName": "Gyuki Leather Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19628,
           "ItemName": "Gyuki Leather Jacket",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19629,
           "ItemName": "Gyuki Leather Gloves of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19630,
           "ItemName": "Gyuki Leather Chaps",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 268,
         "ActionName": "Mooch II"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1802,24 +1736,26 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100695,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1758750,
       "Gil": 3152,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19537,
           "ItemName": "Pine Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20614,
           "ItemName": "Nightcrawler",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -1827,46 +1763,38 @@
           "ItemId": 19637,
           "ItemName": "Tigerskin Cap of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19638,
           "ItemName": "Kudzu Coat of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19639,
           "ItemName": "Tigerskin Fingerless Gloves of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19640,
           "ItemName": "Kudzu Culottes of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 269,
         "ActionName": "Double Hook"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1908,24 +1836,26 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100695,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2227500,
       "Gil": 4267,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19558,
           "ItemName": "Gazelle Horn Fishing Rod",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20616,
           "ItemName": "Silkworm",
-          "Count": 99,
-          "Stain": null
+          "Count": 99
         }
       ],
       "OptionalItems": [
@@ -1933,29 +1863,22 @@
           "ItemId": 5688,
           "ItemName": "Gatherer\u0027s Guerdon Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5693,
           "ItemName": "Gatherer\u0027s Guile Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5698,
           "ItemName": "Gatherer\u0027s Grasp Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1993,38 +1916,35 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100695,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2889000,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5688,
           "ItemName": "Gatherer\u0027s Guerdon Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5693,
           "ItemName": "Gatherer\u0027s Guile Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5698,
           "ItemName": "Gatherer\u0027s Grasp Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

@@ -38,26 +38,25 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 7952,
           "ItemName": "Weathered Daggers",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -99,19 +98,19 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -153,18 +152,21 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 9184,
           "ItemName": "Bronze Daggers",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -172,7 +174,6 @@
           "ItemId": 3003,
           "ItemName": "Custom-made Tunic",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -200,15 +201,10 @@
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -250,18 +246,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8660,
           "ItemName": "Bronze Baselards",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -297,15 +296,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -347,22 +341,23 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 2247,
         "ActionName": "Throwing Dagger"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -404,18 +399,21 @@
     "SortKey": 151,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8661,
           "ItemName": "Brass Knives",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -451,18 +449,14 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 2248,
         "ActionName": "Mug"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -504,18 +498,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 6960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8662,
           "ItemName": "Iron Daggers",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -551,15 +548,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -601,18 +593,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 8160,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8663,
           "ItemName": "Iron Pugiones",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -648,15 +643,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -698,19 +688,19 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 6240,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -752,18 +742,21 @@
     "SortKey": 301,
     "EventIcon": 8,
     "Icon": 100344,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "ROG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 6240,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8664,
           "ItemName": "Steel Knives",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -799,15 +792,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

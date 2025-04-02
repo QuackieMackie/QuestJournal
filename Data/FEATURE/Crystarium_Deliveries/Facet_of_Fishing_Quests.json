@@ -38,19 +38,19 @@
     "SortKey": 510,
     "EventIcon": 8,
     "Icon": 100849,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 1125,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -92,26 +92,25 @@
     "SortKey": 520,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1395000,
       "Gil": 1295,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 30,
-          "Stain": null
+          "Count": 30
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -149,38 +148,35 @@
     "SortKey": 530,
     "EventIcon": 1,
     "Icon": 100849,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 2027,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 26732,
           "ItemName": "Gatherer\u0027s Guerdon Materia VIII",
-          "Count": 2,
-          "Stain": null
+          "Count": 2
         },
         {
           "ItemId": 26733,
           "ItemName": "Gatherer\u0027s Guile Materia VIII",
-          "Count": 2,
-          "Stain": null
+          "Count": 2
         },
         {
           "ItemId": 26734,
           "ItemName": "Gatherer\u0027s Grasp Materia VIII",
-          "Count": 2,
-          "Stain": null
+          "Count": 2
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

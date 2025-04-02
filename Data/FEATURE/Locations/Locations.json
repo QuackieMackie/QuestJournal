@@ -1,0 +1,387 @@
+[
+  {
+    "QuestId": 65970,
+    "QuestTitle": "It Could Happen to You",
+    "PreviousQuestIds": [
+      66043,
+      66064,
+      66082
+    ],
+    "PreviousQuestTitles": [
+      "The Gridanian Envoy",
+      "The Ul\u0027dahn Envoy",
+      "The Lominsan Envoy"
+    ],
+    "NextQuestIds": [
+      65971,
+      65972,
+      65973,
+      66024,
+      66025,
+      68617,
+      68737,
+      70337
+    ],
+    "NextQuestTitles": [
+      "World of Wonders",
+      "So You Want to Be a Jockey",
+      "Triple Triad Trial",
+      "Scratch It Rich",
+      "Hitting the Cactpot",
+      "Passion for Fashion",
+      "Every Little Thing She Does Is Mahjong",
+      "Just Crowning Around"
+    ],
+    "StarterNpc": "well-heeled youth",
+    "StarterNpcLocation": {
+      "RowId": 5653978,
+      "X": -78.8734,
+      "Y": 3.98254,
+      "Z": -110.426,
+      "Yaw": 2.23288,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Elyenora",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 141,
+    "EventIcon": 8,
+    "Icon": 100376,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 239,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 66338,
+    "QuestTitle": "Broadening Horizons",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66339
+    ],
+    "NextQuestTitles": [
+      "Beneath the Planks"
+    ],
+    "StarterNpc": "Tyoh Moui",
+    "StarterNpcLocation": {
+      "RowId": 4259686,
+      "X": 43.8265,
+      "Y": 2.54992,
+      "Z": 21.7065,
+      "Yaw": -1.4854,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Franchemontiaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 290,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 29,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4220,
+          "ItemName": "Sphene Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4214,
+          "ItemName": "Sunstone Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4218,
+          "ItemName": "Malachite Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 66748,
+    "QuestTitle": "Where the Heart Is (The Lavender Beds)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Margeria",
+    "StarterNpcLocation": {
+      "RowId": 1146380,
+      "X": 11.647,
+      "Y": -1.01489,
+      "Z": 21.0762,
+      "Yaw": 0.243049,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Margeria",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 100,
+    "EventIcon": 8,
+    "Icon": 100188,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 427,
+      "Gil": 167,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 66749,
+    "QuestTitle": "Where the Heart Is (The Goblet)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Imme",
+    "StarterNpcLocation": {
+      "RowId": 2804792,
+      "X": 228.487,
+      "Y": 52.038,
+      "Z": 133.187,
+      "Yaw": 1.15562,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Imme",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 50,
+    "EventIcon": 8,
+    "Icon": 100189,
+    "JobLevel": 5,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 175,
+      "Gil": 132,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 66750,
+    "QuestTitle": "Where the Heart Is (Mist)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ahctkoen",
+    "StarterNpcLocation": {
+      "RowId": 3882427,
+      "X": 508.039,
+      "Y": 79.1741,
+      "Z": -61.9561,
+      "Yaw": -0.543948,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Ahctkoen",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 50,
+    "EventIcon": 8,
+    "Icon": 100190,
+    "JobLevel": 5,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 175,
+      "Gil": 132,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 68167,
+    "QuestTitle": "I Dream of Shirogane",
+    "PreviousQuestIds": [
+      68008
+    ],
+    "PreviousQuestTitles": [
+      "By the Grace of Lord Lolorito"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tsurubami",
+    "StarterNpcLocation": {
+      "RowId": 6992674,
+      "X": 38.6657,
+      "Y": 2.99999,
+      "Z": -66.7579,
+      "Yaw": 0.390836,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Tsurubami",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Hingan Sidequests"
+      },
+      "Name": "Kugane Sidequests"
+    },
+    "SortKey": 1005,
+    "EventIcon": 8,
+    "Icon": 100716,
+    "JobLevel": 61,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69708,
+    "QuestTitle": "Ascending to Empyreum",
+    "PreviousQuestIds": [
+      67783
+    ],
+    "PreviousQuestTitles": [
+      "Litany of Peace"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gondelimbaud",
+    "StarterNpcLocation": {
+      "RowId": 5838540,
+      "X": -63.2181,
+      "Y": 8.25507,
+      "Z": 28.7327,
+      "Yaw": 0.232354,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Gondelimbaud",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 17001,
+    "EventIcon": 8,
+    "Icon": 101097,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  }
+]

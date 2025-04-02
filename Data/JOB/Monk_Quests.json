@@ -40,15 +40,18 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100105,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 70,
         "ActionName": "Rockbreaker"
@@ -57,8 +60,7 @@
       "OtherReward": {
         "Id": 11,
         "Name": "Soul of the Monk"
-      },
-      "InstanceContentUnlock": null
+      }
     }
   },
   {
@@ -100,22 +102,23 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100105,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25762,
         "ActionName": "Thunderclap"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -157,22 +160,23 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100105,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25763,
         "ActionName": "Howling Fist"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -214,22 +218,23 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100105,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 16473,
         "ActionName": "Four-point Fury"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -271,19 +276,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100105,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -327,35 +332,34 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100105,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 3221,
           "ItemName": "Temple Cyclas",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20643,
           "ItemName": "Melee Attire Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 69,
         "ActionName": "Perfect Balance"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -395,26 +399,25 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100165,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1746,
           "ItemName": "Sphairai",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -458,19 +461,19 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100435,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 1018,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -512,22 +515,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100435,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 718,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 4262,
         "ActionName": "Form Shift"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -569,22 +573,23 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100435,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 1076,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3547,
         "ActionName": "the Forbidden Chakra"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -626,19 +631,19 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100435,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1124,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -680,19 +685,19 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100435,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 1447,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -734,29 +739,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100435,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1413,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20656,
           "ItemName": "Tantra Armor Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25764,
         "ActionName": "Masterful Blitz"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -800,19 +805,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100672,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1767,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -854,19 +859,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100672,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1628,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -908,19 +913,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100672,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 3061,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -962,19 +967,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100672,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 3074,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1016,29 +1021,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100672,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2600,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20276,
           "ItemName": "Pacifist\u0027s Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7396,
         "ActionName": "Brotherhood"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1080,38 +1085,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100874,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "MNK",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 3645,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

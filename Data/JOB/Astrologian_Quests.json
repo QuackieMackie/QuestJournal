@@ -38,44 +38,40 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 8840,
           "ItemName": "Soul of the Astrologian",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 10524,
           "ItemName": "Star Globe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 3090,
           "ItemName": "Velveteen Cowl",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 3355,
           "ItemName": "Velveteen Tights",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -117,19 +113,19 @@
     "SortKey": 301,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -171,19 +167,19 @@
     "SortKey": 350,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -225,22 +221,23 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 10780,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3601,
         "ActionName": "Aspected Helios"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -282,19 +279,19 @@
     "SortKey": 401,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 10780,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -336,22 +333,23 @@
     "SortKey": 450,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23760,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3615,
         "ActionName": "Gravity"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -393,22 +391,23 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3612,
         "ActionName": "Synastry"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -437,7 +436,6 @@
       "MapId": 219,
       "TerritoryId": 419
     },
-    "FinishNpc": null,
     "Expansion": "Heavensward",
     "JournalGenre": {
       "Id": 183,
@@ -450,26 +448,25 @@
     "SortKey": 501,
     "EventIcon": 8,
     "Icon": 100442,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20654,
           "ItemName": "Astrologian\u0027s Attire Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -511,19 +508,19 @@
     "SortKey": 502,
     "EventIcon": 8,
     "Icon": 100443,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23400,
       "Gil": 683,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -565,19 +562,19 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100443,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 1163,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -619,22 +616,23 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100443,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 993,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3598,
         "ActionName": "Malefic II"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -676,19 +674,19 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100443,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1691,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -730,22 +728,23 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100443,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 1213,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3613,
         "ActionName": "Collective Unconscious"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -787,29 +786,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100443,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1610,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20667,
           "ItemName": "Welkin Attire Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 16553,
         "ActionName": "Celestial Opposition"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -853,19 +852,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100680,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1691,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -907,19 +906,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100680,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1204,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -961,19 +960,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100680,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 2994,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1015,19 +1014,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100680,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1771,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1069,26 +1068,25 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100680,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2500,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20286,
           "ItemName": "Constellation Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1130,38 +1128,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100885,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 1627,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25186,
           "ItemName": "Piety Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

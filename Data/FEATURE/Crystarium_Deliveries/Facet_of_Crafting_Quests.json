@@ -38,19 +38,19 @@
     "SortKey": 210,
     "EventIcon": 8,
     "Icon": 100846,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 752,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -92,11 +92,15 @@
     "SortKey": 220,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1395000,
       "Gil": 861,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -111,11 +115,7 @@
       ],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -153,32 +153,30 @@
     "SortKey": 230,
     "EventIcon": 1,
     "Icon": 100846,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 1215,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 26737,
           "ItemName": "Craftsman\u0027s Command Materia VIII",
-          "Count": 2,
-          "Stain": null
+          "Count": 2
         },
         {
           "ItemId": 26735,
           "ItemName": "Craftsman\u0027s Competence Materia VIII",
-          "Count": 2,
-          "Stain": null
+          "Count": 2
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

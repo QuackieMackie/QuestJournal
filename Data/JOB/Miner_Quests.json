@@ -38,26 +38,25 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2519,
           "ItemName": "Weathered Pickaxe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -99,11 +98,15 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 300,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
@@ -114,11 +117,7 @@
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -160,18 +159,21 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1435,
       "Gil": 194,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2520,
           "ItemName": "Bronze Pickaxe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -193,15 +195,10 @@
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -243,18 +240,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5899,
       "Gil": 289,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2534,
           "ItemName": "Bronze Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -276,15 +276,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -326,18 +321,21 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12960,
       "Gil": 382,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2535,
           "ItemName": "Recruit\u0027s Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -373,15 +371,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -423,18 +416,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 24360,
       "Gil": 470,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2523,
           "ItemName": "Iron Pickaxe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -470,15 +466,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -520,18 +511,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 40800,
       "Gil": 557,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2538,
           "ItemName": "Novice\u0027s Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -567,15 +561,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -617,18 +606,21 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 68640,
       "Gil": 639,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2526,
           "ItemName": "Steel Pickaxe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -664,15 +656,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -714,18 +701,21 @@
     "SortKey": 350,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 102960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2527,
           "ItemName": "Steel Dolabra",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -733,7 +723,6 @@
           "ItemId": 3129,
           "ItemName": "Apprentice\u0027s Doublet",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -761,15 +750,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -811,18 +795,21 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 156310,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2541,
           "ItemName": "Apprentice\u0027s Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -858,15 +845,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -908,18 +890,21 @@
     "SortKey": 450,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 196020,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2529,
           "ItemName": "Cobalt Dolabra",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -955,15 +940,10 @@
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1005,18 +985,21 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100058,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2532,
           "ItemName": "Mammon",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1024,43 +1007,34 @@
           "ItemId": 2928,
           "ItemName": "Hamlet Digger\u0027s Helmet",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3489,
           "ItemName": "Miner\u0027s Slops",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3714,
           "ItemName": "Miner\u0027s Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3935,
           "ItemName": "Miner\u0027s Workboots",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1104,11 +1078,15 @@
     "SortKey": 502,
     "EventIcon": 8,
     "Icon": 100448,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 1057,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 8,
@@ -1125,16 +1103,11 @@
         {
           "ItemId": 12668,
           "ItemName": "Commercial Survival Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1176,18 +1149,21 @@
     "SortKey": 530,
     "EventIcon": 8,
     "Icon": 100448,
-    "IconSpecial": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 663390,
       "Gil": 1338,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11947,
           "ItemName": "Mythrite Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1195,43 +1171,34 @@
           "ItemId": 11984,
           "ItemName": "Holy Rainbow Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11989,
           "ItemName": "Wyvernskin Jerkin",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11994,
           "ItemName": "Holy Rainbow Work Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12002,
           "ItemName": "Wyvernskin Culottes",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1273,18 +1240,21 @@
     "SortKey": 550,
     "EventIcon": 8,
     "Icon": 100448,
-    "IconSpecial": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 836550,
       "Gil": 2795,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11904,
           "ItemName": "Hardsilver Dolabra",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1292,39 +1262,32 @@
           "ItemId": 11985,
           "ItemName": "Dhalmelskin Bush Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11990,
           "ItemName": "Dhalmelskin Vest",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 12003,
           "ItemName": "Ramie Trousers of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 4081,
         "ActionName": "Luck of the Mountaineer"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1366,24 +1329,26 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100448,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1113840,
       "Gil": 1782,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 11905,
           "ItemName": "Titanium Pickaxe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1391,29 +1356,22 @@
           "ItemId": 5687,
           "ItemName": "Gatherer\u0027s Guerdon Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5692,
           "ItemName": "Gatherer\u0027s Guile Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5697,
           "ItemName": "Gatherer\u0027s Grasp Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1455,18 +1413,21 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100448,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 662500,
       "Gil": 2946,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [
@@ -1474,29 +1435,22 @@
           "ItemId": 5687,
           "ItemName": "Gatherer\u0027s Guerdon Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5692,
           "ItemName": "Gatherer\u0027s Guile Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5697,
           "ItemName": "Gatherer\u0027s Grasp Materia IV",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1540,11 +1494,15 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100693,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1337500,
       "Gil": 1406,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 8,
@@ -1561,16 +1519,11 @@
         {
           "ItemId": 12668,
           "ItemName": "Commercial Survival Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1612,18 +1565,21 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100693,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1557875,
       "Gil": 2478,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19525,
           "ItemName": "High Steel Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1631,43 +1587,34 @@
           "ItemId": 19627,
           "ItemName": "Gyuki Leather Hat",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19628,
           "ItemName": "Gyuki Leather Jacket",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19629,
           "ItemName": "Gyuki Leather Gloves of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19630,
           "ItemName": "Gyuki Leather Chaps",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1709,18 +1656,21 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100693,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1758750,
       "Gil": 2957,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19535,
           "ItemName": "Doman Iron Pickaxe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1728,43 +1678,34 @@
           "ItemId": 19637,
           "ItemName": "Tigerskin Cap of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19638,
           "ItemName": "Kudzu Coat of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19639,
           "ItemName": "Tigerskin Fingerless Gloves of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19640,
           "ItemName": "Kudzu Culottes of Gathering",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1806,24 +1747,26 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100693,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2227500,
       "Gil": 2950,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 19567,
           "ItemName": "Doman Steel Sledgehammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 12669,
           "ItemName": "Hi-Cordial",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [
@@ -1831,32 +1774,26 @@
           "ItemId": 5688,
           "ItemName": "Gatherer\u0027s Guerdon Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5693,
           "ItemName": "Gatherer\u0027s Guile Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5698,
           "ItemName": "Gatherer\u0027s Grasp Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 272,
         "ActionName": "Bountiful Yield II"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1894,38 +1831,35 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100693,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "MIN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2889000,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5688,
           "ItemName": "Gatherer\u0027s Guerdon Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5693,
           "ItemName": "Gatherer\u0027s Guile Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5698,
           "ItemName": "Gatherer\u0027s Grasp Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

@@ -34,31 +34,30 @@
     "SortKey": 190,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1680,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5594,
           "ItemName": "Grade 1 Dark Matter",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [
         {
           "Id": 14,
           "Name": "Materia Extraction"
         }
-      ],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      ]
     }
   },
   {
@@ -100,24 +99,24 @@
     "SortKey": 190,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1680,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [
         {
           "Id": 12,
           "Name": "Materia Melding"
         }
-      ],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      ]
     }
   },
   {
@@ -155,24 +154,24 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2040,
       "Gil": 5157,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [
         {
           "Id": 13,
           "Name": "Advanced Materia Melding"
         }
-      ],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      ]
     }
   },
   {
@@ -210,43 +209,40 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1440,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5735,
           "ItemName": "Rose Pink Dye",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         },
         {
           "ItemId": 5762,
           "ItemName": "Bone White Dye",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         },
         {
           "ItemId": 5788,
           "ItemName": "Ice Blue Dye",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [
         {
           "Id": 15,
           "Name": "Dye"
         }
-      ],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      ]
     }
   },
   {
@@ -290,26 +286,25 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100186,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1440,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 7005,
           "ItemName": "Jandelaine\u0027s Token",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -347,29 +342,29 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21800,
           "ItemName": "Glamour Prism",
-          "Count": 12,
-          "Stain": null
+          "Count": 12
         },
         {
           "ItemId": 13258,
           "ItemName": "Green Beret",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [
         {
           "Id": 22,
@@ -379,9 +374,7 @@
           "Id": 25,
           "Name": "Glamour Plate"
         }
-      ],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      ]
     }
   },
   {
@@ -419,26 +412,25 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 7671,
           "ItemName": "Clear Prism",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -476,19 +468,19 @@
     "SortKey": 190,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 840,
       "Gil": 227,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -526,11 +518,15 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 433,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [
@@ -538,29 +534,22 @@
           "ItemId": 5741,
           "ItemName": "Coral Pink Dye",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5782,
           "ItemName": "Adamantoise Green Dye",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5792,
           "ItemName": "Rhotano Blue Dye",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -598,19 +587,19 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SMN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 461,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -648,29 +637,29 @@
     "SortKey": 151,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21800,
           "ItemName": "Glamour Prism",
-          "Count": 12,
-          "Stain": null
+          "Count": 12
         },
         {
           "ItemId": 13258,
           "ItemName": "Green Beret",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
       "GeneralActions": [
         {
           "Id": 22,
@@ -680,9 +669,7 @@
           "Id": 25,
           "Name": "Glamour Plate"
         }
-      ],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      ]
     }
   },
   {
@@ -720,26 +707,25 @@
     "SortKey": 152,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 7671,
           "ItemName": "Clear Prism",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -777,19 +763,19 @@
     "SortKey": 315,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 367,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -827,26 +813,25 @@
     "SortKey": 35,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 105,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 6221,
           "ItemName": "Fantasia",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

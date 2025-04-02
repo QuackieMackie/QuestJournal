@@ -34,38 +34,35 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 101096,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 970,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 33354,
           "ItemName": "Soul of the Reaper",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 35872,
           "ItemName": "Muzhik Attire Coffer (IL 385)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 35760,
           "ItemName": "Deepgold War Scythe",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -107,19 +104,19 @@
     "SortKey": 701,
     "EventIcon": 8,
     "Icon": 101096,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "RPR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2343,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -161,19 +158,19 @@
     "SortKey": 730,
     "EventIcon": 8,
     "Icon": 101096,
-    "IconSpecial": 0,
+    "JobLevel": 73,
+    "ClassJobCategory": "RPR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 220320,
       "Gil": 1848,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -215,19 +212,19 @@
     "SortKey": 750,
     "EventIcon": 8,
     "Icon": 101096,
-    "IconSpecial": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "RPR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 223200,
       "Gil": 1556,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -269,19 +266,19 @@
     "SortKey": 780,
     "EventIcon": 8,
     "Icon": 101096,
-    "IconSpecial": 0,
+    "JobLevel": 78,
+    "ClassJobCategory": "RPR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 227520,
       "Gil": 1860,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -319,22 +316,23 @@
     "SortKey": 800,
     "EventIcon": 8,
     "Icon": 101096,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "RPR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 3751,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 24394,
         "ActionName": "Enshroud"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

@@ -38,19 +38,19 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100501,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 658,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -92,19 +92,19 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100502,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 822,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -146,19 +146,19 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100503,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Recognized"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 724,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -200,19 +200,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100504,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 602,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -254,19 +254,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100505,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 814,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -308,11 +308,15 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100506,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 602,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
@@ -320,10 +324,7 @@
         "Id": 120,
         "EmoteName": "Sundrop Dance"
       },
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -352,7 +353,6 @@
       "MapId": 215,
       "TerritoryId": 401
     },
-    "FinishNpc": null,
     "Expansion": "Heavensward",
     "JournalGenre": {
       "Id": 47,
@@ -365,19 +365,19 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100507,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 630,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -411,26 +411,25 @@
     "SortKey": 11,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -464,26 +463,25 @@
     "SortKey": 12,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 489,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -517,26 +515,25 @@
     "SortKey": 13,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 581,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -570,26 +567,25 @@
     "SortKey": 14,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 637,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -623,26 +619,25 @@
     "SortKey": 15,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 581,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -676,26 +671,25 @@
     "SortKey": 16,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 681,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -729,26 +723,25 @@
     "SortKey": 17,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 737,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -782,26 +775,25 @@
     "SortKey": 18,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 581,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -835,26 +827,25 @@
     "SortKey": 19,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 665,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -888,26 +879,25 @@
     "SortKey": 20,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Neutral"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 461,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -941,26 +931,25 @@
     "SortKey": 21,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Recognized"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -994,26 +983,25 @@
     "SortKey": 22,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Recognized"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 461,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1047,26 +1035,25 @@
     "SortKey": 23,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Recognized"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1100,26 +1087,25 @@
     "SortKey": 24,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Recognized"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1153,26 +1139,25 @@
     "SortKey": 31,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 665,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1206,26 +1191,25 @@
     "SortKey": 32,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1259,26 +1243,25 @@
     "SortKey": 33,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 709,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1312,26 +1295,25 @@
     "SortKey": 34,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1365,26 +1347,25 @@
     "SortKey": 41,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1418,26 +1399,25 @@
     "SortKey": 42,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 737,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1471,26 +1451,25 @@
     "SortKey": 43,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 461,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1524,26 +1503,25 @@
     "SortKey": 44,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 709,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1577,26 +1555,25 @@
     "SortKey": 51,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 709,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1630,26 +1607,25 @@
     "SortKey": 52,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 681,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1683,26 +1659,25 @@
     "SortKey": 53,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 709,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1736,26 +1711,25 @@
     "SortKey": 54,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 681,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1789,26 +1763,25 @@
     "SortKey": 61,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 637,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1842,26 +1815,25 @@
     "SortKey": 62,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 637,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1895,26 +1867,25 @@
     "SortKey": 63,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1948,26 +1919,25 @@
     "SortKey": 64,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 13455,
       "Gil": 609,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21074,
           "ItemName": "Vanu Whitebone",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -2005,26 +1975,25 @@
     "SortKey": 8,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Vanu Vanu",
+      "BeastTribeRank": "Sworn"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 405,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21072,
           "ItemName": "Venture",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

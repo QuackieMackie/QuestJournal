@@ -40,15 +40,18 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100104,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 92,
         "ActionName": "Jump"
@@ -57,8 +60,7 @@
       "OtherReward": {
         "Id": 13,
         "Name": "Soul of the Dragoon"
-      },
-      "InstanceContentUnlock": null
+      }
     }
   },
   {
@@ -100,22 +102,23 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100104,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 94,
         "ActionName": "Elusive Jump"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -157,22 +160,23 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100104,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 86,
         "ActionName": "Doom Spike"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -214,19 +218,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100104,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -268,22 +272,23 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100104,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 36951,
         "ActionName": "Winged Glide"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -327,35 +332,34 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100104,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 3223,
           "ItemName": "Drachen Mail",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20645,
           "ItemName": "Wyrm\u0027s Armor Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 96,
         "ActionName": "Dragonfire Dive"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -395,26 +399,25 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100165,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1885,
           "ItemName": "Gae Bolg",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -458,19 +461,19 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 702,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -512,22 +515,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 24180,
       "Gil": 816,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3557,
         "ActionName": "Battle Litany"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -569,19 +573,19 @@
     "SortKey": 521,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 24180,
       "Gil": 876,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -623,19 +627,19 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 1504,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -677,22 +681,23 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1284,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3554,
         "ActionName": "Fang and Claw"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -734,22 +739,23 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 1377,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3556,
         "ActionName": "Wheeling Thrust"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -791,29 +797,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100489,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1037,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20658,
           "ItemName": "Dragonlancer\u0027s Armor Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3555,
         "ActionName": "Geirskogul"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -857,19 +863,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100671,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1327,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -911,19 +917,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100671,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 2476,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -965,19 +971,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100671,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 2659,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1019,19 +1025,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100671,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 2710,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1073,29 +1079,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100671,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2400,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20303,
           "ItemName": "Trueblood Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7400,
         "ActionName": "Nastrond"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1137,38 +1143,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100876,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "DRG",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 3268,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

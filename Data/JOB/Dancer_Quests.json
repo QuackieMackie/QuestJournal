@@ -38,38 +38,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100889,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 1361,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -107,38 +104,35 @@
     "SortKey": 201,
     "EventIcon": 8,
     "Icon": 100872,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 50000,
       "Gil": 745,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25217,
           "ItemName": "Soul of the Dancer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 27358,
           "ItemName": "High Steel Chakrams",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 27267,
           "ItemName": "Softstepper\u0027s Attire Coffer (IL 255)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -180,19 +174,19 @@
     "SortKey": 202,
     "EventIcon": 8,
     "Icon": 100872,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1983,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -234,19 +228,19 @@
     "SortKey": 211,
     "EventIcon": 8,
     "Icon": 100872,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1463,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -288,19 +282,19 @@
     "SortKey": 221,
     "EventIcon": 8,
     "Icon": 100872,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 1890,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -342,19 +336,19 @@
     "SortKey": 231,
     "EventIcon": 8,
     "Icon": 100872,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1742,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -396,22 +390,23 @@
     "SortKey": 241,
     "EventIcon": 8,
     "Icon": 100872,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 3587,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 15998,
         "ActionName": "Technical Step"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

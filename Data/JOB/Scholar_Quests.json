@@ -42,29 +42,29 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100107,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 4550,
           "ItemName": "Soul of the Scholar",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 185,
         "ActionName": "Adloquium"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -106,22 +106,23 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100107,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 15840,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 186,
         "ActionName": "Succor"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -163,19 +164,19 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100107,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 21560,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -217,19 +218,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100107,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -271,22 +272,23 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100107,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 11880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 189,
         "ActionName": "Lustrate"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -330,35 +332,34 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100107,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 3228,
           "ItemName": "Scholar\u0027s Gown",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20651,
           "ItemName": "Argute Attire Coffer (IL 90)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 188,
         "ActionName": "Sacred Soil"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -398,26 +399,25 @@
     "SortKey": 7,
     "EventIcon": 8,
     "Icon": 100165,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2214,
           "ItemName": "Omnilex",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -461,19 +461,19 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100441,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 1078,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -515,22 +515,23 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100441,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 676,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3583,
         "ActionName": "Indomitability"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -572,22 +573,23 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100441,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 1013,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3584,
         "ActionName": "Broil"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -629,22 +631,23 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100441,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 650,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3585,
         "ActionName": "Deployment Tactics"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -686,22 +689,23 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100441,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 2108,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3586,
         "ActionName": "Emergency Tactics"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -743,29 +747,29 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100441,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1149,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20664,
           "ItemName": "Savant\u0027s Attire Coffer (IL 210)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 3587,
         "ActionName": "Dissipation"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -809,19 +813,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100678,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 1873,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -863,19 +867,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100678,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1809,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -917,19 +921,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100678,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 1857,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -971,19 +975,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100678,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1943,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1025,29 +1029,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100678,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 3000,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20282,
           "ItemName": "Orator\u0027s Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7437,
         "ActionName": "Aetherpact"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1089,38 +1093,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100881,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "SCH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 2990,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25186,
           "ItemName": "Piety Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

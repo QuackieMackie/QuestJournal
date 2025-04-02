@@ -34,38 +34,35 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 101095,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 33355,
           "ItemName": "Soul of the Sage",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 35873,
           "ItemName": "Bookwyrm\u0027s Attire Coffer (IL 385)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 35778,
           "ItemName": "Stonegold Milpreves",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -107,19 +104,19 @@
     "SortKey": 701,
     "EventIcon": 8,
     "Icon": 101095,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2383,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -161,19 +158,19 @@
     "SortKey": 730,
     "EventIcon": 8,
     "Icon": 101095,
-    "IconSpecial": 0,
+    "JobLevel": 73,
+    "ClassJobCategory": "SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 220320,
       "Gil": 2678,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -215,19 +212,19 @@
     "SortKey": 750,
     "EventIcon": 8,
     "Icon": 101095,
-    "IconSpecial": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 223200,
       "Gil": 1807,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -269,19 +266,19 @@
     "SortKey": 780,
     "EventIcon": 8,
     "Icon": 101095,
-    "IconSpecial": 0,
+    "JobLevel": 78,
+    "ClassJobCategory": "SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 227520,
       "Gil": 1179,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -319,22 +316,23 @@
     "SortKey": 800,
     "EventIcon": 8,
     "Icon": 101095,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 3031,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 24311,
         "ActionName": "Panhaima"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

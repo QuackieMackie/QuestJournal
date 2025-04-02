@@ -38,19 +38,19 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 100747,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 1158,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -92,19 +92,19 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 100748,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 1681,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -146,19 +146,19 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 100749,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 1585,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -200,19 +200,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 100750,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 1523,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -254,19 +254,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 100751,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 2045,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -308,19 +308,19 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 100752,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Sworn"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 1075,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -354,26 +354,25 @@
     "SortKey": 21,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -407,26 +406,25 @@
     "SortKey": 7,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -460,26 +458,25 @@
     "SortKey": 8,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -513,26 +510,25 @@
     "SortKey": 9,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -566,26 +562,25 @@
     "SortKey": 10,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -619,26 +614,25 @@
     "SortKey": 11,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -672,26 +666,25 @@
     "SortKey": 12,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -725,26 +718,25 @@
     "SortKey": 13,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -778,26 +770,25 @@
     "SortKey": 14,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -831,26 +822,25 @@
     "SortKey": 15,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -884,26 +874,25 @@
     "SortKey": 16,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -937,26 +926,25 @@
     "SortKey": 17,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -990,26 +978,25 @@
     "SortKey": 18,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1043,26 +1030,25 @@
     "SortKey": 19,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1096,26 +1082,25 @@
     "SortKey": 20,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1149,26 +1134,25 @@
     "SortKey": 28,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1202,26 +1186,25 @@
     "SortKey": 22,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 745,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1255,26 +1238,25 @@
     "SortKey": 23,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1308,26 +1290,25 @@
     "SortKey": 24,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 680,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1361,26 +1342,25 @@
     "SortKey": 25,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1414,26 +1394,25 @@
     "SortKey": 26,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 680,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1467,26 +1446,25 @@
     "SortKey": 27,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1520,26 +1498,25 @@
     "SortKey": 29,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1573,26 +1550,25 @@
     "SortKey": 30,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1626,26 +1602,25 @@
     "SortKey": 31,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 615,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1679,26 +1654,25 @@
     "SortKey": 32,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1732,26 +1706,25 @@
     "SortKey": 33,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1785,26 +1758,25 @@
     "SortKey": 34,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Ananta",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 27250,
       "Gil": 550,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 21935,
           "ItemName": "Ananta Dreamstaff",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

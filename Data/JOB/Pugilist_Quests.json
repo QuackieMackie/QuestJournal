@@ -38,26 +38,25 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1680,
           "ItemName": "Weathered Hora",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -97,26 +96,25 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 4639,
           "ItemName": "Marmot Steak",
-          "Count": 5,
-          "Stain": null
+          "Count": 5
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -160,19 +158,19 @@
     "SortKey": 12,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -218,18 +216,21 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1681,
           "ItemName": "Bone Hora",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -237,7 +238,6 @@
           "ItemId": 3002,
           "ItemName": "Custom-made Shirt",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -265,15 +265,10 @@
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -317,18 +312,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1683,
           "ItemName": "Ramhorn Claws",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -364,15 +362,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -416,18 +409,21 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5760,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1685,
           "ItemName": "Hard Leather Himantes",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -463,18 +459,14 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 25761,
         "ActionName": "Steel Peak"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -516,18 +508,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 6960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1688,
           "ItemName": "Goatskin Cesti",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -563,15 +558,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -613,18 +603,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 8160,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1697,
           "ItemName": "Toadskin Cesti",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -660,15 +653,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -710,18 +698,21 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1699,
           "ItemName": "Steel Claws",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -757,15 +748,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -809,18 +795,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100059,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "PGL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 1683,
           "ItemName": "Ramhorn Claws",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -856,15 +845,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

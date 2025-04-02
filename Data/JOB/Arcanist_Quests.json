@@ -38,26 +38,25 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2142,
           "ItemName": "Weathered Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -97,26 +96,25 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 4728,
           "ItemName": "Raisins",
-          "Count": 5,
-          "Stain": null
+          "Count": 5
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -160,19 +158,19 @@
     "SortKey": 12,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 400,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -218,18 +216,21 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1400,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2143,
           "ItemName": "Leather Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -237,7 +238,6 @@
           "ItemId": 3007,
           "ItemName": "Custom-made Robe of Casting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -251,29 +251,22 @@
           "ItemId": 4421,
           "ItemName": "Bone Ring",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 4091,
           "ItemName": "Copper Wristlets",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -317,18 +310,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2145,
           "ItemName": "Engraved Leather Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -364,15 +360,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -416,18 +407,21 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 3420,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2145,
           "ItemName": "Engraved Leather Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -463,15 +457,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -513,18 +502,21 @@
     "SortKey": 151,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2147,
           "ItemName": "Hard Leather Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -560,15 +552,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -610,18 +597,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 6960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2149,
           "ItemName": "Engraved Hard Leather Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -657,15 +647,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -707,18 +692,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 8160,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2151,
           "ItemName": "Yew Picatrix",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -754,15 +742,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -806,18 +789,21 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12480,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2160,
           "ItemName": "Engraved Goatskin Grimoire",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -853,18 +839,14 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 172,
         "ActionName": "Ruin II"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -908,22 +890,23 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100100,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "ACN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2880,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 25803,
         "ActionName": "Summon Topaz"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

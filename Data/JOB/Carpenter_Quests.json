@@ -38,11 +38,15 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100,
       "Gil": 115,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 4,
@@ -59,16 +63,11 @@
         {
           "ItemId": 2314,
           "ItemName": "Weathered Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -110,11 +109,15 @@
     "SortKey": 50,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1435,
       "Gil": 194,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 4,
@@ -131,8 +134,7 @@
         {
           "ItemId": 2328,
           "ItemName": "Amateur\u0027s Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -161,15 +163,10 @@
           "ItemId": 5823,
           "ItemName": "Allagan Tin Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -211,11 +208,15 @@
     "SortKey": 100,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 5899,
       "Gil": 289,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 4,
@@ -232,8 +233,7 @@
         {
           "ItemId": 2315,
           "ItemName": "Bronze Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -262,15 +262,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 2,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -312,18 +307,21 @@
     "SortKey": 150,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 12960,
       "Gil": 382,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2330,
           "ItemName": "Recruit\u0027s Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -345,15 +343,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -395,18 +388,21 @@
     "SortKey": 200,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 24360,
       "Gil": 470,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2318,
           "ItemName": "Initiate\u0027s Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -435,15 +431,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -485,18 +476,21 @@
     "SortKey": 250,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 40800,
       "Gil": 557,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2332,
           "ItemName": "Initiate\u0027s Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -525,15 +519,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -575,18 +564,21 @@
     "SortKey": 300,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 68640,
       "Gil": 639,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2320,
           "ItemName": "Iron Chocobotail Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -615,15 +607,10 @@
           "ItemId": 5824,
           "ItemName": "Allagan Bronze Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -665,11 +652,15 @@
     "SortKey": 11,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 300,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 4,
@@ -686,8 +677,7 @@
         {
           "ItemId": 5380,
           "ItemName": "Maple Log",
-          "Count": 30,
-          "Stain": null
+          "Count": 30
         },
         {
           "ItemId": 2961,
@@ -697,11 +687,7 @@
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -743,18 +729,21 @@
     "SortKey": 350,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 102960,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2322,
           "ItemName": "Crosscut Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -769,7 +758,6 @@
           "ItemId": 3130,
           "ItemName": "Apprentice\u0027s Smock",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
@@ -783,15 +771,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -833,18 +816,21 @@
     "SortKey": 400,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 156310,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2336,
           "ItemName": "Apprentice\u0027s Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -873,15 +859,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -923,18 +904,21 @@
     "SortKey": 450,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 196020,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2324,
           "ItemName": "Mythril Chocobotail Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -963,15 +947,10 @@
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 8,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1013,18 +992,21 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100062,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 2327,
           "ItemName": "Ullikummi",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1032,36 +1014,28 @@
           "ItemId": 2920,
           "ItemName": "Carpenter\u0027s Hood",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3706,
           "ItemName": "Carpenter\u0027s Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 3927,
           "ItemName": "Carpenter\u0027s Workboots",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5826,
           "ItemName": "Allagan Gold Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1105,11 +1079,15 @@
     "SortKey": 502,
     "EventIcon": 8,
     "Icon": 100456,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 210600,
       "Gil": 722,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1121,16 +1099,11 @@
         {
           "ItemId": 12667,
           "ItemName": "Commercial Engineering Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1172,11 +1145,15 @@
     "SortKey": 530,
     "EventIcon": 8,
     "Icon": 100456,
-    "IconSpecial": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 663390,
       "Gil": 390,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1188,8 +1165,7 @@
         {
           "ItemId": 11915,
           "ItemName": "Mythrite Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1197,43 +1173,34 @@
           "ItemId": 11956,
           "ItemName": "Holy Rainbow Wedge Cap",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11961,
           "ItemName": "Holy Rainbow Coatee",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11966,
           "ItemName": "Holy Rainbow Gloves",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11974,
           "ItemName": "Holy Rainbow Bottoms",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 3,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1275,11 +1242,15 @@
     "SortKey": 550,
     "EventIcon": 8,
     "Icon": 100456,
-    "IconSpecial": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 836550,
       "Gil": 1212,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1291,8 +1262,7 @@
         {
           "ItemId": 11872,
           "ItemName": "Hardsilver Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1300,43 +1270,34 @@
           "ItemId": 11957,
           "ItemName": "Ramie Turban of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11962,
           "ItemName": "Ramie Doublet of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11967,
           "ItemName": "Dhalmelskin Halfgloves of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 11975,
           "ItemName": "Ramie Skirt",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 4,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1378,11 +1339,15 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100456,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1113840,
       "Gil": 770,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1394,8 +1359,7 @@
         {
           "ItemId": 11873,
           "ItemName": "Titanium Halfheart Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1403,29 +1367,22 @@
           "ItemId": 5702,
           "ItemName": "Craftsman\u0027s Competence Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5707,
           "ItemName": "Craftsman\u0027s Cunning Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5712,
           "ItemName": "Craftsman\u0027s Command Materia IV",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1467,38 +1424,35 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100456,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 662500,
       "Gil": 599,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5702,
           "ItemName": "Craftsman\u0027s Competence Materia IV",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5707,
           "ItemName": "Craftsman\u0027s Cunning Materia IV",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5712,
           "ItemName": "Craftsman\u0027s Command Materia IV",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1542,11 +1496,15 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100685,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1337500,
       "Gil": 713,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1558,16 +1516,11 @@
         {
           "ItemId": 12667,
           "ItemName": "Commercial Engineering Manual",
-          "Count": 3,
-          "Stain": null
+          "Count": 3
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1609,11 +1562,15 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100685,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1557875,
       "Gil": 1938,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1625,8 +1582,7 @@
         {
           "ItemId": 19517,
           "ItemName": "High Steel Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1634,43 +1590,34 @@
           "ItemId": 19623,
           "ItemName": "Ruby Cotton Coatee",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19624,
           "ItemName": "Gyuki Leather Gloves of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19625,
           "ItemName": "Ruby Cotton Bottoms",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19626,
           "ItemName": "Gyuki Leather Shoes",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 5,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1712,11 +1659,15 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100685,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 1758750,
       "Gil": 890,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1728,8 +1679,7 @@
         {
           "ItemId": 19527,
           "ItemName": "Doman Iron Halfheart Saw",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1737,46 +1687,38 @@
           "ItemId": 19633,
           "ItemName": "Kudzu Robe of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19634,
           "ItemName": "Durium Chaplets",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19635,
           "ItemName": "Kudzu Culottes of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 19636,
           "ItemName": "Tigerskin Boots of Crafting",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5825,
           "ItemName": "Allagan Silver Piece",
           "Count": 6,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
       "Action": {
         "Id": 4574,
         "ActionName": "Manipulation"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1818,11 +1760,15 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100685,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2227500,
       "Gil": 2539,
-      "Currency": null,
       "Catalysts": [
         {
           "ItemId": 10,
@@ -1834,8 +1780,7 @@
         {
           "ItemId": 19559,
           "ItemName": "Doman Steel Claw Hammer",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [
@@ -1843,29 +1788,22 @@
           "ItemId": 5703,
           "ItemName": "Craftsman\u0027s Competence Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5708,
           "ItemName": "Craftsman\u0027s Cunning Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         },
         {
           "ItemId": 5713,
           "ItemName": "Craftsman\u0027s Command Materia V",
           "Count": 1,
-          "Stain": null,
           "IsHq": false
         }
       ],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1903,38 +1841,35 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100685,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "CRP",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2889000,
       "Gil": 0,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 5703,
           "ItemName": "Craftsman\u0027s Competence Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5708,
           "ItemName": "Craftsman\u0027s Cunning Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 5713,
           "ItemName": "Craftsman\u0027s Command Materia V",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

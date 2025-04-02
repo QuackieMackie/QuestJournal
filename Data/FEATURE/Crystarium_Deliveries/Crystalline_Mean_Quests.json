@@ -17,7 +17,6 @@
       "MapId": 497,
       "TerritoryId": 819
     },
-    "FinishNpc": null,
     "Expansion": "Shadowbringers",
     "JournalGenre": {
       "Id": 198,
@@ -30,19 +29,19 @@
     "SortKey": 600,
     "EventIcon": 1,
     "Icon": 100850,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 0,
       "Gil": 1055,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -94,19 +93,19 @@
     "SortKey": 10,
     "EventIcon": 8,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 54000,
       "Gil": 569,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

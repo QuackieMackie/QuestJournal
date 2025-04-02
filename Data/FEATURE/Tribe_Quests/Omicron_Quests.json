@@ -38,19 +38,19 @@
     "SortKey": 1,
     "EventIcon": 8,
     "Icon": 101187,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 2244000,
       "Gil": 1415,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -92,19 +92,19 @@
     "SortKey": 2,
     "EventIcon": 8,
     "Icon": 101188,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 2244000,
       "Gil": 1375,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -146,19 +146,19 @@
     "SortKey": 3,
     "EventIcon": 8,
     "Icon": 101189,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 2244000,
       "Gil": 1295,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -200,19 +200,19 @@
     "SortKey": 4,
     "EventIcon": 8,
     "Icon": 101190,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 2244000,
       "Gil": 1135,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -254,19 +254,19 @@
     "SortKey": 5,
     "EventIcon": 8,
     "Icon": 101191,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 2244000,
       "Gil": 1335,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -308,19 +308,19 @@
     "SortKey": 6,
     "EventIcon": 8,
     "Icon": 101192,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Sworn"
+    },
     "Rewards": {
       "Exp": 2244000,
       "Gil": 975,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -354,32 +354,30 @@
     "SortKey": 101,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -413,26 +411,25 @@
     "SortKey": 102,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -466,32 +463,30 @@
     "SortKey": 103,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 575,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -525,26 +520,25 @@
     "SortKey": 104,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -578,32 +572,30 @@
     "SortKey": 105,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 575,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -637,32 +629,30 @@
     "SortKey": 106,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -696,26 +686,25 @@
     "SortKey": 107,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Friendly"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -749,32 +738,30 @@
     "SortKey": 108,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -808,32 +795,30 @@
     "SortKey": 109,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 575,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -867,26 +852,25 @@
     "SortKey": 110,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -920,32 +904,30 @@
     "SortKey": 111,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -979,32 +961,30 @@
     "SortKey": 112,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1038,26 +1018,25 @@
     "SortKey": 113,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1091,32 +1070,30 @@
     "SortKey": 114,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Trusted"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 735,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1150,26 +1127,25 @@
     "SortKey": 115,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 735,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1203,32 +1179,30 @@
     "SortKey": 116,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1262,32 +1236,30 @@
     "SortKey": 117,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1321,26 +1293,25 @@
     "SortKey": 118,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 735,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1374,32 +1345,30 @@
     "SortKey": 119,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1433,32 +1402,30 @@
     "SortKey": 120,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1492,32 +1459,30 @@
     "SortKey": 121,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Respected"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1551,26 +1516,25 @@
     "SortKey": 122,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 735,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1604,32 +1568,30 @@
     "SortKey": 123,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1663,32 +1625,30 @@
     "SortKey": 124,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 735,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1722,32 +1682,30 @@
     "SortKey": 125,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1781,32 +1739,30 @@
     "SortKey": 126,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1840,26 +1796,25 @@
     "SortKey": 127,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 735,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -1893,32 +1848,30 @@
     "SortKey": 128,
     "EventIcon": 1,
     "Icon": 0,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Omicrons",
+      "BeastTribeRank": "Honored"
+    },
     "Rewards": {
       "Exp": 112200,
       "Gil": 655,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 37854,
           "ItemName": "Omicron Omnitoken",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 6141,
           "ItemName": "Cordial",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]

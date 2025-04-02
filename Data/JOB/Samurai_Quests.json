@@ -34,38 +34,35 @@
     "SortKey": 500,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 23400,
       "Gil": 517,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 17741,
           "ItemName": "Soul of the Samurai",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20388,
           "ItemName": "Mythrite Uchigatana",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 20620,
           "ItemName": "Nameless Armor Coffer (IL 115)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -107,19 +104,19 @@
     "SortKey": 501,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 46800,
       "Gil": 1502,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -161,19 +158,19 @@
     "SortKey": 520,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 48360,
       "Gil": 1302,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -215,19 +212,19 @@
     "SortKey": 540,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 49920,
       "Gil": 2877,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -269,19 +266,19 @@
     "SortKey": 560,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 51480,
       "Gil": 1273,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -323,19 +320,19 @@
     "SortKey": 580,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 53040,
       "Gil": 919,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -377,22 +374,23 @@
     "SortKey": 600,
     "EventIcon": 8,
     "Icon": 100682,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 2151,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7497,
         "ActionName": "Meditate"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -436,19 +434,19 @@
     "SortKey": 601,
     "EventIcon": 8,
     "Icon": 100684,
-    "IconSpecial": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 100000,
       "Gil": 778,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -490,19 +488,19 @@
     "SortKey": 630,
     "EventIcon": 8,
     "Icon": 100684,
-    "IconSpecial": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 103000,
       "Gil": 1769,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -544,19 +542,19 @@
     "SortKey": 650,
     "EventIcon": 8,
     "Icon": 100684,
-    "IconSpecial": 0,
+    "JobLevel": 65,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 105000,
       "Gil": 2030,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -598,19 +596,19 @@
     "SortKey": 680,
     "EventIcon": 8,
     "Icon": 100684,
-    "IconSpecial": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 108000,
       "Gil": 1576,
-      "Currency": null,
       "Catalysts": [],
       "Items": [],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -652,29 +650,29 @@
     "SortKey": 700,
     "EventIcon": 8,
     "Icon": 100684,
-    "IconSpecial": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 216000,
       "Gil": 2700,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 20287,
           "ItemName": "Myochin Attire Coffer (IL 290)",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
       "Action": {
         "Id": 7496,
         "ActionName": "Hissatsu: Guren"
       },
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   },
   {
@@ -716,38 +714,35 @@
     "SortKey": 800,
     "EventIcon": 1,
     "Icon": 100886,
-    "IconSpecial": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "SAM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
     "Rewards": {
       "Exp": 448800,
       "Gil": 2518,
-      "Currency": null,
       "Catalysts": [],
       "Items": [
         {
           "ItemId": 25187,
           "ItemName": "Heavens\u0027 Eye Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25188,
           "ItemName": "Savage Aim Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         },
         {
           "ItemId": 25189,
           "ItemName": "Savage Might Materia VII",
-          "Count": 1,
-          "Stain": null
+          "Count": 1
         }
       ],
       "OptionalItems": [],
-      "Emote": null,
-      "Action": null,
-      "GeneralActions": [],
-      "OtherReward": null,
-      "InstanceContentUnlock": null
+      "GeneralActions": []
     }
   }
 ]
