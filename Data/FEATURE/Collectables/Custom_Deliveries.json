@@ -1,0 +1,751 @@
+[
+  {
+    "QuestId": 67087,
+    "QuestTitle": "Arms Wide Open",
+    "PreviousQuestIds": [
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      68713
+    ],
+    "NextQuestTitles": [
+      "Between a Rock and the Hard Place"
+    ],
+    "StarterNpc": "Geimlona",
+    "StarterNpcLocation": {
+      "RowId": 5881194,
+      "X": -16.5606,
+      "Y": 206.448,
+      "Z": 42.9949,
+      "Yaw": 0.879826,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Zhloe Aliapoh",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5701,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 518,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4721,
+          "ItemName": "Bouillabaisse",
+          "Count": 3
+        },
+        {
+          "ItemId": 4688,
+          "ItemName": "Landtrap Salad",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 68541,
+    "QuestTitle": "None Forgotten, None Forsaken",
+    "PreviousQuestIds": [
+      68508,
+      68477
+    ],
+    "PreviousQuestTitles": [
+      "Return of the Bull",
+      "Reach Long and Prosper"
+    ],
+    "NextQuestIds": [
+      68542,
+      68675
+    ],
+    "NextQuestTitles": [
+      "Not While Their Names Are Still Spoken",
+      "The Seaweed Is Always Greener"
+    ],
+    "StarterNpc": "Galiena",
+    "StarterNpcLocation": {
+      "RowId": 6708424,
+      "X": -70.538,
+      "Y": 0.459993,
+      "Z": 64.3785,
+      "Yaw": 2.66268,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 1000,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12861,
+          "ItemName": "Baked Onion Soup",
+          "Count": 1
+        },
+        {
+          "ItemId": 12866,
+          "ItemName": "Stuffed Cabbage Rolls",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 68675,
+    "QuestTitle": "The Seaweed Is Always Greener",
+    "PreviousQuestIds": [
+      68541,
+      68243
+    ],
+    "PreviousQuestTitles": [
+      "None Forgotten, None Forsaken",
+      "The Two Princesses of Sui-no-Sato"
+    ],
+    "NextQuestIds": [
+      68676
+    ],
+    "NextQuestTitles": [
+      "Up Where They Trade All Day in the Sun"
+    ],
+    "StarterNpc": "Kojin hireling",
+    "StarterNpcLocation": {
+      "RowId": 7499471,
+      "X": -52.0648,
+      "Y": -2.91455,
+      "Z": -64.4141,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Kurenai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Hingan Sidequests"
+      },
+      "Name": "Kugane Sidequests"
+    },
+    "SortKey": 1000,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12862,
+          "ItemName": "Beet Soup",
+          "Count": 1
+        },
+        {
+          "ItemId": 12867,
+          "ItemName": "Dhalmel Gratin",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 68713,
+    "QuestTitle": "Between a Rock and the Hard Place",
+    "PreviousQuestIds": [
+      68089,
+      67087,
+      68294
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "Arms Wide Open",
+      "Purbol Rain"
+    ],
+    "NextQuestIds": [
+      68714
+    ],
+    "NextQuestTitles": [
+      "He Ain\u0027t Piggy, He\u0027s My Brother"
+    ],
+    "StarterNpc": "Geimlona",
+    "StarterNpcLocation": {
+      "RowId": 5881194,
+      "X": -16.5606,
+      "Y": 206.448,
+      "Z": 42.9949,
+      "Yaw": 0.879826,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Adkiragh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5702,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 66,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26500,
+      "Gil": 620,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12864,
+          "ItemName": "Clam Chowder",
+          "Count": 1
+        },
+        {
+          "ItemId": 12868,
+          "ItemName": "Stuffed Chysahl",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69265,
+    "QuestTitle": "Oh, Beehive Yourself",
+    "PreviousQuestIds": [
+      69217,
+      69139
+    ],
+    "PreviousQuestTitles": [
+      "Moving Forward",
+      "The Boutique Always Wins"
+    ],
+    "NextQuestIds": [
+      69266
+    ],
+    "NextQuestTitles": [
+      "Commercially Flyable"
+    ],
+    "StarterNpc": "Kai-Shirr",
+    "StarterNpcLocation": {
+      "RowId": 8134596,
+      "X": 24.2561,
+      "Y": 82.7821,
+      "Z": 25.7741,
+      "Yaw": 0.646606,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Kai-Shirr",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 70,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 8001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27864,
+          "ItemName": "Blood Tomato Salad",
+          "Count": 1
+        },
+        {
+          "ItemId": 27865,
+          "ItemName": "Mushroom Saute",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69425,
+    "QuestTitle": "O Crafter, My Crafter",
+    "PreviousQuestIds": [
+      69373,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "If Songs Had Wings",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      69426
+    ],
+    "NextQuestTitles": [
+      "An Ode to Unity"
+    ],
+    "StarterNpc": "Ehll Tou",
+    "StarterNpcLocation": {
+      "RowId": 8267147,
+      "X": 113.792,
+      "Y": -20,
+      "Z": -0.312634,
+      "Yaw": -1.56084,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Ehll Tou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 97,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1002,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28720,
+          "ItemName": "Mejillones al Ajillo",
+          "Count": 5
+        },
+        {
+          "ItemId": 28721,
+          "ItemName": "Arros Negre",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69615,
+    "QuestTitle": "You Can Count on It",
+    "PreviousQuestIds": [
+      69538,
+      69496,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Smiles Cross the Sky",
+      "The Brume Lifts",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      69616
+    ],
+    "NextQuestTitles": [
+      "Those Who Serve"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8537292,
+      "X": -7.14477,
+      "Y": -16.0067,
+      "Z": 163.454,
+      "Yaw": 1.5912,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Maelie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 97,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1502,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 12861,
+          "ItemName": "Baked Onion Soup",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 12866,
+          "ItemName": "Stuffed Cabbage Rolls",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 0,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 70059,
+    "QuestTitle": "Of Mothers and Merchants",
+    "PreviousQuestIds": [
+      70000,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      70060
+    ],
+    "NextQuestTitles": [
+      "A Mother\u0027s Love"
+    ],
+    "StarterNpc": "well-dressed attendant",
+    "StarterNpcLocation": {
+      "RowId": 9084404,
+      "X": 72.4524,
+      "Y": 5.1,
+      "Z": -75.2735,
+      "Yaw": -0.731975,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Ameliance",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 75,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 9101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36053,
+          "ItemName": "Giant Haddock Dip",
+          "Count": 3
+        },
+        {
+          "ItemId": 36054,
+          "ItemName": "Yakow Moussaka",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 70251,
+    "QuestTitle": "That\u0027s So Anden",
+    "PreviousQuestIds": [
+      70000,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      70252
+    ],
+    "NextQuestTitles": [
+      "Every Anden of the Rainbow"
+    ],
+    "StarterNpc": "supplicant sheep",
+    "StarterNpcLocation": {
+      "RowId": 9563571,
+      "X": -96.8883,
+      "Y": 3.18431,
+      "Z": 6.83714,
+      "Yaw": 1.79313,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Anden",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 127,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Crystarium Sidequests"
+    },
+    "SortKey": 4001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 984,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36053,
+          "ItemName": "Giant Haddock Dip",
+          "Count": 3
+        },
+        {
+          "ItemId": 36054,
+          "ItemName": "Yakow Moussaka",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 70351,
+    "QuestTitle": "A Request of One\u0027s Own",
+    "PreviousQuestIds": [
+      70272,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Going Haam",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      70352
+    ],
+    "NextQuestTitles": [
+      "The Pride of Labyrinthos"
+    ],
+    "StarterNpc": "Theopauldin",
+    "StarterNpcLocation": {
+      "RowId": 10213578,
+      "X": 130.053,
+      "Y": -16.0774,
+      "Z": 190.723,
+      "Yaw": 0.418688,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Theopauldin",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 75,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 10001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 979,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 3
+        },
+        {
+          "ItemId": 36061,
+          "ItemName": "Sideritis Cookie",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 70775,
+    "QuestTitle": "Laying New Tracks",
+    "PreviousQuestIds": [
+      70785,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "The Warmth of Family",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      70776
+    ],
+    "NextQuestTitles": [
+      "The Weight of a Train"
+    ],
+    "StarterNpc": "railroad employee",
+    "StarterNpcLocation": {
+      "RowId": 11006886,
+      "X": 36.7615,
+      "Y": -13.9997,
+      "Z": 57.6992,
+      "Yaw": -0.468545,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Nitowikwe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 81,
+        "Name": "Yok Tural Sidequests"
+      },
+      "Name": "Tuliyollal Sidequests"
+    },
+    "SortKey": 20010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 826,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  }
+]

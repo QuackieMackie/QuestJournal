@@ -14,8 +14,6 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils;
 
-//TODO: Add a level value to the quest details, and add the type icon between the name and the completed status in it's own column.
-
 public class RendererUtils
 {
     private readonly IPluginLog log;

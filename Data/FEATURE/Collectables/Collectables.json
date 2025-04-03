@@ -1,0 +1,380 @@
+[
+  {
+    "QuestId": 67631,
+    "QuestTitle": "Inscrutable Tastes",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [
+      67634
+    ],
+    "NextQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "StarterNpc": "Morgayne",
+    "StarterNpcLocation": {
+      "RowId": 5908783,
+      "X": -54.4085,
+      "Y": 15.1406,
+      "Z": -38.087,
+      "Yaw": -1.52653,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Lydirlona",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 15001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 377,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 3,
+        "Name": "Collectable Action"
+      }
+    }
+  },
+  {
+    "QuestId": 67633,
+    "QuestTitle": "No Longer a Collectable",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lydirlona",
+    "StarterNpcLocation": {
+      "RowId": 5909667,
+      "X": 45.632,
+      "Y": 31.1797,
+      "Z": -732.891,
+      "Yaw": 0.488403,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Kokosamu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 560,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 558,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 21,
+          "Name": "Aetherial Reduction"
+        }
+      ]
+    }
+  },
+  {
+    "QuestId": 67634,
+    "QuestTitle": "Go West, Craftsman",
+    "PreviousQuestIds": [
+      67118,
+      67631
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half",
+      "Inscrutable Tastes"
+    ],
+    "NextQuestIds": [
+      67087,
+      67635,
+      68477,
+      69139,
+      69425,
+      69615,
+      69711,
+      70059,
+      70251,
+      70351,
+      70544,
+      70775
+    ],
+    "NextQuestTitles": [
+      "Arms Wide Open",
+      "The Favors of the House",
+      "Reach Long and Prosper",
+      "The Boutique Always Wins",
+      "O Crafter, My Crafter",
+      "You Can Count on It",
+      "Expanding House of Splendors",
+      "Of Mothers and Merchants",
+      "That\u0027s So Anden",
+      "A Request of One\u0027s Own",
+      "Dawn of a New Deal",
+      "Laying New Tracks"
+    ],
+    "StarterNpc": "Lydirlona",
+    "StarterNpcLocation": {
+      "RowId": 5909667,
+      "X": 45.632,
+      "Y": 31.1797,
+      "Z": -732.891,
+      "Yaw": 0.488403,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Geimlona",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 68477,
+    "QuestTitle": "Reach Long and Prosper",
+    "PreviousQuestIds": [
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      68541
+    ],
+    "NextQuestTitles": [
+      "None Forgotten, None Forsaken"
+    ],
+    "StarterNpc": "Galiena",
+    "StarterNpcLocation": {
+      "RowId": 6708424,
+      "X": -70.538,
+      "Y": 0.459993,
+      "Z": 64.3785,
+      "Yaw": 2.66268,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Galiena",
+    "Expansion": "Stormblood",
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69139,
+    "QuestTitle": "The Boutique Always Wins",
+    "PreviousQuestIds": [
+      68822,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "City of Final Pleasures",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      69265,
+      70266
+    ],
+    "NextQuestTitles": [
+      "Oh, Beehive Yourself",
+      "An Original Improvement"
+    ],
+    "StarterNpc": "Mowen",
+    "StarterNpcLocation": {
+      "RowId": 7796092,
+      "X": 12.9942,
+      "Y": 82.0477,
+      "Z": -25.1989,
+      "Yaw": -0.45636,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Mowen",
+    "Expansion": "Shadowbringers",
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69711,
+    "QuestTitle": "Expanding House of Splendors",
+    "PreviousQuestIds": [
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ofpilona",
+    "StarterNpcLocation": {
+      "RowId": 8861942,
+      "X": 24.222,
+      "Y": 0.9,
+      "Z": -80.7121,
+      "Yaw": 2.08604,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Ofpilona",
+    "Expansion": "Endwalker",
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 70544,
+    "QuestTitle": "Dawn of a New Deal",
+    "PreviousQuestIds": [
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rhodina",
+    "StarterNpcLocation": {
+      "RowId": 10361839,
+      "X": -157.626,
+      "Y": 0.922,
+      "Z": -38.116,
+      "Yaw": -1.85176,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Rhodina",
+    "Expansion": "Dawntrail",
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  }
+]
