@@ -26,6 +26,7 @@ public class RendererUtils
     private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.GeneralAction>> generalActionSheet;
     private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>> otherRewardSheet;
     private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.ContentType>> contentTypeSheet;
+    private readonly Lazy<ExcelSheet<Lumina.Excel.Sheets.EventIconType>> eventIconSheet;
 
     public RendererUtils(IPluginLog log)
     {
@@ -37,6 +38,7 @@ public class RendererUtils
         generalActionSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.GeneralAction>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.GeneralAction>());
         otherRewardSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>());
         contentTypeSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.ContentType>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.ContentType>());
+        eventIconSheet = new Lazy<ExcelSheet<Lumina.Excel.Sheets.EventIconType>>(() => QuestJournal.DataManager.GetExcelSheet<Lumina.Excel.Sheets.EventIconType>());
     }
     
     private ExcelSheet<Lumina.Excel.Sheets.Item>? ItemSheet => itemSheet.Value;
@@ -45,6 +47,7 @@ public class RendererUtils
     private ExcelSheet<Lumina.Excel.Sheets.GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
     private ExcelSheet<Lumina.Excel.Sheets.QuestRewardOther>? OtherRewardSheet => otherRewardSheet.Value;
     private ExcelSheet<Lumina.Excel.Sheets.ContentType>? ContentTypeSheet => contentTypeSheet.Value;
+    private ExcelSheet<Lumina.Excel.Sheets.EventIconType>? EventIconSheet => eventIconSheet.Value;
     
     public void DrawDropDown(string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
     {
@@ -95,13 +98,14 @@ public class RendererUtils
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
 
-        if (ImGui.BeginTable("QuestTable", 3, ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.ScrollY,
+        if (ImGui.BeginTable("QuestTable", 4, ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.ScrollY,
                              new Vector2(-1, 0)))
         {
             ImGui.TableSetupColumn("", ImGuiTableColumnFlags.WidthFixed, 25);
+            ImGui.TableSetupColumn("", ImGuiTableColumnFlags.WidthFixed, 25);
             ImGui.TableSetupColumn("Quest Name", ImGuiTableColumnFlags.WidthStretch);
             ImGui.TableSetupColumn("Start Location", ImGuiTableColumnFlags.WidthStretch);
-            ImGui.TableSetupScrollFreeze(3, 1);
+            ImGui.TableSetupScrollFreeze(4, 1);
             
             ImGui.TableHeadersRow();
 
@@ -119,7 +123,10 @@ public class RendererUtils
                 ImGui.PushStyleColor(ImGuiCol.Text, rowColor);
 
                 ImGui.TableNextColumn();
-                ImGui.Text(isComplete ? " ✓ " : " x ");
+                ImGui.Text(isComplete ? " ✓ " : "  x ");
+                
+                ImGui.TableNextColumn();
+                GetQuestIcon(quests[i]);
 
                 ImGui.TableNextColumn();
                 if (ImGui.Selectable(quests[i].QuestTitle ?? "Unknown Quest", isSelected))
@@ -209,11 +216,16 @@ public class RendererUtils
                     ImGui.PopStyleVar(2);
                 }
             }
-
+            
+            ImGui.BeginGroup();
+            GetQuestIcon(quest, 26);
+            ImGui.SameLine();
+            ImGui.AlignTextToFramePadding();
             ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), quest.QuestTitle);
             ImGui.SameLine();
             ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {quest.QuestId}").X);
             ImGui.TextColored(new Vector4(0.6f, 0.6f, 0.6f, 1f), $"ID: {quest.QuestId}");
+            ImGui.EndGroup();
 
             ImGui.Text($"Expansion: {quest.Expansion}");
             ImGui.SameLine();
@@ -625,5 +637,45 @@ public class RendererUtils
         {
             log.Error($"Failed to render icon for entityId {entityId}: {ex.Message}");
         }
+    }
+
+    private void GetQuestIcon(QuestModel quest, float size = 20f)
+    {
+        try
+        {
+            var eventIconRow = EventIconSheet?.GetRow(quest.EventIcon);
+            if (eventIconRow == null)
+            {
+                ImGui.Text("[Invalid Icon]");
+                return;
+            }
+                
+            var baseIconId = eventIconRow.Value.MapIconAvailable;
+                    
+            var iconOffset = 1u; // Default offset
+                    
+            if (quest.IsRepeatable) {
+                iconOffset = 2u; // Offset for repeatable quests
+            }
+                    
+            var finalIconId = baseIconId + iconOffset;
+                    
+            var lookup = new GameIconLookup(finalIconId);
+            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+                
+            if (sharedTexture.TryGetWrap(out var textureWrap, out _))
+            {
+                ImGui.SetCursorPosX(ImGui.GetCursorPosX() + 2);
+                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+
+                if (ImGui.IsItemHovered())
+                {
+                    ImGui.BeginTooltip();
+                    ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size * 3, size * 3));
+                    ImGui.EndTooltip();
+                }
+            }
+            else ImGui.Text("[Missing Icon]");
+        } catch { /* ignored */ }
     }
 }

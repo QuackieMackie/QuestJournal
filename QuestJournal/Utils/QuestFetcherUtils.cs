@@ -49,6 +49,9 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 JournalGenre = GetJournalGenreDetails(questData.JournalGenre, questData.Id),
                 SortKey = questData.SortKey,
                 
+                // Other
+                IsRepeatable = questData.IsRepeatable,
+                
                 // Icons
                 EventIcon = questData.EventIconType.Value.RowId,
                 Icon = questData.Icon,

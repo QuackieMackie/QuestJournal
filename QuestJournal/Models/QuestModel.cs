@@ -23,6 +23,9 @@ public class QuestModel
     public JournalGenreDetails? JournalGenre { get; init; }
     public ushort SortKey { get; init; }
     
+    // Other
+    public bool IsRepeatable { get; init; }
+    
     // Icons
     public uint EventIcon { get; init; }
     public uint Icon { get; init; }
