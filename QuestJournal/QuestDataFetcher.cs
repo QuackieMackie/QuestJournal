@@ -161,71 +161,75 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 
         List<int> collectableQuestIds =
         [
-            0, // "Inscrutable Tastes"
-            0, // "No Longer a Collectable"
-            0, // "Go West, Craftsman"
-            0, // "Reach Long and Prosper"
-            0, // "The Boutique Always Wins"
-            0, // "Expanding House of Splendors"
-            0  // "Dawn of a New Deal"
+            67631, // "Inscrutable Tastes"
+            67633, // "No Longer a Collectable"
+            67634, // "Go West, Craftsman"
+            68477, // "Reach Long and Prosper"
+            69139, // "The Boutique Always Wins"
+            69711, // "Expanding House of Splendors"
+            70544  // "Dawn of a New Deal"
         ];
         // Custom Deliveries clients require that you first unlock an expansion's inventory with one of the above quests. 
         List<int> customDeliveriesQuestIds =
         [
-            0, // "Arms Wide Open"
-            0, // "None Forgotten, None Forsaken"
-            0, // "The Seaweed Is Always Greener"
-            0, // "Between a Rock and the Hard Place"
-            0, // "Oh, Beehive Yourself"
-            0, // "O Crafter, My Crafter"
-            0, // "You Can Count on It"
-            0, // "Of Mothers and Merchants"
-            0, // "That's So Anden"
-            0, // "A Request of One's Own"
-            0  // "Laying New Tracks"
+            67087, // "Arms Wide Open"
+            68541, // "None Forgotten, None Forsaken"
+            68675, // "The Seaweed Is Always Greener"
+            68713, // "Between a Rock and the Hard Place"
+            69265, // "Oh, Beehive Yourself"
+            69425, // "O Crafter, My Crafter"
+            69615, // "You Can Count on It"
+            70059, // "Of Mothers and Merchants"
+            70251, // "That's So Anden"
+            70351, // "A Request of One's Own"
+            70775  // "Laying New Tracks"
         ];
         
-        // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic
+        // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic, Manual Name
         // Grouping Logic:
         // 0: Use JournalGenre.Name
         // 1: Use JournalCategory.Name
         // 2: Use only FolderName directly
-        var categoryFolders = new List<(object Identifier, string FolderName, int GroupBy)>
+        // 3: Use a JsonName for grouping, the JsonName defines the JSON file name
+        var categoryFolders = new List<(object Identifier, string FolderName, int GroupBy, string? JsonName)>
         {
-            (88, "Crystarium Deliveries", 0), // "Crystalline Mean Quests"
+            (88, "Crystarium Deliveries", 0, null), // "Crystalline Mean Quests"
+
+            (31, "Tribe Quests", 1, null), // Mamool Ja Quests
+            (32, "Tribe Quests", 1, null), // Pelupelu Quests
+            (33, "Tribe Quests", 1, null), // Intersocietal Quests
+            (34, "Tribe Quests", 1, null), // Amaj'aa Quests
+            (35, "Tribe Quests", 1, null), // Sylph Quests
+            (36, "Tribe Quests", 1, null), // Kobold Quests
+            (37, "Tribe Quests", 1, null), // Sahagin Quests
+            (38, "Tribe Quests", 1, null), // Ixal Quests
+            (39, "Tribe Quests", 1, null), // Vanu Vanu Quests
+            (40, "Tribe Quests", 1, null), // Vath Quests
+            (41, "Tribe Quests", 1, null), // Moogle Quests
+            (42, "Tribe Quests", 1, null), // Kojin Quests
+            (43, "Tribe Quests", 1, null), // Ananta Quests
+            (44, "Tribe Quests", 1, null), // Namazu Quests
+            (45, "Tribe Quests", 1, null), // Pixie Quests
+            (46, "Tribe Quests", 1, null), // Qitari Quests
+            (47, "Tribe Quests", 1, null), // Dwarf Quests
+            (48, "Tribe Quests", 1, null), // Arkasodara Quests
+            (49, "Tribe Quests", 1, null), // Omnicron Quests
+            (50, "Tribe Quests", 1, null), // Loporrit Quests
+            (51, "Tribe Quests", 1, null), // Intersocietal Quests
+            
+            (glamourQuestIds, "Glamour and Customization", 2, null),
     
-            (31, "Tribe Quests", 1), // Mamool Ja Quests ?? maybe
-            (32, "Tribe Quests", 1), // Pelupelu Quests
-            (33, "Tribe Quests", 1), // Intersocietal Quests
-            (34, "Tribe Quests", 1), // Amaj'aa Quests
-            (35, "Tribe Quests", 1), // Sylph Quests
-            (36, "Tribe Quests", 1), // Kobold Quests
-            (37, "Tribe Quests", 1), // Sahagin Quests
-            (38, "Tribe Quests", 1), // Ixal Quests
-            (39, "Tribe Quests", 1), // Vanu Vanu Quests
-            (40, "Tribe Quests", 1), // Vath Quests
-            (41, "Tribe Quests", 1), // Moogle Quests
-            (42, "Tribe Quests", 1), // Kojin Quests
-            (43, "Tribe Quests", 1), // Ananta Quests
-            (44, "Tribe Quests", 1), // Namazu Quests
-            (45, "Tribe Quests", 1), // Pixie Quests
-            (46, "Tribe Quests", 1), // Qitari Quests
-            (47, "Tribe Quests", 1), // Dwarf Quests
-            (48, "Tribe Quests", 1), // Arkasodara Quests
-            (49, "Tribe Quests", 1), // Omnicron Quests
-            (50, "Tribe Quests", 1), // Loporrit Quests
-            (51, "Tribe Quests", 1), // Intersocietal Quests
-            
-            (glamourQuestIds, "Glamour and Customization", 2),
-            
-            (locationsQuestIds, "Locations", 2),
+            (locationsQuestIds, "Locations", 2, null),
+
+            (collectableQuestIds, "Collectables", 3, "Collectables"),
+            (customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries")
         };
 
         foreach (var quest in allQuests)
         {
             var category = quest.JournalGenre?.JournalCategory;
 
-            foreach (var (identifier, folderName, groupBy) in categoryFolders)
+            foreach (var (identifier, folderName, groupBy, jsonName) in categoryFolders)
             {
                 bool matches = false;
 
@@ -244,6 +248,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
                     {
                         0 => quest.JournalGenre?.Name ?? "Unknown Genre", // Group by JournalGenre.Name
                         1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category", // Group by JournalCategory.Name
+                        3 => jsonName ?? folderName, // Use JSON Name
                         _ => folderName // Use FolderName directly
                     };
 
