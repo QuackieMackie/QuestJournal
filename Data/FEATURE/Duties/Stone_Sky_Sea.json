@@ -1,0 +1,275 @@
+[
+  {
+    "QuestId": 67654,
+    "QuestTitle": "A Striking Opportunity",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      68476,
+      69137,
+      69709,
+      70541
+    ],
+    "NextQuestTitles": [
+      "Another Striking Opportunity",
+      "Yet Another Striking Opportunity",
+      "A Place to Train",
+      "Trial by Spire"
+    ],
+    "StarterNpc": "boisterous bruiser",
+    "StarterNpcLocation": {
+      "RowId": 6235082,
+      "X": 63.7989,
+      "Y": 207.29,
+      "Z": -1.4926,
+      "Yaw": 2.52405,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "goodly adventurer",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 6000,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100545,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 68476,
+    "QuestTitle": "Another Striking Opportunity",
+    "PreviousQuestIds": [
+      68089,
+      67654
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "A Striking Opportunity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "starry-eyed Ala Mhigan",
+    "StarterNpcLocation": {
+      "RowId": 7009059,
+      "X": 53.7886,
+      "Y": 0,
+      "Z": 93.07,
+      "Yaw": 1.81981,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "battle-scarred veteran",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 10030,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100717,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 533,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69137,
+    "QuestTitle": "Yet Another Striking Opportunity",
+    "PreviousQuestIds": [
+      69190,
+      67654
+    ],
+    "PreviousQuestTitles": [
+      "Shadowbringers",
+      "A Striking Opportunity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "weary dockworker",
+    "StarterNpcLocation": {
+      "RowId": 7935457,
+      "X": -101.098,
+      "Y": -10.0253,
+      "Z": -62.7984,
+      "Yaw": 0.370485,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "soft-faced bloke",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 70,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 20040,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 69709,
+    "QuestTitle": "A Place to Train",
+    "PreviousQuestIds": [
+      70000,
+      67654
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker",
+      "A Striking Opportunity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hardy-looking Radiant",
+    "StarterNpcLocation": {
+      "RowId": 9010075,
+      "X": 56.6608,
+      "Y": 0,
+      "Z": -24.7511,
+      "Yaw": -2.11689,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "sharp-eyed Radiant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 138,
+      "JournalCategory": {
+        "Id": 76,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 699,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 70541,
+    "QuestTitle": "Trial by Spire",
+    "PreviousQuestIds": [
+      70495,
+      67654
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail",
+      "A Striking Opportunity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "eccentric researcher",
+    "StarterNpcLocation": {
+      "RowId": 10798736,
+      "X": 376.258,
+      "Y": 50.75,
+      "Z": 148.523,
+      "Yaw": -1.3977,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "eccentric researcher",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 149,
+      "JournalCategory": {
+        "Id": 82,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Solution Nine Sidequests"
+    },
+    "SortKey": 7101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  }
+]

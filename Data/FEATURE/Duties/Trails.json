@@ -1,0 +1,131 @@
+[
+  {
+    "QuestId": 67090,
+    "QuestTitle": "The New King on the Block",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      67091
+    ],
+    "NextQuestTitles": [
+      "The Newer King on the Block"
+    ],
+    "StarterNpc": "hearty hunter",
+    "StarterNpcLocation": {
+      "RowId": 7386995,
+      "X": -75.9152,
+      "Y": 11.8,
+      "Z": -115.59,
+      "Yaw": 3.14159,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "hearty hunter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 246,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100786,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22601,
+          "ItemName": "Palico",
+          "Count": 1
+        },
+        {
+          "ItemId": 22571,
+          "ItemName": "Indoor BBQ Spit",
+          "Count": 1
+        },
+        {
+          "ItemId": 22583,
+          "ItemName": "BBQ Spit",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": []
+    }
+  },
+  {
+    "QuestId": 67091,
+    "QuestTitle": "The Newer King on the Block",
+    "PreviousQuestIds": [
+      67090
+    ],
+    "PreviousQuestTitles": [
+      "The New King on the Block"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hearty hunter",
+    "StarterNpcLocation": {
+      "RowId": 7386995,
+      "X": -75.9152,
+      "Y": 11.8,
+      "Z": -115.59,
+      "Yaw": 3.14159,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "hearty hunter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 246,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 121,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20054,
+          "InstanceName": "the Great Hunt (Extreme)",
+          "ContentType": 4
+        }
+      ]
+    }
+  }
+]

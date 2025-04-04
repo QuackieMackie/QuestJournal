@@ -1,0 +1,215 @@
+[
+  {
+    "QuestId": 65594,
+    "QuestTitle": "Simply the Hest",
+    "PreviousQuestIds": [
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Totonowa",
+    "StarterNpcLocation": {
+      "RowId": 2540071,
+      "X": 85.1833,
+      "Y": 46.0034,
+      "Z": -245.824,
+      "Yaw": -1.05698,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Lost Rabbit",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 10001,
+          "InstanceName": "Basic Training: Enemy Parties",
+          "ContentType": 3
+        }
+      ]
+    }
+  },
+  {
+    "QuestId": 65595,
+    "QuestTitle": "Simply the Hest",
+    "PreviousQuestIds": [
+      66229
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Swygskyf",
+    "StarterNpcLocation": {
+      "RowId": 2540254,
+      "X": 669.201,
+      "Y": 9.15361,
+      "Z": 513.02,
+      "Yaw": -2.32105,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Tiroro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 10001,
+          "InstanceName": "Basic Training: Enemy Parties",
+          "ContentType": 3
+        }
+      ]
+    }
+  },
+  {
+    "QuestId": 65596,
+    "QuestTitle": "Simply the Hest",
+    "PreviousQuestIds": [
+      65756
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Bentbranch"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tierney",
+    "StarterNpcLocation": {
+      "RowId": 1672782,
+      "X": 55.005,
+      "Y": -6.00002,
+      "Z": 40.8088,
+      "Yaw": -1.49417,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Ribald",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 10001,
+          "InstanceName": "Basic Training: Enemy Parties",
+          "ContentType": 3
+        }
+      ]
+    }
+  }
+]
