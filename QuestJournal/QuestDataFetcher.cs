@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Frozen;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -20,30 +21,41 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     
     public List<QuestModel> GetAllQuests()
     {
-        Debug.Assert(QuestSheet != null, nameof(QuestSheet) + " != null");
-        var questInfoLookup = QuestSheet.ToDictionary(
-            quest => quest.RowId,
-            questFetcherUtils.BuildQuestInfo
-        );
+        var questInfoLookup = new Dictionary<uint, QuestModel>();
 
-        foreach (var quest in QuestSheet)
+        if (QuestSheet != null)
         {
-            if (questInfoLookup.TryGetValue(quest.RowId, out _) && quest.PreviousQuest.Count > 0)
+            foreach (var quest in QuestSheet)
             {
-                var prevQuestIds = questFetcherUtils.GetPrerequisiteQuestIds(quest.PreviousQuest);
-
-                foreach (var prevQuestId in prevQuestIds)
+                if (!questInfoLookup.ContainsKey(quest.RowId))
                 {
-                    if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
+                    var questInfo = questFetcherUtils.BuildQuestInfo(quest);
+                    if (questInfo != null)
                     {
-                        prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
-                        prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
+                        questInfoLookup[quest.RowId] = questInfo;
+                    }
+                }
+            }
+
+            foreach (var quest in QuestSheet)
+            {
+                if (questInfoLookup.TryGetValue(quest.RowId, out _) && quest.PreviousQuest.Count > 0)
+                {
+                    var prevQuestIds = questFetcherUtils.GetPrerequisiteQuestIds(quest.PreviousQuest);
+
+                    foreach (var prevQuestId in prevQuestIds)
+                    {
+                        if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
+                        {
+                            prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
+                            prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
+                        }
                     }
                 }
             }
         }
-        
-        return questInfoLookup.Values.Where(quest => quest != null).Select(quest => quest!).ToList();
+
+        return questInfoLookup.Values.Where(quest => quest != null).ToList();
     }
 
     public Dictionary<string, List<QuestModel>> GetMainScenarioQuestsByCategory()
@@ -184,6 +196,89 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             70351, // "A Request of One's Own"
             70775  // "Laying New Tracks"
         ];
+
+        List<int> guildHestQuestIds = 
+        [
+            65596,     // "Simply the Hest (Gridania)"
+            65595, // "Simply the Hest (Limsa Lominsa)"
+            65594  // "Simply the Hest (Ul'dah)"
+        ];
+
+        //TODO: This needs some kind of switch depending on what config is set for the GrandCompany
+        List<int> pvpQuestIds = 
+        [
+            66642, // "A Pup No Longer (Immortal Flames)"
+            66640, // "A Pup No Longer (Maelstrom)"
+            66641, // "A Pup No Longer (Twin Adder)"
+            67065, // "Like Civilized Men and Women (Immortal Flames)"
+            67064, // "Like Civilized Men and Women (Maelstrom)"
+            67063, // "Like Civilized Men and Women (Twin Adder)"
+            67929, // "It's Time to Duel"
+            68543, // "Earning Your Wings"
+            70121, // "The Crystal (Line's) Call"
+        ];
+        
+        // Duties
+        List<int> dungeonQuestIds = 
+        [
+            66233, // "Hallo Halatali"
+            66300, // "Braving New Depths"
+            66457, // "Dishonor Before Death"
+            66515, // "Fort of Fear"
+            66550, // "Going for Gold"
+            66406, // "Trauma Queen"
+            66671, // "Ghosts of Amdapor"
+            66744, // "Sirius Business"
+            66752, // "Out of Sight, Out of Mine"
+            66751, // "Maniac Manor"
+            66925, // "One Night in Amdapor"
+            66946, // "This Time's for Fun"
+            66947, // "Curds and Slay"
+            67062, // "King of the Hull"
+            67060, // "Corpse Groom"
+            67061, // "Blood for Stone"
+            65630, // "It's Definitely Pirates"
+            65632, // "The Wrath of Qarn"
+            65967, // "Not Easy Being Green"
+            65966, // "For Keep's Sake"
+            67647, // "For All the Nights to Come"
+            67648, // "Reap What You Sow"
+            67649, // "Do It for Gilly"
+            67738, // "An Overgrown Ambition"
+            67737, // "Things Are Getting Sirius"
+            67818, // "One More Night in Amdapor"
+            67784, // "Storming the Hull"
+            67922, // "Let Me Gubal That for You"
+            67938, // "The Fires of Sohm Al"
+            68168, // "The Palace of Lost Souls"
+            68170, // "King of the Castle"
+            68169, // "To Kill a Coeurl"
+            68551, // "An Auspicious Encounter"
+            68613, // "An Unwanted Truth"
+            68552, // "Tortoise in Time"
+            68678, // "Secret of the Ooze"
+            69131, // "By the Time You Hear This"
+            69132, // "Akadaemia Anyder"
+            69703, // "Cutting the Cheese"
+            69704, // "Where No Loporrit Has Gone Before"
+            70549, // "It Belongs in a Museum"
+            70550, // "Something Stray in the Neighborhood"
+        ];
+
+        List<int> trailsQuestIds = 
+        [
+            67090, // "The New King on the Block"
+            67091, // "The Newer King on the Block"
+        ];
+        
+        List<int> stoneSkySeaQuestIds = 
+        [
+            67654, // "A Striking Opportunity"
+            68476, // "Another Striking Opportunity"
+            69137, // "Yet Another Striking Opportunity"
+            69709, // "A Place to Train"
+            70541, // "Trial by Spire"
+        ];
         
         // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic, Manual Name
         // Grouping Logic:
@@ -222,7 +317,15 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (locationsQuestIds, "Locations", 2, null),
 
             (collectableQuestIds, "Collectables", 3, "Collectables"),
-            (customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries")
+            (customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries"),
+            
+            (guildHestQuestIds, "Guest Hests", 2, "Guild Hests"),
+            
+            (pvpQuestIds, "PvP", 2, "PvP"),
+            
+            (dungeonQuestIds, "Duties", 3, "Dungeons"),
+            (trailsQuestIds, "Duties", 3, "Trails"),
+            (stoneSkySeaQuestIds, "Duties", 3, "Stone Sky Sea"),
         };
 
         foreach (var quest in allQuests)

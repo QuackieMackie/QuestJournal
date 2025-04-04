@@ -14,25 +14,23 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 {
     private readonly ExcelSheet<ExVersion>? exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
     private readonly ExcelSheet<JournalGenre>? journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
-    private readonly ExcelSheet<Quest>? questSheet = dataManager.GetExcelSheet<Quest>();
     private readonly ExcelSheet<Item>? itemSheet = dataManager.GetExcelSheet<Item>();
     private readonly ExcelSheet<Stain>? stainSheet = dataManager.GetExcelSheet<Stain>();
     private readonly ExcelSheet<Emote>? emoteSheet = dataManager.GetExcelSheet<Emote>();
     private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? actionSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
     private readonly ExcelSheet<GeneralAction>? generalActionSheet = dataManager.GetExcelSheet<GeneralAction>();
     private readonly ExcelSheet<QuestRewardOther>? questRewardOtherSheet = dataManager.GetExcelSheet<QuestRewardOther>();
-    private readonly ExcelSheet<ContentFinderCondition>? contentFinderConditionSheet = dataManager.GetExcelSheet<ContentFinderCondition>();
-    private readonly ExcelSheet<ContentType>? contentTypeSheet = dataManager.GetExcelSheet<ContentType>();
+    private readonly ExcelSheet<ParamGrow>? paramGrowSheet = dataManager.GetExcelSheet<ParamGrow>();
 
     public QuestModel? BuildQuestInfo(Quest questData)
     {
+        if (questData.RowId == 65536) return null;
+        
         try
         {
-            var questId = questData.RowId;
-
             var questDetails = new QuestModel
             {
-                QuestId = questId,
+                QuestId = questData.RowId,
                 QuestTitle = questData.Name.ExtractText(),
                 PreviousQuestIds = GetPrerequisiteQuestIds(questData.PreviousQuest),
                 PreviousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest),
@@ -53,47 +51,56 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 IsRepeatable = questData.IsRepeatable,
                 
                 // Icons
-                EventIcon = questData.EventIconType.Value.RowId,
+                EventIcon = GetEventIcon(questData), 
                 Icon = questData.Icon,
                 
                 // Requirements
                 JobLevel = questData.ClassJobLevel.FirstOrDefault(),
                 ClassJobCategory = questData.ClassJobCategory0.Value.Name.ExtractText(),
                 BeastTribeRequirements = new BeastTribeRequirements()
-                {
+                { 
                     BeastTribeName = questData.BeastTribe.Value.Name.ExtractText(),
                     BeastTribeRank = questData.BeastReputationRank.Value.Name.ExtractText(),
                 },
                 
                 // Rewards
-                Rewards = GetRewards(questId, questData)
+                Rewards = GetRewards(questData)
             };
 
             return questDetails;
         }
-        catch { return null; }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to build QuestInfo for QuestId {questData.RowId}: {ex.Message}\nStack Trace: {ex.StackTrace}");
+            return null;
+        }
     }
 
-    private Reward GetRewards(uint questId, Quest quest)
+    private Reward? GetRewards(Quest quest)
     {
         var level = quest.LevelMax != 0 ? quest.LevelMax : quest.ClassJobLevel.FirstOrDefault();
-        var paramGrow = dataManager.GetExcelSheet<ParamGrow>().GetRow(level);
-        var exp = paramGrow.ScaledQuestXP * paramGrow.QuestExpModifier * quest.ExpFactor / 100;
-        
-        return new Reward()
+        if (paramGrowSheet != null)
         {
-            Exp = exp,
-            Gil = quest.GilReward,
-            Currency = GetCurrencyReward(quest),
-            Catalysts = GetCatalysts(quest),
-            Items = GetItemReward(quest),
-            OptionalItems = GetOptionalItemReward(quest),
-            Emote = GetEmoteReward(quest),
-            Action = GetActionReward(quest),
-            GeneralActions = GetGeneralActionRewards(quest),
-            OtherReward = GetOtherReward(quest),
-            InstanceContentUnlock = GetInstanceContentUnlockReward(questId)
-        };
+            var paramGrow = paramGrowSheet.GetRow(level);
+            var exp = paramGrow.ScaledQuestXP * paramGrow.QuestExpModifier * quest.ExpFactor / 100;
+        
+            return new Reward()
+            {
+                Exp = exp,
+                Gil = quest.GilReward,
+                Currency = GetCurrencyReward(quest),
+                Catalysts = GetCatalysts(quest),
+                Items = GetItemReward(quest),
+                OptionalItems = GetOptionalItemReward(quest),
+                Emote = GetEmoteReward(quest),
+                Action = GetActionReward(quest),
+                GeneralActions = GetGeneralActionRewards(quest),
+                OtherReward = GetOtherReward(quest),
+                InstanceContentUnlock = GetInstanceContentUnlockReward(quest)
+            };
+        }
+
+        return null;
     }
     
     public List<ItemsReward> GetItemReward(Quest quest)
@@ -137,6 +144,20 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         }
 
         return rewards;
+    }
+    
+    private uint GetEventIcon(Quest quest)
+    {
+        try
+        {
+            if (quest.EventIconType.RowId != 0)
+            {
+                var resolvedEventIcon = quest.EventIconType.Value;
+                return resolvedEventIcon.RowId;
+            }
+        }
+        catch { /* ignored */ }
+        return 0;
     }
     
     public List<OptionalItemsReward> GetOptionalItemReward(Quest quest)
@@ -314,47 +335,33 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         return null;
     }
     
-    private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(uint questId)
+    private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(Quest quest)
     {
-        if (contentFinderConditionSheet == null || contentTypeSheet == null)
-            return null;
-
-        uint ResolveContentType(RowRef<ContentType> contentTypeRef)
+        try
         {
-            var contentType = contentTypeSheet.GetRow(contentTypeRef.RowId);
-            return contentType.RowId;
-        }
-
-        var instanceContentRewards = contentFinderConditionSheet
-                                     .Where(c => c.UnlockQuest.RowId == questId)
-                                     .Select(content => new InstanceContentUnlockReward
-                                     {
-                                         InstanceId = content.RowId,
-                                         InstanceName = content.Name.ExtractText(),
-                                         ContentType = ResolveContentType(content.ContentType)
-                                     })
-                                     .ToList();
-
-        var quest = questSheet?.GetRow(questId);
-        if (quest != null)
-        {
-            var instanceContentUnlockRowId = quest.Value.InstanceContentUnlock.RowId;
-            if (instanceContentUnlockRowId != 0)
+            var instanceRef = quest.InstanceContentUnlock;
+            if (instanceRef.RowId == 0)
+                return null;
+            
+            var instanceContent = instanceRef.Value;
+            
+            var rewards = new List<InstanceContentUnlockReward>
             {
-                var matchingContent = contentFinderConditionSheet.GetRow(instanceContentUnlockRowId);
-                if (matchingContent.RowId != 0)
+                new InstanceContentUnlockReward
                 {
-                    instanceContentRewards.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = matchingContent.RowId,
-                        InstanceName = matchingContent.Name.ExtractText(),
-                        ContentType = ResolveContentType(matchingContent.ContentType)
-                    });
+                    InstanceId = instanceContent.RowId,
+                    InstanceName = instanceContent.ContentFinderCondition.Value.Name.ExtractText(),
+                    ContentType = instanceContent.InstanceContentType.Value.RowId
                 }
-            }
-        }
+            };
 
-        return instanceContentRewards.Count > 0 ? instanceContentRewards : null;
+            return rewards;
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to fetch InstanceContentUnlockReward: {ex.Message}\nStackTrace: {ex.StackTrace}");
+            return null;
+        }
     }
 
     private JournalGenreDetails? GetJournalGenreDetails(RowRef<JournalGenre> journalGenreRef, ReadOnlySeString questId)

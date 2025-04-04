@@ -29,7 +29,6 @@ public sealed class QuestJournal : IDalamudPlugin
         WindowSystem.AddWindow(MainWindow);
 
         PluginInterface.UiBuilder.Draw += DrawUi;
-        PluginInterface.UiBuilder.OpenConfigUi += OpenMainWindow;
         PluginInterface.UiBuilder.OpenMainUi += OpenMainWindow;
     }
 
