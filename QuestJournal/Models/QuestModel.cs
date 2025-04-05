@@ -99,6 +99,14 @@ public class Reward
     public List<GeneralActionReward>? GeneralActions { get; set; }
     public OtherReward? OtherReward { get; set; }
     public List<InstanceContentUnlockReward>? InstanceContentUnlock { get; set; }
+    public ReputationReward? ReputationReward { get; set; }
+}
+
+public class ReputationReward
+{
+    public uint ReputationId { get; set; }
+    public string? ReputationName { get; set; }
+    public int Count { get; set; }
 }
 
 public class CurrencyReward

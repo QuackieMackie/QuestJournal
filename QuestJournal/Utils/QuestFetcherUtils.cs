@@ -98,11 +98,22 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 Action = GetActionReward(quest),
                 GeneralActions = GetGeneralActionRewards(quest),
                 OtherReward = GetOtherReward(quest),
-                InstanceContentUnlock = GetAllInstanceContentUnlockRewards(quest)
+                InstanceContentUnlock = GetAllInstanceContentUnlockRewards(quest),
+                ReputationReward = GetReputationReward(quest)
             };
         }
 
         return null;
+    }
+
+    private ReputationReward? GetReputationReward(Quest quest)
+    {
+        return new ReputationReward()
+        {
+            ReputationId = quest.BeastTribe.Value.RowId,
+            ReputationName = quest.BeastTribe.Value.Name.ExtractText(),
+            Count = quest.ReputationReward,
+        };
     }
     
     public List<ItemsReward> GetItemReward(Quest quest)

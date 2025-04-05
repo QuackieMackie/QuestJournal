@@ -369,12 +369,23 @@ public class RendererUtils
                                 ImGui.Text(quest.Rewards.Gil.ToString());
                             }
                             
+                            if (quest.Rewards?.ReputationReward?.Count > 0)
+                            {
+                                ImGui.TableNextRow();
+                                ImGui.TableNextColumn();
+                                ImGui.Text("Reputation:");
+
+                                ImGui.TableNextColumn();
+                                ImGui.Text($"{quest.Rewards.ReputationReward.Count} ({quest.Rewards.ReputationReward.ReputationName})");
+                            }
+                            
                             if (quest.Rewards?.Currency != null)
                             {
                                 var currency = quest.Rewards.Currency;
 
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Currency:");
 
                                 ImGui.TableNextColumn();
@@ -385,6 +396,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Catalysts:");
 
                                 ImGui.TableNextColumn();
@@ -405,6 +417,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Items:");
 
                                 ImGui.TableNextColumn();
@@ -424,6 +437,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Optional Items:");
 
                                 ImGui.TableNextColumn();
@@ -448,6 +462,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Emote:");
 
                                 ImGui.TableNextColumn();
@@ -459,6 +474,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Action:");
 
                                 ImGui.TableNextColumn();
@@ -470,6 +486,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("General Actions:");
 
                                 ImGui.TableNextColumn();
@@ -489,6 +506,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Other Reward:");
 
                                 ImGui.TableNextColumn();
@@ -500,6 +518,7 @@ public class RendererUtils
                             {
                                 ImGui.TableNextRow();
                                 ImGui.TableNextColumn();
+                                ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Instance Content:");
 
                                 ImGui.TableNextColumn();

@@ -17,6 +17,11 @@ public class QuestDataInjector
         {
             dataInjections[keyValuePair.Key] = keyValuePair.Value;
         }
+        
+        foreach (var keyValuePair in TrailInjectedQuestData.GetData())
+        {
+            dataInjections[keyValuePair.Key] = keyValuePair.Value;
+        }
     }
     
     public void InjectMissingData(IEnumerable<QuestModel> quests)
