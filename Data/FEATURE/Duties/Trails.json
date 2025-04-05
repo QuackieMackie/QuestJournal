@@ -68,7 +68,18 @@
       ],
       "OptionalItems": [],
       "GeneralActions": [],
-      "InstanceContentUnlock": []
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 475,
+          "InstanceName": "The Great Hunt",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
     }
   },
   {
@@ -126,7 +137,12 @@
           "InstanceName": "the Great Hunt (Extreme)",
           "ContentType": 4
         }
-      ]
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
     }
   }
 ]
