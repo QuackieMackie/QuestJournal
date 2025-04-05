@@ -637,7 +637,7 @@ public class RendererUtils
         }
     }
 
-    private void GetQuestIcon(QuestModel quest, float size = 20f)
+    private void GetQuestIcon(QuestModel quest, float size = 16f)
     {
         try
         {
@@ -663,13 +663,13 @@ public class RendererUtils
                 
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
-                ImGui.SetCursorPosX(ImGui.GetCursorPosX() + 2);
+                ImGui.SetCursorPosX(ImGui.GetCursorPosX() + 5);
                 ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
 
                 if (ImGui.IsItemHovered())
                 {
                     ImGui.BeginTooltip();
-                    ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size * 3, size * 3));
+                    ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size * 4, size * 4));
                     ImGui.EndTooltip();
                 }
             }

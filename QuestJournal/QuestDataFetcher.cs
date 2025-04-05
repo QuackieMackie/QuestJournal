@@ -53,6 +53,8 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
                     }
                 }
             }
+            var injector = new QuestDataInjector();
+            injector.InjectMissingData(questInfoLookup.Values);
         }
 
         return questInfoLookup.Values.Where(quest => quest != null).ToList();
@@ -151,13 +153,17 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             68554, // "Absolutely Glamourous"
             66957, // "A Self-improving Man"
             66958, // "Submission Impossible"
+            70300, // "A Faerie Tale Come True"
+            67896, // "An Egi by Any Other Name"
+            70723  // "Bottled Fantasy"
+        ];
+        
+        List<int> materiaQuestIds =
+        [
             66174, // "Forging the Spirit"
             66175, // "Waking the Spirit"
             66999, // "Marvelously Mutable Materia"
             66176, // "Melding Materia Muchly"
-            70300, // "A Faerie Tale Come True"
-            67896, // "An Egi by Any Other Name"
-            70723  // "Bottled Fantasy"
         ];
 
         List<int> locationsQuestIds =
@@ -313,6 +319,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (51, "Tribe Quests", 1, null), // Intersocietal Quests
             
             (glamourQuestIds, "Glamour and Customization", 2, null),
+            (materiaQuestIds, "Materia", 2, null),
     
             (locationsQuestIds, "Locations", 2, null),
 

@@ -5,38 +5,38 @@ namespace QuestJournal.Models;
 public class QuestModel
 {
     public uint QuestId { get; init; }
-    public string? QuestTitle { get; init; }
+    public string? QuestTitle { get; set; }
     
-    public List<uint>? PreviousQuestIds { get; init; }
-    public List<string>? PreviousQuestTitles { get; init; }
+    public List<uint>? PreviousQuestIds { get; set; }
+    public List<string>? PreviousQuestTitles { get; set; }
 
-    public List<uint>? NextQuestIds { get; init; }
-    public List<string>? NextQuestTitles { get; init; }
+    public List<uint>? NextQuestIds { get; set; }
+    public List<string>? NextQuestTitles { get; set; }
 
     // Locations
-    public string? StarterNpc { get; init; }
-    public Level? StarterNpcLocation { get; init; }
-    public string? FinishNpc { get; init; }
+    public string? StarterNpc { get; set; }
+    public Level? StarterNpcLocation { get; set; }
+    public string? FinishNpc { get; set; }
     
     // Organisation
-    public string? Expansion { get; init; }
-    public JournalGenreDetails? JournalGenre { get; init; }
-    public ushort SortKey { get; init; }
+    public string? Expansion { get; set; }
+    public JournalGenreDetails? JournalGenre { get; set; }
+    public ushort SortKey { get; set; }
     
     // Other
-    public bool IsRepeatable { get; init; }
+    public bool IsRepeatable { get; set; }
     
     // Icons
-    public uint EventIcon { get; init; }
-    public uint Icon { get; init; }
+    public uint EventIcon { get; set; }
+    public uint Icon { get; set; }
     
     // Requirements
-    public uint? JobLevel { get; init; }
-    public string? ClassJobCategory { get; init; }
-    public BeastTribeRequirements? BeastTribeRequirements { get; init; }
+    public uint? JobLevel { get; set; }
+    public string? ClassJobCategory { get; set; }
+    public BeastTribeRequirements? BeastTribeRequirements { get; set; }
     
     // Rewards
-    public Reward? Rewards { get; init; }
+    public Reward? Rewards { get; set; }
     
     public override string ToString()
     {
@@ -50,33 +50,33 @@ public class QuestModel
 
 public class BeastTribeRequirements
 {
-    public string? BeastTribeName  { get; init; }
-    public string? BeastTribeRank { get; init; }
+    public string? BeastTribeName  { get; set; }
+    public string? BeastTribeRank { get; set; }
 }
 
 public class JournalGenreDetails
 {
-    public uint Id { get; init; }
-    public JournalCategoryDetails? JournalCategory { get; init; }
-    public string? Name { get; init; }
+    public uint Id { get; set; }
+    public JournalCategoryDetails? JournalCategory { get; set; }
+    public string? Name { get; set; }
 }
 
 public class JournalCategoryDetails
 {
-    public uint Id { get; init; }
-    public string? Name { get; init; }
+    public uint Id { get; set; }
+    public string? Name { get; set; }
 }
 
 public class Level
 {
-    public uint RowId { get; init; }
-    public float X { get; init; }
-    public float Y { get; init; }
-    public float Z { get; init; }
-    public float Yaw { get; init; }
-    public float Radius { get; init; }
-    public uint MapId { get; init; }
-    public uint TerritoryId { get; init; }
+    public uint RowId { get; set; }
+    public float X { get; set; }
+    public float Y { get; set; }
+    public float Z { get; set; }
+    public float Yaw { get; set; }
+    public float Radius { get; set; }
+    public uint MapId { get; set; }
+    public uint TerritoryId { get; set; }
 
     public override string ToString()
     {
@@ -88,77 +88,77 @@ public class Level
 
 public class Reward
 {
-    public int Exp { get; init; }
-    public uint Gil { get; init; }
-    public CurrencyReward? Currency { get; init; }
-    public List<CatalystReward>? Catalysts { get; init; }
-    public List<ItemsReward>? Items { get; init; }
-    public List<OptionalItemsReward>? OptionalItems { get; init; }
-    public EmoteReward? Emote { get; init; }
-    public ActionReward? Action { get; init; }
-    public List<GeneralActionReward>? GeneralActions { get; init; }
-    public OtherReward? OtherReward { get; init; }
-    public List<InstanceContentUnlockReward>? InstanceContentUnlock { get; init; }
+    public int Exp { get; set; }
+    public uint Gil { get; set; }
+    public CurrencyReward? Currency { get; set; }
+    public List<CatalystReward>? Catalysts { get; set; }
+    public List<ItemsReward>? Items { get; set; }
+    public List<OptionalItemsReward>? OptionalItems { get; set; }
+    public EmoteReward? Emote { get; set; }
+    public ActionReward? Action { get; set; }
+    public List<GeneralActionReward>? GeneralActions { get; set; }
+    public OtherReward? OtherReward { get; set; }
+    public List<InstanceContentUnlockReward>? InstanceContentUnlock { get; set; }
 }
 
 public class CurrencyReward
 {
-    public uint CurrencyId { get; init; }
-    public string? CurrencyName { get; init; }
-    public uint Count { get; init; }
+    public uint CurrencyId { get; set; }
+    public string? CurrencyName { get; set; }
+    public uint Count { get; set; }
 }
 
 public class CatalystReward
 {
-    public uint ItemId { get; init; }
-    public string? ItemName { get; init; }
-    public byte Count { get; init; }
+    public uint ItemId { get; set; }
+    public string? ItemName { get; set; }
+    public byte Count { get; set; }
 }
 
 public class ItemsReward
 {
-    public uint ItemId { get; init; }
-    public string? ItemName { get; init; }
-    public byte Count { get; init; }
-    public string? Stain { get; init; }
+    public uint ItemId { get; set; }
+    public string? ItemName { get; set; }
+    public byte Count { get; set; }
+    public string? Stain { get; set; }
 }
 
 public class OptionalItemsReward
 {
-    public uint ItemId { get; init; }
-    public string? ItemName { get; init; }
-    public byte Count { get; init; }
-    public string? Stain { get; init; }
-    public bool IsHq { get; init; }
+    public uint ItemId { get; set; }
+    public string? ItemName { get; set; }
+    public byte Count { get; set; }
+    public string? Stain { get; set; }
+    public bool IsHq { get; set; }
 }
 
 public class EmoteReward
 {
-    public uint Id { get; init; }
-    public string? EmoteName { get; init; }
+    public uint Id { get; set; }
+    public string? EmoteName { get; set; }
 }
 
 public class ActionReward
 {
-    public uint Id { get; init; }
-    public string? ActionName { get; init; }
+    public uint Id { get; set; }
+    public string? ActionName { get; set; }
 }
 
 public class GeneralActionReward
 {
-    public uint Id { get; init; }
-    public string? Name { get; init; }
+    public uint Id { get; set; }
+    public string? Name { get; set; }
 }
 
 public class OtherReward
 {
-    public uint Id { get; init; }
-    public string? Name { get; init; }
+    public uint Id { get; set; }
+    public string? Name { get; set; }
 }
 
 public class InstanceContentUnlockReward
 {
-    public uint InstanceId { get; init; }
-    public string? InstanceName { get; init; }
-    public uint ContentType { get; init; }
+    public uint InstanceId { get; set; }
+    public string? InstanceName { get; set; }
+    public uint ContentType { get; set; }
 }

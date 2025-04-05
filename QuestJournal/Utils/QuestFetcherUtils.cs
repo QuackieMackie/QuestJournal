@@ -21,6 +21,8 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
     private readonly ExcelSheet<GeneralAction>? generalActionSheet = dataManager.GetExcelSheet<GeneralAction>();
     private readonly ExcelSheet<QuestRewardOther>? questRewardOtherSheet = dataManager.GetExcelSheet<QuestRewardOther>();
     private readonly ExcelSheet<ParamGrow>? paramGrowSheet = dataManager.GetExcelSheet<ParamGrow>();
+    private readonly ExcelSheet<ContentFinderCondition>? contentFinderConditionSheet = dataManager.GetExcelSheet<ContentFinderCondition>();
+    private readonly ExcelSheet<ContentType>? contentTypeSheet = dataManager.GetExcelSheet<ContentType>();
 
     public QuestModel? BuildQuestInfo(Quest questData)
     {
@@ -96,7 +98,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 Action = GetActionReward(quest),
                 GeneralActions = GetGeneralActionRewards(quest),
                 OtherReward = GetOtherReward(quest),
-                InstanceContentUnlock = GetInstanceContentUnlockReward(quest)
+                InstanceContentUnlock = GetAllInstanceContentUnlockRewards(quest)
             };
         }
 
@@ -335,7 +337,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         return null;
     }
     
-    private List<InstanceContentUnlockReward>? GetInstanceContentUnlockReward(Quest quest)
+    private List<InstanceContentUnlockReward>? GetQuestInstanceContentUnlockReward(Quest quest)
     {
         try
         {
@@ -345,7 +347,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             
             var instanceContent = instanceRef.Value;
             
-            var rewards = new List<InstanceContentUnlockReward>
+            return new List<InstanceContentUnlockReward>
             {
                 new InstanceContentUnlockReward
                 {
@@ -354,14 +356,96 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                     ContentType = instanceContent.InstanceContentType.Value.RowId
                 }
             };
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to fetch InstanceContentUnlockReward for Quest: {ex.Message}\nStackTrace: {ex.StackTrace}");
+            return null;
+        }
+    }
+
+    private List<InstanceContentUnlockReward> GetContentFinderConditionRewards(uint questId)
+    {
+        try
+        {
+            if (contentFinderConditionSheet == null || contentTypeSheet == null)
+                return new List<InstanceContentUnlockReward>();
+
+            uint ResolveContentType(RowRef<ContentType> contentTypeRef)
+            {
+                var contentType = contentTypeSheet.GetRow(contentTypeRef.RowId);
+                return contentType.RowId;
+            }
+
+            var rewards = contentFinderConditionSheet
+                .Where(c =>
+                {
+                    if (c.Unknown37 == 1)
+                    {
+                        // Use Unknown31 as the quest ID (instead of UnlockQuest)
+                        return c.Unknown31 == questId;
+                    }
+
+                    return c.UnlockQuest.RowId == questId;
+                })
+                .Select(content =>
+                {
+                    // Handle Unknown36 to determine unlock logic
+                    // 0: No requirements, 1: Quest requirement, 2: Instance + quest, 3: Special case
+                    if (content.Unknown36 == 2 && content.Unknown31 != 0)
+                    {
+                        // Unreal unlocks: Requires both instance content and a quest (special logic)
+                        return new InstanceContentUnlockReward
+                        {
+                            InstanceId = content.RowId,
+                            InstanceName = content.Name.ExtractText(),
+                            ContentType = ResolveContentType(content.ContentType),
+                        };
+                    }
+                    else if (content.Unknown36 == 3)
+                    {
+                        // Special case for entries like "The Calamity Untold"
+                        return new InstanceContentUnlockReward
+                        {
+                            InstanceId = content.RowId,
+                            InstanceName = content.Name.ExtractText() + " (Calamity Untold)",
+                            ContentType = ResolveContentType(content.ContentType)
+                        };
+                    }
+
+                    // Default case for normal unlocks
+                    return new InstanceContentUnlockReward
+                    {
+                        InstanceId = content.RowId,
+                        InstanceName = content.Name.ExtractText(),
+                        ContentType = ResolveContentType(content.ContentType)
+                    };
+                })
+                .ToList();
 
             return rewards;
         }
         catch (Exception ex)
         {
-            log.Error($"Failed to fetch InstanceContentUnlockReward: {ex.Message}\nStackTrace: {ex.StackTrace}");
-            return null;
+            log.Error($"Failed to fetch rewards from ContentFinderConditionSheet: {ex.Message}\nStackTrace: {ex.StackTrace}");
+            return new List<InstanceContentUnlockReward>();
         }
+    }
+    
+    private List<InstanceContentUnlockReward> GetAllInstanceContentUnlockRewards(Quest quest)
+    {
+        var questRewards = GetQuestInstanceContentUnlockReward(quest) ?? new List<InstanceContentUnlockReward>();
+
+        var sheetRewards = GetContentFinderConditionRewards(quest.RowId);
+
+        var allRewards = questRewards
+                         .Concat(sheetRewards)
+                         .GroupBy(r => r.InstanceId)
+                         .Select(g => g.First())
+                         .OrderBy(r => r.InstanceName)
+                         .ToList();
+
+        return allRewards;
     }
 
     private JournalGenreDetails? GetJournalGenreDetails(RowRef<JournalGenre> journalGenreRef, ReadOnlySeString questId)
