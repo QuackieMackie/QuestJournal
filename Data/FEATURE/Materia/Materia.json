@@ -1,0 +1,235 @@
+[
+  {
+    "QuestId": 66174,
+    "QuestTitle": "Forging the Spirit",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66175
+    ],
+    "NextQuestTitles": [
+      "Waking the Spirit"
+    ],
+    "StarterNpc": "Swynbroes",
+    "StarterNpcLocation": {
+      "RowId": 2465083,
+      "X": 123.347,
+      "Y": 30.9998,
+      "Z": -384.914,
+      "Yaw": -0.954471,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Swynbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5594,
+          "ItemName": "Grade 1 Dark Matter",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 14,
+          "Name": "Materia Extraction"
+        }
+      ],
+      "InstanceContentUnlock": []
+    }
+  },
+  {
+    "QuestId": 66175,
+    "QuestTitle": "Waking the Spirit",
+    "PreviousQuestIds": [
+      66174
+    ],
+    "PreviousQuestTitles": [
+      "Forging the Spirit"
+    ],
+    "NextQuestIds": [
+      66176
+    ],
+    "NextQuestTitles": [
+      "Melding Materia Muchly"
+    ],
+    "StarterNpc": "F\u0027hobhas",
+    "StarterNpcLocation": {
+      "RowId": 2465084,
+      "X": 102.92,
+      "Y": 30.9386,
+      "Z": -377.95,
+      "Yaw": 1.66025,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "F\u0027hobhas",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 12,
+          "Name": "Materia Melding"
+        }
+      ],
+      "InstanceContentUnlock": []
+    }
+  },
+  {
+    "QuestId": 66176,
+    "QuestTitle": "Melding Materia Muchly",
+    "PreviousQuestIds": [
+      66175
+    ],
+    "PreviousQuestTitles": [
+      "Waking the Spirit"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mutamix Bubblypots",
+    "StarterNpcLocation": {
+      "RowId": 2465082,
+      "X": 115.156,
+      "Y": 31.9002,
+      "Z": -392.182,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Mutamix Bubblypots",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2040,
+      "Gil": 5157,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 13,
+          "Name": "Advanced Materia Melding"
+        }
+      ],
+      "InstanceContentUnlock": []
+    }
+  },
+  {
+    "QuestId": 66999,
+    "QuestTitle": "Marvelously Mutable Materia",
+    "PreviousQuestIds": [
+      65808
+    ],
+    "PreviousQuestTitles": [
+      "Life, Materia and Everything"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kokosamu",
+    "StarterNpcLocation": {
+      "RowId": 2465085,
+      "X": 116.808,
+      "Y": 30.9086,
+      "Z": -359.615,
+      "Yaw": -1.80608,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Mutamix Bubblypots",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 840,
+      "Gil": 227,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": []
+    }
+  }
+]
