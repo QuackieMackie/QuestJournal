@@ -317,8 +317,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
                     var subFolderName = groupBy switch
                     {
                         0 => quest.JournalGenre?.Name ?? "Unknown Genre", // Group by JournalGenre.Name
-                        1 => quest.JournalGenre?.JournalCategory?.Name ??
-                             "Unknown Category",     // Group by JournalCategory.Name
+                        1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category",     // Group by JournalCategory.Name
                         3 => jsonName ?? folderName, // Use JSON Name
                         _ => folderName              // Use FolderName directly
                     };
@@ -327,7 +326,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
                         categorizedQuests[folderName] =
                             new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
 
-                    if (!categorizedQuests[folderName].ContainsKey(subFolderName))
+                    if (!categorizedQuests[folderName].ContainsKey(subFolderName)) 
                         categorizedQuests[folderName][subFolderName] = new List<QuestModel>();
 
                     categorizedQuests[folderName][subFolderName].Add(quest);

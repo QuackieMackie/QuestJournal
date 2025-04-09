@@ -6,6 +6,7 @@ using System.Text.Json;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using QuestJournal.Models;
+using QuestJournal.Utils;
 
 namespace QuestJournal.UI.Handler;
 
@@ -136,28 +137,30 @@ public class MsqHandler : IDisposable
 
     public Dictionary<string, string> GetMsqFileNames()
     {
-        var outputDirectory = pluginInterface.AssemblyLocation.Directory?.FullName ?? "";
-        var msqDirectoryPath = Path.Combine(outputDirectory, "QuestJournal", "MSQ");
+        var allResources = GetAllMsqResources();
+        var result = new Dictionary<string, string>();
 
-        if (!Directory.Exists(msqDirectoryPath))
+        foreach (var resource in allResources.Where(res => res.EndsWith(".json", StringComparison.OrdinalIgnoreCase)))
         {
-            log.Warning($"MSQ directory does not exist: {msqDirectoryPath}");
-            return new Dictionary<string, string>();
+            var fileName = resource.Replace("QuestJournal.Data.MSQ.", "").Replace(".json", "");
+            var displayName = fileName.Replace("_", " ");
+
+            var uniqueDisplayName = displayName;
+            var counter = 1;
+            while (result.ContainsKey(uniqueDisplayName))
+            {
+                uniqueDisplayName = $"{displayName} ({counter++})";
+            }
+
+            result[uniqueDisplayName] = fileName;
         }
 
-        log.Info($"Searching MSQ files in: {msqDirectoryPath}");
+        if (result.Count == 0)
+        {
+            log.Warning("No embedded MSQ quest files found.");
+        }
 
-        return Directory.GetFiles(msqDirectoryPath, "*.json", SearchOption.TopDirectoryOnly)
-                        .ToDictionary(
-                            file =>
-                            {
-                                var fileName = Path.GetFileNameWithoutExtension(file);
-                                return fileName.StartsWith("MSQ-")
-                                           ? fileName.Substring(4).Replace("_", " ")
-                                           : fileName.Replace("_", " ");
-                            },
-                            file => Path.GetFileNameWithoutExtension(file)
-                        );
+        return result;
     }
 
     public List<QuestModel>? FetchQuestData(string fileName)
@@ -168,22 +171,15 @@ public class MsqHandler : IDisposable
             var grandCompanyMapping = GrandCompanyQuestMapping();
             var playerStartArea = configuration.StartArea;
             var playerGrandCompany = configuration.GrandCompany;
-            var outputDirectory = pluginInterface.AssemblyLocation.Directory?.FullName ?? string.Empty;
-            var msqDirectoryPath = Path.Combine(outputDirectory, "QuestJournal", "MSQ");
-            var filePath = Path.Combine(msqDirectoryPath, fileName + ".json");
 
-            if (!File.Exists(filePath))
-            {
-                log.Error($"File not found: {filePath}");
-                return null;
-            }
+            var resourcePath = $"{fileName}";
+            var fileContent = EmbeddedResourceLoader.LoadJson(resourcePath, "MSQ");
 
-            var fileContent = File.ReadAllText(filePath);
             var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
 
             if (quests == null)
             {
-                log.Error($"Failed to deserialize quests from file {fileName}. The content might be invalid.");
+                log.Error($"Failed to deserialize quests from resource '{resourcePath}'. The content might be invalid.");
                 return null;
             }
 
@@ -229,13 +225,22 @@ public class MsqHandler : IDisposable
 
             var orderedQuests = filteredQuests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
 
-            log.Info($"Filtered and organized a total of {orderedQuests.Count} quests for file: \"{filePath}\".");
+            log.Info($"Filtered and organized a total of {orderedQuests.Count} quests for resource: \"{resourcePath}\".");
             return orderedQuests;
         }
         catch (Exception ex)
         {
-            log.Error($"Error loading file {fileName}: {ex.Message}");
+            log.Error($"Error loading resource '{fileName}': {ex.Message}");
             return null;
         }
     }
+
+    private List<string> GetAllMsqResources()
+    {
+        return AppDomain.CurrentDomain.GetAssemblies()
+            .SelectMany(assembly => assembly.GetManifestResourceNames())
+            .Where(resourceName => resourceName.StartsWith("QuestJournal.Data.MSQ.", StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
 }

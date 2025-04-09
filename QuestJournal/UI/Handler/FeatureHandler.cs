@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text.Json;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using QuestJournal.Models;
+using QuestJournal.Utils;
 
 namespace QuestJournal.UI.Handler;
 
@@ -59,151 +61,127 @@ public class FeatureHandler : IDisposable
 
     public List<string> GetFeatureSubDirs()
     {
-        var featureDirectoryPath = GetFeatureDirectory();
+        var allResources = GetAllFeatureResources();
+        
+        var subDirs = allResources
+                      .Select(res => res.Replace("QuestJournal.Data.FEATURE.", "").Split('.')[0])
+                      .Distinct()
+                      .ToList();
 
-        if (string.IsNullOrEmpty(featureDirectoryPath) || !Directory.Exists(featureDirectoryPath))
+        if (subDirs.Count == 0)
         {
-            log.Warning($"FEATURE directory does not exist: {featureDirectoryPath}");
-            return new List<string>();
+            log.Warning("No FEATURE subdirectories found in embedded resources.");
         }
 
-        return Directory.GetDirectories(featureDirectoryPath)
-                        .Select(subDir => Path.GetFileName(subDir))
-                        .Where(name => !string.IsNullOrEmpty(name))
-                        .ToList();
+        return subDirs;
     }
 
     public Dictionary<string, string> GetJournalGenresInSubDir(string subDir)
     {
-        var featureDirectoryPath = GetFeatureDirectory();
+        var subDirPrefix = $"QuestJournal.Data.FEATURE.{subDir}.";
 
-        if (string.IsNullOrEmpty(featureDirectoryPath))
+        var allResources = GetAllFeatureResources();
+
+        var filesInSubDir = allResources
+                            .Where(res => res.StartsWith(subDirPrefix, StringComparison.OrdinalIgnoreCase) && res.EndsWith(".json"))
+                            .ToDictionary(
+                                res =>
+                                {
+                                    var fileName = res.Replace(subDirPrefix, "").Replace(".json", "");
+                                    return fileName.Replace("_", " ");
+                                },
+                                res => res.Replace(subDirPrefix, "").Replace(".json", "")
+                            );
+
+        if (filesInSubDir.Count == 0)
         {
-            log.Warning("Feature directory path is null or empty.");
-            return new Dictionary<string, string>();
+            log.Warning($"No JSON files found in subdirectory '{subDir}' within embedded resources.");
         }
 
-        var subDirPath = Path.Combine(featureDirectoryPath, subDir);
-
-        if (!Directory.Exists(subDirPath))
-        {
-            log.Warning($"Subdirectory does not exist: {subDirPath}");
-            return new Dictionary<string, string>();
-        }
-
-        return Directory.GetFiles(subDirPath, "*.json", SearchOption.TopDirectoryOnly)
-                        .Where(file => !string.IsNullOrEmpty(file))
-                        .ToDictionary(
-                            file =>
-                            {
-                                var fileName = Path.GetFileNameWithoutExtension(file);
-                                return fileName!.Replace("_", " ");
-                            },
-                            file => Path.GetFileNameWithoutExtension(file));
+        return filesInSubDir;
     }
 
     public List<QuestModel>? FetchQuestDataFromSubDir(string subDir, string fileName)
     {
-        var questStartAreaMapping = StartAreaQuestMapping();
-        var featureDirectoryPath = GetFeatureDirectory();
-
-        if (string.IsNullOrEmpty(featureDirectoryPath))
-        {
-            log.Error("Feature directory path is null or empty.");
-            return null;
-        }
-
-        var subDirPath = Path.Combine(featureDirectoryPath, subDir);
-
-        if (string.IsNullOrEmpty(subDirPath) || !Directory.Exists(subDirPath))
-        {
-            log.Warning($"Subdirectory does not exist: {subDirPath}");
-            return null;
-        }
-
-        var filePath = Path.Combine(subDirPath, fileName + ".json");
-
-        if (!File.Exists(filePath))
-        {
-            log.Error($"File not found: {filePath}");
-            return null;
-        }
-
         try
         {
-            var fileContent = File.ReadAllText(filePath);
-            var playerStartArea = configuration.StartArea;
-            var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
+            var resourcePath = $"{subDir}.{fileName}";
+            var fileContent = EmbeddedResourceLoader.LoadJson(resourcePath, "FEATURE");
 
+            var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
             if (quests == null)
             {
-                log.Error($"Failed to deserialize quests from file {fileName}.json.");
+                log.Error($"Failed to deserialize quests for resource: {resourcePath}");
                 return null;
             }
 
-            var filteredQuests = new List<QuestModel>();
+            var filteredQuests = PerformQuestFiltering(quests);
 
-            // Start Area Filtering
-            if (!string.IsNullOrWhiteSpace(playerStartArea))
-            {
-                filteredQuests = quests
-                                 .Where(q => q != null)
-                                 .GroupBy(q => q.QuestTitle)
-                                 .Select(group =>
-                                 {
-                                     if (group.Key != null &&
-                                         questStartAreaMapping.TryGetValue(group.Key, out var areaMapping) &&
-                                         areaMapping.TryGetValue(playerStartArea, out var mappedQuestId))
-                                         return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
-                                     return group.FirstOrDefault();
-                                 })
-                                 .Where(q => q != null)
-                                 .Select(q => q!)
-                                 .ToList();
-            }
-            
-            // Swappable Quest Filtering
-            var swappableGroups = SwappableQuestMapping();
-
-            foreach (var group in swappableGroups.Values)
-            {
-                foreach (var (a, b) in group)
-                {
-                    var aCompleted = QuestManager.IsQuestComplete(a);
-                    var bCompleted = QuestManager.IsQuestComplete(b);
-
-                    if (aCompleted && !bCompleted)
-                    {
-                        filteredQuests.RemoveAll(q => q.QuestId == b);
-                    }
-                    else if (bCompleted && !aCompleted)
-                    {
-                        filteredQuests.RemoveAll(q => q.QuestId == a);
-                    }
-                }
-            }
-
-            return filteredQuests.OrderBy(q => q.SortKey).ToList();
+            log.Info($"Loaded and filtered {filteredQuests.Count} quests from: {resourcePath}");
+            return filteredQuests;
         }
-        catch (Exception ex)
+        catch (FileNotFoundException e)
         {
-            log.Error($"Error loading quests from file {fileName}: {ex.Message}");
+            log.Error($"Resource not found: {e.Message}");
+            return null;
+        }
+        catch (Exception e)
+        {
+            log.Error($"Error loading resource '{fileName}' from subdirectory '{subDir}': {e.Message}");
             return null;
         }
     }
 
-    private string? GetFeatureDirectory()
+    private List<string> GetAllFeatureResources()
     {
-        var outputDirectory = pluginInterface.AssemblyLocation.Directory?.FullName;
+        return Assembly.GetExecutingAssembly()
+                       .GetManifestResourceNames()
+                       .Where(res => res.StartsWith("QuestJournal.Data.FEATURE.", StringComparison.OrdinalIgnoreCase))
+                       .ToList();
+    }
 
-        if (string.IsNullOrEmpty(outputDirectory))
+    private List<QuestModel> PerformQuestFiltering(List<QuestModel> quests)
+    {
+        // Filter for start area quests
+        var playerStartArea = configuration.StartArea;
+        var questStartAreaMapping = StartAreaQuestMapping();
+
+        var filteredQuests = !string.IsNullOrWhiteSpace(playerStartArea)
+            ? quests.GroupBy(q => q.QuestTitle)
+                    .Select(group =>
+                    {
+                        if (group.Key != null &&
+                            questStartAreaMapping.TryGetValue(group.Key, out var areaMapping) &&
+                            areaMapping.TryGetValue(playerStartArea, out var mappedQuestId))
+                            return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
+                        
+                        return group.FirstOrDefault();
+                    })
+                    .Where(q => q != null)
+                    .Select(q => q!)
+                    .ToList()
+            : quests;
+
+        // Filter for swappable quests
+        var swappableGroups = SwappableQuestMapping();
+        foreach (var group in swappableGroups.Values)
         {
-            log.Error("Output directory is null or empty.");
-            return null;
+            foreach (var (a, b) in group)
+            {
+                var aCompleted = QuestManager.IsQuestComplete(a);
+                var bCompleted = QuestManager.IsQuestComplete(b);
+
+                if (aCompleted && !bCompleted)
+                {
+                    filteredQuests.RemoveAll(q => q.QuestId == b);
+                }
+                else if (bCompleted && !aCompleted)
+                {
+                    filteredQuests.RemoveAll(q => q.QuestId == a);
+                }
+            }
         }
 
-        var featureDirectoryPath = Path.Combine(outputDirectory, "QuestJournal", "FEATURE");
-
-        return Directory.Exists(featureDirectoryPath) ? featureDirectoryPath : null;
+        return filteredQuests.OrderBy(q => q.SortKey).ToList();;
     }
 }

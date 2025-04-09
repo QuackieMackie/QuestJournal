@@ -6,6 +6,7 @@ using System.Text.Json;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using QuestJournal.Models;
+using QuestJournal.Utils;
 
 namespace QuestJournal.UI.Handler;
 
@@ -26,69 +27,68 @@ public class JobHandler : IDisposable
     {
         try
         {
-            var jobDirectoryPath = GetJobDirectory();
+            var resourcePath = $"{fileName}";
+            var fileContent = EmbeddedResourceLoader.LoadJson(resourcePath, "JOB");
 
-            if (jobDirectoryPath == null) return null;
-
-            var filePath = Path.Combine(jobDirectoryPath, fileName + ".json");
-
-            if (!File.Exists(filePath))
-            {
-                log.Error($"File not found: {filePath}");
-                return null;
-            }
-
-            var fileContent = File.ReadAllText(filePath);
             var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
-
             if (quests == null)
             {
-                log.Error($"Failed to deserialize quests from file {fileName}. The content might be invalid.");
+                log.Error($"Failed to deserialize quests from resource '{resourcePath}'. The content might be invalid.");
                 return null;
             }
 
             var orderedQuests = quests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
+            log.Info($"Loaded and organized {orderedQuests.Count} quests from resource: '{resourcePath}'.");
 
-            log.Info($"Filtered and organized a total of {orderedQuests.Count} quests for file: \"{filePath}\".");
             return orderedQuests;
+        }
+        catch (FileNotFoundException e)
+        {
+            log.Error($"Resource not found: {e.Message}");
+            return null;
         }
         catch (Exception ex)
         {
-            log.Error($"Error loading file {fileName}: {ex.Message}");
+            log.Error($"Error loading resource '{fileName}': {ex.Message}");
             return null;
         }
     }
 
     public Dictionary<string, string> GetJobFileNames()
     {
-        var jobDirectoryPath = GetJobDirectory();
+        var allResources = GetAllJobResources();
+        var result = new Dictionary<string, string>();
 
-        if (!Directory.Exists(jobDirectoryPath))
+        foreach (var resource in allResources.Where(res => res.EndsWith(".json", StringComparison.OrdinalIgnoreCase)))
         {
-            log.Warning($"JOB directory does not exist: {jobDirectoryPath}");
-            return new Dictionary<string, string>();
+            var fileName = resource.Replace("QuestJournal.Data.JOB.", "").Replace(".json", "");
+            var displayName = fileName.StartsWith("JOB-", StringComparison.OrdinalIgnoreCase)
+                                  ? fileName.Substring(4).Replace("_", " ")
+                                  : fileName.Replace("_", " ");
+
+            var uniqueDisplayName = displayName;
+            var counter = 1;
+            while (result.ContainsKey(uniqueDisplayName))
+            {
+                uniqueDisplayName = $"{displayName} ({counter++})";
+            }
+
+            result[uniqueDisplayName] = fileName;
         }
 
-        log.Info($"Searching JOB files in: {jobDirectoryPath}");
+        if (result.Count == 0)
+        {
+            log.Warning("No embedded JOB quest files found.");
+        }
 
-        return Directory.GetFiles(jobDirectoryPath, "*.json", SearchOption.TopDirectoryOnly)
-                        .ToDictionary(
-                            file =>
-                            {
-                                var fileName = Path.GetFileNameWithoutExtension(file);
-                                return fileName.StartsWith("JOB-")
-                                           ? fileName.Substring(4).Replace("_", " ")
-                                           : fileName.Replace("_", " ");
-                            },
-                            file => Path.GetFileNameWithoutExtension(file)
-                        );
+        return result;
     }
-
-    private string? GetJobDirectory()
+    
+    private List<string> GetAllJobResources()
     {
-        var outputDirectory = pluginInterface.AssemblyLocation.Directory?.FullName ?? string.Empty;
-        var jobDirectoryPath = Path.Combine(outputDirectory, "QuestJournal", "JOB");
-
-        return Directory.Exists(jobDirectoryPath) ? jobDirectoryPath : null;
+        return AppDomain.CurrentDomain.GetAssemblies()
+                        .SelectMany(assembly => assembly.GetManifestResourceNames())
+                        .Where(res => res.StartsWith("QuestJournal.Data.JOB.", StringComparison.OrdinalIgnoreCase))
+                        .ToList();
     }
 }

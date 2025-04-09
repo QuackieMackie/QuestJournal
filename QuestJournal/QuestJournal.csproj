@@ -10,38 +10,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- Include QuestData.json in data directory -->
-        <Content Include="..\Data\QuestData.json">
-            <Link>Data\QuestData.json</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>QuestJournal\QuestData.json</TargetPath>
-            <Visible>true</Visible>
-        </Content>
-
-        <!-- Include MSQ subdirectory and all its files in data directory -->
-        <Content Include="..\Data\MSQ\*">
-            <Link>Data\MSQ\%(FileName)%(Extension)</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>QuestJournal\MSQ\%(FileName)%(Extension)</TargetPath>
-            <Visible>true</Visible>
-        </Content>
-
-        <!-- Include Job subdirectory and all its files in data directory -->
-        <Content Include="..\Data\JOB\*">
-            <Link>Data\JOB\%(FileName)%(Extension)</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>QuestJournal\JOB\%(FileName)%(Extension)</TargetPath>
-            <Visible>true</Visible>
-        </Content>
-
-        <!-- Include Feature subdirectory and all its files recursively -->
-        <Content Include="..\Data\FEATURE\**\*">
-            <Link>Data\FEATURE\%(RecursiveDir)%(FileName)%(Extension)</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>QuestJournal\FEATURE\%(RecursiveDir)%(FileName)%(Extension)</TargetPath>
-            <Visible>true</Visible>
-        </Content>
-
-        <Content Include="QuestJournal.json"/>
+        <EmbeddedResource Include="..\Data\QuestData.json" Link="Data\QuestData.json" />
+        <EmbeddedResource Include="..\Data\MSQ\*" Link="Data\MSQ\%(FileName)%(Extension)" />
+        <EmbeddedResource Include="..\Data\JOB\*" Link="Data\JOB\%(FileName)%(Extension)" />
+        <EmbeddedResource Include="..\Data\FEATURE\**\*" Link="Data\FEATURE\%(RecursiveDir)%(FileName)%(Extension)" />
     </ItemGroup>
 </Project>
