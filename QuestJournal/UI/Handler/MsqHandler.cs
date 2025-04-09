@@ -14,12 +14,10 @@ public class MsqHandler : IDisposable
 {
     private readonly Configuration configuration;
     private readonly IPluginLog log;
-    private readonly IDalamudPluginInterface pluginInterface;
 
-    public MsqHandler(IPluginLog log, IDalamudPluginInterface pluginInterface, Configuration configuration)
+    public MsqHandler(IPluginLog log, Configuration configuration)
     {
         this.log = log ?? throw new ArgumentNullException(nameof(log));
-        this.pluginInterface = pluginInterface ?? throw new ArgumentNullException(nameof(pluginInterface));
         this.configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
     }
 

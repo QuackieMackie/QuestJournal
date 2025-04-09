@@ -38,13 +38,13 @@ public class RendererUtils
         eventIconSheet = new Lazy<ExcelSheet<EventIconType>>(() => QuestJournal.DataManager.GetExcelSheet<EventIconType>());
     }
 
-    private ExcelSheet<Item>? ItemSheet => itemSheet.Value;
-    private ExcelSheet<Emote>? EmoteSheet => emoteSheet.Value;
-    private ExcelSheet<Action>? ActionSheet => actionSheet.Value;
-    private ExcelSheet<GeneralAction>? GeneralActionSheet => generalActionSheet.Value;
-    private ExcelSheet<QuestRewardOther>? OtherRewardSheet => otherRewardSheet.Value;
-    private ExcelSheet<ContentType>? ContentTypeSheet => contentTypeSheet.Value;
-    private ExcelSheet<EventIconType>? EventIconSheet => eventIconSheet.Value;
+    private ExcelSheet<Item> ItemSheet => itemSheet.Value;
+    private ExcelSheet<Emote> EmoteSheet => emoteSheet.Value;
+    private ExcelSheet<Action> ActionSheet => actionSheet.Value;
+    private ExcelSheet<GeneralAction> GeneralActionSheet => generalActionSheet.Value;
+    private ExcelSheet<QuestRewardOther> OtherRewardSheet => otherRewardSheet.Value;
+    private ExcelSheet<ContentType> ContentTypeSheet => contentTypeSheet.Value;
+    private ExcelSheet<EventIconType> EventIconSheet => eventIconSheet.Value;
 
     public void DrawDropDown(
         string label, List<string> items, ref string selectedItem, Action<string>? onSelectionChanged = null)
@@ -604,14 +604,9 @@ public class RendererUtils
     {
         try
         {
-            var item = ItemSheet?.GetRow(itemId);
-            if (item == null)
-            {
-                ImGui.Text("[Invalid Item]");
-                return;
-            }
+            var item = ItemSheet.GetRow(itemId);
 
-            var iconId = item.Value.Icon;
+            var iconId = item.Icon;
             var lookup = new GameIconLookup(iconId);
             var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
 
@@ -701,14 +696,9 @@ public class RendererUtils
     {
         try
         {
-            var eventIconRow = EventIconSheet?.GetRow(quest.EventIcon);
-            if (eventIconRow == null)
-            {
-                ImGui.Text("[Invalid Icon]");
-                return;
-            }
+            var eventIconRow = EventIconSheet.GetRow(quest.EventIcon);
 
-            var baseIconId = eventIconRow.Value.MapIconAvailable;
+            var baseIconId = eventIconRow.MapIconAvailable;
 
             var iconOffset = 1u; // Default offset
 

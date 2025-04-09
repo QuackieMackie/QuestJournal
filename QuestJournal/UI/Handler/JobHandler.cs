@@ -13,12 +13,10 @@ namespace QuestJournal.UI.Handler;
 public class JobHandler : IDisposable
 {
     private readonly IPluginLog log;
-    private readonly IDalamudPluginInterface pluginInterface;
 
-    public JobHandler(IPluginLog log, IDalamudPluginInterface pluginInterface)
+    public JobHandler(IPluginLog log)
     {
         this.log = log ?? throw new ArgumentNullException(nameof(log));
-        this.pluginInterface = pluginInterface ?? throw new ArgumentNullException(nameof(pluginInterface));
     }
 
     public void Dispose() { }

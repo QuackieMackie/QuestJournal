@@ -19,7 +19,7 @@ public sealed class QuestJournal : IDalamudPlugin
         QuestDataFetcher = new QuestDataFetcher(DataManager, Log);
         CommandHandler = new CommandHandler(this, CommandManager, QuestDataFetcher, Log, PluginInterface, Configuration);
 
-        MainWindow = new MainWindow(Log, Configuration, PluginInterface);
+        MainWindow = new MainWindow(Log, Configuration);
         WindowSystem.AddWindow(MainWindow);
 
         PluginInterface.UiBuilder.Draw += DrawUi;

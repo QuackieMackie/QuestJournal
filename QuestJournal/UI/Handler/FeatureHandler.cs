@@ -16,12 +16,10 @@ public class FeatureHandler : IDisposable
 {
     private readonly Configuration configuration;
     private readonly IPluginLog log;
-    private readonly IDalamudPluginInterface pluginInterface;
 
-    public FeatureHandler(IPluginLog log, IDalamudPluginInterface pluginInterface, Configuration configuration)
+    public FeatureHandler(IPluginLog log, Configuration configuration)
     {
         this.log = log ?? throw new ArgumentNullException(nameof(log));
-        this.pluginInterface = pluginInterface ?? throw new ArgumentNullException(nameof(pluginInterface));
         this.configuration = configuration;
     }
 

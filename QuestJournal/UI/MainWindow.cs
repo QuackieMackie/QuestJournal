@@ -24,7 +24,7 @@ public class MainWindow : Window, IDisposable
     private readonly RendererUtils rendererUtils;
     private readonly SettingsRenderer settingsRenderer;
 
-    public MainWindow(IPluginLog log, Configuration configuration, IDalamudPluginInterface pluginInterface)
+    public MainWindow(IPluginLog log, Configuration configuration)
         : base("QuestJournal###QuestJournal-QuackieMackie",
                ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
@@ -35,9 +35,9 @@ public class MainWindow : Window, IDisposable
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
 
-        msqHandler = new MsqHandler(log, pluginInterface, configuration);
-        jobHandler = new JobHandler(log, pluginInterface);
-        featureHandler = new FeatureHandler(log, pluginInterface, configuration);
+        msqHandler = new MsqHandler(log, configuration);
+        jobHandler = new JobHandler(log);
+        featureHandler = new FeatureHandler(log, configuration);
 
         rendererUtils = new RendererUtils(log);
 
@@ -85,16 +85,6 @@ public class MainWindow : Window, IDisposable
                 featureRenderer.DrawFeatures();
                 ImGui.EndTabItem();
             }
-
-            // if (ImGui.BeginTabItem("Leve"))
-            // {
-            //     ImGui.EndTabItem();
-            // }
-            //
-            // if (ImGui.BeginTabItem("Information"))
-            // {
-            //     ImGui.EndTabItem();
-            // }
 
             if (ImGui.BeginTabItem("Settings"))
             {
