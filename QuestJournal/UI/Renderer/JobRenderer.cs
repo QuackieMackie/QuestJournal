@@ -10,17 +10,17 @@ namespace QuestJournal.UI.Renderer;
 
 public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPluginLog log)
 {
-    private bool isInitialized = false;
-    
-    private string selectedDropDownCategory = string.Empty;
-    private List<string> dropDownCategories = new List<string>();
+    private List<string> dropDownCategories = new();
     private Dictionary<string, string> dropDownCategoryMap = new();
+    private bool isInitialized;
 
     private int questCount;
-    private List<QuestModel> questList = new List<QuestModel>();
-    private QuestModel? selectedQuest = null;
+    private List<QuestModel> questList = new();
 
     private string searchQuery = string.Empty;
+
+    private string selectedDropDownCategory = string.Empty;
+    private QuestModel? selectedQuest;
 
     public void DrawJobs()
     {
@@ -29,7 +29,9 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
             InitializeDropDown();
             isInitialized = true;
         }
-        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
+
+        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory,
+                                   UpdateQuestList);
         rendererUtils.DrawSearchBar(ref searchQuery);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
         rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList);
@@ -48,17 +50,13 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
         {
             dropDownCategoryMap = jobHandler.GetJobFileNames();
             dropDownCategories = dropDownCategoryMap.Keys.ToList();
-            
+
             selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? "Error";
 
             if (selectedDropDownCategory != "Error")
-            {
                 UpdateQuestList(selectedDropDownCategory);
-            }
             else
-            {
                 log.Warning("No items found in job file names list.");
-            }
         }
     }
 

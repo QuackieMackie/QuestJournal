@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Frozen;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using Dalamud.Plugin.Services;
 using Lumina.Excel;
@@ -13,12 +11,11 @@ namespace QuestJournal;
 
 public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 {
-    private readonly Lazy<ExcelSheet<Quest>?> questSheet = new(() => dataManager.GetExcelSheet<Quest>());
-    
     private readonly QuestFetcherUtils questFetcherUtils = new(dataManager, log);
+    private readonly Lazy<ExcelSheet<Quest>?> questSheet = new(() => dataManager.GetExcelSheet<Quest>());
 
     private ExcelSheet<Quest>? QuestSheet => questSheet.Value;
-    
+
     public List<QuestModel> GetAllQuests()
     {
         var questInfoLookup = new Dictionary<uint, QuestModel>();
@@ -26,33 +23,25 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
         if (QuestSheet != null)
         {
             foreach (var quest in QuestSheet)
-            {
                 if (!questInfoLookup.ContainsKey(quest.RowId))
                 {
                     var questInfo = questFetcherUtils.BuildQuestInfo(quest);
-                    if (questInfo != null)
-                    {
-                        questInfoLookup[quest.RowId] = questInfo;
-                    }
+                    if (questInfo != null) questInfoLookup[quest.RowId] = questInfo;
                 }
-            }
 
             foreach (var quest in QuestSheet)
-            {
                 if (questInfoLookup.TryGetValue(quest.RowId, out _) && quest.PreviousQuest.Count > 0)
                 {
                     var prevQuestIds = questFetcherUtils.GetPrerequisiteQuestIds(quest.PreviousQuest);
 
                     foreach (var prevQuestId in prevQuestIds)
-                    {
                         if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
                         {
                             prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
                             prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
                         }
-                    }
                 }
-            }
+
             var injector = new QuestDataInjector();
             injector.InjectMissingData(questInfoLookup.Values);
         }
@@ -83,23 +72,18 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 
         var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
 
-        foreach (var category in msqCategories)
-        {
-            categorizedQuests[category] = new List<QuestModel>();
-        }
+        foreach (var category in msqCategories) categorizedQuests[category] = new List<QuestModel>();
 
         foreach (var quest in allQuests)
         {
             var categoryName = quest.JournalGenre?.JournalCategory?.Name;
             if (categoryName != null && msqCategories.Contains(categoryName))
-            {
                 categorizedQuests[categoryName].Add(quest);
-            }
         }
 
         return categorizedQuests;
     }
-    
+
     public Dictionary<string, List<QuestModel>> GetJobQuestsByCategory()
     {
         var allQuests = GetAllQuests();
@@ -111,7 +95,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             86, // "Disciple of the Hand Quests"
             87, // "Disciple of the Land Quests"
             91, // "Disciple of the War Job Quests"
-            92, // "Disciple of the Magic Job Quests"
+            92  // "Disciple of the Magic Job Quests"
         };
 
         var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
@@ -120,15 +104,13 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
         {
             var category = quest.JournalGenre?.JournalCategory;
 
-            if (category != null && jobCategoryIds.Contains((int) category.Id))
+            if (category != null && jobCategoryIds.Contains((int)category.Id))
             {
                 var journalGenreName = quest.JournalGenre?.Name;
                 if (!string.IsNullOrEmpty(journalGenreName))
                 {
                     if (!categorizedQuests.ContainsKey(journalGenreName))
-                    {
                         categorizedQuests[journalGenreName] = new List<QuestModel>();
-                    }
 
                     categorizedQuests[journalGenreName].Add(quest);
                 }
@@ -142,7 +124,8 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     {
         var allQuests = GetAllQuests();
 
-        var categorizedQuests = new Dictionary<string, Dictionary<string, List<QuestModel>>>(StringComparer.OrdinalIgnoreCase);
+        var categorizedQuests =
+            new Dictionary<string, Dictionary<string, List<QuestModel>>>(StringComparer.OrdinalIgnoreCase);
 
         List<int> glamourQuestIds =
         [
@@ -157,13 +140,13 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             67896, // "An Egi by Any Other Name"
             70723  // "Bottled Fantasy"
         ];
-        
+
         List<int> materiaQuestIds =
         [
             66174, // "Forging the Spirit"
             66175, // "Waking the Spirit"
             66999, // "Marvelously Mutable Materia"
-            66176, // "Melding Materia Muchly"
+            66176  // "Melding Materia Muchly"
         ];
 
         List<int> locationsQuestIds =
@@ -203,29 +186,15 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             70775  // "Laying New Tracks"
         ];
 
-        List<int> guildHestQuestIds = 
+        List<int> guildHestQuestIds =
         [
-            65596,     // "Simply the Hest (Gridania)"
+            65596, // "Simply the Hest (Gridania)"
             65595, // "Simply the Hest (Limsa Lominsa)"
             65594  // "Simply the Hest (Ul'dah)"
         ];
 
-        //TODO: This needs some kind of switch depending on what config is set for the GrandCompany
-        List<int> pvpQuestIds = 
-        [
-            66642, // "A Pup No Longer (Immortal Flames)"
-            66640, // "A Pup No Longer (Maelstrom)"
-            66641, // "A Pup No Longer (Twin Adder)"
-            67065, // "Like Civilized Men and Women (Immortal Flames)"
-            67064, // "Like Civilized Men and Women (Maelstrom)"
-            67063, // "Like Civilized Men and Women (Twin Adder)"
-            67929, // "It's Time to Duel"
-            68543, // "Earning Your Wings"
-            70121, // "The Crystal (Line's) Call"
-        ];
-        
         // Duties
-        List<int> dungeonQuestIds = 
+        List<int> dungeonQuestIds =
         [
             66233, // "Hallo Halatali"
             66300, // "Braving New Depths"
@@ -268,24 +237,24 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             69703, // "Cutting the Cheese"
             69704, // "Where No Loporrit Has Gone Before"
             70549, // "It Belongs in a Museum"
-            70550, // "Something Stray in the Neighborhood"
+            70550  // "Something Stray in the Neighborhood"
         ];
 
-        List<int> trailsQuestIds = 
+        List<int> trailsQuestIds =
         [
             67090, // "The New King on the Block"
-            67091, // "The Newer King on the Block"
+            67091  // "The Newer King on the Block"
         ];
-        
-        List<int> stoneSkySeaQuestIds = 
+
+        List<int> stoneSkySeaQuestIds =
         [
             67654, // "A Striking Opportunity"
             68476, // "Another Striking Opportunity"
             69137, // "Yet Another Striking Opportunity"
             69709, // "A Place to Train"
-            70541, // "Trial by Spire"
+            70541  // "Trial by Spire"
         ];
-        
+
         // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic, Manual Name
         // Grouping Logic:
         // 0: Use JournalGenre.Name
@@ -317,22 +286,18 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (49, "Tribe Quests", 1, null), // Omnicron Quests
             (50, "Tribe Quests", 1, null), // Loporrit Quests
             (51, "Tribe Quests", 1, null), // Intersocietal Quests
-            
-            (glamourQuestIds, "Glamour and Customization", 2, null),
-            (materiaQuestIds, "Materia", 2, null),
-    
-            (locationsQuestIds, "Locations", 2, null),
+
+            (glamourQuestIds, "Other", 3, "Glamour and Customization"),
+            (materiaQuestIds, "Other", 3, "Materia"),
+            (guildHestQuestIds, "Other", 3, "Guild Hests"),
+            (locationsQuestIds, "Other", 3, "Residential Areas"),
 
             (collectableQuestIds, "Collectables", 3, "Collectables"),
             (customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries"),
-            
-            (guildHestQuestIds, "Guest Hests", 2, "Guild Hests"),
-            
-            (pvpQuestIds, "PvP", 2, "PvP"),
-            
+
             (dungeonQuestIds, "Duties", 3, "Dungeons"),
             (trailsQuestIds, "Duties", 3, "Trails"),
-            (stoneSkySeaQuestIds, "Duties", 3, "Stone Sky Sea"),
+            (stoneSkySeaQuestIds, "Duties", 3, "Stone Sky Sea")
         };
 
         foreach (var quest in allQuests)
@@ -341,36 +306,29 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 
             foreach (var (identifier, folderName, groupBy, jsonName) in categoryFolders)
             {
-                bool matches = false;
+                var matches = false;
 
                 if (identifier is int categoryId)
-                {
                     matches = category != null && category.Id == categoryId;
-                }
-                else if (identifier is List<int> questIds)
-                {
-                    matches = questIds.Contains((int)quest.QuestId);
-                }
+                else if (identifier is List<int> questIds) matches = questIds.Contains((int)quest.QuestId);
 
                 if (matches)
                 {
-                    string subFolderName = groupBy switch
+                    var subFolderName = groupBy switch
                     {
                         0 => quest.JournalGenre?.Name ?? "Unknown Genre", // Group by JournalGenre.Name
-                        1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category", // Group by JournalCategory.Name
+                        1 => quest.JournalGenre?.JournalCategory?.Name ??
+                             "Unknown Category",     // Group by JournalCategory.Name
                         3 => jsonName ?? folderName, // Use JSON Name
-                        _ => folderName // Use FolderName directly
+                        _ => folderName              // Use FolderName directly
                     };
 
                     if (!categorizedQuests.ContainsKey(folderName))
-                    {
-                        categorizedQuests[folderName] = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
-                    }
+                        categorizedQuests[folderName] =
+                            new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
 
                     if (!categorizedQuests[folderName].ContainsKey(subFolderName))
-                    {
                         categorizedQuests[folderName][subFolderName] = new List<QuestModel>();
-                    }
 
                     categorizedQuests[folderName][subFolderName].Add(quest);
                     break;

@@ -19,15 +19,17 @@ public class JobHandler : IDisposable
         this.log = log ?? throw new ArgumentNullException(nameof(log));
         this.pluginInterface = pluginInterface ?? throw new ArgumentNullException(nameof(pluginInterface));
     }
-    
+
+    public void Dispose() { }
+
     public List<QuestModel>? FetchQuestData(string fileName)
     {
         try
         {
             var jobDirectoryPath = GetJobDirectory();
-            
+
             if (jobDirectoryPath == null) return null;
-            
+
             var filePath = Path.Combine(jobDirectoryPath, fileName + ".json");
 
             if (!File.Exists(filePath))
@@ -46,7 +48,7 @@ public class JobHandler : IDisposable
             }
 
             var orderedQuests = quests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
-            
+
             log.Info($"Filtered and organized a total of {orderedQuests.Count} quests for file: \"{filePath}\".");
             return orderedQuests;
         }
@@ -56,7 +58,7 @@ public class JobHandler : IDisposable
             return null;
         }
     }
-    
+
     public Dictionary<string, string> GetJobFileNames()
     {
         var jobDirectoryPath = GetJobDirectory();
@@ -71,11 +73,11 @@ public class JobHandler : IDisposable
 
         return Directory.GetFiles(jobDirectoryPath, "*.json", SearchOption.TopDirectoryOnly)
                         .ToDictionary(
-                            file => 
+                            file =>
                             {
                                 var fileName = Path.GetFileNameWithoutExtension(file);
-                                return fileName.StartsWith("JOB-") 
-                                           ? fileName.Substring(4).Replace("_", " ") 
+                                return fileName.StartsWith("JOB-")
+                                           ? fileName.Substring(4).Replace("_", " ")
                                            : fileName.Replace("_", " ");
                             },
                             file => Path.GetFileNameWithoutExtension(file)
@@ -86,9 +88,7 @@ public class JobHandler : IDisposable
     {
         var outputDirectory = pluginInterface.AssemblyLocation.Directory?.FullName ?? string.Empty;
         var jobDirectoryPath = Path.Combine(outputDirectory, "QuestJournal", "JOB");
-        
+
         return Directory.Exists(jobDirectoryPath) ? jobDirectoryPath : null;
-    } 
-    
-    public void Dispose() { }
+    }
 }

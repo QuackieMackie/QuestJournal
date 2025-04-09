@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using Dalamud.Game.Command;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
@@ -22,13 +23,13 @@ public class CommandHandler : IDisposable
     private const string MsqDataFileName = "MsqData.json";
     private const string JobDataFileName = "JobData.json";
     private const string FeatureDataFileName = "FeatureData.json";
-
-    private readonly QuestJournal questJournal;
     private readonly ICommandManager commandManager;
     private readonly Configuration configuration;
     private readonly IPluginLog log;
     private readonly IDalamudPluginInterface pluginInterface;
     private readonly QuestDataFetcher questDataFetcher;
+
+    private readonly QuestJournal questJournal;
 
     public CommandHandler(
         QuestJournal questJournal, ICommandManager commandManager, QuestDataFetcher questDataFetcher,
@@ -95,10 +96,7 @@ public class CommandHandler : IDisposable
 
     private void OnOpenCommand(string command, string args)
     {
-        if (command == "/qj" || command == "/questjournal")
-        {
-            OpenJournal();
-        }
+        if (command == "/qj" || command == "/questjournal") OpenJournal();
     }
 
     private void OnFetchCommand(string command, string args)
@@ -217,9 +215,9 @@ public class CommandHandler : IDisposable
             var serializerOptions = new JsonSerializerOptions
             {
                 WriteIndented = true,
-                DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
             };
-            
+
             var jsonString = JsonSerializer.Serialize(questData, serializerOptions);
             File.WriteAllText(filePath, jsonString);
 
@@ -248,9 +246,6 @@ public class CommandHandler : IDisposable
 
     private void DoesDirectoryExists(string path)
     {
-        if (!Directory.Exists(path))
-        {
-            Directory.CreateDirectory(path);
-        }
+        if (!Directory.Exists(path)) Directory.CreateDirectory(path);
     }
 }

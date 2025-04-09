@@ -5,19 +5,56 @@ using System.Linq;
 using System.Text.Json;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using QuestJournal.Models;
 
 namespace QuestJournal.UI.Handler;
 
 public class FeatureHandler : IDisposable
 {
+    private readonly Configuration configuration;
     private readonly IPluginLog log;
     private readonly IDalamudPluginInterface pluginInterface;
 
-    public FeatureHandler(IPluginLog log, IDalamudPluginInterface pluginInterface)
+    public FeatureHandler(IPluginLog log, IDalamudPluginInterface pluginInterface, Configuration configuration)
     {
         this.log = log ?? throw new ArgumentNullException(nameof(log));
         this.pluginInterface = pluginInterface ?? throw new ArgumentNullException(nameof(pluginInterface));
+        this.configuration = configuration;
+    }
+
+    public void Dispose() { }
+
+    public Dictionary<string, Dictionary<string, uint>> StartAreaQuestMapping()
+    {
+        return new Dictionary<string, (uint Gridania, uint Limsa, uint Uldah)>
+            {
+                //Guild Hests
+                { "Simply the Hest", (65596, 65595, 65594) }
+            }
+            .ToDictionary(
+                pair => pair.Key,
+                pair => new Dictionary<string, uint>
+                {
+                    { "Gridania", pair.Value.Gridania },
+                    { "Limsa Lominsa", pair.Value.Limsa },
+                    { "Ul'dah", pair.Value.Uldah }
+                });
+    }
+    
+    public Dictionary<string, List<(uint, uint)>> SwappableQuestMapping()
+    {
+        return new Dictionary<string, List<(uint, uint)>>
+        {
+            { "MasterRecipes-GlamoursSet", new List<(uint, uint)>
+                {
+                    // If I had a Glamour || A Self-Improving Man
+                    (68553, 66957),
+                    // Absolutely Glamourous || A Submission Impossible
+                    (68554, 66958)
+                }
+            }
+        };
     }
 
     public List<string> GetFeatureSubDirs()
@@ -67,6 +104,7 @@ public class FeatureHandler : IDisposable
 
     public List<QuestModel>? FetchQuestDataFromSubDir(string subDir, string fileName)
     {
+        var questStartAreaMapping = StartAreaQuestMapping();
         var featureDirectoryPath = GetFeatureDirectory();
 
         if (string.IsNullOrEmpty(featureDirectoryPath))
@@ -94,6 +132,7 @@ public class FeatureHandler : IDisposable
         try
         {
             var fileContent = File.ReadAllText(filePath);
+            var playerStartArea = configuration.StartArea;
             var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
 
             if (quests == null)
@@ -102,7 +141,49 @@ public class FeatureHandler : IDisposable
                 return null;
             }
 
-            return quests.OrderBy(q => q.SortKey).ToList();
+            var filteredQuests = new List<QuestModel>();
+
+            // Start Area Filtering
+            if (!string.IsNullOrWhiteSpace(playerStartArea))
+            {
+                filteredQuests = quests
+                                 .Where(q => q != null)
+                                 .GroupBy(q => q.QuestTitle)
+                                 .Select(group =>
+                                 {
+                                     if (group.Key != null &&
+                                         questStartAreaMapping.TryGetValue(group.Key, out var areaMapping) &&
+                                         areaMapping.TryGetValue(playerStartArea, out var mappedQuestId))
+                                         return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
+                                     return group.FirstOrDefault();
+                                 })
+                                 .Where(q => q != null)
+                                 .Select(q => q!)
+                                 .ToList();
+            }
+            
+            // Swappable Quest Filtering
+            var swappableGroups = SwappableQuestMapping();
+
+            foreach (var group in swappableGroups.Values)
+            {
+                foreach (var (a, b) in group)
+                {
+                    var aCompleted = QuestManager.IsQuestComplete(a);
+                    var bCompleted = QuestManager.IsQuestComplete(b);
+
+                    if (aCompleted && !bCompleted)
+                    {
+                        filteredQuests.RemoveAll(q => q.QuestId == b);
+                    }
+                    else if (bCompleted && !aCompleted)
+                    {
+                        filteredQuests.RemoveAll(q => q.QuestId == a);
+                    }
+                }
+            }
+
+            return filteredQuests.OrderBy(q => q.SortKey).ToList();
         }
         catch (Exception ex)
         {
@@ -125,6 +206,4 @@ public class FeatureHandler : IDisposable
 
         return Directory.Exists(featureDirectoryPath) ? featureDirectoryPath : null;
     }
-
-    public void Dispose() { }
 }

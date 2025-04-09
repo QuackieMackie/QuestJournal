@@ -52,18 +52,20 @@ public class SettingsRenderer(Configuration configuration, MsqRenderer msqRender
 
             ImGui.EndCombo();
         }
-        
+
         ImGui.Spacing();
         ImGui.Spacing();
         ImGui.Spacing();
         ImGui.Spacing();
         ImGui.Spacing();
-        
+
         ImGui.Text("Developer Settings");
         ImGui.Separator();
         var devMode = configuration.DeveloperMode;
         ImGui.Text("Developer Mode");
-        if (ImGui.Checkbox("This enables you to fetch quest data from the Lumina sheets don't use\nunless you know what you're doing.", ref devMode))
+        if (ImGui.Checkbox(
+                "This enables you to fetch quest data from the Lumina sheets don't use\nunless you know what you're doing.",
+                ref devMode))
         {
             configuration.DeveloperMode = devMode;
             configuration.Save();

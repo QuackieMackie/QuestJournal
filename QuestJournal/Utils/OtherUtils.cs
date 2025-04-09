@@ -5,7 +5,7 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils;
 
-public class QuestHandler
+public class OtherUtils
 {
     public static void OpenStarterLocation(QuestModel quest, IPluginLog log)
     {
@@ -39,6 +39,21 @@ public class QuestHandler
         catch (Exception ex)
         {
             log.Error($"Failed to open map for starter NPC: {quest.StarterNpc}. Exception: {ex.Message}");
+        }
+    }
+
+    public static void OpenMapAtLocation(QuestModel quest, IPluginLog log)
+    {
+        try
+        {
+            if (quest.Rewards?.LocationReward != null)
+                QuestJournal.GameGui.OpenMapWithMapLink(
+                    new MapLinkPayload(quest.Rewards.LocationReward.TerritoryId, quest.Rewards.LocationReward.MapId, 0,
+                                       0));
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to open map {quest.Rewards?.LocationReward}. Exception: {ex.Message}");
         }
     }
 }

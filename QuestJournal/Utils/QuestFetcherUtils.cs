@@ -6,28 +6,30 @@ using Lumina.Excel;
 using Lumina.Excel.Sheets;
 using Lumina.Text.ReadOnly;
 using QuestJournal.Models;
+using Action = Lumina.Excel.Sheets.Action;
 using Level = QuestJournal.Models.Level;
 
 namespace QuestJournal.Utils;
 
 public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 {
-    private readonly ExcelSheet<ExVersion>? exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
-    private readonly ExcelSheet<JournalGenre>? journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
-    private readonly ExcelSheet<Item>? itemSheet = dataManager.GetExcelSheet<Item>();
-    private readonly ExcelSheet<Stain>? stainSheet = dataManager.GetExcelSheet<Stain>();
-    private readonly ExcelSheet<Emote>? emoteSheet = dataManager.GetExcelSheet<Emote>();
-    private readonly ExcelSheet<Lumina.Excel.Sheets.Action>? actionSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
-    private readonly ExcelSheet<GeneralAction>? generalActionSheet = dataManager.GetExcelSheet<GeneralAction>();
-    private readonly ExcelSheet<QuestRewardOther>? questRewardOtherSheet = dataManager.GetExcelSheet<QuestRewardOther>();
-    private readonly ExcelSheet<ParamGrow>? paramGrowSheet = dataManager.GetExcelSheet<ParamGrow>();
+    private readonly ExcelSheet<Action>? actionSheet = dataManager.GetExcelSheet<Action>();
     private readonly ExcelSheet<ContentFinderCondition>? contentFinderConditionSheet = dataManager.GetExcelSheet<ContentFinderCondition>();
     private readonly ExcelSheet<ContentType>? contentTypeSheet = dataManager.GetExcelSheet<ContentType>();
+    private readonly ExcelSheet<Emote>? emoteSheet = dataManager.GetExcelSheet<Emote>();
+    private readonly ExcelSheet<ExVersion>? exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
+    private readonly ExcelSheet<GeneralAction>? generalActionSheet = dataManager.GetExcelSheet<GeneralAction>();
+    private readonly ExcelSheet<Item>? itemSheet = dataManager.GetExcelSheet<Item>();
+    private readonly ExcelSheet<JournalGenre>? journalGenreSheet = dataManager.GetExcelSheet<JournalGenre>();
+    private readonly ExcelSheet<Lumina.Excel.Sheets.Level>? levelSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Level>();
+    private readonly ExcelSheet<ParamGrow>? paramGrowSheet = dataManager.GetExcelSheet<ParamGrow>();
+    private readonly ExcelSheet<QuestRewardOther>? questRewardOtherSheet = dataManager.GetExcelSheet<QuestRewardOther>();
+    private readonly ExcelSheet<Stain>? stainSheet = dataManager.GetExcelSheet<Stain>();
 
     public QuestModel? BuildQuestInfo(Quest questData)
     {
         if (questData.RowId == 65536) return null;
-        
+
         try
         {
             var questDetails = new QuestModel
@@ -38,33 +40,33 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 PreviousQuestTitles = GetPrerequisiteQuestTitles(questData.PreviousQuest),
                 NextQuestIds = new List<uint>(),
                 NextQuestTitles = new List<string>(),
-                
+
                 // Location
                 StarterNpc = ResolveNpcName(questData.IssuerStart),
                 StarterNpcLocation = ResolveNpcLocation(questData),
                 FinishNpc = ResolveNpcName(questData.TargetEnd),
-                
+
                 // Organisation
                 Expansion = GetExpansionName(questData.Expansion, questData.Id),
                 JournalGenre = GetJournalGenreDetails(questData.JournalGenre, questData.Id),
                 SortKey = questData.SortKey,
-                
+
                 // Other
                 IsRepeatable = questData.IsRepeatable,
-                
+
                 // Icons
-                EventIcon = GetEventIcon(questData), 
+                EventIcon = GetEventIcon(questData),
                 Icon = questData.Icon,
-                
+
                 // Requirements
                 JobLevel = questData.ClassJobLevel.FirstOrDefault(),
                 ClassJobCategory = questData.ClassJobCategory0.Value.Name.ExtractText(),
-                BeastTribeRequirements = new BeastTribeRequirements()
-                { 
+                BeastTribeRequirements = new BeastTribeRequirements
+                {
                     BeastTribeName = questData.BeastTribe.Value.Name.ExtractText(),
-                    BeastTribeRank = questData.BeastReputationRank.Value.Name.ExtractText(),
+                    BeastTribeRank = questData.BeastReputationRank.Value.Name.ExtractText()
                 },
-                
+
                 // Rewards
                 Rewards = GetRewards(questData)
             };
@@ -73,7 +75,8 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         }
         catch (Exception ex)
         {
-            log.Error($"Failed to build QuestInfo for QuestId {questData.RowId}: {ex.Message}\nStack Trace: {ex.StackTrace}");
+            log.Error(
+                $"Failed to build QuestInfo for QuestId {questData.RowId}: {ex.Message}\nStack Trace: {ex.StackTrace}");
             return null;
         }
     }
@@ -85,8 +88,8 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         {
             var paramGrow = paramGrowSheet.GetRow(level);
             var exp = paramGrow.ScaledQuestXP * paramGrow.QuestExpModifier * quest.ExpFactor / 100;
-        
-            return new Reward()
+
+            return new Reward
             {
                 Exp = exp,
                 Gil = quest.GilReward,
@@ -106,16 +109,16 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         return null;
     }
 
-    private ReputationReward? GetReputationReward(Quest quest)
+    private ReputationReward GetReputationReward(Quest quest)
     {
-        return new ReputationReward()
+        return new ReputationReward
         {
             ReputationId = quest.BeastTribe.Value.RowId,
             ReputationName = quest.BeastTribe.Value.Name.ExtractText(),
-            Count = quest.ReputationReward,
+            Count = quest.ReputationReward
         };
     }
-    
+
     public List<ItemsReward> GetItemReward(Quest quest)
     {
         var itemRewards = quest.Reward;
@@ -138,10 +141,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             if (i < quest.RewardStain.Count && quest.RewardStain[i].RowId != 0)
             {
                 var stain = stainSheet?.GetRow(quest.RewardStain[i].RowId);
-                if (stain != null)
-                {
-                    stainName = stain.Value.Name.ExtractText();
-                }
+                if (stain != null) stainName = stain.Value.Name.ExtractText();
             }
 
             if (item != null)
@@ -158,7 +158,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 
         return rewards;
     }
-    
+
     private uint GetEventIcon(Quest quest)
     {
         try
@@ -169,10 +169,14 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 return resolvedEventIcon.RowId;
             }
         }
-        catch { /* ignored */ }
+        catch
+        {
+            /* ignored */
+        }
+
         return 0;
     }
-    
+
     public List<OptionalItemsReward> GetOptionalItemReward(Quest quest)
     {
         var optionalItemRewards = quest.OptionalItemReward;
@@ -191,23 +195,17 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 
             var item = itemSheet?.GetRow(itemRef.RowId);
             string? stainName = null;
-            bool isHq = false;
+            var isHq = false;
 
             // Stain information
             if (i < quest.OptionalItemStainReward.Count && quest.OptionalItemStainReward[i].RowId != 0)
             {
                 var stain = stainSheet?.GetRow(quest.OptionalItemStainReward[i].RowId);
-                if (stain != null)
-                {
-                    stainName = stain.Value.Name.ExtractText();
-                }
+                if (stain != null) stainName = stain.Value.Name.ExtractText();
             }
 
             // Is HQ
-            if (i < quest.OptionalItemIsHQReward.Count)
-            {
-                isHq = quest.OptionalItemIsHQReward[i];
-            }
+            if (i < quest.OptionalItemIsHQReward.Count) isHq = quest.OptionalItemIsHQReward[i];
 
             if (item != null)
             {
@@ -224,7 +222,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 
         return rewards;
     }
-    
+
     private CurrencyReward? GetCurrencyReward(Quest quest)
     {
         if (quest.CurrencyReward.RowId == 0)
@@ -241,12 +239,12 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             Count = quest.CurrencyRewardCount
         };
     }
-    
+
     private List<CatalystReward> GetCatalysts(Quest quest)
     {
         var catalysts = new List<CatalystReward>();
 
-        for (int i = 0; i < quest.ItemCatalyst.Count; i++)
+        for (var i = 0; i < quest.ItemCatalyst.Count; i++)
         {
             var itemRef = quest.ItemCatalyst[i];
             if (itemRef.RowId == 0)
@@ -265,7 +263,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             {
                 ItemId = matchedItemId,
                 ItemName = currentItemName,
-                Count = itemCount,
+                Count = itemCount
             });
         }
 
@@ -285,7 +283,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             EmoteName = emote.Value.Name.ExtractText()
         };
     }
-    
+
     private ActionReward? GetActionReward(Quest quest)
     {
         if (quest.ActionReward.RowId == 0) return null;
@@ -296,10 +294,10 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         return new ActionReward
         {
             Id = quest.ActionReward.RowId,
-            ActionName = action.Value.Name.ExtractText(),
+            ActionName = action.Value.Name.ExtractText()
         };
     }
-    
+
     private List<GeneralActionReward> GetGeneralActionRewards(Quest quest)
     {
         var generalActionRewards = quest.GeneralActionReward;
@@ -327,7 +325,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 
         return rewards;
     }
-    
+
     private OtherReward? GetOtherReward(Quest quest)
     {
         var otherRewardRef = quest.OtherReward;
@@ -347,7 +345,7 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 
         return null;
     }
-    
+
     private List<InstanceContentUnlockReward>? GetQuestInstanceContentUnlockReward(Quest quest)
     {
         try
@@ -355,12 +353,12 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             var instanceRef = quest.InstanceContentUnlock;
             if (instanceRef.RowId == 0)
                 return null;
-            
+
             var instanceContent = instanceRef.Value;
-            
+
             return new List<InstanceContentUnlockReward>
             {
-                new InstanceContentUnlockReward
+                new()
                 {
                     InstanceId = instanceContent.RowId,
                     InstanceName = instanceContent.ContentFinderCondition.Value.Name.ExtractText(),
@@ -370,7 +368,8 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
         }
         catch (Exception ex)
         {
-            log.Error($"Failed to fetch InstanceContentUnlockReward for Quest: {ex.Message}\nStackTrace: {ex.StackTrace}");
+            log.Error(
+                $"Failed to fetch InstanceContentUnlockReward for Quest: {ex.Message}\nStackTrace: {ex.StackTrace}");
             return null;
         }
     }
@@ -389,60 +388,62 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             }
 
             var rewards = contentFinderConditionSheet
-                .Where(c =>
-                {
-                    if (c.Unknown37 == 1)
-                    {
-                        // Use Unknown31 as the quest ID (instead of UnlockQuest)
-                        return c.Unknown31 == questId;
-                    }
+                          .Where(c =>
+                          {
+                              if (c.Unknown37 == 1)
+                              {
+                                  // Use Unknown31 as the quest ID (instead of UnlockQuest)
+                                  return c.Unknown31 == questId;
+                              }
 
-                    return c.UnlockQuest.RowId == questId;
-                })
-                .Select(content =>
-                {
-                    // Handle Unknown36 to determine unlock logic
-                    // 0: No requirements, 1: Quest requirement, 2: Instance + quest, 3: Special case
-                    if (content.Unknown36 == 2 && content.Unknown31 != 0)
-                    {
-                        // Unreal unlocks: Requires both instance content and a quest (special logic)
-                        return new InstanceContentUnlockReward
-                        {
-                            InstanceId = content.RowId,
-                            InstanceName = content.Name.ExtractText(),
-                            ContentType = ResolveContentType(content.ContentType),
-                        };
-                    }
-                    else if (content.Unknown36 == 3)
-                    {
-                        // Special case for entries like "The Calamity Untold"
-                        return new InstanceContentUnlockReward
-                        {
-                            InstanceId = content.RowId,
-                            InstanceName = content.Name.ExtractText() + " (Calamity Untold)",
-                            ContentType = ResolveContentType(content.ContentType)
-                        };
-                    }
+                              return c.UnlockQuest.RowId == questId;
+                          })
+                          .Select(content =>
+                          {
+                              // Handle Unknown36 to determine unlock logic
+                              // 0: No requirements, 1: Quest requirement, 2: Instance + quest, 3: Special case
+                              if (content.Unknown36 == 2 && content.Unknown31 != 0)
+                              {
+                                  // Unreal unlocks: Requires both instance content and a quest (special logic)
+                                  return new InstanceContentUnlockReward
+                                  {
+                                      InstanceId = content.RowId,
+                                      InstanceName = content.Name.ExtractText(),
+                                      ContentType = ResolveContentType(content.ContentType)
+                                  };
+                              }
 
-                    // Default case for normal unlocks
-                    return new InstanceContentUnlockReward
-                    {
-                        InstanceId = content.RowId,
-                        InstanceName = content.Name.ExtractText(),
-                        ContentType = ResolveContentType(content.ContentType)
-                    };
-                })
-                .ToList();
+                              if (content.Unknown36 == 3)
+                              {
+                                  // Special case for entries like "The Calamity Untold"
+                                  return new InstanceContentUnlockReward
+                                  {
+                                      InstanceId = content.RowId,
+                                      InstanceName = content.Name.ExtractText() + " (Calamity Untold)",
+                                      ContentType = ResolveContentType(content.ContentType)
+                                  };
+                              }
+
+                              // Default case for normal unlocks
+                              return new InstanceContentUnlockReward
+                              {
+                                  InstanceId = content.RowId,
+                                  InstanceName = content.Name.ExtractText(),
+                                  ContentType = ResolveContentType(content.ContentType)
+                              };
+                          })
+                          .ToList();
 
             return rewards;
         }
         catch (Exception ex)
         {
-            log.Error($"Failed to fetch rewards from ContentFinderConditionSheet: {ex.Message}\nStackTrace: {ex.StackTrace}");
+            log.Error(
+                $"Failed to fetch rewards from ContentFinderConditionSheet: {ex.Message}\nStackTrace: {ex.StackTrace}");
             return new List<InstanceContentUnlockReward>();
         }
     }
-    
+
     private List<InstanceContentUnlockReward> GetAllInstanceContentUnlockRewards(Quest quest)
     {
         var questRewards = GetQuestInstanceContentUnlockReward(quest) ?? new List<InstanceContentUnlockReward>();
@@ -561,7 +562,10 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
                 var npc = enpcSheet.GetRow(npcRef.RowId);
                 return npc.Singular.ExtractText();
             }
-            catch (ArgumentOutOfRangeException) { return null; }
+            catch (ArgumentOutOfRangeException)
+            {
+                return null;
+            }
         }
         catch (Exception ex)
         {
@@ -569,12 +573,11 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             return null;
         }
     }
-    
+
     private Level? ResolveNpcLocation(Quest questData)
     {
         try
         {
-            var levelSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Level>();
             var npcLocationRef = questData.IssuerLocation;
 
             if (npcLocationRef.RowId == 0) return null;

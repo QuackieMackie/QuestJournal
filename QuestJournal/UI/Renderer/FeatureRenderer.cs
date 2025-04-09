@@ -10,19 +10,19 @@ namespace QuestJournal.UI.Renderer;
 
 public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils rendererUtils, IPluginLog log)
 {
-    private bool isInitialized = false;
-
-    private string selectedSubDir = string.Empty;
-    private List<string> subDirList = new();
-    private string selectedDropDownCategory = string.Empty;
     private List<string> dropDownCategories = new();
     private Dictionary<string, string> dropDownCategoryMap = new();
+    private bool isInitialized;
 
     private int questCount;
     private List<QuestModel> questList = new();
-    private QuestModel? selectedQuest = null;
 
     private string searchQuery = string.Empty;
+    private string selectedDropDownCategory = string.Empty;
+    private QuestModel? selectedQuest;
+
+    private string selectedSubDir = string.Empty;
+    private List<string> subDirList = new();
 
     public void DrawFeatures()
     {
@@ -34,7 +34,8 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
         }
 
         rendererUtils.DrawDropDown("Select Subdirectory", subDirList, ref selectedSubDir, OnSubDirSelected);
-        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
+        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory,
+                                   UpdateQuestList);
 
         rendererUtils.DrawSearchBar(ref searchQuery);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
@@ -54,20 +55,16 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
         subDirList.Clear();
 
         subDirList = featureHandler.GetFeatureSubDirs()
-                   ?.Where(d => !string.IsNullOrEmpty(d))
-                   .Select(TransformSubDirName)
-                   .ToList() ?? new List<string>();
+                                   ?.Where(d => !string.IsNullOrEmpty(d))
+                                   .Select(TransformSubDirName)
+                                   .ToList() ?? new List<string>();
 
         selectedSubDir = subDirList.FirstOrDefault() ?? string.Empty;
 
         if (!string.IsNullOrEmpty(selectedSubDir))
-        {
             OnSubDirSelected(selectedSubDir);
-        }
         else
-        {
             log.Warning("No valid subdirectories found in the FEATURE directory.");
-        }
     }
 
     private void OnSubDirSelected(string displayName)
@@ -86,21 +83,14 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
         selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? string.Empty;
 
         if (!string.IsNullOrEmpty(selectedDropDownCategory))
-        {
             UpdateQuestList(selectedDropDownCategory);
-        }
         else
-        {
             log.Warning($"No journal genres found in subdirectory: {actualSubDir}");
-        }
     }
 
     private void InitializeDropDown()
     {
-        if (dropDownCategoryMap.Count == 0)
-        {
-            OnSubDirSelected(selectedSubDir);
-        }
+        if (dropDownCategoryMap.Count == 0) OnSubDirSelected(selectedSubDir);
     }
 
     private void UpdateQuestList(string category)

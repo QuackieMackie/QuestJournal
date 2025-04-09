@@ -10,17 +10,17 @@ namespace QuestJournal.UI.Renderer;
 
 public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPluginLog log)
 {
-    private bool isInitialized = false;
-    
-    private string selectedDropDownCategory = string.Empty;
-    private List<string> dropDownCategories = new List<string>();
+    private List<string> dropDownCategories = new();
     private Dictionary<string, string> dropDownCategoryMap = new();
+    private bool isInitialized;
 
     private int questCount;
-    private List<QuestModel> questList = new List<QuestModel>();
-    private QuestModel? selectedQuest = null;
+    private List<QuestModel> questList = new();
 
     private string searchQuery = string.Empty;
+
+    private string selectedDropDownCategory = string.Empty;
+    private QuestModel? selectedQuest;
 
     public void DrawMSQ()
     {
@@ -29,7 +29,9 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
             InitializeDropDown();
             isInitialized = true;
         }
-        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
+
+        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory,
+                                   UpdateQuestList);
         rendererUtils.DrawSearchBar(ref searchQuery);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
         rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList);
@@ -49,7 +51,7 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
             dropDownCategoryMap = msqHandler.GetMsqFileNames();
             dropDownCategories = dropDownCategoryMap.Keys.ToList();
 
-            var msqCategories = new List<string>()
+            var msqCategories = new List<string>
             {
                 "Seventh Umbral Era Main Scenario Quests",
                 "Seventh Astral Era Main Scenario Quests",
@@ -66,22 +68,18 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
                 "Dawntrail Main Scenario Quests",
                 "Post-Dawntrail Main Scenario Quests"
             };
-            
+
             dropDownCategories = msqCategories
                                  .Where(category => dropDownCategories.Contains(category))
                                  .ToList();
-            
+
             selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? "Error";
             log.Info($"Populated msqFileNames list with {dropDownCategories.Count} items.");
 
             if (selectedDropDownCategory != "Error")
-            {
                 UpdateQuestList(selectedDropDownCategory);
-            }
             else
-            {
                 log.Warning("No items found in msqFileNames list.");
-            }
         }
     }
 

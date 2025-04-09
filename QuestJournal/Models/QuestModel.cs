@@ -6,7 +6,7 @@ public class QuestModel
 {
     public uint QuestId { get; init; }
     public string? QuestTitle { get; set; }
-    
+
     public List<uint>? PreviousQuestIds { get; set; }
     public List<string>? PreviousQuestTitles { get; set; }
 
@@ -17,27 +17,27 @@ public class QuestModel
     public string? StarterNpc { get; set; }
     public Level? StarterNpcLocation { get; set; }
     public string? FinishNpc { get; set; }
-    
+
     // Organisation
     public string? Expansion { get; set; }
     public JournalGenreDetails? JournalGenre { get; set; }
     public ushort SortKey { get; set; }
-    
+
     // Other
     public bool IsRepeatable { get; set; }
-    
+
     // Icons
     public uint EventIcon { get; set; }
     public uint Icon { get; set; }
-    
+
     // Requirements
     public uint? JobLevel { get; set; }
     public string? ClassJobCategory { get; set; }
     public BeastTribeRequirements? BeastTribeRequirements { get; set; }
-    
+
     // Rewards
     public Reward? Rewards { get; set; }
-    
+
     public override string ToString()
     {
         return
@@ -45,12 +45,11 @@ public class QuestModel
             $"NextQuests: [{string.Join(", ", NextQuestIds ?? new List<uint>())}] ({string.Join(", ", NextQuestTitles ?? new List<string>())}), " +
             $"StarterNpc: {StarterNpc}, StarterNpcLocation: {StarterNpcLocation}, FinishNpc: {FinishNpc}, Expansion: {Expansion}, JournalGenre: {JournalGenre}";
     }
-
 }
 
 public class BeastTribeRequirements
 {
-    public string? BeastTribeName  { get; set; }
+    public string? BeastTribeName { get; set; }
     public string? BeastTribeRank { get; set; }
 }
 
@@ -100,6 +99,22 @@ public class Reward
     public OtherReward? OtherReward { get; set; }
     public List<InstanceContentUnlockReward>? InstanceContentUnlock { get; set; }
     public ReputationReward? ReputationReward { get; set; }
+    public LevelReward? LocationReward { get; set; }
+    public CommentSection? CommentSection { get; set; }
+}
+
+public class CommentSection
+{
+    public string? GuiComment { get; set; }
+    public string? HoverTextComment { get; set; }
+    public bool ClickToCopy { get; set; }
+}
+
+public class LevelReward
+{
+    public string? PlaceName { get; set; }
+    public uint MapId { get; set; }
+    public uint TerritoryId { get; set; }
 }
 
 public class ReputationReward

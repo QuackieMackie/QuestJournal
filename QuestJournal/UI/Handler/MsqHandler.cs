@@ -11,9 +11,9 @@ namespace QuestJournal.UI.Handler;
 
 public class MsqHandler : IDisposable
 {
+    private readonly Configuration configuration;
     private readonly IPluginLog log;
     private readonly IDalamudPluginInterface pluginInterface;
-    private readonly Configuration configuration;
 
     public MsqHandler(IPluginLog log, IDalamudPluginInterface pluginInterface, Configuration configuration)
     {
@@ -22,7 +22,9 @@ public class MsqHandler : IDisposable
         this.configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
     }
 
-    
+    public void Dispose() { }
+
+
     public Dictionary<string, Dictionary<string, uint>> StartAreaQuestMapping()
     {
         return new Dictionary<string, (uint Gridania, uint Limsa, uint Uldah)>
@@ -110,7 +112,7 @@ public class MsqHandler : IDisposable
                     { "Ul'dah", pair.Value.Uldah }
                 });
     }
-    
+
     public Dictionary<string, Dictionary<string, uint>> GrandCompanyQuestMapping()
     {
         return new Dictionary<string, (uint TwinAdder, uint Maelstorm, uint ImmortalFlames)>
@@ -147,17 +149,17 @@ public class MsqHandler : IDisposable
 
         return Directory.GetFiles(msqDirectoryPath, "*.json", SearchOption.TopDirectoryOnly)
                         .ToDictionary(
-                            file => 
+                            file =>
                             {
                                 var fileName = Path.GetFileNameWithoutExtension(file);
-                                return fileName.StartsWith("MSQ-") 
-                                           ? fileName.Substring(4).Replace("_", " ") 
+                                return fileName.StartsWith("MSQ-")
+                                           ? fileName.Substring(4).Replace("_", " ")
                                            : fileName.Replace("_", " ");
                             },
                             file => Path.GetFileNameWithoutExtension(file)
                         );
     }
-    
+
     public List<QuestModel>? FetchQuestData(string fileName)
     {
         try
@@ -226,7 +228,7 @@ public class MsqHandler : IDisposable
             }
 
             var orderedQuests = filteredQuests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
-            
+
             log.Info($"Filtered and organized a total of {orderedQuests.Count} quests for file: \"{filePath}\".");
             return orderedQuests;
         }
@@ -236,6 +238,4 @@ public class MsqHandler : IDisposable
             return null;
         }
     }
-    
-    public void Dispose() { }
 }
