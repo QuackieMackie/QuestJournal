@@ -25,14 +25,14 @@ public sealed class QuestJournal : IDalamudPlugin
         PluginInterface.UiBuilder.Draw += DrawUi;
         PluginInterface.UiBuilder.OpenMainUi += OpenMainWindow;
 
-        if (Configuration.DeveloperMode)
-        {
-            var resources = Assembly.GetExecutingAssembly().GetManifestResourceNames();
-            foreach (var resource in resources)
-            {
-                Log.Info(resource);
-            }
-        }
+        // if (Configuration.DeveloperMode)
+        // {
+        //     var resources = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+        //     foreach (var resource in resources)
+        //     {
+        //         Log.Info(resource);
+        //     }
+        // }
     }
 
     [PluginService] internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;

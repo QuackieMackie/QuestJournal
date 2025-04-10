@@ -30,10 +30,8 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
             isInitialized = true;
         }
 
-        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory,
-                                   UpdateQuestList);
+        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
         rendererUtils.DrawSearchBar(ref searchQuery);
-        ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
         rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList);
         rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest);
     }
@@ -74,7 +72,6 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
                                  .ToList();
 
             selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? "Error";
-            log.Info($"Populated msqFileNames list with {dropDownCategories.Count} items.");
 
             if (selectedDropDownCategory != "Error")
                 UpdateQuestList(selectedDropDownCategory);

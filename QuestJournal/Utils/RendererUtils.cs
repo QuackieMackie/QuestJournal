@@ -69,8 +69,7 @@ public class RendererUtils
         var previousSearchQuery = searchQuery;
 
         if (ImGui.InputText("Search for a quest name##SearchBar", ref searchQuery, 256) &&
-            !searchQuery.Equals(previousSearchQuery, StringComparison.OrdinalIgnoreCase))
-            log.Info($"Updated search query: {searchQuery}");
+            !searchQuery.Equals(previousSearchQuery, StringComparison.OrdinalIgnoreCase)) { }
     }
 
     private Vector4 DetermineQuestColor(bool isComplete, bool isMatch, bool isSelected)

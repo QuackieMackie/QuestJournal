@@ -8,6 +8,13 @@ public class SettingsRenderer(Configuration configuration, MsqRenderer msqRender
     public void DrawSettings()
     {
         ImGui.Text("Settings");
+        ImGui.SameLine(ImGui.GetContentRegionAvail().X - 90);
+        if (ImGui.Button("Reset Settings", new System.Numerics.Vector2(100, 0)))
+        {
+            configuration.Reset();
+            configuration.Save();
+        }
+
         ImGui.Separator();
         ImGui.Text("Select which area you started in:");
         var startAreaOptions = new List<string> { "Gridania", "Limsa Lominsa", "Ul'dah" };

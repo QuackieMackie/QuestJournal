@@ -165,66 +165,20 @@ public class MsqHandler : IDisposable
     {
         try
         {
-            var questAreaMapping = StartAreaQuestMapping();
-            var grandCompanyMapping = GrandCompanyQuestMapping();
-            var playerStartArea = configuration.StartArea;
-            var playerGrandCompany = configuration.GrandCompany;
-
             var resourcePath = $"{fileName}";
             var fileContent = EmbeddedResourceLoader.LoadJson(resourcePath, "MSQ");
 
             var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
-
+            
             if (quests == null)
             {
                 log.Error($"Failed to deserialize quests from resource '{resourcePath}'. The content might be invalid.");
                 return null;
             }
-
-            var filteredQuests = new List<QuestModel>();
-
-            // Start Area Filtering
-            if (!string.IsNullOrWhiteSpace(playerStartArea))
-            {
-                filteredQuests = quests
-                                 .Where(q => q != null)
-                                 .GroupBy(q => q.QuestTitle)
-                                 .Select(group =>
-                                 {
-                                     if (group.Key != null &&
-                                         questAreaMapping.TryGetValue(group.Key, out var areaMapping) &&
-                                         areaMapping.TryGetValue(playerStartArea, out var mappedQuestId))
-                                         return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
-                                     return group.FirstOrDefault();
-                                 })
-                                 .Where(q => q != null)
-                                 .Select(q => q!)
-                                 .ToList();
-            }
-
-            // Grand Company Filtering
-            if (!string.IsNullOrWhiteSpace(playerGrandCompany))
-            {
-                filteredQuests = filteredQuests
-                                 .Where(q => q != null)
-                                 .GroupBy(q => q.QuestTitle)
-                                 .Select(group =>
-                                 {
-                                     if (group.Key != null &&
-                                         grandCompanyMapping.TryGetValue(group.Key, out var gcMapping) &&
-                                         gcMapping.TryGetValue(playerGrandCompany, out var mappedQuestId))
-                                         return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
-                                     return group.FirstOrDefault();
-                                 })
-                                 .Where(q => q != null)
-                                 .Select(q => q!)
-                                 .ToList();
-            }
-
-            var orderedQuests = filteredQuests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
-
-            log.Info($"Filtered and organized a total of {orderedQuests.Count} quests for resource: \"{resourcePath}\".");
-            return orderedQuests;
+            
+            var filteredQuests = PerformQuestFiltering(quests);
+            
+            return filteredQuests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
         }
         catch (Exception ex)
         {
@@ -240,5 +194,50 @@ public class MsqHandler : IDisposable
             .Where(resourceName => resourceName.StartsWith("QuestJournal.Data.MSQ.", StringComparison.OrdinalIgnoreCase))
             .ToList();
     }
+    
+    private List<QuestModel> PerformQuestFiltering(List<QuestModel> quests)
+    {
+        var playerStartArea = configuration.StartArea;
+        var playerGrandCompany = configuration.GrandCompany;
+        var questStartAreaMapping = StartAreaQuestMapping();
+        var grandCompanyMapping = GrandCompanyQuestMapping();
+        
+        // Filter for start area quests
+        var filteredQuests = !string.IsNullOrWhiteSpace(playerStartArea)
+                                 ? quests.GroupBy(q => q.QuestTitle)
+                                         .Select(group =>
+                                         {
+                                             if (group.Key != null &&
+                                                 questStartAreaMapping.TryGetValue(group.Key, out var areaMapping) &&
+                                                 areaMapping.TryGetValue(playerStartArea, out var mappedQuestId))
+                                                 return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
+                        
+                                             return group.FirstOrDefault();
+                                         })
+                                         .Where(q => q != null)
+                                         .Select(q => q!)
+                                         .ToList()
+                                 : quests;
+        
+        // Grand Company Filtering
+        if (!string.IsNullOrWhiteSpace(playerGrandCompany))
+        {
+            filteredQuests = filteredQuests
+                             .Where(q => q != null)
+                             .GroupBy(q => q.QuestTitle)
+                             .Select(group =>
+                             {
+                                 if (group.Key != null &&
+                                     grandCompanyMapping.TryGetValue(group.Key, out var gcMapping) &&
+                                     gcMapping.TryGetValue(playerGrandCompany, out var mappedQuestId))
+                                     return group.FirstOrDefault(q => q.QuestId == mappedQuestId);
+                                 return group.FirstOrDefault();
+                             })
+                             .Where(q => q != null)
+                             .Select(q => q!)
+                             .ToList();
+        }
 
+        return filteredQuests.OrderBy(q => q.SortKey).ToList();;
+    }
 }
