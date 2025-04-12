@@ -129,7 +129,7 @@ public class RendererUtils
                 GetQuestIcon(quests[i]);
 
                 ImGui.TableNextColumn();
-                if (ImGui.Selectable(quests[i].QuestTitle ?? "Unknown Quest", isSelected))
+                if (ImGui.Selectable($"{quests[i].QuestTitle ?? "Unknown Quest"}##Quest{i}", isSelected))
                 {
                     if (selectedQuest?.QuestId == quests[i].QuestId)
                     {
@@ -146,8 +146,7 @@ public class RendererUtils
                 ImGui.TableNextColumn();
                 if (ImGui.Selectable($"{quests[i].StarterNpc ?? "Unknown Location"}##StarterNpc{i}"))
                 {
-                    log.Info(
-                        $"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
+                    log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
                     OtherUtils.OpenStarterLocation(quests[i], log);
                 }
 

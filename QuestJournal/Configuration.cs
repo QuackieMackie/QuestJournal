@@ -8,7 +8,8 @@ public class Configuration : IPluginConfiguration
 {
     public string StartArea { get; set; } = "Gridania";
     public string GrandCompany { get; set; } = "Immortal Flames";
-
+    public string StarterClass { get; set; } = "Gladiator";
+    
     public bool DeveloperMode { get; set; } = false;
     public int Version { get; set; } = 0;
 
@@ -21,6 +22,7 @@ public class Configuration : IPluginConfiguration
     {
         StartArea = "Gridania";
         GrandCompany = "Immortal Flames";
+        StarterClass = "Gladiator";
         DeveloperMode = false;
     }
 }

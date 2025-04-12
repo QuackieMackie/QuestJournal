@@ -36,7 +36,7 @@ public class MainWindow : Window, IDisposable
         };
 
         msqHandler = new MsqHandler(log, configuration);
-        jobHandler = new JobHandler(log);
+        jobHandler = new JobHandler(log, configuration);
         featureHandler = new FeatureHandler(log, configuration);
 
         rendererUtils = new RendererUtils(log);
@@ -44,7 +44,7 @@ public class MainWindow : Window, IDisposable
         msqRenderer = new MsqRenderer(msqHandler, rendererUtils, log);
         jobRenderer = new JobRenderer(jobHandler, rendererUtils, log);
         featureRenderer = new FeatureRenderer(featureHandler, rendererUtils, log);
-        settingsRenderer = new SettingsRenderer(configuration, msqRenderer);
+        settingsRenderer = new SettingsRenderer(configuration, this);
     }
 
     public void Dispose()
@@ -94,5 +94,12 @@ public class MainWindow : Window, IDisposable
 
             ImGui.EndTabBar();
         }
+    }
+
+    public void RefreshQuests()
+    {
+        msqRenderer.ReloadQuests();
+        jobRenderer.ReloadQuests();
+        featureRenderer.ReloadQuests();
     }
 }

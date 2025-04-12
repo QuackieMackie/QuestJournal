@@ -3,7 +3,7 @@ using ImGuiNET;
 
 namespace QuestJournal.UI.Renderer;
 
-public class SettingsRenderer(Configuration configuration, MsqRenderer msqRenderer)
+public class SettingsRenderer(Configuration configuration, MainWindow mainsWindow)
 {
     public void DrawSettings()
     {
@@ -29,7 +29,7 @@ public class SettingsRenderer(Configuration configuration, MsqRenderer msqRender
                 {
                     configuration.StartArea = option;
                     configuration.Save();
-                    msqRenderer.ReloadQuests();
+                    mainsWindow.RefreshQuests();
                 }
 
                 if (isSelected) ImGui.SetItemDefaultFocus();
@@ -39,19 +39,41 @@ public class SettingsRenderer(Configuration configuration, MsqRenderer msqRender
         }
 
         ImGui.Text("Select your desired/current Grand Company:");
-        var options = new List<string> { "Immortal Flames", "Maelstorm", "Twin Adder" };
-        var currentSelection = configuration.GrandCompany ?? string.Empty;
+        var grandCompanyOptions = new List<string> { "Immortal Flames", "Maelstorm", "Twin Adder" };
+        var grandCompanyCurrentSelection = configuration.GrandCompany ?? string.Empty;
 
-        if (ImGui.BeginCombo("##GrandCompanyDropdown", currentSelection))
+        if (ImGui.BeginCombo("##GrandCompanyDropdown", grandCompanyCurrentSelection))
         {
-            foreach (var option in options)
+            foreach (var option in grandCompanyOptions)
             {
-                var isSelected = option == currentSelection;
+                var isSelected = option == grandCompanyCurrentSelection;
                 if (ImGui.Selectable(option, isSelected))
                 {
                     configuration.GrandCompany = option;
                     configuration.Save();
-                    msqRenderer.ReloadQuests();
+                    mainsWindow.RefreshQuests();
+                }
+
+                if (isSelected) ImGui.SetItemDefaultFocus();
+            }
+
+            ImGui.EndCombo();
+        }
+        
+        ImGui.Text("Select your starter class:");
+        var starterClassOptions = new List<string> { "Gladiator", "Marauder", "Pugilist", "Lancer", "Rogue", "Archer", "Thaumaturge", "Arcanist", "Conjurer" };
+        var starterClassCurrentSelection = configuration.StarterClass ?? string.Empty;
+        
+        if (ImGui.BeginCombo("##StarterClassDropdown", starterClassCurrentSelection))
+        {
+            foreach (var option in starterClassOptions)
+            {
+                var isSelected = option == starterClassCurrentSelection;
+                if (ImGui.Selectable(option, isSelected))
+                {
+                    configuration.StarterClass = option;
+                    configuration.Save();
+                    mainsWindow.RefreshQuests();
                 }
 
                 if (isSelected) ImGui.SetItemDefaultFocus();
@@ -70,9 +92,7 @@ public class SettingsRenderer(Configuration configuration, MsqRenderer msqRender
         ImGui.Separator();
         var devMode = configuration.DeveloperMode;
         ImGui.Text("Developer Mode");
-        if (ImGui.Checkbox(
-                "This enables you to fetch quest data from the Lumina sheets don't use\nunless you know what you're doing.",
-                ref devMode))
+        if (ImGui.Checkbox("This enables you to fetch quest data from the Lumina sheets don't use\nunless you know what you're doing.", ref devMode))
         {
             configuration.DeveloperMode = devMode;
             configuration.Save();
