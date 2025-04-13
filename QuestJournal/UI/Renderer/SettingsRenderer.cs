@@ -153,7 +153,7 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
     
     private string GetGrandCompany()
     {
-        if (QuestManager.IsQuestComplete(66217)) return "Maelstrom";
+        if (QuestManager.IsQuestComplete(66217)) return "Maelstorm";
         if (QuestManager.IsQuestComplete(66216)) return "Twin Adder";
         if (QuestManager.IsQuestComplete(66218)) return "Immortal Flames";
         return "Maelstorm";

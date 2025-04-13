@@ -25,7 +25,8 @@ public class QuestDataInjector
             TrailInjectedQuestData.GetData(),
             MateriaInjectedQuestData.GetData(),
             LocationInjectedQuestData.GetData(),
-            GlamourAndCustomizationInjectedQuestData.GetData()
+            GlamourAndCustomizationInjectedQuestData.GetData(),
+            StoneSkySeaInjectedQuestData.GetData()
         };
 
         foreach (var dataSet in allData)

@@ -106,12 +106,18 @@ public class RendererUtils
             {
                 ImGui.TableNextRow();
                 bool isComplete;
+                bool isAccepted;
                 unsafe
                 {
+                    isAccepted = QuestManager.Instance()->IsQuestAccepted(quests[i].QuestId);
+    
                     isComplete = quests[i].IsRepeatable
                                      ? QuestManager.Instance()->IsDailyQuestCompleted((ushort)quests[i].QuestId)
                                      : QuestManager.IsQuestComplete(quests[i].QuestId);
                 }
+
+                var questStatus = isComplete ? "\u2713" : isAccepted ? "\u2192" : "\u00d7";
+                var hoverText = isComplete ? "Complete" : isAccepted ? "In Progress" : "Not Started";
 
                 var isMatch = !string.IsNullOrEmpty(searchQuery) &&
                               (quests[i].QuestTitle?.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ??
@@ -123,7 +129,11 @@ public class RendererUtils
                 ImGui.PushStyleColor(ImGuiCol.Text, rowColor);
 
                 ImGui.TableNextColumn();
-                ImGui.Text(isComplete ? " ✓ " : "  x ");
+                ImGui.Text($"  {questStatus}  ");
+                if (ImGui.IsItemHovered())
+                {
+                    ImGui.SetTooltip(hoverText);
+                }
 
                 ImGui.TableNextColumn();
                 GetQuestIcon(quests[i]);
@@ -514,13 +524,14 @@ public class RendererUtils
                                 ImGui.TableNextColumn();
                                 ImGui.AlignTextToFramePadding();
                                 ImGui.Text("Instance Content:");
-
+                                
                                 ImGui.TableNextColumn();
                                 for (var i = 0; i < quest.Rewards.InstanceContentUnlock.Count; i++)
                                 {
                                     var instanceContentUnlock = quest.Rewards.InstanceContentUnlock[i];
-                                    DrawIconWithLabel(ContentTypeSheet, instanceContentUnlock.ContentType,
-                                                      instanceContentUnlock.InstanceName ?? "Unknown");
+                                    if (instanceContentUnlock.ContentType == 999) DrawWithProvidedIconValueWithLabel(instanceContentUnlock.InstanceName ?? "Unknown", 61418);
+                                    else DrawIconWithLabel(ContentTypeSheet, instanceContentUnlock.ContentType, instanceContentUnlock.InstanceName ?? "Unknown");
+                                    
                                     if (i < quest.Rewards.InstanceContentUnlock.Count - 1) ImGui.SameLine();
                                 }
                             }
@@ -558,19 +569,16 @@ public class RendererUtils
                                     }
                                 }
                                 
-                                if (quest.Rewards?.CommentSection?.HoverTextComment != string.Empty && ImGui.IsItemHovered()) {
-                                    if (!string.IsNullOrEmpty(quest.Rewards?.CommentSection?.HoverTextComment))
-                                    {
-                                        string tooltipText = quest.Rewards?.CommentSection?.HoverTextComment ?? string.Empty;
-                                        if (quest.Rewards?.CommentSection?.ClickToCopy == true)
-                                        {
-                                            tooltipText += "\n(Click to copy)";
-                                        }
+                                if (!string.IsNullOrEmpty(quest.Rewards?.CommentSection?.HoverTextComment) && ImGui.IsItemHovered())
+                                {
+                                    string tooltipText = quest.Rewards.CommentSection.HoverTextComment;
 
-                                        ImGui.PushTextWrapPos();
-                                        ImGui.Text(tooltipText);
-                                        ImGui.PopTextWrapPos();
-                                    } 
+                                    if (quest.Rewards.CommentSection.ClickToCopy)
+                                    {
+                                        tooltipText += "\n(Click to copy)";
+                                    }
+
+                                    ImGui.TextWrapped(tooltipText);
                                 }
                             }
 
@@ -597,8 +605,7 @@ public class RendererUtils
         }
     }
 
-    public void DrawItemIconWithLabel(
-        uint itemId, string itemName, byte count, string? stainName = null, bool isHq = false, float size = 27f)
+    public void DrawItemIconWithLabel(uint itemId, string itemName, byte count, string? stainName = null, bool isHq = false, float size = 27f)
     {
         try
         {
@@ -607,7 +614,7 @@ public class RendererUtils
             var iconId = item.Icon;
             var lookup = new GameIconLookup(iconId);
             var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
-
+            
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
                 ImGui.BeginGroup();
@@ -687,6 +694,37 @@ public class RendererUtils
         catch (Exception ex)
         {
             log.Error($"Failed to render icon for entityId {entityId}: {ex.Message}");
+        }
+    }
+    
+    public void DrawWithProvidedIconValueWithLabel(string instanceName, int iconValue, float size = 27f)
+    {
+        try
+        {
+            var iconId = Convert.ToUInt32(iconValue);
+            var lookup = new GameIconLookup(iconId);
+            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+
+            if (sharedTexture.TryGetWrap(out var textureWrap, out _))
+            {
+                ImGui.BeginGroup();
+
+                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                if (ImGui.IsItemHovered())
+                {
+                    ImGui.BeginTooltip();
+                    ImGui.Text(instanceName.FirstCharToUpper());
+                    ImGui.EndTooltip();
+                }
+
+                ImGui.EndGroup();
+            }
+            else
+                ImGui.Text("[Missing Texture Wrap]");
+        }
+        catch (Exception ex)
+        {
+            log.Error($"Failed to render icon for instance {instanceName}: {ex.Message}");
         }
     }
 
