@@ -23,10 +23,13 @@ public class RendererUtils
     private readonly Lazy<ExcelSheet<GeneralAction>> generalActionSheet;
     private readonly Lazy<ExcelSheet<QuestRewardOther>> otherRewardSheet;
     private readonly Lazy<ExcelSheet<Item>> itemSheet;
+    
+    private readonly QuestJournal questJournal;
     private readonly IPluginLog log;
 
-    public RendererUtils(IPluginLog log)
+    public RendererUtils(IPluginLog log, QuestJournal questJournal)
     {
+        this.questJournal = questJournal;
         this.log = log;
 
         itemSheet = new Lazy<ExcelSheet<Item>>(() => QuestJournal.DataManager.GetExcelSheet<Item>());
@@ -263,26 +266,55 @@ public class RendererUtils
                     ImGui.TableNextColumn();
                     ImGui.Text("First quest:");
                     ImGui.TableNextColumn();
-                    ImGui.Text(questList.FirstOrDefault()?.QuestTitle ?? "None");
+                    var firstQuest = questList.FirstOrDefault();
+                    if (firstQuest != null && ImGui.Selectable($"{firstQuest.QuestTitle ?? "None"}##FirstQuest"))
+                    {
+                        questJournal.OpenQuestWindow(firstQuest, questList);
+                    }
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Previous quest:");
                     ImGui.TableNextColumn();
                     ImGui.PushTextWrapPos();
-                    ImGui.Text(quest.PreviousQuestTitles?.Any() == true
-                                   ? string.Join(", ", quest.PreviousQuestTitles)
-                                   : "None");
+                    if (quest.PreviousQuestIds?.Any() == true)
+                    {
+                        foreach (var previousQuestId in quest.PreviousQuestIds)
+                        {
+                            var previousQuest = questList.FirstOrDefault(q => q.QuestId == previousQuestId);
+                            if (previousQuest != null)
+                            {
+                                if (ImGui.Selectable($"{previousQuest.QuestTitle}##Previous{previousQuest.QuestId}"))
+                                {
+                                    questJournal.OpenQuestWindow(previousQuest, questList);
+                                }
+                            }
+                        }
+                    } else ImGui.Text("None");
                     ImGui.PopTextWrapPos();
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Next quest:");
                     ImGui.TableNextColumn();
                     ImGui.PushTextWrapPos();
-                    ImGui.Text(quest.NextQuestTitles?.Any() == true
-                                   ? string.Join(", ", quest.NextQuestTitles)
-                                   : "None");
+                    if (quest.NextQuestIds?.Any() == true)
+                    {
+                        foreach (var nextQuestId in quest.NextQuestIds)
+                        {
+                            var nextQuest = questList.FirstOrDefault(q => q.QuestId == nextQuestId);
+                            if (nextQuest != null)
+                            {
+                                if (ImGui.Selectable($"{nextQuest.QuestTitle}##Next{nextQuest.QuestId}"))
+                                {
+                                    log.Info($"QUEST: {nextQuest.QuestId}:{nextQuest.QuestTitle}");
+                                    questJournal.OpenQuestWindow(nextQuest, questList);
+                                }
+                            }
+                        }
+                    } else ImGui.Text("None");
                     ImGui.PopTextWrapPos();
 
+                    ImGui.Spacing();
+                    ImGui.Spacing();
                     ImGui.Spacing();
 
                     ImGui.TableNextColumn();
@@ -561,7 +593,7 @@ public class RendererUtils
 
                                 ImGui.TableNextColumn();
                                 //TODO: Couldn't get the selectable label wrapping, need to find a way to do that.
-                                if (ImGui.Selectable(quest.Rewards?.CommentSection?.GuiComment))
+                                if (ImGui.Button(quest.Rewards?.CommentSection?.GuiComment))
                                 {
                                     if (quest.Rewards?.CommentSection?.ClickToCopy == true)
                                     {

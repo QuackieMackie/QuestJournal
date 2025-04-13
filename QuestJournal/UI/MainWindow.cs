@@ -12,6 +12,7 @@ namespace QuestJournal.UI;
 
 public class MainWindow : Window, IDisposable
 {
+    private readonly QuestJournal questJournal;
     private readonly FeatureHandler featureHandler;
     private readonly FeatureRenderer featureRenderer;
     private readonly JobHandler jobHandler;
@@ -24,10 +25,11 @@ public class MainWindow : Window, IDisposable
     private readonly RendererUtils rendererUtils;
     private readonly SettingsRenderer settingsRenderer;
 
-    public MainWindow(IPluginLog log, Configuration configuration)
+    public MainWindow(IPluginLog log, Configuration configuration, QuestJournal questJournal)
         : base("QuestJournal###QuestJournal-QuackieMackie",
                ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
+        this.questJournal = questJournal;
         this.log = log;
         SizeConstraints = new WindowSizeConstraints
         {
@@ -39,7 +41,7 @@ public class MainWindow : Window, IDisposable
         jobHandler = new JobHandler(log, configuration);
         featureHandler = new FeatureHandler(log, configuration);
 
-        rendererUtils = new RendererUtils(log);
+        rendererUtils = new RendererUtils(log, questJournal);
 
         msqRenderer = new MsqRenderer(msqHandler, rendererUtils, log);
         jobRenderer = new JobRenderer(jobHandler, rendererUtils, log);
@@ -62,6 +64,13 @@ public class MainWindow : Window, IDisposable
             jobRenderer.ReloadQuests();
             featureRenderer.ReloadQuests();
             log.Info("Refreshed quest list.");
+        }
+        
+        ImGui.SameLine();
+        
+        if (ImGui.Button("Close All Quest Details##ClearPopOutWindowsButton\n"))
+        {
+            questJournal.CloseAllQuestWindows();
         }
 
         ImGui.Spacing();

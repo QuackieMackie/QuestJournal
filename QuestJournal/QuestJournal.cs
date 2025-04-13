@@ -1,16 +1,19 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
 using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using QuestJournal.Commands;
+using QuestJournal.Models;
 using QuestJournal.UI;
+using QuestJournal.Utils;
 
 namespace QuestJournal;
 
 public sealed class QuestJournal : IDalamudPlugin
 {
     public readonly WindowSystem WindowSystem = new("QuestJournal");
+    private readonly Dictionary<uint, QuestDetailWindow> openQuestWindows = new();
 
     public QuestJournal()
     {
@@ -19,7 +22,7 @@ public sealed class QuestJournal : IDalamudPlugin
         QuestDataFetcher = new QuestDataFetcher(DataManager, Log);
         CommandHandler = new CommandHandler(this, CommandManager, QuestDataFetcher, Log, PluginInterface, Configuration);
 
-        MainWindow = new MainWindow(Log, Configuration);
+        MainWindow = new MainWindow(Log, Configuration, this);
         WindowSystem.AddWindow(MainWindow);
 
         PluginInterface.UiBuilder.Draw += DrawUi;
@@ -33,6 +36,33 @@ public sealed class QuestJournal : IDalamudPlugin
         //         Log.Info(resource);
         //     }
         // }
+    }
+    
+    public void OpenQuestWindow(QuestModel questModel, List<QuestModel> questList)
+    {
+        if (openQuestWindows.TryGetValue(questModel.QuestId, out var existingWindow))
+        {
+            existingWindow.IsOpen = true;
+            existingWindow.BringToFront();
+            return;
+        }
+        
+        var questWindow = new QuestDetailWindow(questModel, questList, new RendererUtils(Log, this));
+        openQuestWindows[questModel.QuestId] = questWindow;
+        WindowSystem.AddWindow(questWindow);
+        questWindow.IsOpen = true;
+    }
+    
+    public void CloseAllQuestWindows()
+    {
+        foreach (var questWindow in openQuestWindows.Values)
+        {
+            questWindow.IsOpen = false;
+            WindowSystem.RemoveWindow(questWindow);
+            questWindow.Dispose();
+        }
+
+        openQuestWindows.Clear();
     }
 
     [PluginService] internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
@@ -50,10 +80,13 @@ public sealed class QuestJournal : IDalamudPlugin
 
     public void Dispose()
     {
-        WindowSystem.RemoveAllWindows();
+        foreach (var window in openQuestWindows.Values)
+        {
+            window.Dispose();
+        }
 
+        WindowSystem.RemoveAllWindows();  
         MainWindow.Dispose();
-
         CommandHandler.Dispose();
     }
 
