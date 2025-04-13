@@ -12,12 +12,14 @@
     <ItemGroup>
         <!-- QuestData.json is mainly for me to check, building it into the dll isn't needed -->
         <!--<EmbeddedResource Include="..\Data\QuestData.json" Link="Data\QuestData.json" />-->
+        <!--
         <Content Include="..\Data\QuestData.json">
             <Link>Data\QuestData.json</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <TargetPath>QuestJournal\QuestData.json</TargetPath>
             <Visible>true</Visible>
         </Content>
+        -->
         
         <!-- Used Quest json files -->
         <EmbeddedResource Include="..\Data\MSQ\*" Link="Data\MSQ\%(FileName)%(Extension)" />
