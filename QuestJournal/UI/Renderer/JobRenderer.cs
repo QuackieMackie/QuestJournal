@@ -69,7 +69,6 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
             {
                 questList = fetchedQuests;
                 questCount = questList.Count;
-                log.Info($"Loaded {questCount} quests for category: {category}");
             }
             else
             {

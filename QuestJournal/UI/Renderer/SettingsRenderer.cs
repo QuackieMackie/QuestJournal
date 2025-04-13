@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using ImGuiNET;
+using Serilog;
 
 namespace QuestJournal.UI.Renderer;
 
@@ -37,6 +39,20 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
 
             ImGui.EndCombo();
         }
+        
+        ImGui.SameLine();
+        if (ImGui.Button("No clue!##startArea"))
+        {
+            configuration.StartArea = GetStartArea();
+            configuration.Save();
+            mainsWindow.RefreshQuests();
+        }
+        if (ImGui.IsItemHovered())
+        {
+            ImGui.BeginTooltip();
+            ImGui.Text("If you don't know what to select, click the button to automatically fill it in the correct value.");
+            ImGui.EndTooltip();
+        }
 
         ImGui.Text("Select your desired/current Grand Company:");
         var grandCompanyOptions = new List<string> { "Immortal Flames", "Maelstorm", "Twin Adder" };
@@ -60,8 +76,22 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
             ImGui.EndCombo();
         }
         
+        ImGui.SameLine();
+        if (ImGui.Button("No clue!##GrandCompany"))
+        {
+            configuration.GrandCompany = GetGrandCompany();
+            configuration.Save();
+            mainsWindow.RefreshQuests();
+        }
+        if (ImGui.IsItemHovered())
+        {
+            ImGui.BeginTooltip();
+            ImGui.Text("If you don't know what to select, click the button to automatically fill it in the correct value.");
+            ImGui.EndTooltip();
+        }
+        
         ImGui.Text("Select your starter class:");
-        var starterClassOptions = new List<string> { "Gladiator", "Marauder", "Pugilist", "Lancer", "Rogue", "Archer", "Thaumaturge", "Arcanist", "Conjurer" };
+        var starterClassOptions = new List<string> { "Gladiator", "Marauder", "Pugilist", "Lancer", "Archer", "Thaumaturge", "Arcanist", "Conjurer" };
         var starterClassCurrentSelection = configuration.StarterClass ?? string.Empty;
         
         if (ImGui.BeginCombo("##StarterClassDropdown", starterClassCurrentSelection))
@@ -81,6 +111,20 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
 
             ImGui.EndCombo();
         }
+        
+        ImGui.SameLine();
+        if (ImGui.Button("No clue!##StarterClass"))
+        {
+            configuration.StarterClass = GetStarterClass();
+            configuration.Save();
+            mainsWindow.RefreshQuests();
+        }
+        if (ImGui.IsItemHovered())
+        {
+            ImGui.BeginTooltip();
+            ImGui.Text("If you don't know what to select, click the button to automatically fill it in the correct value.");
+            ImGui.EndTooltip();
+        }
 
         ImGui.Spacing();
         ImGui.Spacing();
@@ -97,5 +141,34 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
             configuration.DeveloperMode = devMode;
             configuration.Save();
         }
+    }
+    
+    private string GetStartArea()
+    {
+        if (QuestManager.IsQuestComplete(65621) || QuestManager.IsQuestComplete(65659) || QuestManager.IsQuestComplete(65660)) return "Gridania";
+        if (QuestManager.IsQuestComplete(65644) || QuestManager.IsQuestComplete(65645)) return "Limsa Lominsa";
+        if (QuestManager.IsQuestComplete(66104) || QuestManager.IsQuestComplete(66105) || QuestManager.IsQuestComplete(66106)) return "Ul'dah";
+        return "Gridania";
+    }
+    
+    private string GetGrandCompany()
+    {
+        if (QuestManager.IsQuestComplete(66217)) return "Maelstrom";
+        if (QuestManager.IsQuestComplete(66216)) return "Twin Adder";
+        if (QuestManager.IsQuestComplete(66218)) return "Immortal Flames";
+        return "Maelstorm";
+    }
+    
+    private string GetStarterClass()
+    {
+        if (QuestManager.IsQuestComplete(65789)) return "Gladiator";
+        if (QuestManager.IsQuestComplete(65847)) return "Marauder";
+        if (QuestManager.IsQuestComplete(66069)) return "Pugilist";
+        if (QuestManager.IsQuestComplete(65559)) return "Lancer";
+        if (QuestManager.IsQuestComplete(65557)) return "Archer";
+        if (QuestManager.IsQuestComplete(65881)) return "Thaumaturge";
+        if (QuestManager.IsQuestComplete(65989)) return "Arcanist";
+        if (QuestManager.IsQuestComplete(65558)) return "Conjurer";
+        return "Gladiator";
     }
 }

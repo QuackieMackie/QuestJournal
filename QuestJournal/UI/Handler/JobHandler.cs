@@ -24,14 +24,14 @@ public class JobHandler : IDisposable
     {
         return new Dictionary<string, (uint, uint)>
         {
-            { "Gladiator",   (65789, 65821) },
-            { "Marauder",    (65847, 65846) },
-            { "Pugilist",    (66069, 66068) },
-            { "Lancer",      (65559, 65668) },
-            { "Archer",      (65557, 65667) },
-            { "Thaumaturge", (65881, 65880) },
-            { "Arcanist",    (65989, 65988) },
-            { "Conjurer",    (65558, 65669) },
+            { "Gladiator",   (65789, 65821) }, // "Way of the Gladiator"
+            { "Marauder",    (65847, 65846) }, // "Way of the Marauder"
+            { "Pugilist",    (66069, 66068) }, // "Way of the Pugilist"
+            { "Lancer",      (65559, 65668) }, // "Way of the Lancer"
+            { "Archer",      (65557, 65667) }, // "Way of the Archer"
+            { "Thaumaturge", (65881, 65880) }, // "Way of the Thaumaturge"
+            { "Arcanist",    (65989, 65988) }, // "Way of the Arcanist"
+            { "Conjurer",    (65558, 65669) }, // "Way of the Conjurer"
         };
     }
     

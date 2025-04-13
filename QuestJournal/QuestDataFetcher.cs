@@ -263,7 +263,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
         // 3: Use a JsonName for grouping, the JsonName defines the JSON file name
         var categoryFolders = new List<(object Identifier, string FolderName, int GroupBy, string? JsonName)>
         {
-            (88, "Crystarium Deliveries", 0, null), // "Crystalline Mean Quests"
+            //(88, "Crystarium Deliveries", 0, null), // "Crystalline Mean Quests"
 
             (31, "Tribe Quests", 1, null), // Mamool Ja Quests
             (32, "Tribe Quests", 1, null), // Pelupelu Quests
@@ -292,8 +292,8 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (guildHestQuestIds, "Other", 3, "Guild Hests"),
             (locationsQuestIds, "Other", 3, "Residential Areas"),
 
-            (collectableQuestIds, "Collectables", 3, "Collectables"),
-            (customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries"),
+            //(collectableQuestIds, "Collectables", 3, "Collectables"),
+            //(customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries"),
 
             (dungeonQuestIds, "Duties", 3, "Dungeons"),
             (trailsQuestIds, "Duties", 3, "Trails"),
