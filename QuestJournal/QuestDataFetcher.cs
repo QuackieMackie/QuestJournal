@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Dalamud.Plugin.Services;
 using Lumina.Excel;
 using Lumina.Excel.Sheets;
 using QuestJournal.Models;
@@ -8,20 +9,12 @@ using QuestJournal.Utils;
 
 namespace QuestJournal;
 
-public class QuestDataFetcher
+public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 {
-    
-    private readonly QuestFetcherUtils questFetcherUtils;
-    private readonly Lazy<ExcelSheet<Quest>?> questSheet;
-
-    public QuestDataFetcher()
-    {
-        questFetcherUtils = new QuestFetcherUtils(Service.DataManager, Service.Log);
-        questSheet = new(() => Service.DataManager.GetExcelSheet<Quest>());
-    }
+    private readonly QuestFetcherUtils questFetcherUtils = new(dataManager, log);
+    private readonly Lazy<ExcelSheet<Quest>?> questSheet = new(() => dataManager.GetExcelSheet<Quest>());
 
     private ExcelSheet<Quest>? QuestSheet => questSheet.Value;
-
 
     public List<QuestModel> GetAllQuests()
     {
@@ -44,8 +37,8 @@ public class QuestDataFetcher
                     foreach (var prevQuestId in prevQuestIds)
                         if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
                         {
-                            prevQuestInfo.NextQuestIds?.Add(quest.RowId);
-                            prevQuestInfo.NextQuestTitles?.Add(quest.Name.ExtractText());
+                            prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
+                            prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
                         }
                 }
 

@@ -275,44 +275,49 @@ public class RendererUtils
                     ImGui.TableNextColumn();
                     ImGui.Text("Previous quest:");
                     ImGui.TableNextColumn();
-                    ImGui.PushTextWrapPos();
-                    if (quest.PreviousQuestIds?.Any() == true)
-                    {
-                        foreach (var previousQuestId in quest.PreviousQuestIds)
+                    if (quest.PreviousQuestIds == null || quest.PreviousQuestIds.Count == 0) ImGui.Text("None");
+                    else {
+                        for (int i = 0; i < quest.PreviousQuestIds.Count; i++)
                         {
+                            var previousQuestId = quest.PreviousQuestIds[i];
                             var previousQuest = questList.FirstOrDefault(q => q.QuestId == previousQuestId);
-                            if (previousQuest != null)
+
+                            string displayTitle = previousQuest?.QuestTitle 
+                                                  ?? (quest.PreviousQuestTitles != null && i < quest.PreviousQuestTitles.Count 
+                                                          ? quest.PreviousQuestTitles[i] 
+                                                          : $"Unknown Quest ({previousQuestId})");
+
+                            if (ImGui.Selectable($"{displayTitle}##Previous{previousQuestId}"))
                             {
-                                if (ImGui.Selectable($"{previousQuest.QuestTitle}##Previous{previousQuest.QuestId}"))
-                                {
+                                if (previousQuest != null)
                                     questJournal.OpenQuestWindow(previousQuest, questList);
-                                }
                             }
                         }
-                    } else ImGui.Text("None");
-                    ImGui.PopTextWrapPos();
-
+                    }
+                    
                     ImGui.TableNextColumn();
                     ImGui.Text("Next quest:");
                     ImGui.TableNextColumn();
-                    ImGui.PushTextWrapPos();
-                    if (quest.NextQuestIds?.Any() == true)
-                    {
-                        foreach (var nextQuestId in quest.NextQuestIds)
+                    if (quest.NextQuestIds == null || quest.NextQuestIds.Count == 0) ImGui.Text("None");
+                    else {
+                        for (int i = 0; i < quest.NextQuestIds.Count; i++)
                         {
+                            var nextQuestId = quest.NextQuestIds[i];
                             var nextQuest = questList.FirstOrDefault(q => q.QuestId == nextQuestId);
-                            if (nextQuest != null)
+
+                            string displayTitle = nextQuest?.QuestTitle 
+                                                  ?? (quest.PreviousQuestTitles != null && i < quest.PreviousQuestTitles.Count 
+                                                          ? quest.PreviousQuestTitles[i] 
+                                                          : $"Unknown Quest ({nextQuestId})");
+
+                            if (ImGui.Selectable($"{displayTitle}##Previous{nextQuestId}"))
                             {
-                                if (ImGui.Selectable($"{nextQuest.QuestTitle}##Next{nextQuest.QuestId}"))
-                                {
-                                    log.Info($"QUEST: {nextQuest.QuestId}:{nextQuest.QuestTitle}");
+                                if (nextQuest != null)
                                     questJournal.OpenQuestWindow(nextQuest, questList);
-                                }
                             }
                         }
-                    } else ImGui.Text("None");
-                    ImGui.PopTextWrapPos();
-
+                    }
+                    
                     ImGui.Spacing();
                     ImGui.Spacing();
                     ImGui.Spacing();

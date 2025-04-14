@@ -15,11 +15,13 @@ public sealed class QuestJournal : IDalamudPlugin
     public readonly WindowSystem WindowSystem = new("QuestJournal");
     private readonly Dictionary<uint, QuestDetailWindow> openQuestWindows = new();
 
-    public QuestJournal()
+    public QuestJournal(IDalamudPluginInterface pluginInterface)
     {
+        pluginInterface.Create<Service>();
+        
         Configuration = Service.PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
-        QuestDataFetcher = new QuestDataFetcher();
+        QuestDataFetcher = new QuestDataFetcher(Service.DataManager, Service.Log);
         CommandHandler = new CommandHandler(this, Service.CommandManager, QuestDataFetcher, Service.Log, Service.PluginInterface, Configuration);
 
         MainWindow = new MainWindow(Service.Log, Configuration, this);
