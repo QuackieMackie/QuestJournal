@@ -31,7 +31,7 @@ public class OtherUtils
                 (int)(location.Z * 1_000f)
             );
 
-            QuestJournal.GameGui.OpenMapWithMapLink(mapLink);
+            Service.GameGui.OpenMapWithMapLink(mapLink);
 
             log.Info(
                 $"Opened map for starter NPC: {quest.StarterNpc} at coordinates X: {location.X}, Z: {location.Z}. Territory: {location.TerritoryId}, Map: {location.MapId}");
@@ -47,7 +47,7 @@ public class OtherUtils
         try
         {
             if (quest.Rewards?.LocationReward != null)
-                QuestJournal.GameGui.OpenMapWithMapLink(
+                Service.GameGui.OpenMapWithMapLink(
                     new MapLinkPayload(quest.Rewards.LocationReward.TerritoryId, quest.Rewards.LocationReward.MapId, 0,
                                        0));
         }

@@ -17,16 +17,16 @@ public sealed class QuestJournal : IDalamudPlugin
 
     public QuestJournal()
     {
-        Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
+        Configuration = Service.PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
-        QuestDataFetcher = new QuestDataFetcher(DataManager, Log);
-        CommandHandler = new CommandHandler(this, CommandManager, QuestDataFetcher, Log, PluginInterface, Configuration);
+        QuestDataFetcher = new QuestDataFetcher();
+        CommandHandler = new CommandHandler(this, Service.CommandManager, QuestDataFetcher, Service.Log, Service.PluginInterface, Configuration);
 
-        MainWindow = new MainWindow(Log, Configuration, this);
+        MainWindow = new MainWindow(Service.Log, Configuration, this);
         WindowSystem.AddWindow(MainWindow);
 
-        PluginInterface.UiBuilder.Draw += DrawUi;
-        PluginInterface.UiBuilder.OpenMainUi += OpenMainWindow;
+        Service.PluginInterface.UiBuilder.Draw += DrawUi;
+        Service.PluginInterface.UiBuilder.OpenMainUi += OpenMainWindow;
 
         // if (Configuration.DeveloperMode)
         // {
@@ -47,7 +47,7 @@ public sealed class QuestJournal : IDalamudPlugin
             return;
         }
         
-        var questWindow = new QuestDetailWindow(questModel, questList, new RendererUtils(Log, this));
+        var questWindow = new QuestDetailWindow(questModel, questList, new RendererUtils(Service.Log, this));
         openQuestWindows[questModel.QuestId] = questWindow;
         WindowSystem.AddWindow(questWindow);
         questWindow.IsOpen = true;
@@ -64,13 +64,6 @@ public sealed class QuestJournal : IDalamudPlugin
 
         openQuestWindows.Clear();
     }
-
-    [PluginService] internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
-    [PluginService] internal static ICommandManager CommandManager { get; private set; } = null!;
-    [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
-    [PluginService] internal static IGameGui GameGui { get; private set; } = null!;
-    [PluginService] internal static ITextureProvider TextureProvider { get; private set; } = null!;
-    [PluginService] internal static IPluginLog Log { get; private set; } = null!;
 
     public Configuration Configuration { get; init; }
     private MainWindow MainWindow { get; init; }

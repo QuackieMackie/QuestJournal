@@ -15,7 +15,7 @@ public class Configuration : IPluginConfiguration
 
     public void Save()
     {
-        QuestJournal.PluginInterface.SavePluginConfig(this);
+        Service.PluginInterface.SavePluginConfig(this);
     }
 
     public void Reset()

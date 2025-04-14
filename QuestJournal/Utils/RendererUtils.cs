@@ -32,13 +32,13 @@ public class RendererUtils
         this.questJournal = questJournal;
         this.log = log;
 
-        itemSheet = new Lazy<ExcelSheet<Item>>(() => QuestJournal.DataManager.GetExcelSheet<Item>());
-        emoteSheet = new Lazy<ExcelSheet<Emote>>(() => QuestJournal.DataManager.GetExcelSheet<Emote>());
-        actionSheet = new Lazy<ExcelSheet<Action>>(() => QuestJournal.DataManager.GetExcelSheet<Action>());
-        generalActionSheet = new Lazy<ExcelSheet<GeneralAction>>(() => QuestJournal.DataManager.GetExcelSheet<GeneralAction>());
-        otherRewardSheet = new Lazy<ExcelSheet<QuestRewardOther>>(() => QuestJournal.DataManager.GetExcelSheet<QuestRewardOther>());
-        contentTypeSheet = new Lazy<ExcelSheet<ContentType>>(() => QuestJournal.DataManager.GetExcelSheet<ContentType>());
-        eventIconSheet = new Lazy<ExcelSheet<EventIconType>>(() => QuestJournal.DataManager.GetExcelSheet<EventIconType>());
+        itemSheet = new Lazy<ExcelSheet<Item>>(() => Service.DataManager.GetExcelSheet<Item>());
+        emoteSheet = new Lazy<ExcelSheet<Emote>>(() => Service.DataManager.GetExcelSheet<Emote>());
+        actionSheet = new Lazy<ExcelSheet<Action>>(() => Service.DataManager.GetExcelSheet<Action>());
+        generalActionSheet = new Lazy<ExcelSheet<GeneralAction>>(() => Service.DataManager.GetExcelSheet<GeneralAction>());
+        otherRewardSheet = new Lazy<ExcelSheet<QuestRewardOther>>(() => Service.DataManager.GetExcelSheet<QuestRewardOther>());
+        contentTypeSheet = new Lazy<ExcelSheet<ContentType>>(() => Service.DataManager.GetExcelSheet<ContentType>());
+        eventIconSheet = new Lazy<ExcelSheet<EventIconType>>(() => Service.DataManager.GetExcelSheet<EventIconType>());
     }
 
     private ExcelSheet<Item> ItemSheet => itemSheet.Value;
@@ -188,7 +188,7 @@ public class RendererUtils
             ImGui.BeginChild("QuestDetails", new Vector2(0, 260), true);
 
             var iconId = quest.Icon;
-            if (iconId != 0 && QuestJournal.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex)
+            if (iconId != 0 && Service.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex)
                             && imageTex.TryGetWrap(out var image, out _))
             {
                 ImGui.PushStyleVar(ImGuiStyleVar.WindowPadding, Vector2.Zero);
@@ -645,7 +645,7 @@ public class RendererUtils
 
             var iconId = item.Icon;
             var lookup = new GameIconLookup(iconId);
-            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+            var sharedTexture = Service.TextureProvider.GetFromGameIcon(lookup);
             
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
@@ -704,7 +704,7 @@ public class RendererUtils
 
             var iconId = Convert.ToUInt32(iconValue);
             var lookup = new GameIconLookup(iconId);
-            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+            var sharedTexture = Service.TextureProvider.GetFromGameIcon(lookup);
 
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
@@ -735,7 +735,7 @@ public class RendererUtils
         {
             var iconId = Convert.ToUInt32(iconValue);
             var lookup = new GameIconLookup(iconId);
-            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+            var sharedTexture = Service.TextureProvider.GetFromGameIcon(lookup);
 
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
@@ -775,7 +775,7 @@ public class RendererUtils
             var finalIconId = baseIconId + iconOffset;
 
             var lookup = new GameIconLookup(finalIconId);
-            var sharedTexture = QuestJournal.TextureProvider.GetFromGameIcon(lookup);
+            var sharedTexture = Service.TextureProvider.GetFromGameIcon(lookup);
 
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
