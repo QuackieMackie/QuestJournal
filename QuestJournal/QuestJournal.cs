@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using Dalamud.Interface.Windowing;
-using Dalamud.IoC;
 using Dalamud.Plugin;
-using Dalamud.Plugin.Services;
 using QuestJournal.Commands;
 using QuestJournal.Models;
 using QuestJournal.UI;
@@ -35,7 +33,7 @@ public sealed class QuestJournal : IDalamudPlugin
         //     var resources = Assembly.GetExecutingAssembly().GetManifestResourceNames();
         //     foreach (var resource in resources)
         //     {
-        //         Log.Info(resource);
+        //         Service.Log.Info(resource);
         //     }
         // }
     }

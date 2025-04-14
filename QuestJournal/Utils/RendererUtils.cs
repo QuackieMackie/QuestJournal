@@ -9,6 +9,7 @@ using FFXIVClientStructs.FFXIV.Client.Game;
 using ImGuiNET;
 using Lumina.Excel;
 using Lumina.Excel.Sheets;
+using Newtonsoft.Json;
 using QuestJournal.Models;
 using Action = Lumina.Excel.Sheets.Action;
 
@@ -16,6 +17,11 @@ namespace QuestJournal.Utils;
 
 public class RendererUtils
 {
+    private readonly Lazy<List<QuestModel>> fullQuestList = new(
+        () => JsonConvert.DeserializeObject<List<QuestModel>>(EmbeddedResourceLoader.LoadJson("QuestData")) 
+              ?? new List<QuestModel>());
+
+    
     private readonly Lazy<ExcelSheet<Action>> actionSheet;
     private readonly Lazy<ExcelSheet<ContentType>> contentTypeSheet;
     private readonly Lazy<ExcelSheet<Emote>> emoteSheet;
@@ -280,7 +286,7 @@ public class RendererUtils
                         for (int i = 0; i < quest.PreviousQuestIds.Count; i++)
                         {
                             var previousQuestId = quest.PreviousQuestIds[i];
-                            var previousQuest = questList.FirstOrDefault(q => q.QuestId == previousQuestId);
+                            var previousQuest = fullQuestList.Value.FirstOrDefault(q => q.QuestId == previousQuestId);
 
                             string displayTitle = previousQuest?.QuestTitle 
                                                   ?? (quest.PreviousQuestTitles != null && i < quest.PreviousQuestTitles.Count 
@@ -303,7 +309,7 @@ public class RendererUtils
                         for (int i = 0; i < quest.NextQuestIds.Count; i++)
                         {
                             var nextQuestId = quest.NextQuestIds[i];
-                            var nextQuest = questList.FirstOrDefault(q => q.QuestId == nextQuestId);
+                            var nextQuest = fullQuestList.Value.FirstOrDefault(q => q.QuestId == nextQuestId);
 
                             string displayTitle = nextQuest?.QuestTitle 
                                                   ?? (quest.PreviousQuestTitles != null && i < quest.PreviousQuestTitles.Count 
