@@ -1,6 +1,7 @@
 ﻿using System;
 using Dalamud.Game.Text.SeStringHandling.Payloads;
 using Dalamud.Plugin.Services;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using QuestJournal.Models;
 
 namespace QuestJournal.Utils;
@@ -55,5 +56,25 @@ public class OtherUtils
         {
             log.Error($"Failed to open map {quest.Rewards?.LocationReward}. Exception: {ex.Message}");
         }
+    }
+
+    public static QuestStatusModel GetQuestStatus(QuestModel quest)
+    {
+        bool isComplete;
+        bool isAccepted;
+        unsafe
+        {
+            isAccepted = QuestManager.Instance()->IsQuestAccepted(quest.QuestId);
+
+            isComplete = quest.IsRepeatable
+                             ? QuestManager.Instance()->IsDailyQuestCompleted((ushort)quest.QuestId)
+                             : QuestManager.IsQuestComplete(quest.QuestId);
+        }
+
+        return new QuestStatusModel
+        {
+            StatusSymbol = isComplete ? "\u2713" : isAccepted ? "\u2192" : "\u00d7",
+            HoverText = isComplete ? "Complete" : isAccepted ? "In Progress" : "Not Started"
+        };
     }
 }

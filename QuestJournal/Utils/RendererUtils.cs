@@ -206,6 +206,7 @@ public class RendererUtils
                     var aspectRatio = image.Size.Y / image.Size.X;
                     var newWidth = windowSize.X;
                     var newHeight = newWidth * aspectRatio;
+                    var alpha = ImGui.GetStyle().Alpha;
 
                     if (newHeight < windowSize.Y)
                     {
@@ -219,10 +220,13 @@ public class RendererUtils
                     ImGui.GetWindowDrawList().AddImage(
                         image.ImGuiHandle,
                         new Vector2(centeredX, centeredY),
-                        new Vector2(centeredX + newWidth, centeredY + newHeight)
+                        new Vector2(centeredX + newWidth, centeredY + newHeight),
+                        Vector2.Zero,
+                        Vector2.One,
+                        ImGui.ColorConvertFloat4ToU32(new Vector4(1f, 1f, 1f, alpha))
                     );
 
-                    var overlayColor = new Vector4(0f, 0f, 0f, 0.75f);
+                    var overlayColor = new Vector4(0f, 0f, 0f, 0.75f * alpha);
                     ImGui.GetWindowDrawList().AddRectFilled(
                         new Vector2(centeredX, centeredY),
                         new Vector2(centeredX + newWidth, centeredY + newHeight),
@@ -278,10 +282,21 @@ public class RendererUtils
                     ImGui.Text("First quest:");
                     ImGui.TableNextColumn();
                     var firstQuest = questList.FirstOrDefault();
-                    if (firstQuest != null && ImGui.Selectable($"{firstQuest.QuestTitle ?? "None"}##FirstQuest"))
+                    if (firstQuest != null)
                     {
-                        questJournal.OpenQuestWindow(firstQuest, questList);
+                        var firstQuestStatusInfo = OtherUtils.GetQuestStatus(firstQuest);
+                        if (ImGui.Selectable($"{firstQuestStatusInfo.StatusSymbol} {firstQuest.QuestTitle ?? "None"}##{firstQuest.QuestId}"))
+                        {
+                            questJournal.OpenQuestWindow(firstQuest, questList);
+                        }
+                        if (ImGui.IsItemHovered())
+                        {
+                            ImGui.BeginTooltip();
+                            ImGui.Text(firstQuestStatusInfo.HoverText);
+                            ImGui.EndTooltip();
+                        }
                     }
+
 
                     ImGui.TableNextColumn();
                     ImGui.Text("Previous quest:");
@@ -293,15 +308,19 @@ public class RendererUtils
                             var previousQuestId = quest.PreviousQuestIds[i];
                             var previousQuest = fullQuestList.Value.FirstOrDefault(q => q.QuestId == previousQuestId);
 
-                            string displayTitle = previousQuest?.QuestTitle 
-                                                  ?? (quest.PreviousQuestTitles != null && i < quest.PreviousQuestTitles.Count 
-                                                          ? quest.PreviousQuestTitles[i] 
-                                                          : $"Unknown Quest ({previousQuestId})");
-
-                            if (ImGui.Selectable($"{displayTitle}##Previous{previousQuestId}"))
+                            if (previousQuest != null)
                             {
-                                if (previousQuest != null)
+                                var previousQuestStatusInfo = OtherUtils.GetQuestStatus(previousQuest);
+                                if (ImGui.Selectable($"{previousQuestStatusInfo.StatusSymbol} {previousQuest.QuestTitle ?? "None"}##{previousQuestId}"))
+                                {
                                     questJournal.OpenQuestWindow(previousQuest, questList);
+                                }
+                                if (ImGui.IsItemHovered())
+                                {
+                                    ImGui.BeginTooltip();
+                                    ImGui.Text(previousQuestStatusInfo.HoverText);
+                                    ImGui.EndTooltip();
+                                }
                             }
                         }
                     }
@@ -316,15 +335,19 @@ public class RendererUtils
                             var nextQuestId = quest.NextQuestIds[i];
                             var nextQuest = fullQuestList.Value.FirstOrDefault(q => q.QuestId == nextQuestId);
 
-                            string displayTitle = nextQuest?.QuestTitle 
-                                                  ?? (quest.PreviousQuestTitles != null && i < quest.PreviousQuestTitles.Count 
-                                                          ? quest.PreviousQuestTitles[i] 
-                                                          : $"Unknown Quest ({nextQuestId})");
-
-                            if (ImGui.Selectable($"{displayTitle}##Previous{nextQuestId}"))
+                            if (nextQuest != null)
                             {
-                                if (nextQuest != null)
+                                var nextQuestStatusInfo = OtherUtils.GetQuestStatus(nextQuest);
+                                if (ImGui.Selectable($"{nextQuestStatusInfo.StatusSymbol} {nextQuest.QuestTitle ?? "None"}##{nextQuestId}"))
+                                {
                                     questJournal.OpenQuestWindow(nextQuest, questList);
+                                }
+                                if (ImGui.IsItemHovered())
+                                {
+                                    ImGui.BeginTooltip();
+                                    ImGui.Text(nextQuestStatusInfo.HoverText);
+                                    ImGui.EndTooltip();
+                                }
                             }
                         }
                     }
