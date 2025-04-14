@@ -25,7 +25,7 @@ public class QuestDetailWindow : Window, IDisposable
         SizeConstraints = new WindowSizeConstraints
         {
             MinimumSize = new Vector2(700, 300),
-            MaximumSize = new Vector2(700, 300),
+            MaximumSize = new Vector2(900, 300),
         };
     }
 

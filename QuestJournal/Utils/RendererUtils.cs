@@ -20,7 +20,6 @@ public class RendererUtils
     private readonly Lazy<List<QuestModel>> fullQuestList = new(
         () => JsonConvert.DeserializeObject<List<QuestModel>>(EmbeddedResourceLoader.LoadJson("QuestData")) 
               ?? new List<QuestModel>());
-
     
     private readonly Lazy<ExcelSheet<Action>> actionSheet;
     private readonly Lazy<ExcelSheet<ContentType>> contentTypeSheet;
@@ -191,7 +190,7 @@ public class RendererUtils
 
         try
         {
-            ImGui.BeginChild("QuestDetails", new Vector2(0, 260), true);
+            ImGui.BeginChild("QuestDetails", new Vector2(0, 270), true);
 
             var iconId = quest.Icon;
             if (iconId != 0 && Service.TextureProvider.TryGetFromGameIcon(iconId, out var imageTex)
@@ -239,7 +238,13 @@ public class RendererUtils
             GetQuestIcon(quest, 26);
             ImGui.SameLine();
             ImGui.AlignTextToFramePadding();
-            ImGui.TextColored(new Vector4(0.9f, 0.7f, 0.2f, 1f), quest.QuestTitle);
+            ImGui.PushStyleColor(ImGuiCol.Text, new Vector4(0.9f, 0.7f, 0.2f, 1f));
+            if (ImGui.Selectable(quest.QuestTitle))
+            {
+                questJournal.OpenQuestWindow(quest, questList);
+            }
+            ImGui.PopStyleColor();
+            
             ImGui.SameLine();
             ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - ImGui.CalcTextSize($"ID: {quest.QuestId}").X);
             ImGui.TextColored(new Vector4(0.6f, 0.6f, 0.6f, 1f), $"ID: {quest.QuestId}");
