@@ -47,7 +47,7 @@ public sealed class QuestJournal : IDalamudPlugin
             return;
         }
         
-        var questWindow = new QuestDetailWindow(questModel, questList, new RendererUtils(Service.Log, this));
+        var questWindow = new QuestDetailWindow(questModel, questList, new RendererUtils(Service.Log, this), Configuration);
         openQuestWindows[questModel.QuestId] = questWindow;
         WindowSystem.AddWindow(questWindow);
         questWindow.IsOpen = true;

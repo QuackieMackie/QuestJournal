@@ -10,6 +10,8 @@ public class Configuration : IPluginConfiguration
     public string GrandCompany { get; set; } = "Immortal Flames";
     public string StarterClass { get; set; } = "Gladiator";
     
+    public bool CensorStarterLocations { get; set; } = false;
+    
     public bool DeveloperMode { get; set; } = false;
     public int Version { get; set; } = 0;
 
