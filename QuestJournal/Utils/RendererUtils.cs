@@ -413,11 +413,10 @@ public class RendererUtils
                     }
                     else
                     {
-                        if (quest.StarterNpcLocation != null)
-                        {
+                        if (ImGui.Selectable($"{quest.StarterNpc ?? "Unknown Location"}##DetailsStarterNpc{quest.QuestId}")) {
                             log.Info($"Opening starter location for NPC: {quest.StarterNpc}");
                             OtherUtils.OpenStarterLocation(quest, log);
-                        } else log.Warning($"No starter location available for NPC: {quest.StarterNpc}");
+                        }
                     }
 
                     ImGui.TableNextColumn();
