@@ -39,8 +39,8 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
 
         rendererUtils.DrawSearchBar(ref searchQuery);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
-        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList);
-        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest);
+        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false);
+        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false);
     }
 
     public void ReloadQuests()

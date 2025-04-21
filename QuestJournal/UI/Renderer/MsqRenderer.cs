@@ -8,7 +8,7 @@ using QuestJournal.Utils;
 
 namespace QuestJournal.UI.Renderer;
 
-public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPluginLog log)
+public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, Configuration configuration, IPluginLog log)
 {
     private List<string> dropDownCategories = new();
     private Dictionary<string, string> dropDownCategoryMap = new();
@@ -32,8 +32,8 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, IPl
 
         rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
         rendererUtils.DrawSearchBar(ref searchQuery);
-        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList);
-        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest);
+        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, configuration.CensorStarterLocations);
+        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, configuration.CensorStarterLocations);
     }
 
     public void ReloadQuests()

@@ -125,6 +125,23 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
             ImGui.Text("If you don't know what to select, click the button to automatically fill it in the correct value.");
             ImGui.EndTooltip();
         }
+        
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        
+        ImGui.Separator();
+        ImGui.Text("Censor starter locations for MSQ");
+        var censorStarterLocations = configuration.CensorStarterLocations;
+        if (ImGui.Checkbox(
+                "This replaces starter locations for uncompleted quests with '????' instead of showing their names.",
+                ref censorStarterLocations))
+        {
+            configuration.CensorStarterLocations = censorStarterLocations;
+            configuration.Save();
+        }
 
         ImGui.Spacing();
         ImGui.Spacing();

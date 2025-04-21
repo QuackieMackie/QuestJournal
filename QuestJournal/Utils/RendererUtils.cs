@@ -94,7 +94,7 @@ public class RendererUtils
         return new Vector4(1f, 1f, 1f, 1f); // Default white
     }
 
-    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest)
+    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest, bool CensorStarterLocations)
     {
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
@@ -162,12 +162,34 @@ public class RendererUtils
                 }
 
                 ImGui.TableNextColumn();
-                if (ImGui.Selectable($"{quests[i].StarterNpc ?? "Unknown Location"}##StarterNpc{i}"))
+                if (CensorStarterLocations)
                 {
-                    log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
-                    OtherUtils.OpenStarterLocation(quests[i], log);
+                    if (!isComplete && !isAccepted) 
+                    {
+                        if (ImGui.Selectable($"{quests[i].StarterNpc?.Replace(quests[i].StarterNpc ?? "??????", "??????")}##StarterNpc{i}"))
+                        {
+                            log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
+                            OtherUtils.OpenStarterLocation(quests[i], log);
+                        }
+                    }
+                    else if (isAccepted || isComplete) 
+                    {
+                        if (ImGui.Selectable($"{quests[i].StarterNpc ?? "Unknown Location"}##StarterNpc{i}"))
+                        {
+                            log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
+                            OtherUtils.OpenStarterLocation(quests[i], log);
+                        }
+                    }
                 }
-
+                else
+                {
+                    if (ImGui.Selectable($"{quests[i].StarterNpc ?? "Unknown Location"}##StarterNpc{i}"))
+                    {
+                        log.Info($"Selected quest starter location: {quests[i].StarterNpc} for Quest ID: {quests[i].QuestId}");
+                        OtherUtils.OpenStarterLocation(quests[i], log);
+                    } 
+                }
+                
                 ImGui.PopStyleColor();
             }
 
@@ -177,7 +199,7 @@ public class RendererUtils
         ImGui.EndChild();
     }
 
-    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList)
+    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList, bool CensorStarterLocations)
     {
         if (quest == null)
         {
@@ -359,15 +381,43 @@ public class RendererUtils
                     ImGui.TableNextColumn();
                     ImGui.Text("Starter NPC:");
                     ImGui.TableNextColumn();
-                    if (ImGui.Selectable(quest.StarterNpc ?? "None"))
+                    bool isComplete;
+                    bool isAccepted;
+                    unsafe
+                    {
+                        isAccepted = QuestManager.Instance()->IsQuestAccepted(quest.QuestId);
+    
+                        isComplete = quest.IsRepeatable
+                                         ? QuestManager.Instance()->IsDailyQuestCompleted((ushort)quest.QuestId)
+                                         : QuestManager.IsQuestComplete(quest.QuestId);
+                    }
+                    
+                    if (CensorStarterLocations)
+                    {
+                        if (!isComplete && !isAccepted) 
+                        {
+                            if (ImGui.Selectable($"{quest.StarterNpc?.Replace(quest.StarterNpc ?? "??????", "??????")}##DetailsStarterNpc{quest.QuestId}"))
+                            {
+                                log.Info($"Selected quest starter location: {quest.StarterNpc} for Quest ID: {quest.QuestId}");
+                                OtherUtils.OpenStarterLocation(quest, log);
+                            }
+                        }
+                        else if (isAccepted || isComplete) 
+                        {
+                            if (ImGui.Selectable($"{quest.StarterNpc ?? "Unknown Location"}##DetailsStarterNpc{quest.QuestId}"))
+                            {
+                                log.Info($"Selected quest starter location: {quest.StarterNpc} for Quest ID: {quest.QuestId}");
+                                OtherUtils.OpenStarterLocation(quest, log);
+                            }
+                        }
+                    }
+                    else
                     {
                         if (quest.StarterNpcLocation != null)
                         {
                             log.Info($"Opening starter location for NPC: {quest.StarterNpc}");
                             OtherUtils.OpenStarterLocation(quest, log);
-                        }
-                        else
-                            log.Warning($"No starter location available for NPC: {quest.StarterNpc}");
+                        } else log.Warning($"No starter location available for NPC: {quest.StarterNpc}");
                     }
 
                     ImGui.TableNextColumn();

@@ -43,7 +43,7 @@ public class MainWindow : Window, IDisposable
 
         rendererUtils = new RendererUtils(log, questJournal);
 
-        msqRenderer = new MsqRenderer(msqHandler, rendererUtils, log);
+        msqRenderer = new MsqRenderer(msqHandler, rendererUtils, configuration, log);
         jobRenderer = new JobRenderer(jobHandler, rendererUtils, log);
         featureRenderer = new FeatureRenderer(featureHandler, rendererUtils, log);
         settingsRenderer = new SettingsRenderer(configuration, this);
