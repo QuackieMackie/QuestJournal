@@ -1,0 +1,2113 @@
+[
+  {
+    "QuestId": 70791,
+    "QuestTitle": "\uE0BE Cultivating Hope",
+    "PreviousQuestIds": [
+      70495,
+      70654
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail",
+      "\uE0BE One Forest"
+    ],
+    "NextQuestIds": [
+      70792
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Doppro Tradition"
+    ],
+    "StarterNpc": "Gotoll Ja",
+    "StarterNpcLocation": {
+      "RowId": 11537760,
+      "X": 706.702,
+      "Y": -133.174,
+      "Z": 530.779,
+      "Yaw": 2.03643,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Anggir",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 33,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101401,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1489,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70792,
+    "QuestTitle": "\uE0BE Doppro Tradition",
+    "PreviousQuestIds": [
+      70791
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Cultivating Hope"
+    ],
+    "NextQuestIds": [
+      70793
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Hoobigo\u0027s Return"
+    ],
+    "StarterNpc": "Ruvoll Ja",
+    "StarterNpcLocation": {
+      "RowId": 11537746,
+      "X": 578.149,
+      "Y": -144.885,
+      "Z": 721.85,
+      "Yaw": -1.38142,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Anggir",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 33,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101402,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1144,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70793,
+    "QuestTitle": "\uE0BE A Hoobigo\u0027s Return",
+    "PreviousQuestIds": [
+      70792
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Doppro Tradition"
+    ],
+    "NextQuestIds": [
+      70794
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Boon of Boonewa"
+    ],
+    "StarterNpc": "Ruvoll Ja",
+    "StarterNpcLocation": {
+      "RowId": 11537746,
+      "X": 578.149,
+      "Y": -144.885,
+      "Z": 721.85,
+      "Yaw": -1.38142,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Anggir",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 33,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101403,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 3078,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70794,
+    "QuestTitle": "\uE0BE The Boon of Boonewa",
+    "PreviousQuestIds": [
+      70793
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Hoobigo\u0027s Return"
+    ],
+    "NextQuestIds": [
+      70795
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A New Yak T\u0027el"
+    ],
+    "StarterNpc": "Ruvoll Ja",
+    "StarterNpcLocation": {
+      "RowId": 11537746,
+      "X": 578.149,
+      "Y": -144.885,
+      "Z": 721.85,
+      "Yaw": -1.38142,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Ruvoll Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 33,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101404,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1489,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70795,
+    "QuestTitle": "\uE0BE A New Yak T\u0027el",
+    "PreviousQuestIds": [
+      70794
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Boon of Boonewa"
+    ],
+    "NextQuestIds": [
+      70796
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Pride of Mamook"
+    ],
+    "StarterNpc": "Ruvoll Ja",
+    "StarterNpcLocation": {
+      "RowId": 11537746,
+      "X": 578.149,
+      "Y": -144.885,
+      "Z": 721.85,
+      "Yaw": -1.38142,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Anggir",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 33,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101405,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1446,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70796,
+    "QuestTitle": "\uE0BE The Pride of Mamook",
+    "PreviousQuestIds": [
+      70795
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A New Yak T\u0027el"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ruvoll Ja",
+    "StarterNpcLocation": {
+      "RowId": 11537746,
+      "X": 578.149,
+      "Y": -144.885,
+      "Z": 721.85,
+      "Yaw": -1.38142,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Anggir",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 33,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101406,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Sworn"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70797,
+    "QuestTitle": "\uE0BE Root of the Problem",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70798,
+    "QuestTitle": "\uE0BE Taking Your Leavings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70799,
+    "QuestTitle": "\uE0BE Cultivating Data",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70800,
+    "QuestTitle": "\uE0BE Toil for the Soil",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70801,
+    "QuestTitle": "\uE0BE Stem\u0027s the Breaks",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70802,
+    "QuestTitle": "\uE0BE All Tools\u0027 Maintenance",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70803,
+    "QuestTitle": "\uE0BE Healing the Fields",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70804,
+    "QuestTitle": "\uE0BE Bonding with Branchbearers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70805,
+    "QuestTitle": "\uE0BE Bugs Begone",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70806,
+    "QuestTitle": "\uE0BE Pain Relief",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70807,
+    "QuestTitle": "\uE0BE Stimulating Growth",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70808,
+    "QuestTitle": "\uE0BE Fresh Cleaning Supplies",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70809,
+    "QuestTitle": "\uE0BE Shine a Light on the Problem",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70810,
+    "QuestTitle": "\uE0BE A Measure of Influence",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70811,
+    "QuestTitle": "\uE0BE Promoting Produce",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70812,
+    "QuestTitle": "\uE0BE Rough Around the Edges",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70813,
+    "QuestTitle": "\uE0BE Building a Better Smoke Bomb",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70814,
+    "QuestTitle": "\uE0BE Remedies at the Ready",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70815,
+    "QuestTitle": "\uE0BE A Welcoming Fragrance",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70816,
+    "QuestTitle": "\uE0BE Fruit of Friendship",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70817,
+    "QuestTitle": "\uE0BE Vital Vegetables",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70818,
+    "QuestTitle": "\uE0BE Creative Composting",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 972,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70819,
+    "QuestTitle": "\uE0BE Stores to Dry For",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70820,
+    "QuestTitle": "\uE0BE Keeping the Lights On",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70821,
+    "QuestTitle": "\uE0BE Gifts of the Gainery",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 885,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70822,
+    "QuestTitle": "\uE0BE A Seasoning for Soup",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70823,
+    "QuestTitle": "\uE0BE Store-to-door Delivery",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70824,
+    "QuestTitle": "\uE0BE Above-average Beverage",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kageel Ja",
+    "StarterNpcLocation": {
+      "RowId": 11400860,
+      "X": 589.319,
+      "Y": -142.897,
+      "Z": 729.46,
+      "Yaw": -1.04282,
+      "Radius": 1,
+      "MapId": 859,
+      "TerritoryId": 1189
+    },
+    "FinishNpc": "Kageel Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 31,
+        "Name": "Mamool Ja Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Mamool Ja",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48084,
+          "ItemName": "Mamool Ja Nanook",
+          "Count": 1
+        },
+        {
+          "ItemId": 6141,
+          "ItemName": "Cordial",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 19,
+        "ReputationName": "Mamool Ja",
+        "Count": 60
+      }
+    }
+  }
+]
