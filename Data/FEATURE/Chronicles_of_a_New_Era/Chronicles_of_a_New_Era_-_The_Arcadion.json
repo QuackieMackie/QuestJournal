@@ -1,0 +1,1060 @@
+[
+  {
+    "QuestId": 70496,
+    "QuestTitle": "A New Challenger Appears",
+    "PreviousQuestIds": [
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail"
+    ],
+    "NextQuestIds": [
+      70497
+    ],
+    "NextQuestTitles": [
+      "The Claw in the Dark"
+    ],
+    "StarterNpc": "stylish stranger",
+    "StarterNpcLocation": {
+      "RowId": 10438620,
+      "X": 340.145,
+      "Y": 50.75,
+      "Z": 231.393,
+      "Yaw": 1.72966,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Metem",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101306,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1100,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70497,
+    "QuestTitle": "The Claw in the Dark",
+    "PreviousQuestIds": [
+      70496
+    ],
+    "PreviousQuestTitles": [
+      "A New Challenger Appears"
+    ],
+    "NextQuestIds": [
+      70498
+    ],
+    "NextQuestTitles": [
+      "Sweet Poison"
+    ],
+    "StarterNpc": "Metem",
+    "StarterNpcLocation": {
+      "RowId": 10439259,
+      "X": 1.63093,
+      "Y": 0,
+      "Z": -6.06084,
+      "Yaw": -0.643706,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Metem",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112567,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Light-heavyweight M1",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70498,
+    "QuestTitle": "Sweet Poison",
+    "PreviousQuestIds": [
+      70497
+    ],
+    "PreviousQuestTitles": [
+      "The Claw in the Dark"
+    ],
+    "NextQuestIds": [
+      70499
+    ],
+    "NextQuestTitles": [
+      "Yaana\u0027s Yarn"
+    ],
+    "StarterNpc": "Metem",
+    "StarterNpcLocation": {
+      "RowId": 10444678,
+      "X": 0.149487,
+      "Y": 0,
+      "Z": -9.64919,
+      "Yaw": -3.00561,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112569,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Light-heavyweight M2",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70499,
+    "QuestTitle": "Yaana\u0027s Yarn",
+    "PreviousQuestIds": [
+      70498
+    ],
+    "PreviousQuestTitles": [
+      "Sweet Poison"
+    ],
+    "NextQuestIds": [
+      70500
+    ],
+    "NextQuestTitles": [
+      "Vile Heat"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 10444679,
+      "X": 1.69007,
+      "Y": 0,
+      "Z": -10.7185,
+      "Yaw": -2.49829,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101307,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70500,
+    "QuestTitle": "Vile Heat",
+    "PreviousQuestIds": [
+      70499
+    ],
+    "PreviousQuestTitles": [
+      "Yaana\u0027s Yarn"
+    ],
+    "NextQuestIds": [
+      70501
+    ],
+    "NextQuestTitles": [
+      "The Neoteric Witch"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 10439402,
+      "X": 2.37893,
+      "Y": 0,
+      "Z": -14.1817,
+      "Yaw": -0.973809,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112571,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Light-heavyweight M3",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70501,
+    "QuestTitle": "The Neoteric Witch",
+    "PreviousQuestIds": [
+      70500
+    ],
+    "PreviousQuestTitles": [
+      "Vile Heat"
+    ],
+    "NextQuestIds": [
+      70825
+    ],
+    "NextQuestTitles": [
+      "Souls under Siege"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 10441701,
+      "X": 1.6901,
+      "Y": 0,
+      "Z": -10.7185,
+      "Yaw": -2.49829,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112573,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 1
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 1
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Light-heavyweight M4",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70825,
+    "QuestTitle": "Souls under Siege",
+    "PreviousQuestIds": [
+      70501
+    ],
+    "PreviousQuestTitles": [
+      "The Neoteric Witch"
+    ],
+    "NextQuestIds": [
+      70826
+    ],
+    "NextQuestTitles": [
+      "The Dancing King"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 10439005,
+      "X": 494.767,
+      "Y": 59.55,
+      "Z": 125.139,
+      "Yaw": -1.62469,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101399,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1700,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70826,
+    "QuestTitle": "The Dancing King",
+    "PreviousQuestIds": [
+      70825
+    ],
+    "PreviousQuestTitles": [
+      "Souls under Siege"
+    ],
+    "NextQuestIds": [
+      70827
+    ],
+    "NextQuestTitles": [
+      "Art at War"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 11532405,
+      "X": 1.65033,
+      "Y": 0,
+      "Z": -12.4593,
+      "Yaw": -0.485742,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112597,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Cruiserweight M1",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70827,
+    "QuestTitle": "Art at War",
+    "PreviousQuestIds": [
+      70826
+    ],
+    "PreviousQuestTitles": [
+      "The Dancing King"
+    ],
+    "NextQuestIds": [
+      70828
+    ],
+    "NextQuestTitles": [
+      "Twisted Vengeance"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 11534099,
+      "X": 1.98795,
+      "Y": 0,
+      "Z": -11.1049,
+      "Yaw": -2.72104,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112599,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5045,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Cruiserweight M2",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70828,
+    "QuestTitle": "Twisted Vengeance",
+    "PreviousQuestIds": [
+      70827
+    ],
+    "PreviousQuestTitles": [
+      "Art at War"
+    ],
+    "NextQuestIds": [
+      70829
+    ],
+    "NextQuestTitles": [
+      "Family Matters"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 11534099,
+      "X": 1.98795,
+      "Y": 0,
+      "Z": -11.1049,
+      "Yaw": -2.72104,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112601,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5641,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Cruiserweight M3",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70829,
+    "QuestTitle": "Family Matters",
+    "PreviousQuestIds": [
+      70828
+    ],
+    "PreviousQuestTitles": [
+      "Twisted Vengeance"
+    ],
+    "NextQuestIds": [
+      70830
+    ],
+    "NextQuestTitles": [
+      "The Lone Wolf"
+    ],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 11513882,
+      "X": 4.88252,
+      "Y": 0,
+      "Z": -6.51874,
+      "Yaw": -1.87145,
+      "Radius": 1,
+      "MapId": 937,
+      "TerritoryId": 1223
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101400,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1509,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70830,
+    "QuestTitle": "The Lone Wolf",
+    "PreviousQuestIds": [
+      70829
+    ],
+    "PreviousQuestTitles": [
+      "Family Matters"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yaana",
+    "StarterNpcLocation": {
+      "RowId": 11532405,
+      "X": 1.65033,
+      "Y": 0,
+      "Z": -12.4593,
+      "Yaw": -0.485742,
+      "Radius": 1,
+      "MapId": 938,
+      "TerritoryId": 1224
+    },
+    "FinishNpc": "Yaana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 31,
+      "JournalCategory": {
+        "Id": 29,
+        "Name": "Chronicles of a New Era - The Arcadion"
+      },
+      "Name": "The Arcadion"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112603,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5366,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 1
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 1
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "AAC Cruiserweight M4",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

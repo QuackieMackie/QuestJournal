@@ -1,0 +1,254 @@
+[
+  {
+    "QuestId": 70769,
+    "QuestTitle": "An Otherworldly Encounter",
+    "PreviousQuestIds": [
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail"
+    ],
+    "NextQuestIds": [
+      70770
+    ],
+    "NextQuestTitles": [
+      "It All Began with a Stone"
+    ],
+    "StarterNpc": "Hoobigo messenger",
+    "StarterNpcLocation": {
+      "RowId": 10968959,
+      "X": -15.3151,
+      "Y": 1.19209E-07,
+      "Z": 31.3627,
+      "Yaw": -2.68524,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Bakool Ja Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112585,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Jeuno: The First Walk",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70770,
+    "QuestTitle": "It All Began with a Stone",
+    "PreviousQuestIds": [
+      70769
+    ],
+    "PreviousQuestTitles": [
+      "An Otherworldly Encounter"
+    ],
+    "NextQuestIds": [
+      70771
+    ],
+    "NextQuestTitles": [
+      "That World Was Called Vana\u0027diel"
+    ],
+    "StarterNpc": "Prishe",
+    "StarterNpcLocation": {
+      "RowId": 10968978,
+      "X": -1.62966,
+      "Y": 42,
+      "Z": -0.699971,
+      "Yaw": 0.894268,
+      "Radius": 1,
+      "MapId": 955,
+      "TerritoryId": 1264
+    },
+    "FinishNpc": "Bakool Ja Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101390,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70771,
+    "QuestTitle": "That World Was Called Vana\u0027diel",
+    "PreviousQuestIds": [
+      70770
+    ],
+    "PreviousQuestTitles": [
+      "It All Began with a Stone"
+    ],
+    "NextQuestIds": [
+      70772
+    ],
+    "NextQuestTitles": [
+      "Jeuno"
+    ],
+    "StarterNpc": "Alxaal",
+    "StarterNpcLocation": {
+      "RowId": 10969769,
+      "X": 0.565741,
+      "Y": 42,
+      "Z": -5.20603,
+      "Yaw": -1.7357,
+      "Radius": 1,
+      "MapId": 955,
+      "TerritoryId": 1264
+    },
+    "FinishNpc": "Prishe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101391,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70772,
+    "QuestTitle": "Jeuno",
+    "PreviousQuestIds": [
+      70771
+    ],
+    "PreviousQuestTitles": [
+      "That World Was Called Vana\u0027diel"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bakool Ja Ja",
+    "StarterNpcLocation": {
+      "RowId": 11007963,
+      "X": 121.799,
+      "Y": -14.0231,
+      "Z": 29.6106,
+      "Yaw": 2.03257,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Prishe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 140,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101392,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 45023,
+          "ItemName": "The Grand Duchy of Jeuno Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

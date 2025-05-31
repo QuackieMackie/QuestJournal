@@ -1,0 +1,997 @@
+[
+  {
+    "QuestId": 65626,
+    "QuestTitle": "Drop Dead Shiva",
+    "PreviousQuestIds": [
+      65625
+    ],
+    "PreviousQuestTitles": [
+      "Let Us Cling Together"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112074,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Akh Afah Amphitheatre (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65969,
+    "QuestTitle": "Fear and Odin in the Shroud",
+    "PreviousQuestIds": [
+      70058,
+      66548
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon",
+      "All You Wanted to Know about Odin"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Scarlet",
+    "StarterNpcLocation": {
+      "RowId": 4760560,
+      "X": -63.767,
+      "Y": -1.71717,
+      "Z": 11.6794,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "O-App-Pesi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112065,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2908,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Urth\u0027s Fount",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66583,
+    "QuestTitle": "A Recurring Problem",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      66584
+    ],
+    "NextQuestTitles": [
+      "Ifrit Bleeds, We Can Kill It"
+    ],
+    "StarterNpc": "Minfilia",
+    "StarterNpcLocation": {
+      "RowId": 4497337,
+      "X": 39.3147,
+      "Y": 1.2148,
+      "Z": 0.823,
+      "Yaw": -1.72933,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66584,
+    "QuestTitle": "Ifrit Bleeds, We Can Kill It",
+    "PreviousQuestIds": [
+      66583
+    ],
+    "PreviousQuestTitles": [
+      "A Recurring Problem"
+    ],
+    "NextQuestIds": [
+      66693
+    ],
+    "NextQuestTitles": [
+      "In for Garuda Awakening"
+    ],
+    "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 4497356,
+      "X": 1.4871,
+      "Y": -3,
+      "Z": -48.7043,
+      "Yaw": -0.651165,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112021,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20004,
+          "InstanceName": "the Bowl of Embers (Hard)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66693,
+    "QuestTitle": "In for Garuda Awakening",
+    "PreviousQuestIds": [
+      66584
+    ],
+    "PreviousQuestTitles": [
+      "Ifrit Bleeds, We Can Kill It"
+    ],
+    "NextQuestIds": [
+      66694
+    ],
+    "NextQuestTitles": [
+      "In a Titan Spot"
+    ],
+    "StarterNpc": "Papalymo",
+    "StarterNpcLocation": {
+      "RowId": 4497357,
+      "X": 0.1849,
+      "Y": -3,
+      "Z": -52.7098,
+      "Yaw": -0.182499,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112023,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20006,
+          "InstanceName": "the Howling Eye (Hard)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66694,
+    "QuestTitle": "In a Titan Spot",
+    "PreviousQuestIds": [
+      66693
+    ],
+    "PreviousQuestTitles": [
+      "In for Garuda Awakening"
+    ],
+    "NextQuestIds": [
+      66695,
+      66730
+    ],
+    "NextQuestTitles": [
+      "Primal Awakening",
+      "Primal Nature"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 4497361,
+      "X": -0.8088,
+      "Y": -3,
+      "Z": -47.7761,
+      "Yaw": 1.55898,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112022,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20005,
+          "InstanceName": "the Navel (Hard)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66730,
+    "QuestTitle": "Primal Nature",
+    "PreviousQuestIds": [
+      66694
+    ],
+    "PreviousQuestTitles": [
+      "In a Titan Spot"
+    ],
+    "NextQuestIds": [
+      66731
+    ],
+    "NextQuestTitles": [
+      "Gale-force Warning"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Vorsaile Heuloix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100181,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 939,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4554,
+          "ItemName": "X-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4558,
+          "ItemName": "X-Ether",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4560,
+          "ItemName": "Hi-Elixir",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66731,
+    "QuestTitle": "Gale-force Warning",
+    "PreviousQuestIds": [
+      66730
+    ],
+    "PreviousQuestTitles": [
+      "Primal Nature"
+    ],
+    "NextQuestIds": [
+      66732
+    ],
+    "NextQuestTitles": [
+      "Quake Me Up Before You O\u0027Ghomoro"
+    ],
+    "StarterNpc": "Vorsaile Heuloix",
+    "StarterNpcLocation": {
+      "RowId": 1141151,
+      "X": -75.4815,
+      "Y": -0.501378,
+      "Z": -5.07031,
+      "Yaw": 0.992908,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100161,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2908,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Howling Eye (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66732,
+    "QuestTitle": "Quake Me Up Before You O\u0027Ghomoro",
+    "PreviousQuestIds": [
+      66731
+    ],
+    "PreviousQuestTitles": [
+      "Gale-force Warning"
+    ],
+    "NextQuestIds": [
+      66733
+    ],
+    "NextQuestTitles": [
+      "Ifrit Ain\u0027t Broke"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100133,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2908,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Navel (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66733,
+    "QuestTitle": "Ifrit Ain\u0027t Broke",
+    "PreviousQuestIds": [
+      66732
+    ],
+    "PreviousQuestTitles": [
+      "Quake Me Up Before You O\u0027Ghomoro"
+    ],
+    "NextQuestIds": [
+      66734
+    ],
+    "NextQuestTitles": [
+      "To Tussle with Gods"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100076,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2908,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Bowl of Embers (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66734,
+    "QuestTitle": "To Tussle with Gods",
+    "PreviousQuestIds": [
+      66733
+    ],
+    "PreviousQuestTitles": [
+      "Ifrit Ain\u0027t Broke"
+    ],
+    "NextQuestIds": [
+      66845
+    ],
+    "NextQuestTitles": [
+      "Primal Focus"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Laraina",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7004,
+          "ItemName": "Rowena\u0027s Token",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66845,
+    "QuestTitle": "Primal Focus",
+    "PreviousQuestIds": [
+      66734
+    ],
+    "PreviousQuestTitles": [
+      "To Tussle with Gods"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Laraina",
+    "StarterNpcLocation": {
+      "RowId": 4510673,
+      "X": 73.7884,
+      "Y": 33.1199,
+      "Z": -709.768,
+      "Yaw": -0.738501,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Laraina",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100182,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7004,
+          "ItemName": "Rowena\u0027s Token",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66948,
+    "QuestTitle": "The King Lives",
+    "PreviousQuestIds": [
+      66727
+    ],
+    "PreviousQuestTitles": [
+      "On the Properties of Primals"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Kuplo Kopp",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112050,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20012,
+          "InstanceName": "Thornmarch (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66949,
+    "QuestTitle": "Whorl of a Time",
+    "PreviousQuestIds": [
+      66899
+    ],
+    "PreviousQuestTitles": [
+      "Through the Maelstrom"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Styrnlona",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112052,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20018,
+          "InstanceName": "the Whorleater (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67066,
+    "QuestTitle": "Judgment Bolts and Lightning",
+    "PreviousQuestIds": [
+      66996
+    ],
+    "PreviousQuestTitles": [
+      "Brave New Companions"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Scarlet",
+    "StarterNpcLocation": {
+      "RowId": 4760560,
+      "X": -63.767,
+      "Y": -1.71717,
+      "Z": 11.6794,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Chronicles of a New Era - Primals"
+      },
+      "Name": "Primal Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112063,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2445,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Striking Tree (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

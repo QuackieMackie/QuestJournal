@@ -1,0 +1,402 @@
+[
+  {
+    "QuestId": 69319,
+    "QuestTitle": "Ruby Doomsday",
+    "PreviousQuestIds": [
+      69297
+    ],
+    "PreviousQuestTitles": [
+      "Old Enemies, New Threats"
+    ],
+    "NextQuestIds": [
+      69378,
+      69431
+    ],
+    "NextQuestTitles": [
+      "Weapon of Choice",
+      "Sleep Now in Sapphire"
+    ],
+    "StarterNpc": "Resistance officer",
+    "StarterNpcLocation": {
+      "RowId": 8250368,
+      "X": 750.186,
+      "Y": 69.9999,
+      "Z": 518.929,
+      "Yaw": -1.45855,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Resistance officer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 27,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": "Garlemald\u0027s Machinations"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100994,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4255,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Cinder Drift",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69431,
+    "QuestTitle": "Sleep Now in Sapphire",
+    "PreviousQuestIds": [
+      69319
+    ],
+    "PreviousQuestTitles": [
+      "Ruby Doomsday"
+    ],
+    "NextQuestIds": [
+      69516
+    ],
+    "NextQuestTitles": [
+      "Blood of Emerald"
+    ],
+    "StarterNpc": "Resistance officer",
+    "StarterNpcLocation": {
+      "RowId": 8250416,
+      "X": -505.424,
+      "Y": 7.6719,
+      "Z": 51.6281,
+      "Yaw": 0.824708,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Resistance officer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 27,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": "Garlemald\u0027s Machinations"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101018,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30382,
+          "ItemName": "Sapphire Weapon Bust",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69516,
+    "QuestTitle": "Blood of Emerald",
+    "PreviousQuestIds": [
+      69431
+    ],
+    "PreviousQuestTitles": [
+      "Sleep Now in Sapphire"
+    ],
+    "NextQuestIds": [
+      69517
+    ],
+    "NextQuestTitles": [
+      "In Memory"
+    ],
+    "StarterNpc": "Resistance officer",
+    "StarterNpcLocation": {
+      "RowId": 8250416,
+      "X": -505.424,
+      "Y": 7.6719,
+      "Z": 51.6281,
+      "Yaw": 0.824708,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Resistance officer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 27,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": "Garlemald\u0027s Machinations"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101033,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1655,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Castrum Marinum",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69517,
+    "QuestTitle": "In Memory",
+    "PreviousQuestIds": [
+      69516
+    ],
+    "PreviousQuestTitles": [
+      "Blood of Emerald"
+    ],
+    "NextQuestIds": [
+      69567
+    ],
+    "NextQuestTitles": [
+      "Duty in the Sky with Diamond"
+    ],
+    "StarterNpc": "Resistance officer",
+    "StarterNpcLocation": {
+      "RowId": 8250416,
+      "X": -505.424,
+      "Y": 7.6719,
+      "Z": 51.6281,
+      "Yaw": 0.824708,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Resistance officer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 27,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": "Garlemald\u0027s Machinations"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101034,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 855,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69567,
+    "QuestTitle": "Duty in the Sky with Diamond",
+    "PreviousQuestIds": [
+      69517
+    ],
+    "PreviousQuestTitles": [
+      "In Memory"
+    ],
+    "NextQuestIds": [
+      69568
+    ],
+    "NextQuestTitles": [
+      "Forever at Your Side"
+    ],
+    "StarterNpc": "Resistance officer",
+    "StarterNpcLocation": {
+      "RowId": 8250416,
+      "X": -505.424,
+      "Y": 7.6719,
+      "Z": 51.6281,
+      "Yaw": 0.824708,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Severa",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 27,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": "Garlemald\u0027s Machinations"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101054,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33846,
+          "ItemName": "And Love You Shall Find Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Cloud Deck",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69568,
+    "QuestTitle": "Forever at Your Side",
+    "PreviousQuestIds": [
+      69567
+    ],
+    "PreviousQuestTitles": [
+      "Duty in the Sky with Diamond"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Severa",
+    "StarterNpcLocation": {
+      "RowId": 8657704,
+      "X": -15.5835,
+      "Y": 40.9705,
+      "Z": 5.38691,
+      "Yaw": -0.383261,
+      "Radius": 1,
+      "MapId": 617,
+      "TerritoryId": 919
+    },
+    "FinishNpc": "Resistance officer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 27,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": "Garlemald\u0027s Machinations"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101055,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33327,
+          "ItemName": "G-Warrior MG",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

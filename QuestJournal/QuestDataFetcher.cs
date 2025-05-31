@@ -255,6 +255,23 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             70541  // "Trial by Spire"
         ];
 
+        List<int> warringTriad = 
+        [ 
+            // Mandatory Quests
+            67650, // "Gods of Eld"
+            67766, // "When the Bough Wakes"
+            67824, // "The Fate of Stars"
+            67868, // "Balance unto All"
+            67930,  // "The Last Pillar to Fall"
+            
+            // Optional Quests
+            67651, // "The Diabolical Bismarck"
+            67652, // "Thok Around the Clock"
+            67817,  // "A Fiendish Likeness"
+            67869,  // "A Deific Simulacrum"
+            67931,  // "A Demonic Duplicate"
+        ];
+
         // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic, Manual Name
         // Grouping Logic:
         // 0: Use JournalGenre.Name
@@ -296,8 +313,31 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             //(customDeliveriesQuestIds, "Collectables", 3, "Custom Deliveries"),
 
             (dungeonQuestIds, "Duties", 3, "Dungeons"),
+            (stoneSkySeaQuestIds, "Duties", 3, "Stone Sky Sea"),
+            
+            // Trials
+            (15, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Primals"
+            (19, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Warring Triad"
+            (23, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Four Lords"
+            (26, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Sorrow of Werlyt"
+
+            // Raids
+            (16, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Bahamut"
+            (18, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Alexander"
+            (21, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Omega"
+            (24, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Eden"
+            (27, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Pandæmonium"
+            (30, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Echoes of Vana'diel"
+            (29, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Arcadion"
+
+            // Alliance Raids
+            (17, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Crystal Tower"
+            (20, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Shadow of Mhach"
+            (22, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Return to Ivalice"
+            (25, "Chronicles of a New Era", 1, null), // "YoRHa: Dark Apocalypse"
+            (28, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Myths of the Realm"
+            
             (trailsQuestIds, "Duties", 3, "Trails"),
-            (stoneSkySeaQuestIds, "Duties", 3, "Stone Sky Sea")
         };
 
         foreach (var quest in allQuests)

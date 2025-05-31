@@ -1,0 +1,695 @@
+[
+  {
+    "QuestId": 66030,
+    "QuestTitle": "The World of Darkness",
+    "PreviousQuestIds": [
+      67010
+    ],
+    "PreviousQuestTitles": [
+      "Syrcus Tower"
+    ],
+    "NextQuestIds": [
+      66031
+    ],
+    "NextQuestTitles": [
+      "The Light of Hope"
+    ],
+    "StarterNpc": "Rammbroes",
+    "StarterNpcLocation": {
+      "RowId": 4272588,
+      "X": 446.835,
+      "Y": -5.30558,
+      "Z": -465.704,
+      "Yaw": -2.15191,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100378,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The World of Darkness",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66031,
+    "QuestTitle": "The Light of Hope",
+    "PreviousQuestIds": [
+      66030
+    ],
+    "PreviousQuestTitles": [
+      "The World of Darkness"
+    ],
+    "NextQuestIds": [
+      66033
+    ],
+    "NextQuestTitles": [
+      "But I Hardly Noah"
+    ],
+    "StarterNpc": "Rammbroes",
+    "StarterNpcLocation": {
+      "RowId": 4272588,
+      "X": 446.835,
+      "Y": -5.30558,
+      "Z": -465.704,
+      "Yaw": -2.15191,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100379,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9376,
+          "ItemName": "Allagan Catalyst",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66033,
+    "QuestTitle": "But I Hardly Noah",
+    "PreviousQuestIds": [
+      66031
+    ],
+    "PreviousQuestTitles": [
+      "The Light of Hope"
+    ],
+    "NextQuestIds": [
+      66034
+    ],
+    "NextQuestTitles": [
+      "The Gift of the Archmagus"
+    ],
+    "StarterNpc": "",
+    "FinishNpc": "Koh Rabntah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100380,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66034,
+    "QuestTitle": "The Gift of the Archmagus",
+    "PreviousQuestIds": [
+      66033
+    ],
+    "PreviousQuestTitles": [
+      "But I Hardly Noah"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "",
+    "FinishNpc": "Koh Rabntah",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100380,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66736,
+    "QuestTitle": "Sanding It Down",
+    "PreviousQuestIds": [
+      66735,
+      67245
+    ],
+    "PreviousQuestTitles": [
+      "Legacy of Allag",
+      "Legacy of Allag"
+    ],
+    "NextQuestIds": [
+      66737
+    ],
+    "NextQuestTitles": [
+      "A Performance for the Ages"
+    ],
+    "StarterNpc": "Rammbroes",
+    "StarterNpcLocation": {
+      "RowId": 4272588,
+      "X": 446.835,
+      "Y": -5.30558,
+      "Z": -465.704,
+      "Yaw": -2.15191,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66737,
+    "QuestTitle": "A Performance for the Ages",
+    "PreviousQuestIds": [
+      66736
+    ],
+    "PreviousQuestTitles": [
+      "Sanding It Down"
+    ],
+    "NextQuestIds": [
+      66738
+    ],
+    "NextQuestTitles": [
+      "Labyrinth of the Ancients"
+    ],
+    "StarterNpc": "Rammbroes",
+    "StarterNpcLocation": {
+      "RowId": 4272588,
+      "X": 446.835,
+      "Y": -5.30558,
+      "Z": -465.704,
+      "Yaw": -2.15191,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4554,
+          "ItemName": "X-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4558,
+          "ItemName": "X-Ether",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4560,
+          "ItemName": "Hi-Elixir",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66738,
+    "QuestTitle": "Labyrinth of the Ancients",
+    "PreviousQuestIds": [
+      66737
+    ],
+    "PreviousQuestTitles": [
+      "A Performance for the Ages"
+    ],
+    "NextQuestIds": [
+      66739
+    ],
+    "NextQuestTitles": [
+      "For Prosperity"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 4499272,
+      "X": 447.459,
+      "Y": -5.3482,
+      "Z": -467.768,
+      "Yaw": -1.30277,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "G\u0027raha Tia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100179,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Labyrinth of the Ancients",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66739,
+    "QuestTitle": "For Prosperity",
+    "PreviousQuestIds": [
+      66738
+    ],
+    "PreviousQuestTitles": [
+      "Labyrinth of the Ancients"
+    ],
+    "NextQuestIds": [
+      67010
+    ],
+    "NextQuestTitles": [
+      "Syrcus Tower"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 4499272,
+      "X": 447.459,
+      "Y": -5.3482,
+      "Z": -467.768,
+      "Yaw": -1.30277,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100180,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67010,
+    "QuestTitle": "Syrcus Tower",
+    "PreviousQuestIds": [
+      66739
+    ],
+    "PreviousQuestTitles": [
+      "For Prosperity"
+    ],
+    "NextQuestIds": [
+      66030
+    ],
+    "NextQuestTitles": [
+      "The World of Darkness"
+    ],
+    "StarterNpc": "Rammbroes",
+    "StarterNpcLocation": {
+      "RowId": 4272588,
+      "X": 446.835,
+      "Y": -5.30558,
+      "Z": -465.704,
+      "Yaw": -2.15191,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100272,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Syrcus Tower",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67245,
+    "QuestTitle": "Legacy of Allag",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      66736
+    ],
+    "NextQuestTitles": [
+      "Sanding It Down"
+    ],
+    "StarterNpc": "outlandish man",
+    "StarterNpcLocation": {
+      "RowId": 4499278,
+      "X": 17.9925,
+      "Y": 20.3838,
+      "Z": -665.789,
+      "Yaw": 2.13072,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 17,
+      "JournalCategory": {
+        "Id": 17,
+        "Name": "Chronicles of a New Era - The Crystal Tower"
+      },
+      "Name": "Crystal Tower Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100178,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5598,
+          "ItemName": "Grade 5 Dark Matter",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

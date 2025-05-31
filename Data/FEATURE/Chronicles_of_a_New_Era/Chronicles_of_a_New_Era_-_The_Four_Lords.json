@@ -1,0 +1,203 @@
+[
+  {
+    "QuestId": 68688,
+    "QuestTitle": "The Fire-bird Down Below",
+    "PreviousQuestIds": [
+      68552
+    ],
+    "PreviousQuestTitles": [
+      "Tortoise in Time"
+    ],
+    "NextQuestIds": [
+      68701
+    ],
+    "NextQuestTitles": [
+      "Surpassing the Samurai"
+    ],
+    "StarterNpc": "Bunchin",
+    "StarterNpcLocation": {
+      "RowId": 6847923,
+      "X": 319.692,
+      "Y": -120.035,
+      "Z": -250.904,
+      "Yaw": 1.35167,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Bunchin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 24,
+      "JournalCategory": {
+        "Id": 23,
+        "Name": "Chronicles of a New Era - The Four Lords"
+      },
+      "Name": "The Four Lords"
+    },
+    "SortKey": 321,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100801,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3537,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 187,
+        "EmoteName": "Hum"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Hells\u0027 Kier",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68701,
+    "QuestTitle": "Surpassing the Samurai",
+    "PreviousQuestIds": [
+      68688
+    ],
+    "PreviousQuestTitles": [
+      "The Fire-bird Down Below"
+    ],
+    "NextQuestIds": [
+      68702
+    ],
+    "NextQuestTitles": [
+      "The Fifth Lord"
+    ],
+    "StarterNpc": "Bunchin",
+    "StarterNpcLocation": {
+      "RowId": 6847923,
+      "X": 319.692,
+      "Y": -120.035,
+      "Z": -250.904,
+      "Yaw": 1.35167,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Seiryu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 24,
+      "JournalCategory": {
+        "Id": 23,
+        "Name": "Chronicles of a New Era - The Four Lords"
+      },
+      "Name": "The Four Lords"
+    },
+    "SortKey": 331,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100817,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3318,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Wreath of Snakes",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68702,
+    "QuestTitle": "The Fifth Lord",
+    "PreviousQuestIds": [
+      68701
+    ],
+    "PreviousQuestTitles": [
+      "Surpassing the Samurai"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seiryu",
+    "StarterNpcLocation": {
+      "RowId": 7637683,
+      "X": 798.489,
+      "Y": -0.106873,
+      "Z": -300.649,
+      "Yaw": 1.70061,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Bunchin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 24,
+      "JournalCategory": {
+        "Id": 23,
+        "Name": "Chronicles of a New Era - The Four Lords"
+      },
+      "Name": "The Four Lords"
+    },
+    "SortKey": 332,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100818,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1277,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24510,
+          "ItemName": "Four Lords",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

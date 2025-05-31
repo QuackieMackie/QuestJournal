@@ -1,0 +1,1544 @@
+[
+  {
+    "QuestId": 68791,
+    "QuestTitle": "In the Middle of Nowhere",
+    "PreviousQuestIds": [
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [
+      68792
+    ],
+    "NextQuestTitles": [
+      "Deploy the Core"
+    ],
+    "StarterNpc": "anxious Crystarium guard",
+    "StarterNpcLocation": {
+      "RowId": 7931756,
+      "X": -73.3487,
+      "Y": 0,
+      "Z": 55.9828,
+      "Yaw": 2.35757,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100843,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1150,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68792,
+    "QuestTitle": "Deploy the Core",
+    "PreviousQuestIds": [
+      68791
+    ],
+    "PreviousQuestTitles": [
+      "In the Middle of Nowhere"
+    ],
+    "NextQuestIds": [
+      68793
+    ],
+    "NextQuestTitles": [
+      "One Fell Swoop"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7932068,
+      "X": -0.562216,
+      "Y": -2.02878,
+      "Z": -17.784,
+      "Yaw": 0.294447,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112350,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Gate: Resurrection",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68793,
+    "QuestTitle": "One Fell Swoop",
+    "PreviousQuestIds": [
+      68792
+    ],
+    "PreviousQuestTitles": [
+      "Deploy the Core"
+    ],
+    "NextQuestIds": [
+      68794
+    ],
+    "NextQuestTitles": [
+      "Nor Any Drop to Drink"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7932934,
+      "X": 99.9992,
+      "Y": -0.0153198,
+      "Z": 92.532,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 564,
+      "TerritoryId": 857
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112352,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Gate: Descent",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68794,
+    "QuestTitle": "Nor Any Drop to Drink",
+    "PreviousQuestIds": [
+      68793
+    ],
+    "PreviousQuestTitles": [
+      "One Fell Swoop"
+    ],
+    "NextQuestIds": [
+      68795
+    ],
+    "NextQuestTitles": [
+      "Super Seismic"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7932934,
+      "X": 99.9992,
+      "Y": -0.0153198,
+      "Z": 92.532,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 564,
+      "TerritoryId": 857
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112354,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Gate: Inundation",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68795,
+    "QuestTitle": "Super Seismic",
+    "PreviousQuestIds": [
+      68794
+    ],
+    "PreviousQuestTitles": [
+      "Nor Any Drop to Drink"
+    ],
+    "NextQuestIds": [
+      68796
+    ],
+    "NextQuestTitles": [
+      "The Next Piece of the Puzzle"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7932779,
+      "X": -2.09058,
+      "Y": -2.49356,
+      "Z": 18.1429,
+      "Yaw": 0.0668988,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112356,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Gate: Sepulture",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68796,
+    "QuestTitle": "The Next Piece of the Puzzle",
+    "PreviousQuestIds": [
+      68795
+    ],
+    "PreviousQuestTitles": [
+      "Super Seismic"
+    ],
+    "NextQuestIds": [
+      69323
+    ],
+    "NextQuestTitles": [
+      "Away with the Faerie"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 7933001,
+      "X": -3.85482,
+      "Y": -2.50746,
+      "Z": 19.1494,
+      "Yaw": -2.79979,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100844,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69323,
+    "QuestTitle": "Away with the Faerie",
+    "PreviousQuestIds": [
+      68796
+    ],
+    "PreviousQuestTitles": [
+      "The Next Piece of the Puzzle"
+    ],
+    "NextQuestIds": [
+      69324
+    ],
+    "NextQuestTitles": [
+      "Blood and Thunder"
+    ],
+    "StarterNpc": "Yalfort",
+    "StarterNpcLocation": {
+      "RowId": 8264158,
+      "X": 265.33,
+      "Y": 7.15583,
+      "Z": -237.806,
+      "Yaw": 2.28363,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Gaia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100985,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69324,
+    "QuestTitle": "Blood and Thunder",
+    "PreviousQuestIds": [
+      69323
+    ],
+    "PreviousQuestTitles": [
+      "Away with the Faerie"
+    ],
+    "NextQuestIds": [
+      69325
+    ],
+    "NextQuestTitles": [
+      "Into the Firestorm"
+    ],
+    "StarterNpc": "Gaia",
+    "StarterNpcLocation": {
+      "RowId": 8258272,
+      "X": -6,
+      "Y": -2.53311,
+      "Z": 21.6294,
+      "Yaw": 0.0849025,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112385,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Verse: Fulmination",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69325,
+    "QuestTitle": "Into the Firestorm",
+    "PreviousQuestIds": [
+      69324
+    ],
+    "PreviousQuestTitles": [
+      "Blood and Thunder"
+    ],
+    "NextQuestIds": [
+      69326
+    ],
+    "NextQuestTitles": [
+      "Heart of Darkness"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 8258700,
+      "X": -8.73114,
+      "Y": -2.04795,
+      "Z": -9.99846,
+      "Yaw": 0.0858819,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112387,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Verse: Furor",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69326,
+    "QuestTitle": "Heart of Darkness",
+    "PreviousQuestIds": [
+      69325
+    ],
+    "PreviousQuestTitles": [
+      "Into the Firestorm"
+    ],
+    "NextQuestIds": [
+      69327
+    ],
+    "NextQuestTitles": [
+      "On Thin Ice"
+    ],
+    "StarterNpc": "Thancred",
+    "StarterNpcLocation": {
+      "RowId": 8258699,
+      "X": -7.02776,
+      "Y": -2.0373,
+      "Z": -11.1986,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112389,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Verse: Iconoclasm",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69327,
+    "QuestTitle": "On Thin Ice",
+    "PreviousQuestIds": [
+      69326
+    ],
+    "PreviousQuestTitles": [
+      "Heart of Darkness"
+    ],
+    "NextQuestIds": [
+      69328
+    ],
+    "NextQuestTitles": [
+      "Life Finds a Way"
+    ],
+    "StarterNpc": "Gaia",
+    "StarterNpcLocation": {
+      "RowId": 8260993,
+      "X": 103.658,
+      "Y": 0,
+      "Z": 94.5605,
+      "Yaw": -1.79676,
+      "Radius": 1,
+      "MapId": 564,
+      "TerritoryId": 857
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112391,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Verse: Refulgence",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69328,
+    "QuestTitle": "Life Finds a Way",
+    "PreviousQuestIds": [
+      69327
+    ],
+    "PreviousQuestTitles": [
+      "On Thin Ice"
+    ],
+    "NextQuestIds": [
+      69329
+    ],
+    "NextQuestTitles": [
+      "Worlds Apart"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8258697,
+      "X": -6.74767,
+      "Y": -2.10101,
+      "Z": -8.55961,
+      "Yaw": -2.63193,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Yalfort",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100986,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69329,
+    "QuestTitle": "Worlds Apart",
+    "PreviousQuestIds": [
+      69328,
+      69306
+    ],
+    "PreviousQuestTitles": [
+      "Life Finds a Way",
+      "Echoes of a Fallen Star"
+    ],
+    "NextQuestIds": [
+      69511
+    ],
+    "NextQuestTitles": [
+      "Empty Promise"
+    ],
+    "StarterNpc": "Yalfort",
+    "StarterNpcLocation": {
+      "RowId": 8257510,
+      "X": 265.315,
+      "Y": 7.15583,
+      "Z": -237.763,
+      "Yaw": 2.45221,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Yalfort",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100987,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1085,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30247,
+          "ItemName": "Blue Fields Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69511,
+    "QuestTitle": "Empty Promise",
+    "PreviousQuestIds": [
+      69329,
+      69318
+    ],
+    "PreviousQuestTitles": [
+      "Worlds Apart",
+      "Reflections in Crystal"
+    ],
+    "NextQuestIds": [
+      69512
+    ],
+    "NextQuestTitles": [
+      "Fear of the Dark"
+    ],
+    "StarterNpc": "Yalfort",
+    "StarterNpcLocation": {
+      "RowId": 8257510,
+      "X": 265.315,
+      "Y": 7.15583,
+      "Z": -237.763,
+      "Yaw": 2.45221,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Gaia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 14,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101031,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69512,
+    "QuestTitle": "Fear of the Dark",
+    "PreviousQuestIds": [
+      69511
+    ],
+    "PreviousQuestTitles": [
+      "Empty Promise"
+    ],
+    "NextQuestIds": [
+      69513
+    ],
+    "NextQuestTitles": [
+      "Shadows of the Past"
+    ],
+    "StarterNpc": "Gaia",
+    "StarterNpcLocation": {
+      "RowId": 8406568,
+      "X": 31.039,
+      "Y": 4.92855,
+      "Z": -8.55387,
+      "Yaw": -0.152588,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Gaia",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112407,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Promise: Umbra",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69513,
+    "QuestTitle": "Shadows of the Past",
+    "PreviousQuestIds": [
+      69512
+    ],
+    "PreviousQuestTitles": [
+      "Fear of the Dark"
+    ],
+    "NextQuestIds": [
+      69514
+    ],
+    "NextQuestTitles": [
+      "Voice of the Soul"
+    ],
+    "StarterNpc": "Gaia",
+    "StarterNpcLocation": {
+      "RowId": 8406587,
+      "X": -8.13579,
+      "Y": -2.49842,
+      "Z": 18.9368,
+      "Yaw": 0.0264447,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 16,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112409,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25197,
+          "ItemName": "Quickarm Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25198,
+          "ItemName": "Quicktongue Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Promise: Litany",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69514,
+    "QuestTitle": "Voice of the Soul",
+    "PreviousQuestIds": [
+      69513
+    ],
+    "PreviousQuestTitles": [
+      "Shadows of the Past"
+    ],
+    "NextQuestIds": [
+      69515
+    ],
+    "NextQuestTitles": [
+      "Where I Belong"
+    ],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8406651,
+      "X": 101.179,
+      "Y": 0,
+      "Z": 103.644,
+      "Yaw": -3.01148,
+      "Radius": 1,
+      "MapId": 564,
+      "TerritoryId": 857
+    },
+    "FinishNpc": "Ryne",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 17,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112411,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Promise: Anamorphosis",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "Eden\u0027s Promise: Eternity",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69515,
+    "QuestTitle": "Where I Belong",
+    "PreviousQuestIds": [
+      69514
+    ],
+    "PreviousQuestTitles": [
+      "Voice of the Soul"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ryne",
+    "StarterNpcLocation": {
+      "RowId": 8406603,
+      "X": -6.97561,
+      "Y": -2.498,
+      "Z": 21.6057,
+      "Yaw": 0.0352694,
+      "Radius": 1,
+      "MapId": 565,
+      "TerritoryId": 878
+    },
+    "FinishNpc": "Yalfort",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 25,
+      "JournalCategory": {
+        "Id": 24,
+        "Name": "Chronicles of a New Era - Eden"
+      },
+      "Name": "Eden"
+    },
+    "SortKey": 18,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101032,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

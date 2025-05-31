@@ -1,0 +1,1032 @@
+[
+  {
+    "QuestId": 67626,
+    "QuestTitle": "Disarmed",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      67627
+    ],
+    "NextQuestTitles": [
+      "Steel and Steam"
+    ],
+    "StarterNpc": "Slowfix",
+    "StarterNpcLocation": {
+      "RowId": 5864082,
+      "X": 73.368,
+      "Y": 205.873,
+      "Z": 23.4836,
+      "Yaw": -1.19254,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112095,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Fist of the Father",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67627,
+    "QuestTitle": "Steel and Steam",
+    "PreviousQuestIds": [
+      67626
+    ],
+    "PreviousQuestTitles": [
+      "Disarmed"
+    ],
+    "NextQuestIds": [
+      67628
+    ],
+    "NextQuestTitles": [
+      "Tinker, Seeker, Soldier, Spy"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 5909569,
+      "X": -38.1324,
+      "Y": 100.953,
+      "Z": -184.066,
+      "Yaw": 1.13398,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112096,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Cuff of the Father",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67628,
+    "QuestTitle": "Tinker, Seeker, Soldier, Spy",
+    "PreviousQuestIds": [
+      67627
+    ],
+    "PreviousQuestTitles": [
+      "Steel and Steam"
+    ],
+    "NextQuestIds": [
+      67629
+    ],
+    "NextQuestTitles": [
+      "The Pulsing Heart"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 5909569,
+      "X": -38.1324,
+      "Y": 100.953,
+      "Z": -184.066,
+      "Yaw": 1.13398,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Mide",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112097,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Arm of the Father",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67629,
+    "QuestTitle": "The Pulsing Heart",
+    "PreviousQuestIds": [
+      67628
+    ],
+    "PreviousQuestTitles": [
+      "Tinker, Seeker, Soldier, Spy"
+    ],
+    "NextQuestIds": [
+      67630
+    ],
+    "NextQuestTitles": [
+      "Enigma"
+    ],
+    "StarterNpc": "Mide",
+    "StarterNpcLocation": {
+      "RowId": 5909572,
+      "X": -41.5198,
+      "Y": 100.877,
+      "Z": -181.994,
+      "Yaw": -1.58827,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Redbrix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112098,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Burden of the Father",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67630,
+    "QuestTitle": "Enigma",
+    "PreviousQuestIds": [
+      67629
+    ],
+    "PreviousQuestTitles": [
+      "The Pulsing Heart"
+    ],
+    "NextQuestIds": [
+      67644,
+      67785
+    ],
+    "NextQuestTitles": [
+      "A Song of Steam and Steel",
+      "Rearmed"
+    ],
+    "StarterNpc": "Redbrix",
+    "StarterNpcLocation": {
+      "RowId": 5909529,
+      "X": 69.6573,
+      "Y": 53.3607,
+      "Z": 201.556,
+      "Yaw": -2.26066,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Roundrox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100465,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12680,
+          "ItemName": "Tarnished Gordian Bolt",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67785,
+    "QuestTitle": "Rearmed",
+    "PreviousQuestIds": [
+      67630
+    ],
+    "PreviousQuestTitles": [
+      "Enigma"
+    ],
+    "NextQuestIds": [
+      67786
+    ],
+    "NextQuestTitles": [
+      "The Folly of Youth"
+    ],
+    "StarterNpc": "Roundrox",
+    "StarterNpcLocation": {
+      "RowId": 5909520,
+      "X": -42.3547,
+      "Y": 100.876,
+      "Z": -183.206,
+      "Yaw": -0.564797,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112128,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Fist of the Son",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67786,
+    "QuestTitle": "The Folly of Youth",
+    "PreviousQuestIds": [
+      67785
+    ],
+    "PreviousQuestTitles": [
+      "Rearmed"
+    ],
+    "NextQuestIds": [
+      67787
+    ],
+    "NextQuestTitles": [
+      "Toppling the Tyrant"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 6199980,
+      "X": -38.1324,
+      "Y": 100.953,
+      "Z": -184.066,
+      "Yaw": -2.58738,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Mide",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112129,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3573,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Cuff of the Son",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67787,
+    "QuestTitle": "Toppling the Tyrant",
+    "PreviousQuestIds": [
+      67786
+    ],
+    "PreviousQuestTitles": [
+      "The Folly of Youth"
+    ],
+    "NextQuestIds": [
+      67788
+    ],
+    "NextQuestTitles": [
+      "One Step Behind"
+    ],
+    "StarterNpc": "Mide",
+    "StarterNpcLocation": {
+      "RowId": 5909572,
+      "X": -41.5198,
+      "Y": 100.877,
+      "Z": -181.994,
+      "Yaw": -1.58827,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Backrix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112130,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3508,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Arm of the Son",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67788,
+    "QuestTitle": "One Step Behind",
+    "PreviousQuestIds": [
+      67787
+    ],
+    "PreviousQuestTitles": [
+      "Toppling the Tyrant"
+    ],
+    "NextQuestIds": [
+      67789
+    ],
+    "NextQuestTitles": [
+      "A Gob in the Machine"
+    ],
+    "StarterNpc": "Backrix",
+    "StarterNpcLocation": {
+      "RowId": 5901183,
+      "X": -33.7647,
+      "Y": 100.969,
+      "Z": -182.473,
+      "Yaw": -2.65547,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Backrix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112131,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3573,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Burden of the Son",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67789,
+    "QuestTitle": "A Gob in the Machine",
+    "PreviousQuestIds": [
+      67788
+    ],
+    "PreviousQuestTitles": [
+      "One Step Behind"
+    ],
+    "NextQuestIds": [
+      67790,
+      67871
+    ],
+    "NextQuestTitles": [
+      "A Refrain for the Undaunted",
+      "The Coeurl and the Colossus"
+    ],
+    "StarterNpc": "Backrix",
+    "StarterNpcLocation": {
+      "RowId": 5901183,
+      "X": -33.7647,
+      "Y": 100.969,
+      "Z": -182.473,
+      "Yaw": -2.65547,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Mide",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100522,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67871,
+    "QuestTitle": "The Coeurl and the Colossus",
+    "PreviousQuestIds": [
+      67789
+    ],
+    "PreviousQuestTitles": [
+      "A Gob in the Machine"
+    ],
+    "NextQuestIds": [
+      67872
+    ],
+    "NextQuestTitles": [
+      "Biggs and Wedge\u0027s Excellent Adventure"
+    ],
+    "StarterNpc": "Mide",
+    "StarterNpcLocation": {
+      "RowId": 6199981,
+      "X": -42.4916,
+      "Y": 100.863,
+      "Z": -183.094,
+      "Yaw": -3.11926,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112188,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3508,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Eyes of the Creator",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67872,
+    "QuestTitle": "Biggs and Wedge\u0027s Excellent Adventure",
+    "PreviousQuestIds": [
+      67871
+    ],
+    "PreviousQuestTitles": [
+      "The Coeurl and the Colossus"
+    ],
+    "NextQuestIds": [
+      67873
+    ],
+    "NextQuestTitles": [
+      "Thus Spake Quickthinx"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 6445797,
+      "X": 47.753,
+      "Y": 71.5088,
+      "Z": 68.1739,
+      "Yaw": 2.46606,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112189,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3508,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Breath of the Creator",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67873,
+    "QuestTitle": "Thus Spake Quickthinx",
+    "PreviousQuestIds": [
+      67872
+    ],
+    "PreviousQuestTitles": [
+      "Biggs and Wedge\u0027s Excellent Adventure"
+    ],
+    "NextQuestIds": [
+      67874
+    ],
+    "NextQuestTitles": [
+      "Judgment Day"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 6199983,
+      "X": -48.486,
+      "Y": 100.664,
+      "Z": -148.333,
+      "Yaw": -2.36327,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112190,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3508,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16827,
+          "ItemName": "Exponential Entropy Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Heart of the Creator",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67874,
+    "QuestTitle": "Judgment Day",
+    "PreviousQuestIds": [
+      67873
+    ],
+    "PreviousQuestTitles": [
+      "Thus Spake Quickthinx"
+    ],
+    "NextQuestIds": [
+      67875
+    ],
+    "NextQuestTitles": [
+      "Of Endings and Beginnings"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 6446089,
+      "X": -42.0997,
+      "Y": 100.877,
+      "Z": -183.246,
+      "Yaw": 2.66768,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 14,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112191,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3508,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16828,
+          "ItemName": "Rise Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alexander - The Soul of the Creator",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67875,
+    "QuestTitle": "Of Endings and Beginnings",
+    "PreviousQuestIds": [
+      67874
+    ],
+    "PreviousQuestTitles": [
+      "Judgment Day"
+    ],
+    "NextQuestIds": [
+      67876
+    ],
+    "NextQuestTitles": [
+      "Who Lives, Who Dies, Who Retells Your Story"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 6446098,
+      "X": -233.875,
+      "Y": 148.486,
+      "Z": -7.85846,
+      "Yaw": 0.669216,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Backrix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 18,
+      "JournalCategory": {
+        "Id": 18,
+        "Name": "Chronicles of a New Era - Alexander"
+      },
+      "Name": "Alexander Quests"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100578,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16823,
+          "ItemName": "Sins of the Father, Sins of the Son Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 16824,
+          "ItemName": "Locus Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 16825,
+          "ItemName": "Metal Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 16826,
+          "ItemName": "Metal - Brute Justice Mode Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

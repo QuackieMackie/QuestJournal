@@ -1,0 +1,464 @@
+[
+  {
+    "QuestId": 67016,
+    "QuestTitle": "Unidentified Flying Object",
+    "PreviousQuestIds": [
+      67822
+    ],
+    "PreviousQuestTitles": [
+      "Freedom for Our Skies"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Slipslix",
+    "StarterNpcLocation": {
+      "RowId": 6544322,
+      "X": 79.7532,
+      "Y": 214.1,
+      "Z": -94.9635,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Slipslix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 7,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17521,
+          "ItemName": "Proto Ultima Heat Shielding",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67740,
+    "QuestTitle": "Sky Pirates",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      67741
+    ],
+    "NextQuestTitles": [
+      "To Rule the Skies"
+    ],
+    "StarterNpc": "unquiet trader",
+    "StarterNpcLocation": {
+      "RowId": 6082741,
+      "X": 146.175,
+      "Y": -12.6498,
+      "Z": -27.4059,
+      "Yaw": 0.466367,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Utata",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100517,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 778,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67741,
+    "QuestTitle": "To Rule the Skies",
+    "PreviousQuestIds": [
+      67740
+    ],
+    "PreviousQuestTitles": [
+      "Sky Pirates"
+    ],
+    "NextQuestIds": [
+      67821
+    ],
+    "NextQuestTitles": [
+      "The Weeping City"
+    ],
+    "StarterNpc": "Utata",
+    "StarterNpcLocation": {
+      "RowId": 6082794,
+      "X": 147.112,
+      "Y": -14.5724,
+      "Z": -864.408,
+      "Yaw": -2.92746,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Leofard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112118,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Void Ark",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67821,
+    "QuestTitle": "The Weeping City",
+    "PreviousQuestIds": [
+      67741
+    ],
+    "PreviousQuestTitles": [
+      "To Rule the Skies"
+    ],
+    "NextQuestIds": [
+      67822
+    ],
+    "NextQuestTitles": [
+      "Freedom for Our Skies"
+    ],
+    "StarterNpc": "Stacia",
+    "StarterNpcLocation": {
+      "RowId": 6082759,
+      "X": -815.793,
+      "Y": -88.5482,
+      "Z": -835.294,
+      "Yaw": 1.74431,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Leofard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112162,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Weeping City of Mhach",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67822,
+    "QuestTitle": "Freedom for Our Skies",
+    "PreviousQuestIds": [
+      67821
+    ],
+    "PreviousQuestTitles": [
+      "The Weeping City"
+    ],
+    "NextQuestIds": [
+      67016,
+      67909
+    ],
+    "NextQuestTitles": [
+      "Unidentified Flying Object",
+      "Where Shadows Reign"
+    ],
+    "StarterNpc": "Leofard",
+    "StarterNpcLocation": {
+      "RowId": 6261328,
+      "X": 47.7716,
+      "Y": -15.5432,
+      "Z": 39.0832,
+      "Yaw": 2.84005,
+      "Radius": 1,
+      "MapId": 305,
+      "TerritoryId": 567
+    },
+    "FinishNpc": "Leofard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100577,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67909,
+    "QuestTitle": "Where Shadows Reign",
+    "PreviousQuestIds": [
+      67822
+    ],
+    "PreviousQuestTitles": [
+      "Freedom for Our Skies"
+    ],
+    "NextQuestIds": [
+      67910
+    ],
+    "NextQuestTitles": [
+      "A Redbill Farewell"
+    ],
+    "StarterNpc": "Stacia",
+    "StarterNpcLocation": {
+      "RowId": 6082759,
+      "X": -815.793,
+      "Y": -88.5482,
+      "Z": -835.294,
+      "Yaw": 1.74431,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Leofard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112203,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17649,
+          "ItemName": "Promises Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 17650,
+          "ItemName": "Shadow of the Body Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Dun Scaith",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67910,
+    "QuestTitle": "A Redbill Farewell",
+    "PreviousQuestIds": [
+      67909
+    ],
+    "PreviousQuestTitles": [
+      "Where Shadows Reign"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Leofard",
+    "StarterNpcLocation": {
+      "RowId": 6449868,
+      "X": 47.4098,
+      "Y": -15.3659,
+      "Z": 41.886,
+      "Yaw": 0.0691341,
+      "Radius": 1,
+      "MapId": 305,
+      "TerritoryId": 567
+    },
+    "FinishNpc": "Leofard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 20,
+      "JournalCategory": {
+        "Id": 20,
+        "Name": "Chronicles of a New Era - The Shadow of Mhach"
+      },
+      "Name": "Shadow of Mhach Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100604,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17679,
+          "ItemName": "Redbill Scarf",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,653 @@
+[
+  {
+    "QuestId": 67650,
+    "QuestTitle": "Gods of Eld",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      67651,
+      67652,
+      67766
+    ],
+    "NextQuestTitles": [
+      "The Diabolical Bismarck",
+      "Thok Around the Clock",
+      "When the Bough Wakes"
+    ],
+    "StarterNpc": "Torsefers",
+    "StarterNpcLocation": {
+      "RowId": 5841331,
+      "X": 25.9272,
+      "Y": 15.8651,
+      "Z": 19.4218,
+      "Yaw": 0.0441951,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100464,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67651,
+    "QuestTitle": "The Diabolical Bismarck",
+    "PreviousQuestIds": [
+      67205,
+      67650
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward",
+      "Gods of Eld"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112105,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Limitless Blue (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67652,
+    "QuestTitle": "Thok Around the Clock",
+    "PreviousQuestIds": [
+      67205,
+      67650
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward",
+      "Gods of Eld"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16102,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112107,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Thok ast Thok (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67766,
+    "QuestTitle": "When the Bough Wakes",
+    "PreviousQuestIds": [
+      67650,
+      67699
+    ],
+    "PreviousQuestTitles": [
+      "Gods of Eld",
+      "As Goes Light, So Goes Darkness"
+    ],
+    "NextQuestIds": [
+      67817,
+      67824
+    ],
+    "NextQuestTitles": [
+      "A Fiendish Likeness",
+      "The Fate of Stars"
+    ],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16002,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100530,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3722,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Containment Bay S1T7",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67817,
+    "QuestTitle": "A Fiendish Likeness",
+    "PreviousQuestIds": [
+      67766
+    ],
+    "PreviousQuestTitles": [
+      "When the Bough Wakes"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "verification node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16103,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112127,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 934,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20038,
+          "InstanceName": "Containment Bay S1T7 (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67824,
+    "QuestTitle": "The Fate of Stars",
+    "PreviousQuestIds": [
+      67766
+    ],
+    "PreviousQuestTitles": [
+      "When the Bough Wakes"
+    ],
+    "NextQuestIds": [
+      67868
+    ],
+    "NextQuestTitles": [
+      "Balance unto All"
+    ],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16003,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100567,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67868,
+    "QuestTitle": "Balance unto All",
+    "PreviousQuestIds": [
+      67824
+    ],
+    "PreviousQuestTitles": [
+      "The Fate of Stars"
+    ],
+    "NextQuestIds": [
+      67869,
+      67930
+    ],
+    "NextQuestTitles": [
+      "A Deific Simulacrum",
+      "The Last Pillar to Fall"
+    ],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16004,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100591,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Containment Bay P1T6",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67869,
+    "QuestTitle": "A Deific Simulacrum",
+    "PreviousQuestIds": [
+      67868
+    ],
+    "PreviousQuestTitles": [
+      "Balance unto All"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "verification node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16104,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112202,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 934,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20042,
+          "InstanceName": "Containment Bay P1T6 (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67930,
+    "QuestTitle": "The Last Pillar to Fall",
+    "PreviousQuestIds": [
+      67868
+    ],
+    "PreviousQuestTitles": [
+      "Balance unto All"
+    ],
+    "NextQuestIds": [
+      67931
+    ],
+    "NextQuestTitles": [
+      "A Demonic Duplicate"
+    ],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16005,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100605,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Containment Bay Z1T9",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67931,
+    "QuestTitle": "A Demonic Duplicate",
+    "PreviousQuestIds": [
+      67930
+    ],
+    "PreviousQuestTitles": [
+      "The Last Pillar to Fall"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 5921043,
+      "X": 0.45971,
+      "Y": -1.99573,
+      "Z": -43.2109,
+      "Yaw": 0.0232131,
+      "Radius": 1,
+      "MapId": 136,
+      "TerritoryId": 351
+    },
+    "FinishNpc": "verification node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 19,
+      "JournalCategory": {
+        "Id": 19,
+        "Name": "Chronicles of a New Era - The Warring Triad"
+      },
+      "Name": "Heavensward Primal Quests"
+    },
+    "SortKey": 16105,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112213,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 934,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20044,
+          "InstanceName": "Containment Bay Z1T9 (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

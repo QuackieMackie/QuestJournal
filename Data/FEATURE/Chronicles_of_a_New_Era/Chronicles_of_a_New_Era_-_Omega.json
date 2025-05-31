@@ -1,0 +1,1167 @@
+[
+  {
+    "QuestId": 68464,
+    "QuestTitle": "The Hunt for Omega",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      68465
+    ],
+    "NextQuestTitles": [
+      "Into the Deltascape"
+    ],
+    "StarterNpc": "Wedge",
+    "StarterNpcLocation": {
+      "RowId": 6930338,
+      "X": 71.09,
+      "Y": -0.109109,
+      "Z": 59.3931,
+      "Yaw": -2.68271,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100715,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1335,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68465,
+    "QuestTitle": "Into the Deltascape",
+    "PreviousQuestIds": [
+      68464
+    ],
+    "PreviousQuestTitles": [
+      "The Hunt for Omega"
+    ],
+    "NextQuestIds": [
+      68466
+    ],
+    "NextQuestTitles": [
+      "A Catastrophe Waiting"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 6938875,
+      "X": -208.574,
+      "Y": -223.5,
+      "Z": -124.152,
+      "Yaw": 0.38652,
+      "Radius": 1,
+      "MapId": 395,
+      "TerritoryId": 724
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112234,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1736,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Deltascape V1.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68466,
+    "QuestTitle": "A Catastrophe Waiting",
+    "PreviousQuestIds": [
+      68465
+    ],
+    "PreviousQuestTitles": [
+      "Into the Deltascape"
+    ],
+    "NextQuestIds": [
+      68467
+    ],
+    "NextQuestTitles": [
+      "The Croak Queen"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 6938875,
+      "X": -208.574,
+      "Y": -223.5,
+      "Z": -124.152,
+      "Yaw": 0.38652,
+      "Radius": 1,
+      "MapId": 395,
+      "TerritoryId": 724
+    },
+    "FinishNpc": "Nero tol Scaeva",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112235,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1809,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Deltascape V2.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68467,
+    "QuestTitle": "The Croak Queen",
+    "PreviousQuestIds": [
+      68466
+    ],
+    "PreviousQuestTitles": [
+      "A Catastrophe Waiting"
+    ],
+    "NextQuestIds": [
+      68468
+    ],
+    "NextQuestTitles": [
+      "A Void at All Costs"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 6938875,
+      "X": -208.574,
+      "Y": -223.5,
+      "Z": -124.152,
+      "Yaw": 0.38652,
+      "Radius": 1,
+      "MapId": 395,
+      "TerritoryId": 724
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112236,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1882,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Deltascape V3.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68468,
+    "QuestTitle": "A Void at All Costs",
+    "PreviousQuestIds": [
+      68467
+    ],
+    "PreviousQuestTitles": [
+      "The Croak Queen"
+    ],
+    "NextQuestIds": [
+      68469
+    ],
+    "NextQuestTitles": [
+      "The Anomaly"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 6938875,
+      "X": -208.574,
+      "Y": -223.5,
+      "Z": -124.152,
+      "Yaw": 0.38652,
+      "Radius": 1,
+      "MapId": 395,
+      "TerritoryId": 724
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112237,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1955,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Deltascape V4.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68469,
+    "QuestTitle": "The Anomaly",
+    "PreviousQuestIds": [
+      68468
+    ],
+    "PreviousQuestTitles": [
+      "A Void at All Costs"
+    ],
+    "NextQuestIds": [
+      68567
+    ],
+    "NextQuestTitles": [
+      "Return to the Rift"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 6930898,
+      "X": 462.681,
+      "Y": 69.0188,
+      "Z": 515.084,
+      "Yaw": -1.27663,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Jessie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100720,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2137,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68567,
+    "QuestTitle": "Return to the Rift",
+    "PreviousQuestIds": [
+      68469
+    ],
+    "PreviousQuestTitles": [
+      "The Anomaly"
+    ],
+    "NextQuestIds": [
+      68568
+    ],
+    "NextQuestTitles": [
+      "No Slowing Down"
+    ],
+    "StarterNpc": "Jessie",
+    "StarterNpcLocation": {
+      "RowId": 7011268,
+      "X": 112.752,
+      "Y": 0.652042,
+      "Z": 60.2282,
+      "Yaw": 2.72999,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100753,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2174,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68568,
+    "QuestTitle": "No Slowing Down",
+    "PreviousQuestIds": [
+      68567
+    ],
+    "PreviousQuestTitles": [
+      "Return to the Rift"
+    ],
+    "NextQuestIds": [
+      68569
+    ],
+    "NextQuestTitles": [
+      "An Unfinished Masterpiece"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 7229827,
+      "X": -86.0725,
+      "Y": -72.25,
+      "Z": 181.503,
+      "Yaw": -0.579422,
+      "Radius": 1,
+      "MapId": 444,
+      "TerritoryId": 756
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112265,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4252,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Sigmascape V1.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68569,
+    "QuestTitle": "An Unfinished Masterpiece",
+    "PreviousQuestIds": [
+      68568
+    ],
+    "PreviousQuestTitles": [
+      "No Slowing Down"
+    ],
+    "NextQuestIds": [
+      68570
+    ],
+    "NextQuestTitles": [
+      "Won\u0027t Let You Pass"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 7229827,
+      "X": -86.0725,
+      "Y": -72.25,
+      "Z": 181.503,
+      "Yaw": -0.579422,
+      "Radius": 1,
+      "MapId": 444,
+      "TerritoryId": 756
+    },
+    "FinishNpc": "Biggs",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112267,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 22447,
+          "ItemName": "Grade 2 Infusion of Strength",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22448,
+          "ItemName": "Grade 2 Infusion of Dexterity",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22449,
+          "ItemName": "Grade 2 Infusion of Vitality",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22450,
+          "ItemName": "Grade 2 Infusion of Intelligence",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22451,
+          "ItemName": "Grade 2 Infusion of Mind",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Sigmascape V2.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68570,
+    "QuestTitle": "Won\u0027t Let You Pass",
+    "PreviousQuestIds": [
+      68569
+    ],
+    "PreviousQuestTitles": [
+      "An Unfinished Masterpiece"
+    ],
+    "NextQuestIds": [
+      68571
+    ],
+    "NextQuestTitles": [
+      "Test World of Ruin"
+    ],
+    "StarterNpc": "Wedge",
+    "StarterNpcLocation": {
+      "RowId": 7178496,
+      "X": 464.303,
+      "Y": 69.3217,
+      "Z": 519.314,
+      "Yaw": 1.52907,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112269,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4142,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Sigmascape V3.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68571,
+    "QuestTitle": "Test World of Ruin",
+    "PreviousQuestIds": [
+      68570
+    ],
+    "PreviousQuestTitles": [
+      "Won\u0027t Let You Pass"
+    ],
+    "NextQuestIds": [
+      68690
+    ],
+    "NextQuestTitles": [
+      "In the Beginning, There Was Chaos"
+    ],
+    "StarterNpc": "Nero",
+    "StarterNpcLocation": {
+      "RowId": 7230241,
+      "X": -86.7102,
+      "Y": -72.2515,
+      "Z": 179.608,
+      "Yaw": -1.6273,
+      "Radius": 1,
+      "MapId": 444,
+      "TerritoryId": 756
+    },
+    "FinishNpc": "Jessie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 14,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112271,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 6000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Sigmascape V4.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68690,
+    "QuestTitle": "In the Beginning, There Was Chaos",
+    "PreviousQuestIds": [
+      68571
+    ],
+    "PreviousQuestTitles": [
+      "Test World of Ruin"
+    ],
+    "NextQuestIds": [
+      68691
+    ],
+    "NextQuestTitles": [
+      "And Like Fire Was His Mane"
+    ],
+    "StarterNpc": "Jessie",
+    "StarterNpcLocation": {
+      "RowId": 7011268,
+      "X": 112.752,
+      "Y": 0.652042,
+      "Z": 60.2282,
+      "Yaw": 2.72999,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Alpha",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100799,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alphascape V1.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68691,
+    "QuestTitle": "And Like Fire Was His Mane",
+    "PreviousQuestIds": [
+      68690
+    ],
+    "PreviousQuestTitles": [
+      "In the Beginning, There Was Chaos"
+    ],
+    "NextQuestIds": [
+      68692
+    ],
+    "NextQuestTitles": [
+      "In the End, There Is Omega"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 7630109,
+      "X": -34.994,
+      "Y": -16.15,
+      "Z": 156.138,
+      "Yaw": 2.19248,
+      "Radius": 1,
+      "MapId": 508,
+      "TerritoryId": 807
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112313,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24309,
+          "ItemName": "Deltascape Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alphascape V2.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68692,
+    "QuestTitle": "In the End, There Is Omega",
+    "PreviousQuestIds": [
+      68691
+    ],
+    "PreviousQuestTitles": [
+      "And Like Fire Was His Mane"
+    ],
+    "NextQuestIds": [
+      68693
+    ],
+    "NextQuestTitles": [
+      "To Kweh under Distant Skies"
+    ],
+    "StarterNpc": "Cid",
+    "StarterNpcLocation": {
+      "RowId": 7630038,
+      "X": -35,
+      "Y": -16.15,
+      "Z": 156.224,
+      "Yaw": -1.15246,
+      "Radius": 1,
+      "MapId": 508,
+      "TerritoryId": 807
+    },
+    "FinishNpc": "Cid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112314,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alphascape V3.0",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "Alphascape V4.0",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68693,
+    "QuestTitle": "To Kweh under Distant Skies",
+    "PreviousQuestIds": [
+      68692
+    ],
+    "PreviousQuestTitles": [
+      "In the End, There Is Omega"
+    ],
+    "NextQuestIds": [
+      70122
+    ],
+    "NextQuestTitles": [
+      "A Heartless Hypothesis"
+    ],
+    "StarterNpc": "Biggs",
+    "StarterNpcLocation": {
+      "RowId": 6878930,
+      "X": 465.016,
+      "Y": 69.3244,
+      "Z": 522.446,
+      "Yaw": 2.22886,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Jessie",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 21,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega Quests"
+    },
+    "SortKey": 23,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100800,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23990,
+          "ItemName": "Wind-up Alpha",
+          "Count": 1
+        },
+        {
+          "ItemId": 24311,
+          "ItemName": "Ending Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 24310,
+          "ItemName": "A Dream in Flight Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70122,
+    "QuestTitle": "A Heartless Hypothesis",
+    "PreviousQuestIds": [
+      70000,
+      68693
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker",
+      "To Kweh under Distant Skies"
+    ],
+    "NextQuestIds": [
+      70123
+    ],
+    "NextQuestTitles": [
+      "Good-bye, \u03B5\u0306\u2502\u0306\u2502\u0394"
+    ],
+    "StarterNpc": "bespectacled technician",
+    "StarterNpcLocation": {
+      "RowId": 9230315,
+      "X": -12.1004,
+      "Y": -16.1593,
+      "Z": 153.765,
+      "Yaw": 0.508444,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Nashvan",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 22,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega: Beyond the Rift"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101157,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1260,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70123,
+    "QuestTitle": "Good-bye, \u03B5\u0306\u2502\u0306\u2502\u0394",
+    "PreviousQuestIds": [
+      70122
+    ],
+    "PreviousQuestTitles": [
+      "A Heartless Hypothesis"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Omega",
+    "StarterNpcLocation": {
+      "RowId": 9229335,
+      "X": -59.0387,
+      "Y": 14,
+      "Z": 114.701,
+      "Yaw": -2.37594,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Omega",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 22,
+      "JournalCategory": {
+        "Id": 21,
+        "Name": "Chronicles of a New Era - Omega"
+      },
+      "Name": "Omega: Beyond the Rift"
+    },
+    "SortKey": 31,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101158,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1864,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37414,
+          "ItemName": "Flow Together Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

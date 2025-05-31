@@ -1,0 +1,1394 @@
+[
+  {
+    "QuestId": 69207,
+    "QuestTitle": "\uE0BE Word about Komra",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [
+      69253
+    ],
+    "NextQuestTitles": [
+      "A Scandal in Komra"
+    ],
+    "StarterNpc": "gossipy dwarf",
+    "StarterNpcLocation": {
+      "RowId": 8048784,
+      "X": -425.587,
+      "Y": 417.214,
+      "Z": -636.736,
+      "Yaw": -2.53325,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "gossipy dwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1279,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27877,
+          "ItemName": "Paella",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27879,
+          "ItemName": "Ovim Cordon Bleu",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27880,
+          "ItemName": "Lemonade",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27881,
+          "ItemName": "Jellied Harcot",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69253,
+    "QuestTitle": "A Scandal in Komra",
+    "PreviousQuestIds": [
+      69190,
+      69207
+    ],
+    "PreviousQuestTitles": [
+      "Shadowbringers",
+      "\uE0BE Word about Komra"
+    ],
+    "NextQuestIds": [
+      69254
+    ],
+    "NextQuestTitles": [
+      "On the Threshold"
+    ],
+    "StarterNpc": "gossipy dwarf",
+    "StarterNpcLocation": {
+      "RowId": 8048784,
+      "X": -425.587,
+      "Y": 417.214,
+      "Z": -636.736,
+      "Yaw": -2.53325,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100944,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1455,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69254,
+    "QuestTitle": "On the Threshold",
+    "PreviousQuestIds": [
+      69253
+    ],
+    "PreviousQuestTitles": [
+      "A Scandal in Komra"
+    ],
+    "NextQuestIds": [
+      69255,
+      69275,
+      69276,
+      69277,
+      69278,
+      69279,
+      69280,
+      69281,
+      69282,
+      69283,
+      69284,
+      69285
+    ],
+    "NextQuestTitles": [
+      "An Academic Dispute",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8048886,
+      "X": 663.576,
+      "Y": 297.453,
+      "Z": -162.241,
+      "Yaw": -2.0766,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Anogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100945,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28894,
+          "ItemName": "Significance (Nothing) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Copied Factory",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69255,
+    "QuestTitle": "An Academic Dispute",
+    "PreviousQuestIds": [
+      69254
+    ],
+    "PreviousQuestTitles": [
+      "On the Threshold"
+    ],
+    "NextQuestIds": [
+      69256,
+      69257
+    ],
+    "NextQuestTitles": [
+      "Tails, You Lose",
+      "Heads, I Win"
+    ],
+    "StarterNpc": "Anogg",
+    "StarterNpcLocation": {
+      "RowId": 8144634,
+      "X": -9.32635,
+      "Y": 0.0373983,
+      "Z": -66.8604,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 575,
+      "TerritoryId": 895
+    },
+    "FinishNpc": "Anogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 695,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69256,
+    "QuestTitle": "Tails, You Lose",
+    "PreviousQuestIds": [
+      69255
+    ],
+    "PreviousQuestTitles": [
+      "An Academic Dispute"
+    ],
+    "NextQuestIds": [
+      69320
+    ],
+    "NextQuestTitles": [
+      "Carnivals and Confrontations"
+    ],
+    "StarterNpc": "Anogg",
+    "StarterNpcLocation": {
+      "RowId": 8164997,
+      "X": -499.443,
+      "Y": 484.001,
+      "Z": 244.221,
+      "Yaw": -2.67372,
+      "Radius": 1,
+      "MapId": 578,
+      "TerritoryId": 896
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100946,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1455,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28897,
+          "ItemName": "Voice of no Return (Guitar) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69257,
+    "QuestTitle": "Heads, I Win",
+    "PreviousQuestIds": [
+      69255
+    ],
+    "PreviousQuestTitles": [
+      "An Academic Dispute"
+    ],
+    "NextQuestIds": [
+      69320
+    ],
+    "NextQuestTitles": [
+      "Carnivals and Confrontations"
+    ],
+    "StarterNpc": "Konogg",
+    "StarterNpcLocation": {
+      "RowId": 8164998,
+      "X": -501.183,
+      "Y": 483.97,
+      "Z": 244.251,
+      "Yaw": 2.84562,
+      "Radius": 1,
+      "MapId": 578,
+      "TerritoryId": 896
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100947,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1455,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28897,
+          "ItemName": "Voice of no Return (Guitar) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69320,
+    "QuestTitle": "Carnivals and Confrontations",
+    "PreviousQuestIds": [
+      69256,
+      69257
+    ],
+    "PreviousQuestTitles": [
+      "Tails, You Lose",
+      "Heads, I Win"
+    ],
+    "NextQuestIds": [
+      69321
+    ],
+    "NextQuestTitles": [
+      "One Way to Do It"
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8157761,
+      "X": 665.908,
+      "Y": 297.478,
+      "Z": -160.543,
+      "Yaw": -1.22173,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Anogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100992,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 655,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69321,
+    "QuestTitle": "One Way to Do It",
+    "PreviousQuestIds": [
+      69320
+    ],
+    "PreviousQuestTitles": [
+      "Carnivals and Confrontations"
+    ],
+    "NextQuestIds": [
+      69488
+    ],
+    "NextQuestTitles": [
+      "We Can Rebuild Her"
+    ],
+    "StarterNpc": "Anogg",
+    "StarterNpcLocation": {
+      "RowId": 8147948,
+      "X": -13.8095,
+      "Y": 0.039723,
+      "Z": -66.9414,
+      "Yaw": 2.5256,
+      "Radius": 1,
+      "MapId": 575,
+      "TerritoryId": 895
+    },
+    "FinishNpc": "Anogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100993,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30257,
+          "ItemName": "Crumbling Lies (Front) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69488,
+    "QuestTitle": "We Can Rebuild Her",
+    "PreviousQuestIds": [
+      69321
+    ],
+    "PreviousQuestTitles": [
+      "One Way to Do It"
+    ],
+    "NextQuestIds": [
+      69489
+    ],
+    "NextQuestTitles": [
+      "Everything You Know Is Wrong"
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8157761,
+      "X": 665.908,
+      "Y": 297.478,
+      "Z": -160.543,
+      "Yaw": -1.22173,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Anogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101001,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 31677,
+          "ItemName": "Amusement Park Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69489,
+    "QuestTitle": "Everything You Know Is Wrong",
+    "PreviousQuestIds": [
+      69488
+    ],
+    "PreviousQuestTitles": [
+      "We Can Rebuild Her"
+    ],
+    "NextQuestIds": [
+      69466,
+      69467,
+      69468,
+      69469,
+      69470,
+      69471,
+      69472,
+      69473,
+      69474,
+      69475,
+      69476,
+      69490
+    ],
+    "NextQuestTitles": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Crime and Punishment"
+    ],
+    "StarterNpc": "Anogg",
+    "StarterNpcLocation": {
+      "RowId": 8144634,
+      "X": -9.32635,
+      "Y": 0.0373983,
+      "Z": -66.8604,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 575,
+      "TerritoryId": 895
+    },
+    "FinishNpc": "2B",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112400,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Puppets\u0027 Bunker",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69490,
+    "QuestTitle": "Crime and Punishment",
+    "PreviousQuestIds": [
+      69489
+    ],
+    "PreviousQuestTitles": [
+      "Everything You Know Is Wrong"
+    ],
+    "NextQuestIds": [
+      69534
+    ],
+    "NextQuestTitles": [
+      "To Make Amends"
+    ],
+    "StarterNpc": "Konogg",
+    "StarterNpcLocation": {
+      "RowId": 8380774,
+      "X": -48.5017,
+      "Y": 0.0151978,
+      "Z": -120.498,
+      "Yaw": -2.69932,
+      "Radius": 1,
+      "MapId": 614,
+      "TerritoryId": 895
+    },
+    "FinishNpc": "Konogg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101002,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 31676,
+          "ItemName": "Broken Heart Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69534,
+    "QuestTitle": "To Make Amends",
+    "PreviousQuestIds": [
+      69490
+    ],
+    "PreviousQuestTitles": [
+      "Crime and Punishment"
+    ],
+    "NextQuestIds": [
+      69570
+    ],
+    "NextQuestTitles": [
+      "Konogg, Alone"
+    ],
+    "StarterNpc": "Konogg",
+    "StarterNpcLocation": {
+      "RowId": 8401224,
+      "X": 618.598,
+      "Y": 297.263,
+      "Z": -170.232,
+      "Yaw": 1.38157,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101041,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69570,
+    "QuestTitle": "Konogg, Alone",
+    "PreviousQuestIds": [
+      69534
+    ],
+    "PreviousQuestTitles": [
+      "To Make Amends"
+    ],
+    "NextQuestIds": [
+      69571
+    ],
+    "NextQuestTitles": [
+      "Brave New World"
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8157761,
+      "X": 665.908,
+      "Y": 297.478,
+      "Z": -160.543,
+      "Yaw": -1.22173,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101051,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33908,
+          "ItemName": "Voice of no Return (Normal) Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 33909,
+          "ItemName": "The Color of Depression Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69571,
+    "QuestTitle": "Brave New World",
+    "PreviousQuestIds": [
+      69570
+    ],
+    "PreviousQuestTitles": [
+      "Konogg, Alone"
+    ],
+    "NextQuestIds": [
+      69572
+    ],
+    "NextQuestTitles": [
+      "It Takes a Village"
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8590042,
+      "X": -361.372,
+      "Y": 105.986,
+      "Z": 347.14,
+      "Yaw": 2.72412,
+      "Radius": 1,
+      "MapId": 623,
+      "TerritoryId": 928
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 610,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112431,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33910,
+          "ItemName": "Widespread Illness Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 33911,
+          "ItemName": "Possessed by Disease Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 33912,
+          "ItemName": "Faltering Prayer (Dawn Breeze) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Tower at Paradigm\u0027s Breach",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69572,
+    "QuestTitle": "It Takes a Village",
+    "PreviousQuestIds": [
+      69571
+    ],
+    "PreviousQuestTitles": [
+      "Brave New World"
+    ],
+    "NextQuestIds": [
+      69579
+    ],
+    "NextQuestTitles": [
+      "Komra Wasn\u0027t Built in a Day"
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8692224,
+      "X": 701.972,
+      "Y": 291.856,
+      "Z": -142.426,
+      "Yaw": -1.53341,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 620,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101052,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1255,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69579,
+    "QuestTitle": "Komra Wasn\u0027t Built in a Day",
+    "PreviousQuestIds": [
+      69572
+    ],
+    "PreviousQuestTitles": [
+      "It Takes a Village"
+    ],
+    "NextQuestIds": [
+      69580,
+      69586
+    ],
+    "NextQuestTitles": [
+      "A Message from Konogg",
+      "All That Grinds Is Not Gloom"
+    ],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8157761,
+      "X": 665.908,
+      "Y": 297.478,
+      "Z": -160.543,
+      "Yaw": -1.22173,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "doomsaying dwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 705,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 106,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69586,
+    "QuestTitle": "All That Grinds Is Not Gloom",
+    "PreviousQuestIds": [
+      69579
+    ],
+    "PreviousQuestTitles": [
+      "Komra Wasn\u0027t Built in a Day"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "doomsaying dwarf",
+    "StarterNpcLocation": {
+      "RowId": 8625954,
+      "X": 655.178,
+      "Y": 297.566,
+      "Z": -171.299,
+      "Yaw": -0.68023,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "doomsaying dwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 810,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 310,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33138,
+          "ItemName": "",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69587,
+    "QuestTitle": "The Merchant of Komra",
+    "PreviousQuestIds": [
+      69581
+    ],
+    "PreviousQuestTitles": [
+      "Dwarves of a Beard"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "dour dwarf",
+    "StarterNpcLocation": {
+      "RowId": 8625955,
+      "X": 653.916,
+      "Y": 297.505,
+      "Z": -171.788,
+      "Yaw": 0.373986,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "dour dwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 820,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 310,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33138,
+          "ItemName": "",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69588,
+    "QuestTitle": "How to Catch an Automaton",
+    "PreviousQuestIds": [
+      69583
+    ],
+    "PreviousQuestTitles": [
+      "Dwarves of a Beard Freshened"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "decisive dwarf",
+    "StarterNpcLocation": {
+      "RowId": 8625965,
+      "X": 652.718,
+      "Y": 297.478,
+      "Z": -171.019,
+      "Yaw": 0.719186,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "decisive dwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 830,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 310,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33138,
+          "ItemName": "",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69589,
+    "QuestTitle": "Whence the Heart Leads",
+    "PreviousQuestIds": [
+      69585
+    ],
+    "PreviousQuestTitles": [
+      "All\u0027s Well That Ends with Ale"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "dig site chief",
+    "StarterNpcLocation": {
+      "RowId": 8157761,
+      "X": 665.908,
+      "Y": 297.478,
+      "Z": -160.543,
+      "Yaw": -1.22173,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "dig site chief",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 26,
+      "JournalCategory": {
+        "Id": 25,
+        "Name": "YoRHa: Dark Apocalypse"
+      },
+      "Name": "YoRHa: Dark Apocalypse"
+    },
+    "SortKey": 900,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101053,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1015,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33845,
+          "ItemName": "Weight of the World (Instrumental) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

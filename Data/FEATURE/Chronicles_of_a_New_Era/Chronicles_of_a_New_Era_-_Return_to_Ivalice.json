@@ -1,0 +1,794 @@
+[
+  {
+    "QuestId": 68539,
+    "QuestTitle": "Dramatis Personae",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      68540
+    ],
+    "NextQuestTitles": [
+      "A City Fallen"
+    ],
+    "StarterNpc": "Keiten",
+    "StarterNpcLocation": {
+      "RowId": 6654195,
+      "X": 49.262,
+      "Y": 4,
+      "Z": 55.7751,
+      "Yaw": -0.0437581,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Ramza bas Lexentale",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100743,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1200,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68540,
+    "QuestTitle": "A City Fallen",
+    "PreviousQuestIds": [
+      68539
+    ],
+    "PreviousQuestTitles": [
+      "Dramatis Personae"
+    ],
+    "NextQuestIds": [
+      68625
+    ],
+    "NextQuestTitles": [
+      "Uninvited"
+    ],
+    "StarterNpc": "Ramza bas Lexentale",
+    "StarterNpcLocation": {
+      "RowId": 7077717,
+      "X": -15.364,
+      "Y": -1.19983,
+      "Z": -4.81096,
+      "Yaw": -2.28943,
+      "Radius": 1,
+      "MapId": 421,
+      "TerritoryId": 736
+    },
+    "FinishNpc": "Lina Mewrilah",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112256,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21294,
+          "ItemName": "Protagonist\u0027s Theme Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 21295,
+          "ItemName": "Background Story Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Royal City of Rabanastre",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68625,
+    "QuestTitle": "Uninvited",
+    "PreviousQuestIds": [
+      68540
+    ],
+    "PreviousQuestTitles": [
+      "A City Fallen"
+    ],
+    "NextQuestIds": [
+      68627
+    ],
+    "NextQuestTitles": [
+      "Desire"
+    ],
+    "StarterNpc": "Lina Mewrilah",
+    "StarterNpcLocation": {
+      "RowId": 7101899,
+      "X": -42.2383,
+      "Y": 15,
+      "Z": 42.5694,
+      "Yaw": 1.73077,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Jenomis cen Lexentale",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100787,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1853,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68626,
+    "QuestTitle": "My Power, My Pleasure, My Pain",
+    "PreviousQuestIds": [
+      68725
+    ],
+    "PreviousQuestTitles": [
+      "The City of Lost Angels"
+    ],
+    "NextQuestIds": [
+      68726
+    ],
+    "NextQuestTitles": [
+      "In Bad Taste"
+    ],
+    "StarterNpc": "wandering dramaturge",
+    "StarterNpcLocation": {
+      "RowId": 7515772,
+      "X": 1.3574,
+      "Y": 0.0512,
+      "Z": 1.9941,
+      "Yaw": 2.07602,
+      "Radius": 1,
+      "MapId": 420,
+      "TerritoryId": 735
+    },
+    "FinishNpc": "wandering dramaturge",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 800,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2480,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68627,
+    "QuestTitle": "Desire",
+    "PreviousQuestIds": [
+      68625
+    ],
+    "PreviousQuestTitles": [
+      "Uninvited"
+    ],
+    "NextQuestIds": [
+      68628
+    ],
+    "NextQuestTitles": [
+      "Annihilation"
+    ],
+    "StarterNpc": "Jenomis cen Lexentale",
+    "StarterNpcLocation": {
+      "RowId": 7388779,
+      "X": -12.2182,
+      "Y": 0.0468703,
+      "Z": -3.18992,
+      "Yaw": 1.04574,
+      "Radius": 1,
+      "MapId": 420,
+      "TerritoryId": 735
+    },
+    "FinishNpc": "Jenomis cen Lexentale",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100788,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1153,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23326,
+          "ItemName": "World Map Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68628,
+    "QuestTitle": "Annihilation",
+    "PreviousQuestIds": [
+      68627
+    ],
+    "PreviousQuestTitles": [
+      "Desire"
+    ],
+    "NextQuestIds": [
+      68629,
+      68723
+    ],
+    "NextQuestTitles": [
+      "Makin\u0027 Bacon (Bread)",
+      "The Path of Most Resistance"
+    ],
+    "StarterNpc": "Jenomis cen Lexentale",
+    "StarterNpcLocation": {
+      "RowId": 7460235,
+      "X": 1.46622,
+      "Y": 0,
+      "Z": -9.65251,
+      "Yaw": 0.442459,
+      "Radius": 1,
+      "MapId": 421,
+      "TerritoryId": 736
+    },
+    "FinishNpc": "Lina Mewrilah",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112286,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23327,
+          "ItemName": "A Chapel Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Ridorana Lighthouse",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68629,
+    "QuestTitle": "Makin\u0027 Bacon (Bread)",
+    "PreviousQuestIds": [
+      68628
+    ],
+    "PreviousQuestTitles": [
+      "Annihilation"
+    ],
+    "NextQuestIds": [
+      68727
+    ],
+    "NextQuestTitles": [
+      "Wok on By"
+    ],
+    "StarterNpc": "",
+    "FinishNpc": "wandering dramaturge",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 900,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 18030,
+          "ItemName": "Cracked Cluster",
+          "Count": 5
+        },
+        {
+          "ItemId": 18031,
+          "ItemName": "Cracked Crystal",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68723,
+    "QuestTitle": "The Path of Most Resistance",
+    "PreviousQuestIds": [
+      68628
+    ],
+    "PreviousQuestTitles": [
+      "Annihilation"
+    ],
+    "NextQuestIds": [
+      68724
+    ],
+    "NextQuestTitles": [
+      "Welcome to Their Jungle"
+    ],
+    "StarterNpc": "Lina Mewrilah",
+    "StarterNpcLocation": {
+      "RowId": 7101899,
+      "X": -42.2383,
+      "Y": 15,
+      "Z": 42.5694,
+      "Yaw": 1.73077,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Montblanc",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100813,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1262,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68724,
+    "QuestTitle": "Welcome to Their Jungle",
+    "PreviousQuestIds": [
+      68723
+    ],
+    "PreviousQuestTitles": [
+      "The Path of Most Resistance"
+    ],
+    "NextQuestIds": [
+      68725
+    ],
+    "NextQuestTitles": [
+      "The City of Lost Angels"
+    ],
+    "StarterNpc": "Montblanc",
+    "StarterNpcLocation": {
+      "RowId": 7745116,
+      "X": -58.4573,
+      "Y": 79.0265,
+      "Z": 43.6865,
+      "Yaw": 1.79611,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Jenomis cen Lexentale",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100814,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1408,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68725,
+    "QuestTitle": "The City of Lost Angels",
+    "PreviousQuestIds": [
+      68724
+    ],
+    "PreviousQuestTitles": [
+      "Welcome to Their Jungle"
+    ],
+    "NextQuestIds": [
+      68626,
+      68726,
+      69370
+    ],
+    "NextQuestTitles": [
+      "My Power, My Pleasure, My Pain",
+      "In Bad Taste",
+      "Hail to the Queen"
+    ],
+    "StarterNpc": "Jenomis cen Lexentale",
+    "StarterNpcLocation": {
+      "RowId": 7745346,
+      "X": -9.10968,
+      "Y": -0.0153198,
+      "Z": -7.30908,
+      "Yaw": 3.09372,
+      "Radius": 1,
+      "MapId": 420,
+      "TerritoryId": 735
+    },
+    "FinishNpc": "Lina Mewrilah",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112334,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1408,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25072,
+          "ItemName": "Alma\u0027s Theme Orchestrion Roll",
+          "Count": 1
+        },
+        {
+          "ItemId": 25071,
+          "ItemName": "Staff Credits Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Orbonne Monastery",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68726,
+    "QuestTitle": "In Bad Taste",
+    "PreviousQuestIds": [
+      68725,
+      68626
+    ],
+    "PreviousQuestTitles": [
+      "The City of Lost Angels",
+      "My Power, My Pleasure, My Pain"
+    ],
+    "NextQuestIds": [
+      68727
+    ],
+    "NextQuestTitles": [
+      "Wok on By"
+    ],
+    "StarterNpc": "wandering dramaturge",
+    "StarterNpcLocation": {
+      "RowId": 7515772,
+      "X": 1.3574,
+      "Y": 0.0512,
+      "Z": 1.9941,
+      "Yaw": 2.07602,
+      "Radius": 1,
+      "MapId": 420,
+      "TerritoryId": 735
+    },
+    "FinishNpc": "wandering dramaturge",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 850,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100815,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2604,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68727,
+    "QuestTitle": "Wok on By",
+    "PreviousQuestIds": [
+      68726,
+      68629
+    ],
+    "PreviousQuestTitles": [
+      "In Bad Taste",
+      "Makin\u0027 Bacon (Bread)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "",
+    "FinishNpc": "wandering dramaturge",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 23,
+      "JournalCategory": {
+        "Id": 22,
+        "Name": "Chronicles of a New Era - Return to Ivalice"
+      },
+      "Name": "Return to Ivalice"
+    },
+    "SortKey": 999,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100816,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 18031,
+          "ItemName": "Cracked Crystal",
+          "Count": 5
+        },
+        {
+          "ItemId": 16783,
+          "ItemName": "Mhachi Demimatter",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

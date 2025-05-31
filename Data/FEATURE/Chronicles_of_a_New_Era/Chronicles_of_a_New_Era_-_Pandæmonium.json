@@ -1,0 +1,1541 @@
+[
+  {
+    "QuestId": 70011,
+    "QuestTitle": "The Crystal from Beyond",
+    "PreviousQuestIds": [
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70012
+    ],
+    "NextQuestTitles": [
+      "Where Familiars Dare"
+    ],
+    "StarterNpc": "Nemjiji",
+    "StarterNpcLocation": {
+      "RowId": 8980093,
+      "X": -81.1728,
+      "Y": 1.25289,
+      "Z": 36.5189,
+      "Yaw": -2.72656,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Themis",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 19,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101149,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33928,
+          "ItemName": "Quickarm Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70012,
+    "QuestTitle": "Where Familiars Dare",
+    "PreviousQuestIds": [
+      70011
+    ],
+    "PreviousQuestTitles": [
+      "The Crystal from Beyond"
+    ],
+    "NextQuestIds": [
+      70013
+    ],
+    "NextQuestTitles": [
+      "Under the Surface"
+    ],
+    "StarterNpc": "Themis",
+    "StarterNpcLocation": {
+      "RowId": 8980154,
+      "X": 542.534,
+      "Y": 7.66426,
+      "Z": 50.9193,
+      "Yaw": 3.11232,
+      "Radius": 1,
+      "MapId": 700,
+      "TerritoryId": 961
+    },
+    "FinishNpc": "Themis",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112448,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33929,
+          "ItemName": "Quicktongue Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Asphodelos: The First Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70013,
+    "QuestTitle": "Under the Surface",
+    "PreviousQuestIds": [
+      70012
+    ],
+    "PreviousQuestTitles": [
+      "Where Familiars Dare"
+    ],
+    "NextQuestIds": [
+      70014
+    ],
+    "NextQuestTitles": [
+      "The Fires of Creation"
+    ],
+    "StarterNpc": "Erichthonios",
+    "StarterNpcLocation": {
+      "RowId": 8980357,
+      "X": 99.0933,
+      "Y": 7.6875,
+      "Z": -66.9708,
+      "Yaw": 2.80306,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Erichthonios",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112450,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Asphodelos: The Second Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70014,
+    "QuestTitle": "The Fires of Creation",
+    "PreviousQuestIds": [
+      70013
+    ],
+    "PreviousQuestTitles": [
+      "Under the Surface"
+    ],
+    "NextQuestIds": [
+      70015
+    ],
+    "NextQuestTitles": [
+      "Who Wards the Warders?"
+    ],
+    "StarterNpc": "Themis",
+    "StarterNpcLocation": {
+      "RowId": 8980394,
+      "X": 100.908,
+      "Y": 7.67523,
+      "Z": -67.5823,
+      "Yaw": -0.792585,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Themis",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112452,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Asphodelos: The Third Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70015,
+    "QuestTitle": "Who Wards the Warders?",
+    "PreviousQuestIds": [
+      70014
+    ],
+    "PreviousQuestTitles": [
+      "The Fires of Creation"
+    ],
+    "NextQuestIds": [
+      70171
+    ],
+    "NextQuestTitles": [
+      "An Unwelcome Visitor"
+    ],
+    "StarterNpc": "Themis",
+    "StarterNpcLocation": {
+      "RowId": 8980448,
+      "X": 98.3501,
+      "Y": 0,
+      "Z": -29.6786,
+      "Yaw": 1.27741,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Claudien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 23,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112454,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 1
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 1
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33928,
+          "ItemName": "Quickarm Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33929,
+          "ItemName": "Quicktongue Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Asphodelos: The Fourth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70171,
+    "QuestTitle": "An Unwelcome Visitor",
+    "PreviousQuestIds": [
+      70015
+    ],
+    "PreviousQuestTitles": [
+      "Who Wards the Warders?"
+    ],
+    "NextQuestIds": [
+      70172
+    ],
+    "NextQuestTitles": [
+      "Masks of the Father"
+    ],
+    "StarterNpc": "Claudien",
+    "StarterNpcLocation": {
+      "RowId": 8980096,
+      "X": -639.704,
+      "Y": -27.176,
+      "Z": 301.106,
+      "Yaw": -1.5989,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
+    "FinishNpc": "Erichthonios",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 24,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101195,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70172,
+    "QuestTitle": "Masks of the Father",
+    "PreviousQuestIds": [
+      70171
+    ],
+    "PreviousQuestTitles": [
+      "An Unwelcome Visitor"
+    ],
+    "NextQuestIds": [
+      70173
+    ],
+    "NextQuestTitles": [
+      "A Keyward\u0027s Gaol"
+    ],
+    "StarterNpc": "Erichthonios",
+    "StarterNpcLocation": {
+      "RowId": 9317049,
+      "X": 100.014,
+      "Y": 0,
+      "Z": -22.1543,
+      "Yaw": 3.08899,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Themis",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 25,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112484,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33928,
+          "ItemName": "Quickarm Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Abyssos: The Fifth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70173,
+    "QuestTitle": "A Keyward\u0027s Gaol",
+    "PreviousQuestIds": [
+      70172
+    ],
+    "PreviousQuestTitles": [
+      "Masks of the Father"
+    ],
+    "NextQuestIds": [
+      70174
+    ],
+    "NextQuestTitles": [
+      "Servant of Violence"
+    ],
+    "StarterNpc": "Erichthonios",
+    "StarterNpcLocation": {
+      "RowId": 9317074,
+      "X": 101.823,
+      "Y": 0,
+      "Z": -26.9017,
+      "Yaw": -3.09783,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Erichthonios",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 26,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112486,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33929,
+          "ItemName": "Quicktongue Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Abyssos: The Sixth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70174,
+    "QuestTitle": "Servant of Violence",
+    "PreviousQuestIds": [
+      70173
+    ],
+    "PreviousQuestTitles": [
+      "A Keyward\u0027s Gaol"
+    ],
+    "NextQuestIds": [
+      70175
+    ],
+    "NextQuestTitles": [
+      "One Final Wish"
+    ],
+    "StarterNpc": "Erichthonios",
+    "StarterNpcLocation": {
+      "RowId": 9324986,
+      "X": 102.129,
+      "Y": 0,
+      "Z": -26.5458,
+      "Yaw": -0.764046,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Lahabrea",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 27,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112488,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Abyssos: The Seventh Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70175,
+    "QuestTitle": "One Final Wish",
+    "PreviousQuestIds": [
+      70174
+    ],
+    "PreviousQuestTitles": [
+      "Servant of Violence"
+    ],
+    "NextQuestIds": [
+      70176
+    ],
+    "NextQuestTitles": [
+      "Truth Imperfect"
+    ],
+    "StarterNpc": "Lahabrea",
+    "StarterNpcLocation": {
+      "RowId": 9317082,
+      "X": 98.7106,
+      "Y": -0.0153198,
+      "Z": -26.2608,
+      "Yaw": 2.8763,
+      "Radius": 1,
+      "MapId": 748,
+      "TerritoryId": 1025
+    },
+    "FinishNpc": "Lahabrea",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 28,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112490,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Abyssos: The Eighth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70176,
+    "QuestTitle": "Truth Imperfect",
+    "PreviousQuestIds": [
+      70175
+    ],
+    "PreviousQuestTitles": [
+      "One Final Wish"
+    ],
+    "NextQuestIds": [
+      70292
+    ],
+    "NextQuestTitles": [
+      "Eater of Souls"
+    ],
+    "StarterNpc": "Lahabrea",
+    "StarterNpcLocation": {
+      "RowId": 9337839,
+      "X": 95.9582,
+      "Y": 0,
+      "Z": 95.6113,
+      "Yaw": 1.69762,
+      "Radius": 1,
+      "MapId": 809,
+      "TerritoryId": 1093
+    },
+    "FinishNpc": "Ruissenaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 29,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101196,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 1
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 1
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33928,
+          "ItemName": "Quickarm Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33929,
+          "ItemName": "Quicktongue Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70292,
+    "QuestTitle": "Eater of Souls",
+    "PreviousQuestIds": [
+      70176
+    ],
+    "PreviousQuestTitles": [
+      "Truth Imperfect"
+    ],
+    "NextQuestIds": [
+      70293
+    ],
+    "NextQuestTitles": [
+      "Pand\u00E6monium Awakens"
+    ],
+    "StarterNpc": "Ruissenaud",
+    "StarterNpcLocation": {
+      "RowId": 9318038,
+      "X": -639.704,
+      "Y": -27.2069,
+      "Z": 301.991,
+      "Yaw": -1.56982,
+      "Radius": 1,
+      "MapId": 695,
+      "TerritoryId": 956
+    },
+    "FinishNpc": "Erichthonios",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112524,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33928,
+          "ItemName": "Quickarm Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Anabaseios: The Ninth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70293,
+    "QuestTitle": "Pand\u00E6monium Awakens",
+    "PreviousQuestIds": [
+      70292
+    ],
+    "PreviousQuestTitles": [
+      "Eater of Souls"
+    ],
+    "NextQuestIds": [
+      70294
+    ],
+    "NextQuestTitles": [
+      "The Emissary\u0027s Judgment"
+    ],
+    "StarterNpc": "Lahabrea",
+    "StarterNpcLocation": {
+      "RowId": 9827698,
+      "X": 18.204,
+      "Y": 197.413,
+      "Z": 504.784,
+      "Yaw": 1.18584,
+      "Radius": 1,
+      "MapId": 788,
+      "TerritoryId": 1079
+    },
+    "FinishNpc": "Lahabrea",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 31,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112526,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33929,
+          "ItemName": "Quicktongue Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Anabaseios: The Tenth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70294,
+    "QuestTitle": "The Emissary\u0027s Judgment",
+    "PreviousQuestIds": [
+      70293
+    ],
+    "PreviousQuestTitles": [
+      "Pand\u00E6monium Awakens"
+    ],
+    "NextQuestIds": [
+      70295
+    ],
+    "NextQuestTitles": [
+      "A Mother\u0027s Touch"
+    ],
+    "StarterNpc": "Lahabrea",
+    "StarterNpcLocation": {
+      "RowId": 9830220,
+      "X": 98.9891,
+      "Y": 0,
+      "Z": 103.746,
+      "Yaw": 2.89534,
+      "Radius": 1,
+      "MapId": 834,
+      "TerritoryId": 1158
+    },
+    "FinishNpc": "Erichthonios",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 32,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112528,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Anabaseios: The Eleventh Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70295,
+    "QuestTitle": "A Mother\u0027s Touch",
+    "PreviousQuestIds": [
+      70294
+    ],
+    "PreviousQuestTitles": [
+      "The Emissary\u0027s Judgment"
+    ],
+    "NextQuestIds": [
+      70296
+    ],
+    "NextQuestTitles": [
+      "Guided by the Past"
+    ],
+    "StarterNpc": "Lahabrea",
+    "StarterNpcLocation": {
+      "RowId": 10042595,
+      "X": 98.1002,
+      "Y": 0,
+      "Z": 103.868,
+      "Yaw": 2.39898,
+      "Radius": 1,
+      "MapId": 834,
+      "TerritoryId": 1158
+    },
+    "FinishNpc": "Themis",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 33,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112530,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Anabaseios: The Twelfth Circle",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70296,
+    "QuestTitle": "Guided by the Past",
+    "PreviousQuestIds": [
+      70295
+    ],
+    "PreviousQuestTitles": [
+      "A Mother\u0027s Touch"
+    ],
+    "NextQuestIds": [
+      70788
+    ],
+    "NextQuestTitles": [
+      "A Present from the Present"
+    ],
+    "StarterNpc": "Lahabrea",
+    "StarterNpcLocation": {
+      "RowId": 9830168,
+      "X": 28.4275,
+      "Y": 197.584,
+      "Z": 508.232,
+      "Yaw": 1.23972,
+      "Radius": 1,
+      "MapId": 788,
+      "TerritoryId": 1079
+    },
+    "FinishNpc": "Claudien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 28,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium"
+    },
+    "SortKey": 34,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101265,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 7500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 1
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 1
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 33928,
+          "ItemName": "Quickarm Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33929,
+          "ItemName": "Quicktongue Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70788,
+    "QuestTitle": "A Present from the Present",
+    "PreviousQuestIds": [
+      70296
+    ],
+    "PreviousQuestTitles": [
+      "Guided by the Past"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "affable researcher",
+    "StarterNpcLocation": {
+      "RowId": 11121859,
+      "X": -10.6837,
+      "Y": 2.40005,
+      "Z": -31.157,
+      "Yaw": 0.381596,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Claudien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 29,
+      "JournalCategory": {
+        "Id": 27,
+        "Name": "Chronicles of a New Era - Pand\u00E6monium"
+      },
+      "Name": "Pand\u00E6monium: Epilogue"
+    },
+    "SortKey": 35,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101393,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44493,
+          "ItemName": "Wind-up Themis",
+          "Count": 1
+        },
+        {
+          "ItemId": 45021,
+          "ItemName": "Where D\u00E6mons Abide Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

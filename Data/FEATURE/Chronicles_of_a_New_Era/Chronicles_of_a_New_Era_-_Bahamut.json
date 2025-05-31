@@ -1,0 +1,442 @@
+[
+  {
+    "QuestId": 65579,
+    "QuestTitle": "Fragments of Truth",
+    "PreviousQuestIds": [
+      66850
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      65580
+    ],
+    "NextQuestTitles": [
+      "Alisaie\u0027s Path"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Erkenrad",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 16,
+      "JournalCategory": {
+        "Id": 16,
+        "Name": "Chronicles of a New Era - Bahamut"
+      },
+      "Name": "Bahamut Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100314,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1018,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30016,
+          "InstanceName": "The Final Coil of Bahamut - Turn 1",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Final Coil of Bahamut - Turn 2",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Final Coil of Bahamut - Turn 3",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Final Coil of Bahamut - Turn 4",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Final Coil of Bahamut - Turn 5",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65580,
+    "QuestTitle": "Alisaie\u0027s Path",
+    "PreviousQuestIds": [
+      65579
+    ],
+    "PreviousQuestTitles": [
+      "Fragments of Truth"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 5000053,
+      "X": -59.982,
+      "Y": 76.8154,
+      "Z": -204.045,
+      "Yaw": 2.86547,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 16,
+      "JournalCategory": {
+        "Id": 16,
+        "Name": "Chronicles of a New Era - Bahamut"
+      },
+      "Name": "Bahamut Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100315,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66695,
+    "QuestTitle": "Primal Awakening",
+    "PreviousQuestIds": [
+      66694
+    ],
+    "PreviousQuestTitles": [
+      "In a Titan Spot"
+    ],
+    "NextQuestIds": [
+      66696
+    ],
+    "NextQuestTitles": [
+      "Alisaie\u0027s Pledge"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "J\u0027brohka",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 16,
+      "JournalCategory": {
+        "Id": 16,
+        "Name": "Chronicles of a New Era - Bahamut"
+      },
+      "Name": "Bahamut Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100167,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1659,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30002,
+          "InstanceName": "The Binding Coil of Bahamut - Turn 1",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Binding Coil of Bahamut - Turn 2",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Binding Coil of Bahamut - Turn 3",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Binding Coil of Bahamut - Turn 4",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Binding Coil of Bahamut - Turn 5",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66696,
+    "QuestTitle": "Alisaie\u0027s Pledge",
+    "PreviousQuestIds": [
+      66695
+    ],
+    "PreviousQuestTitles": [
+      "Primal Awakening"
+    ],
+    "NextQuestIds": [
+      66849
+    ],
+    "NextQuestTitles": [
+      "Another Turn in the Coil"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Alisaie",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 16,
+      "JournalCategory": {
+        "Id": 16,
+        "Name": "Chronicles of a New Era - Bahamut"
+      },
+      "Name": "Bahamut Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100230,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66849,
+    "QuestTitle": "Another Turn in the Coil",
+    "PreviousQuestIds": [
+      66696
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Pledge"
+    ],
+    "NextQuestIds": [
+      66850
+    ],
+    "NextQuestTitles": [
+      "Alisaie\u0027s Resolve"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Anaelle",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 16,
+      "JournalCategory": {
+        "Id": 16,
+        "Name": "Chronicles of a New Era - Bahamut"
+      },
+      "Name": "Bahamut Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100228,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2064,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30007,
+          "InstanceName": "The Second Coil of Bahamut - Turn 1",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Second Coil of Bahamut - Turn 2",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Second Coil of Bahamut - Turn 3",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Second Coil of Bahamut - Turn 4",
+          "ContentType": 5
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Second Coil of Bahamut - Turn 5",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66850,
+    "QuestTitle": "Alisaie\u0027s Resolve",
+    "PreviousQuestIds": [
+      66849
+    ],
+    "PreviousQuestTitles": [
+      "Another Turn in the Coil"
+    ],
+    "NextQuestIds": [
+      65579
+    ],
+    "NextQuestTitles": [
+      "Fragments of Truth"
+    ],
+    "StarterNpc": "Alisaie",
+    "StarterNpcLocation": {
+      "RowId": 4618357,
+      "X": -60.3173,
+      "Y": 76.7824,
+      "Z": -203.206,
+      "Yaw": 2.96902,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 16,
+      "JournalCategory": {
+        "Id": 16,
+        "Name": "Chronicles of a New Era - Bahamut"
+      },
+      "Name": "Bahamut Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100229,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

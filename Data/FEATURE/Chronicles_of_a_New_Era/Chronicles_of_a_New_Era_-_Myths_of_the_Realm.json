@@ -1,0 +1,637 @@
+[
+  {
+    "QuestId": 70072,
+    "QuestTitle": "A Mission in Mor Dhona",
+    "PreviousQuestIds": [
+      70066
+    ],
+    "PreviousQuestTitles": [
+      "A Brother\u0027s Grief"
+    ],
+    "NextQuestIds": [
+      70073
+    ],
+    "NextQuestTitles": [
+      "The Realm of the Gods"
+    ],
+    "StarterNpc": "fresh-faced Student",
+    "StarterNpcLocation": {
+      "RowId": 9160608,
+      "X": -104.995,
+      "Y": 3.89894,
+      "Z": 13.3161,
+      "Yaw": 2.21745,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101159,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70073,
+    "QuestTitle": "The Realm of the Gods",
+    "PreviousQuestIds": [
+      70072
+    ],
+    "PreviousQuestTitles": [
+      "A Mission in Mor Dhona"
+    ],
+    "NextQuestIds": [
+      70074
+    ],
+    "NextQuestTitles": [
+      "A Divine Dilemma"
+    ],
+    "StarterNpc": "G\u0027raha Tia",
+    "StarterNpcLocation": {
+      "RowId": 9171327,
+      "X": 5.7526,
+      "Y": 0.0762,
+      "Z": 11.7037,
+      "Yaw": -1.79738,
+      "Radius": 1,
+      "MapId": 766,
+      "TerritoryId": 1061
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112466,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Aglaia",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70074,
+    "QuestTitle": "A Divine Dilemma",
+    "PreviousQuestIds": [
+      70073
+    ],
+    "PreviousQuestTitles": [
+      "The Realm of the Gods"
+    ],
+    "NextQuestIds": [
+      70075
+    ],
+    "NextQuestTitles": [
+      "The Face of an Explorer"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 9171334,
+      "X": 12.1501,
+      "Y": 0.1,
+      "Z": -0.814892,
+      "Yaw": 1.00416,
+      "Radius": 1,
+      "MapId": 766,
+      "TerritoryId": 1061
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101160,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70075,
+    "QuestTitle": "The Face of an Explorer",
+    "PreviousQuestIds": [
+      70074
+    ],
+    "PreviousQuestTitles": [
+      "A Divine Dilemma"
+    ],
+    "NextQuestIds": [
+      70202
+    ],
+    "NextQuestTitles": [
+      "Return to the Phantom Realm"
+    ],
+    "StarterNpc": "Deryk",
+    "StarterNpcLocation": {
+      "RowId": 9161196,
+      "X": -4.5937,
+      "Y": 2.74574,
+      "Z": -39.4893,
+      "Yaw": 2.26338,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 140,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101161,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70202,
+    "QuestTitle": "Return to the Phantom Realm",
+    "PreviousQuestIds": [
+      70075
+    ],
+    "PreviousQuestTitles": [
+      "The Face of an Explorer"
+    ],
+    "NextQuestIds": [
+      70203
+    ],
+    "NextQuestTitles": [
+      "In Heavenly Company"
+    ],
+    "StarterNpc": "Deryk",
+    "StarterNpcLocation": {
+      "RowId": 9164279,
+      "X": 124.225,
+      "Y": 19.3228,
+      "Z": -617.411,
+      "Yaw": 0.0258566,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112505,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5270,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Euphrosyne",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70203,
+    "QuestTitle": "In Heavenly Company",
+    "PreviousQuestIds": [
+      70202
+    ],
+    "PreviousQuestTitles": [
+      "Return to the Phantom Realm"
+    ],
+    "NextQuestIds": [
+      70204
+    ],
+    "NextQuestTitles": [
+      "Divine Nonintervention"
+    ],
+    "StarterNpc": "Menphina",
+    "StarterNpcLocation": {
+      "RowId": 9551162,
+      "X": -6.62481,
+      "Y": 0.0762329,
+      "Z": 7.2785,
+      "Yaw": -1.78069,
+      "Radius": 1,
+      "MapId": 766,
+      "TerritoryId": 1061
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101210,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70204,
+    "QuestTitle": "Divine Nonintervention",
+    "PreviousQuestIds": [
+      70203
+    ],
+    "PreviousQuestTitles": [
+      "In Heavenly Company"
+    ],
+    "NextQuestIds": [
+      70205
+    ],
+    "NextQuestTitles": [
+      "The Secret of the Twelve"
+    ],
+    "StarterNpc": "Deryk",
+    "StarterNpcLocation": {
+      "RowId": 9551389,
+      "X": 80.2776,
+      "Y": 373.709,
+      "Z": -674.464,
+      "Yaw": 0.176136,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101211,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70205,
+    "QuestTitle": "The Secret of the Twelve",
+    "PreviousQuestIds": [
+      70204
+    ],
+    "PreviousQuestTitles": [
+      "Divine Nonintervention"
+    ],
+    "NextQuestIds": [
+      70327
+    ],
+    "NextQuestTitles": [
+      "The Heart of the Myth"
+    ],
+    "StarterNpc": "Deryk",
+    "StarterNpcLocation": {
+      "RowId": 9551429,
+      "X": 204.063,
+      "Y": 6.15957,
+      "Z": -32.0388,
+      "Yaw": 0.396726,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101212,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70327,
+    "QuestTitle": "The Heart of the Myth",
+    "PreviousQuestIds": [
+      70205
+    ],
+    "PreviousQuestTitles": [
+      "The Secret of the Twelve"
+    ],
+    "NextQuestIds": [
+      70328
+    ],
+    "NextQuestTitles": [
+      "Embraced by Gods"
+    ],
+    "StarterNpc": "Deryk",
+    "StarterNpcLocation": {
+      "RowId": 9164279,
+      "X": 124.225,
+      "Y": 19.3228,
+      "Z": -617.411,
+      "Yaw": 0.0258566,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112546,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Thaleia",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70328,
+    "QuestTitle": "Embraced by Gods",
+    "PreviousQuestIds": [
+      70327
+    ],
+    "PreviousQuestTitles": [
+      "The Heart of the Myth"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Deryk",
+    "StarterNpcLocation": {
+      "RowId": 10166670,
+      "X": 945.212,
+      "Y": -950,
+      "Z": -937.781,
+      "Yaw": -3.10704,
+      "Radius": 1,
+      "MapId": 890,
+      "TerritoryId": 1182
+    },
+    "FinishNpc": "Deryk",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 30,
+      "JournalCategory": {
+        "Id": 28,
+        "Name": "Chronicles of a New Era - Myths of the Realm"
+      },
+      "Name": "Myths of the Realm"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101269,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 8000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41369,
+          "ItemName": "Twelvefold Blessings Framer\u0027s Kit",
+          "Count": 1
+        },
+        {
+          "ItemId": 37415,
+          "ItemName": "One among Wonders Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
