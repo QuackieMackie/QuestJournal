@@ -69,6 +69,79 @@
     }
   },
   {
+    "QuestId": 69378,
+    "QuestTitle": "Weapon of Choice",
+    "PreviousQuestIds": [
+      69319
+    ],
+    "PreviousQuestTitles": [
+      "Ruby Doomsday"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "warmachina fanatic",
+    "StarterNpcLocation": {
+      "RowId": 8264282,
+      "X": -496.508,
+      "Y": 7.68117,
+      "Z": 53.1475,
+      "Yaw": -1.90921,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "warmachina fanatic",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 0,
+      "JournalCategory": {
+        "Id": 26,
+        "Name": "Chronicles of a New Era - The Sorrow of Werlyt"
+      },
+      "Name": ""
+    },
+    "SortKey": 61,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 0,
+          "InstanceName": "Cinder Drift (Extreme)",
+          "ContentType": 4
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "Castrum Marinum (Extreme)",
+          "ContentType": 4
+        },
+        {
+          "InstanceId": 0,
+          "InstanceName": "The Cloud Deck (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
     "QuestId": 69431,
     "QuestTitle": "Sleep Now in Sapphire",
     "PreviousQuestIds": [

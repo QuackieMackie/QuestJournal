@@ -52,10 +52,43 @@ public class TheSorrowOfWerlytInjectedQuestData
                     quest.Rewards ??= new Reward();
                 }
             },
-            
-            //TODO: Add quest `Weapon of Choice`
-            // - This is for some reason does not have a JourneyCategory set, so I'll have to manually inject the entire quest.
-            //  - Maybe a method that would achieve this in case it pops up again?
+
+            // "Weapon of Choice"
+            {
+                69378, quest =>
+                {
+                    quest.SortKey = 61;
+
+                    quest.JournalGenre ??= new JournalGenreDetails();
+                    quest.JournalGenre.JournalCategory ??= new JournalCategoryDetails();
+                    quest.JournalGenre.JournalCategory.Id = 26;
+                    quest.JournalGenre.JournalCategory.Name = "Chronicles of a New Era - The Sorrow of Werlyt";
+
+                    quest.Rewards ??= new Reward();
+                    quest.Rewards.InstanceContentUnlock ??= new List<InstanceContentUnlockReward>();
+
+                    quest.Rewards.InstanceContentUnlock.Add(new InstanceContentUnlockReward
+                    {
+                        InstanceId = 0,
+                        InstanceName = "Cinder Drift (Extreme)",
+                        ContentType = 4
+                    });
+
+                    quest.Rewards.InstanceContentUnlock.Add(new InstanceContentUnlockReward
+                    {
+                        InstanceId = 0,
+                        InstanceName = "Castrum Marinum (Extreme)",
+                        ContentType = 4
+                    });
+
+                    quest.Rewards.InstanceContentUnlock.Add(new InstanceContentUnlockReward
+                    {
+                        InstanceId = 0,
+                        InstanceName = "The Cloud Deck (Extreme)",
+                        ContentType = 4
+                    });
+                }
+            },
         };
     }
 }

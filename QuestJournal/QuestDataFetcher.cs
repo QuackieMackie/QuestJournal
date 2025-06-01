@@ -255,23 +255,6 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             70541  // "Trial by Spire"
         ];
 
-        List<int> warringTriad = 
-        [ 
-            // Mandatory Quests
-            67650, // "Gods of Eld"
-            67766, // "When the Bough Wakes"
-            67824, // "The Fate of Stars"
-            67868, // "Balance unto All"
-            67930,  // "The Last Pillar to Fall"
-            
-            // Optional Quests
-            67651, // "The Diabolical Bismarck"
-            67652, // "Thok Around the Clock"
-            67817,  // "A Fiendish Likeness"
-            67869,  // "A Deific Simulacrum"
-            67931,  // "A Demonic Duplicate"
-        ];
-
         // Mapping: Identifier (CategoryId or QuestIdList), Folder Name, Grouping Logic, Manual Name
         // Grouping Logic:
         // 0: Use JournalGenre.Name
