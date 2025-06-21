@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Plugin.Services;
 using ImGuiNET;
@@ -34,10 +35,13 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
         }
 
         rendererUtils.DrawDropDown("Select Subdirectory", subDirList, ref selectedSubDir, OnSubDirSelected);
-        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory,
-                                   UpdateQuestList);
+        rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
+        var highlightedQuestCount = questList.Count(quest =>
+                                                        !string.IsNullOrWhiteSpace(searchQuery) &&
+                                                        quest.QuestTitle != null &&
+                                                        quest.QuestTitle.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
 
-        rendererUtils.DrawSearchBar(ref searchQuery);
+        rendererUtils.DrawSearchBar(ref searchQuery, highlightedQuestCount);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
         rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false);
         rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false);

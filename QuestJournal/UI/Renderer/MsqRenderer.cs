@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Plugin.Services;
 using ImGuiNET;
@@ -31,7 +32,12 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, Con
         }
 
         rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
-        rendererUtils.DrawSearchBar(ref searchQuery);
+        var highlightedQuestCount = questList.Count(quest =>
+                                                        !string.IsNullOrWhiteSpace(searchQuery) &&
+                                                        quest.QuestTitle != null &&
+                                                        quest.QuestTitle.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+
+        rendererUtils.DrawSearchBar(ref searchQuery, highlightedQuestCount);
         rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, configuration.CensorStarterLocations);
         rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, configuration.CensorStarterLocations);
     }

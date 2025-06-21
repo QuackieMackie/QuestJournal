@@ -68,7 +68,7 @@ public class MainWindow : Window, IDisposable
         
         ImGui.SameLine();
         
-        if (ImGui.Button("Close All Quest Details##ClearPopOutWindowsButton\n"))
+        if (ImGui.Button("Close All Quest Detail Windows##ClearPopOutWindowsButton\n"))
         {
             questJournal.CloseAllQuestWindows();
         }

@@ -72,12 +72,18 @@ public class RendererUtils
         }
     }
 
-    public void DrawSearchBar(ref string searchQuery)
+    public void DrawSearchBar(ref string searchQuery, int highlightedQuestCount)
     {
         var previousSearchQuery = searchQuery;
 
         if (ImGui.InputText("Search for a quest name##SearchBar", ref searchQuery, 256) &&
             !searchQuery.Equals(previousSearchQuery, StringComparison.OrdinalIgnoreCase)) { }
+        
+        if (!string.IsNullOrWhiteSpace(searchQuery))
+        {
+            ImGui.SameLine();
+            ImGui.Text($"[Found: {highlightedQuestCount}]");
+        }
     }
 
     private Vector4 DetermineQuestColor(bool isComplete, bool isMatch, bool isSelected)

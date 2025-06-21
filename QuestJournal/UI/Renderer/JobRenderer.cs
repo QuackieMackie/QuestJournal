@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Plugin.Services;
 using ImGuiNET;
@@ -29,9 +30,14 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
             InitializeDropDown();
             isInitialized = true;
         }
-
+        
         rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
-        rendererUtils.DrawSearchBar(ref searchQuery);
+        var highlightedQuestCount = questList.Count(quest =>
+                                                        !string.IsNullOrWhiteSpace(searchQuery) &&
+                                                        quest.QuestTitle != null &&
+                                                        quest.QuestTitle.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+        
+        rendererUtils.DrawSearchBar(ref searchQuery, highlightedQuestCount);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
         rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false);
         rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false);
