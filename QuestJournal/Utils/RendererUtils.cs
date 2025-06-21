@@ -436,7 +436,7 @@ public class RendererUtils
                 ImGui.EndChild();
                 ImGui.SameLine();
 
-                ImGui.BeginChild("RightSection", new Vector2(childWidth, childHeight), true);
+                ImGui.BeginChild("RightSection", new Vector2(childWidth - (ImGui.GetStyle().ScrollbarSize / 2), childHeight), true);
 
                 if (ImGui.BeginTabBar("QuestDetailsTabBar", ImGuiTabBarFlags.None))
                 {
