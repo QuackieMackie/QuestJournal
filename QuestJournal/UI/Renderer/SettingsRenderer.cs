@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
+using Dalamud.Bindings.ImGui;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using ImGuiNET;
-using Serilog;
 
 namespace QuestJournal.UI.Renderer;
 

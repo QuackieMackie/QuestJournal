@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Dalamud.NET.Sdk/12.0.2">
+<Project Sdk="Dalamud.NET.Sdk/13.0.0">
     <PropertyGroup>
-        <Version>1.1.4.0</Version>
+        <Version>1.2.0.0</Version>
         <Description>A quest journal.</Description>
         <PackageProjectUrl>https://github.com/quackiemackie/QuestJournal</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
@@ -14,5 +14,16 @@
         <EmbeddedResource Include="..\Data\MSQ\*" Link="Data\MSQ\%(FileName)%(Extension)" />
         <EmbeddedResource Include="..\Data\JOB\*" Link="Data\JOB\%(FileName)%(Extension)" />
         <EmbeddedResource Include="..\Data\FEATURE\**\*" Link="Data\FEATURE\%(RecursiveDir)%(FileName)%(Extension)" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="DalamudPackager" Version="13.0.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Reference Remove="ImGui.NET" />
+        <Reference Include="Dalamud.Bindings.ImGui" Private="false" />
+        <Reference Include="Dalamud.Bindings.ImPlot" Private="false" />
+        <Reference Include="Dalamud.Bindings.ImGuizmo" Private="false" />
     </ItemGroup>
 </Project>

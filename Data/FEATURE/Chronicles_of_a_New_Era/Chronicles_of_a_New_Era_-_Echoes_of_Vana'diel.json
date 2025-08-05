@@ -197,8 +197,12 @@
     "PreviousQuestTitles": [
       "That World Was Called Vana\u0027diel"
     ],
-    "NextQuestIds": [],
-    "NextQuestTitles": [],
+    "NextQuestIds": [
+      70862
+    ],
+    "NextQuestTitles": [
+      "Dreams of Paradise"
+    ],
     "StarterNpc": "Bakool Ja Ja",
     "StarterNpcLocation": {
       "RowId": 11007963,
@@ -238,6 +242,258 @@
         {
           "ItemId": 45023,
           "ItemName": "The Grand Duchy of Jeuno Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70862,
+    "QuestTitle": "Dreams of Paradise",
+    "PreviousQuestIds": [
+      70772
+    ],
+    "PreviousQuestTitles": [
+      "Jeuno"
+    ],
+    "NextQuestIds": [
+      70863
+    ],
+    "NextQuestTitles": [
+      "Northward"
+    ],
+    "StarterNpc": "Landsguard messenger",
+    "StarterNpcLocation": {
+      "RowId": 10968525,
+      "X": 141.308,
+      "Y": 42,
+      "Z": -351.944,
+      "Yaw": -1.59397,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Alxaal",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112614,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4570,
+          "ItemName": "Phoenix Down",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70863,
+    "QuestTitle": "Northward",
+    "PreviousQuestIds": [
+      70862
+    ],
+    "PreviousQuestTitles": [
+      "Dreams of Paradise"
+    ],
+    "NextQuestIds": [
+      70864
+    ],
+    "NextQuestTitles": [
+      "For Whom the Verse Is Sung"
+    ],
+    "StarterNpc": "Bakool Ja Ja",
+    "StarterNpcLocation": {
+      "RowId": 11826746,
+      "X": -2.93088,
+      "Y": 42,
+      "Z": -7.02947,
+      "Yaw": -1.09475,
+      "Radius": 1,
+      "MapId": 955,
+      "TerritoryId": 1265
+    },
+    "FinishNpc": "Prishe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101446,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70864,
+    "QuestTitle": "For Whom the Verse Is Sung",
+    "PreviousQuestIds": [
+      70863
+    ],
+    "PreviousQuestTitles": [
+      "Northward"
+    ],
+    "NextQuestIds": [
+      70865
+    ],
+    "NextQuestTitles": [
+      "Apocalypse Nigh"
+    ],
+    "StarterNpc": "Prishe",
+    "StarterNpcLocation": {
+      "RowId": 11828032,
+      "X": -40.1111,
+      "Y": -4.25765,
+      "Z": 574.19,
+      "Yaw": 1.16911,
+      "Radius": 1,
+      "MapId": 860,
+      "TerritoryId": 1190
+    },
+    "FinishNpc": "Jasper",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101447,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70865,
+    "QuestTitle": "Apocalypse Nigh",
+    "PreviousQuestIds": [
+      70864
+    ],
+    "PreviousQuestTitles": [
+      "For Whom the Verse Is Sung"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bakool Ja Ja",
+    "StarterNpcLocation": {
+      "RowId": 11828118,
+      "X": -325.734,
+      "Y": 18.381,
+      "Z": -100.389,
+      "Yaw": 1.16402,
+      "Radius": 1,
+      "MapId": 860,
+      "TerritoryId": 1190
+    },
+    "FinishNpc": "Landsguard messenger",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 32,
+      "JournalCategory": {
+        "Id": 30,
+        "Name": "Chronicles of a New Era - Echoes of Vana\u0027diel"
+      },
+      "Name": "Echoes of Vana\u0027diel"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101448,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48197,
+          "ItemName": "Vana\u0027diel March #2 Orchestrion Roll",
           "Count": 1
         }
       ],

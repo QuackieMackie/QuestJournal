@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Numerics;
+using Dalamud.Bindings.ImGui;
 using Dalamud.Interface.Windowing;
-using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
-using ImGuiNET;
 using QuestJournal.UI.Handler;
 using QuestJournal.UI.Renderer;
 using QuestJournal.Utils;

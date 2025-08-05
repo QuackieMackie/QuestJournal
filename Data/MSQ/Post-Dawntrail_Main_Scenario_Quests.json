@@ -1045,8 +1045,12 @@
     "PreviousQuestTitles": [
       "Shared Paths"
     ],
-    "NextQuestIds": [],
-    "NextQuestTitles": [],
+    "NextQuestIds": [
+      70900
+    ],
+    "NextQuestTitles": [
+      "Targeted Tragedy"
+    ],
     "StarterNpc": "Sphene",
     "StarterNpcLocation": {
       "RowId": 11558604,
@@ -1103,6 +1107,724 @@
           "IsHq": false
         }
       ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70900,
+    "QuestTitle": "Targeted Tragedy",
+    "PreviousQuestIds": [
+      70842
+    ],
+    "PreviousQuestTitles": [
+      "Seekers of Eternity"
+    ],
+    "NextQuestIds": [
+      70901
+    ],
+    "NextQuestTitles": [
+      "The Endless Choice"
+    ],
+    "StarterNpc": "Shale",
+    "StarterNpcLocation": {
+      "RowId": 10414091,
+      "X": -5.85494,
+      "Y": -0.0153198,
+      "Z": 6.87689,
+      "Yaw": 1.13015,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
+    "FinishNpc": "Wayakkwe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 101431,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1287,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44104,
+          "ItemName": "Tacos de Carne Asada",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44098,
+          "ItemName": "Mesquite Soup",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44087,
+          "ItemName": "Creamy Alpaca Pasta",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44090,
+          "ItemName": "Broccoli and Spinach Saute",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70901,
+    "QuestTitle": "The Endless Choice",
+    "PreviousQuestIds": [
+      70900
+    ],
+    "PreviousQuestTitles": [
+      "Targeted Tragedy"
+    ],
+    "NextQuestIds": [
+      70902
+    ],
+    "NextQuestTitles": [
+      "My Memories and Yours"
+    ],
+    "StarterNpc": "Wayakkwe",
+    "StarterNpcLocation": {
+      "RowId": 11859365,
+      "X": -404.459,
+      "Y": 13.7,
+      "Z": 239.003,
+      "Yaw": 0.605574,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 302,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1241,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70902,
+    "QuestTitle": "My Memories and Yours",
+    "PreviousQuestIds": [
+      70901
+    ],
+    "PreviousQuestTitles": [
+      "The Endless Choice"
+    ],
+    "NextQuestIds": [
+      70903
+    ],
+    "NextQuestTitles": [
+      "A Darkness in the Heart"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11859495,
+      "X": -134.523,
+      "Y": 19.7,
+      "Z": 382.791,
+      "Yaw": 1.89553,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Shale",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 303,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70903,
+    "QuestTitle": "A Darkness in the Heart",
+    "PreviousQuestIds": [
+      70902
+    ],
+    "PreviousQuestTitles": [
+      "My Memories and Yours"
+    ],
+    "NextQuestIds": [
+      70904
+    ],
+    "NextQuestTitles": [
+      "Preservation Their Purpose"
+    ],
+    "StarterNpc": "Shale",
+    "StarterNpcLocation": {
+      "RowId": 11859888,
+      "X": 6.6073,
+      "Y": 0.3713,
+      "Z": -18.546,
+      "Yaw": -1.14972,
+      "Radius": 1,
+      "MapId": 932,
+      "TerritoryId": 1171
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 304,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1250,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70904,
+    "QuestTitle": "Preservation Their Purpose",
+    "PreviousQuestIds": [
+      70903
+    ],
+    "PreviousQuestTitles": [
+      "A Darkness in the Heart"
+    ],
+    "NextQuestIds": [
+      70905
+    ],
+    "NextQuestTitles": [
+      "A Calculated Evolution"
+    ],
+    "StarterNpc": "Wuk Lamat",
+    "StarterNpcLocation": {
+      "RowId": 11860526,
+      "X": -23.5151,
+      "Y": 38.8066,
+      "Z": -412.192,
+      "Yaw": 0.644574,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Shale",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 305,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2066,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44104,
+          "ItemName": "Tacos de Carne Asada",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44098,
+          "ItemName": "Mesquite Soup",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44087,
+          "ItemName": "Creamy Alpaca Pasta",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44090,
+          "ItemName": "Broccoli and Spinach Saute",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70905,
+    "QuestTitle": "A Calculated Evolution",
+    "PreviousQuestIds": [
+      70904
+    ],
+    "PreviousQuestTitles": [
+      "Preservation Their Purpose"
+    ],
+    "NextQuestIds": [
+      70906
+    ],
+    "NextQuestTitles": [
+      "One of Our Own"
+    ],
+    "StarterNpc": "Shale",
+    "StarterNpcLocation": {
+      "RowId": 11873588,
+      "X": 16.2056,
+      "Y": 0,
+      "Z": 28.0613,
+      "Yaw": -2.92143,
+      "Radius": 1,
+      "MapId": 1062,
+      "TerritoryId": 1299
+    },
+    "FinishNpc": "Shale",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 306,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1837,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70906,
+    "QuestTitle": "One of Our Own",
+    "PreviousQuestIds": [
+      70905
+    ],
+    "PreviousQuestTitles": [
+      "A Calculated Evolution"
+    ],
+    "NextQuestIds": [
+      70907
+    ],
+    "NextQuestTitles": [
+      "A Terminal Invitation"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11860533,
+      "X": -4.07936,
+      "Y": 0,
+      "Z": 9.53853,
+      "Yaw": 2.96691,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
+    "FinishNpc": "Y\u0027shtola",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 307,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2512,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70907,
+    "QuestTitle": "A Terminal Invitation",
+    "PreviousQuestIds": [
+      70906
+    ],
+    "PreviousQuestTitles": [
+      "One of Our Own"
+    ],
+    "NextQuestIds": [
+      70908
+    ],
+    "NextQuestTitles": [
+      "Blades in Waiting"
+    ],
+    "StarterNpc": "Y\u0027shtola",
+    "StarterNpcLocation": {
+      "RowId": 11860609,
+      "X": -0.526384,
+      "Y": 53.2,
+      "Z": 768.307,
+      "Yaw": 0.17835,
+      "Radius": 1,
+      "MapId": 862,
+      "TerritoryId": 1192
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 308,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 112611,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 6000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70908,
+    "QuestTitle": "Blades in Waiting",
+    "PreviousQuestIds": [
+      70907
+    ],
+    "PreviousQuestTitles": [
+      "A Terminal Invitation"
+    ],
+    "NextQuestIds": [
+      70909
+    ],
+    "NextQuestTitles": [
+      "The Promise of Tomorrow"
+    ],
+    "StarterNpc": "Sphene",
+    "StarterNpcLocation": {
+      "RowId": 11860945,
+      "X": -145.052,
+      "Y": 25.9718,
+      "Z": -495.377,
+      "Yaw": -1.96787,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Shale",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 309,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 101432,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1417,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70909,
+    "QuestTitle": "The Promise of Tomorrow",
+    "PreviousQuestIds": [
+      70908
+    ],
+    "PreviousQuestTitles": [
+      "Blades in Waiting"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Shale",
+    "StarterNpcLocation": {
+      "RowId": 11860980,
+      "X": -0.595828,
+      "Y": 0,
+      "Z": 6.85313,
+      "Yaw": 0.218551,
+      "Radius": 1,
+      "MapId": 934,
+      "TerritoryId": 1207
+    },
+    "FinishNpc": "Sphene",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 14,
+      "JournalCategory": {
+        "Id": 14,
+        "Name": "Post-Dawntrail Main Scenario Quests"
+      },
+      "Name": "The New Dawn"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 101433,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46148,
+          "ItemName": "The Promise of Tomorrow Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
       "GeneralActions": [],
       "InstanceContentUnlock": [],
       "ReputationReward": {

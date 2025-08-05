@@ -90,12 +90,12 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 
         var jobCategoryIds = new[]
         {
-            84, // "Disciple of War Quests"
-            85, // "Disciple of Magic Quests"
-            86, // "Disciple of the Hand Quests"
-            87, // "Disciple of the Land Quests"
-            91, // "Disciple of the War Job Quests"
-            92  // "Disciple of the Magic Job Quests"
+            85, // "Disciple of War Quests"
+            86, // "Disciple of Magic Quests"
+            87, // "Disciple of the Hand Quests"
+            88, // "Disciple of the Land Quests"
+            92, // "Disciple of the War Job Quests"
+            93  // "Disciple of the Magic Job Quests"
         };
 
         var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
@@ -265,27 +265,27 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
         {
             //(88, "Crystarium Deliveries", 0, null), // "Crystalline Mean Quests"
 
-            (31, "Tribe Quests", 1, null), // Mamool Ja Quests
-            (32, "Tribe Quests", 1, null), // Pelupelu Quests
-            (33, "Tribe Quests", 1, null), // Intersocietal Quests
-            (34, "Tribe Quests", 1, null), // Amaj'aa Quests
-            (35, "Tribe Quests", 1, null), // Sylph Quests
-            (36, "Tribe Quests", 1, null), // Kobold Quests
-            (37, "Tribe Quests", 1, null), // Sahagin Quests
-            (38, "Tribe Quests", 1, null), // Ixal Quests
-            (39, "Tribe Quests", 1, null), // Vanu Vanu Quests
-            (40, "Tribe Quests", 1, null), // Vath Quests
-            (41, "Tribe Quests", 1, null), // Moogle Quests
-            (42, "Tribe Quests", 1, null), // Kojin Quests
-            (43, "Tribe Quests", 1, null), // Ananta Quests
-            (44, "Tribe Quests", 1, null), // Namazu Quests
-            (45, "Tribe Quests", 1, null), // Pixie Quests
-            (46, "Tribe Quests", 1, null), // Qitari Quests
-            (47, "Tribe Quests", 1, null), // Dwarf Quests
-            (48, "Tribe Quests", 1, null), // Arkasodara Quests
-            (49, "Tribe Quests", 1, null), // Omnicron Quests
-            (50, "Tribe Quests", 1, null), // Loporrit Quests
-            (51, "Tribe Quests", 1, null), // Intersocietal Quests
+            (32, "Tribe Quests", 1, null), // Mamool Ja Quests
+            (33, "Tribe Quests", 1, null), // Pelupelu Quests
+            (34, "Tribe Quests", 1, null), // Intersocietal Quests
+            (35, "Tribe Quests", 1, null), // Amaj'aa Quests
+            (36, "Tribe Quests", 1, null), // Sylph Quests
+            (37, "Tribe Quests", 1, null), // Kobold Quests
+            (38, "Tribe Quests", 1, null), // Sahagin Quests
+            (39, "Tribe Quests", 1, null), // Ixal Quests
+            (40, "Tribe Quests", 1, null), // Vanu Vanu Quests
+            (41, "Tribe Quests", 1, null), // Vath Quests
+            (42, "Tribe Quests", 1, null), // Moogle Quests
+            (43, "Tribe Quests", 1, null), // Kojin Quests
+            (44, "Tribe Quests", 1, null), // Ananta Quests
+            (45, "Tribe Quests", 1, null), // Namazu Quests
+            (46, "Tribe Quests", 1, null), // Pixie Quests
+            (47, "Tribe Quests", 1, null), // Qitari Quests
+            (48, "Tribe Quests", 1, null), // Dwarf Quests
+            (49, "Tribe Quests", 1, null), // Arkasodara Quests
+            (50, "Tribe Quests", 1, null), // Omnicron Quests
+            (51, "Tribe Quests", 1, null), // Loporrit Quests
+            (52, "Tribe Quests", 1, null), // Intersocietal Quests
 
             (glamourQuestIds, "Other", 3, "Glamour and Customization"),
             (materiaQuestIds, "Other", 3, "Materia"),

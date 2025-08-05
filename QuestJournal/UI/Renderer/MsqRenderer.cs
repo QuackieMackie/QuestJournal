@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Plugin.Services;
-using ImGuiNET;
 using QuestJournal.Models;
 using QuestJournal.UI.Handler;
 using QuestJournal.Utils;

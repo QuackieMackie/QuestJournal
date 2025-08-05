@@ -6,7 +6,7 @@ using Dalamud.Interface.Textures;
 using Dalamud.Plugin.Services;
 using Dalamud.Utility;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using Lumina.Excel;
 using Lumina.Excel.Sheets;
 using Newtonsoft.Json;
@@ -246,7 +246,7 @@ public class RendererUtils
                     var centeredY = windowPos.Y + ((windowSize.Y - newHeight) / 2f);
 
                     ImGui.GetWindowDrawList().AddImage(
-                        image.ImGuiHandle,
+                        image.Handle,
                         new Vector2(centeredX, centeredY),
                         new Vector2(centeredX + newWidth, centeredY + newHeight),
                         Vector2.Zero,
@@ -745,7 +745,7 @@ public class RendererUtils
             {
                 ImGui.BeginGroup();
 
-                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                ImGui.Image(textureWrap.Handle, new Vector2(size, size));
                 if (ImGui.IsItemHovered())
                 {
                     ImGui.BeginTooltip();
@@ -804,7 +804,7 @@ public class RendererUtils
             {
                 ImGui.BeginGroup();
 
-                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                ImGui.Image(textureWrap.Handle, new Vector2(size, size));
                 if (ImGui.IsItemHovered())
                 {
                     ImGui.BeginTooltip();
@@ -835,7 +835,7 @@ public class RendererUtils
             {
                 ImGui.BeginGroup();
 
-                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                ImGui.Image(textureWrap.Handle, new Vector2(size, size));
                 if (ImGui.IsItemHovered())
                 {
                     ImGui.BeginTooltip();
@@ -874,12 +874,12 @@ public class RendererUtils
             if (sharedTexture.TryGetWrap(out var textureWrap, out _))
             {
                 ImGui.SetCursorPosX(ImGui.GetCursorPosX() + 5);
-                ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size, size));
+                ImGui.Image(textureWrap.Handle, new Vector2(size, size));
 
                 if (ImGui.IsItemHovered())
                 {
                     ImGui.BeginTooltip();
-                    ImGui.Image(textureWrap.ImGuiHandle, new Vector2(size * 4, size * 4));
+                    ImGui.Image(textureWrap.Handle, new Vector2(size * 4, size * 4));
                     ImGui.EndTooltip();
                 }
             }
