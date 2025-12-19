@@ -4,6 +4,7 @@ using QuestJournal.Models;
 using QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 using QuestJournal.Utils.InjectedData.Feature.Duties;
 using QuestJournal.Utils.InjectedData.Feature.Other;
+using QuestJournal.Utils.InjectedData.MSQ;
 
 namespace QuestJournal.Utils;
 
@@ -22,12 +23,18 @@ public class QuestDataInjector
     {
         var allData = new[]
         {
+            // MSQ
+            PostDawntrailIIInjectedQuestData.GetData(),
+            
+            // Duties
             DungeonInjectedQuestData.GetData(),
             TrailInjectedQuestData.GetData(),
+            StoneSkySeaInjectedQuestData.GetData(),
+
+            // Other
             MateriaInjectedQuestData.GetData(),
             LocationInjectedQuestData.GetData(),
             GlamourAndCustomizationInjectedQuestData.GetData(),
-            StoneSkySeaInjectedQuestData.GetData(),
             
             // Chronicles of a New Era
             AlexanderInjectedQuestData.GetData(),
