@@ -69,7 +69,8 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, Con
                 "Endwalker Main Scenario Quests",
                 "Post-Endwalker Main Scenario Quests",
                 "Dawntrail Main Scenario Quests",
-                "Post-Dawntrail Main Scenario Quests"
+                "Post-Dawntrail Main Scenario Quests",
+                "Post-Dawntrail Main Scenario Quests II"
             };
 
             dropDownCategories = msqCategories

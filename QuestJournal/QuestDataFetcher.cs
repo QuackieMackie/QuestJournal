@@ -15,7 +15,25 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     private readonly Lazy<ExcelSheet<Quest>?> questSheet = new(() => dataManager.GetExcelSheet<Quest>());
 
     private ExcelSheet<Quest>? QuestSheet => questSheet.Value;
+    private readonly Lazy<ExcelSheet<JournalCategory>?> journalCategorySheet = new(() => dataManager.GetExcelSheet<JournalCategory>());
+    private readonly Lazy<ExcelSheet<JournalGenre>?> journalGenreSheet = new(() => dataManager.GetExcelSheet<JournalGenre>());
 
+    private uint? GetCategoryIdByName(string name)
+    {
+        var id = journalCategorySheet.Value?
+                                   .FirstOrDefault(row => row.Name.ExtractText().Equals(name, StringComparison.OrdinalIgnoreCase))
+                                   .RowId;
+        return id == 0 ? null : id;
+    }
+
+    private List<uint> GetCategoryIdsByName(string name)
+    {
+        return journalCategorySheet.Value?
+                                   .Where(row => row.Name.ExtractText().Equals(name, StringComparison.OrdinalIgnoreCase))
+                                   .Select(row => row.RowId)
+                                   .ToList() ?? new List<uint>();
+    }
+    
     public List<QuestModel> GetAllQuests()
     {
         var questInfoLookup = new Dictionary<uint, QuestModel>();
@@ -37,8 +55,8 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
                     foreach (var prevQuestId in prevQuestIds)
                         if (questInfoLookup.TryGetValue(prevQuestId, out var prevQuestInfo))
                         {
-                            prevQuestInfo?.NextQuestIds?.Add(quest.RowId);
-                            prevQuestInfo?.NextQuestTitles?.Add(quest.Name.ExtractText());
+                            prevQuestInfo.NextQuestIds?.Add(quest.RowId);
+                            prevQuestInfo.NextQuestTitles?.Add(quest.Name.ExtractText());
                         }
                 }
 
@@ -52,7 +70,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     public Dictionary<string, List<QuestModel>> GetMainScenarioQuestsByCategory()
     {
         var allQuests = GetAllQuests();
-        var msqCategories = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        var msqCategoryNames = new[]
         {
             "Seventh Umbral Era Main Scenario Quests",
             "Seventh Astral Era Main Scenario Quests",
@@ -67,18 +85,26 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             "Endwalker Main Scenario Quests",
             "Post-Endwalker Main Scenario Quests",
             "Dawntrail Main Scenario Quests",
-            "Post-Dawntrail Main Scenario Quests"
+            "Post-Dawntrail Main Scenario Quests",
+            "Post-Dawntrail Main Scenario Quests II"
         };
 
-        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
+        var idToName = new Dictionary<uint, string>();
+        foreach (var name in msqCategoryNames)
+        {
+            if (GetCategoryIdByName(name) is { } id) idToName[id] = name;
+        }
 
-        foreach (var category in msqCategories) categorizedQuests[category] = new List<QuestModel>();
+        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
+        foreach (var name in msqCategoryNames) categorizedQuests[name] = new List<QuestModel>();
 
         foreach (var quest in allQuests)
         {
-            var categoryName = quest.JournalGenre?.JournalCategory?.Name;
-            if (categoryName != null && msqCategories.Contains(categoryName))
-                categorizedQuests[categoryName].Add(quest);
+            var category = quest.JournalGenre?.JournalCategory;
+            if (category != null && idToName.TryGetValue(category.Id, out var name))
+            {
+                categorizedQuests[name].Add(quest);
+            }
         }
 
         return categorizedQuests;
@@ -88,23 +114,27 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     {
         var allQuests = GetAllQuests();
 
-        var jobCategoryIds = new[]
+        var jobCategoryNames = new[]
         {
-            85, // "Disciple of War Quests"
-            86, // "Disciple of Magic Quests"
-            87, // "Disciple of the Hand Quests"
-            88, // "Disciple of the Land Quests"
-            92, // "Disciple of the War Job Quests"
-            93  // "Disciple of the Magic Job Quests"
+            "Disciple of War Quests",
+            "Disciple of Magic Quests",
+            "Disciple of the Hand Quests",
+            "Disciple of the Land Quests",
+            "Disciple of War Job Quests",
+            "Disciple of Magic Job Quests"
         };
+
+        var resolvedIds = jobCategoryNames
+                          .Select(GetCategoryIdByName)
+                          .OfType<uint>()
+                          .ToList();
 
         var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
 
         foreach (var quest in allQuests)
         {
             var category = quest.JournalGenre?.JournalCategory;
-
-            if (category != null && jobCategoryIds.Contains((int)category.Id))
+            if (category != null && resolvedIds.Contains(category.Id))
             {
                 var journalGenreName = quest.JournalGenre?.Name;
                 if (!string.IsNullOrEmpty(journalGenreName))
@@ -265,27 +295,26 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
         {
             //(88, "Crystarium Deliveries", 0, null), // "Crystalline Mean Quests"
 
-            (32, "Tribe Quests", 1, null), // Mamool Ja Quests
-            (33, "Tribe Quests", 1, null), // Pelupelu Quests
-            (34, "Tribe Quests", 1, null), // Intersocietal Quests
-            (35, "Tribe Quests", 1, null), // Amaj'aa Quests
-            (36, "Tribe Quests", 1, null), // Sylph Quests
-            (37, "Tribe Quests", 1, null), // Kobold Quests
-            (38, "Tribe Quests", 1, null), // Sahagin Quests
-            (39, "Tribe Quests", 1, null), // Ixal Quests
-            (40, "Tribe Quests", 1, null), // Vanu Vanu Quests
-            (41, "Tribe Quests", 1, null), // Vath Quests
-            (42, "Tribe Quests", 1, null), // Moogle Quests
-            (43, "Tribe Quests", 1, null), // Kojin Quests
-            (44, "Tribe Quests", 1, null), // Ananta Quests
-            (45, "Tribe Quests", 1, null), // Namazu Quests
-            (46, "Tribe Quests", 1, null), // Pixie Quests
-            (47, "Tribe Quests", 1, null), // Qitari Quests
-            (48, "Tribe Quests", 1, null), // Dwarf Quests
-            (49, "Tribe Quests", 1, null), // Arkasodara Quests
-            (50, "Tribe Quests", 1, null), // Omnicron Quests
-            (51, "Tribe Quests", 1, null), // Loporrit Quests
-            (52, "Tribe Quests", 1, null), // Intersocietal Quests
+            (GetCategoryIdByName("Mamool Ja Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Pelupelu Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdsByName("Intersocietal Quests"), "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Amalj'aa Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Sylph Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Kobold Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Sahagin Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Ixal Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Vanu Vanu Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Vath Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Moogle Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Kojin Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Ananta Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Namazu Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Pixie Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Qitari Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Dwarf Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Arkasodara Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Omicron Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Loporrit Quests") ?? 0, "Tribe Quests", 1, null),
 
             (glamourQuestIds, "Other", 3, "Glamour and Customization"),
             (materiaQuestIds, "Other", 3, "Materia"),
@@ -299,26 +328,26 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (stoneSkySeaQuestIds, "Duties", 3, "Stone Sky Sea"),
             
             // Trials
-            (15, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Primals"
-            (19, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Warring Triad"
-            (23, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Four Lords"
-            (26, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Sorrow of Werlyt"
+            (GetCategoryIdByName("Chronicles of a New Era - Primals") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - The Warring Triad") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - The Four Lords") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - The Sorrow of Werlyt") ?? 0, "Chronicles of a New Era", 1, null),
 
             // Raids
-            (16, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Bahamut"
-            (18, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Alexander"
-            (21, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Omega"
-            (24, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Eden"
-            (27, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Pandæmonium"
-            (30, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Echoes of Vana'diel"
-            (29, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Arcadion"
+            (GetCategoryIdByName("Chronicles of a New Era - Bahamut") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Alexander") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Omega") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Eden") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Pandæmonium") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Echoes of Vana'diel") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - The Arcadion") ?? 0, "Chronicles of a New Era", 1, null),
 
             // Alliance Raids
-            (17, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Crystal Tower"
-            (20, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - The Shadow of Mhach"
-            (22, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Return to Ivalice"
-            (25, "Chronicles of a New Era", 1, null), // "YoRHa: Dark Apocalypse"
-            (28, "Chronicles of a New Era", 1, null), // "Chronicles of a New Era - Myths of the Realm"
+            (GetCategoryIdByName("Chronicles of a New Era - The Crystal Tower") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - The Shadow of Mhach") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Return to Ivalice") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("YoRHa: Dark Apocalypse") ?? 0, "Chronicles of a New Era", 1, null),
+            (GetCategoryIdByName("Chronicles of a New Era - Myths of the Realm") ?? 0, "Chronicles of a New Era", 1, null),
             
             (trailsQuestIds, "Duties", 3, "Trails"),
         };
@@ -331,9 +360,21 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             {
                 var matches = false;
 
-                if (identifier is int categoryId)
-                    matches = category != null && category.Id == categoryId;
-                else if (identifier is List<int> questIds) matches = questIds.Contains((int)quest.QuestId);
+                switch (identifier)
+                {
+                    case uint categoryId:
+                        matches = category != null && category.Id == categoryId;
+                        break;
+                    case List<uint> categoryIds:
+                        matches = category != null && categoryIds.Contains(category.Id);
+                        break;
+                    case int intId:
+                        matches = category != null && category.Id == (uint)intId;
+                        break;
+                    case List<int> questIds:
+                        matches = questIds.Contains((int)quest.QuestId);
+                        break;
+                }
 
                 if (matches)
                 {

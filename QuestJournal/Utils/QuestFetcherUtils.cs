@@ -370,41 +370,22 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
             var rewards = contentFinderConditionSheet
                           .Where(c =>
                           {
-                              if (c.Unknown37 == 1)
+                              // Check UnlockCriteria 1
+                              if (c.UnlockType == 1 && c.UnlockCriteria.RowId == questId)
                               {
-                                  // Use Unknown31 as the quest ID (instead of UnlockQuest)
-                                  return c.Unknown31 == questId;
+                                  return true;
+                              }
+                              
+                              // Check UnlockCriteria 2
+                              if (c.UnlockType2 == 1 && c.UnlockCriteria2.RowId == questId)
+                              {
+                                  return true;
                               }
 
-                              return c.UnlockQuest.RowId == questId;
+                              return false;
                           })
                           .Select(content =>
                           {
-                              // Handle Unknown36 to determine unlock logic
-                              // 0: No requirements, 1: Quest requirement, 2: Instance + quest, 3: Special case
-                              if (content.Unknown36 == 2 && content.Unknown31 != 0)
-                              {
-                                  // Unreal unlocks: Requires both instance content and a quest (special logic)
-                                  return new InstanceContentUnlockReward
-                                  {
-                                      InstanceId = content.RowId,
-                                      InstanceName = content.Name.ExtractText(),
-                                      ContentType = ResolveContentType(content.ContentType)
-                                  };
-                              }
-
-                              if (content.Unknown36 == 3)
-                              {
-                                  // Special case for entries like "The Calamity Untold"
-                                  return new InstanceContentUnlockReward
-                                  {
-                                      InstanceId = content.RowId,
-                                      InstanceName = content.Name.ExtractText() + " (Calamity Untold)",
-                                      ContentType = ResolveContentType(content.ContentType)
-                                  };
-                              }
-
-                              // Default case for normal unlocks
                               return new InstanceContentUnlockReward
                               {
                                   InstanceId = content.RowId,
@@ -518,8 +499,12 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
 
         try
         {
-            var expansionRow = exVersionSheet.GetRow(expansionRef.RowId);
+            var expansionRow = expansionRef.Value;
             return expansionRow.Name.ExtractText();
+        }
+        catch (Exception ex) when (ex is ArgumentOutOfRangeException or InvalidOperationException)
+        {
+            return "";
         }
         catch (Exception ex)
         {
