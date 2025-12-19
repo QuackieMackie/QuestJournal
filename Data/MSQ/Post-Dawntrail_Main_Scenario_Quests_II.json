@@ -1,0 +1,659 @@
+[
+  {
+    "QuestId": 70962,
+    "QuestTitle": "With the Winds",
+    "PreviousQuestIds": [
+      70909
+    ],
+    "PreviousQuestTitles": [
+      "The Promise of Tomorrow"
+    ],
+    "NextQuestIds": [
+      70963
+    ],
+    "NextQuestTitles": [
+      "Through the Thunder"
+    ],
+    "StarterNpc": "Alphinaud",
+    "StarterNpcLocation": {
+      "RowId": 12048334,
+      "X": -22.5393,
+      "Y": 38.0566,
+      "Z": -389.034,
+      "Yaw": -0.0206588,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4503,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 101468,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2040,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44183,
+          "ItemName": "Lobster Bisque",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44178,
+          "ItemName": "Moqueca",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44181,
+          "ItemName": "Navel Orange Cookies",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70963,
+    "QuestTitle": "Through the Thunder",
+    "PreviousQuestIds": [
+      70962
+    ],
+    "PreviousQuestTitles": [
+      "With the Winds"
+    ],
+    "NextQuestIds": [
+      70964
+    ],
+    "NextQuestTitles": [
+      "Beyond the Mountains"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 12104100,
+      "X": 132.647,
+      "Y": -15.8999,
+      "Z": 176.043,
+      "Yaw": 2.77425,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4504,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2624,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70964,
+    "QuestTitle": "Beyond the Mountains",
+    "PreviousQuestIds": [
+      70963
+    ],
+    "PreviousQuestTitles": [
+      "Through the Thunder"
+    ],
+    "NextQuestIds": [
+      70965
+    ],
+    "NextQuestTitles": [
+      "Around the City"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 12102527,
+      "X": -7.54132,
+      "Y": 0,
+      "Z": -7.94155,
+      "Yaw": 0.145412,
+      "Radius": 1,
+      "MapId": 1123,
+      "TerritoryId": 1334
+    },
+    "FinishNpc": "Lumull",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4762,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 112634,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5641,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41768,
+          "ItemName": "Quickarm Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41769,
+          "ItemName": "Quicktongue Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 103,
+          "InstanceName": "Mistwake",
+          "ContentType": 2
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70965,
+    "QuestTitle": "Around the City",
+    "PreviousQuestIds": [
+      70964
+    ],
+    "PreviousQuestTitles": [
+      "Beyond the Mountains"
+    ],
+    "NextQuestIds": [
+      70966
+    ],
+    "NextQuestTitles": [
+      "To Work"
+    ],
+    "StarterNpc": "Lumull",
+    "StarterNpcLocation": {
+      "RowId": 12106500,
+      "X": 274.647,
+      "Y": -115.979,
+      "Z": -460.835,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 1122,
+      "TerritoryId": 1332
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4765,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 966,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70966,
+    "QuestTitle": "To Work",
+    "PreviousQuestIds": [
+      70965
+    ],
+    "PreviousQuestTitles": [
+      "Around the City"
+    ],
+    "NextQuestIds": [
+      70967
+    ],
+    "NextQuestTitles": [
+      "In Her Heart"
+    ],
+    "StarterNpc": "Lumull",
+    "StarterNpcLocation": {
+      "RowId": 12106500,
+      "X": 274.647,
+      "Y": -115.979,
+      "Z": -460.835,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 1122,
+      "TerritoryId": 1332
+    },
+    "FinishNpc": "Eyaney",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4765,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1425,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44183,
+          "ItemName": "Lobster Bisque",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44179,
+          "ItemName": "Cinnamon Cream Coffee",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44177,
+          "ItemName": "Churrasco",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70967,
+    "QuestTitle": "In Her Heart",
+    "PreviousQuestIds": [
+      70966
+    ],
+    "PreviousQuestTitles": [
+      "To Work"
+    ],
+    "NextQuestIds": [
+      70968
+    ],
+    "NextQuestTitles": [
+      "Toward Trouble"
+    ],
+    "StarterNpc": "Eyaney",
+    "StarterNpcLocation": {
+      "RowId": 12106560,
+      "X": 245.899,
+      "Y": -116.025,
+      "Z": -533.692,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 1122,
+      "TerritoryId": 1332
+    },
+    "FinishNpc": "Eyaney",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4765,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1425,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70968,
+    "QuestTitle": "Toward Trouble",
+    "PreviousQuestIds": [
+      70967
+    ],
+    "PreviousQuestTitles": [
+      "In Her Heart"
+    ],
+    "NextQuestIds": [
+      70969
+    ],
+    "NextQuestTitles": [
+      "Where We Call Home"
+    ],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 12106596,
+      "X": 245.93,
+      "Y": -116.025,
+      "Z": -531.548,
+      "Yaw": -3.09917,
+      "Radius": 1,
+      "MapId": 1122,
+      "TerritoryId": 1332
+    },
+    "FinishNpc": "Lumull",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4765,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1287,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70969,
+    "QuestTitle": "Where We Call Home",
+    "PreviousQuestIds": [
+      70968
+    ],
+    "PreviousQuestTitles": [
+      "Toward Trouble"
+    ],
+    "NextQuestIds": [
+      70970
+    ],
+    "NextQuestTitles": [
+      "Into the Mist"
+    ],
+    "StarterNpc": "Lumull",
+    "StarterNpcLocation": {
+      "RowId": 12106955,
+      "X": 292.132,
+      "Y": -98,
+      "Z": -283.249,
+      "Yaw": 0.841224,
+      "Radius": 1,
+      "MapId": 1122,
+      "TerritoryId": 1332
+    },
+    "FinishNpc": "Krile",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4765,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 101469,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 6237,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20106,
+          "InstanceName": "Hell on Rails",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70970,
+    "QuestTitle": "Into the Mist",
+    "PreviousQuestIds": [
+      70969
+    ],
+    "PreviousQuestTitles": [
+      "Where We Call Home"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Krile",
+    "StarterNpcLocation": {
+      "RowId": 12106975,
+      "X": 280.598,
+      "Y": -115.979,
+      "Z": -422.782,
+      "Yaw": 3.11372,
+      "Radius": 1,
+      "MapId": 1122,
+      "TerritoryId": 1332
+    },
+    "FinishNpc": "Gossan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 15,
+      "JournalCategory": {
+        "Id": 15,
+        "Name": "Post-Dawntrail Main Scenario Quests II"
+      },
+      "Name": "Winter\u0027s Prelude"
+    },
+    "SortKey": 4765,
+    "IsRepeatable": false,
+    "EventIcon": 3,
+    "Icon": 101470,
+    "JobLevel": 100,
+    "ClassJobCategory": "LNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2970,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 50779,
+          "ItemName": "Dark City Treno (Dawntrail) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
