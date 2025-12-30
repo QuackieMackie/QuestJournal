@@ -114,9 +114,8 @@ public class FeatureHandler : IDisposable
             }
 
             var filteredQuests = PerformQuestFiltering(quests);
-
-            log.Info($"Loaded and filtered {filteredQuests.Count} quests from: {resourcePath}");
-            return filteredQuests;
+            
+            return QuestSorter.TopologicalSort(filteredQuests);
         }
         catch (FileNotFoundException e)
         {
@@ -180,6 +179,6 @@ public class FeatureHandler : IDisposable
             }
         }
 
-        return filteredQuests.OrderBy(q => q.SortKey).ToList();;
+        return QuestSorter.TopologicalSort(filteredQuests);
     }
 }

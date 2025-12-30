@@ -178,7 +178,7 @@ public class MsqHandler : IDisposable
             
             var filteredQuests = PerformQuestFiltering(quests);
             
-            return filteredQuests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
+            return QuestSorter.TopologicalSort(filteredQuests);
         }
         catch (Exception ex)
         {
@@ -238,6 +238,6 @@ public class MsqHandler : IDisposable
                              .ToList();
         }
 
-        return filteredQuests.OrderBy(q => q.SortKey).ToList();;
+        return QuestSorter.TopologicalSort(filteredQuests);
     }
 }

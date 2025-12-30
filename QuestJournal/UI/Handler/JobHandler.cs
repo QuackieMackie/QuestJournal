@@ -55,7 +55,7 @@ public class JobHandler : IDisposable
 
             log.Info($"Loaded {filteredQuests.Count} quests from resource '{resourcePath}'.");
 
-            return filteredQuests.Where(q => q != null).OrderBy(q => q.SortKey).ToList();
+            return QuestSorter.TopologicalSort(filteredQuests);
         }
         catch (FileNotFoundException e)
         {
@@ -124,10 +124,12 @@ public class JobHandler : IDisposable
 
         var mappedQuestIds = classMapping.SelectMany(kvp => new[] { kvp.Value.StartQuestId, kvp.Value.UnlockQuestId }).ToHashSet();
 
-        return quests.Where(q =>
+        var filteredQuests = quests.Where(q =>
                                 !mappedQuestIds.Contains(q.QuestId) || // Allow quests not in the mapping
                                 q.QuestId == startQuestId ||           // Include StartQuestId for selected class
                                 unlockQuestIds.Contains(q.QuestId)     // Include UnlockQuestIds for other classes
-        ).OrderBy(q => q.SortKey).ToList();
+        );
+
+        return QuestSorter.TopologicalSort(filteredQuests);
     }
 }

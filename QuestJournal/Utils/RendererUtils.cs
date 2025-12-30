@@ -100,7 +100,7 @@ public class RendererUtils
         return new Vector4(1f, 1f, 1f, 1f); // Default white
     }
 
-    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest, bool CensorStarterLocations)
+    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest, bool censorStarterLocations)
     {
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
@@ -168,7 +168,7 @@ public class RendererUtils
                 }
 
                 ImGui.TableNextColumn();
-                if (CensorStarterLocations)
+                if (censorStarterLocations)
                 {
                     if (!isComplete && !isAccepted) 
                     {
@@ -205,7 +205,7 @@ public class RendererUtils
         ImGui.EndChild();
     }
 
-    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList, bool CensorStarterLocations)
+    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList, bool censorStarterLocations)
     {
         if (quest == null)
         {
@@ -309,7 +309,10 @@ public class RendererUtils
                     ImGui.TableNextColumn();
                     ImGui.Text("First quest:");
                     ImGui.TableNextColumn();
-                    var firstQuest = questList.FirstOrDefault();
+                    var currentQuestList = questList;
+                    var firstQuest = currentQuestList.FirstOrDefault(q =>
+                                         q.PreviousQuestIds == null ||
+                                         !q.PreviousQuestIds.Any(id => currentQuestList.Any(ql => ql.QuestId == id)));
                     if (firstQuest != null)
                     {
                         var firstQuestStatusInfo = OtherUtils.GetQuestStatus(firstQuest);
@@ -398,7 +401,7 @@ public class RendererUtils
                                          : QuestManager.IsQuestComplete(quest.QuestId);
                     }
                     
-                    if (CensorStarterLocations)
+                    if (censorStarterLocations)
                     {
                         if (!isComplete && !isAccepted) 
                         {

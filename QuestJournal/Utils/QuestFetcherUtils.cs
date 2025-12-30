@@ -17,7 +17,6 @@ public class QuestFetcherUtils(IDataManager dataManager, IPluginLog log)
     private readonly ExcelSheet<ContentFinderCondition> contentFinderConditionSheet = dataManager.GetExcelSheet<ContentFinderCondition>();
     private readonly ExcelSheet<ContentType> contentTypeSheet = dataManager.GetExcelSheet<ContentType>();
     private readonly ExcelSheet<Emote> emoteSheet = dataManager.GetExcelSheet<Emote>();
-    private readonly ExcelSheet<ExVersion> exVersionSheet = dataManager.GetExcelSheet<ExVersion>();
     private readonly ExcelSheet<GeneralAction> generalActionSheet = dataManager.GetExcelSheet<GeneralAction>();
     private readonly ExcelSheet<Item> itemSheet = dataManager.GetExcelSheet<Item>();
     private readonly ExcelSheet<Lumina.Excel.Sheets.Level> levelSheet = dataManager.GetExcelSheet<Lumina.Excel.Sheets.Level>();
