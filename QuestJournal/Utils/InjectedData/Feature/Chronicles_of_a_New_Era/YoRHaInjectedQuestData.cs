@@ -4,54 +4,17 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class YoRHaInjectedQuestData
+public class YoRHaInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "On the Threshold"
-            {
-                69254, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Copied Factory",
-                        ContentType = 5
-                    });
+        // "On the Threshold"
+        injections.AddInstance(69254, 0, "The Copied Factory", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Everything You Know Is Wrong"
-            {
-                69489, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Puppets' Bunker",
-                        ContentType = 5
-                    });
+        // "Everything You Know Is Wrong"
+        injections.AddInstance(69489, 0, "The Puppets' Bunker", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Brave New World"
-            {
-                69571, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Tower at Paradigm's Breach",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "Brave New World"
+        injections.AddInstance(69571, 0, "The Tower at Paradigm's Breach", 5);
     }
 }

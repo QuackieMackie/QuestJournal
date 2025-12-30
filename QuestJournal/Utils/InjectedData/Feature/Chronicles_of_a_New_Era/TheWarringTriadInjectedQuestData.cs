@@ -4,82 +4,23 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class TheWarringTriadInjectedQuestData
+public class TheWarringTriadInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "When the Bough Wakes"
-            {
-                67766, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Containment Bay S1T7",
-                        ContentType = 4
-                    });
+        // "When the Bough Wakes"
+        injections.AddInstance(67766, 0, "Containment Bay S1T7", 4);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Balance unto All"
-            {
-                67868, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Containment Bay P1T6",
-                        ContentType = 4
-                    });
+        // "Balance unto All"
+        injections.AddInstance(67868, 0, "Containment Bay P1T6", 4);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Last Pillar to Fall"
-            {
-                67930, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Containment Bay Z1T9",
-                        ContentType = 4
-                    });
+        // "The Last Pillar to Fall"
+        injections.AddInstance(67930, 0, "Containment Bay Z1T9", 4);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Diabolical Bismarck"
-            {
-                67651, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Limitless Blue (Extreme)",
-                        ContentType = 4
-                    });
+        // "The Diabolical Bismarck"
+        injections.AddInstance(67651, 0, "The Limitless Blue (Extreme)", 4);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Thok Around the Clock"
-            {
-                67652, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Thok ast Thok (Extreme)",
-                        ContentType = 4
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "Thok Around the Clock"
+        injections.AddInstance(67652, 0, "Thok ast Thok (Extreme)", 4);
     }
 }

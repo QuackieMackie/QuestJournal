@@ -4,109 +4,29 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Other;
 
-public class LocationInjectedQuestData
+public class LocationInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "Where the Heart is (The Goblet)"
-            {
-                66749, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "The Goblet",
-                        MapId = 83,
-                        TerritoryId = 341
-                    };
-                }
-            },
+        // "Where the Heart is (The Goblet)"
+        injections.AddLocation(66749, "The Goblet", 83, 341);
 
-            // "Where the Heart is (Mist)"
-            {
-                66750, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "Mist",
-                        MapId = 72,
-                        TerritoryId = 339
-                    };
-                }
-            },
+        // "Where the Heart is (Mist)"
+        injections.AddLocation(66750, "Mist", 72, 339);
 
-            // "Where the Heart is (The Lavender Beds)"
-            {
-                66748, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "The Lavender Beds",
-                        MapId = 82,
-                        TerritoryId = 340
-                    };
-                }
-            },
+        // "Where the Heart is (The Lavender Beds)"
+        injections.AddLocation(66748, "The Lavender Beds", 82, 340);
 
-            // "It Could Happen to You"
-            {
-                65970, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "The Gold Saucer",
-                        MapId = 196,
-                        TerritoryId = 144
-                    };
-                }
-            },
+        // "It Could Happen to You"
+        injections.AddLocation(65970, "The Gold Saucer", 196, 144);
 
-            // "Broadening Horizons"
-            {
-                66338, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "White Wolf Gate",
-                        MapId = 2,
-                        TerritoryId = 132
-                    };
-                }
-            },
+        // "Broadening Horizons"
+        injections.AddLocation(66338, "White Wolf Gate", 2, 132);
 
-            // "I Dream of Shirogane"
-            {
-                68167, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "Shirogane",
-                        MapId = 364,
-                        TerritoryId = 641
-                    };
-                }
-            },
+        // "I Dream of Shirogane"
+        injections.AddLocation(68167, "Shirogane", 364, 641);
 
-            // "Ascending to Empyreum"
-            {
-                69708, quest =>
-                {
-                    quest.Rewards ??= new Reward();
-                    quest.Rewards.LocationReward = new LevelReward
-                    {
-                        PlaceName = "Empyreum",
-                        MapId = 679,
-                        TerritoryId = 979
-                    };
-                }
-            }
-        };
+        // "Ascending to Empyreum"
+        injections.AddLocation(69708, "Empyreum", 679, 979);
     }
 }

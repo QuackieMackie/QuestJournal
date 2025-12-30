@@ -4,54 +4,17 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class ShadowOfMhachInjectedQuestData
+public class ShadowOfMhachInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "To Rule the Skies"
-            {
-                67741, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Void Ark",
-                        ContentType = 5
-                    });
+        // "To Rule the Skies"
+        injections.AddInstance(67741, 0, "The Void Ark", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Weeping City"
-            {
-                67821, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Weeping City of Mhach",
-                        ContentType = 5
-                    });
+        // "The Weeping City"
+        injections.AddInstance(67821, 0, "The Weeping City of Mhach", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Where Shadows Reign"
-            {
-                67909, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Dun Scaith",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "Where Shadows Reign"
+        injections.AddInstance(67909, 0, "Dun Scaith", 5);
     }
 }

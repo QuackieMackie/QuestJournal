@@ -4,180 +4,44 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class AlexanderInjectedQuestData
+public class AlexanderInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "Disarmed"
-            {
-                67626, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Fist of the Father",
-                        ContentType = 5
-                    });
+        // "Disarmed"
+        injections.AddInstance(67626, 0, "Alexander - The Fist of the Father", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Steel and Steam"
-            {
-                67627, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Cuff of the Father",
-                        ContentType = 5
-                    });
+        // "Steel and Steam"
+        injections.AddInstance(67627, 0, "Alexander - The Cuff of the Father", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Tinker, Seeker, Soldier, Spy"
-            {
-                67628, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Arm of the Father",
-                        ContentType = 5
-                    });
+        // "Tinker, Seeker, Soldier, Spy"
+        injections.AddInstance(67628, 0, "Alexander - The Arm of the Father", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Pulsing Heart"
-            {
-                67629, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Burden of the Father",
-                        ContentType = 5
-                    });
+        // "The Pulsing Heart"
+        injections.AddInstance(67629, 0, "Alexander - The Burden of the Father", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Rearmed"
-            {
-                67785, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Fist of the Son",
-                        ContentType = 5
-                    });
+        // "Rearmed"
+        injections.AddInstance(67785, 0, "Alexander - The Fist of the Son", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Folly of Youth"
-            {
-                67786, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Cuff of the Son",
-                        ContentType = 5
-                    });
+        // "The Folly of Youth"
+        injections.AddInstance(67786, 0, "Alexander - The Cuff of the Son", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Toppling the Tyrant"
-            {
-                67787, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Arm of the Son",
-                        ContentType = 5
-                    });
+        // "Toppling the Tyrant"
+        injections.AddInstance(67787, 0, "Alexander - The Arm of the Son", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "One Step Behind"
-            {
-                67788, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Burden of the Son",
-                        ContentType = 5
-                    });
+        // "One Step Behind"
+        injections.AddInstance(67788, 0, "Alexander - The Burden of the Son", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Coeurl and the Colossus"
-            {
-                67871, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Eyes of the Creator",
-                        ContentType = 5
-                    });
+        // "The Coeurl and the Colossus"
+        injections.AddInstance(67871, 0, "Alexander - The Eyes of the Creator", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Biggs and Wedge's Excellent Adventure"
-            {
-                67872, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Breath of the Creator",
-                        ContentType = 5
-                    });
+        // "Biggs and Wedge's Excellent Adventure"
+        injections.AddInstance(67872, 0, "Alexander - The Breath of the Creator", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Thus Spake Quickthinx"
-            {
-                67873, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Heart of the Creator",
-                        ContentType = 5
-                    });
+        // "Thus Spake Quickthinx"
+        injections.AddInstance(67873, 0, "Alexander - The Heart of the Creator", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Judgment Day"
-            {
-                67874, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alexander - The Soul of the Creator",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "Judgment Day"
+        injections.AddInstance(67874, 0, "Alexander - The Soul of the Creator", 5);
     }
 }

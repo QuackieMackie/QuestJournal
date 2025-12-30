@@ -4,173 +4,42 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class EdenInjectedQuestData
+public class EdenInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "Deploy the Core"
-            {
-                68792, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Gate: Resurrection",
-                        ContentType = 5
-                    });
+        // "Deploy the Core"
+        injections.AddInstance(68792, 0, "Eden's Gate: Resurrection", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "One Fell Swoop"
-            {
-                68793, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Gate: Descent",
-                        ContentType = 5
-                    });
+        // "One Fell Swoop"
+        injections.AddInstance(68793, 0, "Eden's Gate: Descent", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Nor Any Drop to Drink"
-            {
-                68794, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Gate: Inundation",
-                        ContentType = 5
-                    });
+        // "Nor Any Drop to Drink"
+        injections.AddInstance(68794, 0, "Eden's Gate: Inundation", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Super Seismic"
-            {
-                68795, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Gate: Sepulture",
-                        ContentType = 5
-                    });
+        // "Super Seismic"
+        injections.AddInstance(68795, 0, "Eden's Gate: Sepulture", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Blood and Thunder"
-            {
-                69324, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Verse: Fulmination",
-                        ContentType = 5
-                    });
+        // "Blood and Thunder"
+        injections.AddInstance(69324, 0, "Eden's Verse: Fulmination", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Into the Firestorm"
-            {
-                69325, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Verse: Furor",
-                        ContentType = 5
-                    });
+        // "Into the Firestorm"
+        injections.AddInstance(69325, 0, "Eden's Verse: Furor", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Heart of Darkness"
-            {
-                69326, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Verse: Iconoclasm",
-                        ContentType = 5
-                    });
+        // "Heart of Darkness"
+        injections.AddInstance(69326, 0, "Eden's Verse: Iconoclasm", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "On Thin Ice"
-            {
-                69327, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Verse: Refulgence",
-                        ContentType = 5
-                    });
+        // "On Thin Ice"
+        injections.AddInstance(69327, 0, "Eden's Verse: Refulgence", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Fear of the Dark"
-            {
-                69512, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Promise: Umbra",
-                        ContentType = 5
-                    });
+        // "Fear of the Dark"
+        injections.AddInstance(69512, 0, "Eden's Promise: Umbra", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Shadows of the Past"
-            {
-                69513, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Promise: Litany",
-                        ContentType = 5
-                    });
+        // "Shadows of the Past"
+        injections.AddInstance(69513, 0, "Eden's Promise: Litany", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Voice of the Soul"
-            {
-                69514, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Promise: Anamorphosis",
-                        ContentType = 5
-                    });
-                    
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Eden's Promise: Eternity",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "Voice of the Soul"
+        injections.AddInstance(69514, 0, "Eden's Promise: Anamorphosis", 5);
+        injections.AddInstance(69514, 0, "Eden's Promise: Eternity", 5);
     }
 }

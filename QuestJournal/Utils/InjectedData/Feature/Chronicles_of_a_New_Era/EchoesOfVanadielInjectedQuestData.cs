@@ -4,27 +4,12 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class EchoesOfVanadielInjectedQuestData
+public class EchoesOfVanadielInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "An Otherworldly Encounter"
-            {
-                70769, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Jeuno: The First Walk",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "An Otherworldly Encounter"
+        injections.AddInstance(70769, 0, "Jeuno: The First Walk", 5);
     }
 }
 

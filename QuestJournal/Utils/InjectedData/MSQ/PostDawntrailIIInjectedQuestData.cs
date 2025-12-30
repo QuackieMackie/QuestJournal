@@ -4,36 +4,14 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.MSQ;
 
-public class PostDawntrailIIInjectedQuestData
+public class PostDawntrailIIInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-         // "Beyond the Mountains"
-         {
-             70964, quest =>
-             {
-                 quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                 {
-                     InstanceId = 103,
-                     InstanceName = "Mistwake",
-                     ContentType = 2
-                 });
-             }
-         },
-         // Where We Call Home
-         {
-             70969, quest =>
-             {
-                 quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                 {
-                     InstanceId = 20106,
-                     InstanceName = "Hell on Rails",
-                     ContentType = 4
-                 });
-             }
-         },
-        };
+        // "Beyond the Mountains"
+        injections.AddInstance(70964, 103, "Mistwake", 2);
+
+        // Where We Call Home
+        injections.AddInstance(70969, 20106, "Hell on Rails", 4);
     }
 }

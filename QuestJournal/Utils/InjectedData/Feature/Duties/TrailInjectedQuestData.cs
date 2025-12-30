@@ -4,24 +4,11 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Duties;
 
-public class TrailInjectedQuestData
+public class TrailInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "The New King on the Block"
-            {
-                67090, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 475,
-                        InstanceName = "The Great Hunt",
-                        ContentType = 4
-                    });
-                }
-            }
-        };
+        // "The New King on the Block"
+        injections.AddInstance(67090, 475, "The Great Hunt", 4);
     }
 }

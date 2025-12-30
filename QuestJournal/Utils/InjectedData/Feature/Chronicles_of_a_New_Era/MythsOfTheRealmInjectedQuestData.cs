@@ -4,54 +4,17 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class MythsOfTheRealmInjectedQuestData
+public class MythsOfTheRealmInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "The Realm of the Gods"
-            {
-                70073, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Aglaia",
-                        ContentType = 5
-                    });
+        // "The Realm of the Gods"
+        injections.AddInstance(70073, 0, "Aglaia", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Return to the Phantom Realm"
-            {
-                70202, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Euphrosyne",
-                        ContentType = 5
-                    });
+        // "Return to the Phantom Realm"
+        injections.AddInstance(70202, 0, "Euphrosyne", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Heart of the Myth"
-            {
-                70327, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Thaleia",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "The Heart of the Myth"
+        injections.AddInstance(70327, 0, "Thaleia", 5);
     }
 }

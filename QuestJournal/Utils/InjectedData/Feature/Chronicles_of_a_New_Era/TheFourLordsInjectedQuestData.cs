@@ -4,40 +4,14 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class TheFourLordsInjectedQuestData
+public class TheFourLordsInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "The Fire-bird Down Below"
-            {
-                68688, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Hells' Kier",
-                        ContentType = 4
-                    });
+        // "The Fire-bird Down Below"
+        injections.AddInstance(68688, 0, "Hells' Kier", 4);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Surpassing the Samurai"
-            {
-                68701, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Wreath of Snakes",
-                        ContentType = 4
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "Surpassing the Samurai"
+        injections.AddInstance(68701, 0, "The Wreath of Snakes", 4);
     }
 }

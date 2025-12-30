@@ -4,124 +4,32 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class TheArcadionInjectedQuestData
+public class TheArcadionInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "The Claw in the Dark"
-            {
-                70497, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Light-heavyweight M1",
-                        ContentType = 5
-                    });
+        // "The Claw in the Dark"
+        injections.AddInstance(70497, 0, "AAC Light-heavyweight M1", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Sweet Poison"
-            {
-                70498, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Light-heavyweight M2",
-                        ContentType = 5
-                    });
+        // "Sweet Poison"
+        injections.AddInstance(70498, 0, "AAC Light-heavyweight M2", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Vile Heat"
-            {
-                70500, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Light-heavyweight M3",
-                        ContentType = 5
-                    });
+        // "Vile Heat"
+        injections.AddInstance(70500, 0, "AAC Light-heavyweight M3", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Neoteric Witch"
-            {
-                70501, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Light-heavyweight M4",
-                        ContentType = 5
-                    });
+        // "The Neoteric Witch"
+        injections.AddInstance(70501, 0, "AAC Light-heavyweight M4", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Dancing King"
-            {
-                70826, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Cruiserweight M1",
-                        ContentType = 5
-                    });
+        // "The Dancing King"
+        injections.AddInstance(70826, 0, "AAC Cruiserweight M1", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Art at War"
-            {
-                70827, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Cruiserweight M2",
-                        ContentType = 5
-                    });
+        // "Art at War"
+        injections.AddInstance(70827, 0, "AAC Cruiserweight M2", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Twisted Vengeance"
-            {
-                70828, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Cruiserweight M3",
-                        ContentType = 5
-                    });
+        // "Twisted Vengeance"
+        injections.AddInstance(70828, 0, "AAC Cruiserweight M3", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Lone Wolf"
-            {
-                70830, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "AAC Cruiserweight M4",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "The Lone Wolf"
+        injections.AddInstance(70830, 0, "AAC Cruiserweight M4", 5);
     }
 }

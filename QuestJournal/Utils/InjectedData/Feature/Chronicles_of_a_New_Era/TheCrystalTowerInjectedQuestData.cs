@@ -4,54 +4,17 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class TheCrystalTowerInjectedQuestData
+public class TheCrystalTowerInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "Labyrinth of the Ancients"
-            {
-                66738, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Labyrinth of the Ancients",
-                        ContentType = 5
-                    });
+        // "Labyrinth of the Ancients"
+        injections.AddInstance(66738, 0, "The Labyrinth of the Ancients", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Syrcus Tower"
-            {
-                67010, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Syrcus Tower",
-                        ContentType = 5
-                    });
+        // "Syrcus Tower"
+        injections.AddInstance(67010, 0, "Syrcus Tower", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The World of Darkness"
-            {
-                66030, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The World of Darkness",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "The World of Darkness"
+        injections.AddInstance(66030, 0, "The World of Darkness", 5);
     }
 }

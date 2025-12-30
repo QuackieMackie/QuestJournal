@@ -4,54 +4,17 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class ReturnToIvaliceInjectedQuestData
+public class ReturnToIvaliceInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "A City Fallen"
-            {
-                68540, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Royal City of Rabanastre",
-                        ContentType = 5
-                    });
+        // "A City Fallen"
+        injections.AddInstance(68540, 0, "The Royal City of Rabanastre", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Annihilation"
-            {
-                68628, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Ridorana Lighthouse",
-                        ContentType = 5
-                    });
+        // "Annihilation"
+        injections.AddInstance(68628, 0, "The Ridorana Lighthouse", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The City of Lost Angels"
-            {
-                68725, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "The Orbonne Monastery",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "The City of Lost Angels"
+        injections.AddInstance(68725, 0, "The Orbonne Monastery", 5);
     }
 }

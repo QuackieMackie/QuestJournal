@@ -224,7 +224,13 @@
         }
       ],
       "GeneralActions": [],
-      "InstanceContentUnlock": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 100,
+          "InstanceName": "Yuweyawata Field Station",
+          "ContentType": 2
+        }
+      ],
       "ReputationReward": {
         "ReputationId": 0,
         "ReputationName": "",
@@ -967,7 +973,18 @@
       "Items": [],
       "OptionalItems": [],
       "GeneralActions": [],
-      "InstanceContentUnlock": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 101,
+          "InstanceName": "The Underkeep",
+          "ContentType": 2
+        },
+        {
+          "InstanceId": 20100,
+          "InstanceName": "Recollection",
+          "ContentType": 4
+        }
+      ],
       "ReputationReward": {
         "ReputationId": 0,
         "ReputationName": "",
@@ -1702,7 +1719,18 @@
       "Items": [],
       "OptionalItems": [],
       "GeneralActions": [],
-      "InstanceContentUnlock": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 102,
+          "InstanceName": "The Meso Terminal",
+          "ContentType": 2
+        },
+        {
+          "InstanceId": 20104,
+          "InstanceName": "The Ageless Necropolis",
+          "ContentType": 4
+        }
+      ],
       "ReputationReward": {
         "ReputationId": 0,
         "ReputationName": "",

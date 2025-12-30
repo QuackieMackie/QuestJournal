@@ -4,382 +4,93 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Duties;
 
-public class DungeonInjectedQuestData
+public class DungeonInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "An Auspicious Encounter"
-            {
-                68551, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 284,
-                        InstanceName = "Hells' Lid",
-                        ContentType = 2
-                    });
+        // "An Auspicious Encounter"
+        injections.AddInstance(68551, 284, "Hells' Lid", 2);
+        injections.AddInstance(68551, 290, "The Jade Stoa", 4);
 
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 290,
-                        InstanceName = "The Jade Stoa",
-                        ContentType = 4
-                    });
-                }
-            },
+        // "Tortoise in Time"
+        injections.AddInstance(68552, 536, "The Swallow's Compass", 2);
 
-            // "Tortoise in Time"
-            {
-                68552, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 536,
-                        InstanceName = "The Swallow's Compass",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Blood for Stone"
+        injections.AddInstance(67061, 25, "The Stone Vigil (Hard)", 2);
 
-            // "Blood for Stone"
-            {
-                67061, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 25,
-                        InstanceName = "The Stone Vigil (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "King of the Hull"
+        injections.AddInstance(67062, 23, "Hullbreaker Isle", 2);
 
-            // "King of the Hull"
-            {
-                67062, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 23,
-                        InstanceName = "Hullbreaker Isle",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "One More Night in Amdapor"
+        injections.AddInstance(67818, 140, "The Lost City of Amdapor (Hard)", 2);
 
-            // "One More Night in Amdapor"
-            {
-                67818, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 140,
-                        InstanceName = "The Lost City of Amdapor (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "It's Defiantly Pirates"
+        injections.AddInstance(65630, 28, "Sastasha (Hard)", 2);
 
-            // "It's Defiantly Pirates"
-            {
-                65630, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 28,
-                        InstanceName = "Sastasha (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "The Wrath of Qarn"
+        injections.AddInstance(65632, 26, "The Sunken Temple of Qarn (Hard)", 2);
 
-            // "The Wrath of Qarn"
-            {
-                65632, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 26,
-                        InstanceName = "The Sunken Temple of Qarn (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "For Keep's Sake"
+        injections.AddInstance(65966, 29, "Amdapor Keep (Hard)", 2);
 
-            // "For Keep's Sake"
-            {
-                65966, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 29,
-                        InstanceName = "Amdapor Keep (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Not Easy Being Green"
+        injections.AddInstance(65967, 30, "The Wanderer's Palace (Hard)", 2);
 
-            // "Not Easy Being Green"
-            {
-                65967, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 30,
-                        InstanceName = "The Wanderer's Palace (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Things Are Getting Sirius"
+        injections.AddInstance(67737, 40, "Pharos Sirius (Hard)", 2);
 
-            // "Things Are Getting Sirius"
-            {
-                67737, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 40,
-                        InstanceName = "Pharos Sirius (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Storming the Hull"
+        injections.AddInstance(67784, 172, "Hullbreaker Isle (Hard)", 2);
 
-            // "Storming the Hull"
-            {
-                67784, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 172,
-                        InstanceName = "Hullbreaker Isle (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "It Belongs in a Museum"
+        injections.AddInstance(70549, 834, "Tender Valley", 2);
 
-            // "It Belongs in a Museum"
-            {
-                70549, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 834,
-                        InstanceName = "Tender Valley",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "The Palace of Lost Souls"
+        injections.AddInstance(68168, 235, "Shisui of the Violet Tides", 2);
 
-            // "The Palace of Lost Souls"
-            {
-                68168, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 235,
-                        InstanceName = "Shisui of the Violet Tides",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "An Overgrown Ambition"
+        injections.AddInstance(67738, 41, "Saint Mocianne's Arboretum", 2);
 
-            // "An Overgrown Ambition"
-            {
-                67738, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 41,
-                        InstanceName = "Saint Mocianne's Arboretum",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Let Me Gubal That for You"
+        injections.AddInstance(67922, 196, "The Great Gubal Library (Hard)", 2);
 
-            // "Let Me Gubal That for You"
-            {
-                67922, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 196,
-                        InstanceName = "The Great Gubal Library (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "The Fires of Sohm Al"
+        injections.AddInstance(67938, 221, "Sohm Al (Hard)", 2);
 
-            // "The Fires of Sohm Al"
-            {
-                67938, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 221,
-                        InstanceName = "Sohm Al (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Something Stray in the Neighborhood"
+        injections.AddInstance(70550, 981, "The Strayborough Deadwalk", 2);
 
-            // "Something Stray in the Neighborhood"
-            {
-                70550, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 981,
-                        InstanceName = "The Strayborough Deadwalk",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Cutting the Cheese"
+        injections.AddInstance(69703, 794, "Smileton", 2);
 
-            // "Cutting the Cheese"
-            {
-                69703, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 794,
-                        InstanceName = "Smileton",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Where No Loporrit Has Gone Before"
+        injections.AddInstance(69704, 784, "The Stigma Dreamscape", 2);
 
-            // "Where No Loporrit Has Gone Before"
-            {
-                69704, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 784,
-                        InstanceName = "The Stigma Dreamscape",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "To Kill a Coeurl"
+        injections.AddInstance(68169, 236, "The Temple of the Fist", 2);
 
-            // "To Kill a Coeurl"
-            {
-                68169, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 236,
-                        InstanceName = "The Temple of the Fist",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "An Unwanted Truth"
+        injections.AddInstance(68613, 285, "The Fractal Continuum (Hard)", 2);
 
-            // "An Unwanted Truth"
-            {
-                68613, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 285,
-                        InstanceName = "The Fractal Continuum (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Secret of the Ooze"
+        injections.AddInstance(68678, 584, "Saint Mocianne's Arboretum (Hard)", 2);
 
-            // "Secret of the Ooze"
-            {
-                68678, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 584,
-                        InstanceName = "Saint Mocianne's Arboretum (Hard)",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "King of the Castle"
+        injections.AddInstance(68170, 262, "Kugane Castle", 2);
 
-            // "King of the Castle"
-            {
-                68170, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 262,
-                        InstanceName = "Kugane Castle",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "For All the Nights to Come"
+        injections.AddInstance(67647, 36, "The Dusk Vigil", 2);
 
-            // "For All the Nights to Come"
-            {
-                67647, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 36,
-                        InstanceName = "The Dusk Vigil",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Reap What You Sow"
+        injections.AddInstance(67648, 33, "Neverreap", 2);
 
-            // "Reap What You Sow"
-            {
-                67648, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 33,
-                        InstanceName = "Neverreap",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "Do It for Gilly"
+        injections.AddInstance(67649, 35, "The Fractal Continuum", 2);
 
-            // "Do It for Gilly"
-            {
-                67649, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 35,
-                        InstanceName = "The Fractal Continuum",
-                        ContentType = 2
-                    });
-                }
-            },
+        // "By the Time You Hear This"
+        injections.AddInstance(69131, 655, "The Twinning", 2);
 
-            // "By the Time You Hear This"
-            {
-                69131, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 655,
-                        InstanceName = "The Twinning",
-                        ContentType = 2
-                    });
-                }
-            },
-
-            // "Akadaemia Anyder"
-            {
-                69132, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 661,
-                        InstanceName = "Akadaemia Anyder",
-                        ContentType = 2
-                    });
-                }
-            }
-        };
+        // "Akadaemia Anyder"
+        injections.AddInstance(69132, 661, "Akadaemia Anyder", 2);
     }
 }

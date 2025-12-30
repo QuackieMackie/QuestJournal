@@ -4,173 +4,42 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
 
-public class OmegaInjectedQuestData
+public class OmegaInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "Into the Deltascape"
-            {
-                68465, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Deltascape V1.0",
-                        ContentType = 5
-                    });
+        // "Into the Deltascape"
+        injections.AddInstance(68465, 0, "Deltascape V1.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "A Catastrophe Waiting"
-            {
-                68466, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Deltascape V2.0",
-                        ContentType = 5
-                    });
+        // "A Catastrophe Waiting"
+        injections.AddInstance(68466, 0, "Deltascape V2.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "The Croak Queen"
-            {
-                68467, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Deltascape V3.0",
-                        ContentType = 5
-                    });
+        // "The Croak Queen"
+        injections.AddInstance(68467, 0, "Deltascape V3.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "A Void at All Costs"
-            {
-                68468, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Deltascape V4.0",
-                        ContentType = 5
-                    });
+        // "A Void at All Costs"
+        injections.AddInstance(68468, 0, "Deltascape V4.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "No Slowing Down"
-            {
-                68568, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Sigmascape V1.0",
-                        ContentType = 5
-                    });
+        // "No Slowing Down"
+        injections.AddInstance(68568, 0, "Sigmascape V1.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "An Unfinished Masterpiece"
-            {
-                68569, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Sigmascape V2.0",
-                        ContentType = 5
-                    });
+        // "An Unfinished Masterpiece"
+        injections.AddInstance(68569, 0, "Sigmascape V2.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Won't Let You Pass"
-            {
-                68570, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Sigmascape V3.0",
-                        ContentType = 5
-                    });
+        // "Won't Let You Pass"
+        injections.AddInstance(68570, 0, "Sigmascape V3.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "Test World of Ruin"
-            {
-                68571, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Sigmascape V4.0",
-                        ContentType = 5
-                    });
+        // "Test World of Ruin"
+        injections.AddInstance(68571, 0, "Sigmascape V4.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "In the Beginning, There Was Chaos"
-            {
-                68690, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alphascape V1.0",
-                        ContentType = 5
-                    });
+        // "In the Beginning, There Was Chaos"
+        injections.AddInstance(68690, 0, "Alphascape V1.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "And Like Fire Was His Mane"
-            {
-                68691, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alphascape V2.0",
-                        ContentType = 5
-                    });
+        // "And Like Fire Was His Mane"
+        injections.AddInstance(68691, 0, "Alphascape V2.0", 5);
 
-                    quest.Rewards ??= new Reward();
-                }
-            },
-            // "In the End, There Is Omega"
-            {
-                68692, quest =>
-                {
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alphascape V3.0",
-                        ContentType = 5
-                    });
-                    
-                    quest.Rewards?.InstanceContentUnlock?.Add(new InstanceContentUnlockReward
-                    {
-                        InstanceId = 0,
-                        InstanceName = "Alphascape V4.0",
-                        ContentType = 5
-                    });
-
-                    quest.Rewards ??= new Reward();
-                }
-            },
-        };
+        // "In the End, There Is Omega"
+        injections.AddInstance(68692, 0, "Alphascape V3.0", 5);
+        injections.AddInstance(68692, 0, "Alphascape V4.0", 5);
     }
 }

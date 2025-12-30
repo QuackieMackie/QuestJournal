@@ -1,69 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using QuestJournal.Models;
-using QuestJournal.Utils.InjectedData.Feature.Chronicles_of_a_New_Era;
-using QuestJournal.Utils.InjectedData.Feature.Duties;
-using QuestJournal.Utils.InjectedData.Feature.Other;
-using QuestJournal.Utils.InjectedData.MSQ;
+using QuestJournal.Utils.InjectedData;
 
 namespace QuestJournal.Utils;
 
 public class QuestDataInjector
 {
-    private readonly Dictionary<uint, Action<QuestModel>> dataInjections;
+    private static readonly Dictionary<uint, Action<QuestModel>> CachedInjections;
 
-    public QuestDataInjector()
+    static QuestDataInjector()
     {
-        dataInjections = new Dictionary<uint, Action<QuestModel>>();
+        CachedInjections = new Dictionary<uint, Action<QuestModel>>();
+        
+        var types = Assembly.GetExecutingAssembly().GetTypes()
+            .Where(t => typeof(IInjectedQuestData).IsAssignableFrom(t) && t is { IsInterface: false, IsAbstract: false });
 
-        FeatureInjectedQuestData();
-    }
-
-    public void FeatureInjectedQuestData()
-    {
-        var allData = new[]
+        foreach (var type in types)
         {
-            // MSQ
-            PostDawntrailIIInjectedQuestData.GetData(),
-            
-            // Duties
-            DungeonInjectedQuestData.GetData(),
-            TrailInjectedQuestData.GetData(),
-            StoneSkySeaInjectedQuestData.GetData(),
-
-            // Other
-            MateriaInjectedQuestData.GetData(),
-            LocationInjectedQuestData.GetData(),
-            GlamourAndCustomizationInjectedQuestData.GetData(),
-            
-            // Chronicles of a New Era
-            AlexanderInjectedQuestData.GetData(),
-            BahamutInjectedQuestData.GetData(),
-            EchoesOfVanadielInjectedQuestData.GetData(),
-            EdenInjectedQuestData.GetData(),
-            MythsOfTheRealmInjectedQuestData.GetData(),
-            OmegaInjectedQuestData.GetData(),
-            PandæmoniumInjectedQuestData.GetData(),
-            PrimalsInjectedQuestData.GetData(),
-            ReturnToIvaliceInjectedQuestData.GetData(),
-            TheArcadionInjectedQuestData.GetData(),
-            TheCrystalTowerInjectedQuestData.GetData(),
-            TheFourLordsInjectedQuestData.GetData(),
-            ShadowOfMhachInjectedQuestData.GetData(),
-            TheSorrowOfWerlytInjectedQuestData.GetData(),
-            TheWarringTriadInjectedQuestData.GetData(),
-            YoRHaInjectedQuestData.GetData(),
-        };
-
-        foreach (var dataSet in allData)
-        foreach (var keyValuePair in dataSet)
-            dataInjections[keyValuePair.Key] = keyValuePair.Value;
+            var provider = (IInjectedQuestData)Activator.CreateInstance(type)!;
+            provider.RegisterInjections(CachedInjections);
+        }
     }
 
     public void InjectMissingData(IEnumerable<QuestModel> quests)
     {
         foreach (var quest in quests)
-            if (dataInjections.TryGetValue(quest.QuestId, out var inject))
+        {
+            if (CachedInjections.TryGetValue(quest.QuestId, out var inject))
+            {
                 inject(quest);
+            }
+        }
     }
 }

@@ -4,23 +4,11 @@ using QuestJournal.Models;
 
 namespace QuestJournal.Utils.InjectedData.Feature.Other;
 
-public class MateriaInjectedQuestData
+public class MateriaInjectedQuestData : IInjectedQuestData
 {
-    public static Dictionary<uint, Action<QuestModel>> GetData()
+    public void RegisterInjections(Dictionary<uint, Action<QuestModel>> injections)
     {
-        return new Dictionary<uint, Action<QuestModel>>
-        {
-            // "Marvelously Mutable Materia"
-            {
-                66999, quest =>
-                {
-                    quest.Rewards?.GeneralActions?.Add(new GeneralActionReward
-                    {
-                        Id = 14,
-                        Name = "Materia Transmutation"
-                    });
-                }
-            }
-        };
+        // "Marvelously Mutable Materia"
+        injections.AddGeneralAction(66999, 14, "Materia Transmutation");
     }
 }
