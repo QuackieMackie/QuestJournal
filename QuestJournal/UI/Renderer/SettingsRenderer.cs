@@ -148,6 +148,23 @@ public class SettingsRenderer(Configuration configuration, MainWindow mainsWindo
         ImGui.Spacing();
         ImGui.Spacing();
 
+        ImGui.Separator();
+        ImGui.Text("Mark completed repeatable quests");
+        var markCompletedRepeatableQuests = configuration.MarkCompletedRepeatableQuests;
+        if (ImGui.Checkbox(
+                "This will always mark completed repeatable quests as done.",
+                ref markCompletedRepeatableQuests))
+        {
+            configuration.MarkCompletedRepeatableQuests = markCompletedRepeatableQuests;
+            configuration.Save();
+        }
+
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+        ImGui.Spacing();
+
         ImGui.Text("Developer Settings");
         ImGui.Separator();
         var devMode = configuration.DeveloperMode;

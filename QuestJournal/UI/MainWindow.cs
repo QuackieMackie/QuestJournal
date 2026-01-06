@@ -44,7 +44,7 @@ public class MainWindow : Window, IDisposable
 
         msqRenderer = new MsqRenderer(msqHandler, rendererUtils, configuration, log);
         jobRenderer = new JobRenderer(jobHandler, rendererUtils, log);
-        featureRenderer = new FeatureRenderer(featureHandler, rendererUtils, log);
+        featureRenderer = new FeatureRenderer(featureHandler, rendererUtils, configuration, log);
         settingsRenderer = new SettingsRenderer(configuration, this);
     }
 

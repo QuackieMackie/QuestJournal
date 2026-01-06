@@ -33,7 +33,7 @@ public class QuestDetailWindow : Window, IDisposable
 
     public override void Draw()
     {
-        rendererUtils.DrawSelectedQuestDetails(questModel, ref questList, configuration.CensorStarterLocations);
+        rendererUtils.DrawSelectedQuestDetails(questModel, ref questList, configuration.CensorStarterLocations, configuration.MarkCompletedRepeatableQuests);
     }
 
     public void Dispose()

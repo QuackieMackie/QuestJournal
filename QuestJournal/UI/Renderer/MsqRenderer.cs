@@ -37,8 +37,8 @@ public class MsqRenderer(MsqHandler msqHandler, RendererUtils rendererUtils, Con
                                                         quest.QuestTitle.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
 
         rendererUtils.DrawSearchBar(ref searchQuery, highlightedQuestCount);
-        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, configuration.CensorStarterLocations);
-        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, configuration.CensorStarterLocations);
+        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, configuration.CensorStarterLocations, false);
+        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, configuration.CensorStarterLocations, false);
     }
 
     public void ReloadQuests()

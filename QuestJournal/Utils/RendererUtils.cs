@@ -100,7 +100,7 @@ public class RendererUtils
         return new Vector4(1f, 1f, 1f, 1f); // Default white
     }
 
-    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest, bool censorStarterLocations)
+    public void DrawQuestWidgets(List<QuestModel> quests, ref string searchQuery, ref QuestModel? selectedQuest, bool censorStarterLocations, bool markCompletedRepeatableQuests)
     {
         var childHeight = ImGui.GetContentRegionAvail().Y;
         ImGui.BeginChild("QuestWidgetRegion", new Vector2(0, childHeight), false);
@@ -125,7 +125,7 @@ public class RendererUtils
                 {
                     isAccepted = QuestManager.Instance()->IsQuestAccepted(quests[i].QuestId);
     
-                    isComplete = quests[i].IsRepeatable
+                    isComplete = (quests[i].IsRepeatable && !markCompletedRepeatableQuests)
                                      ? QuestManager.Instance()->IsDailyQuestCompleted((ushort)quests[i].QuestId)
                                      : QuestManager.IsQuestComplete(quests[i].QuestId);
                 }
@@ -205,7 +205,7 @@ public class RendererUtils
         ImGui.EndChild();
     }
 
-    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList, bool censorStarterLocations)
+    public void DrawSelectedQuestDetails(QuestModel? quest, ref List<QuestModel> questList, bool censorStarterLocations, bool markCompletedRepeatableQuests)
     {
         if (quest == null)
         {
@@ -315,7 +315,7 @@ public class RendererUtils
                                          !q.PreviousQuestIds.Any(id => currentQuestList.Any(ql => ql.QuestId == id)));
                     if (firstQuest != null)
                     {
-                        var firstQuestStatusInfo = OtherUtils.GetQuestStatus(firstQuest);
+                        var firstQuestStatusInfo = OtherUtils.GetQuestStatus(firstQuest, markCompletedRepeatableQuests);
                         if (ImGui.Selectable($"{firstQuestStatusInfo.StatusSymbol} {firstQuest.QuestTitle ?? "None"}##{firstQuest.QuestId}"))
                         {
                             questJournal.OpenQuestWindow(firstQuest, questList);
@@ -341,7 +341,7 @@ public class RendererUtils
 
                             if (previousQuest != null)
                             {
-                                var previousQuestStatusInfo = OtherUtils.GetQuestStatus(previousQuest);
+                                var previousQuestStatusInfo = OtherUtils.GetQuestStatus(previousQuest, markCompletedRepeatableQuests);
                                 if (ImGui.Selectable($"{previousQuestStatusInfo.StatusSymbol} {previousQuest.QuestTitle ?? "None"}##{previousQuestId}"))
                                 {
                                     questJournal.OpenQuestWindow(previousQuest, questList);
@@ -368,7 +368,7 @@ public class RendererUtils
 
                             if (nextQuest != null)
                             {
-                                var nextQuestStatusInfo = OtherUtils.GetQuestStatus(nextQuest);
+                                var nextQuestStatusInfo = OtherUtils.GetQuestStatus(nextQuest, markCompletedRepeatableQuests);
                                 if (ImGui.Selectable($"{nextQuestStatusInfo.StatusSymbol} {nextQuest.QuestTitle ?? "None"}##{nextQuestId}"))
                                 {
                                     questJournal.OpenQuestWindow(nextQuest, questList);
@@ -396,7 +396,7 @@ public class RendererUtils
                     {
                         isAccepted = QuestManager.Instance()->IsQuestAccepted(quest.QuestId);
     
-                        isComplete = quest.IsRepeatable
+                        isComplete = (quest.IsRepeatable && !markCompletedRepeatableQuests)
                                          ? QuestManager.Instance()->IsDailyQuestCompleted((ushort)quest.QuestId)
                                          : QuestManager.IsQuestComplete(quest.QuestId);
                     }
