@@ -39,8 +39,8 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
         
         rendererUtils.DrawSearchBar(ref searchQuery, highlightedQuestCount);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
-        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false);
-        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false);
+        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false, false);
+        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false, false);
     }
 
     public void ReloadQuests()

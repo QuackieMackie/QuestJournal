@@ -58,7 +58,7 @@ public class OtherUtils
         }
     }
 
-    public static QuestStatusModel GetQuestStatus(QuestModel quest)
+    public static QuestStatusModel GetQuestStatus(QuestModel quest, bool markCompletedRepeatableQuests)
     {
         bool isComplete;
         bool isAccepted;
@@ -66,7 +66,7 @@ public class OtherUtils
         {
             isAccepted = QuestManager.Instance()->IsQuestAccepted(quest.QuestId);
 
-            isComplete = quest.IsRepeatable
+            isComplete = (quest.IsRepeatable && !markCompletedRepeatableQuests)
                              ? QuestManager.Instance()->IsDailyQuestCompleted((ushort)quest.QuestId)
                              : QuestManager.IsQuestComplete(quest.QuestId);
         }

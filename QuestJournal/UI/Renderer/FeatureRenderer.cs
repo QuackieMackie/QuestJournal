@@ -9,7 +9,7 @@ using QuestJournal.Utils;
 
 namespace QuestJournal.UI.Renderer;
 
-public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils rendererUtils, IPluginLog log)
+public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils rendererUtils, Configuration configuration, IPluginLog log)
 {
     private List<string> dropDownCategories = new();
     private Dictionary<string, string> dropDownCategoryMap = new();
@@ -43,8 +43,8 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
 
         rendererUtils.DrawSearchBar(ref searchQuery, highlightedQuestCount);
         ImGui.Text($"Loaded {questCount} quests for journal genre category: {selectedDropDownCategory}.");
-        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false);
-        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false);
+        rendererUtils.DrawSelectedQuestDetails(selectedQuest, ref questList, false, configuration.MarkCompletedRepeatableQuests);
+        rendererUtils.DrawQuestWidgets(questList, ref searchQuery, ref selectedQuest, false, configuration.MarkCompletedRepeatableQuests);
     }
 
     public void ReloadQuests()
