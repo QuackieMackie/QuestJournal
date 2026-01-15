@@ -1,0 +1,5317 @@
+[
+  {
+    "QuestId": 65552,
+    "QuestTitle": "Leves of the Observatorium",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Cimeaurant",
+    "StarterNpcLocation": {
+      "RowId": 3643001,
+      "X": 227.617,
+      "Y": 221.991,
+      "Z": 341.681,
+      "Yaw": 2.47915,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Cimeaurant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1791,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65553,
+    "QuestTitle": "Leves of Whitebrim",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Voilinaut",
+    "StarterNpcLocation": {
+      "RowId": 3643492,
+      "X": -441.104,
+      "Y": 211.014,
+      "Z": -235.496,
+      "Yaw": -0.301405,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Voilinaut",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66424,
+    "QuestTitle": "Speak Softly to Me",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Maucolyn",
+    "StarterNpcLocation": {
+      "RowId": 4260922,
+      "X": 173.004,
+      "Y": 222,
+      "Z": 314.353,
+      "Yaw": -2.64227,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Maucolyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 3000,
+      "Catalysts": [
+        {
+          "ItemId": 15,
+          "ItemName": "Ice Cluster",
+          "Count": 1
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66427,
+    "QuestTitle": "White Mischief",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duvicauroix",
+    "StarterNpcLocation": {
+      "RowId": 4262326,
+      "X": 241.505,
+      "Y": 222.259,
+      "Z": 325.466,
+      "Yaw": 0.373513,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Duvicauroix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 1544,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66428,
+    "QuestTitle": "Adding Fuel to the Fire",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66430
+    ],
+    "NextQuestTitles": [
+      "I\u0027d Rather Be Cannon Fodder"
+    ],
+    "StarterNpc": "Prairillot",
+    "StarterNpcLocation": {
+      "RowId": 4263102,
+      "X": 209.319,
+      "Y": 245.404,
+      "Z": 195.132,
+      "Yaw": 0.762859,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Stephannot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 1544,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66429,
+    "QuestTitle": "Sheep to the Slaughter",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sylvaintel",
+    "StarterNpcLocation": {
+      "RowId": 4263101,
+      "X": 132.865,
+      "Y": 285.05,
+      "Z": 178.902,
+      "Yaw": 2.73613,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Sylvaintel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4335,
+          "ItemName": "Mythril Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4124,
+          "ItemName": "Mythril Wristlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66430,
+    "QuestTitle": "I\u0027d Rather Be Cannon Fodder",
+    "PreviousQuestIds": [
+      66428
+    ],
+    "PreviousQuestTitles": [
+      "Adding Fuel to the Fire"
+    ],
+    "NextQuestIds": [
+      66431
+    ],
+    "NextQuestTitles": [
+      "Death Becomes You"
+    ],
+    "StarterNpc": "Stephannot",
+    "StarterNpcLocation": {
+      "RowId": 4263100,
+      "X": 139.482,
+      "Y": 285.065,
+      "Z": 176.807,
+      "Yaw": -2.5071,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Stephannot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 1826,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66431,
+    "QuestTitle": "Death Becomes You",
+    "PreviousQuestIds": [
+      66430
+    ],
+    "PreviousQuestTitles": [
+      "I\u0027d Rather Be Cannon Fodder"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Stephannot",
+    "StarterNpcLocation": {
+      "RowId": 4263100,
+      "X": 139.482,
+      "Y": 285.065,
+      "Z": 176.807,
+      "Yaw": -2.5071,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Theobalin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 1544,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66434,
+    "QuestTitle": "Papa Do Preach",
+    "PreviousQuestIds": [
+      66426
+    ],
+    "PreviousQuestTitles": [
+      "The Rose and the Unicorn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duchesnelt",
+    "StarterNpcLocation": {
+      "RowId": 4261376,
+      "X": 205.061,
+      "Y": 310.024,
+      "Z": -298.045,
+      "Yaw": 2.5464,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Duchesnelt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66435,
+    "QuestTitle": "Dead Is Dead",
+    "PreviousQuestIds": [
+      66426
+    ],
+    "PreviousQuestTitles": [
+      "The Rose and the Unicorn"
+    ],
+    "NextQuestIds": [
+      66436
+    ],
+    "NextQuestTitles": [
+      "Don\u0027t Light My Fire"
+    ],
+    "StarterNpc": "Corentiaux",
+    "StarterNpcLocation": {
+      "RowId": 4262367,
+      "X": 263.832,
+      "Y": 303.1,
+      "Z": -195.777,
+      "Yaw": -2.03354,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Corentiaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1861,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66436,
+    "QuestTitle": "Don\u0027t Light My Fire",
+    "PreviousQuestIds": [
+      66435
+    ],
+    "PreviousQuestTitles": [
+      "Dead Is Dead"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Corentiaux",
+    "StarterNpcLocation": {
+      "RowId": 4262367,
+      "X": 263.832,
+      "Y": 303.1,
+      "Z": -195.777,
+      "Yaw": -2.03354,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Corentiaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1861,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66437,
+    "QuestTitle": "Sebastian vs. the Ogre",
+    "PreviousQuestIds": [
+      66426
+    ],
+    "PreviousQuestTitles": [
+      "The Rose and the Unicorn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yaelle",
+    "StarterNpcLocation": {
+      "RowId": 4262368,
+      "X": 257.808,
+      "Y": 303.159,
+      "Z": -204.396,
+      "Yaw": -0.895964,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Yaelle",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66438,
+    "QuestTitle": "Dark and Stormy Night",
+    "PreviousQuestIds": [
+      66426
+    ],
+    "PreviousQuestTitles": [
+      "The Rose and the Unicorn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Arthurioux",
+    "StarterNpcLocation": {
+      "RowId": 4262371,
+      "X": 242.366,
+      "Y": 325.315,
+      "Z": -151.474,
+      "Yaw": 3.11406,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Arthurioux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66439,
+    "QuestTitle": "Too Many Enemies",
+    "PreviousQuestIds": [
+      66426
+    ],
+    "PreviousQuestTitles": [
+      "The Rose and the Unicorn"
+    ],
+    "NextQuestIds": [
+      66440
+    ],
+    "NextQuestTitles": [
+      "The Forest for the Trees"
+    ],
+    "StarterNpc": "Belmont",
+    "StarterNpcLocation": {
+      "RowId": 4262375,
+      "X": 252.026,
+      "Y": 312,
+      "Z": -261.721,
+      "Yaw": 0.796614,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Belmont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4345,
+          "ItemName": "Heliodor Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4339,
+          "ItemName": "Garnet Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4349,
+          "ItemName": "Aquamarine Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66440,
+    "QuestTitle": "The Forest for the Trees",
+    "PreviousQuestIds": [
+      66439
+    ],
+    "PreviousQuestTitles": [
+      "Too Many Enemies"
+    ],
+    "NextQuestIds": [
+      66441
+    ],
+    "NextQuestTitles": [
+      "Stand and Quiver"
+    ],
+    "StarterNpc": "Belmont",
+    "StarterNpcLocation": {
+      "RowId": 4262375,
+      "X": 252.026,
+      "Y": 312,
+      "Z": -261.721,
+      "Yaw": 0.796614,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Belmont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1571,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66441,
+    "QuestTitle": "Stand and Quiver",
+    "PreviousQuestIds": [
+      66440
+    ],
+    "PreviousQuestTitles": [
+      "The Forest for the Trees"
+    ],
+    "NextQuestIds": [
+      66442
+    ],
+    "NextQuestTitles": [
+      "Tit for Tat"
+    ],
+    "StarterNpc": "Belmont",
+    "StarterNpcLocation": {
+      "RowId": 4262375,
+      "X": 252.026,
+      "Y": 312,
+      "Z": -261.721,
+      "Yaw": 0.796614,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Isaudorel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66449,
+    "QuestTitle": "A Cup of Joy",
+    "PreviousQuestIds": [
+      66448
+    ],
+    "PreviousQuestTitles": [
+      "In the Eyes of Gods and Men"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aurelle",
+    "StarterNpcLocation": {
+      "RowId": 4303593,
+      "X": 281.072,
+      "Y": 319.084,
+      "Z": -235.787,
+      "Yaw": 1.79921,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Medguistl",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 1597,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66450,
+    "QuestTitle": "Second Lives",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Juline",
+    "StarterNpcLocation": {
+      "RowId": 4261413,
+      "X": 207.325,
+      "Y": 310.002,
+      "Z": -297.373,
+      "Yaw": -2.3652,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Juline",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3142,
+          "ItemName": "Horn Scale Mail",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3138,
+          "ItemName": "Boarskin Harness",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27673,
+          "ItemName": "Altered Linen Cowl",
+          "Count": 1,
+          "Stain": "Wine Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66451,
+    "QuestTitle": "A Fool and His Life Are Soon Parted",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Meduil",
+    "StarterNpcLocation": {
+      "RowId": 4261418,
+      "X": 195.726,
+      "Y": 310,
+      "Z": -289.857,
+      "Yaw": 2.47389,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Meduil",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1571,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66452,
+    "QuestTitle": "Burn Before Reading",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eugennoix",
+    "StarterNpcLocation": {
+      "RowId": 4261425,
+      "X": 202.808,
+      "Y": 309.073,
+      "Z": -220.691,
+      "Yaw": -0.617389,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Eugennoix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4139,
+          "ItemName": "Heliodor Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4133,
+          "ItemName": "Garnet Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4143,
+          "ItemName": "Aquamarine Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66454,
+    "QuestTitle": "Where\u0027s My Juice",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66455
+    ],
+    "NextQuestTitles": [
+      "Hold for Customer Support"
+    ],
+    "StarterNpc": "Edwyn",
+    "StarterNpcLocation": {
+      "RowId": 4262380,
+      "X": 265.125,
+      "Y": 313.766,
+      "Z": -252.219,
+      "Yaw": -2.56918,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Syntgoht",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3405,
+          "ItemName": "Boarskin Breeches",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3402,
+          "ItemName": "Boarskin Subligar",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 6,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66464,
+    "QuestTitle": "Cleaning Out the Dead",
+    "PreviousQuestIds": [
+      66460
+    ],
+    "PreviousQuestTitles": [
+      "Ye of Little Faith"
+    ],
+    "NextQuestIds": [
+      66466,
+      66467
+    ],
+    "NextQuestTitles": [
+      "The Pecking Order",
+      "Rubble Rouser"
+    ],
+    "StarterNpc": "Oncenedl",
+    "StarterNpcLocation": {
+      "RowId": 4261591,
+      "X": -452.934,
+      "Y": 211.458,
+      "Z": -294.453,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Chaunollet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3850,
+          "ItemName": "Horn Scale Greaves",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3407,
+          "ItemName": "Linen Gaskins",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66465,
+    "QuestTitle": "A Few Good Men",
+    "PreviousQuestIds": [
+      66460
+    ],
+    "PreviousQuestTitles": [
+      "Ye of Little Faith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jeantremont",
+    "StarterNpcLocation": {
+      "RowId": 4262386,
+      "X": -448.447,
+      "Y": 210.986,
+      "Z": -274.891,
+      "Yaw": -0.392274,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Marcelain",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4239,
+          "ItemName": "Heliodor Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4233,
+          "ItemName": "Garnet Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4243,
+          "ItemName": "Aquamarine Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66466,
+    "QuestTitle": "The Pecking Order",
+    "PreviousQuestIds": [
+      66464
+    ],
+    "PreviousQuestTitles": [
+      "Cleaning Out the Dead"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Loanne",
+    "StarterNpcLocation": {
+      "RowId": 4262398,
+      "X": -137.987,
+      "Y": 304.154,
+      "Z": -288.235,
+      "Yaw": 1.14785,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Loanne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 1927,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4476,
+          "ItemName": "Amethyst Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4472,
+          "ItemName": "Peridot Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4470,
+          "ItemName": "Goshenite Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66467,
+    "QuestTitle": "Rubble Rouser",
+    "PreviousQuestIds": [
+      66464
+    ],
+    "PreviousQuestTitles": [
+      "Cleaning Out the Dead"
+    ],
+    "NextQuestIds": [
+      66468
+    ],
+    "NextQuestTitles": [
+      "Salving the Wounds"
+    ],
+    "StarterNpc": "Chaunollet",
+    "StarterNpcLocation": {
+      "RowId": 4262399,
+      "X": -128.132,
+      "Y": 304.154,
+      "Z": -298.024,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Chaunollet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4474,
+          "ItemName": "Heliodor Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4468,
+          "ItemName": "Garnet Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4480,
+          "ItemName": "Pearl Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4478,
+          "ItemName": "Aquamarine Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66468,
+    "QuestTitle": "Salving the Wounds",
+    "PreviousQuestIds": [
+      66467
+    ],
+    "PreviousQuestTitles": [
+      "Rubble Rouser"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Chaunollet",
+    "StarterNpcLocation": {
+      "RowId": 4262399,
+      "X": -128.132,
+      "Y": 304.154,
+      "Z": -298.024,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Chaunollet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4241,
+          "ItemName": "Amethyst Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4235,
+          "ItemName": "Goshenite Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4237,
+          "ItemName": "Peridot Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66469,
+    "QuestTitle": "Run, Fido, Run",
+    "PreviousQuestIds": [
+      66460
+    ],
+    "PreviousQuestTitles": [
+      "Ye of Little Faith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Faucillien",
+    "StarterNpcLocation": {
+      "RowId": 4262415,
+      "X": -432.249,
+      "Y": 224.397,
+      "Z": -199.359,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Faucillien",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 1624,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66470,
+    "QuestTitle": "An Augury of Innocence",
+    "PreviousQuestIds": [
+      66460
+    ],
+    "PreviousQuestTitles": [
+      "Ye of Little Faith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Boyle",
+    "StarterNpcLocation": {
+      "RowId": 4262423,
+      "X": -461.143,
+      "Y": 207.104,
+      "Z": -290.944,
+      "Yaw": 0.957937,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Ferdillaix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 1624,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66471,
+    "QuestTitle": "Love\u0027s Hard Labor",
+    "PreviousQuestIds": [
+      66460
+    ],
+    "PreviousQuestTitles": [
+      "Ye of Little Faith"
+    ],
+    "NextQuestIds": [
+      66480
+    ],
+    "NextQuestTitles": [
+      "Blood Sacrifice"
+    ],
+    "StarterNpc": "Charmine",
+    "StarterNpcLocation": {
+      "RowId": 4262463,
+      "X": -409.344,
+      "Y": 225.135,
+      "Z": -297.03,
+      "Yaw": -0.640298,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Charmine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4553,
+          "ItemName": "Mega-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4556,
+          "ItemName": "Hi-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66472,
+    "QuestTitle": "The King Rat Must Die",
+    "PreviousQuestIds": [
+      66460
+    ],
+    "PreviousQuestTitles": [
+      "Ye of Little Faith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fousquenet",
+    "StarterNpcLocation": {
+      "RowId": 4262469,
+      "X": -431.479,
+      "Y": 211,
+      "Z": -194.847,
+      "Yaw": 3.10804,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Fousquenet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 39,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5040,
+      "Gil": 1624,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66478,
+    "QuestTitle": "It Tolls for Us",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Liautroix",
+    "StarterNpcLocation": {
+      "RowId": 4261593,
+      "X": -435.072,
+      "Y": 265.1,
+      "Z": -208.514,
+      "Yaw": 2.86412,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Liautroix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1650,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66479,
+    "QuestTitle": "Physician, Find Yourself",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Astidien",
+    "StarterNpcLocation": {
+      "RowId": 4261579,
+      "X": -417.899,
+      "Y": 225,
+      "Z": -301.9,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Astidien",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1650,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4553,
+          "ItemName": "Mega-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4556,
+          "ItemName": "Hi-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66480,
+    "QuestTitle": "Blood Sacrifice",
+    "PreviousQuestIds": [
+      66477,
+      66471
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us",
+      "Love\u0027s Hard Labor"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Daimbert",
+    "StarterNpcLocation": {
+      "RowId": 4262474,
+      "X": -405.417,
+      "Y": 210.788,
+      "Z": -225.709,
+      "Yaw": 1.33359,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Daimbert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66481,
+    "QuestTitle": "The Bone Collector",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Berengeoit",
+    "StarterNpcLocation": {
+      "RowId": 4262482,
+      "X": -443.587,
+      "Y": 217.999,
+      "Z": -284.019,
+      "Yaw": -0.292561,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Berengeoit",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4247,
+          "ItemName": "Mythril Ear Cuffs",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4245,
+          "ItemName": "Pearl Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66482,
+    "QuestTitle": "Ice Ice Daily",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [
+      66483
+    ],
+    "NextQuestTitles": [
+      "A Heart Divided"
+    ],
+    "StarterNpc": "Forsemart",
+    "StarterNpcLocation": {
+      "RowId": 4262483,
+      "X": -457.145,
+      "Y": 218.036,
+      "Z": -295.094,
+      "Yaw": 1.20789,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Ourdilic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1549,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66483,
+    "QuestTitle": "A Heart Divided",
+    "PreviousQuestIds": [
+      66482
+    ],
+    "PreviousQuestTitles": [
+      "Ice Ice Daily"
+    ],
+    "NextQuestIds": [
+      66485
+    ],
+    "NextQuestTitles": [
+      "Whey Too into You"
+    ],
+    "StarterNpc": "Ourdilic",
+    "StarterNpcLocation": {
+      "RowId": 4263517,
+      "X": -763.863,
+      "Y": 222.974,
+      "Z": 55.7299,
+      "Yaw": 2.6065,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Ourdilic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1549,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66484,
+    "QuestTitle": "When a Man Loves a Woman",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lancefer",
+    "StarterNpcLocation": {
+      "RowId": 4263518,
+      "X": -764.443,
+      "Y": 222.974,
+      "Z": 53.5825,
+      "Yaw": 0.686016,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Lancefer",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1549,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66485,
+    "QuestTitle": "Whey Too into You",
+    "PreviousQuestIds": [
+      66483
+    ],
+    "PreviousQuestTitles": [
+      "A Heart Divided"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ourdilic",
+    "StarterNpcLocation": {
+      "RowId": 4263517,
+      "X": -763.863,
+      "Y": 222.974,
+      "Z": 55.7299,
+      "Yaw": 2.6065,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Ourdilic",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66486,
+    "QuestTitle": "Days of Brandewine and Behemoths",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Meurise",
+    "StarterNpcLocation": {
+      "RowId": 4262485,
+      "X": -406.638,
+      "Y": 210.788,
+      "Z": -223.415,
+      "Yaw": -2.3432,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Meurise",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1448,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66487,
+    "QuestTitle": "Living on the Edge",
+    "PreviousQuestIds": [
+      66477
+    ],
+    "PreviousQuestTitles": [
+      "The Heretic among Us"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Briannaix",
+    "StarterNpcLocation": {
+      "RowId": 4262486,
+      "X": -437.779,
+      "Y": 211,
+      "Z": -223.438,
+      "Yaw": 2.64852,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Briannaix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1448,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66521,
+    "QuestTitle": "Doubt Truth to Be a Liar",
+    "PreviousQuestIds": [
+      66519
+    ],
+    "PreviousQuestTitles": [
+      "Notorious Biggs"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Cailean",
+    "StarterNpcLocation": {
+      "RowId": 4274703,
+      "X": -693.526,
+      "Y": 300.969,
+      "Z": 372.948,
+      "Yaw": -0.949132,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Pierremons",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 44,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 2090,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66846,
+    "QuestTitle": "Toss Fit Workout",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66847
+    ],
+    "NextQuestTitles": [
+      "Rolling with the Snowies"
+    ],
+    "StarterNpc": "Maucolyn",
+    "StarterNpcLocation": {
+      "RowId": 4260922,
+      "X": 173.004,
+      "Y": 222,
+      "Z": 314.353,
+      "Yaw": -2.64227,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Duvicauroix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3206,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 85,
+        "EmoteName": "Throw"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66847,
+    "QuestTitle": "Rolling with the Snowies",
+    "PreviousQuestIds": [
+      66846
+    ],
+    "PreviousQuestTitles": [
+      "Toss Fit Workout"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duvicauroix",
+    "StarterNpcLocation": {
+      "RowId": 4262326,
+      "X": 241.505,
+      "Y": 222.259,
+      "Z": 325.466,
+      "Yaw": 0.373513,
+      "Radius": 1,
+      "MapId": 53,
+      "TerritoryId": 155
+    },
+    "FinishNpc": "Duvicauroix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3206,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67268,
+    "QuestTitle": "Contingency Supplies",
+    "PreviousQuestIds": [
+      67119
+    ],
+    "PreviousQuestTitles": [
+      "Over the Wall"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Noirterel",
+    "StarterNpcLocation": {
+      "RowId": 5787495,
+      "X": 536.278,
+      "Y": 217.908,
+      "Z": 779.69,
+      "Yaw": -0.0502868,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Noirterel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4702,
+          "ItemName": "Knight\u0027s Bread",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4730,
+          "ItemName": "Dried Plums",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4749,
+          "ItemName": "Chamomile Tea",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67269,
+    "QuestTitle": "Stolen Goods",
+    "PreviousQuestIds": [
+      67119
+    ],
+    "PreviousQuestTitles": [
+      "Over the Wall"
+    ],
+    "NextQuestIds": [
+      67270
+    ],
+    "NextQuestTitles": [
+      "Memories in the Snow"
+    ],
+    "StarterNpc": "Auriaune",
+    "StarterNpcLocation": {
+      "RowId": 5900079,
+      "X": 466.927,
+      "Y": 225.002,
+      "Z": 798.642,
+      "Yaw": 0.852858,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Sigan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5006,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100466,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 714,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67270,
+    "QuestTitle": "Memories in the Snow",
+    "PreviousQuestIds": [
+      67119,
+      67269
+    ],
+    "PreviousQuestTitles": [
+      "Over the Wall",
+      "Stolen Goods"
+    ],
+    "NextQuestIds": [
+      67281
+    ],
+    "NextQuestTitles": [
+      "A Mystery Illness"
+    ],
+    "StarterNpc": "Sigan",
+    "StarterNpcLocation": {
+      "RowId": 5901405,
+      "X": 402.762,
+      "Y": 199.357,
+      "Z": 689.448,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Sigan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5007,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100466,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 489,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67271,
+    "QuestTitle": "Dances with Wolves",
+    "PreviousQuestIds": [
+      67122
+    ],
+    "PreviousQuestTitles": [
+      "From on High"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ysaudore",
+    "StarterNpcLocation": {
+      "RowId": 5789834,
+      "X": 197.146,
+      "Y": 189.427,
+      "Z": 270.623,
+      "Yaw": -2.72108,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Ysaudore",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5002,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 574,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67272,
+    "QuestTitle": "Grandfather\u0027s Belongings",
+    "PreviousQuestIds": [
+      67122
+    ],
+    "PreviousQuestTitles": [
+      "From on High"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ingaret",
+    "StarterNpcLocation": {
+      "RowId": 5787540,
+      "X": 493.177,
+      "Y": 200.238,
+      "Z": 663.037,
+      "Yaw": -2.2343,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Ingaret",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5003,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67273,
+    "QuestTitle": "An Attractive Charm",
+    "PreviousQuestIds": [
+      67124
+    ],
+    "PreviousQuestTitles": [
+      "At the End of Our Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hot-tempered knight",
+    "StarterNpcLocation": {
+      "RowId": 5873599,
+      "X": 426.833,
+      "Y": 169.39,
+      "Z": -566.069,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "hot-tempered knight",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5004,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 433,
+      "Catalysts": [
+        {
+          "ItemId": 15,
+          "ItemName": "Ice Cluster",
+          "Count": 5
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 50
+        },
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 100
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67280,
+    "QuestTitle": "Bridge over Frozen Water",
+    "PreviousQuestIds": [
+      67134
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ingaret",
+    "StarterNpcLocation": {
+      "RowId": 5787540,
+      "X": 493.177,
+      "Y": 200.238,
+      "Z": 663.037,
+      "Yaw": -2.2343,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Ingaret",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5005,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 730,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67281,
+    "QuestTitle": "A Mystery Illness",
+    "PreviousQuestIds": [
+      67134,
+      67270
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure",
+      "Memories in the Snow"
+    ],
+    "NextQuestIds": [
+      67282
+    ],
+    "NextQuestTitles": [
+      "Bad Wine"
+    ],
+    "StarterNpc": "Redwald",
+    "StarterNpcLocation": {
+      "RowId": 5787359,
+      "X": 503.105,
+      "Y": 217.945,
+      "Z": 790.249,
+      "Yaw": -3.10324,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Redwald",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5008,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100466,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 489,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67282,
+    "QuestTitle": "Bad Wine",
+    "PreviousQuestIds": [
+      67134,
+      67281
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure",
+      "A Mystery Illness"
+    ],
+    "NextQuestIds": [
+      67283
+    ],
+    "NextQuestTitles": [
+      "Ancient Wisdom"
+    ],
+    "StarterNpc": "Redwald",
+    "StarterNpcLocation": {
+      "RowId": 5787359,
+      "X": 503.105,
+      "Y": 217.945,
+      "Z": 790.249,
+      "Yaw": -3.10324,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Redwald",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5009,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100466,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 574,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67283,
+    "QuestTitle": "Ancient Wisdom",
+    "PreviousQuestIds": [
+      67134,
+      67282
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure",
+      "Bad Wine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Redwald",
+    "StarterNpcLocation": {
+      "RowId": 5787359,
+      "X": 503.105,
+      "Y": 217.945,
+      "Z": 790.249,
+      "Yaw": -3.10324,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Sigan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100466,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 858,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67288,
+    "QuestTitle": "Flower Mill",
+    "PreviousQuestIds": [
+      67139
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "well-mannered widow",
+    "StarterNpcLocation": {
+      "RowId": 5873620,
+      "X": 540.375,
+      "Y": 217.996,
+      "Z": 772.833,
+      "Yaw": -2.49409,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "well-mannered widow",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 596,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67289,
+    "QuestTitle": "Lonely Vigil",
+    "PreviousQuestIds": [
+      67142
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "spiteful knight",
+    "StarterNpcLocation": {
+      "RowId": 5873621,
+      "X": -46.4858,
+      "Y": 88.285,
+      "Z": -606.206,
+      "Yaw": 3.11568,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "spiteful knight",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5102,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 610,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67290,
+    "QuestTitle": "Cat on a Cold Stone Roof",
+    "PreviousQuestIds": [
+      67144
+    ],
+    "PreviousQuestTitles": [
+      "Purple Flame, Purple Flame"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "nonplussed noblewoman",
+    "StarterNpcLocation": {
+      "RowId": 5873630,
+      "X": 543.267,
+      "Y": 228.351,
+      "Z": 734.493,
+      "Yaw": -0.0455236,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "nonplussed noblewoman",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5109,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 438,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67295,
+    "QuestTitle": "Protecting What\u0027s Important",
+    "PreviousQuestIds": [
+      67143
+    ],
+    "PreviousQuestTitles": [
+      "Camp of the Convictors"
+    ],
+    "NextQuestIds": [
+      67299
+    ],
+    "NextQuestTitles": [
+      "Winter Is Coming"
+    ],
+    "StarterNpc": "Luciae",
+    "StarterNpcLocation": {
+      "RowId": 5795837,
+      "X": -298.265,
+      "Y": 126.671,
+      "Z": -1.40714,
+      "Yaw": -0.599908,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Luciae",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5103,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 9331,
+          "ItemName": "Bacon Bread",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9334,
+          "ItemName": "Haddock Dip",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9330,
+          "ItemName": "Triple Cream Coffee",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67296,
+    "QuestTitle": "Baby Steps",
+    "PreviousQuestIds": [
+      67142
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre"
+    ],
+    "NextQuestIds": [
+      67297
+    ],
+    "NextQuestTitles": [
+      "Baby Strides"
+    ],
+    "StarterNpc": "Jantellot",
+    "StarterNpcLocation": {
+      "RowId": 5795833,
+      "X": -288.838,
+      "Y": 127.062,
+      "Z": 13.199,
+      "Yaw": 1.70057,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Jantellot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5104,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67297,
+    "QuestTitle": "Baby Strides",
+    "PreviousQuestIds": [
+      67142,
+      67296
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre",
+      "Baby Steps"
+    ],
+    "NextQuestIds": [
+      67303
+    ],
+    "NextQuestTitles": [
+      "Spring into Action"
+    ],
+    "StarterNpc": "Jantellot",
+    "StarterNpcLocation": {
+      "RowId": 5795833,
+      "X": -288.838,
+      "Y": 127.062,
+      "Z": 13.199,
+      "Yaw": 1.70057,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Jantellot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5106,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 581,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67298,
+    "QuestTitle": "The Secret to Success",
+    "PreviousQuestIds": [
+      67142
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre"
+    ],
+    "NextQuestIds": [
+      67300
+    ],
+    "NextQuestTitles": [
+      "Introductory Dragonslaying"
+    ],
+    "StarterNpc": "Dominiac",
+    "StarterNpcLocation": {
+      "RowId": 5900081,
+      "X": -294.696,
+      "Y": 126.835,
+      "Z": 4.54131,
+      "Yaw": 2.11944,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Dominiac",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100468,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 524,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67299,
+    "QuestTitle": "Winter Is Coming",
+    "PreviousQuestIds": [
+      67143,
+      67295
+    ],
+    "PreviousQuestTitles": [
+      "Camp of the Convictors",
+      "Protecting What\u0027s Important"
+    ],
+    "NextQuestIds": [
+      67304
+    ],
+    "NextQuestTitles": [
+      "A Faithful Companion"
+    ],
+    "StarterNpc": "Luciae",
+    "StarterNpcLocation": {
+      "RowId": 5795837,
+      "X": -298.265,
+      "Y": 126.671,
+      "Z": -1.40714,
+      "Yaw": -0.599908,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Luciae",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5105,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 524,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67300,
+    "QuestTitle": "Introductory Dragonslaying",
+    "PreviousQuestIds": [
+      67142,
+      67298
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre",
+      "The Secret to Success"
+    ],
+    "NextQuestIds": [
+      67301
+    ],
+    "NextQuestTitles": [
+      "Intermediate Dragonslaying"
+    ],
+    "StarterNpc": "Dominiac",
+    "StarterNpcLocation": {
+      "RowId": 5900081,
+      "X": -294.696,
+      "Y": 126.835,
+      "Z": 4.54131,
+      "Yaw": 2.11944,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Dominiac",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5111,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100468,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 553,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67301,
+    "QuestTitle": "Intermediate Dragonslaying",
+    "PreviousQuestIds": [
+      67142,
+      67300
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre",
+      "Introductory Dragonslaying"
+    ],
+    "NextQuestIds": [
+      67302
+    ],
+    "NextQuestTitles": [
+      "Advanced Dragonslaying"
+    ],
+    "StarterNpc": "Dominiac",
+    "StarterNpcLocation": {
+      "RowId": 5900081,
+      "X": -294.696,
+      "Y": 126.835,
+      "Z": 4.54131,
+      "Yaw": 2.11944,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Dominiac",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5112,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100468,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 667,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67302,
+    "QuestTitle": "Advanced Dragonslaying",
+    "PreviousQuestIds": [
+      67142,
+      67301
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre",
+      "Intermediate Dragonslaying"
+    ],
+    "NextQuestIds": [
+      67305
+    ],
+    "NextQuestTitles": [
+      "Expert Dragonslaying"
+    ],
+    "StarterNpc": "Dominiac",
+    "StarterNpcLocation": {
+      "RowId": 5900081,
+      "X": -294.696,
+      "Y": 126.835,
+      "Z": 4.54131,
+      "Yaw": 2.11944,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Dominiac",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5113,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100468,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 610,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67303,
+    "QuestTitle": "Spring into Action",
+    "PreviousQuestIds": [
+      67143,
+      67297
+    ],
+    "PreviousQuestTitles": [
+      "Camp of the Convictors",
+      "Baby Strides"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jantellot",
+    "StarterNpcLocation": {
+      "RowId": 5795833,
+      "X": -288.838,
+      "Y": 127.062,
+      "Z": 13.199,
+      "Yaw": 1.70057,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Jantellot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5108,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 553,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4560,
+          "ItemName": "Hi-Elixir",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4554,
+          "ItemName": "X-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4558,
+          "ItemName": "X-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67304,
+    "QuestTitle": "A Faithful Companion",
+    "PreviousQuestIds": [
+      67143,
+      67299
+    ],
+    "PreviousQuestTitles": [
+      "Camp of the Convictors",
+      "Winter Is Coming"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Luciae",
+    "StarterNpcLocation": {
+      "RowId": 5795837,
+      "X": -298.265,
+      "Y": 126.671,
+      "Z": -1.40714,
+      "Yaw": -0.599908,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "messenger knight",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5107,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 610,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4570,
+          "ItemName": "Phoenix Down",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67305,
+    "QuestTitle": "Expert Dragonslaying",
+    "PreviousQuestIds": [
+      67142,
+      67302
+    ],
+    "PreviousQuestTitles": [
+      "Sounding Out the Amphitheatre",
+      "Advanced Dragonslaying"
+    ],
+    "NextQuestIds": [
+      67425
+    ],
+    "NextQuestTitles": [
+      "Unknown Ultimatum"
+    ],
+    "StarterNpc": "Dominiac",
+    "StarterNpcLocation": {
+      "RowId": 5900081,
+      "X": -294.696,
+      "Y": 126.835,
+      "Z": 4.54131,
+      "Yaw": 2.11944,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Dominiac",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5114,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100468,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 610,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67421,
+    "QuestTitle": "Two Scoops",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ingaret",
+    "StarterNpcLocation": {
+      "RowId": 5787540,
+      "X": 493.177,
+      "Y": 200.238,
+      "Z": 663.037,
+      "Yaw": -2.2343,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Ingaret",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5601,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67422,
+    "QuestTitle": "A Den of Evil",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Redwald",
+    "StarterNpcLocation": {
+      "RowId": 5787359,
+      "X": 503.105,
+      "Y": 217.945,
+      "Z": 790.249,
+      "Yaw": -3.10324,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Redwald",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5602,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 750,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67423,
+    "QuestTitle": "The Old Man and the Lake",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "troubled Elezen",
+    "StarterNpcLocation": {
+      "RowId": 5888196,
+      "X": 472.125,
+      "Y": 217.939,
+      "Z": 760.389,
+      "Yaw": 2.91859,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "troubled Elezen",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5603,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 720,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67424,
+    "QuestTitle": "When the Ice Melts",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Emont",
+    "StarterNpcLocation": {
+      "RowId": 5866588,
+      "X": 692.371,
+      "Y": 134.856,
+      "Z": -630.11,
+      "Yaw": -1.7711,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Emont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5604,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67425,
+    "QuestTitle": "Unknown Ultimatum",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67305
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "Expert Dragonslaying"
+    ],
+    "NextQuestIds": [
+      67426
+    ],
+    "NextQuestTitles": [
+      "Personal Effects"
+    ],
+    "StarterNpc": "Margyt",
+    "StarterNpcLocation": {
+      "RowId": 5903106,
+      "X": -258.742,
+      "Y": 126.986,
+      "Z": 12.6665,
+      "Yaw": -3.1257,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Margyt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5609,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100469,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67426,
+    "QuestTitle": "Personal Effects",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67425
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "Unknown Ultimatum"
+    ],
+    "NextQuestIds": [
+      67427
+    ],
+    "NextQuestTitles": [
+      "Ayleth Absconds"
+    ],
+    "StarterNpc": "Margyt",
+    "StarterNpcLocation": {
+      "RowId": 5903106,
+      "X": -258.742,
+      "Y": 126.986,
+      "Z": 12.6665,
+      "Yaw": -3.1257,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Margyt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5610,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100469,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 990,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10708,
+          "ItemName": "Titanium Sabatons of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10750,
+          "ItemName": "Titanium Sollerets of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10792,
+          "ItemName": "Titanium Sabatons of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10876,
+          "ItemName": "Titanium Sabatons of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67427,
+    "QuestTitle": "Ayleth Absconds",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67426
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "Personal Effects"
+    ],
+    "NextQuestIds": [
+      67428
+    ],
+    "NextQuestTitles": [
+      "A Missing Tooth"
+    ],
+    "StarterNpc": "Margyt",
+    "StarterNpcLocation": {
+      "RowId": 5903106,
+      "X": -258.742,
+      "Y": 126.986,
+      "Z": 12.6665,
+      "Yaw": -3.1257,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Margyt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5611,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100469,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 558,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10834,
+          "ItemName": "Dragonskin Boots of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10918,
+          "ItemName": "Dragonskin Boots of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10960,
+          "ItemName": "Dragonskin Boots of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67428,
+    "QuestTitle": "A Missing Tooth",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67427
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "Ayleth Absconds"
+    ],
+    "NextQuestIds": [
+      67429
+    ],
+    "NextQuestTitles": [
+      "A Noble Purpose"
+    ],
+    "StarterNpc": "Margyt",
+    "StarterNpcLocation": {
+      "RowId": 5903106,
+      "X": -258.742,
+      "Y": 126.986,
+      "Z": 12.6665,
+      "Yaw": -3.1257,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Margyt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5612,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100469,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67429,
+    "QuestTitle": "A Noble Purpose",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67428
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "A Missing Tooth"
+    ],
+    "NextQuestIds": [
+      67434
+    ],
+    "NextQuestTitles": [
+      "A War without End"
+    ],
+    "StarterNpc": "Margyt",
+    "StarterNpcLocation": {
+      "RowId": 5903106,
+      "X": -258.742,
+      "Y": 126.986,
+      "Z": 12.6665,
+      "Yaw": -3.1257,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Margyt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5613,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100469,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 620,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67430,
+    "QuestTitle": "Remember the Fallen",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67431
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "To the Convictor Go the Spoils"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bonifoix",
+    "StarterNpcLocation": {
+      "RowId": 5795834,
+      "X": -285.364,
+      "Y": 127.092,
+      "Z": 14.6943,
+      "Yaw": -2.44198,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Bonifoix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5606,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 465,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10967,
+          "ItemName": "Opal Choker of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10991,
+          "ItemName": "Opal Choker of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11015,
+          "ItemName": "Opal Choker of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11039,
+          "ItemName": "Opal Choker of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11063,
+          "ItemName": "Opal Choker of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67431,
+    "QuestTitle": "To the Convictor Go the Spoils",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [
+      67430
+    ],
+    "NextQuestTitles": [
+      "Remember the Fallen"
+    ],
+    "StarterNpc": "Jantellot",
+    "StarterNpcLocation": {
+      "RowId": 5795833,
+      "X": -288.838,
+      "Y": 127.062,
+      "Z": 13.199,
+      "Yaw": 1.70057,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Jantellot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5605,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 558,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10979,
+          "ItemName": "Opal Earrings of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11003,
+          "ItemName": "Opal Earrings of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11027,
+          "ItemName": "Opal Earrings of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11051,
+          "ItemName": "Opal Earrings of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11075,
+          "ItemName": "Opal Earrings of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67432,
+    "QuestTitle": "Supply Lines",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Luciae",
+    "StarterNpcLocation": {
+      "RowId": 5795837,
+      "X": -298.265,
+      "Y": 126.671,
+      "Z": -1.40714,
+      "Yaw": -0.599908,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Luciae",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5607,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 558,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67433,
+    "QuestTitle": "The Mother of Invention",
+    "PreviousQuestIds": [
+      67173,
+      67409
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Pierriquet",
+    "StarterNpcLocation": {
+      "RowId": 5871970,
+      "X": -311.147,
+      "Y": 126.482,
+      "Z": -6.72925,
+      "Yaw": 0.154495,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Pierriquet",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5608,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67434,
+    "QuestTitle": "A War without End",
+    "PreviousQuestIds": [
+      67173,
+      67409,
+      67429
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Enlisted",
+      "A Noble Purpose"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dominiac",
+    "StarterNpcLocation": {
+      "RowId": 5900081,
+      "X": -294.696,
+      "Y": 126.835,
+      "Z": 4.54131,
+      "Yaw": 2.11944,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Dominiac",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 114,
+      "JournalCategory": {
+        "Id": 62,
+        "Name": "Coerthan Sidequests"
+      },
+      "Name": "Coerthan Sidequests"
+    },
+    "SortKey": 5614,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100470,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 681,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

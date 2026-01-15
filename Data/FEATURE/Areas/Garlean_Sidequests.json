@@ -1,0 +1,2090 @@
+[
+  {
+    "QuestId": 69752,
+    "QuestTitle": "\uE0BE Best Delivered Cold",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [
+      69753
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Armored Up"
+    ],
+    "StarterNpc": "commissary officer",
+    "StarterNpcLocation": {
+      "RowId": 8979628,
+      "X": -433.109,
+      "Y": 22.2129,
+      "Z": 460.834,
+      "Yaw": -2.71528,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "commissary officer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1520,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69753,
+    "QuestTitle": "\uE0BE Armored Up",
+    "PreviousQuestIds": [
+      69929,
+      69752
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows",
+      "\uE0BE Best Delivered Cold"
+    ],
+    "NextQuestIds": [
+      69754
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Dream of Home"
+    ],
+    "StarterNpc": "commissary officer",
+    "StarterNpcLocation": {
+      "RowId": 8956966,
+      "X": 134.849,
+      "Y": -13.3128,
+      "Z": 649.819,
+      "Yaw": 1.75071,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "commissary officer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1530,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35682,
+          "ItemName": "Pewter Earring Coffer (IL 525)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69754,
+    "QuestTitle": "\uE0BE A Dream of Home",
+    "PreviousQuestIds": [
+      69929,
+      69753
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows",
+      "\uE0BE Armored Up"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "commissary officer",
+    "StarterNpcLocation": {
+      "RowId": 8956929,
+      "X": 135.872,
+      "Y": -17.1192,
+      "Z": 567.892,
+      "Yaw": 2.29868,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "commissary officer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1540,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69755,
+    "QuestTitle": "\uE0BE Your Inventory Is Not Full",
+    "PreviousQuestIds": [
+      69919
+    ],
+    "PreviousQuestTitles": [
+      "A Frosty Reception"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "contingent quartermaster",
+    "StarterNpcLocation": {
+      "RowId": 9040128,
+      "X": -437.744,
+      "Y": 22.2018,
+      "Z": 431.941,
+      "Yaw": 1.73741,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "contingent quartermaster",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1460,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35683,
+          "ItemName": "Pewter Necklace Coffer (IL 525)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69756,
+    "QuestTitle": "\uE0BE Help Me to Help You",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Menuki",
+    "StarterNpcLocation": {
+      "RowId": 8866741,
+      "X": -369.497,
+      "Y": 22.1103,
+      "Z": 391.958,
+      "Yaw": -1.43323,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Menuki",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1500,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69757,
+    "QuestTitle": "\uE0BE Heroes All",
+    "PreviousQuestIds": [
+      69923
+    ],
+    "PreviousQuestTitles": [
+      "A Way Forward"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "June",
+    "StarterNpcLocation": {
+      "RowId": 8866746,
+      "X": -375.137,
+      "Y": 22,
+      "Z": 513.547,
+      "Yaw": 0.679079,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "June",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36040,
+          "ItemName": "Island Miq\u0027abob",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69758,
+    "QuestTitle": "\uE0BE Scouting for Scouts",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Talon",
+    "StarterNpcLocation": {
+      "RowId": 8866768,
+      "X": -338.74,
+      "Y": 22.4623,
+      "Z": 449.1,
+      "Yaw": -0.436903,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Talon",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1510,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69759,
+    "QuestTitle": "\uE0BE Bear Baiting",
+    "PreviousQuestIds": [
+      69919
+    ],
+    "PreviousQuestTitles": [
+      "A Frosty Reception"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iliette",
+    "StarterNpcLocation": {
+      "RowId": 8866764,
+      "X": -424.155,
+      "Y": 22.1895,
+      "Z": 423.507,
+      "Yaw": 1.74439,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Iliette",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69760,
+    "QuestTitle": "\uE0BE Under Lock and Code",
+    "PreviousQuestIds": [
+      69923
+    ],
+    "PreviousQuestTitles": [
+      "A Way Forward"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ambaghai",
+    "StarterNpcLocation": {
+      "RowId": 8866742,
+      "X": -342.657,
+      "Y": 22.3771,
+      "Z": 466.875,
+      "Yaw": -1.53377,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Ambaghai",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1490,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69761,
+    "QuestTitle": "\uE0BE And Then a Hero Comes Along",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Amanieu",
+    "StarterNpcLocation": {
+      "RowId": 8866786,
+      "X": 545.274,
+      "Y": -36.637,
+      "Z": -252.103,
+      "Yaw": -1.64259,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Amanieu",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1601,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36041,
+          "ItemName": "King Crab Cake",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69762,
+    "QuestTitle": "\uE0BE With Folded Hands",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "retired magitek engineer",
+    "StarterNpcLocation": {
+      "RowId": 8945414,
+      "X": 556.502,
+      "Y": -40.25,
+      "Z": -133.015,
+      "Yaw": -1.60923,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "retired magitek engineer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1610,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69763,
+    "QuestTitle": "\uE0BE A Light That Never Goes Out",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Spurius",
+    "StarterNpcLocation": {
+      "RowId": 8866801,
+      "X": 545.262,
+      "Y": -36.6159,
+      "Z": -230.238,
+      "Yaw": 1.49368,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Spurius",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1620,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69764,
+    "QuestTitle": "\uE0BE P.S. I Love You",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Maelstrom delegate",
+    "StarterNpcLocation": {
+      "RowId": 9025865,
+      "X": 508.845,
+      "Y": -3.82022,
+      "Z": -352.712,
+      "Yaw": -0.128795,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "A\u0027telihgo",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1630,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5740,
+          "ItemName": "Wine Red Dye",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5736,
+          "ItemName": "Lilac Purple Dye",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5741,
+          "ItemName": "Coral Pink Dye",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69765,
+    "QuestTitle": "\uE0BE Brick by Brick, Tank by Tank",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dossennus",
+    "StarterNpcLocation": {
+      "RowId": 8866798,
+      "X": 513.791,
+      "Y": -36.6427,
+      "Z": -135.889,
+      "Yaw": -0.72415,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Dossennus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1640,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69766,
+    "QuestTitle": "\uE0BE Rest, Thy Warfare O\u0027er",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mol delegate",
+    "StarterNpcLocation": {
+      "RowId": 8946670,
+      "X": 485.274,
+      "Y": 10.8,
+      "Z": -456.312,
+      "Yaw": -2.27295,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Mol delegate",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1650,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69767,
+    "QuestTitle": "\uE0BE Some Like It Hot",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Temple Knight",
+    "StarterNpcLocation": {
+      "RowId": 8979702,
+      "X": 503.954,
+      "Y": -36.65,
+      "Z": -253.062,
+      "Yaw": -2.11178,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Temple Knight",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1660,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69768,
+    "QuestTitle": "\uE0BE Children Are Our Future",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "azure-haired woman",
+    "StarterNpcLocation": {
+      "RowId": 8957896,
+      "X": 496.941,
+      "Y": 10.8877,
+      "Z": -418.546,
+      "Yaw": 2.73299,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "azure-haired woman",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1670,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1055,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69769,
+    "QuestTitle": "\uE0BE Mama, She Is in Rubble Deep",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Makago Nokago",
+    "StarterNpcLocation": {
+      "RowId": 8865440,
+      "X": -308.08,
+      "Y": 22,
+      "Z": 415.31,
+      "Yaw": 2.25005,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Makago Nokago",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1680,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35685,
+          "ItemName": "Pewter Ring Coffer (IL 525)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69770,
+    "QuestTitle": "\uE0BE Put Your Plasma Where Your Mouth Is",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Immortal Flame delegate",
+    "StarterNpcLocation": {
+      "RowId": 8923691,
+      "X": -321.424,
+      "Y": 22.3771,
+      "Z": 473.187,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Ambaghai",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1690,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 995,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36042,
+          "ItemName": "Ukha",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69771,
+    "QuestTitle": "\uE0BE The Hero Never Bombs",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iliette",
+    "StarterNpcLocation": {
+      "RowId": 8866764,
+      "X": -424.155,
+      "Y": 22.1895,
+      "Z": 423.507,
+      "Yaw": 1.74439,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Iliette",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1701,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 975,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69772,
+    "QuestTitle": "\uE0BE Beasts of the Imperial Wild",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Berthellemy",
+    "StarterNpcLocation": {
+      "RowId": 8866754,
+      "X": -434.47,
+      "Y": 22.0091,
+      "Z": 470.329,
+      "Yaw": 3.11449,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Berthellemy",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1710,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 975,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69773,
+    "QuestTitle": "\uE0BE Ordnance Cleanup Committee",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kochacha",
+    "StarterNpcLocation": {
+      "RowId": 8866760,
+      "X": -314.229,
+      "Y": 21.9577,
+      "Z": 430.472,
+      "Yaw": 2.74718,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Kochacha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1720,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69774,
+    "QuestTitle": "\uE0BE A Place of Greater Safety",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Talon",
+    "StarterNpcLocation": {
+      "RowId": 8866768,
+      "X": -338.74,
+      "Y": 22.4623,
+      "Z": 449.1,
+      "Yaw": -0.436903,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Talon",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1730,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36045,
+          "ItemName": "Glory Be Soup",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69775,
+    "QuestTitle": "\uE0BE In the Skies above Garlemald",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "contingent scout",
+    "StarterNpcLocation": {
+      "RowId": 8950826,
+      "X": -373.163,
+      "Y": 22.2662,
+      "Z": 385.021,
+      "Yaw": 2.86518,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "contingent scout",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1740,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36041,
+          "ItemName": "King Crab Cake",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70034,
+    "QuestTitle": "\uE0BE In Pursuit of Power",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [
+      70035
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Camp Broken Engines"
+    ],
+    "StarterNpc": "Rimelnaud",
+    "StarterNpcLocation": {
+      "RowId": 9021028,
+      "X": -321.474,
+      "Y": 22.0088,
+      "Z": 424.003,
+      "Yaw": -1.53014,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Rimelnaud",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1550,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101083,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70035,
+    "QuestTitle": "\uE0BE Camp Broken Engines",
+    "PreviousQuestIds": [
+      70034
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE In Pursuit of Power"
+    ],
+    "NextQuestIds": [
+      70036
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Operation: Reactivation"
+    ],
+    "StarterNpc": "Rimelnaud",
+    "StarterNpcLocation": {
+      "RowId": 9021035,
+      "X": -340.339,
+      "Y": 22,
+      "Z": 502.045,
+      "Yaw": -1.45229,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Appius",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1560,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101083,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70036,
+    "QuestTitle": "\uE0BE Operation: Reactivation",
+    "PreviousQuestIds": [
+      70035
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Camp Broken Engines"
+    ],
+    "NextQuestIds": [
+      70037
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Energy for All"
+    ],
+    "StarterNpc": "Rimelnaud",
+    "StarterNpcLocation": {
+      "RowId": 9021035,
+      "X": -340.339,
+      "Y": 22,
+      "Z": 502.045,
+      "Yaw": -1.45229,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1570,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101083,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70037,
+    "QuestTitle": "\uE0BE Energy for All",
+    "PreviousQuestIds": [
+      70036
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Operation: Reactivation"
+    ],
+    "NextQuestIds": [
+      70042
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Who Is Your Daddy"
+    ],
+    "StarterNpc": "Rimelnaud",
+    "StarterNpcLocation": {
+      "RowId": 9021104,
+      "X": 414.521,
+      "Y": -18.8086,
+      "Z": 613.211,
+      "Yaw": -1.67485,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Esdelot",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1580,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101083,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 36040,
+          "ItemName": "Island Miq\u0027abob",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36041,
+          "ItemName": "King Crab Cake",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36042,
+          "ItemName": "Ukha",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36043,
+          "ItemName": "Borscht",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70038,
+    "QuestTitle": "\uE0BE Stranded at the Station",
+    "PreviousQuestIds": [
+      69929
+    ],
+    "PreviousQuestTitles": [
+      "Strange Bedfellows"
+    ],
+    "NextQuestIds": [
+      70039
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Longing for Home"
+    ],
+    "StarterNpc": "Galla",
+    "StarterNpcLocation": {
+      "RowId": 9021275,
+      "X": -323.44,
+      "Y": 22,
+      "Z": 487.824,
+      "Yaw": -3.00409,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Volusus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1745,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101084,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35684,
+          "ItemName": "Pewter Bracelet Coffer (IL 525)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70039,
+    "QuestTitle": "\uE0BE Longing for Home",
+    "PreviousQuestIds": [
+      70038
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Stranded at the Station"
+    ],
+    "NextQuestIds": [
+      70040
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Palatial Possibilities"
+    ],
+    "StarterNpc": "Volusus",
+    "StarterNpcLocation": {
+      "RowId": 9021277,
+      "X": 541.05,
+      "Y": -36.65,
+      "Z": -132.454,
+      "Yaw": -2.70324,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Volusus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1746,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101084,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70040,
+    "QuestTitle": "\uE0BE Palatial Possibilities",
+    "PreviousQuestIds": [
+      70039
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Longing for Home"
+    ],
+    "NextQuestIds": [
+      70041
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Mum Is the Word"
+    ],
+    "StarterNpc": "Galla",
+    "StarterNpcLocation": {
+      "RowId": 9021288,
+      "X": 539.954,
+      "Y": -36.65,
+      "Z": -132.35,
+      "Yaw": 3.13119,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1747,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101084,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70041,
+    "QuestTitle": "\uE0BE Mum Is the Word",
+    "PreviousQuestIds": [
+      70040
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Palatial Possibilities"
+    ],
+    "NextQuestIds": [
+      70042
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Who Is Your Daddy"
+    ],
+    "StarterNpc": "Galla",
+    "StarterNpcLocation": {
+      "RowId": 9021339,
+      "X": 157.323,
+      "Y": 23.1647,
+      "Z": -415.348,
+      "Yaw": -0.931218,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Volusus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1748,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101084,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 36040,
+          "ItemName": "Island Miq\u0027abob",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36041,
+          "ItemName": "King Crab Cake",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36042,
+          "ItemName": "Ukha",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36043,
+          "ItemName": "Borscht",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70042,
+    "QuestTitle": "\uE0BE Who Is Your Daddy",
+    "PreviousQuestIds": [
+      70037,
+      70041
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Energy for All",
+      "\uE0BE Mum Is the Word"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vipsania",
+    "StarterNpcLocation": {
+      "RowId": 9023498,
+      "X": 541.904,
+      "Y": -36.65,
+      "Z": -132.633,
+      "Yaw": -2.27117,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Volusus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 143,
+      "JournalCategory": {
+        "Id": 79,
+        "Name": "Garlean Sidequests"
+      },
+      "Name": "Garlean Sidequests"
+    },
+    "SortKey": 1749,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101085,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36043,
+          "ItemName": "Borscht",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

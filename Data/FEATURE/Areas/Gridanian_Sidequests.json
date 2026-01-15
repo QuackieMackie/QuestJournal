@@ -1,0 +1,7810 @@
+[
+  {
+    "QuestId": 65537,
+    "QuestTitle": "A Good Adventurer Is Hard to Find",
+    "PreviousQuestIds": [
+      65575
+    ],
+    "PreviousQuestTitles": [
+      "Coming to Gridania"
+    ],
+    "NextQuestIds": [
+      65573
+    ],
+    "NextQuestTitles": [
+      "Population Control"
+    ],
+    "StarterNpc": "Bernadette",
+    "StarterNpcLocation": {
+      "RowId": 1141124,
+      "X": 49.805,
+      "Y": -1.46606,
+      "Z": 51.7593,
+      "Yaw": 0.449675,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Chansteloup",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65556,
+    "QuestTitle": "Incense and Sensibility",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mellaine",
+    "StarterNpcLocation": {
+      "RowId": 1353014,
+      "X": -140.124,
+      "Y": 6.65111,
+      "Z": -114.305,
+      "Yaw": 2.80708,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Braya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65560,
+    "QuestTitle": "Coarse Correspondence",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "F\u0027mibhas",
+    "StarterNpcLocation": {
+      "RowId": 1141217,
+      "X": 193.591,
+      "Y": 0,
+      "Z": 42.1606,
+      "Yaw": 1.73616,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Parnell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65561,
+    "QuestTitle": "Quarrels with Squirrels",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Boiselont",
+    "StarterNpcLocation": {
+      "RowId": 1141283,
+      "X": 141.558,
+      "Y": 15.5,
+      "Z": -274.434,
+      "Yaw": 2.5975,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Boiselont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 11
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65562,
+    "QuestTitle": "Once Bitten, Twice Shy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ethelred",
+    "StarterNpcLocation": {
+      "RowId": 1143532,
+      "X": -234.18,
+      "Y": 1.19476,
+      "Z": -184.436,
+      "Yaw": -1.79474,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Waldew",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 118,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65563,
+    "QuestTitle": "Preserving the Past",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Idele",
+    "StarterNpcLocation": {
+      "RowId": 1141190,
+      "X": -16.2756,
+      "Y": -3.25001,
+      "Z": 41.0016,
+      "Yaw": 2.81268,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Artor",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 5
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 5594,
+          "ItemName": "Grade 1 Dark Matter",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65567,
+    "QuestTitle": "Essential Oil",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Braya",
+    "StarterNpcLocation": {
+      "RowId": 1170810,
+      "X": -243.152,
+      "Y": -4.00016,
+      "Z": -7.91948,
+      "Yaw": 1.16369,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Braya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3530,
+          "ItemName": "Fingerless Leather Gloves",
+          "Count": 1,
+          "Stain": "Midnight Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3531,
+          "ItemName": "Leather Lightmitts",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65568,
+    "QuestTitle": "A Hard Nut to Crack",
+    "PreviousQuestIds": [
+      65621,
+      65659,
+      65660
+    ],
+    "PreviousQuestTitles": [
+      "Close to Home",
+      "Close to Home",
+      "Close to Home"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tatasosa",
+    "StarterNpcLocation": {
+      "RowId": 1144287,
+      "X": 39.5361,
+      "Y": -8.02134,
+      "Z": 112.138,
+      "Yaw": -0.817481,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Bodwine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 3,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 240,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 11
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2999,
+          "ItemName": "Hempen Tabard",
+          "Count": 1,
+          "Stain": "Midnight Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3010,
+          "ItemName": "Hempen Halfrobe",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65570,
+    "QuestTitle": "Derision of Labor",
+    "PreviousQuestIds": [
+      65621,
+      65659,
+      65660
+    ],
+    "PreviousQuestTitles": [
+      "Close to Home",
+      "Close to Home",
+      "Close to Home"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Celestine",
+    "StarterNpcLocation": {
+      "RowId": 1144281,
+      "X": 38.3458,
+      "Y": -7.98819,
+      "Z": 113.603,
+      "Yaw": 2.53183,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Tsubh Khamazom",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 127,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3311,
+          "ItemName": "Hempen Sarouel",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3312,
+          "ItemName": "Hempen Tights",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65573,
+    "QuestTitle": "Population Control",
+    "PreviousQuestIds": [
+      65537
+    ],
+    "PreviousQuestTitles": [
+      "A Good Adventurer Is Hard to Find"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Chansteloup",
+    "StarterNpcLocation": {
+      "RowId": 1141206,
+      "X": 197.436,
+      "Y": -0.015306,
+      "Z": 57.1145,
+      "Yaw": -0.561973,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Chansteloup",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2653,
+          "ItemName": "Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Midnight Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2655,
+          "ItemName": "Hempen Hat",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65574,
+    "QuestTitle": "Parsemontrenomics",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Parsemontret",
+    "StarterNpcLocation": {
+      "RowId": 1332324,
+      "X": 172.352,
+      "Y": 15.5,
+      "Z": -89.9215,
+      "Yaw": -1.64249,
+      "Radius": 0.96,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Ceinguled",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 111,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 5
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65575,
+    "QuestTitle": "Coming to Gridania",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65537,
+      65621,
+      65659,
+      65660
+    ],
+    "NextQuestTitles": [
+      "A Good Adventurer Is Hard to Find",
+      "Close to Home",
+      "Close to Home",
+      "Close to Home"
+    ],
+    "StarterNpc": "Bertennant",
+    "StarterNpcLocation": {
+      "RowId": 1985150,
+      "X": 117.126,
+      "Y": -12.5101,
+      "Z": 143.661,
+      "Yaw": 1.40568,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 183
+    },
+    "FinishNpc": "Mother Miounne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100035,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65576,
+    "QuestTitle": "For Friendship",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nicoliaux",
+    "StarterNpcLocation": {
+      "RowId": 1141144,
+      "X": -77.9494,
+      "Y": -3.70067,
+      "Z": 53.1166,
+      "Yaw": 2.45379,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Nicoliaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 111,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65577,
+    "QuestTitle": "Covered in Roses",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Samiane",
+    "StarterNpcLocation": {
+      "RowId": 1143535,
+      "X": -175.555,
+      "Y": 11.0323,
+      "Z": -159.808,
+      "Yaw": 1.36943,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Samiane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 111,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65578,
+    "QuestTitle": "Sylphic Gratitude",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Estaine",
+    "StarterNpcLocation": {
+      "RowId": 1354953,
+      "X": -53.5745,
+      "Y": 7.20226,
+      "Z": -118.334,
+      "Yaw": 3.03239,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Estaine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 110,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 5
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65585,
+    "QuestTitle": "I Am Millicent, Hear Me Roar",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Duimessand",
+    "StarterNpcLocation": {
+      "RowId": 1355100,
+      "X": -43.8697,
+      "Y": 7.08959,
+      "Z": -136.706,
+      "Yaw": -0.646918,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Millicent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65631,
+    "QuestTitle": "Hematophagic Harassment",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65633
+    ],
+    "NextQuestTitles": [
+      "Harriers of the Hedgetree"
+    ],
+    "StarterNpc": "Eadbert",
+    "StarterNpcLocation": {
+      "RowId": 1146901,
+      "X": 320.543,
+      "Y": -5.8932,
+      "Z": -79.8655,
+      "Yaw": 1.72091,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Eadbert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 128,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 7
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65633,
+    "QuestTitle": "Harriers of the Hedgetree",
+    "PreviousQuestIds": [
+      65631
+    ],
+    "PreviousQuestTitles": [
+      "Hematophagic Harassment"
+    ],
+    "NextQuestIds": [
+      65635
+    ],
+    "NextQuestTitles": [
+      "The Kindness of Strangers"
+    ],
+    "StarterNpc": "Eadbert",
+    "StarterNpcLocation": {
+      "RowId": 1146901,
+      "X": 320.543,
+      "Y": -5.8932,
+      "Z": -79.8655,
+      "Yaw": 1.72091,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Eadbert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3765,
+          "ItemName": "Leather Leggings",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3766,
+          "ItemName": "Leather Boots",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65634,
+    "QuestTitle": "Drink Your Beans, Dear",
+    "PreviousQuestIds": [
+      65639
+    ],
+    "PreviousQuestTitles": [
+      "Death to the Bean Thieves"
+    ],
+    "NextQuestIds": [
+      65635
+    ],
+    "NextQuestTitles": [
+      "The Kindness of Strangers"
+    ],
+    "StarterNpc": "Dametta",
+    "StarterNpcLocation": {
+      "RowId": 1146918,
+      "X": 400.656,
+      "Y": -5.88625,
+      "Z": -104.875,
+      "Yaw": -2.58638,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Dametta",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2654,
+          "ItemName": "Hard Leather Pot Helm",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 10,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65635,
+    "QuestTitle": "The Kindness of Strangers",
+    "PreviousQuestIds": [
+      65633,
+      65634
+    ],
+    "PreviousQuestTitles": [
+      "Harriers of the Hedgetree",
+      "Drink Your Beans, Dear"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Emeria",
+    "StarterNpcLocation": {
+      "RowId": 1481412,
+      "X": 333.364,
+      "Y": -6.45991,
+      "Z": -69.749,
+      "Yaw": -2.72549,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Mother Miounne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100002,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 17
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3313,
+          "ItemName": "Hempen Kecks",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3314,
+          "ItemName": "Hempen Gaskins",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65639,
+    "QuestTitle": "Death to the Bean Thieves",
+    "PreviousQuestIds": [
+      65735
+    ],
+    "PreviousQuestTitles": [
+      "A Clear Sign"
+    ],
+    "NextQuestIds": [
+      65634
+    ],
+    "NextQuestTitles": [
+      "Drink Your Beans, Dear"
+    ],
+    "StarterNpc": "Q\u0027djawana",
+    "StarterNpcLocation": {
+      "RowId": 1146888,
+      "X": 301.167,
+      "Y": -5.57012,
+      "Z": 321.126,
+      "Yaw": -3.11072,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Dametta",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 146,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 4689,
+          "ItemName": "Chanterelle Saute",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65663,
+    "QuestTitle": "Parasite Cleave",
+    "PreviousQuestIds": [
+      65711
+    ],
+    "PreviousQuestTitles": [
+      "Surveying the Damage"
+    ],
+    "NextQuestIds": [
+      65666
+    ],
+    "NextQuestTitles": [
+      "Soil Despoilers"
+    ],
+    "StarterNpc": "Gabineaux",
+    "StarterNpcLocation": {
+      "RowId": 1145832,
+      "X": 286.946,
+      "Y": -3.34274,
+      "Z": -31.4489,
+      "Yaw": 2.36232,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Gabineaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 15
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3534,
+          "ItemName": "Leather Mitts",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3535,
+          "ItemName": "Leather Ringbands",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65666,
+    "QuestTitle": "Soil Despoilers",
+    "PreviousQuestIds": [
+      65663
+    ],
+    "PreviousQuestTitles": [
+      "Parasite Cleave"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gabineaux",
+    "StarterNpcLocation": {
+      "RowId": 1145832,
+      "X": 286.946,
+      "Y": -3.34274,
+      "Z": -31.4489,
+      "Yaw": 2.36232,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Ealdfrith",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 122,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 17
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65693,
+    "QuestTitle": "Extending Fences",
+    "PreviousQuestIds": [
+      65911
+    ],
+    "PreviousQuestTitles": [
+      "Not a Material Girl"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Luquelot",
+    "StarterNpcLocation": {
+      "RowId": 1145877,
+      "X": -60.4612,
+      "Y": 0.199996,
+      "Z": 6.33173,
+      "Yaw": 0.686131,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Luquelot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 180,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 23
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4093,
+          "ItemName": "Bone Armillae",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4198,
+          "ItemName": "Copper Ear Cuffs",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65694,
+    "QuestTitle": "Sting in a Bottle",
+    "PreviousQuestIds": [
+      65922
+    ],
+    "PreviousQuestTitles": [
+      "Walking the Planks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Waltheof",
+    "StarterNpcLocation": {
+      "RowId": 1146421,
+      "X": 181.816,
+      "Y": -32.118,
+      "Z": 321.814,
+      "Yaw": -1.22758,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Margault",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27636,
+          "ItemName": "Hard Leather Kecks",
+          "Count": 1,
+          "Stain": "Halatali Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3320,
+          "ItemName": "Striped Cotton Slops",
+          "Count": 1,
+          "Stain": "Shale Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65696,
+    "QuestTitle": "Slimy Hollows",
+    "PreviousQuestIds": [
+      65919
+    ],
+    "PreviousQuestTitles": [
+      "If Ye Break Faith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Finnea",
+    "StarterNpcLocation": {
+      "RowId": 1146413,
+      "X": 48.7962,
+      "Y": -24.0021,
+      "Z": 220.072,
+      "Yaw": 1.75984,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Finnea",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27635,
+          "ItemName": "Altered Cotton Bandana",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2668,
+          "ItemName": "Brass Spectacles",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65698,
+    "QuestTitle": "A Sight to Behold",
+    "PreviousQuestIds": [
+      66049
+    ],
+    "PreviousQuestTitles": [
+      "Sylph-management"
+    ],
+    "NextQuestIds": [
+      67643,
+      68456,
+      69140,
+      69710,
+      70542
+    ],
+    "NextQuestTitles": [
+      "Sights of the North",
+      "Sights of Crimson and Dawn",
+      "Sights of the First",
+      "Sights of the End",
+      "Sights of the West"
+    ],
+    "StarterNpc": "Naoh Gamduhla",
+    "StarterNpcLocation": {
+      "RowId": 1144339,
+      "X": 30.8384,
+      "Y": -8,
+      "Z": 112.23,
+      "Yaw": 2.23107,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Millith Ironheart",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 870,
+      "Gil": 320,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65706,
+    "QuestTitle": "Jumping at Shadows",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65707
+    ],
+    "NextQuestTitles": [
+      "The Valued Vilekin"
+    ],
+    "StarterNpc": "Bodwine",
+    "StarterNpcLocation": {
+      "RowId": 1146890,
+      "X": 345.51,
+      "Y": -5.56958,
+      "Z": 343.892,
+      "Yaw": -3.0902,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Bodwine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 3,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 240,
+      "Gil": 135,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65707,
+    "QuestTitle": "The Valued Vilekin",
+    "PreviousQuestIds": [
+      65706
+    ],
+    "PreviousQuestTitles": [
+      "Jumping at Shadows"
+    ],
+    "NextQuestIds": [
+      65710
+    ],
+    "NextQuestTitles": [
+      "No Quarter Given"
+    ],
+    "StarterNpc": "Bodwine",
+    "StarterNpcLocation": {
+      "RowId": 1146890,
+      "X": 345.51,
+      "Y": -5.56958,
+      "Z": 343.892,
+      "Yaw": -3.0902,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Guithrit",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 3,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 240,
+      "Gil": 147,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65708,
+    "QuestTitle": "More than a Flesh Wound",
+    "PreviousQuestIds": [
+      69390
+    ],
+    "PreviousQuestTitles": [
+      "Eggs over Queasy"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Arold",
+    "StarterNpcLocation": {
+      "RowId": 1145806,
+      "X": 204.761,
+      "Y": -5.29493,
+      "Z": -99.4431,
+      "Yaw": -1.74766,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Arold",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 146,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4305,
+          "ItemName": "Copper Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4306,
+          "ItemName": "Bone Necklace",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65709,
+    "QuestTitle": "The Nose Knows",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vionne",
+    "StarterNpcLocation": {
+      "RowId": 1146893,
+      "X": 328.267,
+      "Y": -4.9947,
+      "Z": 321.797,
+      "Yaw": -2.52799,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Vionne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 3,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 240,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65710,
+    "QuestTitle": "No Quarter Given",
+    "PreviousQuestIds": [
+      65707
+    ],
+    "PreviousQuestTitles": [
+      "The Valued Vilekin"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guithrit",
+    "StarterNpcLocation": {
+      "RowId": 1146873,
+      "X": 357.983,
+      "Y": 8.93414,
+      "Z": 214.492,
+      "Yaw": 2.30237,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Guithrit",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 156,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65730,
+    "QuestTitle": "Unicorn Power",
+    "PreviousQuestIds": [
+      65977
+    ],
+    "PreviousQuestTitles": [
+      "In Nature\u0027s Embrace"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Braya",
+    "StarterNpcLocation": {
+      "RowId": 1170810,
+      "X": -243.152,
+      "Y": -4.00016,
+      "Z": -7.91948,
+      "Yaw": 1.16369,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Braya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "CNJ",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6269,
+          "ItemName": "Unicorn Whistle",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65731,
+    "QuestTitle": "A Glim Harvest",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Linyeve",
+    "StarterNpcLocation": {
+      "RowId": 1146933,
+      "X": 384.665,
+      "Y": -5.81974,
+      "Z": -136.462,
+      "Yaw": -0.000431509,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Linyeve",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 138,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65733,
+    "QuestTitle": "Splitting Shells",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Maurelin",
+    "StarterNpcLocation": {
+      "RowId": 1145542,
+      "X": 109.787,
+      "Y": -8,
+      "Z": -73.7768,
+      "Yaw": 1.93043,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Mariustel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4657,
+          "ItemName": "Braised Pipira",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4658,
+          "ItemName": "Tree Toad Legs",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65735,
+    "QuestTitle": "A Clear Sign",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65639
+    ],
+    "NextQuestTitles": [
+      "Death to the Bean Thieves"
+    ],
+    "StarterNpc": "Paulemont",
+    "StarterNpcLocation": {
+      "RowId": 2552654,
+      "X": 358.968,
+      "Y": 8.93414,
+      "Z": 231.281,
+      "Yaw": 0.93627,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Q\u0027djawana",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 146,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65746,
+    "QuestTitle": "Idle Initiatives",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tsubh Khamazom",
+    "StarterNpcLocation": {
+      "RowId": 1145490,
+      "X": 106.859,
+      "Y": -8,
+      "Z": -75.6695,
+      "Yaw": 2.56107,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Tsubh Khamazom",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 135,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65756,
+    "QuestTitle": "Leves of Bentbranch",
+    "PreviousQuestIds": [
+      65665
+    ],
+    "PreviousQuestTitles": [
+      "Spirithold Broken"
+    ],
+    "NextQuestIds": [
+      65550,
+      65551,
+      65552,
+      65553,
+      65554,
+      65596,
+      65757,
+      65979,
+      65980,
+      66224,
+      66228,
+      66230,
+      66231,
+      66232
+    ],
+    "NextQuestTitles": [
+      "Leves of Wineport",
+      "Leves of Camp Bluefog",
+      "Leves of the Observatorium",
+      "Leves of Whitebrim",
+      "Leves of Saint Coinach\u0027s Find",
+      "Simply the Hest",
+      "Leves of Hawthorne",
+      "Leves of Quarrymill",
+      "Leves of Camp Tranquil",
+      "Leves of Camp Drybone",
+      "Leves of Little Ala Mhigo",
+      "Leves of Aleport",
+      "Leves of Moraby",
+      "Leves of Costa del Sol"
+    ],
+    "StarterNpc": "Gontrant",
+    "StarterNpcLocation": {
+      "RowId": 1140471,
+      "X": 25.04,
+      "Y": -8.01103,
+      "Z": 108.11,
+      "Yaw": 1.60836,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Tierney",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 215,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65757,
+    "QuestTitle": "Leves of Hawthorne",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qina Lyehga",
+    "StarterNpcLocation": {
+      "RowId": 1646078,
+      "X": -212.695,
+      "Y": 1.04061,
+      "Z": 285.634,
+      "Yaw": 0.593612,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Qina Lyehga",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 239,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65911,
+    "QuestTitle": "Not a Material Girl",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65693
+    ],
+    "NextQuestTitles": [
+      "Extending Fences"
+    ],
+    "StarterNpc": "Kukuvachi",
+    "StarterNpcLocation": {
+      "RowId": 1317436,
+      "X": -56.3602,
+      "Y": -0.0316374,
+      "Z": 40.9902,
+      "Yaw": -1.7608,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Kukuvachi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 173,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4092,
+          "ItemName": "Leather Wristbands",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4091,
+          "ItemName": "Copper Wristlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65914,
+    "QuestTitle": "Look, but Won\u0027t Touch",
+    "PreviousQuestIds": [
+      65912
+    ],
+    "PreviousQuestTitles": [
+      "You Shall Not Trespass"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Roseline",
+    "StarterNpcLocation": {
+      "RowId": 1317430,
+      "X": -125.22,
+      "Y": 4.15738,
+      "Z": -43.5703,
+      "Yaw": 2.75425,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Roseline",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 220,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65919,
+    "QuestTitle": "If Ye Break Faith",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65696
+    ],
+    "NextQuestTitles": [
+      "Slimy Hollows"
+    ],
+    "StarterNpc": "Finnea",
+    "StarterNpcLocation": {
+      "RowId": 1146413,
+      "X": 48.7962,
+      "Y": -24.0021,
+      "Z": 220.072,
+      "Yaw": 1.75984,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Balarr",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 211,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27637,
+          "ItemName": "Hard Leather Thighboots",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3773,
+          "ItemName": "Hard Leather Sandals",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65921,
+    "QuestTitle": "Favor for the Fisherwoman",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Berthe",
+    "StarterNpcLocation": {
+      "RowId": 1146422,
+      "X": 182.53,
+      "Y": -32.1646,
+      "Z": 320.408,
+      "Yaw": 0.793258,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Berthe",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 188,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3017,
+          "ItemName": "Hard Leather Harness",
+          "Count": 1,
+          "Stain": "Halatali Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3018,
+          "ItemName": "Hempen Robe",
+          "Count": 1,
+          "Stain": "Aldgoat Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65922,
+    "QuestTitle": "Walking the Planks",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65694
+    ],
+    "NextQuestTitles": [
+      "Sting in a Bottle"
+    ],
+    "StarterNpc": "Waltheof",
+    "StarterNpcLocation": {
+      "RowId": 1146421,
+      "X": 181.816,
+      "Y": -32.118,
+      "Z": 321.814,
+      "Yaw": -1.22758,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Waltheof",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 178,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4422,
+          "ItemName": "Copper Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4421,
+          "ItemName": "Bone Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65979,
+    "QuestTitle": "Leves of Quarrymill",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nyell",
+    "StarterNpcLocation": {
+      "RowId": 2257020,
+      "X": 201.526,
+      "Y": 9.68945,
+      "Z": -61.4184,
+      "Yaw": -1.47801,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Nyell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3045,
+          "ItemName": "Iron Cuirass",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3043,
+          "ItemName": "Goatskin Jacket",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27666,
+          "ItemName": "Altered Cotton Dalmatica",
+          "Count": 1,
+          "Stain": "Mud Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65980,
+    "QuestTitle": "Leves of Camp Tranquil",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Merthelin",
+    "StarterNpcLocation": {
+      "RowId": 3643652,
+      "X": -238.941,
+      "Y": 22.0017,
+      "Z": 344.381,
+      "Yaw": 0.992453,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Merthelin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3102,
+          "ItemName": "Steel Cuirass",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3100,
+          "ItemName": "Toadskin Jacket",
+          "Count": 1,
+          "Stain": "Ice Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27669,
+          "ItemName": "Velveteen Bliaud",
+          "Count": 1,
+          "Stain": "Deepwood Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66101,
+    "QuestTitle": "So You Think You Can Ride This Chocobo",
+    "PreviousQuestIds": [
+      65972
+    ],
+    "PreviousQuestTitles": [
+      "So You Want to Be a Jockey"
+    ],
+    "NextQuestIds": [
+      66112
+    ],
+    "NextQuestTitles": [
+      "Like Sire Like Fledgling"
+    ],
+    "StarterNpc": "Katering",
+    "StarterNpcLocation": {
+      "RowId": 5757969,
+      "X": -53.2425,
+      "Y": 0.309497,
+      "Z": 69.4189,
+      "Yaw": 2.35619,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "race chocobo registrar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 151,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66236,
+    "QuestTitle": "My Little Chocobo (Twin Adder)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66698
+    ],
+    "NextQuestTitles": [
+      "My Feisty Little Chocobo"
+    ],
+    "StarterNpc": "Vorsaile Heuloix",
+    "StarterNpcLocation": {
+      "RowId": 1141151,
+      "X": -75.4815,
+      "Y": -0.501378,
+      "Z": -5.07031,
+      "Yaw": 0.992908,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Cingur",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6001,
+          "ItemName": "Chocobo Whistle",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66247,
+    "QuestTitle": "The Replacement Culler",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Florimond",
+    "StarterNpcLocation": {
+      "RowId": 2339531,
+      "X": -242.029,
+      "Y": 3.55984,
+      "Z": 287.492,
+      "Yaw": -1.32702,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Florimond",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5738,
+          "ItemName": "Dalamud Red Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4566,
+          "ItemName": "Echo Drops",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66248,
+    "QuestTitle": "Meat of the Matter",
+    "PreviousQuestIds": [
+      66245
+    ],
+    "PreviousQuestTitles": [
+      "Sylphic Studies"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ysabel Hawthorne",
+    "StarterNpcLocation": {
+      "RowId": 2339560,
+      "X": -246.425,
+      "Y": 3.60851,
+      "Z": 279.956,
+      "Yaw": -2.23784,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ysabel Hawthorne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5773,
+          "ItemName": "Lime Green Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2712,
+          "ItemName": "Iron Celata",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2708,
+          "ItemName": "Iron Sallet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2703,
+          "ItemName": "Ash Mask (Lapis Lazuli)",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66249,
+    "QuestTitle": "Stand-in Sentry",
+    "PreviousQuestIds": [
+      66250
+    ],
+    "PreviousQuestTitles": [
+      "Swinophobia"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Piralnaut",
+    "StarterNpcLocation": {
+      "RowId": 4249634,
+      "X": -201.034,
+      "Y": 20.2128,
+      "Z": 254.281,
+      "Yaw": -1.02559,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Piralnaut",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4643,
+          "ItemName": "Antelope Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4730,
+          "ItemName": "Dried Plums",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66250,
+    "QuestTitle": "Swinophobia",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66249
+    ],
+    "NextQuestTitles": [
+      "Stand-in Sentry"
+    ],
+    "StarterNpc": "Piralnaut",
+    "StarterNpcLocation": {
+      "RowId": 4249634,
+      "X": -201.034,
+      "Y": 20.2128,
+      "Z": 254.281,
+      "Yaw": -1.02559,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Piralnaut",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7621,
+          "ItemName": "Glamour Dispeller",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4552,
+          "ItemName": "Hi-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66252,
+    "QuestTitle": "Roof Riders",
+    "PreviousQuestIds": [
+      66246
+    ],
+    "PreviousQuestTitles": [
+      "First Impressions"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Blaisette",
+    "StarterNpcLocation": {
+      "RowId": 1146491,
+      "X": -206.043,
+      "Y": 2.66286,
+      "Z": 303.975,
+      "Yaw": 1.67278,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Dellexia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 21,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1800,
+      "Gil": 1109,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3045,
+          "ItemName": "Iron Cuirass",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3050,
+          "ItemName": "Cotton Halfrobe",
+          "Count": 1,
+          "Stain": "Desert Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3043,
+          "ItemName": "Goatskin Jacket",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66256,
+    "QuestTitle": "Sylph Says",
+    "PreviousQuestIds": [
+      69393
+    ],
+    "PreviousQuestTitles": [
+      "Dance Dance Diplomacy"
+    ],
+    "NextQuestIds": [
+      66257
+    ],
+    "NextQuestTitles": [
+      "Buzz Kill"
+    ],
+    "StarterNpc": "Laxio",
+    "StarterNpcLocation": {
+      "RowId": 4249638,
+      "X": 26.8711,
+      "Y": -3.62993,
+      "Z": 209.644,
+      "Yaw": 1.2051,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Laxio",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 21,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1800,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3563,
+          "ItemName": "Iron Gauntlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3568,
+          "ItemName": "Cotton Dress Gloves",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3559,
+          "ItemName": "Goatskin Armguards",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66257,
+    "QuestTitle": "Buzz Kill",
+    "PreviousQuestIds": [
+      66256
+    ],
+    "PreviousQuestTitles": [
+      "Sylph Says"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Laxio",
+    "StarterNpcLocation": {
+      "RowId": 4249638,
+      "X": 26.8711,
+      "Y": -3.62993,
+      "Z": 209.644,
+      "Yaw": 1.2051,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Laxio",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 21,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1800,
+      "Gil": 1285,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4643,
+          "ItemName": "Antelope Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4746,
+          "ItemName": "Grape Juice",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66258,
+    "QuestTitle": "A Porcine Plight",
+    "PreviousQuestIds": [
+      69393
+    ],
+    "PreviousQuestTitles": [
+      "Dance Dance Diplomacy"
+    ],
+    "NextQuestIds": [
+      66259
+    ],
+    "NextQuestTitles": [
+      "Threads Unraveled"
+    ],
+    "StarterNpc": "Ameexia",
+    "StarterNpcLocation": {
+      "RowId": 1332293,
+      "X": -3.75892,
+      "Y": -5.85948,
+      "Z": 217.281,
+      "Yaw": 1.7507,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ameexia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 21,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1800,
+      "Gil": 226,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5734,
+          "ItemName": "Soot Black Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66259,
+    "QuestTitle": "Threads Unraveled",
+    "PreviousQuestIds": [
+      66258
+    ],
+    "PreviousQuestTitles": [
+      "A Porcine Plight"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ameexia",
+    "StarterNpcLocation": {
+      "RowId": 1332293,
+      "X": -3.75892,
+      "Y": -5.85948,
+      "Z": 217.281,
+      "Yaw": 1.7507,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Ameexia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 21,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1800,
+      "Gil": 1109,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66263,
+    "QuestTitle": "Cloven-hoofed Horrors",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66264
+    ],
+    "NextQuestTitles": [
+      "The Trees Have Eyes"
+    ],
+    "StarterNpc": "Ianna",
+    "StarterNpcLocation": {
+      "RowId": 1146555,
+      "X": -167.895,
+      "Y": 9.86827,
+      "Z": -76.6766,
+      "Yaw": -2.2884,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Ianna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 22,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1860,
+      "Gil": 1320,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66264,
+    "QuestTitle": "The Trees Have Eyes",
+    "PreviousQuestIds": [
+      66263
+    ],
+    "PreviousQuestTitles": [
+      "Cloven-hoofed Horrors"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ianna",
+    "StarterNpcLocation": {
+      "RowId": 1146555,
+      "X": -167.895,
+      "Y": 9.86827,
+      "Z": -76.6766,
+      "Yaw": -2.2884,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Ianna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 22,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1860,
+      "Gil": 1320,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5795,
+          "ItemName": "Woad Blue Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66265,
+    "QuestTitle": "No Guts, No Glory",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66266,
+      66267,
+      66268
+    ],
+    "NextQuestTitles": [
+      "Occupational Hazards",
+      "Potsherds for Posterity",
+      "Stash Saboteur"
+    ],
+    "StarterNpc": "Auphiliot",
+    "StarterNpcLocation": {
+      "RowId": 1146560,
+      "X": -170.81,
+      "Y": 9.96413,
+      "Z": -84.1294,
+      "Yaw": 2.49616,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Auphiliot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 22,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1860,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3793,
+          "ItemName": "Iron Sabatons",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3800,
+          "ItemName": "Cotton Dress Shoes",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3791,
+          "ItemName": "Goatskin Leg Guards",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66266,
+    "QuestTitle": "Occupational Hazards",
+    "PreviousQuestIds": [
+      66265
+    ],
+    "PreviousQuestTitles": [
+      "No Guts, No Glory"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yoenne",
+    "StarterNpcLocation": {
+      "RowId": 4250404,
+      "X": -162.326,
+      "Y": 8.53361,
+      "Z": -57.4113,
+      "Yaw": 3.00802,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Yoenne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 22,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1860,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6176,
+          "ItemName": "Chigoe Larva",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66267,
+    "QuestTitle": "Potsherds for Posterity",
+    "PreviousQuestIds": [
+      66265
+    ],
+    "PreviousQuestTitles": [
+      "No Guts, No Glory"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rolandaix",
+    "StarterNpcLocation": {
+      "RowId": 3638452,
+      "X": -211.588,
+      "Y": 6.85476,
+      "Z": 39.8059,
+      "Yaw": -2.32952,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Rolandaix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 22,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1860,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7621,
+          "ItemName": "Glamour Dispeller",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3800,
+          "ItemName": "Cotton Dress Shoes",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4594,
+          "ItemName": "Potion of Strength",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4595,
+          "ItemName": "Potion of Dexterity",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4596,
+          "ItemName": "Potion of Vitality",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66268,
+    "QuestTitle": "Stash Saboteur",
+    "PreviousQuestIds": [
+      66265
+    ],
+    "PreviousQuestTitles": [
+      "No Guts, No Glory"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Auphiliot",
+    "StarterNpcLocation": {
+      "RowId": 1146560,
+      "X": -170.81,
+      "Y": 9.96413,
+      "Z": -84.1294,
+      "Yaw": 2.49616,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Auphiliot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 22,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1860,
+      "Gil": 1140,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66275,
+    "QuestTitle": "Enemy Mine",
+    "PreviousQuestIds": [
+      66274
+    ],
+    "PreviousQuestTitles": [
+      "Sylphish Concerns"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Auphiliot",
+    "StarterNpcLocation": {
+      "RowId": 1146560,
+      "X": -170.81,
+      "Y": 9.96413,
+      "Z": -84.1294,
+      "Yaw": 2.49616,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Auphiliot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 23,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1920,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5801,
+          "ItemName": "Royal Blue Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3574,
+          "ItemName": "Iron Scale Fingers",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3570,
+          "ItemName": "Cotton Bracers",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3572,
+          "ItemName": "Goatskin Lightmitts",
+          "Count": 1,
+          "Stain": "Shale Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66278,
+    "QuestTitle": "Shadows of the Empire",
+    "PreviousQuestIds": [
+      66050
+    ],
+    "PreviousQuestTitles": [
+      "Into the Beast\u0027s Maw"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Auphiliot",
+    "StarterNpcLocation": {
+      "RowId": 1146560,
+      "X": -170.81,
+      "Y": 9.96413,
+      "Z": -84.1294,
+      "Yaw": 2.49616,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Auphiliot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 244,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66281,
+    "QuestTitle": "The Blood Price",
+    "PreviousQuestIds": [
+      66050
+    ],
+    "PreviousQuestTitles": [
+      "Into the Beast\u0027s Maw"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Knolexia",
+    "StarterNpcLocation": {
+      "RowId": 1146512,
+      "X": 21.4694,
+      "Y": -4.5625,
+      "Z": 221.79,
+      "Yaw": 0.0100188,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Knolexia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 1399,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3062,
+          "ItemName": "Cotton Robe",
+          "Count": 1,
+          "Stain": "Dalamud Red"
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66302,
+    "QuestTitle": "Savage Snares",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Balan",
+    "StarterNpcLocation": {
+      "RowId": 2366525,
+      "X": 176.44,
+      "Y": 8.92645,
+      "Z": -42.9884,
+      "Yaw": -3.02207,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Balan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 1474,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66303,
+    "QuestTitle": "Forest Law",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wlfric",
+    "StarterNpcLocation": {
+      "RowId": 2366522,
+      "X": 158.496,
+      "Y": 18.12,
+      "Z": -49.3934,
+      "Yaw": 1.469,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Wlfric",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 1263,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66304,
+    "QuestTitle": "An Apple a Day",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66305
+    ],
+    "NextQuestTitles": [
+      "A Bumper Crop"
+    ],
+    "StarterNpc": "Deidra",
+    "StarterNpcLocation": {
+      "RowId": 4255793,
+      "X": 156.801,
+      "Y": 11.1787,
+      "Z": -74.2456,
+      "Yaw": -2.35504,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Fawkes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 1263,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4709,
+          "ItemName": "Apple Tart",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4747,
+          "ItemName": "Apple Juice",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66305,
+    "QuestTitle": "A Bumper Crop",
+    "PreviousQuestIds": [
+      66304
+    ],
+    "PreviousQuestTitles": [
+      "An Apple a Day"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fawkes",
+    "StarterNpcLocation": {
+      "RowId": 4310495,
+      "X": 213.113,
+      "Y": 29.5028,
+      "Z": -164.541,
+      "Yaw": -1.83831,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Castellaint",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 1263,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66306,
+    "QuestTitle": "Wretched Hive of Villainy",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Faucertaux",
+    "StarterNpcLocation": {
+      "RowId": 3861108,
+      "X": 150.296,
+      "Y": 11.2284,
+      "Z": -72.5701,
+      "Yaw": -0.0378917,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Faucertaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5809,
+          "ItemName": "Grape Purple Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4596,
+          "ItemName": "Potion of Vitality",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4594,
+          "ItemName": "Potion of Strength",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4595,
+          "ItemName": "Potion of Dexterity",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66307,
+    "QuestTitle": "In Grandfather\u0027s Name",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66308
+    ],
+    "NextQuestTitles": [
+      "The Marvelous Mun-Tuy Bean"
+    ],
+    "StarterNpc": "Cuthbert",
+    "StarterNpcLocation": {
+      "RowId": 2366518,
+      "X": 151.777,
+      "Y": 11.6474,
+      "Z": -73.2361,
+      "Yaw": 0.689293,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Cuthbert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 1263,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66308,
+    "QuestTitle": "The Marvelous Mun-Tuy Bean",
+    "PreviousQuestIds": [
+      66307
+    ],
+    "PreviousQuestTitles": [
+      "In Grandfather\u0027s Name"
+    ],
+    "NextQuestIds": [
+      66309
+    ],
+    "NextQuestTitles": [
+      "Masher for a Day"
+    ],
+    "StarterNpc": "Aedoc",
+    "StarterNpcLocation": {
+      "RowId": 4255754,
+      "X": 197.788,
+      "Y": 7.85512,
+      "Z": -22.1409,
+      "Yaw": -0.0260358,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Erimmont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7621,
+          "ItemName": "Glamour Dispeller",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4103,
+          "ItemName": "Silver Wristlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4315,
+          "ItemName": "Silver Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66309,
+    "QuestTitle": "Masher for a Day",
+    "PreviousQuestIds": [
+      66308
+    ],
+    "PreviousQuestTitles": [
+      "The Marvelous Mun-Tuy Bean"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Erimmont",
+    "StarterNpcLocation": {
+      "RowId": 3854667,
+      "X": 277.523,
+      "Y": 11.1859,
+      "Z": -255.581,
+      "Yaw": -0.934112,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Aedoc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5740,
+          "ItemName": "Wine Red Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4644,
+          "ItemName": "Aldgoat Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4732,
+          "ItemName": "Crumpet",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66324,
+    "QuestTitle": "Potable Perils",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66328
+    ],
+    "NextQuestTitles": [
+      "Cleaning House"
+    ],
+    "StarterNpc": "Somerhild",
+    "StarterNpcLocation": {
+      "RowId": 4256958,
+      "X": 4.98905,
+      "Y": -46.5181,
+      "Z": 248.514,
+      "Yaw": 2.32229,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Aeluuin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3365,
+          "ItemName": "Velveteen Trousers",
+          "Count": 1,
+          "Stain": "Snow White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3355,
+          "ItemName": "Velveteen Tights",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66325,
+    "QuestTitle": "No News Is Good News",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Godwin",
+    "StarterNpcLocation": {
+      "RowId": 3656534,
+      "X": -34.4701,
+      "Y": -40.5128,
+      "Z": 221.027,
+      "Yaw": -0.481534,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Vortefaurt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4320,
+          "ItemName": "Sunstone Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4324,
+          "ItemName": "Malachite Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4326,
+          "ItemName": "Sphene Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66326,
+    "QuestTitle": "Save the Trees",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66327
+    ],
+    "NextQuestTitles": [
+      "Pumiceous Pursuits"
+    ],
+    "StarterNpc": "Oriane",
+    "StarterNpcLocation": {
+      "RowId": 4257013,
+      "X": -293.717,
+      "Y": -14.4056,
+      "Z": 204.261,
+      "Yaw": 0.805261,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Oriane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4328,
+          "ItemName": "Fluorite Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4322,
+          "ItemName": "Danburite Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4330,
+          "ItemName": "Lapis Lazuli Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66327,
+    "QuestTitle": "Pumiceous Pursuits",
+    "PreviousQuestIds": [
+      66326
+    ],
+    "PreviousQuestTitles": [
+      "Save the Trees"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Oriane",
+    "StarterNpcLocation": {
+      "RowId": 4257013,
+      "X": -293.717,
+      "Y": -14.4056,
+      "Z": 204.261,
+      "Yaw": 0.805261,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Yhom Epocan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 1544,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66328,
+    "QuestTitle": "Cleaning House",
+    "PreviousQuestIds": [
+      66324
+    ],
+    "PreviousQuestTitles": [
+      "Potable Perils"
+    ],
+    "NextQuestIds": [
+      66329
+    ],
+    "NextQuestTitles": [
+      "Trouble on the Road"
+    ],
+    "StarterNpc": "Aeluuin",
+    "StarterNpcLocation": {
+      "RowId": 3656570,
+      "X": -26.2608,
+      "Y": -40.7264,
+      "Z": 172.747,
+      "Yaw": -0.208064,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Aeluuin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 1320,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66329,
+    "QuestTitle": "Trouble on the Road",
+    "PreviousQuestIds": [
+      66328
+    ],
+    "PreviousQuestTitles": [
+      "Cleaning House"
+    ],
+    "NextQuestIds": [
+      66332
+    ],
+    "NextQuestTitles": [
+      "Meals for Miners"
+    ],
+    "StarterNpc": "Aeluuin",
+    "StarterNpcLocation": {
+      "RowId": 3656570,
+      "X": -26.2608,
+      "Y": -40.7264,
+      "Z": 172.747,
+      "Yaw": -0.208064,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Aeluuin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4115,
+          "ItemName": "Sphene Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4109,
+          "ItemName": "Sunstone Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4113,
+          "ItemName": "Malachite Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66330,
+    "QuestTitle": "A Welcome Overstayed",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66331
+    ],
+    "NextQuestTitles": [
+      "No Place Like Home"
+    ],
+    "StarterNpc": "Gogolata",
+    "StarterNpcLocation": {
+      "RowId": 3656564,
+      "X": -23.7278,
+      "Y": -40.2508,
+      "Z": 174.914,
+      "Yaw": 3.01849,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gogolata",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4117,
+          "ItemName": "Fluorite Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4111,
+          "ItemName": "Danburite Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4119,
+          "ItemName": "Lapis Lazuli Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66331,
+    "QuestTitle": "No Place Like Home",
+    "PreviousQuestIds": [
+      66330
+    ],
+    "PreviousQuestTitles": [
+      "A Welcome Overstayed"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gogolata",
+    "StarterNpcLocation": {
+      "RowId": 3656564,
+      "X": -23.7278,
+      "Y": -40.2508,
+      "Z": 174.914,
+      "Yaw": 3.01849,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gogolata",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 1320,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66332,
+    "QuestTitle": "Meals for Miners",
+    "PreviousQuestIds": [
+      66329
+    ],
+    "PreviousQuestTitles": [
+      "Trouble on the Road"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aeluuin",
+    "StarterNpcLocation": {
+      "RowId": 3656570,
+      "X": -26.2608,
+      "Y": -40.7264,
+      "Z": 172.747,
+      "Yaw": -0.208064,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Aeluuin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 1320,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66333,
+    "QuestTitle": "Digging in the Dark",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66334
+    ],
+    "NextQuestTitles": [
+      "A Leg Up"
+    ],
+    "StarterNpc": "Ademar",
+    "StarterNpcLocation": {
+      "RowId": 4256844,
+      "X": -246.458,
+      "Y": -31.5362,
+      "Z": 392.568,
+      "Yaw": 2.7993,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Ademar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 1544,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66334,
+    "QuestTitle": "A Leg Up",
+    "PreviousQuestIds": [
+      66333
+    ],
+    "PreviousQuestTitles": [
+      "Digging in the Dark"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ademar",
+    "StarterNpcLocation": {
+      "RowId": 4256844,
+      "X": -246.458,
+      "Y": -31.5362,
+      "Z": 392.568,
+      "Yaw": 2.7993,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Ademar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 28,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2775,
+      "Gil": 1320,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66339,
+    "QuestTitle": "Beneath the Planks",
+    "PreviousQuestIds": [
+      66338
+    ],
+    "PreviousQuestTitles": [
+      "Broadening Horizons"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Roustebant",
+    "StarterNpcLocation": {
+      "RowId": 4259678,
+      "X": -115.346,
+      "Y": -7.35198,
+      "Z": 91.2336,
+      "Yaw": 1.76514,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Thievenaix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 29,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4222,
+          "ItemName": "Fluorite Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4216,
+          "ItemName": "Danburite Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4224,
+          "ItemName": "Lapis Lazuli Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66340,
+    "QuestTitle": "Fungal Frolic",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66341
+    ],
+    "NextQuestTitles": [
+      "Shocking Discoveries"
+    ],
+    "StarterNpc": "Marcette",
+    "StarterNpcLocation": {
+      "RowId": 4257902,
+      "X": -244.718,
+      "Y": 58.693,
+      "Z": -140.038,
+      "Yaw": -1.33135,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Marcette",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 29,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3040,
+      "Gil": 1580,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66341,
+    "QuestTitle": "Shocking Discoveries",
+    "PreviousQuestIds": [
+      66340
+    ],
+    "PreviousQuestTitles": [
+      "Fungal Frolic"
+    ],
+    "NextQuestIds": [
+      66342,
+      66343
+    ],
+    "NextQuestTitles": [
+      "In Too Deep",
+      "Doing the Dirty Work"
+    ],
+    "StarterNpc": "Marcette",
+    "StarterNpcLocation": {
+      "RowId": 4257902,
+      "X": -244.718,
+      "Y": 58.693,
+      "Z": -140.038,
+      "Yaw": -1.33135,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Marcette",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 29,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3040,
+      "Gil": 1580,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66342,
+    "QuestTitle": "In Too Deep",
+    "PreviousQuestIds": [
+      66341
+    ],
+    "PreviousQuestTitles": [
+      "Shocking Discoveries"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hobriaut",
+    "StarterNpcLocation": {
+      "RowId": 4257903,
+      "X": -243.702,
+      "Y": 58.7108,
+      "Z": -141.497,
+      "Yaw": -0.988043,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Hobriaut",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 29,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4448,
+          "ItemName": "Sphene Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4442,
+          "ItemName": "Sunstone Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4446,
+          "ItemName": "Malachite Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66343,
+    "QuestTitle": "Doing the Dirty Work",
+    "PreviousQuestIds": [
+      66341
+    ],
+    "PreviousQuestTitles": [
+      "Shocking Discoveries"
+    ],
+    "NextQuestIds": [
+      67021
+    ],
+    "NextQuestTitles": [
+      "Thwack-a-Mole"
+    ],
+    "StarterNpc": "Marcette",
+    "StarterNpcLocation": {
+      "RowId": 4257902,
+      "X": -244.718,
+      "Y": 58.693,
+      "Z": -140.038,
+      "Yaw": -1.33135,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Marcette",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 29,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3040,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4450,
+          "ItemName": "Fluorite Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4444,
+          "ItemName": "Danburite Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4452,
+          "ItemName": "Lapis Lazuli Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66353,
+    "QuestTitle": "We\u0027ll Always Have Ul\u0027dah",
+    "PreviousQuestIds": [
+      66350
+    ],
+    "PreviousQuestTitles": [
+      "A Modest Proposal"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Detoh Moshroca",
+    "StarterNpcLocation": {
+      "RowId": 4256141,
+      "X": -230.929,
+      "Y": 21.4909,
+      "Z": 338.277,
+      "Yaw": 0.566668,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Detoh Moshroca",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 1615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4552,
+          "ItemName": "Hi-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66354,
+    "QuestTitle": "A Burning Request",
+    "PreviousQuestIds": [
+      66350
+    ],
+    "PreviousQuestTitles": [
+      "A Modest Proposal"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Florent",
+    "StarterNpcLocation": {
+      "RowId": 3656491,
+      "X": -203.693,
+      "Y": 20.9595,
+      "Z": 367.33,
+      "Yaw": 2.53116,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Florent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 1377,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4644,
+          "ItemName": "Aldgoat Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4732,
+          "ItemName": "Crumpet",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66421,
+    "QuestTitle": "Hunger Is the Best Sauce",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Idristan",
+    "StarterNpcLocation": {
+      "RowId": 4257011,
+      "X": -296.644,
+      "Y": -13.6305,
+      "Z": 197.356,
+      "Yaw": 0.733362,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Idristan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3399,
+          "ItemName": "Linen Trousers",
+          "Count": 1,
+          "Stain": "Snow White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27990,
+          "ItemName": "Altered Linen Chausses",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66442,
+    "QuestTitle": "Tit for Tat",
+    "PreviousQuestIds": [
+      66441
+    ],
+    "PreviousQuestTitles": [
+      "Stand and Quiver"
+    ],
+    "NextQuestIds": [
+      66443
+    ],
+    "NextQuestTitles": [
+      "Inquire at the Spire"
+    ],
+    "StarterNpc": "Isaudorel",
+    "StarterNpcLocation": {
+      "RowId": 4256995,
+      "X": -32.749,
+      "Y": -40.7051,
+      "Z": 179.25,
+      "Yaw": -0.685476,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Isaudorel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 5764,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66443,
+    "QuestTitle": "Inquire at the Spire",
+    "PreviousQuestIds": [
+      66442
+    ],
+    "PreviousQuestTitles": [
+      "Tit for Tat"
+    ],
+    "NextQuestIds": [
+      66444
+    ],
+    "NextQuestTitles": [
+      "Don\u0027t Shut Me Out"
+    ],
+    "StarterNpc": "Ireine",
+    "StarterNpcLocation": {
+      "RowId": 4256996,
+      "X": -33.6462,
+      "Y": -40.7051,
+      "Z": 178.936,
+      "Yaw": 0.701827,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Miah Molkot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66444,
+    "QuestTitle": "Don\u0027t Shut Me Out",
+    "PreviousQuestIds": [
+      66443
+    ],
+    "PreviousQuestTitles": [
+      "Inquire at the Spire"
+    ],
+    "NextQuestIds": [
+      66445
+    ],
+    "NextQuestTitles": [
+      "From Gridania, with Love"
+    ],
+    "StarterNpc": "Miah Molkot",
+    "StarterNpcLocation": {
+      "RowId": 4257001,
+      "X": 63.1852,
+      "Y": -13.3597,
+      "Z": 140.918,
+      "Yaw": 0.118436,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Miah Molkot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66445,
+    "QuestTitle": "From Gridania, with Love",
+    "PreviousQuestIds": [
+      66444
+    ],
+    "PreviousQuestTitles": [
+      "Don\u0027t Shut Me Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Miah Molkot",
+    "StarterNpcLocation": {
+      "RowId": 4257001,
+      "X": 63.1852,
+      "Y": -13.3597,
+      "Z": 140.918,
+      "Yaw": 0.118436,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Belmont",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 37,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4370,
+      "Gil": 1478,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66505,
+    "QuestTitle": "Adventurer for Hire",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66506
+    ],
+    "NextQuestTitles": [
+      "Some Seedy Business"
+    ],
+    "StarterNpc": "Selaine",
+    "StarterNpcLocation": {
+      "RowId": 4265787,
+      "X": -140.372,
+      "Y": 7.89828,
+      "Z": -142.973,
+      "Yaw": -1.71143,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Jeulerand",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 430,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 43,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5720,
+      "Gil": 1624,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66506,
+    "QuestTitle": "Some Seedy Business",
+    "PreviousQuestIds": [
+      66505
+    ],
+    "PreviousQuestTitles": [
+      "Adventurer for Hire"
+    ],
+    "NextQuestIds": [
+      66508
+    ],
+    "NextQuestTitles": [
+      "This One\u0027s for the Lovers"
+    ],
+    "StarterNpc": "Jeulerand",
+    "StarterNpcLocation": {
+      "RowId": 4249679,
+      "X": 5.72211,
+      "Y": -7.27863,
+      "Z": 270.954,
+      "Yaw": -0.977784,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Kain",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 430,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 43,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5720,
+      "Gil": 2500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66508,
+    "QuestTitle": "This One\u0027s for the Lovers",
+    "PreviousQuestIds": [
+      66506
+    ],
+    "PreviousQuestTitles": [
+      "Some Seedy Business"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kain",
+    "StarterNpcLocation": {
+      "RowId": 4268753,
+      "X": -170.651,
+      "Y": 56.688,
+      "Z": -255.965,
+      "Yaw": -0.22869,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Kain",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 430,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 43,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5720,
+      "Gil": 1729,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66509,
+    "QuestTitle": "Windy Wedding",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Elfleda",
+    "StarterNpcLocation": {
+      "RowId": 4268755,
+      "X": -236.255,
+      "Y": 51.4991,
+      "Z": -193.103,
+      "Yaw": 1.79673,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Elfleda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 430,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 43,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5720,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4553,
+          "ItemName": "Mega-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4556,
+          "ItemName": "Hi-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66544,
+    "QuestTitle": "Who Was That Man in Black",
+    "PreviousQuestIds": [
+      66543
+    ],
+    "PreviousQuestTitles": [
+      "Primal Fear"
+    ],
+    "NextQuestIds": [
+      66545
+    ],
+    "NextQuestTitles": [
+      "The Dark Divinity"
+    ],
+    "StarterNpc": "Lewin",
+    "StarterNpcLocation": {
+      "RowId": 3883960,
+      "X": 0.0101777,
+      "Y": 0.503029,
+      "Z": -4.37369,
+      "Yaw": -0.0132917,
+      "Radius": 1,
+      "MapId": 68,
+      "TerritoryId": 204
+    },
+    "FinishNpc": "Lewin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 46,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 1694,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66545,
+    "QuestTitle": "The Dark Divinity",
+    "PreviousQuestIds": [
+      66544
+    ],
+    "PreviousQuestTitles": [
+      "Who Was That Man in Black"
+    ],
+    "NextQuestIds": [
+      66548
+    ],
+    "NextQuestTitles": [
+      "All You Wanted to Know about Odin"
+    ],
+    "StarterNpc": "Lewin",
+    "StarterNpcLocation": {
+      "RowId": 3883960,
+      "X": 0.0101777,
+      "Y": 0.503029,
+      "Z": -4.37369,
+      "Yaw": -0.0132917,
+      "Radius": 1,
+      "MapId": 68,
+      "TerritoryId": 204
+    },
+    "FinishNpc": "Simmie",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 46,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4361,
+          "ItemName": "Electrum Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4150,
+          "ItemName": "Electrum Wristlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66546,
+    "QuestTitle": "Slim Pickings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Isarmoix",
+    "StarterNpcLocation": {
+      "RowId": 4256040,
+      "X": 199.275,
+      "Y": 10.3803,
+      "Z": -85.3968,
+      "Yaw": -0.551399,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Isarmoix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 46,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3886,
+          "ItemName": "Tortoiseshell Scale Greaves",
+          "Count": 1,
+          "Stain": "Ink Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 27647,
+          "ItemName": "Raptorskin Moccasins",
+          "Count": 1,
+          "Stain": "Bark Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66547,
+    "QuestTitle": "Serveth Thy Master",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kerrich",
+    "StarterNpcLocation": {
+      "RowId": 4256039,
+      "X": 180.623,
+      "Y": 9.90926,
+      "Z": -78.7823,
+      "Yaw": 1.87274,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Kerrich",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 46,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3669,
+          "ItemName": "Tortoiseshell Scale Fingers",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3651,
+          "ItemName": "Fingerless Raptorskin Gloves",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3656,
+          "ItemName": "Boarskin Ringbands of Flames",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66548,
+    "QuestTitle": "All You Wanted to Know about Odin",
+    "PreviousQuestIds": [
+      66545
+    ],
+    "PreviousQuestTitles": [
+      "The Dark Divinity"
+    ],
+    "NextQuestIds": [
+      65969
+    ],
+    "NextQuestTitles": [
+      "Fear and Odin in the Shroud"
+    ],
+    "StarterNpc": "Simmie",
+    "StarterNpcLocation": {
+      "RowId": 4256099,
+      "X": 209.364,
+      "Y": 18.0886,
+      "Z": -21.956,
+      "Yaw": -2.36371,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Urianger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 46,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 1694,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5671,
+          "ItemName": "Savage Aim Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5666,
+          "ItemName": "Heavens\u0027 Eye Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5676,
+          "ItemName": "Savage Might Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5716,
+          "ItemName": "Quickarm Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5721,
+          "ItemName": "Quicktongue Materia III",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66676,
+    "QuestTitle": "One Man\u0027s Trash",
+    "PreviousQuestIds": [
+      66998
+    ],
+    "PreviousQuestTitles": [
+      "Celestial Radiance"
+    ],
+    "NextQuestIds": [
+      65896,
+      66677
+    ],
+    "NextQuestTitles": [
+      "A Treasured Mother",
+      "Morbid Motivation"
+    ],
+    "StarterNpc": "Ealdwine",
+    "StarterNpcLocation": {
+      "RowId": 4797410,
+      "X": 405.411,
+      "Y": -6.02407,
+      "Z": -84.1461,
+      "Yaw": -0.0953072,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Brangwine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66698,
+    "QuestTitle": "My Feisty Little Chocobo",
+    "PreviousQuestIds": [
+      66236,
+      66237,
+      66238
+    ],
+    "PreviousQuestTitles": [
+      "My Little Chocobo (Twin Adder)",
+      "My Little Chocobo (Maelstrom)",
+      "My Little Chocobo (Immortal Flames)"
+    ],
+    "NextQuestIds": [
+      67096,
+      67653
+    ],
+    "NextQuestTitles": [
+      "Bird in Hand",
+      "I Believe I Can Fly"
+    ],
+    "StarterNpc": "Docette",
+    "StarterNpcLocation": {
+      "RowId": 3656481,
+      "X": -219.226,
+      "Y": 20.8896,
+      "Z": 338.43,
+      "Yaw": 2.87554,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Luquelot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66961,
+    "QuestTitle": "Saw That One Coming",
+    "PreviousQuestIds": [
+      66088,
+      66081,
+      65985
+    ],
+    "PreviousQuestTitles": [
+      "A Royal Reception",
+      "A Mizzenmast Repast",
+      "Renewing the Covenant"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eral",
+    "StarterNpcLocation": {
+      "RowId": 1144298,
+      "X": 42.3359,
+      "Y": -8,
+      "Z": 96.5492,
+      "Yaw": -0.99159,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Yedythe",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 14,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1035,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 102,
+        "EmoteName": "Harvest Dance"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66964,
+    "QuestTitle": "He\u0027s Got a Ticket to Ride",
+    "PreviousQuestIds": [
+      65665
+    ],
+    "PreviousQuestTitles": [
+      "Spirithold Broken"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Spinning Blade",
+    "StarterNpcLocation": {
+      "RowId": 1144288,
+      "X": 40.0854,
+      "Y": -8.05349,
+      "Z": 113.237,
+      "Yaw": -1.81957,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Spinning Blade",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 9,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 810,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66968,
+    "QuestTitle": "An Ill-conceived Venture",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "troubled adventurer",
+    "StarterNpcLocation": {
+      "RowId": 4696190,
+      "X": 29.1929,
+      "Y": -1.41243,
+      "Z": 52.6598,
+      "Yaw": -0.544399,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Parnell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 418,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 6
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67096,
+    "QuestTitle": "Bird in Hand",
+    "PreviousQuestIds": [
+      66698
+    ],
+    "PreviousQuestTitles": [
+      "My Feisty Little Chocobo"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Luquelot",
+    "StarterNpcLocation": {
+      "RowId": 1145877,
+      "X": -60.4612,
+      "Y": 0.199996,
+      "Z": 6.33173,
+      "Yaw": 0.686131,
+      "Radius": 1,
+      "MapId": 4,
+      "TerritoryId": 148
+    },
+    "FinishNpc": "Luquelot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8165,
+          "ItemName": "Krakka Root",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67206,
+    "QuestTitle": "Kettle to the Mettle",
+    "PreviousQuestIds": [
+      66097,
+      67823
+    ],
+    "PreviousQuestTitles": [
+      "The Vital Title",
+      "The Vital Title"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 112,
+      "JournalCategory": {
+        "Id": 60,
+        "Name": "Gridanian Sidequests"
+      },
+      "Name": "Gridanian Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100532,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5800,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 13087,
+          "ItemName": "Ultimate Kettle Nexus",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

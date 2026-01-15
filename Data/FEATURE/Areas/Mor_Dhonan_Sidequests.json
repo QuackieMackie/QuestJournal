@@ -1,0 +1,1926 @@
+[
+  {
+    "QuestId": 65554,
+    "QuestTitle": "Leves of Saint Coinach\u0027s Find",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "K\u0027leytai",
+    "StarterNpcLocation": {
+      "RowId": 4258822,
+      "X": 416,
+      "Y": -6.03864,
+      "Z": -444.4,
+      "Yaw": 3.05433,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "K\u0027leytai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65700,
+    "QuestTitle": "Magiteknical Difficulties",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Slafborn",
+    "StarterNpcLocation": {
+      "RowId": 4264514,
+      "X": 21.9272,
+      "Y": 20.747,
+      "Z": -682.063,
+      "Yaw": 0.528321,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Jessie",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 686,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65968,
+    "QuestTitle": "A Legend for a Legend",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "wandering minstrel",
+    "StarterNpcLocation": {
+      "RowId": 4505914,
+      "X": 15.2975,
+      "Y": 21.2527,
+      "Z": -634.826,
+      "Yaw": 2.37866,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 10080,
+          "ItemName": "Kirin Fife",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66523,
+    "QuestTitle": "Problem with Plasma",
+    "PreviousQuestIds": [
+      66535
+    ],
+    "PreviousQuestTitles": [
+      "The Trickster of the Toll"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aganbold",
+    "StarterNpcLocation": {
+      "RowId": 4264517,
+      "X": 30.6399,
+      "Y": 21.2527,
+      "Z": -643.549,
+      "Yaw": -1.90655,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Aganbold",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66524,
+    "QuestTitle": "Crazy about Crystals",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Npah Tayuun",
+    "StarterNpcLocation": {
+      "RowId": 4264518,
+      "X": 29.599,
+      "Y": 26.3335,
+      "Z": -703.665,
+      "Yaw": 0.551452,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Npah Tayuun",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 44,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5681,
+          "ItemName": "Battledance Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5631,
+          "ItemName": "Piety Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4553,
+          "ItemName": "Mega-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4556,
+          "ItemName": "Hi-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66525,
+    "QuestTitle": "Dirt and Ashes",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66534
+    ],
+    "NextQuestTitles": [
+      "The Organ of Choice"
+    ],
+    "StarterNpc": "Guolgeim",
+    "StarterNpcLocation": {
+      "RowId": 4264519,
+      "X": 24.1013,
+      "Y": 29,
+      "Z": -750.027,
+      "Yaw": 1.20521,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Guolgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66526,
+    "QuestTitle": "The Sons Also Rise",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kakamehi",
+    "StarterNpcLocation": {
+      "RowId": 4272316,
+      "X": 29.8965,
+      "Y": 21.2527,
+      "Z": -644.496,
+      "Yaw": 2.07473,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Nazyl Duzyl",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1668,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66527,
+    "QuestTitle": "Playing the Postman",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66532
+    ],
+    "NextQuestTitles": [
+      "Dropping Out"
+    ],
+    "StarterNpc": "Nazyl Duzyl",
+    "StarterNpcLocation": {
+      "RowId": 4272589,
+      "X": 446.798,
+      "Y": -4.8083,
+      "Z": -464.63,
+      "Yaw": -1.03215,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Nazyl Duzyl",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66528,
+    "QuestTitle": "Hit the Hippogryphs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rammbroes",
+    "StarterNpcLocation": {
+      "RowId": 4272588,
+      "X": 446.835,
+      "Y": -5.30558,
+      "Z": -465.704,
+      "Yaw": -2.15191,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Rammbroes",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 2121,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66529,
+    "QuestTitle": "Straight Outta Abalathia",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66531
+    ],
+    "NextQuestTitles": [
+      "Holier than Thou"
+    ],
+    "StarterNpc": "Wandering Breeze",
+    "StarterNpcLocation": {
+      "RowId": 4272593,
+      "X": 448.68,
+      "Y": -3.5121,
+      "Z": -442.73,
+      "Yaw": -2.76491,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Wandering Breeze",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66530,
+    "QuestTitle": "Moon Sliver and Me",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Klynthota",
+    "StarterNpcLocation": {
+      "RowId": 4272594,
+      "X": 449.361,
+      "Y": -12.4319,
+      "Z": -387.541,
+      "Yaw": -2.78779,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Klynthota",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66531,
+    "QuestTitle": "Holier than Thou",
+    "PreviousQuestIds": [
+      66529
+    ],
+    "PreviousQuestTitles": [
+      "Straight Outta Abalathia"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wandering Breeze",
+    "StarterNpcLocation": {
+      "RowId": 4272593,
+      "X": 448.68,
+      "Y": -3.5121,
+      "Z": -442.73,
+      "Yaw": -2.76491,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Wandering Breeze",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66532,
+    "QuestTitle": "Dropping Out",
+    "PreviousQuestIds": [
+      66527
+    ],
+    "PreviousQuestTitles": [
+      "Playing the Postman"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nazyl Duzyl",
+    "StarterNpcLocation": {
+      "RowId": 4272589,
+      "X": 446.798,
+      "Y": -4.8083,
+      "Z": -464.63,
+      "Yaw": -1.03215,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Kakamehi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66533,
+    "QuestTitle": "Passing the Smell Test",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66535
+    ],
+    "NextQuestTitles": [
+      "The Trickster of the Toll"
+    ],
+    "StarterNpc": "Aganbold",
+    "StarterNpcLocation": {
+      "RowId": 4264517,
+      "X": 30.6399,
+      "Y": 21.2527,
+      "Z": -643.549,
+      "Yaw": -1.90655,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Aganbold",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 44,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5671,
+          "ItemName": "Savage Aim Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5666,
+          "ItemName": "Heavens\u0027 Eye Materia III",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5676,
+          "ItemName": "Savage Might Materia III",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66534,
+    "QuestTitle": "The Organ of Choice",
+    "PreviousQuestIds": [
+      66525
+    ],
+    "PreviousQuestTitles": [
+      "Dirt and Ashes"
+    ],
+    "NextQuestIds": [
+      66536
+    ],
+    "NextQuestTitles": [
+      "Heart of Cermet"
+    ],
+    "StarterNpc": "Guolgeim",
+    "StarterNpcLocation": {
+      "RowId": 4264519,
+      "X": 24.1013,
+      "Y": 29,
+      "Z": -750.027,
+      "Yaw": 1.20521,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Guolgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66535,
+    "QuestTitle": "The Trickster of the Toll",
+    "PreviousQuestIds": [
+      66533
+    ],
+    "PreviousQuestTitles": [
+      "Passing the Smell Test"
+    ],
+    "NextQuestIds": [
+      66523
+    ],
+    "NextQuestTitles": [
+      "Problem with Plasma"
+    ],
+    "StarterNpc": "Aganbold",
+    "StarterNpcLocation": {
+      "RowId": 4264517,
+      "X": 30.6399,
+      "Y": 21.2527,
+      "Z": -643.549,
+      "Yaw": -1.90655,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Aganbold",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66536,
+    "QuestTitle": "Heart of Cermet",
+    "PreviousQuestIds": [
+      66534
+    ],
+    "PreviousQuestTitles": [
+      "The Organ of Choice"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guolgeim",
+    "StarterNpcLocation": {
+      "RowId": 4264519,
+      "X": 24.1013,
+      "Y": 29,
+      "Z": -750.027,
+      "Yaw": 1.20521,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Guolgeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 1782,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66677,
+    "QuestTitle": "Morbid Motivation",
+    "PreviousQuestIds": [
+      66676
+    ],
+    "PreviousQuestTitles": [
+      "One Man\u0027s Trash"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Brangwine",
+    "StarterNpcLocation": {
+      "RowId": 4797414,
+      "X": 25.7269,
+      "Y": 29,
+      "Z": -738.206,
+      "Yaw": -2.12804,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Brangwine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7884,
+          "ItemName": "Mysterious Map",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66844,
+    "QuestTitle": "The Ultimate Ballad",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      67095
+    ],
+    "NextQuestTitles": [
+      "Sing Me Another Song"
+    ],
+    "StarterNpc": "Alys",
+    "StarterNpcLocation": {
+      "RowId": 4506687,
+      "X": 14.776,
+      "Y": 21.2527,
+      "Z": -640.695,
+      "Yaw": 1.34601,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "wandering minstrel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 501,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100191,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 939,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66959,
+    "QuestTitle": "Just Tooling Around",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guiding Star",
+    "StarterNpcLocation": {
+      "RowId": 4615598,
+      "X": 24.3083,
+      "Y": 29.0217,
+      "Z": -726.856,
+      "Yaw": 3.1397,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Guiding Star",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4672,
+          "ItemName": "Pan-fried Mahi-mahi",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4679,
+          "ItemName": "Dzemael Gratin",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4688,
+          "ItemName": "Landtrap Salad",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4721,
+          "ItemName": "Bouillabaisse",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4725,
+          "ItemName": "Rolanberry Cheesecake",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67095,
+    "QuestTitle": "Sing Me Another Song",
+    "PreviousQuestIds": [
+      66844
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Ballad"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Alys",
+    "StarterNpcLocation": {
+      "RowId": 4506687,
+      "X": 14.776,
+      "Y": 21.2527,
+      "Z": -640.695,
+      "Yaw": 1.34601,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "wandering minstrel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 502,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112041,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 405,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30012,
+          "InstanceName": "the Second Coil of Bahamut (Savage) - Turn 1",
+          "ContentType": 1
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67632,
+    "QuestTitle": "Beloved of the Builder",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lydirlona",
+    "StarterNpcLocation": {
+      "RowId": 5909667,
+      "X": 45.632,
+      "Y": 31.1797,
+      "Z": -732.891,
+      "Yaw": 0.488403,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Alderan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 550,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 10336,
+          "ItemName": "Soul of the Crafter",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 4,
+        "Name": "Specialist Action"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67633,
+    "QuestTitle": "No Longer a Collectable",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lydirlona",
+    "StarterNpcLocation": {
+      "RowId": 5909667,
+      "X": 45.632,
+      "Y": 31.1797,
+      "Z": -732.891,
+      "Yaw": 0.488403,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Kokosamu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 560,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciple of the Land",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 558,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 21,
+          "Name": "Aetherial Reduction"
+        }
+      ],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67634,
+    "QuestTitle": "Go West, Craftsman",
+    "PreviousQuestIds": [
+      67118,
+      67631
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half",
+      "Inscrutable Tastes"
+    ],
+    "NextQuestIds": [
+      67087,
+      67635,
+      68477,
+      69139,
+      69425,
+      69615,
+      69711,
+      70059,
+      70251,
+      70351,
+      70544,
+      70775
+    ],
+    "NextQuestTitles": [
+      "Arms Wide Open",
+      "The Favors of the House",
+      "Reach Long and Prosper",
+      "The Boutique Always Wins",
+      "O Crafter, My Crafter",
+      "You Can Count on It",
+      "Expanding House of Splendors",
+      "Of Mothers and Merchants",
+      "That\u0027s So Anden",
+      "A Request of One\u0027s Own",
+      "Dawn of a New Deal",
+      "Laying New Tracks"
+    ],
+    "StarterNpc": "Lydirlona",
+    "StarterNpcLocation": {
+      "RowId": 5909667,
+      "X": 45.632,
+      "Y": 31.1797,
+      "Z": -732.891,
+      "Yaw": 0.488403,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Geimlona",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67644,
+    "QuestTitle": "A Song of Steam and Steel",
+    "PreviousQuestIds": [
+      67630
+    ],
+    "PreviousQuestTitles": [
+      "Enigma"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "wandering minstrel",
+    "StarterNpcLocation": {
+      "RowId": 4505914,
+      "X": 15.2975,
+      "Y": 21.2527,
+      "Z": -634.826,
+      "Yaw": 2.37866,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Redbrix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 603,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112102,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30025,
+          "InstanceName": "Alexander - The Fist of the Father (Savage)",
+          "ContentType": 1
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67739,
+    "QuestTitle": "Thordan\u0027s Reign",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Alys",
+    "StarterNpcLocation": {
+      "RowId": 4506687,
+      "X": 14.776,
+      "Y": 21.2527,
+      "Z": -640.695,
+      "Yaw": 1.34601,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "wandering minstrel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 601,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112122,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 485,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20036,
+          "InstanceName": "the Minstrel\u0027s Ballad: Thordan\u0027s Reign",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67790,
+    "QuestTitle": "A Refrain for the Undaunted",
+    "PreviousQuestIds": [
+      67789
+    ],
+    "PreviousQuestTitles": [
+      "A Gob in the Machine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "wandering minstrel",
+    "StarterNpcLocation": {
+      "RowId": 4505914,
+      "X": 15.2975,
+      "Y": 21.2527,
+      "Z": -634.826,
+      "Yaw": 2.37866,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Lightkix Eyesfixed",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 604,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112135,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1056,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30034,
+          "InstanceName": "Alexander - The Fist of the Son (Savage)",
+          "ContentType": 1
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67819,
+    "QuestTitle": "A Seat at the Feast",
+    "PreviousQuestIds": [
+      66640,
+      66641,
+      66642
+    ],
+    "PreviousQuestTitles": [
+      "A Pup No Longer (Maelstrom)",
+      "A Pup No Longer (Twin Adder)",
+      "A Pup No Longer (Immortal Flames)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "",
+    "FinishNpc": "Berkoeya Loetahlsyn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112136,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 957,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67825,
+    "QuestTitle": "Nidhogg\u0027s Rage",
+    "PreviousQuestIds": [
+      67783
+    ],
+    "PreviousQuestTitles": [
+      "Litany of Peace"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Alys",
+    "StarterNpcLocation": {
+      "RowId": 4506687,
+      "X": 14.776,
+      "Y": 21.2527,
+      "Z": -640.695,
+      "Yaw": 1.34601,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "wandering minstrel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 602,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112161,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 453,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20040,
+          "InstanceName": "the Minstrel\u0027s Ballad: Nidhogg\u0027s Rage",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67876,
+    "QuestTitle": "Who Lives, Who Dies, Who Retells Your Story",
+    "PreviousQuestIds": [
+      67875
+    ],
+    "PreviousQuestTitles": [
+      "Of Endings and Beginnings"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "wandering minstrel",
+    "StarterNpcLocation": {
+      "RowId": 4505914,
+      "X": 15.2975,
+      "Y": 21.2527,
+      "Z": -634.826,
+      "Yaw": 2.37866,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Snapclix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 605,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112195,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 30043,
+          "InstanceName": "Alexander - The Eyes of the Creator (Savage)",
+          "ContentType": 1
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68722,
+    "QuestTitle": "Take with a Tonze of Salt",
+    "PreviousQuestIds": [
+      68717
+    ],
+    "PreviousQuestTitles": [
+      "Seiryu\u0027s Wall"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bloezoeng",
+    "StarterNpcLocation": {
+      "RowId": 4622443,
+      "X": 32.8333,
+      "Y": 21.2527,
+      "Z": -635.448,
+      "Yaw": -2.71444,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Landebert",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 115,
+      "JournalCategory": {
+        "Id": 63,
+        "Name": "Mor Dhonan Sidequests"
+      },
+      "Name": "Mor Dhonan Sidequests"
+    },
+    "SortKey": 10040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100842,
+    "JobLevel": 70,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 463,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 18031,
+          "ItemName": "Cracked Crystal",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

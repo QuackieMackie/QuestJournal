@@ -1,0 +1,8262 @@
+[
+  {
+    "QuestId": 65550,
+    "QuestTitle": "Leves of Wineport",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aileen",
+    "StarterNpcLocation": {
+      "RowId": 3629068,
+      "X": 5.75262,
+      "Y": 71.1832,
+      "Z": 0.686646,
+      "Yaw": 3.1392,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Aileen",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1791,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65643,
+    "QuestTitle": "Coming to Limsa Lominsa",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65644,
+      65645,
+      65647
+    ],
+    "NextQuestTitles": [
+      "Close to Home",
+      "Close to Home",
+      "Making a Name"
+    ],
+    "StarterNpc": "Ryssfloh",
+    "StarterNpcLocation": {
+      "RowId": 4102039,
+      "X": -39.8413,
+      "Y": 20,
+      "Z": -4.95192,
+      "Yaw": -0.937375,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 181
+    },
+    "FinishNpc": "Baderon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100078,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65647,
+    "QuestTitle": "Making a Name",
+    "PreviousQuestIds": [
+      65643
+    ],
+    "PreviousQuestTitles": [
+      "Coming to Limsa Lominsa"
+    ],
+    "NextQuestIds": [
+      65648
+    ],
+    "NextQuestTitles": [
+      "Suspiciously Sober"
+    ],
+    "StarterNpc": "Niniya",
+    "StarterNpcLocation": {
+      "RowId": 4102073,
+      "X": 8.52048,
+      "Y": 39.5176,
+      "Z": 3.58532,
+      "Yaw": -0.535766,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 181
+    },
+    "FinishNpc": "Ahldskyf",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65648,
+    "QuestTitle": "Suspiciously Sober",
+    "PreviousQuestIds": [
+      65647
+    ],
+    "PreviousQuestTitles": [
+      "Making a Name"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ahldskyf",
+    "StarterNpcLocation": {
+      "RowId": 4069046,
+      "X": -60.441,
+      "Y": 17.9904,
+      "Z": -4.31836,
+      "Yaw": 0.208672,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Frydwyb",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 5594,
+          "ItemName": "Grade 1 Dark Matter",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65649,
+    "QuestTitle": "Proper Procedure",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sweetnix Rosycheeks",
+    "StarterNpcLocation": {
+      "RowId": 2073885,
+      "X": -103.746,
+      "Y": 18.5003,
+      "Z": 16.0677,
+      "Yaw": -0.538867,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Sweetnix Rosycheeks",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65650,
+    "QuestTitle": "The Right Price",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Swozblaet",
+    "StarterNpcLocation": {
+      "RowId": 2093197,
+      "X": -140.856,
+      "Y": 18.1734,
+      "Z": 17.0137,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Baensyng",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65651,
+    "QuestTitle": "Duty Calls",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "P\u0027tahjha",
+    "StarterNpcLocation": {
+      "RowId": 2470117,
+      "X": -342.189,
+      "Y": 12.909,
+      "Z": 3.51994,
+      "Yaw": 0.866472,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Latisha",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 5
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65652,
+    "QuestTitle": "A Sheepish Request",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "H\u0027lahono",
+    "StarterNpcLocation": {
+      "RowId": 2469833,
+      "X": -65.6291,
+      "Y": 41.9775,
+      "Z": -139.422,
+      "Yaw": 0.127178,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "H\u0027lahono",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3530,
+          "ItemName": "Fingerless Leather Gloves",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3531,
+          "ItemName": "Leather Lightmitts",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65653,
+    "QuestTitle": "A Thousand Words",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Latisha",
+    "StarterNpcLocation": {
+      "RowId": 3277403,
+      "X": -58.8541,
+      "Y": 42.2827,
+      "Z": -164.05,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "R\u0027sushmo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 110,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65654,
+    "QuestTitle": "Licensed to Reave",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mordyn",
+    "StarterNpcLocation": {
+      "RowId": 4097322,
+      "X": 1.77854,
+      "Y": 44,
+      "Z": -164.205,
+      "Yaw": -0.166113,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Carvallain",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 110,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65655,
+    "QuestTitle": "Lost and Found",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65656
+    ],
+    "NextQuestTitles": [
+      "I Stay the Streetlight"
+    ],
+    "StarterNpc": "Ginnade",
+    "StarterNpcLocation": {
+      "RowId": 1673103,
+      "X": -4.65169,
+      "Y": 45.0184,
+      "Z": -241.815,
+      "Yaw": 1.30913,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "N\u0027delika",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 110,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65656,
+    "QuestTitle": "I Stay the Streetlight",
+    "PreviousQuestIds": [
+      65655
+    ],
+    "PreviousQuestTitles": [
+      "Lost and Found"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "N\u0027tanmo",
+    "StarterNpcLocation": {
+      "RowId": 4055059,
+      "X": -6.73181,
+      "Y": 20.3333,
+      "Z": 0.557258,
+      "Yaw": -1.40999,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Sisipu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 110,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65657,
+    "QuestTitle": "Back in the Water",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sisipu",
+    "StarterNpcLocation": {
+      "RowId": 1673578,
+      "X": -165.27,
+      "Y": 5.23383,
+      "Z": 164.294,
+      "Yaw": 2.00902,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "H\u0027naanza",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 115,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65658,
+    "QuestTitle": "Glory Days",
+    "PreviousQuestIds": [
+      65644,
+      65645
+    ],
+    "PreviousQuestTitles": [
+      "Close to Home",
+      "Close to Home"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "S\u0027dhodjbi",
+    "StarterNpcLocation": {
+      "RowId": 2367404,
+      "X": -3.25022,
+      "Y": 39.5056,
+      "Z": -9.41486,
+      "Yaw": -0.159986,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Baderon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 11
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2999,
+          "ItemName": "Hempen Tabard",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3010,
+          "ItemName": "Hempen Halfrobe",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65782,
+    "QuestTitle": "Feast of Famine",
+    "PreviousQuestIds": [
+      66966
+    ],
+    "PreviousQuestTitles": [
+      "The Beast of Brewer\u0027s Beacon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wawalago",
+    "StarterNpcLocation": {
+      "RowId": 1673577,
+      "X": -155.077,
+      "Y": 4.04358,
+      "Z": 202.716,
+      "Yaw": -0.380385,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Wawalago",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 515,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100345,
+    "JobLevel": 50,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 50000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7569,
+          "ItemName": "Aetheryte Ticket",
+          "Count": 99
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2628,
+          "ItemName": "Yumizuno",
+          "Count": 50,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2627,
+          "ItemName": "Streamer",
+          "Count": 50,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65859,
+    "QuestTitle": "Edelweiss, Edelweiss",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "J\u0027nasshym",
+    "StarterNpcLocation": {
+      "RowId": 4146187,
+      "X": -60.8565,
+      "Y": 18.0003,
+      "Z": 7.49596,
+      "Yaw": -1.85272,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "J\u0027nasshym",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 95,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65935,
+    "QuestTitle": "Out to Dry",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "W\u0027dhovaka",
+    "StarterNpcLocation": {
+      "RowId": 3921232,
+      "X": -293.979,
+      "Y": 7.53998,
+      "Z": -225.542,
+      "Yaw": -0.475769,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "W\u0027dhovaka",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 173,
+      "Catalysts": [
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 23
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65936,
+    "QuestTitle": "Keeping It Fresh",
+    "PreviousQuestIds": [
+      65933
+    ],
+    "PreviousQuestTitles": [
+      "Sky-high"
+    ],
+    "NextQuestIds": [
+      65937
+    ],
+    "NextQuestTitles": [
+      "Baiting Buzzards"
+    ],
+    "StarterNpc": "Kazai Buoyzai",
+    "StarterNpcLocation": {
+      "RowId": 3921234,
+      "X": -282.368,
+      "Y": 7.54,
+      "Z": -236.866,
+      "Yaw": 0.70128,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Kazai Buoyzai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 173,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65937,
+    "QuestTitle": "Baiting Buzzards",
+    "PreviousQuestIds": [
+      65936
+    ],
+    "PreviousQuestTitles": [
+      "Keeping It Fresh"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kazai Buoyzai",
+    "StarterNpcLocation": {
+      "RowId": 3921234,
+      "X": -282.368,
+      "Y": 7.54,
+      "Z": -236.866,
+      "Yaw": 0.70128,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Kazai Buoyzai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 175,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65941,
+    "QuestTitle": "Need to Breed",
+    "PreviousQuestIds": [
+      65940
+    ],
+    "PreviousQuestTitles": [
+      "Farmer of Fortune"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lyulf",
+    "StarterNpcLocation": {
+      "RowId": 3921238,
+      "X": 650.73,
+      "Y": 7.85789,
+      "Z": 527.218,
+      "Yaw": -0.360044,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Lyulf",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 188,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65943,
+    "QuestTitle": "A Bridge Too Full",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Doesrael",
+    "StarterNpcLocation": {
+      "RowId": 3767101,
+      "X": 102.251,
+      "Y": 68.1552,
+      "Z": 328.939,
+      "Yaw": 0.734452,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Doesrael",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 188,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4093,
+          "ItemName": "Bone Armillae",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4198,
+          "ItemName": "Copper Ear Cuffs",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65944,
+    "QuestTitle": "What Counts",
+    "PreviousQuestIds": [
+      65945
+    ],
+    "PreviousQuestTitles": [
+      "Failure to Lunch"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yulgi Honalgi",
+    "StarterNpcLocation": {
+      "RowId": 3765426,
+      "X": 181.292,
+      "Y": 9.04855,
+      "Z": 611.536,
+      "Yaw": -2.87928,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Yulgi Honalgi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3017,
+          "ItemName": "Hard Leather Harness",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3018,
+          "ItemName": "Hempen Robe",
+          "Count": 1,
+          "Stain": "Ceruleum Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65945,
+    "QuestTitle": "Failure to Lunch",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65944,
+      65946
+    ],
+    "NextQuestTitles": [
+      "What Counts",
+      "Nailed It"
+    ],
+    "StarterNpc": "Wafufu",
+    "StarterNpcLocation": {
+      "RowId": 3765457,
+      "X": 225.36,
+      "Y": 14.096,
+      "Z": 621.027,
+      "Yaw": 2.1862,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Wafufu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 196,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27637,
+          "ItemName": "Hard Leather Thighboots",
+          "Count": 1,
+          "Stain": "Bark Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3773,
+          "ItemName": "Hard Leather Sandals",
+          "Count": 1,
+          "Stain": "Kobold Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65946,
+    "QuestTitle": "Nailed It",
+    "PreviousQuestIds": [
+      65945
+    ],
+    "PreviousQuestTitles": [
+      "Failure to Lunch"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hezzkhezl",
+    "StarterNpcLocation": {
+      "RowId": 3781638,
+      "X": 284.779,
+      "Y": 6.33921,
+      "Z": 615.198,
+      "Yaw": -1.53597,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Hezzkhezl",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27635,
+          "ItemName": "Altered Cotton Bandana",
+          "Count": 1,
+          "Stain": "Dalamud Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2668,
+          "ItemName": "Brass Spectacles",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65947,
+    "QuestTitle": "Constant Carvings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mimidoa",
+    "StarterNpcLocation": {
+      "RowId": 3766212,
+      "X": 185.138,
+      "Y": 14.0959,
+      "Z": 677.363,
+      "Yaw": -2.69922,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Mimidoa",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65952,
+    "QuestTitle": "Forbidden Island",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "A\u0027zumyn",
+    "StarterNpcLocation": {
+      "RowId": 3767042,
+      "X": -34.6964,
+      "Y": 8.92135,
+      "Z": 844.97,
+      "Yaw": 1.46804,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "A\u0027zumyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 234,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65953,
+    "QuestTitle": "Say It with Flowers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rostnzeh",
+    "StarterNpcLocation": {
+      "RowId": 3767056,
+      "X": 136.85,
+      "Y": 58.9528,
+      "Z": 937.438,
+      "Yaw": 0.598861,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Ghimthota",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27636,
+          "ItemName": "Hard Leather Kecks",
+          "Count": 1,
+          "Stain": "Shale Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3320,
+          "ItemName": "Striped Cotton Slops",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66006,
+    "QuestTitle": "Yarzon, Yarzoff",
+    "PreviousQuestIds": [
+      66000
+    ],
+    "PreviousQuestTitles": [
+      "Further Afield"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ostfyr",
+    "StarterNpcLocation": {
+      "RowId": 3643762,
+      "X": 188.586,
+      "Y": 65.1818,
+      "Z": 292.879,
+      "Yaw": -1.85615,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Ostfyr",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 350,
+      "Gil": 128,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66007,
+    "QuestTitle": "Rocks in a Hard Place",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Grynewyda",
+    "StarterNpcLocation": {
+      "RowId": 3925183,
+      "X": 232.593,
+      "Y": 113.073,
+      "Z": -240.238,
+      "Yaw": -0.271489,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Grynewyda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 128,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66008,
+    "QuestTitle": "The Time Is Ripe",
+    "PreviousQuestIds": [
+      65998
+    ],
+    "PreviousQuestTitles": [
+      "On to Summerford"
+    ],
+    "NextQuestIds": [
+      66009
+    ],
+    "NextQuestTitles": [
+      "Orange Crush"
+    ],
+    "StarterNpc": "Bhirdraeg",
+    "StarterNpcLocation": {
+      "RowId": 3906968,
+      "X": 197.864,
+      "Y": 111.986,
+      "Z": -229.725,
+      "Yaw": -2.19358,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Bhirdraeg",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 135,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4745,
+          "ItemName": "Orange Juice",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66009,
+    "QuestTitle": "Orange Crush",
+    "PreviousQuestIds": [
+      66008
+    ],
+    "PreviousQuestTitles": [
+      "The Time Is Ripe"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bhirdraeg",
+    "StarterNpcLocation": {
+      "RowId": 3906968,
+      "X": 197.864,
+      "Y": 111.986,
+      "Z": -229.725,
+      "Yaw": -2.19358,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Bhirdraeg",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66010,
+    "QuestTitle": "A Pound of Cure",
+    "PreviousQuestIds": [
+      66002
+    ],
+    "PreviousQuestTitles": [
+      "Double Dealing"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Khanmhar",
+    "StarterNpcLocation": {
+      "RowId": 3925189,
+      "X": 173.449,
+      "Y": 96.1081,
+      "Z": -218.519,
+      "Yaw": -2.40214,
+      "Radius": 1,
+      "MapId": 15,
+      "TerritoryId": 134
+    },
+    "FinishNpc": "Wydaloef",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 5,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 175,
+      "Gil": 128,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66011,
+    "QuestTitle": "Cry Me a Liver",
+    "PreviousQuestIds": [
+      66199
+    ],
+    "PreviousQuestTitles": [
+      "Fool Me Once"
+    ],
+    "NextQuestIds": [
+      66012
+    ],
+    "NextQuestTitles": [
+      "Wool\u0027s Errand"
+    ],
+    "StarterNpc": "Ancreta",
+    "StarterNpcLocation": {
+      "RowId": 3884326,
+      "X": 277.961,
+      "Y": 45.1441,
+      "Z": 33.6614,
+      "Yaw": -0.255173,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Anaoc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 128,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66012,
+    "QuestTitle": "Wool\u0027s Errand",
+    "PreviousQuestIds": [
+      66011
+    ],
+    "PreviousQuestTitles": [
+      "Cry Me a Liver"
+    ],
+    "NextQuestIds": [
+      66013,
+      66022
+    ],
+    "NextQuestTitles": [
+      "Flour Power",
+      "Kobolds Ahoy"
+    ],
+    "StarterNpc": "Anaoc",
+    "StarterNpcLocation": {
+      "RowId": 3882400,
+      "X": 548.658,
+      "Y": 89.2805,
+      "Z": -74.3,
+      "Yaw": -0.611965,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Weitzaren",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 135,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4696,
+          "ItemName": "Flatbread",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66013,
+    "QuestTitle": "Flour Power",
+    "PreviousQuestIds": [
+      66012
+    ],
+    "PreviousQuestTitles": [
+      "Wool\u0027s Errand"
+    ],
+    "NextQuestIds": [
+      66014
+    ],
+    "NextQuestTitles": [
+      "Kobolds and Indigents"
+    ],
+    "StarterNpc": "Weitzaren",
+    "StarterNpcLocation": {
+      "RowId": 3977317,
+      "X": 704.859,
+      "Y": 67.3173,
+      "Z": -308.454,
+      "Yaw": 1.62362,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Skarnmhar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4716,
+          "ItemName": "Frumenty",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2654,
+          "ItemName": "Hard Leather Pot Helm",
+          "Count": 1,
+          "Stain": "Acorn Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 10,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66014,
+    "QuestTitle": "Kobolds and Indigents",
+    "PreviousQuestIds": [
+      66013
+    ],
+    "PreviousQuestTitles": [
+      "Flour Power"
+    ],
+    "NextQuestIds": [
+      66015
+    ],
+    "NextQuestTitles": [
+      "Bait and Swat"
+    ],
+    "StarterNpc": "Skarnmhar",
+    "StarterNpcLocation": {
+      "RowId": 3882871,
+      "X": 567.831,
+      "Y": 84.881,
+      "Z": -99.5956,
+      "Yaw": -2.3168,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Anaoc",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 206,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3014,
+          "ItemName": "Amateur\u0027s Kurta",
+          "Count": 1,
+          "Stain": "Desert Yellow"
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4305,
+          "ItemName": "Copper Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4306,
+          "ItemName": "Bone Necklace",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66015,
+    "QuestTitle": "Bait and Swat",
+    "PreviousQuestIds": [
+      66014
+    ],
+    "PreviousQuestTitles": [
+      "Kobolds and Indigents"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Anaoc",
+    "StarterNpcLocation": {
+      "RowId": 3882400,
+      "X": 548.658,
+      "Y": 89.2805,
+      "Z": -74.3,
+      "Yaw": -0.611965,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Baderon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100095,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 179,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 17
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4422,
+          "ItemName": "Copper Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4421,
+          "ItemName": "Bone Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66016,
+    "QuestTitle": "Much Ado About Dodos",
+    "PreviousQuestIds": [
+      66017
+    ],
+    "PreviousQuestTitles": [
+      "Moegramm Had a Little Lamb"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moegramm",
+    "StarterNpcLocation": {
+      "RowId": 3977292,
+      "X": 540.542,
+      "Y": 89,
+      "Z": -73.9988,
+      "Yaw": 2.03295,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Moegramm",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 135,
+      "Catalysts": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 13
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66017,
+    "QuestTitle": "Moegramm Had a Little Lamb",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66016
+    ],
+    "NextQuestTitles": [
+      "Much Ado About Dodos"
+    ],
+    "StarterNpc": "Moegramm",
+    "StarterNpcLocation": {
+      "RowId": 3977292,
+      "X": 540.542,
+      "Y": 89,
+      "Z": -73.9988,
+      "Yaw": 2.03295,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Moegramm",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 128,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66018,
+    "QuestTitle": "Whack-a-Mole",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66019
+    ],
+    "NextQuestTitles": [
+      "Beetle Juice"
+    ],
+    "StarterNpc": "Arenlona",
+    "StarterNpcLocation": {
+      "RowId": 3978721,
+      "X": 532.86,
+      "Y": 88.9753,
+      "Z": -72.0989,
+      "Yaw": 3.05013,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Arenlona",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 141,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66019,
+    "QuestTitle": "Beetle Juice",
+    "PreviousQuestIds": [
+      66018
+    ],
+    "PreviousQuestTitles": [
+      "Whack-a-Mole"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Arenlona",
+    "StarterNpcLocation": {
+      "RowId": 3978721,
+      "X": 532.86,
+      "Y": 88.9753,
+      "Z": -72.0989,
+      "Yaw": 3.05013,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Arenlona",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3534,
+          "ItemName": "Leather Mitts",
+          "Count": 1,
+          "Stain": "Acorn Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3535,
+          "ItemName": "Leather Ringbands",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66020,
+    "QuestTitle": "What Goes Around",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66022
+    ],
+    "NextQuestTitles": [
+      "Kobolds Ahoy"
+    ],
+    "StarterNpc": "Loetrswys",
+    "StarterNpcLocation": {
+      "RowId": 3977328,
+      "X": 707.705,
+      "Y": 66.974,
+      "Z": -309.2,
+      "Yaw": -0.999388,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Weitzaren",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 141,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4673,
+          "ItemName": "Mutton Stew",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66021,
+    "QuestTitle": "Fire and Brimstone",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Broenruht",
+    "StarterNpcLocation": {
+      "RowId": 3978052,
+      "X": 312.493,
+      "Y": 75.9426,
+      "Z": -308.204,
+      "Yaw": -1.93841,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Broenruht",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3765,
+          "ItemName": "Leather Leggings",
+          "Count": 1,
+          "Stain": "Acorn Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3766,
+          "ItemName": "Leather Boots",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66022,
+    "QuestTitle": "Kobolds Ahoy",
+    "PreviousQuestIds": [
+      66012,
+      66020
+    ],
+    "PreviousQuestTitles": [
+      "Wool\u0027s Errand",
+      "What Goes Around"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Loetrswys",
+    "StarterNpcLocation": {
+      "RowId": 3977328,
+      "X": 707.705,
+      "Y": 66.974,
+      "Z": -309.2,
+      "Yaw": -0.999388,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Staelwyrn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 130,
+      "Gil": 174,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3313,
+          "ItemName": "Hempen Kecks",
+          "Count": 1,
+          "Stain": "Acorn Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3314,
+          "ItemName": "Hempen Gaskins",
+          "Count": 1,
+          "Stain": "Bark Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66023,
+    "QuestTitle": "Meet, Greet, and Deceit",
+    "PreviousQuestIds": [
+      66005
+    ],
+    "PreviousQuestTitles": [
+      "Just Deserts"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gregory",
+    "StarterNpcLocation": {
+      "RowId": 1673771,
+      "X": -4.1657,
+      "Y": 39.5055,
+      "Z": 2.7618,
+      "Yaw": -0.0251676,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Singing Stormcloud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 9,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 810,
+      "Gil": 183,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66197,
+    "QuestTitle": "The Rats in the Wharf",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "H\u0027naanza",
+    "StarterNpcLocation": {
+      "RowId": 1673111,
+      "X": -32.0117,
+      "Y": 41.5,
+      "Z": 208.397,
+      "Yaw": 1.10941,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Baderon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2653,
+          "ItemName": "Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2655,
+          "ItemName": "Hempen Hat",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66198,
+    "QuestTitle": "Soothing the Savage Siren",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "O\u0027kalkaya",
+    "StarterNpcLocation": {
+      "RowId": 1904988,
+      "X": 46.6774,
+      "Y": 44.6599,
+      "Z": 137.102,
+      "Yaw": -2.56394,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "O\u0027kalkaya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 122,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66199,
+    "QuestTitle": "Fool Me Once",
+    "PreviousQuestIds": [
+      65644,
+      65645
+    ],
+    "PreviousQuestTitles": [
+      "Close to Home",
+      "Close to Home"
+    ],
+    "NextQuestIds": [
+      66011
+    ],
+    "NextQuestTitles": [
+      "Cry Me a Liver"
+    ],
+    "StarterNpc": "Niniya",
+    "StarterNpcLocation": {
+      "RowId": 1674187,
+      "X": 8.52576,
+      "Y": 39.5176,
+      "Z": 3.5764,
+      "Yaw": -0.614663,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Ancreta",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3311,
+          "ItemName": "Hempen Sarouel",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3312,
+          "ItemName": "Hempen Tights",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66229,
+    "QuestTitle": "Leves of Swiftperch",
+    "PreviousQuestIds": [
+      66005
+    ],
+    "PreviousQuestTitles": [
+      "Just Deserts"
+    ],
+    "NextQuestIds": [
+      65550,
+      65551,
+      65552,
+      65553,
+      65554,
+      65595,
+      65757,
+      65979,
+      65980,
+      66224,
+      66228,
+      66230,
+      66231,
+      66232
+    ],
+    "NextQuestTitles": [
+      "Leves of Wineport",
+      "Leves of Camp Bluefog",
+      "Leves of the Observatorium",
+      "Leves of Whitebrim",
+      "Leves of Saint Coinach\u0027s Find",
+      "Simply the Hest",
+      "Leves of Hawthorne",
+      "Leves of Quarrymill",
+      "Leves of Camp Tranquil",
+      "Leves of Camp Drybone",
+      "Leves of Little Ala Mhigo",
+      "Leves of Aleport",
+      "Leves of Moraby",
+      "Leves of Costa del Sol"
+    ],
+    "StarterNpc": "T\u0027mokkri",
+    "StarterNpcLocation": {
+      "RowId": 2367401,
+      "X": -12.3446,
+      "Y": 39.9939,
+      "Z": -12.131,
+      "Yaw": 0.811989,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Swygskyf",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 215,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66230,
+    "QuestTitle": "Leves of Aleport",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Orwen",
+    "StarterNpcLocation": {
+      "RowId": 2540476,
+      "X": 312.604,
+      "Y": -31.8978,
+      "Z": 283.985,
+      "Yaw": -1.57045,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Orwen",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 239,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66231,
+    "QuestTitle": "Leves of Moraby",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ourawann",
+    "StarterNpcLocation": {
+      "RowId": 4018485,
+      "X": 122.331,
+      "Y": 22.9999,
+      "Z": 578.302,
+      "Yaw": 0.827931,
+      "Radius": 1,
+      "MapId": 16,
+      "TerritoryId": 135
+    },
+    "FinishNpc": "Ourawann",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 1795,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66232,
+    "QuestTitle": "Leves of Costa del Sol",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nahctahr",
+    "StarterNpcLocation": {
+      "RowId": 3999029,
+      "X": 450.235,
+      "Y": 17.7485,
+      "Z": 470.298,
+      "Yaw": 1.82719,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Nahctahr",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 2416,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66237,
+    "QuestTitle": "My Little Chocobo (Maelstrom)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66698
+    ],
+    "NextQuestTitles": [
+      "My Feisty Little Chocobo"
+    ],
+    "StarterNpc": "R\u0027ashaht Rhiki",
+    "StarterNpcLocation": {
+      "RowId": 4101423,
+      "X": 97.5204,
+      "Y": 40.238,
+      "Z": 81.1322,
+      "Yaw": -1.59464,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Fraegeim",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6001,
+          "ItemName": "Chocobo Whistle",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66271,
+    "QuestTitle": "The Hottest of Box Lunches",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66272
+    ],
+    "NextQuestTitles": [
+      "Buried Truth"
+    ],
+    "StarterNpc": "Gegeroon",
+    "StarterNpcLocation": {
+      "RowId": 4250530,
+      "X": -333.632,
+      "Y": -2.4116,
+      "Z": 140.235,
+      "Yaw": 1.75581,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Tanga Tonga",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 23,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1920,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 3347,
+          "ItemName": "Goatskin Breeches",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3345,
+          "ItemName": "Cotton Kecks",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3343,
+          "ItemName": "Cotton Gaskins",
+          "Count": 1,
+          "Stain": "Shadow Blue",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66272,
+    "QuestTitle": "Buried Truth",
+    "PreviousQuestIds": [
+      66271
+    ],
+    "PreviousQuestTitles": [
+      "The Hottest of Box Lunches"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tanga Tonga",
+    "StarterNpcLocation": {
+      "RowId": 4250537,
+      "X": -453.351,
+      "Y": 4.56238,
+      "Z": 71.5708,
+      "Yaw": 3.09483,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Tanga Tonga",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 23,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1920,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 27653,
+          "ItemName": "Iron Headgear",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2725,
+          "ItemName": "Reinforced Iron Sallet",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2719,
+          "ItemName": "Cotton Sugarloaf Hat",
+          "Count": 1,
+          "Stain": "Desert Yellow",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66349,
+    "QuestTitle": "Costa Beach Party",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66387
+    ],
+    "NextQuestTitles": [
+      "The Wind, It Passes"
+    ],
+    "StarterNpc": "Gegeruju",
+    "StarterNpcLocation": {
+      "RowId": 4258385,
+      "X": 619.017,
+      "Y": 23.8848,
+      "Z": 455.121,
+      "Yaw": 1.50659,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Gegeruju",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3120,
+      "Gil": 1377,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66369,
+    "QuestTitle": "Who Moved My Headcheese",
+    "PreviousQuestIds": [
+      66368
+    ],
+    "PreviousQuestTitles": [
+      "The Things We Do for Cheese"
+    ],
+    "NextQuestIds": [
+      66370
+    ],
+    "NextQuestTitles": [
+      "Get a Grip"
+    ],
+    "StarterNpc": "Kuzai Tazai",
+    "StarterNpcLocation": {
+      "RowId": 4258406,
+      "X": 603.25,
+      "Y": 23.9362,
+      "Z": 454.727,
+      "Yaw": -1.75463,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Kuzai Tazai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 1690,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66370,
+    "QuestTitle": "Get a Grip",
+    "PreviousQuestIds": [
+      66369
+    ],
+    "PreviousQuestTitles": [
+      "Who Moved My Headcheese"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kuzai Tazai",
+    "StarterNpcLocation": {
+      "RowId": 4258406,
+      "X": 603.25,
+      "Y": 23.9362,
+      "Z": 454.727,
+      "Yaw": -1.75463,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Kuzai Tazai",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 1690,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66371,
+    "QuestTitle": "Unrefined Methods",
+    "PreviousQuestIds": [
+      66368
+    ],
+    "PreviousQuestTitles": [
+      "The Things We Do for Cheese"
+    ],
+    "NextQuestIds": [
+      66374
+    ],
+    "NextQuestTitles": [
+      "To You from Failing Hands We Throw"
+    ],
+    "StarterNpc": "Fyrilsunn",
+    "StarterNpcLocation": {
+      "RowId": 4258407,
+      "X": 603.286,
+      "Y": 23.9362,
+      "Z": 455.983,
+      "Yaw": -0.999972,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Fyrilsunn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3118,
+          "ItemName": "Steel Scale Mail",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66372,
+    "QuestTitle": "Buffaloed All the Way",
+    "PreviousQuestIds": [
+      66368
+    ],
+    "PreviousQuestTitles": [
+      "The Things We Do for Cheese"
+    ],
+    "NextQuestIds": [
+      66373
+    ],
+    "NextQuestTitles": [
+      "Pests in the Pillars"
+    ],
+    "StarterNpc": "P\u0027ebaloh",
+    "StarterNpcLocation": {
+      "RowId": 4258397,
+      "X": 617.975,
+      "Y": 23.9108,
+      "Z": 456.874,
+      "Yaw": 1.99528,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "P\u0027ebaloh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3605,
+          "ItemName": "Steel Scale Fingers",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66373,
+    "QuestTitle": "Pests in the Pillars",
+    "PreviousQuestIds": [
+      66372
+    ],
+    "PreviousQuestTitles": [
+      "Buffaloed All the Way"
+    ],
+    "NextQuestIds": [
+      66389
+    ],
+    "NextQuestTitles": [
+      "The Stench of Danger"
+    ],
+    "StarterNpc": "P\u0027ebaloh",
+    "StarterNpcLocation": {
+      "RowId": 4258397,
+      "X": 617.975,
+      "Y": 23.9108,
+      "Z": 456.874,
+      "Yaw": 1.99528,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "P\u0027ebaloh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4552,
+          "ItemName": "Hi-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4556,
+          "ItemName": "Hi-Ether",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5715,
+          "ItemName": "Quickarm Materia II",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5720,
+          "ItemName": "Quicktongue Materia II",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66374,
+    "QuestTitle": "To You from Failing Hands We Throw",
+    "PreviousQuestIds": [
+      66371
+    ],
+    "PreviousQuestTitles": [
+      "Unrefined Methods"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fyrilsunn",
+    "StarterNpcLocation": {
+      "RowId": 4258407,
+      "X": 603.286,
+      "Y": 23.9362,
+      "Z": 455.983,
+      "Yaw": -0.999972,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Fyrilsunn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 1351,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66377,
+    "QuestTitle": "Raptor \u0027round Your Little Finger",
+    "PreviousQuestIds": [
+      66368
+    ],
+    "PreviousQuestTitles": [
+      "The Things We Do for Cheese"
+    ],
+    "NextQuestIds": [
+      66380
+    ],
+    "NextQuestTitles": [
+      "Mona Lisa Smile"
+    ],
+    "StarterNpc": "Etgar",
+    "StarterNpcLocation": {
+      "RowId": 4258199,
+      "X": -24.418,
+      "Y": 71.754,
+      "Z": -36.7939,
+      "Yaw": -0.300638,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Etgar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3377,
+          "ItemName": "Toadskin Breeches",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66378,
+    "QuestTitle": "Put a Cork in It",
+    "PreviousQuestIds": [
+      66368
+    ],
+    "PreviousQuestTitles": [
+      "The Things We Do for Cheese"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Byrglaent",
+    "StarterNpcLocation": {
+      "RowId": 4258196,
+      "X": -25.8414,
+      "Y": 71.754,
+      "Z": -36.7763,
+      "Yaw": -0.728316,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Byrglaent",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3835,
+          "ItemName": "Steel Scale Greaves",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3833,
+          "ItemName": "Steel-plated Jackboots",
+          "Count": 1,
+          "Stain": "Chocolate Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66380,
+    "QuestTitle": "Mona Lisa Smile",
+    "PreviousQuestIds": [
+      66377
+    ],
+    "PreviousQuestTitles": [
+      "Raptor \u0027round Your Little Finger"
+    ],
+    "NextQuestIds": [
+      66385
+    ],
+    "NextQuestTitles": [
+      "Anise, Chocolate, and a Hint of Toad"
+    ],
+    "StarterNpc": "Etgar",
+    "StarterNpcLocation": {
+      "RowId": 4258199,
+      "X": -24.418,
+      "Y": 71.754,
+      "Z": -36.7939,
+      "Yaw": -0.300638,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Etgar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 32,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3485,
+      "Gil": 1461,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66385,
+    "QuestTitle": "Anise, Chocolate, and a Hint of Toad",
+    "PreviousQuestIds": [
+      66380
+    ],
+    "PreviousQuestTitles": [
+      "Mona Lisa Smile"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Etgar",
+    "StarterNpcLocation": {
+      "RowId": 4258199,
+      "X": -24.418,
+      "Y": 71.754,
+      "Z": -36.7939,
+      "Yaw": -0.300638,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Etgar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 33,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3570,
+      "Gil": 1690,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4701,
+          "ItemName": "Acorn Cookie",
+          "Count": 4,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4654,
+          "ItemName": "Scrambled Eggs",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66387,
+    "QuestTitle": "The Wind, It Passes",
+    "PreviousQuestIds": [
+      66349
+    ],
+    "PreviousQuestTitles": [
+      "Costa Beach Party"
+    ],
+    "NextQuestIds": [
+      66388
+    ],
+    "NextQuestTitles": [
+      "Bird\u0027s-eye View"
+    ],
+    "StarterNpc": "Gegeruju",
+    "StarterNpcLocation": {
+      "RowId": 4258385,
+      "X": 619.017,
+      "Y": 23.8848,
+      "Z": 455.121,
+      "Yaw": 1.50659,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Gegeruju",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 33,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3570,
+      "Gil": 1725,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66388,
+    "QuestTitle": "Bird\u0027s-eye View",
+    "PreviousQuestIds": [
+      66387
+    ],
+    "PreviousQuestTitles": [
+      "The Wind, It Passes"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gegeruju",
+    "StarterNpcLocation": {
+      "RowId": 4258385,
+      "X": 619.017,
+      "Y": 23.8848,
+      "Z": 455.121,
+      "Yaw": 1.50659,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Gegeruju",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 33,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3570,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27654,
+          "ItemName": "Steel Headgear",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2767,
+          "ItemName": "Skull Eyepatch",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27668,
+          "ItemName": "Silver Monocle",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66389,
+    "QuestTitle": "The Stench of Danger",
+    "PreviousQuestIds": [
+      66373
+    ],
+    "PreviousQuestTitles": [
+      "Pests in the Pillars"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "P\u0027ebaloh",
+    "StarterNpcLocation": {
+      "RowId": 4258397,
+      "X": 617.975,
+      "Y": 23.9108,
+      "Z": 456.874,
+      "Yaw": 1.99528,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "P\u0027ebaloh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 33,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3570,
+      "Gil": 1377,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66394,
+    "QuestTitle": "One Swallow Does Not a Victory Make",
+    "PreviousQuestIds": [
+      66393
+    ],
+    "PreviousQuestTitles": [
+      "Lord of Crags"
+    ],
+    "NextQuestIds": [
+      66395
+    ],
+    "NextQuestTitles": [
+      "Never Trout That I Love"
+    ],
+    "StarterNpc": "Blaugybal",
+    "StarterNpcLocation": {
+      "RowId": 4260190,
+      "X": 448.057,
+      "Y": 4.1091,
+      "Z": 78.9892,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1492,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66395,
+    "QuestTitle": "Never Trout That I Love",
+    "PreviousQuestIds": [
+      66394
+    ],
+    "PreviousQuestTitles": [
+      "One Swallow Does Not a Victory Make"
+    ],
+    "NextQuestIds": [
+      66397
+    ],
+    "NextQuestTitles": [
+      "Return to Your Dust"
+    ],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1492,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4663,
+          "ItemName": "Mugwort Carp",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66396,
+    "QuestTitle": "Dead or Sumfin\u0027 Like It",
+    "PreviousQuestIds": [
+      66393
+    ],
+    "PreviousQuestTitles": [
+      "Lord of Crags"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Augustine",
+    "StarterNpcLocation": {
+      "RowId": 4260423,
+      "X": -104.121,
+      "Y": 62.5546,
+      "Z": -157.466,
+      "Yaw": -2.05409,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Augustine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1580,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5670,
+          "ItemName": "Savage Aim Materia II",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5665,
+          "ItemName": "Heavens\u0027 Eye Materia II",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5675,
+          "ItemName": "Savage Might Materia II",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5680,
+          "ItemName": "Battledance Materia II",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5630,
+          "ItemName": "Piety Materia II",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66397,
+    "QuestTitle": "Return to Your Dust",
+    "PreviousQuestIds": [
+      66395
+    ],
+    "PreviousQuestTitles": [
+      "Never Trout That I Love"
+    ],
+    "NextQuestIds": [
+      66400
+    ],
+    "NextQuestTitles": [
+      "Looking for Trouble"
+    ],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 4580,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66398,
+    "QuestTitle": "Deduce, Reuse, Recycle",
+    "PreviousQuestIds": [
+      66393
+    ],
+    "PreviousQuestTitles": [
+      "Lord of Crags"
+    ],
+    "NextQuestIds": [
+      66399
+    ],
+    "NextQuestTitles": [
+      "Don\u0027t Let the Cat out of the Bag"
+    ],
+    "StarterNpc": "Swygrael",
+    "StarterNpcLocation": {
+      "RowId": 4260424,
+      "X": -144.152,
+      "Y": 64.9928,
+      "Z": -209.857,
+      "Yaw": -0.66219,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Swygrael",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1492,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66399,
+    "QuestTitle": "Don\u0027t Let the Cat out of the Bag",
+    "PreviousQuestIds": [
+      66398
+    ],
+    "PreviousQuestTitles": [
+      "Deduce, Reuse, Recycle"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Swygrael",
+    "StarterNpcLocation": {
+      "RowId": 4260424,
+      "X": -144.152,
+      "Y": 64.9928,
+      "Z": -209.857,
+      "Yaw": -0.66219,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Swygrael",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1580,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4566,
+          "ItemName": "Echo Drops",
+          "Count": 3
+        },
+        {
+          "ItemId": 4568,
+          "ItemName": "Spine Drops",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66400,
+    "QuestTitle": "Looking for Trouble",
+    "PreviousQuestIds": [
+      66397
+    ],
+    "PreviousQuestTitles": [
+      "Return to Your Dust"
+    ],
+    "NextQuestIds": [
+      66401
+    ],
+    "NextQuestTitles": [
+      "Helm Me You Love Me"
+    ],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1580,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66401,
+    "QuestTitle": "Helm Me You Love Me",
+    "PreviousQuestIds": [
+      66400
+    ],
+    "PreviousQuestTitles": [
+      "Looking for Trouble"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Blaugybal",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1580,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66402,
+    "QuestTitle": "The Monster of Bronze Lake",
+    "PreviousQuestIds": [
+      66393
+    ],
+    "PreviousQuestTitles": [
+      "Lord of Crags"
+    ],
+    "NextQuestIds": [
+      66404
+    ],
+    "NextQuestTitles": [
+      "The Adventure of the Fainting Goldsmith"
+    ],
+    "StarterNpc": "Rukusa Farusa",
+    "StarterNpcLocation": {
+      "RowId": 4260199,
+      "X": 426.963,
+      "Y": 8.37335,
+      "Z": 20.035,
+      "Yaw": -0.401733,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Rukusa Farusa",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1760,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66403,
+    "QuestTitle": "Red, Red Wine",
+    "PreviousQuestIds": [
+      66393
+    ],
+    "PreviousQuestTitles": [
+      "Lord of Crags"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "A\u0027rhunlika",
+    "StarterNpcLocation": {
+      "RowId": 4260200,
+      "X": 426.158,
+      "Y": 7.93276,
+      "Z": 19.639,
+      "Yaw": -1.27081,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "A\u0027rhunlika",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1492,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66404,
+    "QuestTitle": "The Adventure of the Fainting Goldsmith",
+    "PreviousQuestIds": [
+      66402
+    ],
+    "PreviousQuestTitles": [
+      "The Monster of Bronze Lake"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rukusa Farusa",
+    "StarterNpcLocation": {
+      "RowId": 4260199,
+      "X": 426.963,
+      "Y": 8.37335,
+      "Z": 20.035,
+      "Yaw": -0.401733,
+      "Radius": 1,
+      "MapId": 19,
+      "TerritoryId": 139
+    },
+    "FinishNpc": "Rukusa Farusa",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 34,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3655,
+      "Gil": 1311,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6138,
+          "ItemName": "Meteor Survivor Ring",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66500,
+    "QuestTitle": "Grave Happenings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Otan Yaratan",
+    "StarterNpcLocation": {
+      "RowId": 4268613,
+      "X": -254.508,
+      "Y": -37.8964,
+      "Z": 485.212,
+      "Yaw": 2.27534,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Otan Yaratan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 42,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5610,
+      "Gil": 1703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66501,
+    "QuestTitle": "Pickled and Brined",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ahlduwil",
+    "StarterNpcLocation": {
+      "RowId": 4268614,
+      "X": -200.366,
+      "Y": -40.342,
+      "Z": 503.222,
+      "Yaw": 1.72297,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Ahlduwil",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 42,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5610,
+      "Gil": 1703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66502,
+    "QuestTitle": "Too Many Cooks",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Erapi Taropi",
+    "StarterNpcLocation": {
+      "RowId": 4268615,
+      "X": -198.465,
+      "Y": -40.4381,
+      "Z": 500.013,
+      "Yaw": 0.0206178,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Erapi Taropi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 42,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5610,
+      "Gil": 1703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66553,
+    "QuestTitle": "A Pirate\u0027s Life for Me",
+    "PreviousQuestIds": [
+      66551
+    ],
+    "PreviousQuestTitles": [
+      "A Kobold Initiative"
+    ],
+    "NextQuestIds": [
+      66555
+    ],
+    "NextQuestTitles": [
+      "Operation Crucible Down"
+    ],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 1716,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66554,
+    "QuestTitle": "Honor the Fallen",
+    "PreviousQuestIds": [
+      66551
+    ],
+    "PreviousQuestTitles": [
+      "A Kobold Initiative"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "F\u0027majha",
+    "StarterNpcLocation": {
+      "RowId": 4260436,
+      "X": -110.135,
+      "Y": 64.4993,
+      "Z": -238.811,
+      "Yaw": 0.925021,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "F\u0027majha",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 1716,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66555,
+    "QuestTitle": "Operation Crucible Down",
+    "PreviousQuestIds": [
+      66553
+    ],
+    "PreviousQuestTitles": [
+      "A Pirate\u0027s Life for Me"
+    ],
+    "NextQuestIds": [
+      66556
+    ],
+    "NextQuestTitles": [
+      "Claiming the Booty"
+    ],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3443,
+          "ItemName": "Raptorskin Breeches",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3447,
+          "ItemName": "Raptorskin Subligar",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66556,
+    "QuestTitle": "Claiming the Booty",
+    "PreviousQuestIds": [
+      66555
+    ],
+    "PreviousQuestTitles": [
+      "Operation Crucible Down"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bloeidin",
+    "StarterNpcLocation": {
+      "RowId": 4260378,
+      "X": -141.558,
+      "Y": 64.5914,
+      "Z": -212.268,
+      "Yaw": 2.60747,
+      "Radius": 1,
+      "MapId": 30,
+      "TerritoryId": 180
+    },
+    "FinishNpc": "Slafswys",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 1716,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66562,
+    "QuestTitle": "Pier Review",
+    "PreviousQuestIds": [
+      66561
+    ],
+    "PreviousQuestTitles": [
+      "Into the Valley of the Skull"
+    ],
+    "NextQuestIds": [
+      66563
+    ],
+    "NextQuestTitles": [
+      "Long Walk off a Short Pier"
+    ],
+    "StarterNpc": "Falkbryda",
+    "StarterNpcLocation": {
+      "RowId": 4266613,
+      "X": 65.9025,
+      "Y": -3.12513,
+      "Z": 61.447,
+      "Yaw": 0.682755,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Ururu Kogururu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 1857,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66563,
+    "QuestTitle": "Long Walk off a Short Pier",
+    "PreviousQuestIds": [
+      66562
+    ],
+    "PreviousQuestTitles": [
+      "Pier Review"
+    ],
+    "NextQuestIds": [
+      66564,
+      66565,
+      66566,
+      66571
+    ],
+    "NextQuestTitles": [
+      "To Catch a Cutthroat",
+      "Serpent\u0027s Tongue-lashing",
+      "Culling the Horde",
+      "The Way the Crystals Crumble"
+    ],
+    "StarterNpc": "Ururu Kogururu",
+    "StarterNpcLocation": {
+      "RowId": 4268521,
+      "X": 254.476,
+      "Y": -4.38092,
+      "Z": 204.497,
+      "Yaw": -2.81023,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 2218,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66564,
+    "QuestTitle": "To Catch a Cutthroat",
+    "PreviousQuestIds": [
+      66563
+    ],
+    "PreviousQuestTitles": [
+      "Long Walk off a Short Pier"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "U\u0027jughal",
+    "StarterNpcLocation": {
+      "RowId": 4268679,
+      "X": 56.8244,
+      "Y": -3.11017,
+      "Z": 53.7947,
+      "Yaw": -1.2008,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "U\u0027jughal",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4371,
+          "ItemName": "Amber Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4365,
+          "ItemName": "Rubellite Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4369,
+          "ItemName": "Tourmaline Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66565,
+    "QuestTitle": "Serpent\u0027s Tongue-lashing",
+    "PreviousQuestIds": [
+      66563
+    ],
+    "PreviousQuestTitles": [
+      "Long Walk off a Short Pier"
+    ],
+    "NextQuestIds": [
+      66567
+    ],
+    "NextQuestTitles": [
+      "Sibling Rivalry"
+    ],
+    "StarterNpc": "Ahtzatrach",
+    "StarterNpcLocation": {
+      "RowId": 4268678,
+      "X": 69.9774,
+      "Y": -3.11823,
+      "Z": 52.6881,
+      "Yaw": 1.03138,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Ahtzatrach",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4373,
+          "ItemName": "Spinel Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4367,
+          "ItemName": "Zircon Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4375,
+          "ItemName": "Turquoise Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66566,
+    "QuestTitle": "Culling the Horde",
+    "PreviousQuestIds": [
+      66563
+    ],
+    "PreviousQuestTitles": [
+      "Long Walk off a Short Pier"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eilis",
+    "StarterNpcLocation": {
+      "RowId": 4268680,
+      "X": 64.3842,
+      "Y": -3.11824,
+      "Z": 48.5289,
+      "Yaw": 2.94908,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Eilis",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4266,
+          "ItemName": "Spinel Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4268,
+          "ItemName": "Turquoise Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4260,
+          "ItemName": "Zircon Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66567,
+    "QuestTitle": "Sibling Rivalry",
+    "PreviousQuestIds": [
+      66565
+    ],
+    "PreviousQuestTitles": [
+      "Serpent\u0027s Tongue-lashing"
+    ],
+    "NextQuestIds": [
+      66568
+    ],
+    "NextQuestTitles": [
+      "Wag the Sea Dogs"
+    ],
+    "StarterNpc": "Eilis",
+    "StarterNpcLocation": {
+      "RowId": 4268680,
+      "X": 64.3842,
+      "Y": -3.11824,
+      "Z": 48.5289,
+      "Yaw": 2.94908,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Eilis",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 1857,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66568,
+    "QuestTitle": "Wag the Sea Dogs",
+    "PreviousQuestIds": [
+      66567
+    ],
+    "PreviousQuestTitles": [
+      "Sibling Rivalry"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eilis",
+    "StarterNpcLocation": {
+      "RowId": 4268680,
+      "X": 64.3842,
+      "Y": -3.11824,
+      "Z": 48.5289,
+      "Yaw": 2.94908,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Eilis",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4510,
+          "ItemName": "Spinel Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4512,
+          "ItemName": "Turquoise Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4504,
+          "ItemName": "Zircon Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66569,
+    "QuestTitle": "Sea Wasp Run",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nortmoen",
+    "StarterNpcLocation": {
+      "RowId": 4266617,
+      "X": 26.5833,
+      "Y": -10.2795,
+      "Z": -83.3714,
+      "Yaw": 0.245328,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Nortmoen",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4162,
+          "ItemName": "Amber Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4156,
+          "ItemName": "Rubellite Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4160,
+          "ItemName": "Tourmaline Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66570,
+    "QuestTitle": "No Sea Wasp for You",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sthalrhet",
+    "StarterNpcLocation": {
+      "RowId": 4266615,
+      "X": -97.0932,
+      "Y": -25.002,
+      "Z": 66.7554,
+      "Yaw": 1.35856,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Sthalrhet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4164,
+          "ItemName": "Spinel Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4166,
+          "ItemName": "Turquoise Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4158,
+          "ItemName": "Zircon Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66571,
+    "QuestTitle": "The Way the Crystals Crumble",
+    "PreviousQuestIds": [
+      66563
+    ],
+    "PreviousQuestTitles": [
+      "Long Walk off a Short Pier"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Falkbryda",
+    "StarterNpcLocation": {
+      "RowId": 4266613,
+      "X": 65.9025,
+      "Y": -3.12513,
+      "Z": 61.447,
+      "Yaw": 0.682755,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Radolf",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100154,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 1857,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4264,
+          "ItemName": "Amber Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4258,
+          "ItemName": "Rubellite Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4262,
+          "ItemName": "Tourmaline Earrings",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66678,
+    "QuestTitle": "Keep Your Day Job",
+    "PreviousQuestIds": [
+      66210,
+      66209
+    ],
+    "PreviousQuestTitles": [
+      "Call of the Sea",
+      "Call of the Sea"
+    ],
+    "NextQuestIds": [
+      66679
+    ],
+    "NextQuestTitles": [
+      "Mountains out of Molehills"
+    ],
+    "StarterNpc": "S\u0027nairoh",
+    "StarterNpcLocation": {
+      "RowId": 4146717,
+      "X": 263.691,
+      "Y": -4.19629,
+      "Z": 202.167,
+      "Yaw": 3.11906,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "S\u0027nairoh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2673,
+          "ItemName": "Bronze Celata",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2669,
+          "ItemName": "Hard Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66679,
+    "QuestTitle": "Mountains out of Molehills",
+    "PreviousQuestIds": [
+      66678
+    ],
+    "PreviousQuestTitles": [
+      "Keep Your Day Job"
+    ],
+    "NextQuestIds": [
+      66680
+    ],
+    "NextQuestTitles": [
+      "Walk of Shame"
+    ],
+    "StarterNpc": "S\u0027nairoh",
+    "StarterNpcLocation": {
+      "RowId": 4146717,
+      "X": 263.691,
+      "Y": -4.19629,
+      "Z": 202.167,
+      "Yaw": 3.11906,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "S\u0027nairoh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 239,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3325,
+          "ItemName": "Padded Hempen Trousers",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3321,
+          "ItemName": "Cotton Sarouel",
+          "Count": 1,
+          "Stain": "Gobbiebag Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3327,
+          "ItemName": "Cotton Tights",
+          "Count": 1,
+          "Stain": "Wine Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66680,
+    "QuestTitle": "Walk of Shame",
+    "PreviousQuestIds": [
+      66679
+    ],
+    "PreviousQuestTitles": [
+      "Mountains out of Molehills"
+    ],
+    "NextQuestIds": [
+      66683
+    ],
+    "NextQuestTitles": [
+      "Nest We Forget"
+    ],
+    "StarterNpc": "S\u0027nairoh",
+    "StarterNpcLocation": {
+      "RowId": 4146717,
+      "X": 263.691,
+      "Y": -4.19629,
+      "Z": 202.167,
+      "Yaw": 3.11906,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 200,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66681,
+    "QuestTitle": "On a Wing and a Prayer",
+    "PreviousQuestIds": [
+      66210,
+      66209
+    ],
+    "PreviousQuestTitles": [
+      "Call of the Sea",
+      "Call of the Sea"
+    ],
+    "NextQuestIds": [
+      66682
+    ],
+    "NextQuestTitles": [
+      "Mummy Dearest"
+    ],
+    "StarterNpc": "Ahldfoet",
+    "StarterNpcLocation": {
+      "RowId": 4147201,
+      "X": 305.481,
+      "Y": -36.3424,
+      "Z": 351.786,
+      "Yaw": 0.945762,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Ahldfoet",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3544,
+          "ItemName": "Bronze Gauntlets",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3542,
+          "ItemName": "Hard Leather Lightmitts",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3546,
+          "ItemName": "Fingerless Hard Leather Gloves",
+          "Count": 1,
+          "Stain": "Qiqirn Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66682,
+    "QuestTitle": "Mummy Dearest",
+    "PreviousQuestIds": [
+      66681
+    ],
+    "PreviousQuestTitles": [
+      "On a Wing and a Prayer"
+    ],
+    "NextQuestIds": [
+      66684
+    ],
+    "NextQuestTitles": [
+      "Toxic Avenger"
+    ],
+    "StarterNpc": "Ahldfoet",
+    "StarterNpcLocation": {
+      "RowId": 4147201,
+      "X": 305.481,
+      "Y": -36.3424,
+      "Z": 351.786,
+      "Yaw": 0.945762,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Wiltswys",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3775,
+          "ItemName": "Bronze Sabatons",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3780,
+          "ItemName": "Hard Leather Crakows",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3777,
+          "ItemName": "Hard Leather Boots",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66683,
+    "QuestTitle": "Nest We Forget",
+    "PreviousQuestIds": [
+      66680
+    ],
+    "PreviousQuestTitles": [
+      "Walk of Shame"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Falkbryda",
+    "StarterNpcLocation": {
+      "RowId": 4266613,
+      "X": 65.9025,
+      "Y": -3.12513,
+      "Z": 61.447,
+      "Yaw": 0.682755,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 16,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1500,
+      "Gil": 248,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4309,
+          "ItemName": "Brass Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4094,
+          "ItemName": "Brass Wristlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66684,
+    "QuestTitle": "Toxic Avenger",
+    "PreviousQuestIds": [
+      66682
+    ],
+    "PreviousQuestTitles": [
+      "Mummy Dearest"
+    ],
+    "NextQuestIds": [
+      66685,
+      66686
+    ],
+    "NextQuestTitles": [
+      "My Brother\u0027s Not a Keeper",
+      "Flowers for Aerghaemr"
+    ],
+    "StarterNpc": "Wiltswys",
+    "StarterNpcLocation": {
+      "RowId": 4161260,
+      "X": 86.5948,
+      "Y": -14.5113,
+      "Z": 38.5289,
+      "Yaw": -2.98848,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Wiltswys",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 16,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1500,
+      "Gil": 197,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66685,
+    "QuestTitle": "My Brother\u0027s Not a Keeper",
+    "PreviousQuestIds": [
+      66684
+    ],
+    "PreviousQuestTitles": [
+      "Toxic Avenger"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wiltswys",
+    "StarterNpcLocation": {
+      "RowId": 4161260,
+      "X": 86.5948,
+      "Y": -14.5113,
+      "Z": 38.5289,
+      "Yaw": -2.98848,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Nortmoen",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 16,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1500,
+      "Gil": 207,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66686,
+    "QuestTitle": "Flowers for Aerghaemr",
+    "PreviousQuestIds": [
+      66684
+    ],
+    "PreviousQuestTitles": [
+      "Toxic Avenger"
+    ],
+    "NextQuestIds": [
+      66687
+    ],
+    "NextQuestTitles": [
+      "Scythe Extra Large"
+    ],
+    "StarterNpc": "Alyrloef",
+    "StarterNpcLocation": {
+      "RowId": 4155107,
+      "X": 46.168,
+      "Y": -9.61601,
+      "Z": -73.5774,
+      "Yaw": 2.9407,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Roehanth",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 16,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1500,
+      "Gil": 207,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66687,
+    "QuestTitle": "Scythe Extra Large",
+    "PreviousQuestIds": [
+      66686
+    ],
+    "PreviousQuestTitles": [
+      "Flowers for Aerghaemr"
+    ],
+    "NextQuestIds": [
+      66688
+    ],
+    "NextQuestTitles": [
+      "I Hereby Relieve You"
+    ],
+    "StarterNpc": "Roehanth",
+    "StarterNpcLocation": {
+      "RowId": 4155093,
+      "X": 81.9562,
+      "Y": -2.36517,
+      "Z": -56.4432,
+      "Yaw": 2.37963,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 16,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1500,
+      "Gil": 248,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66688,
+    "QuestTitle": "I Hereby Relieve You",
+    "PreviousQuestIds": [
+      66687
+    ],
+    "PreviousQuestTitles": [
+      "Scythe Extra Large"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Falkbryda",
+    "StarterNpcLocation": {
+      "RowId": 4266613,
+      "X": 65.9025,
+      "Y": -3.12513,
+      "Z": 61.447,
+      "Yaw": 0.682755,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Catguistl",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 16,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1500,
+      "Gil": 207,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66745,
+    "QuestTitle": "Why So Sirius",
+    "PreviousQuestIds": [
+      66744
+    ],
+    "PreviousQuestTitles": [
+      "Sirius Business"
+    ],
+    "NextQuestIds": [
+      67737
+    ],
+    "NextQuestTitles": [
+      "Things Are Getting Sirius"
+    ],
+    "StarterNpc": "Diamanda",
+    "StarterNpcLocation": {
+      "RowId": 4500974,
+      "X": 251.228,
+      "Y": -25,
+      "Z": 262.941,
+      "Yaw": 2.42866,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Mimidoa",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66747,
+    "QuestTitle": "Treasures and Tribulations",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "H\u0027loonh",
+    "StarterNpcLocation": {
+      "RowId": 4505860,
+      "X": -17.6225,
+      "Y": 70.4206,
+      "Z": -17.6979,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Ealdwine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100187,
+    "JobLevel": 36,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 19,
+          "Name": "Decipher"
+        },
+        {
+          "Id": 20,
+          "Name": "Dig"
+        }
+      ],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66825,
+    "QuestTitle": "Like Cats and Dogs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66826,
+      66827
+    ],
+    "NextQuestTitles": [
+      "Man\u0027s Best Fiend",
+      "Curiosity Killed the Coeurl"
+    ],
+    "StarterNpc": "Skribyld",
+    "StarterNpcLocation": {
+      "RowId": 4496990,
+      "X": 246.876,
+      "Y": -25.0005,
+      "Z": 246.194,
+      "Yaw": 1.28643,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Skribyld",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1080,
+      "Gil": 382,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66826,
+    "QuestTitle": "Man\u0027s Best Fiend",
+    "PreviousQuestIds": [
+      66825
+    ],
+    "PreviousQuestTitles": [
+      "Like Cats and Dogs"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Skribyld",
+    "StarterNpcLocation": {
+      "RowId": 4496990,
+      "X": 246.876,
+      "Y": -25.0005,
+      "Z": 246.194,
+      "Yaw": 1.28643,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Skribyld",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1080,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6196,
+          "ItemName": "Wolf Pup",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66827,
+    "QuestTitle": "Curiosity Killed the Coeurl",
+    "PreviousQuestIds": [
+      66825
+    ],
+    "PreviousQuestTitles": [
+      "Like Cats and Dogs"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Skribyld",
+    "StarterNpcLocation": {
+      "RowId": 4496990,
+      "X": 246.876,
+      "Y": -25.0005,
+      "Z": 246.194,
+      "Yaw": 1.28643,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Skribyld",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1080,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6180,
+          "ItemName": "Coeurl Kitten",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66962,
+    "QuestTitle": "Good for What Ales You",
+    "PreviousQuestIds": [
+      66088,
+      66081,
+      65985
+    ],
+    "PreviousQuestTitles": [
+      "A Royal Reception",
+      "A Mizzenmast Repast",
+      "Renewing the Covenant"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dodozan",
+    "StarterNpcLocation": {
+      "RowId": 4165335,
+      "X": -186.175,
+      "Y": 16,
+      "Z": 56.9314,
+      "Yaw": 1.76361,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Dodozan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 14,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1035,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 101,
+        "EmoteName": "Step Dance"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66966,
+    "QuestTitle": "The Beast of Brewer\u0027s Beacon",
+    "PreviousQuestIds": [
+      66654
+    ],
+    "PreviousQuestTitles": [
+      "So Long, and Thanks for All the Fish"
+    ],
+    "NextQuestIds": [
+      65782
+    ],
+    "NextQuestTitles": [
+      "Feast of Famine"
+    ],
+    "StarterNpc": "Sisipu",
+    "StarterNpcLocation": {
+      "RowId": 1673578,
+      "X": -165.27,
+      "Y": 5.23383,
+      "Z": 164.294,
+      "Yaw": 2.00902,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Wawalago",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 510,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4714,
+          "ItemName": "Tomato Pie",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 2587,
+          "ItemName": "Pill Bug",
+          "Count": 99,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2588,
+          "ItemName": "Crayfish Ball",
+          "Count": 99,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2594,
+          "ItemName": "Butterworm",
+          "Count": 99,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2614,
+          "ItemName": "Crow Fly",
+          "Count": 15,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66967,
+    "QuestTitle": "Rising to the Challenge",
+    "PreviousQuestIds": [
+      66209,
+      66210
+    ],
+    "PreviousQuestTitles": [
+      "Call of the Sea",
+      "Call of the Sea"
+    ],
+    "NextQuestIds": [
+      67925,
+      67926,
+      67927
+    ],
+    "NextQuestTitles": [
+      "Squadron and Commander (Twin Adder)",
+      "Squadron and Commander (Maelstrom)",
+      "Squadron and Commander (Immortal Flames)"
+    ],
+    "StarterNpc": "I\u0027tolwann",
+    "StarterNpcLocation": {
+      "RowId": 4695274,
+      "X": 13.432,
+      "Y": 40.2,
+      "Z": -13.2326,
+      "Yaw": -0.584458,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Wastlleid",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 720,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66969,
+    "QuestTitle": "An Ill-conceived Venture",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "troubled adventurer",
+    "StarterNpcLocation": {
+      "RowId": 4696180,
+      "X": -108.116,
+      "Y": 18.0003,
+      "Z": -0.213228,
+      "Yaw": 1.54775,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Frydwyb",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 418,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 6
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67929,
+    "QuestTitle": "It\u0027s Time to Duel",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "faint-hearted fighter",
+    "StarterNpcLocation": {
+      "RowId": 6498851,
+      "X": 61.6901,
+      "Y": 5.20034,
+      "Z": -15.908,
+      "Yaw": 1.48937,
+      "Radius": 1,
+      "MapId": 51,
+      "TerritoryId": 250
+    },
+    "FinishNpc": "Maelstrom drill sergeant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 231,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68543,
+    "QuestTitle": "Earning Your Wings",
+    "PreviousQuestIds": [
+      66640,
+      66641,
+      66642
+    ],
+    "PreviousQuestTitles": [
+      "A Pup No Longer (Maelstrom)",
+      "A Pup No Longer (Twin Adder)",
+      "A Pup No Longer (Immortal Flames)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Softknox",
+    "StarterNpcLocation": {
+      "RowId": 7083046,
+      "X": 57.3795,
+      "Y": 5.2,
+      "Z": -32.3205,
+      "Yaw": -0.684328,
+      "Radius": 1,
+      "MapId": 51,
+      "TerritoryId": 250
+    },
+    "FinishNpc": "Softknox",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 42001,
+          "InstanceName": "Astragalos",
+          "ContentType": 12
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69379,
+    "QuestTitle": "All the Fish in the Sea",
+    "PreviousQuestIds": [
+      66644
+    ],
+    "PreviousQuestTitles": [
+      "My First Fishing Rod"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fhilsnoe",
+    "StarterNpcLocation": {
+      "RowId": 4143753,
+      "X": -168.458,
+      "Y": 4.55,
+      "Z": 163.654,
+      "Yaw": 2.12573,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Foerzagyl",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112383,
+    "JobLevel": 1,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 100,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 29717,
+          "ItemName": "Versatile Lure",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 721,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 730,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 731,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 732,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 733,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 734,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 770,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 771,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 772,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 773,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 774,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 775,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 952,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 953,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 954,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 955,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 956,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        },
+        {
+          "InstanceId": 957,
+          "InstanceName": "Ocean Fishing",
+          "ContentType": 16
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70121,
+    "QuestTitle": "The Crystal (Line\u0027s) Call",
+    "PreviousQuestIds": [
+      66640,
+      66641,
+      66642
+    ],
+    "PreviousQuestTitles": [
+      "A Pup No Longer (Maelstrom)",
+      "A Pup No Longer (Twin Adder)",
+      "A Pup No Longer (Immortal Flames)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gungi Zelungi",
+    "StarterNpcLocation": {
+      "RowId": 9159884,
+      "X": 18.6633,
+      "Y": 5.5025,
+      "Z": 15.4972,
+      "Yaw": 2.74644,
+      "Radius": 1,
+      "MapId": 51,
+      "TerritoryId": 250
+    },
+    "FinishNpc": "Gungi Zelungi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 111,
+      "JournalCategory": {
+        "Id": 59,
+        "Name": "Lominsan Sidequests"
+      },
+      "Name": "La Noscean Sidequests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 10,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

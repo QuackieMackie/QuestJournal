@@ -1,0 +1,2784 @@
+[
+  {
+    "QuestId": 68928,
+    "QuestTitle": "\uE0BE What\u0027s in a Name",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sigun Ul",
+    "StarterNpcLocation": {
+      "RowId": 7949249,
+      "X": -283.135,
+      "Y": 68.2909,
+      "Z": 533.861,
+      "Yaw": -2.76696,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Sigun Ul",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 642,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26840,
+          "ItemName": "Deepgold Foot Gear Coffer (IL 395)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68929,
+    "QuestTitle": "\uE0BE A Hairy Request",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "sweet-toothed pixie",
+    "StarterNpcLocation": {
+      "RowId": 8034298,
+      "X": -340.797,
+      "Y": 74.4255,
+      "Z": 557.314,
+      "Yaw": -2.43758,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "sweet-toothed pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68930,
+    "QuestTitle": "\uE0BE Flowers of Fury",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "pixie flowerkeep",
+    "StarterNpcLocation": {
+      "RowId": 7961136,
+      "X": -326.76,
+      "Y": 68.1281,
+      "Z": 582.042,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "pixie flowerkeep",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68931,
+    "QuestTitle": "\uE0BE The Forbidden Lran",
+    "PreviousQuestIds": [
+      68842
+    ],
+    "PreviousQuestTitles": [
+      "Il Mheg, the Faerie Kingdom"
+    ],
+    "NextQuestIds": [
+      68932
+    ],
+    "NextQuestTitles": [
+      "\uE0BE When Beavers Cry"
+    ],
+    "StarterNpc": "Lad Kenn",
+    "StarterNpcLocation": {
+      "RowId": 7945520,
+      "X": -367.662,
+      "Y": 66.8647,
+      "Z": 557.176,
+      "Yaw": 0.757658,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Lad Kenn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2230,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26842,
+          "ItemName": "Deepgold Earring Coffer (IL 395)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68932,
+    "QuestTitle": "\uE0BE When Beavers Cry",
+    "PreviousQuestIds": [
+      68931
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Forbidden Lran"
+    ],
+    "NextQuestIds": [
+      68933
+    ],
+    "NextQuestTitles": [
+      "\uE0BE And Then There Were None"
+    ],
+    "StarterNpc": "Lad Kenn",
+    "StarterNpcLocation": {
+      "RowId": 7945520,
+      "X": -367.662,
+      "Y": 66.8647,
+      "Z": 557.176,
+      "Yaw": 0.757658,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Lad Kenn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68933,
+    "QuestTitle": "\uE0BE And Then There Were None",
+    "PreviousQuestIds": [
+      68932
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE When Beavers Cry"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lad Kenn",
+    "StarterNpcLocation": {
+      "RowId": 7945520,
+      "X": -367.662,
+      "Y": 66.8647,
+      "Z": 557.176,
+      "Yaw": 0.757658,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Nee Ys",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 852,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68934,
+    "QuestTitle": "\uE0BE Delightful Decorations",
+    "PreviousQuestIds": [
+      68846
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Truth"
+    ],
+    "NextQuestIds": [
+      68935
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Bewitched Books"
+    ],
+    "StarterNpc": "exuberant pixie",
+    "StarterNpcLocation": {
+      "RowId": 7948912,
+      "X": -613.393,
+      "Y": 36.5464,
+      "Z": -215.403,
+      "Yaw": 1.40186,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "exuberant pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2260,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68935,
+    "QuestTitle": "\uE0BE Bewitched Books",
+    "PreviousQuestIds": [
+      68934
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Delightful Decorations"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "exuberant pixie",
+    "StarterNpcLocation": {
+      "RowId": 7948912,
+      "X": -613.393,
+      "Y": 36.5464,
+      "Z": -215.403,
+      "Yaw": 1.40186,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "exuberant pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68936,
+    "QuestTitle": "\uE0BE Revolting Refreshments",
+    "PreviousQuestIds": [
+      68846
+    ],
+    "PreviousQuestTitles": [
+      "Unto the Truth"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "dispirited pixie",
+    "StarterNpcLocation": {
+      "RowId": 7941733,
+      "X": -613.842,
+      "Y": 36.9886,
+      "Z": -242.764,
+      "Yaw": -2.79866,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "spirited pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 898,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68937,
+    "QuestTitle": "\uE0BE An Artist\u0027s Tale",
+    "PreviousQuestIds": [
+      68847
+    ],
+    "PreviousQuestTitles": [
+      "Courting Cooperation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "art-loving pixie",
+    "StarterNpcLocation": {
+      "RowId": 7941801,
+      "X": -278.853,
+      "Y": 32.1704,
+      "Z": 433.22,
+      "Yaw": 2.59885,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "art-loving pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68938,
+    "QuestTitle": "\uE0BE Counting Pixies",
+    "PreviousQuestIds": [
+      68847
+    ],
+    "PreviousQuestTitles": [
+      "Courting Cooperation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "chipper pixie",
+    "StarterNpcLocation": {
+      "RowId": 7948908,
+      "X": -350.582,
+      "Y": 45.0451,
+      "Z": 408.848,
+      "Yaw": 2.21444,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "chipper pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2301,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68939,
+    "QuestTitle": "\uE0BE A Rosy Problem",
+    "PreviousQuestIds": [
+      68847
+    ],
+    "PreviousQuestTitles": [
+      "Courting Cooperation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "An Iala",
+    "StarterNpcLocation": {
+      "RowId": 7803870,
+      "X": -246.63,
+      "Y": 50.8415,
+      "Z": 583.811,
+      "Yaw": 1.69199,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "An Iala",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68940,
+    "QuestTitle": "\uE0BE The Path to Popularity",
+    "PreviousQuestIds": [
+      68847
+    ],
+    "PreviousQuestTitles": [
+      "Courting Cooperation"
+    ],
+    "NextQuestIds": [
+      68941
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Painting for Praise"
+    ],
+    "StarterNpc": "Ul Thon",
+    "StarterNpcLocation": {
+      "RowId": 7960782,
+      "X": -285.897,
+      "Y": 40.2991,
+      "Z": 444.437,
+      "Yaw": -0.761284,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Ul Thon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2320,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100853,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 888,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68941,
+    "QuestTitle": "\uE0BE Painting for Praise",
+    "PreviousQuestIds": [
+      68940
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Path to Popularity"
+    ],
+    "NextQuestIds": [
+      68942
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Gifts to Gladden"
+    ],
+    "StarterNpc": "Ul Thon",
+    "StarterNpcLocation": {
+      "RowId": 7960782,
+      "X": -285.897,
+      "Y": 40.2991,
+      "Z": 444.437,
+      "Yaw": -0.761284,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Ul Thon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100853,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 861,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68942,
+    "QuestTitle": "\uE0BE Gifts to Gladden",
+    "PreviousQuestIds": [
+      68941
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Painting for Praise"
+    ],
+    "NextQuestIds": [
+      68943
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Dependable Darling"
+    ],
+    "StarterNpc": "Ul Thon",
+    "StarterNpcLocation": {
+      "RowId": 7960782,
+      "X": -285.897,
+      "Y": 40.2991,
+      "Z": 444.437,
+      "Yaw": -0.761284,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Ul Thon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100853,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68943,
+    "QuestTitle": "\uE0BE The Dependable Darling",
+    "PreviousQuestIds": [
+      68942
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Gifts to Gladden"
+    ],
+    "NextQuestIds": [
+      68967
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A New Favorite"
+    ],
+    "StarterNpc": "Ul Thon",
+    "StarterNpcLocation": {
+      "RowId": 7960782,
+      "X": -285.897,
+      "Y": 40.2991,
+      "Z": 444.437,
+      "Yaw": -0.761284,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Ul Thon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 2350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100853,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 888,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26843,
+          "ItemName": "Deepgold Necklace Coffer (IL 395)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68944,
+    "QuestTitle": "\uE0BE Scents of Security",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iala Oul",
+    "StarterNpcLocation": {
+      "RowId": 7813313,
+      "X": 32.0287,
+      "Y": 101.901,
+      "Z": -857.877,
+      "Yaw": -2.41524,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Iala Oul",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68945,
+    "QuestTitle": "\uE0BE A Lawful Trade",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gyuf Daen",
+    "StarterNpcLocation": {
+      "RowId": 7857728,
+      "X": 69.7489,
+      "Y": 110.693,
+      "Z": -883.696,
+      "Yaw": -1.88112,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Gyuf Daen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 976,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68946,
+    "QuestTitle": "\uE0BE The Mushroom Menace",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nu Mou culinarian",
+    "StarterNpcLocation": {
+      "RowId": 7955731,
+      "X": -224.82,
+      "Y": 79.618,
+      "Z": -786.328,
+      "Yaw": -1.19856,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Nu Mou culinarian",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 876,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68947,
+    "QuestTitle": "\uE0BE Growing Pla Enni",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ose Sigun",
+    "StarterNpcLocation": {
+      "RowId": 7813316,
+      "X": -106.065,
+      "Y": 108.4,
+      "Z": -841.764,
+      "Yaw": 2.92683,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Ose Sigun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 903,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27858,
+          "ItemName": "Broad Bean Salad",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68948,
+    "QuestTitle": "\uE0BE Much Ado About Giving",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "lovesick Nu Mou",
+    "StarterNpcLocation": {
+      "RowId": 7955698,
+      "X": -58.08,
+      "Y": 104.186,
+      "Z": -875.51,
+      "Yaw": -0.346017,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "lovesick Nu Mou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68949,
+    "QuestTitle": "\uE0BE Help My Porxie",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "caring Nu Mou",
+    "StarterNpcLocation": {
+      "RowId": 7955699,
+      "X": -46.1114,
+      "Y": 110.918,
+      "Z": -851.909,
+      "Yaw": 2.16702,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "caring Nu Mou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 803,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68950,
+    "QuestTitle": "\uE0BE One Good Trick Deserves Another",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "vengeful Nu Mou",
+    "StarterNpcLocation": {
+      "RowId": 7955764,
+      "X": 4.62091,
+      "Y": 105.703,
+      "Z": -849.435,
+      "Yaw": -1.2334,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "vengeful Nu Mou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 803,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68951,
+    "QuestTitle": "\uE0BE A Leafman and a Hero",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "soft-spoken Nu Mou",
+    "StarterNpcLocation": {
+      "RowId": 7955760,
+      "X": -15.5921,
+      "Y": 106.456,
+      "Z": -889.816,
+      "Yaw": -3.02356,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "soft-spoken Nu Mou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 803,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27860,
+          "ItemName": "Baguette",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68952,
+    "QuestTitle": "\uE0BE Magic Is Love, Magic Is Life",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ose Sigun",
+    "StarterNpcLocation": {
+      "RowId": 7813316,
+      "X": -106.065,
+      "Y": 108.4,
+      "Z": -841.764,
+      "Yaw": 2.92683,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Ose Sigun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 876,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68953,
+    "QuestTitle": "\uE0BE Are You Being Served",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "overzealous Nu Mou",
+    "StarterNpcLocation": {
+      "RowId": 7955779,
+      "X": -1.81498,
+      "Y": 100.468,
+      "Z": -889.334,
+      "Yaw": 2.87355,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "overzealous Nu Mou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1049,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68954,
+    "QuestTitle": "\uE0BE A Stranger Fuath",
+    "PreviousQuestIds": [
+      68852
+    ],
+    "PreviousQuestTitles": [
+      "The Lawless Ones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wyd Lad",
+    "StarterNpcLocation": {
+      "RowId": 7813315,
+      "X": -101.518,
+      "Y": 101.86,
+      "Z": -838.468,
+      "Yaw": -2.04047,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Wyd Lad",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 803,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27863,
+          "ItemName": "Nut Bake",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68955,
+    "QuestTitle": "\uE0BE Pushy for Patronage",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eo An",
+    "StarterNpcLocation": {
+      "RowId": 7817601,
+      "X": 382.132,
+      "Y": 86.5506,
+      "Z": -617.09,
+      "Yaw": 1.2346,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Eo An",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1344,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68956,
+    "QuestTitle": "\uE0BE In His Mistress\u0027s Memory",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [
+      68961
+    ],
+    "NextQuestTitles": [
+      "\uE0BE In His Mistress\u0027s Name"
+    ],
+    "StarterNpc": "Nimbus",
+    "StarterNpcLocation": {
+      "RowId": 7817602,
+      "X": 364.288,
+      "Y": 87.0007,
+      "Z": -715.414,
+      "Yaw": 0.19284,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Nimbus",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 804,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68957,
+    "QuestTitle": "\uE0BE Lurkers in the Lake",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "angry amaro",
+    "StarterNpcLocation": {
+      "RowId": 8040972,
+      "X": 394.026,
+      "Y": 88.9904,
+      "Z": -634.481,
+      "Yaw": 0.221529,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "angry amaro",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 877,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68958,
+    "QuestTitle": "\uE0BE A Tale of a Tail",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kenn Beq",
+    "StarterNpcLocation": {
+      "RowId": 7817603,
+      "X": 457.887,
+      "Y": 89.4141,
+      "Z": -742.513,
+      "Yaw": -0.11739,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Kenn Beq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 804,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68959,
+    "QuestTitle": "\uE0BE Not All Pixies",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "An Sul",
+    "StarterNpcLocation": {
+      "RowId": 8011577,
+      "X": 490.297,
+      "Y": 90.0082,
+      "Z": -700.627,
+      "Yaw": -1.98038,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "An Sul",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1147,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27862,
+          "ItemName": "Pixie Apple Pie",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68960,
+    "QuestTitle": "\uE0BE A Gift in Advance",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iala Jul",
+    "StarterNpcLocation": {
+      "RowId": 8011586,
+      "X": 481.98,
+      "Y": 90.4384,
+      "Z": -656.083,
+      "Yaw": 2.24381,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Iala Jul",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 804,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68961,
+    "QuestTitle": "\uE0BE In His Mistress\u0027s Name",
+    "PreviousQuestIds": [
+      68856,
+      68956
+    ],
+    "PreviousQuestTitles": [
+      "Acht-la Ormh Inn",
+      "\uE0BE In His Mistress\u0027s Memory"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Oul Sigun",
+    "StarterNpcLocation": {
+      "RowId": 7803869,
+      "X": -291.594,
+      "Y": 40.324,
+      "Z": 456.667,
+      "Yaw": 2.96665,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Oul Sigun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 904,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68962,
+    "QuestTitle": "\uE0BE Hide and Seek",
+    "PreviousQuestIds": [
+      68856
+    ],
+    "PreviousQuestTitles": [
+      "Acht-la Ormh Inn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "waiting pixie",
+    "StarterNpcLocation": {
+      "RowId": 8043460,
+      "X": -419.274,
+      "Y": 60.2898,
+      "Z": 498.171,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "waiting pixie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 852,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68963,
+    "QuestTitle": "\uE0BE A New Amaro",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [
+      68964
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Costly Meal"
+    ],
+    "StarterNpc": "Sandman",
+    "StarterNpcLocation": {
+      "RowId": 7817604,
+      "X": 441.644,
+      "Y": 89.8099,
+      "Z": -653.416,
+      "Yaw": -1.80017,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Tonatiuh",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100854,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68964,
+    "QuestTitle": "\uE0BE A Costly Meal",
+    "PreviousQuestIds": [
+      68963
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A New Amaro"
+    ],
+    "NextQuestIds": [
+      68965
+    ],
+    "NextQuestTitles": [
+      "\uE0BE By Way of Reparation"
+    ],
+    "StarterNpc": "Tonatiuh",
+    "StarterNpcLocation": {
+      "RowId": 7968495,
+      "X": -79.7453,
+      "Y": 37.9681,
+      "Z": -531.849,
+      "Yaw": -0.585529,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Tonatiuh",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100854,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 913,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68965,
+    "QuestTitle": "\uE0BE By Way of Reparation",
+    "PreviousQuestIds": [
+      68964
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Costly Meal"
+    ],
+    "NextQuestIds": [
+      68966
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Key Ingredient"
+    ],
+    "StarterNpc": "Tonatiuh",
+    "StarterNpcLocation": {
+      "RowId": 7968495,
+      "X": -79.7453,
+      "Y": 37.9681,
+      "Z": -531.849,
+      "Yaw": -0.585529,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Tonatiuh",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100854,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 986,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68966,
+    "QuestTitle": "\uE0BE The Key Ingredient",
+    "PreviousQuestIds": [
+      68965
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE By Way of Reparation"
+    ],
+    "NextQuestIds": [
+      68967
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A New Favorite"
+    ],
+    "StarterNpc": "Tonatiuh",
+    "StarterNpcLocation": {
+      "RowId": 8012326,
+      "X": 37.766,
+      "Y": 53.8796,
+      "Z": -649.287,
+      "Yaw": 2.22179,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "aggrieved Nu Mou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100854,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1123,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27857,
+          "ItemName": "Spaghetti al Nero",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27858,
+          "ItemName": "Broad Bean Salad",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27859,
+          "ItemName": "Grilled Platinum Bream",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27860,
+          "ItemName": "Baguette",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68967,
+    "QuestTitle": "\uE0BE A New Favorite",
+    "PreviousQuestIds": [
+      68943,
+      68966
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Dependable Darling",
+      "\uE0BE The Key Ingredient"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sandman",
+    "StarterNpcLocation": {
+      "RowId": 7817604,
+      "X": 441.644,
+      "Y": 89.8099,
+      "Z": -653.416,
+      "Yaw": -1.80017,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Sandman",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100855,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1487,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 24261,
+          "ItemName": "Grade 3 Infusion of Strength",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24262,
+          "ItemName": "Grade 3 Infusion of Dexterity",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24263,
+          "ItemName": "Grade 3 Infusion of Vitality",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24264,
+          "ItemName": "Grade 3 Infusion of Intelligence",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 24265,
+          "ItemName": "Grade 3 Infusion of Mind",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68968,
+    "QuestTitle": "\uE0BE Duplicity in the Depths",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thon An",
+    "StarterNpcLocation": {
+      "RowId": 8010127,
+      "X": 353.841,
+      "Y": 86.5033,
+      "Z": -691.249,
+      "Yaw": 2.54103,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Thon An",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 877,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68969,
+    "QuestTitle": "\uE0BE Marks of the Monarch",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "watch amaro",
+    "StarterNpcLocation": {
+      "RowId": 8043881,
+      "X": 366.929,
+      "Y": 86.3785,
+      "Z": -753.238,
+      "Yaw": -0.700511,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "watch amaro",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5729,
+          "ItemName": "Snow White Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5734,
+          "ItemName": "Soot Black Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68970,
+    "QuestTitle": "\uE0BE An Eggshell a Day",
+    "PreviousQuestIds": [
+      68854
+    ],
+    "PreviousQuestTitles": [
+      "A Resounding Roar"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rispa",
+    "StarterNpcLocation": {
+      "RowId": 7817599,
+      "X": 416.8,
+      "Y": 87.9478,
+      "Z": -751.095,
+      "Yaw": 0.428455,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Rispa",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 3240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70252,
+    "QuestTitle": "Every Anden of the Rainbow",
+    "PreviousQuestIds": [
+      70251
+    ],
+    "PreviousQuestTitles": [
+      "That\u0027s So Anden"
+    ],
+    "NextQuestIds": [
+      70253
+    ],
+    "NextQuestTitles": [
+      "A Labor of Leaf"
+    ],
+    "StarterNpc": "Anden",
+    "StarterNpcLocation": {
+      "RowId": 9562746,
+      "X": -241.665,
+      "Y": 51.059,
+      "Z": 620.887,
+      "Yaw": 2.98974,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Anden",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 4010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 1359,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 3
+        },
+        {
+          "ItemId": 36061,
+          "ItemName": "Sideritis Cookie",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70253,
+    "QuestTitle": "A Labor of Leaf",
+    "PreviousQuestIds": [
+      70252
+    ],
+    "PreviousQuestTitles": [
+      "Every Anden of the Rainbow"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eo Tyr",
+    "StarterNpcLocation": {
+      "RowId": 9562749,
+      "X": -239.682,
+      "Y": 51.059,
+      "Z": 622.248,
+      "Yaw": -2.41317,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Another Anden",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 136,
+      "JournalCategory": {
+        "Id": 74,
+        "Name": "Il Mheg Sidequests"
+      },
+      "Name": "Il Mheg Sidequests"
+    },
+    "SortKey": 4020,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 39629,
+          "ItemName": "Leafman Head",
+          "Count": 1
+        },
+        {
+          "ItemId": 39488,
+          "ItemName": "Anden III Horn",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,3153 @@
+[
+  {
+    "QuestId": 68897,
+    "QuestTitle": "\uE0BE Worm Food",
+    "PreviousQuestIds": [
+      68828
+    ],
+    "PreviousQuestTitles": [
+      "City of the Mord"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "flea-bitten scavenger",
+    "StarterNpcLocation": {
+      "RowId": 7945746,
+      "X": 302.672,
+      "Y": 1.44958,
+      "Z": -217.281,
+      "Yaw": 0.267024,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "flea-bitten scavenger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 825,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68898,
+    "QuestTitle": "\uE0BE The Most Succulent of Succulents",
+    "PreviousQuestIds": [
+      68828
+    ],
+    "PreviousQuestTitles": [
+      "City of the Mord"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bhil Bil",
+    "StarterNpcLocation": {
+      "RowId": 7810851,
+      "X": 316.915,
+      "Y": 1.44958,
+      "Z": -170.337,
+      "Yaw": -0.390452,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Bhil Bil",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68899,
+    "QuestTitle": "\uE0BE Mollycoddled Mord",
+    "PreviousQuestIds": [
+      68828
+    ],
+    "PreviousQuestTitles": [
+      "City of the Mord"
+    ],
+    "NextQuestIds": [
+      68900
+    ],
+    "NextQuestTitles": [
+      "\uE0BE I Felt Your Presents"
+    ],
+    "StarterNpc": "Ghin Gin",
+    "StarterNpcLocation": {
+      "RowId": 7810833,
+      "X": 321.474,
+      "Y": 1.48004,
+      "Z": -277.762,
+      "Yaw": -2.86792,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Thaymoth",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26832,
+          "ItemName": "White Oak Necklace Coffer (IL 385)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68900,
+    "QuestTitle": "\uE0BE I Felt Your Presents",
+    "PreviousQuestIds": [
+      68899
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Mollycoddled Mord"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thaymoth",
+    "StarterNpcLocation": {
+      "RowId": 7810807,
+      "X": 669.826,
+      "Y": -41.976,
+      "Z": -668.029,
+      "Yaw": 2.26057,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Ghin Gin",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1340,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 779,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68901,
+    "QuestTitle": "\uE0BE A Shiver Down the Spine",
+    "PreviousQuestIds": [
+      68828
+    ],
+    "PreviousQuestTitles": [
+      "City of the Mord"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "skittish Mord",
+    "StarterNpcLocation": {
+      "RowId": 7945797,
+      "X": 320.59,
+      "Y": 1.46858,
+      "Z": -295.377,
+      "Yaw": -0.505324,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "skittish Mord",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68902,
+    "QuestTitle": "\uE0BE Pass the Parcel",
+    "PreviousQuestIds": [
+      68828
+    ],
+    "PreviousQuestTitles": [
+      "City of the Mord"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpcLocation": {
+      "RowId": 8024299,
+      "X": 261.229,
+      "Y": 2.85339,
+      "Z": -277.738,
+      "Yaw": 0.53607,
+      "Radius": 0.99176,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Mord taskmaster",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1360,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68903,
+    "QuestTitle": "\uE0BE Succulent Secretions",
+    "PreviousQuestIds": [
+      68832
+    ],
+    "PreviousQuestTitles": [
+      "Culling Their Ranks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lamon",
+    "StarterNpcLocation": {
+      "RowId": 7810868,
+      "X": 404.593,
+      "Y": -28.3666,
+      "Z": 350.362,
+      "Yaw": -2.68072,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Lamon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27855,
+          "ItemName": "Caramels",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68904,
+    "QuestTitle": "\uE0BE From Darts till Dawn",
+    "PreviousQuestIds": [
+      68832
+    ],
+    "PreviousQuestTitles": [
+      "Culling Their Ranks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "bleary-eyed guard",
+    "StarterNpcLocation": {
+      "RowId": 7949392,
+      "X": 379.201,
+      "Y": -28.3604,
+      "Z": 340.692,
+      "Yaw": 0.109081,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "bleary-eyed guard",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68905,
+    "QuestTitle": "\uE0BE Absent without Leave",
+    "PreviousQuestIds": [
+      68832
+    ],
+    "PreviousQuestTitles": [
+      "Culling Their Ranks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wrenric",
+    "StarterNpcLocation": {
+      "RowId": 7891334,
+      "X": 412.589,
+      "Y": -28.671,
+      "Z": 273.64,
+      "Yaw": 1.44729,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Wrenric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1390,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68906,
+    "QuestTitle": "\uE0BE Like a Tonze of Bricks",
+    "PreviousQuestIds": [
+      68832
+    ],
+    "PreviousQuestTitles": [
+      "Culling Their Ranks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Willfort",
+    "StarterNpcLocation": {
+      "RowId": 7810871,
+      "X": 378.714,
+      "Y": -28.275,
+      "Z": 324.971,
+      "Yaw": 2.39789,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Willfort",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1401,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68911,
+    "QuestTitle": "\uE0BE Work to Live or Live to Work",
+    "PreviousQuestIds": [
+      68829
+    ],
+    "PreviousQuestTitles": [
+      "Working Off the Meal"
+    ],
+    "NextQuestIds": [
+      68912
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Mord of the Ring"
+    ],
+    "StarterNpc": "Ghen Gen",
+    "StarterNpcLocation": {
+      "RowId": 7810824,
+      "X": 268.475,
+      "Y": 4.01312,
+      "Z": -144.156,
+      "Yaw": -2.81328,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Ghun Gun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1410,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100852,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68912,
+    "QuestTitle": "\uE0BE Mord of the Ring",
+    "PreviousQuestIds": [
+      68911
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Work to Live or Live to Work"
+    ],
+    "NextQuestIds": [
+      68913
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Nabaath Breakdown"
+    ],
+    "StarterNpc": "Ghun Gun",
+    "StarterNpcLocation": {
+      "RowId": 7935587,
+      "X": 580.006,
+      "Y": -46.389,
+      "Z": -684.883,
+      "Yaw": 2.59324,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Jamial",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1411,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100852,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 888,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68913,
+    "QuestTitle": "\uE0BE Nabaath Breakdown",
+    "PreviousQuestIds": [
+      68912
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Mord of the Ring"
+    ],
+    "NextQuestIds": [
+      68914
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Semi Auto-malik"
+    ],
+    "StarterNpc": "Ghun Gun",
+    "StarterNpcLocation": {
+      "RowId": 7935932,
+      "X": 191.723,
+      "Y": 7.15583,
+      "Z": -181.471,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Ghun Gun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1412,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100852,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1017,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68914,
+    "QuestTitle": "\uE0BE Semi Auto-malik",
+    "PreviousQuestIds": [
+      68913
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Nabaath Breakdown"
+    ],
+    "NextQuestIds": [
+      69065
+    ],
+    "NextQuestTitles": [
+      "\uE0BE An Axle to Grind"
+    ],
+    "StarterNpc": "Ghun Gun",
+    "StarterNpcLocation": {
+      "RowId": 7935943,
+      "X": 544.264,
+      "Y": -59.0618,
+      "Z": 443.9,
+      "Yaw": -2.72848,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Ghun Gun",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 1413,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100852,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 925,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27853,
+          "ItemName": "Grilled Rail",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27854,
+          "ItemName": "Purple Carrot Juice",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27855,
+          "ItemName": "Caramels",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27856,
+          "ItemName": "Broad Bean Soup",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69022,
+    "QuestTitle": "\uE0BE Where There\u0027s a Well, There\u0027s a Way",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "dusty merchant",
+    "StarterNpcLocation": {
+      "RowId": 7949841,
+      "X": -359.335,
+      "Y": 1.90948,
+      "Z": -656.031,
+      "Yaw": -1.69088,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "dusty merchant",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69023,
+    "QuestTitle": "\uE0BE Assault on a Deadly Weapon",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mhon Mon",
+    "StarterNpcLocation": {
+      "RowId": 7810899,
+      "X": -397.143,
+      "Y": -17.8528,
+      "Z": -551.774,
+      "Yaw": 2.75394,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Mhon Mon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69024,
+    "QuestTitle": "\uE0BE Water Palaver",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ghon Gon",
+    "StarterNpcLocation": {
+      "RowId": 7810896,
+      "X": -448.346,
+      "Y": -20.0219,
+      "Z": -554.651,
+      "Yaw": -0.236733,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Ghon Gon",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69025,
+    "QuestTitle": "\uE0BE Shovel or Boogie",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rhil Ril",
+    "StarterNpcLocation": {
+      "RowId": 7810897,
+      "X": -389.759,
+      "Y": -17.7248,
+      "Z": -586.129,
+      "Yaw": 3.10848,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Rhil Ril",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26860,
+          "ItemName": "Titanbronze Hand Gear Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69026,
+    "QuestTitle": "\uE0BE Shine On You Crazy Mordling",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "paternal Mord",
+    "StarterNpcLocation": {
+      "RowId": 7949867,
+      "X": -406.595,
+      "Y": -17.8528,
+      "Z": -550.289,
+      "Yaw": 1.39086,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Mord youngling",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69027,
+    "QuestTitle": "\uE0BE And Justice Feral",
+    "PreviousQuestIds": [
+      69146
+    ],
+    "PreviousQuestTitles": [
+      "Free Trade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bhol Bol",
+    "StarterNpcLocation": {
+      "RowId": 7942253,
+      "X": -425.973,
+      "Y": -18.849,
+      "Z": -603.652,
+      "Yaw": 2.90692,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Bhol Bol",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69028,
+    "QuestTitle": "\uE0BE A Relatively Miner Issue",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hathenstein",
+    "StarterNpcLocation": {
+      "RowId": 7810909,
+      "X": -502.77,
+      "Y": 58.1521,
+      "Z": -241.291,
+      "Yaw": 2.33909,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Hathenstein",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 759,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26867,
+          "ItemName": "Titanbronze Ring Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69029,
+    "QuestTitle": "\uE0BE I Drink, Therefore I Am (in Trouble)",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "wild-eyed miner",
+    "StarterNpcLocation": {
+      "RowId": 7964777,
+      "X": -512.685,
+      "Y": 45.3964,
+      "Z": -287.635,
+      "Yaw": -1.50782,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "wild-eyed miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69030,
+    "QuestTitle": "\uE0BE To the Far Side",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Harlolth",
+    "StarterNpcLocation": {
+      "RowId": 7810835,
+      "X": -494.234,
+      "Y": 45.635,
+      "Z": -238.532,
+      "Yaw": -1.69483,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Harlolth",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 905,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69031,
+    "QuestTitle": "\uE0BE Whistle While You Shirk",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "elderly miner",
+    "StarterNpcLocation": {
+      "RowId": 7964783,
+      "X": -444.824,
+      "Y": 30.8725,
+      "Z": -194.311,
+      "Yaw": 1.16783,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "elderly miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26862,
+          "ItemName": "Titanbronze Foot Gear Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69032,
+    "QuestTitle": "\uE0BE Prankster\u0027s Paradise",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "shifty-eyed miner",
+    "StarterNpcLocation": {
+      "RowId": 7964797,
+      "X": -462.302,
+      "Y": 45.5245,
+      "Z": -254.18,
+      "Yaw": -3.10239,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "shifty-eyed miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 905,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69033,
+    "QuestTitle": "\uE0BE A Tab in the Dark",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hapless miner",
+    "StarterNpcLocation": {
+      "RowId": 7964805,
+      "X": -513.597,
+      "Y": 58.1611,
+      "Z": -257.607,
+      "Yaw": 2.44529,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "hapless miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69034,
+    "QuestTitle": "\uE0BE The Creaky Mill Gets the Grease",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Minebern",
+    "StarterNpcLocation": {
+      "RowId": 7810844,
+      "X": -457.814,
+      "Y": 45.5079,
+      "Z": -262.603,
+      "Yaw": -1.21049,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Minebern",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 905,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69035,
+    "QuestTitle": "\uE0BE Big Sister Is Watching You",
+    "PreviousQuestIds": [
+      69151
+    ],
+    "PreviousQuestTitles": [
+      "The Truth Hurts"
+    ],
+    "NextQuestIds": [
+      69036
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Brother Lode"
+    ],
+    "StarterNpc": "Annine",
+    "StarterNpcLocation": {
+      "RowId": 7810908,
+      "X": -522.208,
+      "Y": 46.4977,
+      "Z": -275.857,
+      "Yaw": 0.69604,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "stocky miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26864,
+          "ItemName": "Titanbronze Earring Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69036,
+    "QuestTitle": "\uE0BE The Brother Lode",
+    "PreviousQuestIds": [
+      69035
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Big Sister Is Watching You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "stocky miner",
+    "StarterNpcLocation": {
+      "RowId": 7967810,
+      "X": -7.22874,
+      "Y": 45.6191,
+      "Z": -523.242,
+      "Yaw": -0.88521,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Annine",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 832,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69037,
+    "QuestTitle": "\uE0BE Flower for a Friend",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "taciturn miner",
+    "StarterNpcLocation": {
+      "RowId": 8047668,
+      "X": -515.924,
+      "Y": 45.7393,
+      "Z": -235.486,
+      "Yaw": -0.67675,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "taciturn miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 832,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69038,
+    "QuestTitle": "\uE0BE Church Warrant",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tofrith",
+    "StarterNpcLocation": {
+      "RowId": 7810902,
+      "X": -489.616,
+      "Y": 47.7759,
+      "Z": -198.749,
+      "Yaw": 3.01178,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Tofrith",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 832,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69039,
+    "QuestTitle": "\uE0BE Scavengers Assemble",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [
+      69040
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Town Haul"
+    ],
+    "StarterNpc": "quick-witted scavenger",
+    "StarterNpcLocation": {
+      "RowId": 7964815,
+      "X": -424.608,
+      "Y": 31.9623,
+      "Z": -226.616,
+      "Yaw": 1.16314,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "seasoned scavenger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 825,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69040,
+    "QuestTitle": "\uE0BE Town Haul",
+    "PreviousQuestIds": [
+      69039
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Scavengers Assemble"
+    ],
+    "NextQuestIds": [
+      69041
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Worm in the Ointment"
+    ],
+    "StarterNpc": "seasoned scavenger",
+    "StarterNpcLocation": {
+      "RowId": 7965452,
+      "X": 13.9756,
+      "Y": -47.8941,
+      "Z": 169.813,
+      "Yaw": 1.02589,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "seasoned scavenger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69041,
+    "QuestTitle": "\uE0BE Worm in the Ointment",
+    "PreviousQuestIds": [
+      69040
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Town Haul"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "seasoned scavenger",
+    "StarterNpcLocation": {
+      "RowId": 7965452,
+      "X": 13.9756,
+      "Y": -47.8941,
+      "Z": 169.813,
+      "Yaw": 1.02589,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "quick-witted scavenger",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 832,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27866,
+          "ItemName": "Sausage Links",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27867,
+          "ItemName": "Roast Ovim",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27868,
+          "ItemName": "Mushroom Skewer",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27869,
+          "ItemName": "Baked Megapiranha",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69042,
+    "QuestTitle": "\uE0BE The Yolk\u0027s on You",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [
+      69043
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Taken Down a Peck or Two"
+    ],
+    "StarterNpc": "Dalric",
+    "StarterNpcLocation": {
+      "RowId": 7810901,
+      "X": -488.518,
+      "Y": 47.7777,
+      "Z": -191.336,
+      "Yaw": 1.56904,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Dalric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26867,
+          "ItemName": "Titanbronze Ring Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69043,
+    "QuestTitle": "\uE0BE Taken Down a Peck or Two",
+    "PreviousQuestIds": [
+      69042
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Yolk\u0027s on You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dalric",
+    "StarterNpcLocation": {
+      "RowId": 7810901,
+      "X": -488.518,
+      "Y": 47.7777,
+      "Z": -191.336,
+      "Yaw": 1.56904,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Dalric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 759,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69044,
+    "QuestTitle": "\uE0BE Repair for the Worst",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "restless laborer",
+    "StarterNpcLocation": {
+      "RowId": 7963981,
+      "X": -490.66,
+      "Y": 45.6457,
+      "Z": -267.945,
+      "Yaw": 3.02227,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "restless laborer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69045,
+    "QuestTitle": "\uE0BE Stripe for the Picking",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Andri",
+    "StarterNpcLocation": {
+      "RowId": 7941127,
+      "X": -531.609,
+      "Y": 46.6309,
+      "Z": -257.405,
+      "Yaw": -2.69344,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Andri",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 759,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69046,
+    "QuestTitle": "\uE0BE Mystery Miners",
+    "PreviousQuestIds": [
+      69149
+    ],
+    "PreviousQuestTitles": [
+      "On Track"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Drery",
+    "StarterNpcLocation": {
+      "RowId": 7810904,
+      "X": -479.218,
+      "Y": 45.5536,
+      "Z": -228.667,
+      "Yaw": 1.64209,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Drery",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 832,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27866,
+          "ItemName": "Sausage Links",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69047,
+    "QuestTitle": "\uE0BE Charmless Man",
+    "PreviousQuestIds": [
+      69151
+    ],
+    "PreviousQuestTitles": [
+      "The Truth Hurts"
+    ],
+    "NextQuestIds": [
+      69048,
+      69049
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Oil Be Back",
+      "\uE0BE Gnome Ore Heroes"
+    ],
+    "StarterNpc": "Sveinn",
+    "StarterNpcLocation": {
+      "RowId": 7810906,
+      "X": -476.928,
+      "Y": 47.7891,
+      "Z": -200.595,
+      "Yaw": 0.63273,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "one-eyed miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6250,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69048,
+    "QuestTitle": "\uE0BE Oil Be Back",
+    "PreviousQuestIds": [
+      69047
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Charmless Man"
+    ],
+    "NextQuestIds": [
+      69050
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Piping of the Dead"
+    ],
+    "StarterNpc": "Hilmar",
+    "StarterNpcLocation": {
+      "RowId": 7810916,
+      "X": -354.073,
+      "Y": 19.8217,
+      "Z": 86.5957,
+      "Yaw": 1.57011,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Hilmar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69049,
+    "QuestTitle": "\uE0BE Gnome Ore Heroes",
+    "PreviousQuestIds": [
+      69047
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Charmless Man"
+    ],
+    "NextQuestIds": [
+      69050
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Piping of the Dead"
+    ],
+    "StarterNpc": "fiery young lad",
+    "StarterNpcLocation": {
+      "RowId": 7964214,
+      "X": -319.987,
+      "Y": 19.151,
+      "Z": 106.625,
+      "Yaw": -0.0842793,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "fiery young lad",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69050,
+    "QuestTitle": "\uE0BE The Piping of the Dead",
+    "PreviousQuestIds": [
+      69048,
+      69049
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Oil Be Back",
+      "\uE0BE Gnome Ore Heroes"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Haraldur",
+    "StarterNpcLocation": {
+      "RowId": 7810915,
+      "X": -330.556,
+      "Y": 19.1639,
+      "Z": 91.2031,
+      "Yaw": 0.574318,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "chiseled miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 6280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 759,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26865,
+          "ItemName": "Titanbronze Necklace Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69061,
+    "QuestTitle": "\uE0BE A Vein Pursuit",
+    "PreviousQuestIds": [
+      69153
+    ],
+    "PreviousQuestTitles": [
+      "A Dirty Job"
+    ],
+    "NextQuestIds": [
+      69062
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Tunnel Vision"
+    ],
+    "StarterNpc": "Horthur",
+    "StarterNpcLocation": {
+      "RowId": 7941098,
+      "X": -506.615,
+      "Y": 45.6144,
+      "Z": -194.476,
+      "Yaw": 3.10479,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Kee-Satt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7030,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100860,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69062,
+    "QuestTitle": "\uE0BE Tunnel Vision",
+    "PreviousQuestIds": [
+      69061
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Vein Pursuit"
+    ],
+    "NextQuestIds": [
+      69063
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Two Tails Are Better than One"
+    ],
+    "StarterNpc": "Kee-Satt",
+    "StarterNpcLocation": {
+      "RowId": 7953135,
+      "X": -478.203,
+      "Y": 10.544,
+      "Z": 193.133,
+      "Yaw": 2.59894,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Kee-Satt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100860,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69063,
+    "QuestTitle": "\uE0BE Two Tails Are Better than One",
+    "PreviousQuestIds": [
+      69062
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Tunnel Vision"
+    ],
+    "NextQuestIds": [
+      69064
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Rutabite at the End of the Tunnel"
+    ],
+    "StarterNpc": "Kee-Satt",
+    "StarterNpcLocation": {
+      "RowId": 7953182,
+      "X": -585.727,
+      "Y": -0.815549,
+      "Z": 171.224,
+      "Yaw": -1.02486,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Kee-Satt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100860,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 941,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69064,
+    "QuestTitle": "\uE0BE The Rutabite at the End of the Tunnel",
+    "PreviousQuestIds": [
+      69063
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Two Tails Are Better than One"
+    ],
+    "NextQuestIds": [
+      69065
+    ],
+    "NextQuestTitles": [
+      "\uE0BE An Axle to Grind"
+    ],
+    "StarterNpc": "Kee-Satt",
+    "StarterNpcLocation": {
+      "RowId": 7953192,
+      "X": -439.502,
+      "Y": 30.2268,
+      "Z": -202.564,
+      "Yaw": 0.0777178,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Kee-Satt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100860,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1087,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26866,
+          "ItemName": "Titanbronze Bracelet Coffer (IL 409)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69065,
+    "QuestTitle": "\uE0BE An Axle to Grind",
+    "PreviousQuestIds": [
+      68914,
+      69064
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Semi Auto-malik",
+      "\uE0BE The Rutabite at the End of the Tunnel"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Horthur",
+    "StarterNpcLocation": {
+      "RowId": 7941098,
+      "X": -506.615,
+      "Y": 45.6144,
+      "Z": -194.476,
+      "Yaw": 3.10479,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Horthur",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100861,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1014,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27866,
+          "ItemName": "Sausage Links",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27867,
+          "ItemName": "Roast Ovim",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27868,
+          "ItemName": "Mushroom Skewer",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27869,
+          "ItemName": "Baked Megapiranha",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69066,
+    "QuestTitle": "\uE0BE No Disassemble",
+    "PreviousQuestIds": [
+      69157
+    ],
+    "PreviousQuestTitles": [
+      "A Fresh Start"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Talos enthusiast",
+    "StarterNpcLocation": {
+      "RowId": 7965136,
+      "X": -313.877,
+      "Y": -62.8698,
+      "Z": 444.749,
+      "Yaw": 0.374447,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Talos enthusiast",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69067,
+    "QuestTitle": "\uE0BE Thy Well Be Done",
+    "PreviousQuestIds": [
+      69157
+    ],
+    "PreviousQuestTitles": [
+      "A Fresh Start"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "intrepid miner",
+    "StarterNpcLocation": {
+      "RowId": 7965137,
+      "X": -270.462,
+      "Y": -62.8698,
+      "Z": 414.961,
+      "Yaw": 0.80598,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "intrepid miner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69068,
+    "QuestTitle": "\uE0BE The Crystal Knaves",
+    "PreviousQuestIds": [
+      69157
+    ],
+    "PreviousQuestTitles": [
+      "A Fresh Start"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "battle-ready Mord",
+    "StarterNpcLocation": {
+      "RowId": 7965169,
+      "X": -267.563,
+      "Y": -62.8698,
+      "Z": 428.937,
+      "Yaw": 0.0315968,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "battle-ready Mord",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 135,
+      "JournalCategory": {
+        "Id": 73,
+        "Name": "Amh Araeng Sidequests"
+      },
+      "Name": "Amh Araeng Sidequests"
+    },
+    "SortKey": 7020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27872,
+          "ItemName": "Masala Chai",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

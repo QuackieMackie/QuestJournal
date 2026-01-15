@@ -1,0 +1,3964 @@
+[
+  {
+    "QuestId": 67306,
+    "QuestTitle": "Clever Chicks",
+    "PreviousQuestIds": [
+      67145
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam"
+    ],
+    "NextQuestIds": [
+      67314
+    ],
+    "NextQuestTitles": [
+      "A Trap to Yawn For"
+    ],
+    "StarterNpc": "Virgeaume",
+    "StarterNpcLocation": {
+      "RowId": 5796897,
+      "X": 483.24,
+      "Y": -51.1414,
+      "Z": 25.2912,
+      "Yaw": -1.63001,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Virgeaume",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5205,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 573,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67307,
+    "QuestTitle": "Some Bad News",
+    "PreviousQuestIds": [
+      67145
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam"
+    ],
+    "NextQuestIds": [
+      67308,
+      67309,
+      67310
+    ],
+    "NextQuestTitles": [
+      "Something\u0027s Bugging the Chocobos",
+      "Why Does the Caged Bird Sing",
+      "Saving the Bait"
+    ],
+    "StarterNpc": "Marcechamp",
+    "StarterNpcLocation": {
+      "RowId": 5796581,
+      "X": 470.047,
+      "Y": -49.8913,
+      "Z": 20.3859,
+      "Yaw": -1.27904,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67308,
+    "QuestTitle": "Something\u0027s Bugging the Chocobos",
+    "PreviousQuestIds": [
+      67145,
+      67307
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam",
+      "Some Bad News"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Leonulfe",
+    "StarterNpcLocation": {
+      "RowId": 5801356,
+      "X": 711.144,
+      "Y": -36.4086,
+      "Z": 198.12,
+      "Yaw": -2.47186,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Leonulfe",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5202,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10685,
+          "ItemName": "Wyvernskin Gloves of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10727,
+          "ItemName": "Wyvernskin Gloves of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10769,
+          "ItemName": "Wyvernskin Gloves of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10853,
+          "ItemName": "Wyvernskin Cuffs of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67309,
+    "QuestTitle": "Why Does the Caged Bird Sing",
+    "PreviousQuestIds": [
+      67145,
+      67307
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam",
+      "Some Bad News"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guenaret",
+    "StarterNpcLocation": {
+      "RowId": 5801373,
+      "X": 849.085,
+      "Y": -37.6738,
+      "Z": -39.5535,
+      "Yaw": -2.31155,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Guenaret",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5203,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 444,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10811,
+          "ItemName": "Wyvernskin Cuffs of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10895,
+          "ItemName": "Wyvernskin Gloves of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10937,
+          "ItemName": "Wyvernskin Gloves of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67310,
+    "QuestTitle": "Saving the Bait",
+    "PreviousQuestIds": [
+      67145,
+      67307
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam",
+      "Some Bad News"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aimebert",
+    "StarterNpcLocation": {
+      "RowId": 5841413,
+      "X": 686,
+      "Y": -24.3992,
+      "Z": -269.062,
+      "Yaw": 0.433132,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Aimebert",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5204,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 473,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67311,
+    "QuestTitle": "I Wanna Be the Hunter",
+    "PreviousQuestIds": [
+      67145
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam"
+    ],
+    "NextQuestIds": [
+      67312
+    ],
+    "NextQuestTitles": [
+      "A Natural Instinct"
+    ],
+    "StarterNpc": "Loupard",
+    "StarterNpcLocation": {
+      "RowId": 5796892,
+      "X": 535.321,
+      "Y": -51.3813,
+      "Z": 65.2952,
+      "Yaw": 2.89433,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Loupard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5211,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100471,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67312,
+    "QuestTitle": "A Natural Instinct",
+    "PreviousQuestIds": [
+      67145,
+      67311
+    ],
+    "PreviousQuestTitles": [
+      "Where the Chocobos Roam",
+      "I Wanna Be the Hunter"
+    ],
+    "NextQuestIds": [
+      67313
+    ],
+    "NextQuestTitles": [
+      "First Impressions Last"
+    ],
+    "StarterNpc": "Loupard",
+    "StarterNpcLocation": {
+      "RowId": 5796892,
+      "X": 535.321,
+      "Y": -51.3813,
+      "Z": 65.2952,
+      "Yaw": 2.89433,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Loupard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5212,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100471,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10706,
+          "ItemName": "Wyvernskin Boots of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10748,
+          "ItemName": "Wyvernskin Boots of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10790,
+          "ItemName": "Wyvernskin Boots of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10874,
+          "ItemName": "Wyvernskin Boots of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67313,
+    "QuestTitle": "First Impressions Last",
+    "PreviousQuestIds": [
+      67147,
+      67312
+    ],
+    "PreviousQuestTitles": [
+      "The Trine Towers",
+      "A Natural Instinct"
+    ],
+    "NextQuestIds": [
+      67317
+    ],
+    "NextQuestTitles": [
+      "The Man Who Slew Too Much"
+    ],
+    "StarterNpc": "Loupard",
+    "StarterNpcLocation": {
+      "RowId": 5796892,
+      "X": 535.321,
+      "Y": -51.3813,
+      "Z": 65.2952,
+      "Yaw": 2.89433,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Loupard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5213,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100471,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 889,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10832,
+          "ItemName": "Wyvernskin Boots of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10916,
+          "ItemName": "Wyvernskin Boots of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10958,
+          "ItemName": "Wyvernskin Boots of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67314,
+    "QuestTitle": "A Trap to Yawn For",
+    "PreviousQuestIds": [
+      67148,
+      67306
+    ],
+    "PreviousQuestTitles": [
+      "Gifts for the Outcasts",
+      "Clever Chicks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Virgeaume",
+    "StarterNpcLocation": {
+      "RowId": 5796897,
+      "X": 483.24,
+      "Y": -51.1414,
+      "Z": 25.2912,
+      "Yaw": -1.63001,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Virgeaume",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5206,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 702,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67315,
+    "QuestTitle": "Needs More Salt",
+    "PreviousQuestIds": [
+      67148
+    ],
+    "PreviousQuestTitles": [
+      "Gifts for the Outcasts"
+    ],
+    "NextQuestIds": [
+      67316,
+      67320
+    ],
+    "NextQuestTitles": [
+      "Uninvited Guests",
+      "Wet Strings Attached"
+    ],
+    "StarterNpc": "Marcechamp",
+    "StarterNpcLocation": {
+      "RowId": 5796581,
+      "X": 470.047,
+      "Y": -49.8913,
+      "Z": 20.3859,
+      "Yaw": -1.27904,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5207,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67316,
+    "QuestTitle": "Uninvited Guests",
+    "PreviousQuestIds": [
+      67148,
+      67315
+    ],
+    "PreviousQuestTitles": [
+      "Gifts for the Outcasts",
+      "Needs More Salt"
+    ],
+    "NextQuestIds": [
+      67321
+    ],
+    "NextQuestTitles": [
+      "What Remaclon Saw"
+    ],
+    "StarterNpc": "Tailfeather hunter",
+    "StarterNpcLocation": {
+      "RowId": 5873680,
+      "X": 344.958,
+      "Y": -30.1286,
+      "Z": -419.191,
+      "Yaw": 2.50675,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Tailfeather hunter",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5209,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67317,
+    "QuestTitle": "The Man Who Slew Too Much",
+    "PreviousQuestIds": [
+      67147,
+      67313
+    ],
+    "PreviousQuestTitles": [
+      "The Trine Towers",
+      "First Impressions Last"
+    ],
+    "NextQuestIds": [
+      67318
+    ],
+    "NextQuestTitles": [
+      "A Budding Partnership"
+    ],
+    "StarterNpc": "Loupard",
+    "StarterNpcLocation": {
+      "RowId": 5796892,
+      "X": 535.321,
+      "Y": -51.3813,
+      "Z": 65.2952,
+      "Yaw": 2.89433,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Loupard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5214,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100471,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 689,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10671,
+          "ItemName": "Wyvernskin Mane of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10713,
+          "ItemName": "Wyvernskin Pot Helm of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10755,
+          "ItemName": "Wyvernskin Eyepatch of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10839,
+          "ItemName": "Holy Rainbow Scarf of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67318,
+    "QuestTitle": "A Budding Partnership",
+    "PreviousQuestIds": [
+      67147,
+      67317
+    ],
+    "PreviousQuestTitles": [
+      "The Trine Towers",
+      "The Man Who Slew Too Much"
+    ],
+    "NextQuestIds": [
+      67319
+    ],
+    "NextQuestTitles": [
+      "Persistence Makes Perfect"
+    ],
+    "StarterNpc": "Loupard",
+    "StarterNpcLocation": {
+      "RowId": 5796892,
+      "X": 535.321,
+      "Y": -51.3813,
+      "Z": 65.2952,
+      "Yaw": 2.89433,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Q\u0027yantaa",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5215,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100471,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10797,
+          "ItemName": "Holy Rainbow Hat of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10881,
+          "ItemName": "Holy Rainbow Hat of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10923,
+          "ItemName": "Wyvernskin Mask of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67319,
+    "QuestTitle": "Persistence Makes Perfect",
+    "PreviousQuestIds": [
+      67147,
+      67318
+    ],
+    "PreviousQuestTitles": [
+      "The Trine Towers",
+      "A Budding Partnership"
+    ],
+    "NextQuestIds": [
+      67458
+    ],
+    "NextQuestTitles": [
+      "Getting a Legtrap Up"
+    ],
+    "StarterNpc": "Q\u0027yantaa",
+    "StarterNpcLocation": {
+      "RowId": 5911540,
+      "X": 479.819,
+      "Y": -50.8311,
+      "Z": -5.71191,
+      "Yaw": 1.23356,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Loupard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5216,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100471,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67320,
+    "QuestTitle": "Wet Strings Attached",
+    "PreviousQuestIds": [
+      67148,
+      67315
+    ],
+    "PreviousQuestTitles": [
+      "Gifts for the Outcasts",
+      "Needs More Salt"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "harrowed hunter",
+    "StarterNpcLocation": {
+      "RowId": 5873706,
+      "X": 517.357,
+      "Y": -24.3116,
+      "Z": -541.023,
+      "Yaw": -2.43908,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "harrowed hunter",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5208,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 415,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67321,
+    "QuestTitle": "What Remaclon Saw",
+    "PreviousQuestIds": [
+      67148,
+      67316
+    ],
+    "PreviousQuestTitles": [
+      "Gifts for the Outcasts",
+      "Uninvited Guests"
+    ],
+    "NextQuestIds": [
+      67458
+    ],
+    "NextQuestTitles": [
+      "Getting a Legtrap Up"
+    ],
+    "StarterNpc": "Remaclon",
+    "StarterNpcLocation": {
+      "RowId": 5800910,
+      "X": 497.836,
+      "Y": -49.7717,
+      "Z": 11.8547,
+      "Yaw": 1.44502,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Remaclon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10965,
+          "ItemName": "Mythrite Necklace of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10989,
+          "ItemName": "Mythrite Necklace of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11013,
+          "ItemName": "Mythrite Necklace of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11037,
+          "ItemName": "Mythrite Necklace of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11061,
+          "ItemName": "Mythrite Necklace of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67322,
+    "QuestTitle": "To Each His Own",
+    "PreviousQuestIds": [
+      67149
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind"
+    ],
+    "NextQuestIds": [
+      67324,
+      67325
+    ],
+    "NextQuestTitles": [
+      "Freedom of Choice",
+      "Aggressive Pruning"
+    ],
+    "StarterNpc": "Cibleroit",
+    "StarterNpcLocation": {
+      "RowId": 5802668,
+      "X": 81.5105,
+      "Y": -49.2364,
+      "Z": -150.035,
+      "Yaw": 2.85288,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Cibleroit",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5217,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 560,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67323,
+    "QuestTitle": "Low-hanging Fruit",
+    "PreviousQuestIds": [
+      67149
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind"
+    ],
+    "NextQuestIds": [
+      67324,
+      67325
+    ],
+    "NextQuestTitles": [
+      "Freedom of Choice",
+      "Aggressive Pruning"
+    ],
+    "StarterNpc": "the Hungerer",
+    "StarterNpcLocation": {
+      "RowId": 5871823,
+      "X": 82.0751,
+      "Y": -49.2033,
+      "Z": -152.126,
+      "Yaw": -0.427418,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "the Hungerer",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5218,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67324,
+    "QuestTitle": "Freedom of Choice",
+    "PreviousQuestIds": [
+      67149,
+      67322,
+      67323
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind",
+      "To Each His Own",
+      "Low-hanging Fruit"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Cibleroit",
+    "StarterNpcLocation": {
+      "RowId": 5802668,
+      "X": 81.5105,
+      "Y": -49.2364,
+      "Z": -150.035,
+      "Yaw": 2.85288,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Cibleroit",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5219,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67325,
+    "QuestTitle": "Aggressive Pruning",
+    "PreviousQuestIds": [
+      67149,
+      67322,
+      67323
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind",
+      "To Each His Own",
+      "Low-hanging Fruit"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "the Hungerer",
+    "StarterNpcLocation": {
+      "RowId": 5871823,
+      "X": 82.0751,
+      "Y": -49.2033,
+      "Z": -152.126,
+      "Yaw": -0.427418,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "the Hungerer",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67326,
+    "QuestTitle": "Stolen Munitions",
+    "PreviousQuestIds": [
+      67149
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind"
+    ],
+    "NextQuestIds": [
+      67328,
+      67331
+    ],
+    "NextQuestTitles": [
+      "Natural Repellent",
+      "Treason and Plot"
+    ],
+    "StarterNpc": "Vath fleetfoot",
+    "StarterNpcLocation": {
+      "RowId": 5802616,
+      "X": 70.8475,
+      "Y": -49.2409,
+      "Z": -141.558,
+      "Yaw": 2.71624,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath fleetfoot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5221,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 560,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67327,
+    "QuestTitle": "Feat of Clay",
+    "PreviousQuestIds": [
+      67149
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind"
+    ],
+    "NextQuestIds": [
+      67329
+    ],
+    "NextQuestTitles": [
+      "Yellow Stones"
+    ],
+    "StarterNpc": "voracious Vath",
+    "StarterNpcLocation": {
+      "RowId": 5802670,
+      "X": 56.8514,
+      "Y": -49.9222,
+      "Z": -135.908,
+      "Yaw": -0.356733,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "voracious Vath",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5222,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 531,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67328,
+    "QuestTitle": "Natural Repellent",
+    "PreviousQuestIds": [
+      67149,
+      67326
+    ],
+    "PreviousQuestTitles": [
+      "The Nonmind",
+      "Stolen Munitions"
+    ],
+    "NextQuestIds": [
+      67332
+    ],
+    "NextQuestTitles": [
+      "Vindictive Vath Vendetta"
+    ],
+    "StarterNpc": "Vath storyteller",
+    "StarterNpcLocation": {
+      "RowId": 5802613,
+      "X": 73.2041,
+      "Y": -49.1958,
+      "Z": -139.04,
+      "Yaw": -3.11373,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath storyteller",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5223,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 52,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12090,
+      "Gil": 531,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67329,
+    "QuestTitle": "Yellow Stones",
+    "PreviousQuestIds": [
+      67150,
+      67327
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "Feat of Clay"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "voracious Vath",
+    "StarterNpcLocation": {
+      "RowId": 5802670,
+      "X": 56.8514,
+      "Y": -49.9222,
+      "Z": -135.908,
+      "Yaw": -0.356733,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "voracious Vath",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5304,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67330,
+    "QuestTitle": "A Curious Herb",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath strongarm",
+    "StarterNpcLocation": {
+      "RowId": 5881665,
+      "X": 75.6563,
+      "Y": -49.1563,
+      "Z": -161.481,
+      "Yaw": -1.15297,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath strongarm",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5306,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67331,
+    "QuestTitle": "Treason and Plot",
+    "PreviousQuestIds": [
+      67150,
+      67326
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "Stolen Munitions"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath fleetfoot",
+    "StarterNpcLocation": {
+      "RowId": 5802616,
+      "X": 70.8475,
+      "Y": -49.2409,
+      "Z": -141.558,
+      "Yaw": 2.71624,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath fleetfoot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5303,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 597,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67332,
+    "QuestTitle": "Vindictive Vath Vendetta",
+    "PreviousQuestIds": [
+      67150,
+      67328
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "Natural Repellent"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath storyteller",
+    "StarterNpcLocation": {
+      "RowId": 5802613,
+      "X": 73.2041,
+      "Y": -49.1958,
+      "Z": -139.04,
+      "Yaw": -3.11373,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath storyteller",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5305,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 597,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67333,
+    "QuestTitle": "The Hunter Becomes the Kweh",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [
+      67334
+    ],
+    "NextQuestTitles": [
+      "Chocobo\u0027s Last Stand"
+    ],
+    "StarterNpc": "Marcechamp",
+    "StarterNpcLocation": {
+      "RowId": 5796581,
+      "X": 470.047,
+      "Y": -49.8913,
+      "Z": 20.3859,
+      "Yaw": -1.27904,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 538,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67334,
+    "QuestTitle": "Chocobo\u0027s Last Stand",
+    "PreviousQuestIds": [
+      67150,
+      67333
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "The Hunter Becomes the Kweh"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Marcechamp",
+    "StarterNpcLocation": {
+      "RowId": 5796581,
+      "X": 470.047,
+      "Y": -49.8913,
+      "Z": 20.3859,
+      "Yaw": -1.27904,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5302,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 597,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67335,
+    "QuestTitle": "How to Feed Your Dragon",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [
+      67336
+    ],
+    "NextQuestTitles": [
+      "Hungry for Seconds"
+    ],
+    "StarterNpc": "Toh Y Thrah",
+    "StarterNpcLocation": {
+      "RowId": 5811003,
+      "X": -225.723,
+      "Y": -30.0653,
+      "Z": 104.031,
+      "Yaw": 3.07652,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Toh Y Thrah",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5312,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 538,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67336,
+    "QuestTitle": "Hungry for Seconds",
+    "PreviousQuestIds": [
+      67150,
+      67335
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "How to Feed Your Dragon"
+    ],
+    "NextQuestIds": [
+      67337
+    ],
+    "NextQuestTitles": [
+      "A Taste of the Peculiar"
+    ],
+    "StarterNpc": "Toh Y Thrah",
+    "StarterNpcLocation": {
+      "RowId": 5811003,
+      "X": -225.723,
+      "Y": -30.0653,
+      "Z": 104.031,
+      "Yaw": 3.07652,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Toh Y Thrah",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5313,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67337,
+    "QuestTitle": "A Taste of the Peculiar",
+    "PreviousQuestIds": [
+      67150,
+      67336
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "Hungry for Seconds"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Toh Y Thrah",
+    "StarterNpcLocation": {
+      "RowId": 5811003,
+      "X": -225.723,
+      "Y": -30.0653,
+      "Z": 104.031,
+      "Yaw": 3.07652,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Toh Y Thrah",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5314,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 597,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4648,
+          "ItemName": "Sauteed Coeurl",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 7572,
+          "ItemName": "Roast Canard",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9335,
+          "ItemName": "Bacon Broth",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67338,
+    "QuestTitle": "A Lesson in Humility",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [
+      67348
+    ],
+    "NextQuestTitles": [
+      "Back in the Game"
+    ],
+    "StarterNpc": "Ess Khas",
+    "StarterNpcLocation": {
+      "RowId": 5810997,
+      "X": -305.534,
+      "Y": 39.08,
+      "Z": 23.0198,
+      "Yaw": 1.60332,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Ess Khas",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5315,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 626,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67339,
+    "QuestTitle": "No Smoking Allowed",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [
+      67345
+    ],
+    "NextQuestTitles": [
+      "Like Gnaths to a Flame"
+    ],
+    "StarterNpc": "Gullinkambi",
+    "StarterNpcLocation": {
+      "RowId": 5810998,
+      "X": -310.532,
+      "Y": 96.0603,
+      "Z": 41.775,
+      "Yaw": -2.20831,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5318,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 508,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67340,
+    "QuestTitle": "Awakened",
+    "PreviousQuestIds": [
+      67151
+    ],
+    "PreviousQuestTitles": [
+      "Breaking into Hives"
+    ],
+    "NextQuestIds": [
+      67341,
+      67342
+    ],
+    "NextQuestTitles": [
+      "It\u0027s the Thought That Counts",
+      "Advanced Vathematics"
+    ],
+    "StarterNpc": "Nonmind drone",
+    "StarterNpcLocation": {
+      "RowId": 5882021,
+      "X": 462.56,
+      "Y": -100.279,
+      "Z": 804.397,
+      "Yaw": 1.67195,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Nonmind drone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5307,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67341,
+    "QuestTitle": "It\u0027s the Thought That Counts",
+    "PreviousQuestIds": [
+      67151,
+      67340
+    ],
+    "PreviousQuestTitles": [
+      "Breaking into Hives",
+      "Awakened"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nonmind drone",
+    "StarterNpcLocation": {
+      "RowId": 5882024,
+      "X": 74.412,
+      "Y": -49.1141,
+      "Z": -141.89,
+      "Yaw": -1.06922,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath storyteller",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5308,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 597,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67342,
+    "QuestTitle": "Advanced Vathematics",
+    "PreviousQuestIds": [
+      67151,
+      67340
+    ],
+    "PreviousQuestTitles": [
+      "Breaking into Hives",
+      "Awakened"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "astute Vath",
+    "StarterNpcLocation": {
+      "RowId": 5882056,
+      "X": 70.0797,
+      "Y": -50.9671,
+      "Z": -120.216,
+      "Yaw": -0.229768,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "astute Vath",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5309,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 626,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67343,
+    "QuestTitle": "Something Worth Protecting",
+    "PreviousQuestIds": [
+      67151
+    ],
+    "PreviousQuestTitles": [
+      "Breaking into Hives"
+    ],
+    "NextQuestIds": [
+      67344
+    ],
+    "NextQuestTitles": [
+      "Nipped in the Bud"
+    ],
+    "StarterNpc": "Vath fleetfoot",
+    "StarterNpcLocation": {
+      "RowId": 5802616,
+      "X": 70.8475,
+      "Y": -49.2409,
+      "Z": -141.558,
+      "Yaw": 2.71624,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath fleetfoot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 508,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5770,
+          "ItemName": "Raisin Brown Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5777,
+          "ItemName": "Marsh Green Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5750,
+          "ItemName": "Cork Brown Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5741,
+          "ItemName": "Coral Pink Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5729,
+          "ItemName": "Snow White Dye",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67344,
+    "QuestTitle": "Nipped in the Bud",
+    "PreviousQuestIds": [
+      67151,
+      67343
+    ],
+    "PreviousQuestTitles": [
+      "Breaking into Hives",
+      "Something Worth Protecting"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath fleetfoot",
+    "StarterNpcLocation": {
+      "RowId": 5802616,
+      "X": 70.8475,
+      "Y": -49.2409,
+      "Z": -141.558,
+      "Yaw": 2.71624,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath fleetfoot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5311,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 538,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67345,
+    "QuestTitle": "Like Gnaths to a Flame",
+    "PreviousQuestIds": [
+      67152,
+      67339
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "No Smoking Allowed"
+    ],
+    "NextQuestIds": [
+      67346
+    ],
+    "NextQuestTitles": [
+      "Fit to Be Tied"
+    ],
+    "StarterNpc": "Gullinkambi",
+    "StarterNpcLocation": {
+      "RowId": 5810998,
+      "X": -310.532,
+      "Y": 96.0603,
+      "Z": 41.775,
+      "Yaw": -2.20831,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5319,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 538,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67346,
+    "QuestTitle": "Fit to Be Tied",
+    "PreviousQuestIds": [
+      67152,
+      67345
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "Like Gnaths to a Flame"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gullinkambi",
+    "StarterNpcLocation": {
+      "RowId": 5810998,
+      "X": -310.532,
+      "Y": 96.0603,
+      "Z": 41.775,
+      "Yaw": -2.20831,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 479,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67347,
+    "QuestTitle": "Blunders in Dragonsitting",
+    "PreviousQuestIds": [
+      67152,
+      67348
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "Back in the Game"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "indomitable wyvern",
+    "StarterNpcLocation": {
+      "RowId": 5882395,
+      "X": -346.772,
+      "Y": 30.9823,
+      "Z": -34.2779,
+      "Yaw": 2.10766,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "indomitable wyvern",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5321,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 538,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67348,
+    "QuestTitle": "Back in the Game",
+    "PreviousQuestIds": [
+      67150,
+      67338
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "A Lesson in Humility"
+    ],
+    "NextQuestIds": [
+      67347,
+      67349
+    ],
+    "NextQuestTitles": [
+      "Blunders in Dragonsitting",
+      "Where Dragons Lie"
+    ],
+    "StarterNpc": "Ess Khas",
+    "StarterNpcLocation": {
+      "RowId": 5810997,
+      "X": -305.534,
+      "Y": 39.08,
+      "Z": 23.0198,
+      "Yaw": 1.60332,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Ess Khas",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5316,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 626,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4609,
+          "ItemName": "X-Potion of Strength",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4610,
+          "ItemName": "X-Potion of Dexterity",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4611,
+          "ItemName": "X-Potion of Vitality",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4612,
+          "ItemName": "X-Potion of Intelligence",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4613,
+          "ItemName": "X-Potion of Mind",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67349,
+    "QuestTitle": "Where Dragons Lie",
+    "PreviousQuestIds": [
+      67152,
+      67348
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "Back in the Game"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ess Khas",
+    "StarterNpcLocation": {
+      "RowId": 5810997,
+      "X": -305.534,
+      "Y": 39.08,
+      "Z": 23.0198,
+      "Yaw": 1.60332,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Ess Khas",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5317,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67350,
+    "QuestTitle": "When Mother Calls",
+    "PreviousQuestIds": [
+      67150
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity"
+    ],
+    "NextQuestIds": [
+      67351
+    ],
+    "NextQuestTitles": [
+      "A Dragon and His Boy"
+    ],
+    "StarterNpc": "Gullinkambi",
+    "StarterNpcLocation": {
+      "RowId": 5810998,
+      "X": -310.532,
+      "Y": 96.0603,
+      "Z": 41.775,
+      "Yaw": -2.20831,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Kal Myhk",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5322,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100474,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 479,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67351,
+    "QuestTitle": "A Dragon and His Boy",
+    "PreviousQuestIds": [
+      67150,
+      67350
+    ],
+    "PreviousQuestTitles": [
+      "A Gnathic Deity",
+      "When Mother Calls"
+    ],
+    "NextQuestIds": [
+      67352
+    ],
+    "NextQuestTitles": [
+      "Between Friends and Family"
+    ],
+    "StarterNpc": "Kal Myhk",
+    "StarterNpcLocation": {
+      "RowId": 5905471,
+      "X": -213.513,
+      "Y": -36.5606,
+      "Z": 177.572,
+      "Yaw": 0.50932,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5323,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100474,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67352,
+    "QuestTitle": "Between Friends and Family",
+    "PreviousQuestIds": [
+      67152,
+      67351
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "A Dragon and His Boy"
+    ],
+    "NextQuestIds": [
+      67353
+    ],
+    "NextQuestTitles": [
+      "The Heart of a Dragon"
+    ],
+    "StarterNpc": "Kal Myhk",
+    "StarterNpcLocation": {
+      "RowId": 5905471,
+      "X": -213.513,
+      "Y": -36.5606,
+      "Z": 177.572,
+      "Yaw": 0.50932,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Kal Myhk",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5324,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100474,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 567,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67353,
+    "QuestTitle": "The Heart of a Dragon",
+    "PreviousQuestIds": [
+      67152,
+      67352
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "Between Friends and Family"
+    ],
+    "NextQuestIds": [
+      67354
+    ],
+    "NextQuestTitles": [
+      "Let Bygones Be Bygones"
+    ],
+    "StarterNpc": "Kal Myhk",
+    "StarterNpcLocation": {
+      "RowId": 5905471,
+      "X": -213.513,
+      "Y": -36.5606,
+      "Z": 177.572,
+      "Yaw": 0.50932,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5325,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100474,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 626,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67354,
+    "QuestTitle": "Let Bygones Be Bygones",
+    "PreviousQuestIds": [
+      67152,
+      67353
+    ],
+    "PreviousQuestTitles": [
+      "Lord of the Hive",
+      "The Heart of a Dragon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gullinkambi",
+    "StarterNpcLocation": {
+      "RowId": 5810998,
+      "X": -310.532,
+      "Y": 96.0603,
+      "Z": 41.775,
+      "Yaw": -2.20831,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5326,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100474,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 744,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4560,
+          "ItemName": "Hi-Elixir",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4554,
+          "ItemName": "X-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4558,
+          "ItemName": "X-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67458,
+    "QuestTitle": "Getting a Legtrap Up",
+    "PreviousQuestIds": [
+      67189,
+      67319,
+      67321
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise",
+      "Persistence Makes Perfect",
+      "What Remaclon Saw"
+    ],
+    "NextQuestIds": [
+      67459,
+      67460,
+      67461
+    ],
+    "NextQuestTitles": [
+      "Pest Control",
+      "A Step in the Right Direction",
+      "Garbage Duty"
+    ],
+    "StarterNpc": "Hervoix",
+    "StarterNpcLocation": {
+      "RowId": 5911599,
+      "X": 455.578,
+      "Y": -51.1414,
+      "Z": 21.6056,
+      "Yaw": -2.51171,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Hervoix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5702,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100472,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 8157,
+          "ItemName": "Xelphatol Apple",
+          "Count": 15,
+          "IsHq": false
+        },
+        {
+          "ItemId": 8158,
+          "ItemName": "Doman Plum",
+          "Count": 15,
+          "IsHq": false
+        },
+        {
+          "ItemId": 8159,
+          "ItemName": "Mamook Pear",
+          "Count": 15,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67459,
+    "QuestTitle": "Pest Control",
+    "PreviousQuestIds": [
+      67189,
+      67458
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise",
+      "Getting a Legtrap Up"
+    ],
+    "NextQuestIds": [
+      67462
+    ],
+    "NextQuestTitles": [
+      "A Hunter\u0027s True Nature"
+    ],
+    "StarterNpc": "Hervoix",
+    "StarterNpcLocation": {
+      "RowId": 5911599,
+      "X": 455.578,
+      "Y": -51.1414,
+      "Z": 21.6056,
+      "Yaw": -2.51171,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Hervoix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5703,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100472,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 633,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 8160,
+          "ItemName": "Valfruit",
+          "Count": 15,
+          "IsHq": false
+        },
+        {
+          "ItemId": 8161,
+          "ItemName": "O\u0027Ghomoro Berries",
+          "Count": 15,
+          "IsHq": false
+        },
+        {
+          "ItemId": 8162,
+          "ItemName": "Cieldalaes Pineapple",
+          "Count": 15,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67460,
+    "QuestTitle": "A Step in the Right Direction",
+    "PreviousQuestIds": [
+      67189,
+      67458
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise",
+      "Getting a Legtrap Up"
+    ],
+    "NextQuestIds": [
+      67462
+    ],
+    "NextQuestTitles": [
+      "A Hunter\u0027s True Nature"
+    ],
+    "StarterNpc": "Hervoix",
+    "StarterNpcLocation": {
+      "RowId": 5911599,
+      "X": 455.578,
+      "Y": -51.1414,
+      "Z": 21.6056,
+      "Yaw": -2.51171,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Hervoix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5704,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100472,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8163,
+          "ItemName": "Han Lemon",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67461,
+    "QuestTitle": "Garbage Duty",
+    "PreviousQuestIds": [
+      67189,
+      67458
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise",
+      "Getting a Legtrap Up"
+    ],
+    "NextQuestIds": [
+      67462
+    ],
+    "NextQuestTitles": [
+      "A Hunter\u0027s True Nature"
+    ],
+    "StarterNpc": "Hervoix",
+    "StarterNpcLocation": {
+      "RowId": 5911599,
+      "X": 455.578,
+      "Y": -51.1414,
+      "Z": 21.6056,
+      "Yaw": -2.51171,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Hervoix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5705,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100472,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8168,
+          "ItemName": "Magicked Stable Broom",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67462,
+    "QuestTitle": "A Hunter\u0027s True Nature",
+    "PreviousQuestIds": [
+      67459,
+      67460,
+      67461
+    ],
+    "PreviousQuestTitles": [
+      "Pest Control",
+      "A Step in the Right Direction",
+      "Garbage Duty"
+    ],
+    "NextQuestIds": [
+      67463
+    ],
+    "NextQuestTitles": [
+      "Smells Like Team Spirit"
+    ],
+    "StarterNpc": "Hervoix",
+    "StarterNpcLocation": {
+      "RowId": 5911599,
+      "X": 455.578,
+      "Y": -51.1414,
+      "Z": 21.6056,
+      "Yaw": -2.51171,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Hervoix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5706,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100472,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 533,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8166,
+          "ItemName": "Thavnairian Onion",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67463,
+    "QuestTitle": "Smells Like Team Spirit",
+    "PreviousQuestIds": [
+      67189,
+      67462
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise",
+      "A Hunter\u0027s True Nature"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "O\u0027bhen Tia",
+    "StarterNpcLocation": {
+      "RowId": 5911706,
+      "X": 95.7142,
+      "Y": -2.30646,
+      "Z": -492.77,
+      "Yaw": 2.81978,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Loupard",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5707,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100473,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 695,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67464,
+    "QuestTitle": "Smarter than the Average Beast",
+    "PreviousQuestIds": [
+      67189
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Marcechamp",
+    "StarterNpcLocation": {
+      "RowId": 5796581,
+      "X": 470.047,
+      "Y": -49.8913,
+      "Z": 20.3859,
+      "Yaw": -1.27904,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5701,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6654,
+          "ItemName": "Stuffed Chocobo",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67465,
+    "QuestTitle": "From the Jaws of Hunger",
+    "PreviousQuestIds": [
+      67189
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gullinkambi",
+    "StarterNpcLocation": {
+      "RowId": 5810998,
+      "X": -310.532,
+      "Y": 96.0603,
+      "Z": 41.775,
+      "Yaw": -2.20831,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Gullinkambi",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5709,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 689,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12858,
+          "ItemName": "Cockatrice Meatballs",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 7572,
+          "ItemName": "Roast Canard",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4647,
+          "ItemName": "Eft Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4646,
+          "ItemName": "Jerked Beef",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67466,
+    "QuestTitle": "The Best Defense",
+    "PreviousQuestIds": [
+      67189
+    ],
+    "PreviousQuestTitles": [
+      "Tataru\u0027s Surprise"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vath fleetfoot",
+    "StarterNpcLocation": {
+      "RowId": 5802616,
+      "X": 70.8475,
+      "Y": -49.2409,
+      "Z": -141.558,
+      "Yaw": 2.71624,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Vath fleetfoot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 118,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Forelands Sidequests"
+    },
+    "SortKey": 5708,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 470,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

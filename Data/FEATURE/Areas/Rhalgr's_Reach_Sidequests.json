@@ -1,0 +1,608 @@
+[
+  {
+    "QuestId": 68187,
+    "QuestTitle": "Hard Blow",
+    "PreviousQuestIds": [
+      68000
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "straight-arrow sutler",
+    "StarterNpcLocation": {
+      "RowId": 6958743,
+      "X": 183.456,
+      "Y": 13,
+      "Z": -128.719,
+      "Yaw": -2.07228,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "straight-arrow sutler",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 1010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 655,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68188,
+    "QuestTitle": "Mother\u0027s Boy",
+    "PreviousQuestIds": [
+      68000
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade"
+    ],
+    "NextQuestIds": [
+      68189
+    ],
+    "NextQuestTitles": [
+      "Of Rats and Men"
+    ],
+    "StarterNpc": "wounded Resistance fighter",
+    "StarterNpcLocation": {
+      "RowId": 6840329,
+      "X": -144.069,
+      "Y": 1.08605,
+      "Z": -62.4077,
+      "Yaw": 1.28548,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Resistance fighter\u0027s mother",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 1020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 666,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68404,
+    "QuestTitle": "Ant Juice",
+    "PreviousQuestIds": [
+      68083
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ranulf",
+    "StarterNpcLocation": {
+      "RowId": 6865847,
+      "X": 78.9349,
+      "Y": 0.0151978,
+      "Z": -25.4674,
+      "Yaw": -2.59415,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Ranulf",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 9010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 701,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20627,
+          "ItemName": "Head Bandage",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68405,
+    "QuestTitle": "Dearest Daughter",
+    "PreviousQuestIds": [
+      68083
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red"
+    ],
+    "NextQuestIds": [
+      68407,
+      68408
+    ],
+    "NextQuestTitles": [
+      "Confessions of the Heart",
+      "Falling Down on the Job"
+    ],
+    "StarterNpc": "elderly private",
+    "StarterNpcLocation": {
+      "RowId": 6958468,
+      "X": -114.641,
+      "Y": 0.598048,
+      "Z": -25.2232,
+      "Yaw": 1.28214,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "serpent recruit",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 9020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 737,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68406,
+    "QuestTitle": "Fallen Friend of Mine",
+    "PreviousQuestIds": [
+      68083
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red"
+    ],
+    "NextQuestIds": [
+      68410,
+      68411
+    ],
+    "NextQuestTitles": [
+      "Religious Freedom",
+      "The Qiqirn Strikes Back"
+    ],
+    "StarterNpc": "Ananta battlemaid",
+    "StarterNpcLocation": {
+      "RowId": 6953027,
+      "X": -31.9676,
+      "Y": 1.61313,
+      "Z": 53.2997,
+      "Yaw": 1.56689,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "stonemason",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 9030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 917,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68421,
+    "QuestTitle": "Dreaming of Home",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      68422
+    ],
+    "NextQuestTitles": [
+      "For Wilred"
+    ],
+    "StarterNpc": "Wichard",
+    "StarterNpcLocation": {
+      "RowId": 6907679,
+      "X": -76.4203,
+      "Y": 0,
+      "Z": 36.5989,
+      "Yaw": -2.84376,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Gundobald",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 10010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100714,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68541,
+    "QuestTitle": "None Forgotten, None Forsaken",
+    "PreviousQuestIds": [
+      68508,
+      68477
+    ],
+    "PreviousQuestTitles": [
+      "Return of the Bull",
+      "Reach Long and Prosper"
+    ],
+    "NextQuestIds": [
+      68542,
+      68675
+    ],
+    "NextQuestTitles": [
+      "Not While Their Names Are Still Spoken",
+      "The Seaweed Is Always Greener"
+    ],
+    "StarterNpc": "Galiena",
+    "StarterNpcLocation": {
+      "RowId": 6708424,
+      "X": -70.538,
+      "Y": 0.459993,
+      "Z": 64.3785,
+      "Yaw": 2.66268,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 1000,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12861,
+          "ItemName": "Baked Onion Soup",
+          "Count": 1
+        },
+        {
+          "ItemId": 12866,
+          "ItemName": "Stuffed Cabbage Rolls",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68542,
+    "QuestTitle": "Not While Their Names Are Still Spoken",
+    "PreviousQuestIds": [
+      68541
+    ],
+    "PreviousQuestTitles": [
+      "None Forgotten, None Forsaken"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "M\u0027naago",
+    "StarterNpcLocation": {
+      "RowId": 6829441,
+      "X": 171.325,
+      "Y": 13.0159,
+      "Z": -89.9405,
+      "Yaw": -1.56668,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "M\u0027naago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 1005,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12863,
+          "ItemName": "Emerald Soup",
+          "Count": 1
+        },
+        {
+          "ItemId": 12867,
+          "ItemName": "Dhalmel Gratin",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68566,
+    "QuestTitle": "A Fortune in Salt",
+    "PreviousQuestIds": [
+      68610
+    ],
+    "PreviousQuestTitles": [
+      "The Primary Agreement"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "perky peddler",
+    "StarterNpcLocation": {
+      "RowId": 7385084,
+      "X": 77.1594,
+      "Y": -1.19209E-07,
+      "Z": 67.7007,
+      "Yaw": -0.191966,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Watt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 123,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Rhalgr\u0027s Reach Sidequests"
+    },
+    "SortKey": 10040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100783,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1038,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 19907,
+          "ItemName": "Ala Mhigan Salt Crystal",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 19827,
+          "ItemName": "Stewed River Bream",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19819,
+          "ItemName": "Jerked Jhammel",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 21088,
+          "ItemName": "Chawan-mushi",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 19810,
+          "ItemName": "Steppe Tea",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,3496 @@
+[
+  {
+    "QuestId": 68181,
+    "QuestTitle": "Dark Water",
+    "PreviousQuestIds": [
+      67995
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ansger",
+    "StarterNpcLocation": {
+      "RowId": 6843868,
+      "X": 127.153,
+      "Y": 118.412,
+      "Z": -704.128,
+      "Yaw": -2.05609,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Ansger",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68182,
+    "QuestTitle": "An Honest Day\u0027s Work",
+    "PreviousQuestIds": [
+      67995
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups"
+    ],
+    "NextQuestIds": [
+      68184,
+      68185
+    ],
+    "NextQuestTitles": [
+      "Bears over Flowers",
+      "Beastly Bandits"
+    ],
+    "StarterNpc": "Hidden Hearth",
+    "StarterNpcLocation": {
+      "RowId": 6794600,
+      "X": 122.242,
+      "Y": 118.156,
+      "Z": -774.565,
+      "Yaw": 1.09034,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Bent Frond",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68183,
+    "QuestTitle": "Home Comforts",
+    "PreviousQuestIds": [
+      67995
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gelen",
+    "StarterNpcLocation": {
+      "RowId": 6794599,
+      "X": 168.139,
+      "Y": 149.561,
+      "Z": -809.995,
+      "Yaw": -0.625251,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Gelen",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68184,
+    "QuestTitle": "Bears over Flowers",
+    "PreviousQuestIds": [
+      67995,
+      68182
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups",
+      "An Honest Day\u0027s Work"
+    ],
+    "NextQuestIds": [
+      68186
+    ],
+    "NextQuestTitles": [
+      "Midge Madness"
+    ],
+    "StarterNpc": "panicked man",
+    "StarterNpcLocation": {
+      "RowId": 6847157,
+      "X": -106.578,
+      "Y": 104.032,
+      "Z": -477.513,
+      "Yaw": -0.0441584,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "panicked man",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68185,
+    "QuestTitle": "Beastly Bandits",
+    "PreviousQuestIds": [
+      67995,
+      68182
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups",
+      "An Honest Day\u0027s Work"
+    ],
+    "NextQuestIds": [
+      68186
+    ],
+    "NextQuestTitles": [
+      "Midge Madness"
+    ],
+    "StarterNpc": "Leaning Ent",
+    "StarterNpcLocation": {
+      "RowId": 6843872,
+      "X": -49.3325,
+      "Y": 104.417,
+      "Z": -419.974,
+      "Yaw": 2.21285,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Leaning Ent",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68186,
+    "QuestTitle": "Midge Madness",
+    "PreviousQuestIds": [
+      67995,
+      68184,
+      68185
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Pups",
+      "Bears over Flowers",
+      "Beastly Bandits"
+    ],
+    "NextQuestIds": [
+      68412
+    ],
+    "NextQuestTitles": [
+      "Bombs for Peace"
+    ],
+    "StarterNpc": "hungry Hyur",
+    "StarterNpcLocation": {
+      "RowId": 6851246,
+      "X": -68.3717,
+      "Y": 110.329,
+      "Z": -535.037,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "hungry Hyur",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68189,
+    "QuestTitle": "Of Rats and Men",
+    "PreviousQuestIds": [
+      68000,
+      68188
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade",
+      "Mother\u0027s Boy"
+    ],
+    "NextQuestIds": [
+      68190,
+      68410
+    ],
+    "NextQuestTitles": [
+      "Rat Bandits",
+      "Religious Freedom"
+    ],
+    "StarterNpc": "Gerbert",
+    "StarterNpcLocation": {
+      "RowId": 6880420,
+      "X": 109.941,
+      "Y": 133.776,
+      "Z": -823.972,
+      "Yaw": -2.67878,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Gerbert",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 1010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 556,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68190,
+    "QuestTitle": "Rat Bandits",
+    "PreviousQuestIds": [
+      68000,
+      68189,
+      68194
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade",
+      "Of Rats and Men",
+      "Spooky Stones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "luckless merchant",
+    "StarterNpcLocation": {
+      "RowId": 6948397,
+      "X": 80.9149,
+      "Y": 118.249,
+      "Z": -700.623,
+      "Yaw": 2.32233,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "luckless merchant",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 1060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 798,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68191,
+    "QuestTitle": "Saint Sayer",
+    "PreviousQuestIds": [
+      68000
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade"
+    ],
+    "NextQuestIds": [
+      68192
+    ],
+    "NextQuestTitles": [
+      "As Stubborn as Stone"
+    ],
+    "StarterNpc": "Raganfrid",
+    "StarterNpcLocation": {
+      "RowId": 6794596,
+      "X": 146.024,
+      "Y": 118.156,
+      "Z": -730.476,
+      "Yaw": -1.8959,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Sayer",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 1020,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100696,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68192,
+    "QuestTitle": "As Stubborn as Stone",
+    "PreviousQuestIds": [
+      68000,
+      68191
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade",
+      "Saint Sayer"
+    ],
+    "NextQuestIds": [
+      68193
+    ],
+    "NextQuestTitles": [
+      "The Sound of the Quarry"
+    ],
+    "StarterNpc": "Sayer",
+    "StarterNpcLocation": {
+      "RowId": 6873052,
+      "X": 14.726,
+      "Y": 118.069,
+      "Z": -776.803,
+      "Yaw": 1.6067,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Sayer",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 1030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100696,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68193,
+    "QuestTitle": "The Sound of the Quarry",
+    "PreviousQuestIds": [
+      68000,
+      68192
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade",
+      "As Stubborn as Stone"
+    ],
+    "NextQuestIds": [
+      68194
+    ],
+    "NextQuestTitles": [
+      "Spooky Stones"
+    ],
+    "StarterNpc": "Sayer",
+    "StarterNpcLocation": {
+      "RowId": 6875068,
+      "X": 178.308,
+      "Y": 116.716,
+      "Z": -695.841,
+      "Yaw": 1.51549,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Sayer",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 1040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100696,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68194,
+    "QuestTitle": "Spooky Stones",
+    "PreviousQuestIds": [
+      68000,
+      68193
+    ],
+    "PreviousQuestTitles": [
+      "The Fires Fade",
+      "The Sound of the Quarry"
+    ],
+    "NextQuestIds": [
+      68190
+    ],
+    "NextQuestTitles": [
+      "Rat Bandits"
+    ],
+    "StarterNpc": "Swetelove",
+    "StarterNpcLocation": {
+      "RowId": 6875095,
+      "X": 15.0535,
+      "Y": 118.061,
+      "Z": -778.358,
+      "Yaw": 0.63552,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Swetelove",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 1050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100696,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18106,
+          "ItemName": "Triphane Ring of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18107,
+          "ItemName": "Triphane Ring of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18108,
+          "ItemName": "Triphane Ring of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68365,
+    "QuestTitle": "Back to Business",
+    "PreviousQuestIds": [
+      68071
+    ],
+    "PreviousQuestTitles": [
+      "Strong and Unified"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerbod",
+    "StarterNpcLocation": {
+      "RowId": 6901677,
+      "X": -277.791,
+      "Y": 258.9,
+      "Z": 782.803,
+      "Yaw": -2.99448,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Gerbod",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68366,
+    "QuestTitle": "Bottoms Up",
+    "PreviousQuestIds": [
+      68071
+    ],
+    "PreviousQuestTitles": [
+      "Strong and Unified"
+    ],
+    "NextQuestIds": [
+      68374
+    ],
+    "NextQuestTitles": [
+      "A Special Treat"
+    ],
+    "StarterNpc": "Weidheri",
+    "StarterNpcLocation": {
+      "RowId": 6843890,
+      "X": -237.894,
+      "Y": 257.71,
+      "Z": 741.602,
+      "Yaw": -0.479041,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Weidheri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68367,
+    "QuestTitle": "Undeserved Praise",
+    "PreviousQuestIds": [
+      68071
+    ],
+    "PreviousQuestTitles": [
+      "Strong and Unified"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Odo",
+    "StarterNpcLocation": {
+      "RowId": 6901679,
+      "X": -292.824,
+      "Y": 257.526,
+      "Z": 726.482,
+      "Yaw": 2.60646,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Odo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 810,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68368,
+    "QuestTitle": "Like a Charm",
+    "PreviousQuestIds": [
+      68071
+    ],
+    "PreviousQuestTitles": [
+      "Strong and Unified"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "lonesome lass",
+    "StarterNpcLocation": {
+      "RowId": 6971061,
+      "X": -254.698,
+      "Y": 260.057,
+      "Z": 805.843,
+      "Yaw": 2.73291,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "lonesome lass",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68369,
+    "QuestTitle": "A Sister\u0027s Ambition",
+    "PreviousQuestIds": [
+      68071
+    ],
+    "PreviousQuestTitles": [
+      "Strong and Unified"
+    ],
+    "NextQuestIds": [
+      68376
+    ],
+    "NextQuestTitles": [
+      "Runs in the Family"
+    ],
+    "StarterNpc": "J\u0027nairoh",
+    "StarterNpcLocation": {
+      "RowId": 6901424,
+      "X": -210.656,
+      "Y": 257.778,
+      "Z": 767.485,
+      "Yaw": -1.79448,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "J\u0027nairoh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 667,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68370,
+    "QuestTitle": "Lost in Transit",
+    "PreviousQuestIds": [
+      68075
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead"
+    ],
+    "NextQuestIds": [
+      68382,
+      68383
+    ],
+    "NextQuestTitles": [
+      "Eau de Muud",
+      "Strange Tastes"
+    ],
+    "StarterNpc": "Resistance fighter",
+    "StarterNpcLocation": {
+      "RowId": 6891160,
+      "X": -267.98,
+      "Y": 257.526,
+      "Z": 711.921,
+      "Yaw": -3.01399,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Guntmar",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 738,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68371,
+    "QuestTitle": "Picking Up the Slack",
+    "PreviousQuestIds": [
+      68075
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hele",
+    "StarterNpcLocation": {
+      "RowId": 6843895,
+      "X": -321.887,
+      "Y": 258.839,
+      "Z": 769.101,
+      "Yaw": 1.65198,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Hele",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 738,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68372,
+    "QuestTitle": "We Need to Talk",
+    "PreviousQuestIds": [
+      68075
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Resistance fighter",
+    "StarterNpcLocation": {
+      "RowId": 6955044,
+      "X": -301.824,
+      "Y": 257.526,
+      "Z": 726.491,
+      "Yaw": 0.607371,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Resistance fighter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68373,
+    "QuestTitle": "What\u0027s Mine Is Mine",
+    "PreviousQuestIds": [
+      68075
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zuzudesu",
+    "StarterNpcLocation": {
+      "RowId": 6843891,
+      "X": -229.297,
+      "Y": 257.526,
+      "Z": 756.313,
+      "Yaw": -1.36149,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Zuzudesu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 667,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68374,
+    "QuestTitle": "A Special Treat",
+    "PreviousQuestIds": [
+      68075,
+      68366
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead",
+      "Bottoms Up"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Weidheri",
+    "StarterNpcLocation": {
+      "RowId": 6843890,
+      "X": -237.894,
+      "Y": 257.71,
+      "Z": 741.602,
+      "Yaw": -0.479041,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Weidheri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68375,
+    "QuestTitle": "Live off the Land",
+    "PreviousQuestIds": [
+      68077
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Emory",
+    "StarterNpcLocation": {
+      "RowId": 6948398,
+      "X": -239.521,
+      "Y": 257.679,
+      "Z": 770.413,
+      "Yaw": -2.2466,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Emory",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68376,
+    "QuestTitle": "Runs in the Family",
+    "PreviousQuestIds": [
+      68077,
+      68369
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward",
+      "A Sister\u0027s Ambition"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "J\u0027nairoh",
+    "StarterNpcLocation": {
+      "RowId": 6901424,
+      "X": -210.656,
+      "Y": 257.778,
+      "Z": 767.485,
+      "Yaw": -1.79448,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "J\u0027nairoh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 810,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68377,
+    "QuestTitle": "Those Boys of Mine",
+    "PreviousQuestIds": [
+      68077
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "well-meaning mother",
+    "StarterNpcLocation": {
+      "RowId": 6971130,
+      "X": -214.451,
+      "Y": 257.526,
+      "Z": 751.875,
+      "Yaw": -1.9045,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "well-meaning mother",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68378,
+    "QuestTitle": "Out of Sight",
+    "PreviousQuestIds": [
+      68077
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward"
+    ],
+    "NextQuestIds": [
+      68379
+    ],
+    "NextQuestTitles": [
+      "Public Opinion"
+    ],
+    "StarterNpc": "Brazen Brook",
+    "StarterNpcLocation": {
+      "RowId": 6843892,
+      "X": -327.962,
+      "Y": 258.9,
+      "Z": 757.397,
+      "Yaw": 1.64312,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Baut",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100711,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18725,
+          "ItemName": "Palladium Bracelet of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18726,
+          "ItemName": "Palladium Bracelet of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18727,
+          "ItemName": "Palladium Bracelet of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68379,
+    "QuestTitle": "Public Opinion",
+    "PreviousQuestIds": [
+      68077,
+      68378
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward",
+      "Out of Sight"
+    ],
+    "NextQuestIds": [
+      68380
+    ],
+    "NextQuestTitles": [
+      "Dragged through the Mud"
+    ],
+    "StarterNpc": "Baut",
+    "StarterNpcLocation": {
+      "RowId": 6956629,
+      "X": -232.296,
+      "Y": 258.906,
+      "Z": 799.473,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Baut",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100711,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18728,
+          "ItemName": "Palladium Bracelet of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18729,
+          "ItemName": "Palladium Bracelet of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68380,
+    "QuestTitle": "Dragged through the Mud",
+    "PreviousQuestIds": [
+      68077,
+      68379
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward",
+      "Public Opinion"
+    ],
+    "NextQuestIds": [
+      68381
+    ],
+    "NextQuestTitles": [
+      "Second Chances"
+    ],
+    "StarterNpc": "Baut",
+    "StarterNpcLocation": {
+      "RowId": 6956629,
+      "X": -232.296,
+      "Y": 258.906,
+      "Z": 799.473,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "J\u0027dyalani",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100711,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18730,
+          "ItemName": "Palladium Ring of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18731,
+          "ItemName": "Palladium Ring of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18732,
+          "ItemName": "Palladium Ring of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68381,
+    "QuestTitle": "Second Chances",
+    "PreviousQuestIds": [
+      68077,
+      68380
+    ],
+    "PreviousQuestTitles": [
+      "The Path Forward",
+      "Dragged through the Mud"
+    ],
+    "NextQuestIds": [
+      68401
+    ],
+    "NextQuestTitles": [
+      "A Parting Gift"
+    ],
+    "StarterNpc": "J\u0027dyalani",
+    "StarterNpcLocation": {
+      "RowId": 6957350,
+      "X": -232.012,
+      "Y": 258.906,
+      "Z": 801.489,
+      "Yaw": -1.93203,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Brazen Brook",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100711,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18733,
+          "ItemName": "Palladium Ring of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18734,
+          "ItemName": "Palladium Ring of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68382,
+    "QuestTitle": "Eau de Muud",
+    "PreviousQuestIds": [
+      68075,
+      68370
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead",
+      "Lost in Transit"
+    ],
+    "NextQuestIds": [
+      68384
+    ],
+    "NextQuestTitles": [
+      "Soup\u0027s On"
+    ],
+    "StarterNpc": "Rahu",
+    "StarterNpcLocation": {
+      "RowId": 6948452,
+      "X": -444.59,
+      "Y": 305.941,
+      "Z": 93.1079,
+      "Yaw": 2.7948,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Rahu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 667,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68383,
+    "QuestTitle": "Strange Tastes",
+    "PreviousQuestIds": [
+      68075,
+      68370
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead",
+      "Lost in Transit"
+    ],
+    "NextQuestIds": [
+      68384
+    ],
+    "NextQuestTitles": [
+      "Soup\u0027s On"
+    ],
+    "StarterNpc": "Guntmar",
+    "StarterNpcLocation": {
+      "RowId": 6843902,
+      "X": -424.97,
+      "Y": 307.179,
+      "Z": 138.188,
+      "Yaw": 2.92792,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Guntmar",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68384,
+    "QuestTitle": "Soup\u0027s On",
+    "PreviousQuestIds": [
+      68075,
+      68382,
+      68383
+    ],
+    "PreviousQuestTitles": [
+      "For the Living and the Dead",
+      "Eau de Muud",
+      "Strange Tastes"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guntmar",
+    "StarterNpcLocation": {
+      "RowId": 6843902,
+      "X": -424.97,
+      "Y": 307.179,
+      "Z": 138.188,
+      "Yaw": 2.92792,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Resistance fighter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 524,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68385,
+    "QuestTitle": "Shimmer in the Scales",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Garrulous Gall",
+    "StarterNpcLocation": {
+      "RowId": 6843905,
+      "X": 331.716,
+      "Y": 324.3,
+      "Z": 387.716,
+      "Yaw": -1.70886,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Garrulous Gall",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68386,
+    "QuestTitle": "Radiata Stores",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [
+      68390
+    ],
+    "NextQuestTitles": [
+      "Jhammel and Hide"
+    ],
+    "StarterNpc": "Godafre",
+    "StarterNpcLocation": {
+      "RowId": 6843907,
+      "X": 337.228,
+      "Y": 324.301,
+      "Z": 328.536,
+      "Yaw": 3.02223,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Godafre",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68387,
+    "QuestTitle": "A Hunger for Trade",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "ponderous porter",
+    "StarterNpcLocation": {
+      "RowId": 6953039,
+      "X": 313.283,
+      "Y": 324.514,
+      "Z": 362.448,
+      "Yaw": -2.26267,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "ponderous porter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8240,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 738,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68388,
+    "QuestTitle": "Give Them the Evil Eye",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mawt",
+    "StarterNpcLocation": {
+      "RowId": 6843908,
+      "X": 321.218,
+      "Y": 324.269,
+      "Z": 390.707,
+      "Yaw": 1.37822,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Mawt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18720,
+          "ItemName": "Palladium Choker of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18721,
+          "ItemName": "Palladium Choker of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18722,
+          "ItemName": "Palladium Choker of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68389,
+    "QuestTitle": "Explosive Profits",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dob",
+    "StarterNpcLocation": {
+      "RowId": 6895605,
+      "X": 357.94,
+      "Y": 325.734,
+      "Z": 342.46,
+      "Yaw": -1.8124,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Dob",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 988,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18723,
+          "ItemName": "Palladium Choker of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18724,
+          "ItemName": "Palladium Choker of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68390,
+    "QuestTitle": "Jhammel and Hide",
+    "PreviousQuestIds": [
+      68079,
+      68386
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures",
+      "Radiata Stores"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Godafre",
+    "StarterNpcLocation": {
+      "RowId": 6843907,
+      "X": 337.228,
+      "Y": 324.301,
+      "Z": 328.536,
+      "Yaw": 3.02223,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Godafre",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 631,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68391,
+    "QuestTitle": "Critical Moss",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Oggery",
+    "StarterNpcLocation": {
+      "RowId": 6843906,
+      "X": 342.722,
+      "Y": 325.546,
+      "Z": 359.57,
+      "Yaw": -1.6677,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Oggery",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 667,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68392,
+    "QuestTitle": "Foper Faux Pas",
+    "PreviousQuestIds": [
+      68079
+    ],
+    "PreviousQuestTitles": [
+      "Where Courage Endures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hruodiger",
+    "StarterNpcLocation": {
+      "RowId": 6895604,
+      "X": 326.863,
+      "Y": 324.514,
+      "Z": 369.876,
+      "Yaw": 1.04758,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Hruodiger",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 8280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 68,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27000,
+      "Gil": 667,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68393,
+    "QuestTitle": "Pest Problem",
+    "PreviousQuestIds": [
+      68081
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Raganher",
+    "StarterNpcLocation": {
+      "RowId": 6843914,
+      "X": 291.288,
+      "Y": 322.836,
+      "Z": 722.356,
+      "Yaw": -0.113948,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Raganher",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 637,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68394,
+    "QuestTitle": "Family First",
+    "PreviousQuestIds": [
+      68081
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Papin",
+    "StarterNpcLocation": {
+      "RowId": 6843915,
+      "X": 304.921,
+      "Y": 322.891,
+      "Z": 741.054,
+      "Yaw": 2.17487,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Papin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 637,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68395,
+    "QuestTitle": "Boots Made for Walking",
+    "PreviousQuestIds": [
+      68081
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rawkin",
+    "StarterNpcLocation": {
+      "RowId": 6843916,
+      "X": 279.53,
+      "Y": 322.836,
+      "Z": 710.903,
+      "Yaw": -2.24727,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Rawkin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 673,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68396,
+    "QuestTitle": "Closing Up Shop",
+    "PreviousQuestIds": [
+      68081
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation"
+    ],
+    "NextQuestIds": [
+      68397
+    ],
+    "NextQuestTitles": [
+      "Helping a Friend"
+    ],
+    "StarterNpc": "Sagar",
+    "StarterNpcLocation": {
+      "RowId": 6843913,
+      "X": 283.772,
+      "Y": 322.835,
+      "Z": 752.346,
+      "Yaw": 0.624196,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Sagar",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9040,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 673,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68397,
+    "QuestTitle": "Helping a Friend",
+    "PreviousQuestIds": [
+      68081,
+      68396
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation",
+      "Closing Up Shop"
+    ],
+    "NextQuestIds": [
+      68398
+    ],
+    "NextQuestTitles": [
+      "Finding Family"
+    ],
+    "StarterNpc": "Sagar",
+    "StarterNpcLocation": {
+      "RowId": 6843913,
+      "X": 283.772,
+      "Y": 322.835,
+      "Z": 752.346,
+      "Yaw": 0.624196,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Berehta",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100712,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68398,
+    "QuestTitle": "Finding Family",
+    "PreviousQuestIds": [
+      68081,
+      68397
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation",
+      "Helping a Friend"
+    ],
+    "NextQuestIds": [
+      68399
+    ],
+    "NextQuestTitles": [
+      "Her Only Son"
+    ],
+    "StarterNpc": "Berehta",
+    "StarterNpcLocation": {
+      "RowId": 6957402,
+      "X": 315.563,
+      "Y": 322.8,
+      "Z": 717.259,
+      "Yaw": 0.508657,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "golden-locked lieutenant",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100712,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5668,
+          "ItemName": "Heavens\u0027 Eye Materia V",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68399,
+    "QuestTitle": "Her Only Son",
+    "PreviousQuestIds": [
+      68081,
+      68398
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation",
+      "Finding Family"
+    ],
+    "NextQuestIds": [
+      68400
+    ],
+    "NextQuestTitles": [
+      "His Last Words"
+    ],
+    "StarterNpc": "golden-locked lieutenant",
+    "StarterNpcLocation": {
+      "RowId": 6957405,
+      "X": 295.265,
+      "Y": 322.93,
+      "Z": 240.228,
+      "Yaw": 1.48935,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Berehta",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100712,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68400,
+    "QuestTitle": "His Last Words",
+    "PreviousQuestIds": [
+      68081,
+      68399
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation",
+      "Her Only Son"
+    ],
+    "NextQuestIds": [
+      68401
+    ],
+    "NextQuestTitles": [
+      "A Parting Gift"
+    ],
+    "StarterNpc": "Berehta",
+    "StarterNpcLocation": {
+      "RowId": 6957402,
+      "X": 315.563,
+      "Y": 322.8,
+      "Z": 717.259,
+      "Yaw": 0.508657,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Berehta",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100712,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68401,
+    "QuestTitle": "A Parting Gift",
+    "PreviousQuestIds": [
+      68081,
+      68381,
+      68400
+    ],
+    "PreviousQuestTitles": [
+      "Raubahn\u0027s Invitation",
+      "Second Chances",
+      "His Last Words"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sagar",
+    "StarterNpcLocation": {
+      "RowId": 6843913,
+      "X": 283.772,
+      "Y": 322.835,
+      "Z": 752.346,
+      "Yaw": 0.624196,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "J\u0027dyalani",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100713,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5718,
+          "ItemName": "Quickarm Materia V",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68402,
+    "QuestTitle": "A Friend on the Other Side",
+    "PreviousQuestIds": [
+      68082
+    ],
+    "PreviousQuestTitles": [
+      "Liberty or Death"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "dainty damsel",
+    "StarterNpcLocation": {
+      "RowId": 6971615,
+      "X": 347.544,
+      "Y": 324.512,
+      "Z": 378.014,
+      "Yaw": -2.59031,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "dainty damsel",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 637,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68403,
+    "QuestTitle": "Climbing for Atonement",
+    "PreviousQuestIds": [
+      68082
+    ],
+    "PreviousQuestTitles": [
+      "Liberty or Death"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Able Ant",
+    "StarterNpcLocation": {
+      "RowId": 6955005,
+      "X": 335.919,
+      "Y": 324.512,
+      "Z": 380.059,
+      "Yaw": -2.21413,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Able Ant",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 601,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68410,
+    "QuestTitle": "Religious Freedom",
+    "PreviousQuestIds": [
+      68083,
+      68189,
+      68406
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red",
+      "Of Rats and Men",
+      "Fallen Friend of Mine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gerbert",
+    "StarterNpcLocation": {
+      "RowId": 6880420,
+      "X": 109.941,
+      "Y": 133.776,
+      "Z": -823.972,
+      "Yaw": -2.67878,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Gerbert",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 601,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68411,
+    "QuestTitle": "The Qiqirn Strikes Back",
+    "PreviousQuestIds": [
+      68083,
+      68406
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red",
+      "Fallen Friend of Mine"
+    ],
+    "NextQuestIds": [
+      68412
+    ],
+    "NextQuestTitles": [
+      "Bombs for Peace"
+    ],
+    "StarterNpc": "kindly Qiqirn",
+    "StarterNpcLocation": {
+      "RowId": 6971766,
+      "X": 48.8136,
+      "Y": 117.149,
+      "Z": -677.577,
+      "Yaw": -2.65633,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "kindly Qiqirn",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 853,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68412,
+    "QuestTitle": "Bombs for Peace",
+    "PreviousQuestIds": [
+      68083,
+      68411,
+      68186
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red",
+      "The Qiqirn Strikes Back",
+      "Midge Madness"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hungry Hyur",
+    "StarterNpcLocation": {
+      "RowId": 6949475,
+      "X": 200.45,
+      "Y": 134.073,
+      "Z": -769.016,
+      "Yaw": 2.88266,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Gilow",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 9140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 773,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68424,
+    "QuestTitle": "Journey\u0027s End",
+    "PreviousQuestIds": [
+      68089,
+      68423
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "Journey\u0027s Beginning"
+    ],
+    "NextQuestIds": [
+      68425
+    ],
+    "NextQuestTitles": [
+      "Those We Hold Dear"
+    ],
+    "StarterNpc": "Bertliana",
+    "StarterNpcLocation": {
+      "RowId": 6959090,
+      "X": 330.057,
+      "Y": 324.303,
+      "Z": 397.405,
+      "Yaw": -0.890206,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Wichard",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 125,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Peaks Sidequests"
+    },
+    "SortKey": 10030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100714,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

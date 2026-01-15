@@ -350,6 +350,35 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (GetCategoryIdByName("Chronicles of a New Era - Myths of the Realm") ?? 0, "Chronicles of a New Era", 1, null),
             
             (trailsQuestIds, "Duties", 3, "Trails"),
+
+            // Area Sidequests
+            (GetCategoryIdByName("Abalathian Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Amh Araeng Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Azys Lla Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Coerthan Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Dravanian Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Elpis Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Garlean Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Gridanian Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Gyr Abanian Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Hingan Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Il Mheg Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Ishgardian Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Kholusian Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Lakeland Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Lominsan Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Mare Lamentorum Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Mor Dhonan Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Othardian Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Rak'tika Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Sharlayan Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Tempest Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Thavnairian Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Ul'dahn Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Ultima Thule Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Unlost World Sidequests") ?? 0, "Areas", 1, null),
+            (GetCategoryIdByName("Xak Tural Sidequests") ?? 0, "Areas", 0, null),
+            (GetCategoryIdByName("Yok Tural Sidequests") ?? 0, "Areas", 0, null),
         };
 
         foreach (var quest in allQuests)

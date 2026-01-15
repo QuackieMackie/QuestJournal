@@ -1,0 +1,968 @@
+[
+  {
+    "QuestId": 67515,
+    "QuestTitle": "Basic Training",
+    "PreviousQuestIds": [
+      67200
+    ],
+    "PreviousQuestTitles": [
+      "Systematic Exploration"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "training node",
+    "StarterNpcLocation": {
+      "RowId": 5820196,
+      "X": -607.746,
+      "Y": -176.471,
+      "Z": -527.541,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "training node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5901,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67516,
+    "QuestTitle": "Good Clean Fun",
+    "PreviousQuestIds": [
+      67200
+    ],
+    "PreviousQuestTitles": [
+      "Systematic Exploration"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "sterilization node",
+    "StarterNpcLocation": {
+      "RowId": 5820198,
+      "X": -643.763,
+      "Y": -176.501,
+      "Z": -527.398,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "sterilization node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5902,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 673,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5767,
+          "ItemName": "Coeurl Yellow Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5753,
+          "ItemName": "Aldgoat Brown Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5772,
+          "ItemName": "Sylph Green Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5736,
+          "ItemName": "Lilac Purple Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5780,
+          "ItemName": "Hunter Green Dye",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67517,
+    "QuestTitle": "General Protection Fault",
+    "PreviousQuestIds": [
+      67200
+    ],
+    "PreviousQuestTitles": [
+      "Systematic Exploration"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "safeguard node",
+    "StarterNpcLocation": {
+      "RowId": 5820202,
+      "X": -426.623,
+      "Y": -162.178,
+      "Z": -328.573,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "safeguard node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5903,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12860,
+          "ItemName": "Deep-fried Okeanis",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 9332,
+          "ItemName": "Flint Caviar",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4695,
+          "ItemName": "Black Truffle Risotto",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4648,
+          "ItemName": "Sauteed Coeurl",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67518,
+    "QuestTitle": "Excessive Force",
+    "PreviousQuestIds": [
+      67200
+    ],
+    "PreviousQuestTitles": [
+      "Systematic Exploration"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "suppression node",
+    "StarterNpcLocation": {
+      "RowId": 5820207,
+      "X": -173.253,
+      "Y": -162.021,
+      "Z": -510.383,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "suppression node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5904,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67519,
+    "QuestTitle": "Chimerical Abominations",
+    "PreviousQuestIds": [
+      67201
+    ],
+    "PreviousQuestTitles": [
+      "In Node We Trust"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "research node",
+    "StarterNpcLocation": {
+      "RowId": 5874017,
+      "X": 231.207,
+      "Y": -72.937,
+      "Z": -603.142,
+      "Yaw": 0.784437,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "research node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5905,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 705,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67520,
+    "QuestTitle": "Pollution Solution",
+    "PreviousQuestIds": [
+      67201
+    ],
+    "PreviousQuestTitles": [
+      "In Node We Trust"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "life support node",
+    "StarterNpcLocation": {
+      "RowId": 5874018,
+      "X": 760.529,
+      "Y": -30.3078,
+      "Z": -579.664,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "life support node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5906,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67521,
+    "QuestTitle": "Good Hunting",
+    "PreviousQuestIds": [
+      67201
+    ],
+    "PreviousQuestTitles": [
+      "In Node We Trust"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "tracking node",
+    "StarterNpcLocation": {
+      "RowId": 5874019,
+      "X": 804.101,
+      "Y": -26.3249,
+      "Z": -527.459,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "tracking node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5907,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 801,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12847,
+          "ItemName": "Marron Glace",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 9330,
+          "ItemName": "Triple Cream Coffee",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4734,
+          "ItemName": "Pineapple Ponzecake",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4656,
+          "ItemName": "Apkallu Omelette",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67522,
+    "QuestTitle": "Defense Protocols",
+    "PreviousQuestIds": [
+      67202
+    ],
+    "PreviousQuestTitles": [
+      "Chimerical Maintenance"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "expulsion node",
+    "StarterNpcLocation": {
+      "RowId": 5874020,
+      "X": 583.998,
+      "Y": 10.9293,
+      "Z": 100.037,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "expulsion node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5908,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 737,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67523,
+    "QuestTitle": "Snikt",
+    "PreviousQuestIds": [
+      67202
+    ],
+    "PreviousQuestTitles": [
+      "Chimerical Maintenance"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "logistics node",
+    "StarterNpcLocation": {
+      "RowId": 5874021,
+      "X": 573.447,
+      "Y": 13.0696,
+      "Z": 329.272,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "logistics node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5909,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 737,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12854,
+          "ItemName": "Morel Salad",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 7572,
+          "ItemName": "Roast Canard",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4704,
+          "ItemName": "Finger Sandwich",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4655,
+          "ItemName": "Deviled Eggs",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67524,
+    "QuestTitle": "A Crude Facsimile",
+    "PreviousQuestIds": [
+      67202
+    ],
+    "PreviousQuestTitles": [
+      "Chimerical Maintenance"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "auditing node",
+    "StarterNpcLocation": {
+      "RowId": 5874022,
+      "X": 366.443,
+      "Y": 20.1896,
+      "Z": 756.72,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "auditing node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5910,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 705,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67525,
+    "QuestTitle": "Recycling",
+    "PreviousQuestIds": [
+      67202
+    ],
+    "PreviousQuestTitles": [
+      "Chimerical Maintenance"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "assembly node",
+    "StarterNpcLocation": {
+      "RowId": 5874023,
+      "X": 214.657,
+      "Y": 13.7339,
+      "Z": 536.99,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "assembly node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5911,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12864,
+          "ItemName": "Clam Chowder",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 9333,
+          "ItemName": "Shark Fin Soup",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 7574,
+          "ItemName": "Chilled Popoto Soup",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4720,
+          "ItemName": "Fish Soup",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67526,
+    "QuestTitle": "Inadequate Safety Measures",
+    "PreviousQuestIds": [
+      67203
+    ],
+    "PreviousQuestTitles": [
+      "Close Encounters of the VIth Kind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "restrainment node",
+    "StarterNpcLocation": {
+      "RowId": 5874025,
+      "X": -658.313,
+      "Y": -75.4895,
+      "Z": 699.175,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "restrainment node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5912,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 737,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67527,
+    "QuestTitle": "Environmental Unbalance",
+    "PreviousQuestIds": [
+      67203
+    ],
+    "PreviousQuestTitles": [
+      "Close Encounters of the VIth Kind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "administrative node",
+    "StarterNpcLocation": {
+      "RowId": 5874026,
+      "X": -554.937,
+      "Y": -89.3454,
+      "Z": 771.899,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "administrative node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5913,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 673,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12868,
+          "ItemName": "Stuffed Chysahl",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 9334,
+          "ItemName": "Haddock Dip",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4715,
+          "ItemName": "Trapper\u0027s Quiche",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4687,
+          "ItemName": "Stuffed Artichoke",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67528,
+    "QuestTitle": "Elevated Aggression Levels",
+    "PreviousQuestIds": [
+      67203
+    ],
+    "PreviousQuestTitles": [
+      "Close Encounters of the VIth Kind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "enhancement node",
+    "StarterNpcLocation": {
+      "RowId": 5874027,
+      "X": -192.645,
+      "Y": -102.75,
+      "Z": 477.012,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "enhancement node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 122,
+      "JournalCategory": {
+        "Id": 67,
+        "Name": "Azys Lla Sidequests"
+      },
+      "Name": "Azys Lla Sidequests"
+    },
+    "SortKey": 5914,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
