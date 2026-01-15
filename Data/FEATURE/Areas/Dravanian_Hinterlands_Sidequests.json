@@ -1,0 +1,1280 @@
+[
+  {
+    "QuestId": 67469,
+    "QuestTitle": "Feltsmox Needs Bait",
+    "PreviousQuestIds": [
+      67191
+    ],
+    "PreviousQuestTitles": [
+      "A Great New Nation"
+    ],
+    "NextQuestIds": [
+      67470
+    ],
+    "NextQuestTitles": [
+      "Feltsmox\u0027s Reel Problems"
+    ],
+    "StarterNpc": "Feltsmox",
+    "StarterNpcLocation": {
+      "RowId": 5891900,
+      "X": 803.969,
+      "Y": 150.136,
+      "Z": 164.73,
+      "Yaw": -1.85197,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Feltsmox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5803,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67470,
+    "QuestTitle": "Feltsmox\u0027s Reel Problems",
+    "PreviousQuestIds": [
+      67192,
+      67469
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone",
+      "Feltsmox Needs Bait"
+    ],
+    "NextQuestIds": [
+      67479
+    ],
+    "NextQuestTitles": [
+      "Feltsmox Switches Bait"
+    ],
+    "StarterNpc": "Feltsmox",
+    "StarterNpcLocation": {
+      "RowId": 5891903,
+      "X": 91.1867,
+      "Y": 65.0586,
+      "Z": -184.659,
+      "Yaw": -2.52003,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Feltsmox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5804,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10702,
+          "ItemName": "Adamantite Chain Hose of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10744,
+          "ItemName": "Adamantite Chain Hose of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10786,
+          "ItemName": "Chimerical Felt Hose of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10870,
+          "ItemName": "Chimerical Felt Hose of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67472,
+    "QuestTitle": "Louder than Words",
+    "PreviousQuestIds": [
+      67191
+    ],
+    "PreviousQuestTitles": [
+      "A Great New Nation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tapklix",
+    "StarterNpcLocation": {
+      "RowId": 5873405,
+      "X": -28.3962,
+      "Y": 100.969,
+      "Z": -186.404,
+      "Yaw": -2.14516,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Tapklix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5801,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67473,
+    "QuestTitle": "Uncoordinated Defense",
+    "PreviousQuestIds": [
+      67193,
+      67471
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident",
+      "The Pick of the Bunch"
+    ],
+    "NextQuestIds": [
+      67478
+    ],
+    "NextQuestTitles": [
+      "Administrative Difficulties"
+    ],
+    "StarterNpc": "Tapklix",
+    "StarterNpcLocation": {
+      "RowId": 5873405,
+      "X": -28.3962,
+      "Y": 100.969,
+      "Z": -186.404,
+      "Yaw": -2.14516,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5811,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100482,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67480,
+    "QuestTitle": "The Missing Logbook",
+    "PreviousQuestIds": [
+      67193,
+      67478
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident",
+      "Administrative Difficulties"
+    ],
+    "NextQuestIds": [
+      67484
+    ],
+    "NextQuestTitles": [
+      "Red Tape"
+    ],
+    "StarterNpc": "Dripwix",
+    "StarterNpcLocation": {
+      "RowId": 5910236,
+      "X": 302.478,
+      "Y": 68.2588,
+      "Z": -151.692,
+      "Yaw": 1.00474,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Dripwix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5812,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100482,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 765,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67483,
+    "QuestTitle": "A Bum Rap",
+    "PreviousQuestIds": [
+      67193
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tapklix",
+    "StarterNpcLocation": {
+      "RowId": 5873405,
+      "X": -28.3962,
+      "Y": 100.969,
+      "Z": -186.404,
+      "Yaw": -2.14516,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Tapklix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5802,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67494,
+    "QuestTitle": "A Slimier Stymier",
+    "PreviousQuestIds": [
+      67194,
+      67493
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Many Hands Make Light Checkwork"
+    ],
+    "NextQuestIds": [
+      67495
+    ],
+    "NextQuestTitles": [
+      "Mission Unpossible"
+    ],
+    "StarterNpc": "Boomshox",
+    "StarterNpcLocation": {
+      "RowId": 5891950,
+      "X": -491.235,
+      "Y": 156.249,
+      "Z": -238.297,
+      "Yaw": 0.454617,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Boomshox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5807,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 697,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67495,
+    "QuestTitle": "Mission Unpossible",
+    "PreviousQuestIds": [
+      67194,
+      67494
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "A Slimier Stymier"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Boomshox",
+    "StarterNpcLocation": {
+      "RowId": 5891950,
+      "X": -491.235,
+      "Y": 156.249,
+      "Z": -238.297,
+      "Yaw": 0.454617,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Drydox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5808,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 670,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10986,
+          "ItemName": "Griffin Talon Ring of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11010,
+          "ItemName": "Griffin Talon Ring of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11034,
+          "ItemName": "Griffin Talon Ring of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11058,
+          "ItemName": "Griffin Talon Ring of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11082,
+          "ItemName": "Griffin Talon Ring of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67496,
+    "QuestTitle": "Feltsmox Can\u0027t Bear It",
+    "PreviousQuestIds": [
+      67194,
+      67479
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Feltsmox Switches Bait"
+    ],
+    "NextQuestIds": [
+      67497
+    ],
+    "NextQuestTitles": [
+      "Feltsmox Tackles the Morbols"
+    ],
+    "StarterNpc": "Feltsmox",
+    "StarterNpcLocation": {
+      "RowId": 5891954,
+      "X": -651.218,
+      "Y": 140.706,
+      "Z": 422.221,
+      "Yaw": 1.04274,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Feltsmox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5805,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67497,
+    "QuestTitle": "Feltsmox Tackles the Morbols",
+    "PreviousQuestIds": [
+      67194,
+      67496
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Feltsmox Can\u0027t Bear It"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "salvaging goblin",
+    "StarterNpcLocation": {
+      "RowId": 5891959,
+      "X": -527.62,
+      "Y": 153.492,
+      "Z": -35.6478,
+      "Yaw": -0.347338,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "salvaging goblin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5806,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67500,
+    "QuestTitle": "What the Boat Brought In",
+    "PreviousQuestIds": [
+      67194,
+      67499
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Taking Stock"
+    ],
+    "NextQuestIds": [
+      67501
+    ],
+    "NextQuestTitles": [
+      "Over My Dead Gobbie"
+    ],
+    "StarterNpc": "Midnight Dew",
+    "StarterNpcLocation": {
+      "RowId": 5891980,
+      "X": -475.759,
+      "Y": 155.861,
+      "Z": -209.738,
+      "Yaw": 0.383918,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Midnight Dew",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5809,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10709,
+          "ItemName": "Adamantite Sabatons of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10751,
+          "ItemName": "Adamantite Sabatons of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10793,
+          "ItemName": "Serpentskin Boots of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10877,
+          "ItemName": "Serpentskin Boots of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67501,
+    "QuestTitle": "Over My Dead Gobbie",
+    "PreviousQuestIds": [
+      67194,
+      67500
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "What the Boat Brought In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Midnight Dew",
+    "StarterNpcLocation": {
+      "RowId": 5892006,
+      "X": -669.895,
+      "Y": 154.337,
+      "Z": 191.112,
+      "Yaw": -1.79559,
+      "Radius": 1,
+      "MapId": 213,
+      "TerritoryId": 399
+    },
+    "FinishNpc": "Midnight Dew",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5810,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 570,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10835,
+          "ItemName": "Serpentskin Boots of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10919,
+          "ItemName": "Serpentskin Thighboots of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10961,
+          "ItemName": "Serpentskin Thighboots of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67502,
+    "QuestTitle": "Saro Roggo\u0027s Common Life",
+    "PreviousQuestIds": [
+      67195
+    ],
+    "PreviousQuestTitles": [
+      "Matoya\u0027s Cave"
+    ],
+    "NextQuestIds": [
+      67503,
+      67504,
+      67505
+    ],
+    "NextQuestTitles": [
+      "A Straightforward Fancy",
+      "A Statuesque Interest",
+      "A Self-possessed Pastime"
+    ],
+    "StarterNpc": "Saro Roggo",
+    "StarterNpcLocation": {
+      "RowId": 5851085,
+      "X": 35.7081,
+      "Y": 38.4297,
+      "Z": 13.0011,
+      "Yaw": 1.0767,
+      "Radius": 1,
+      "MapId": 253,
+      "TerritoryId": 463
+    },
+    "FinishNpc": "Saro Roggo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5901,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100485,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67503,
+    "QuestTitle": "A Straightforward Fancy",
+    "PreviousQuestIds": [
+      67195,
+      67502
+    ],
+    "PreviousQuestTitles": [
+      "Matoya\u0027s Cave",
+      "Saro Roggo\u0027s Common Life"
+    ],
+    "NextQuestIds": [
+      67506
+    ],
+    "NextQuestTitles": [
+      "The Magic Word"
+    ],
+    "StarterNpc": "straightforward broom",
+    "StarterNpcLocation": {
+      "RowId": 5851083,
+      "X": 15.7866,
+      "Y": 38.4297,
+      "Z": 18.1888,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 253,
+      "TerritoryId": 463
+    },
+    "FinishNpc": "straightforward broom",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5902,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100485,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67504,
+    "QuestTitle": "A Statuesque Interest",
+    "PreviousQuestIds": [
+      67195,
+      67502
+    ],
+    "PreviousQuestTitles": [
+      "Matoya\u0027s Cave",
+      "Saro Roggo\u0027s Common Life"
+    ],
+    "NextQuestIds": [
+      67506
+    ],
+    "NextQuestTitles": [
+      "The Magic Word"
+    ],
+    "StarterNpc": "statuesque broom",
+    "StarterNpcLocation": {
+      "RowId": 5851084,
+      "X": -3.43521,
+      "Y": 37.4297,
+      "Z": -6.60358,
+      "Yaw": 0.836337,
+      "Radius": 1,
+      "MapId": 253,
+      "TerritoryId": 463
+    },
+    "FinishNpc": "statuesque broom",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5903,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100485,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67505,
+    "QuestTitle": "A Self-possessed Pastime",
+    "PreviousQuestIds": [
+      67195,
+      67502
+    ],
+    "PreviousQuestTitles": [
+      "Matoya\u0027s Cave",
+      "Saro Roggo\u0027s Common Life"
+    ],
+    "NextQuestIds": [
+      67506
+    ],
+    "NextQuestTitles": [
+      "The Magic Word"
+    ],
+    "StarterNpc": "self-possessed broom",
+    "StarterNpcLocation": {
+      "RowId": 5900082,
+      "X": -3.07311,
+      "Y": 38.4289,
+      "Z": 9.24209,
+      "Yaw": 1.30291,
+      "Radius": 1,
+      "MapId": 253,
+      "TerritoryId": 463
+    },
+    "FinishNpc": "self-possessed broom",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5904,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100485,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 641,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67506,
+    "QuestTitle": "The Magic Word",
+    "PreviousQuestIds": [
+      67503,
+      67504,
+      67505
+    ],
+    "PreviousQuestTitles": [
+      "A Straightforward Fancy",
+      "A Statuesque Interest",
+      "A Self-possessed Pastime"
+    ],
+    "NextQuestIds": [
+      67507
+    ],
+    "NextQuestTitles": [
+      "Have I Toad You Lately"
+    ],
+    "StarterNpc": "Saro Roggo",
+    "StarterNpcLocation": {
+      "RowId": 5851085,
+      "X": 35.7081,
+      "Y": 38.4297,
+      "Z": 13.0011,
+      "Yaw": 1.0767,
+      "Radius": 1,
+      "MapId": 253,
+      "TerritoryId": 463
+    },
+    "FinishNpc": "Saro Roggo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5905,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100485,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7776,
+          "ItemName": "Broombush",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 7775,
+          "ItemName": "Glazenut",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5414,
+          "ItemName": "Rosewood Branch",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 7606,
+          "ItemName": "Ancient Lumber",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67507,
+    "QuestTitle": "Have I Toad You Lately",
+    "PreviousQuestIds": [
+      67195,
+      67506
+    ],
+    "PreviousQuestTitles": [
+      "Matoya\u0027s Cave",
+      "The Magic Word"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Saro Roggo",
+    "StarterNpcLocation": {
+      "RowId": 5851085,
+      "X": 35.7081,
+      "Y": 38.4297,
+      "Z": 13.0011,
+      "Yaw": 1.0767,
+      "Radius": 1,
+      "MapId": 253,
+      "TerritoryId": 463
+    },
+    "FinishNpc": "Matoya",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 119,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Dravanian Hinterlands Sidequests"
+    },
+    "SortKey": 5906,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100485,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 705,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

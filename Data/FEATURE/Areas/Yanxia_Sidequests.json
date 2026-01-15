@@ -1,0 +1,2358 @@
+[
+  {
+    "QuestId": 68260,
+    "QuestTitle": "Something Smells",
+    "PreviousQuestIds": [
+      68029
+    ],
+    "PreviousQuestTitles": [
+      "The Stubborn Remainder"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fukata",
+    "StarterNpcLocation": {
+      "RowId": 6903696,
+      "X": 421.789,
+      "Y": -0.300014,
+      "Z": -293.955,
+      "Yaw": -1.55284,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Fukata",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 642,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68261,
+    "QuestTitle": "Beyond the Powers of Stone",
+    "PreviousQuestIds": [
+      68029
+    ],
+    "PreviousQuestTitles": [
+      "The Stubborn Remainder"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hojo",
+    "StarterNpcLocation": {
+      "RowId": 6903697,
+      "X": 521.232,
+      "Y": 71.3176,
+      "Z": -258.76,
+      "Yaw": 1.76624,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Hojo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 710,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68262,
+    "QuestTitle": "Not Safe for Children",
+    "PreviousQuestIds": [
+      68030,
+      68266
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind",
+      "Whacking Day"
+    ],
+    "NextQuestIds": [
+      68263
+    ],
+    "NextQuestTitles": [
+      "Gone Fishing"
+    ],
+    "StarterNpc": "Sentei",
+    "StarterNpcLocation": {
+      "RowId": 6844063,
+      "X": 756.35,
+      "Y": 98.0459,
+      "Z": -229.922,
+      "Yaw": 2.86296,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Sentei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 642,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68263,
+    "QuestTitle": "Gone Fishing",
+    "PreviousQuestIds": [
+      68030,
+      68262
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind",
+      "Not Safe for Children"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sentei",
+    "StarterNpcLocation": {
+      "RowId": 6844063,
+      "X": 756.35,
+      "Y": 98.0459,
+      "Z": -229.922,
+      "Yaw": 2.86296,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Kohagi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 574,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68264,
+    "QuestTitle": "Fly, My Pretties",
+    "PreviousQuestIds": [
+      68029
+    ],
+    "PreviousQuestTitles": [
+      "The Stubborn Remainder"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Honami",
+    "StarterNpcLocation": {
+      "RowId": 6829276,
+      "X": 451.589,
+      "Y": 58.7751,
+      "Z": -188.313,
+      "Yaw": -2.27991,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Honami",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4030,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 915,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18403,
+          "ItemName": "Star Spinel Earrings of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18404,
+          "ItemName": "Star Spinel Earrings of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18405,
+          "ItemName": "Star Spinel Earrings of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68265,
+    "QuestTitle": "The Toon Patrol",
+    "PreviousQuestIds": [
+      68029
+    ],
+    "PreviousQuestTitles": [
+      "The Stubborn Remainder"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aohata",
+    "StarterNpcLocation": {
+      "RowId": 6829279,
+      "X": 473.503,
+      "Y": 58.5488,
+      "Z": -175.586,
+      "Yaw": 0.323302,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Aohata",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 608,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68266,
+    "QuestTitle": "Whacking Day",
+    "PreviousQuestIds": [
+      68030
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind"
+    ],
+    "NextQuestIds": [
+      68262
+    ],
+    "NextQuestTitles": [
+      "Not Safe for Children"
+    ],
+    "StarterNpc": "Kohagi",
+    "StarterNpcLocation": {
+      "RowId": 6903695,
+      "X": 465.263,
+      "Y": 58.5183,
+      "Z": -171.1,
+      "Yaw": -1.81677,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Sentei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4080,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 608,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68267,
+    "QuestTitle": "Hungry Hog",
+    "PreviousQuestIds": [
+      68030
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Shinden",
+    "StarterNpcLocation": {
+      "RowId": 6829260,
+      "X": 417.609,
+      "Y": 68.0285,
+      "Z": -110.233,
+      "Yaw": 0.35087,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Shinden",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 642,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68268,
+    "QuestTitle": "Tiger Blood",
+    "PreviousQuestIds": [
+      68030
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Masatsuchi",
+    "StarterNpcLocation": {
+      "RowId": 6829259,
+      "X": 405.487,
+      "Y": 67.4575,
+      "Z": -61.5127,
+      "Yaw": 0.117495,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Masatsuchi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 608,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68269,
+    "QuestTitle": "Wolves and Weeds",
+    "PreviousQuestIds": [
+      68030
+    ],
+    "PreviousQuestTitles": [
+      "The Ones We Leave Behind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ryosen",
+    "StarterNpcLocation": {
+      "RowId": 6903698,
+      "X": 434.897,
+      "Y": 68.0208,
+      "Z": -125.017,
+      "Yaw": -0.524242,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Ryosen",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4070,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 950,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18406,
+          "ItemName": "Star Spinel Earrings of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18407,
+          "ItemName": "Star Spinel Earrings of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68270,
+    "QuestTitle": "Perchance to Hanami",
+    "PreviousQuestIds": [
+      68035
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels"
+    ],
+    "NextQuestIds": [
+      68277,
+      68278,
+      68279,
+      68280,
+      68281,
+      68282,
+      68284
+    ],
+    "NextQuestTitles": [
+      "Drink Responsibly",
+      "The Sound of Civilized Life",
+      "Ring My Bell",
+      "Not Just Any Vase",
+      "Criminal Phrenology",
+      "By Our Powers Combined",
+      "Gyorin the Namazu"
+    ],
+    "StarterNpc": "Ochimi",
+    "StarterNpcLocation": {
+      "RowId": 6829273,
+      "X": 445.762,
+      "Y": 58.6709,
+      "Z": -155.596,
+      "Yaw": -1.81507,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyotai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4160,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 574,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68271,
+    "QuestTitle": "Dearest Keiko",
+    "PreviousQuestIds": [
+      68035
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "mauled man",
+    "StarterNpcLocation": {
+      "RowId": 6873222,
+      "X": 361.501,
+      "Y": 41.1917,
+      "Z": -13.1991,
+      "Yaw": 3.03495,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "dispirited woman",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 574,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68272,
+    "QuestTitle": "Courage the Cowardly Lupin",
+    "PreviousQuestIds": [
+      68035
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels"
+    ],
+    "NextQuestIds": [
+      68273
+    ],
+    "NextQuestTitles": [
+      "Kurobana vs. the Rice Sacks"
+    ],
+    "StarterNpc": "Fukudo",
+    "StarterNpcLocation": {
+      "RowId": 6903694,
+      "X": 473.808,
+      "Y": 58.4483,
+      "Z": -182.788,
+      "Yaw": -0.629949,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Fukudo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100702,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68273,
+    "QuestTitle": "Kurobana vs. the Rice Sacks",
+    "PreviousQuestIds": [
+      68035,
+      68272
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Courage the Cowardly Lupin"
+    ],
+    "NextQuestIds": [
+      68274
+    ],
+    "NextQuestTitles": [
+      "Kurobana vs. the Arrowheads"
+    ],
+    "StarterNpc": "Fukudo",
+    "StarterNpcLocation": {
+      "RowId": 6903694,
+      "X": 473.808,
+      "Y": 58.4483,
+      "Z": -182.788,
+      "Yaw": -0.629949,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Fukudo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4130,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100702,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18408,
+          "ItemName": "Star Spinel Choker of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18409,
+          "ItemName": "Star Spinel Choker of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18410,
+          "ItemName": "Star Spinel Choker of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68274,
+    "QuestTitle": "Kurobana vs. the Arrowheads",
+    "PreviousQuestIds": [
+      68035,
+      68273
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Kurobana vs. the Rice Sacks"
+    ],
+    "NextQuestIds": [
+      68275
+    ],
+    "NextQuestTitles": [
+      "Kurobana Holmes"
+    ],
+    "StarterNpc": "Fukudo",
+    "StarterNpcLocation": {
+      "RowId": 6903694,
+      "X": 473.808,
+      "Y": 58.4483,
+      "Z": -182.788,
+      "Yaw": -0.629949,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Fukudo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4140,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100702,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68275,
+    "QuestTitle": "Kurobana Holmes",
+    "PreviousQuestIds": [
+      68035,
+      68274
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Kurobana vs. the Arrowheads"
+    ],
+    "NextQuestIds": [
+      68276
+    ],
+    "NextQuestTitles": [
+      "Kurobana vs. Gyorin"
+    ],
+    "StarterNpc": "Kurobana",
+    "StarterNpcLocation": {
+      "RowId": 6913212,
+      "X": 473.408,
+      "Y": 58.4958,
+      "Z": -180.928,
+      "Yaw": 3.03617,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Fukudo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100702,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18411,
+          "ItemName": "Star Spinel Choker of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18412,
+          "ItemName": "Star Spinel Choker of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68276,
+    "QuestTitle": "Kurobana vs. Gyorin",
+    "PreviousQuestIds": [
+      68035,
+      68275,
+      68283
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Kurobana Holmes",
+      "Amber Alert"
+    ],
+    "NextQuestIds": [
+      68632
+    ],
+    "NextQuestTitles": [
+      "Something Fishy This Way Comes"
+    ],
+    "StarterNpc": "Kurobana",
+    "StarterNpcLocation": {
+      "RowId": 6908616,
+      "X": 392.701,
+      "Y": 80.9023,
+      "Z": -194.898,
+      "Yaw": -1.20365,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyorin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4280,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100703,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68277,
+    "QuestTitle": "Drink Responsibly",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gyoku",
+    "StarterNpcLocation": {
+      "RowId": 6844086,
+      "X": -308.945,
+      "Y": 17.7355,
+      "Z": 512.497,
+      "Yaw": 2.41902,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyoku",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 608,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68278,
+    "QuestTitle": "The Sound of Civilized Life",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gyoen",
+    "StarterNpcLocation": {
+      "RowId": 6844083,
+      "X": -318.563,
+      "Y": 17.9749,
+      "Z": 510.842,
+      "Yaw": 1.76841,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyoen",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 676,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68279,
+    "QuestTitle": "Ring My Bell",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gyoboku",
+    "StarterNpcLocation": {
+      "RowId": 6844078,
+      "X": -310.631,
+      "Y": 18.2533,
+      "Z": 502.556,
+      "Yaw": -0.0454411,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyoboku",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68280,
+    "QuestTitle": "Not Just Any Vase",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hard-whiskered Namazu",
+    "StarterNpcLocation": {
+      "RowId": 6971715,
+      "X": -306.905,
+      "Y": 17.7355,
+      "Z": 503.563,
+      "Yaw": 0.460617,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "hard-whiskered Namazu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 847,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68281,
+    "QuestTitle": "Criminal Phrenology",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gyoei",
+    "StarterNpcLocation": {
+      "RowId": 6844084,
+      "X": -289.225,
+      "Y": 17.32,
+      "Z": 520.936,
+      "Yaw": -2.08723,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyoei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 710,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68282,
+    "QuestTitle": "By Our Powers Combined",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "old Namazu Master",
+    "StarterNpcLocation": {
+      "RowId": 6914706,
+      "X": -255.146,
+      "Y": 16.8108,
+      "Z": 516.442,
+      "Yaw": 1.63895,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "old Namazu Master",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 881,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68283,
+    "QuestTitle": "Amber Alert",
+    "PreviousQuestIds": [
+      68035,
+      68287
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Show Me the New Money"
+    ],
+    "NextQuestIds": [
+      68276
+    ],
+    "NextQuestTitles": [
+      "Kurobana vs. Gyorin"
+    ],
+    "StarterNpc": "Gyoshu",
+    "StarterNpcLocation": {
+      "RowId": 6844071,
+      "X": -323.378,
+      "Y": 18.8359,
+      "Z": 508.199,
+      "Yaw": 1.57842,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Yamakage",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4270,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 642,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68284,
+    "QuestTitle": "Gyorin the Namazu",
+    "PreviousQuestIds": [
+      68035,
+      68270
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Perchance to Hanami"
+    ],
+    "NextQuestIds": [
+      68285
+    ],
+    "NextQuestTitles": [
+      "No Wealth Like Mineral Wealth"
+    ],
+    "StarterNpc": "Gyorin",
+    "StarterNpcLocation": {
+      "RowId": 6958700,
+      "X": -300.057,
+      "Y": 16.8062,
+      "Z": 539.469,
+      "Yaw": 0.607746,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyorin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4230,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100704,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18413,
+          "ItemName": "Star Spinel Bracelet of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18414,
+          "ItemName": "Star Spinel Bracelet of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18415,
+          "ItemName": "Star Spinel Bracelet of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68285,
+    "QuestTitle": "No Wealth Like Mineral Wealth",
+    "PreviousQuestIds": [
+      68035,
+      68284
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Gyorin the Namazu"
+    ],
+    "NextQuestIds": [
+      68286
+    ],
+    "NextQuestTitles": [
+      "Fresh Flesh"
+    ],
+    "StarterNpc": "Gyorin",
+    "StarterNpcLocation": {
+      "RowId": 6958704,
+      "X": -233.701,
+      "Y": 17.625,
+      "Z": 485.338,
+      "Yaw": -1.05381,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyorin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4240,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100704,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18416,
+          "ItemName": "Star Spinel Bracelet of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18417,
+          "ItemName": "Star Spinel Bracelet of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68286,
+    "QuestTitle": "Fresh Flesh",
+    "PreviousQuestIds": [
+      68035,
+      68285
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "No Wealth Like Mineral Wealth"
+    ],
+    "NextQuestIds": [
+      68287
+    ],
+    "NextQuestTitles": [
+      "Show Me the New Money"
+    ],
+    "StarterNpc": "Gyorin",
+    "StarterNpcLocation": {
+      "RowId": 6958704,
+      "X": -233.701,
+      "Y": 17.625,
+      "Z": 485.338,
+      "Yaw": -1.05381,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyorin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4250,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100704,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18361,
+          "ItemName": "Durium Hairpin of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18367,
+          "ItemName": "Durium Hairpin of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18373,
+          "ItemName": "Tigerskin Tricorne of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18385,
+          "ItemName": "Tigerskin Tricorne of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68287,
+    "QuestTitle": "Show Me the New Money",
+    "PreviousQuestIds": [
+      68035,
+      68286
+    ],
+    "PreviousQuestTitles": [
+      "All the Little Angels",
+      "Fresh Flesh"
+    ],
+    "NextQuestIds": [
+      68283
+    ],
+    "NextQuestTitles": [
+      "Amber Alert"
+    ],
+    "StarterNpc": "Gyorin",
+    "StarterNpcLocation": {
+      "RowId": 6958704,
+      "X": -233.701,
+      "Y": 17.625,
+      "Z": 485.338,
+      "Yaw": -1.05381,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Gyorin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 4260,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100704,
+    "JobLevel": 64,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18379,
+          "ItemName": "Tigerskin Tricorne of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18391,
+          "ItemName": "Kudzu Hat of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18397,
+          "ItemName": "Kudzu Hat of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68340,
+    "QuestTitle": "Assistants Anonymous",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Auri samurai",
+    "StarterNpcLocation": {
+      "RowId": 6958239,
+      "X": 244.007,
+      "Y": 5.17204,
+      "Z": -374.899,
+      "Yaw": 2.83166,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Auri samurai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 873,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68341,
+    "QuestTitle": "The Rainbow Collection",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yagoro",
+    "StarterNpcLocation": {
+      "RowId": 6844073,
+      "X": 173.472,
+      "Y": 5.16971,
+      "Z": -413.707,
+      "Yaw": 2.28943,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Yagoro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 590,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68342,
+    "QuestTitle": "From the Bottom of My Gut",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Haname",
+    "StarterNpcLocation": {
+      "RowId": 6844069,
+      "X": 195.648,
+      "Y": 5.16971,
+      "Z": -437.223,
+      "Yaw": -0.155721,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Haname",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 625,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68343,
+    "QuestTitle": "Forgotten Resolve",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "spineless soldier",
+    "StarterNpcLocation": {
+      "RowId": 6949924,
+      "X": 265.4,
+      "Y": 7.96052,
+      "Z": -417.289,
+      "Yaw": -2.15564,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "spineless soldier",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 731,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68344,
+    "QuestTitle": "Wine for the Road",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "stalwart soldier",
+    "StarterNpcLocation": {
+      "RowId": 6949929,
+      "X": 218.708,
+      "Y": 6.13794,
+      "Z": -372.885,
+      "Yaw": 2.50515,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "stalwart soldier",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 943,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68345,
+    "QuestTitle": "An Eye for an Emblem",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "slight soldier",
+    "StarterNpcLocation": {
+      "RowId": 6949936,
+      "X": 256.306,
+      "Y": 5.17204,
+      "Z": -374.929,
+      "Yaw": 3.13642,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "slight soldier",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 837,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68346,
+    "QuestTitle": "Heart of Iron",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Motojiro",
+    "StarterNpcLocation": {
+      "RowId": 6844072,
+      "X": 196.552,
+      "Y": 5.16942,
+      "Z": -410.664,
+      "Yaw": 0.755831,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Motojiro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 590,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68347,
+    "QuestTitle": "A View to a Spill",
+    "PreviousQuestIds": [
+      68482
+    ],
+    "PreviousQuestTitles": [
+      "How Tataru Got Her Groove Back"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "sharp-eyed samurai",
+    "StarterNpcLocation": {
+      "RowId": 6949947,
+      "X": 312.123,
+      "Y": 17.501,
+      "Z": -415.335,
+      "Yaw": -3.08192,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "sharp-eyed samurai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 129,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Yanxia Sidequests"
+    },
+    "SortKey": 7080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 802,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

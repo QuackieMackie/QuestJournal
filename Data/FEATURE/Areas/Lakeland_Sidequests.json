@@ -1,0 +1,1890 @@
+[
+  {
+    "QuestId": 68917,
+    "QuestTitle": "\uE0BE Stock and Barrel",
+    "PreviousQuestIds": [
+      68916
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Jobb Well Done"
+    ],
+    "NextQuestIds": [
+      68919
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Desperate Measures"
+    ],
+    "StarterNpc": "guard quartermaster",
+    "StarterNpcLocation": {
+      "RowId": 8014623,
+      "X": 775.711,
+      "Y": 23.0378,
+      "Z": -52.3386,
+      "Yaw": 0.377647,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "guard quartermaster",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 706,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68918,
+    "QuestTitle": "\uE0BE Classical Condition",
+    "PreviousQuestIds": [
+      68916
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Jobb Well Done"
+    ],
+    "NextQuestIds": [
+      68919
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Desperate Measures"
+    ],
+    "StarterNpc": "Riqi-Mao",
+    "StarterNpcLocation": {
+      "RowId": 7789238,
+      "X": 782.284,
+      "Y": 21.4149,
+      "Z": -3.15869,
+      "Yaw": -1.59759,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Riqi-Mao",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 852,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68919,
+    "QuestTitle": "\uE0BE Desperate Measures",
+    "PreviousQuestIds": [
+      68917,
+      68918
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Stock and Barrel",
+      "\uE0BE Classical Condition"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bjorn",
+    "StarterNpcLocation": {
+      "RowId": 7848593,
+      "X": 715.07,
+      "Y": 21.4137,
+      "Z": -26.92,
+      "Yaw": -0.146961,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Dawkes",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27856,
+          "ItemName": "Broad Bean Soup",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68920,
+    "QuestTitle": "\uE0BE Imperative Repairs",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seanard",
+    "StarterNpcLocation": {
+      "RowId": 7791231,
+      "X": -765.927,
+      "Y": 61.7205,
+      "Z": -304.189,
+      "Yaw": 0.242325,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Seanard",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2050,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68921,
+    "QuestTitle": "\uE0BE The Astute Amaro",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "sentry captain",
+    "StarterNpcLocation": {
+      "RowId": 8013850,
+      "X": -673.091,
+      "Y": 51.1329,
+      "Z": -219.501,
+      "Yaw": 2.45717,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "sentry captain",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2060,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 956,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68922,
+    "QuestTitle": "\uE0BE An Unreasonable Request",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [
+      68923
+    ],
+    "NextQuestTitles": [
+      "\uE0BE You\u0027ve Got the Tatch"
+    ],
+    "StarterNpc": "Teanna",
+    "StarterNpcLocation": {
+      "RowId": 7845346,
+      "X": -700.728,
+      "Y": 61.9938,
+      "Z": -353.617,
+      "Yaw": -1.28132,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Mynes",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2070,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68923,
+    "QuestTitle": "\uE0BE You\u0027ve Got the Tatch",
+    "PreviousQuestIds": [
+      68922
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE An Unreasonable Request"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mynes",
+    "StarterNpcLocation": {
+      "RowId": 7790280,
+      "X": -146.319,
+      "Y": 28.4721,
+      "Z": -128.801,
+      "Yaw": -1.66542,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Teanna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 810,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26845,
+          "ItemName": "Deepgold Ring Coffer (IL 395)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68924,
+    "QuestTitle": "\uE0BE All That Heavenly Glory",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aiscar",
+    "StarterNpcLocation": {
+      "RowId": 7791242,
+      "X": -782.315,
+      "Y": 200.122,
+      "Z": -325.002,
+      "Yaw": -2.13107,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Aiscar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 810,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68925,
+    "QuestTitle": "\uE0BE Beers for Fears",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sai-Qesh",
+    "StarterNpcLocation": {
+      "RowId": 7791240,
+      "X": -762.265,
+      "Y": 115.16,
+      "Z": -325.216,
+      "Yaw": 1.93922,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Sai-Qesh",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68926,
+    "QuestTitle": "\uE0BE Loot Justice Mode",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lethenmaer",
+    "StarterNpcLocation": {
+      "RowId": 7791221,
+      "X": -714.821,
+      "Y": 52.0706,
+      "Z": -166.044,
+      "Yaw": 3.13546,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Lethenmaer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 883,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68927,
+    "QuestTitle": "\uE0BE Inglourious Bath Stewards",
+    "PreviousQuestIds": [
+      68840
+    ],
+    "PreviousQuestTitles": [
+      "Logistics of War"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sue-Lewq",
+    "StarterNpcLocation": {
+      "RowId": 7791276,
+      "X": -654.475,
+      "Y": 55.7575,
+      "Z": -142.84,
+      "Yaw": -2.62099,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Sue-Lewq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 2120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 956,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26844,
+          "ItemName": "Deepgold Bracelet Coffer (IL 395)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68971,
+    "QuestTitle": "\uE0BE Lofty Goals",
+    "PreviousQuestIds": [
+      68858
+    ],
+    "PreviousQuestTitles": [
+      "A Party Soon Divided"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "high-strung historian",
+    "StarterNpcLocation": {
+      "RowId": 8043323,
+      "X": 692.213,
+      "Y": 21.2768,
+      "Z": -115.534,
+      "Yaw": -1.24681,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "high-strung historian",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 852,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27859,
+          "ItemName": "Grilled Platinum Bream",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68972,
+    "QuestTitle": "\uE0BE You Had One Jobb",
+    "PreviousQuestIds": [
+      68858
+    ],
+    "PreviousQuestTitles": [
+      "A Party Soon Divided"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "ungainly guardsman",
+    "StarterNpcLocation": {
+      "RowId": 8043871,
+      "X": 733.405,
+      "Y": 21.1469,
+      "Z": -88.0751,
+      "Yaw": -1.43783,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "ungainly guardsman",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 706,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68973,
+    "QuestTitle": "\uE0BE Of Graveyards and Gremlins",
+    "PreviousQuestIds": [
+      68858
+    ],
+    "PreviousQuestTitles": [
+      "A Party Soon Divided"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Joanric",
+    "StarterNpcLocation": {
+      "RowId": 7845355,
+      "X": 702.388,
+      "Y": 21.7746,
+      "Z": -81.3459,
+      "Yaw": -1.03939,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Joanric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68992,
+    "QuestTitle": "\uE0BE On Her Own",
+    "PreviousQuestIds": [
+      68858
+    ],
+    "PreviousQuestTitles": [
+      "A Party Soon Divided"
+    ],
+    "NextQuestIds": [
+      68993
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Carrying On"
+    ],
+    "StarterNpc": "Callea",
+    "StarterNpcLocation": {
+      "RowId": 7953296,
+      "X": 792.887,
+      "Y": 23.0378,
+      "Z": -68.1302,
+      "Yaw": 2.24193,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Nielden",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100856,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26856,
+          "ItemName": "Bluespirit Ring Coffer (IL 403)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68993,
+    "QuestTitle": "\uE0BE Carrying On",
+    "PreviousQuestIds": [
+      68992
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE On Her Own"
+    ],
+    "NextQuestIds": [
+      68994
+    ],
+    "NextQuestTitles": [
+      "\uE0BE In Father\u0027s Footsteps"
+    ],
+    "StarterNpc": "Nielden",
+    "StarterNpcLocation": {
+      "RowId": 7953298,
+      "X": -137.344,
+      "Y": 5.76166,
+      "Z": -79.5238,
+      "Yaw": -3.06692,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Callea",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100856,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1115,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68994,
+    "QuestTitle": "\uE0BE In Father\u0027s Footsteps",
+    "PreviousQuestIds": [
+      68993
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Carrying On"
+    ],
+    "NextQuestIds": [
+      68995
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Her True Calling"
+    ],
+    "StarterNpc": "Callea",
+    "StarterNpcLocation": {
+      "RowId": 7953302,
+      "X": 778.254,
+      "Y": 23.0378,
+      "Z": -67.0315,
+      "Yaw": -1.11748,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Callea",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100856,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68995,
+    "QuestTitle": "\uE0BE Her True Calling",
+    "PreviousQuestIds": [
+      68994
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE In Father\u0027s Footsteps"
+    ],
+    "NextQuestIds": [
+      69051
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Flowering Friendships"
+    ],
+    "StarterNpc": "Callea",
+    "StarterNpcLocation": {
+      "RowId": 7953304,
+      "X": 324.593,
+      "Y": 15.6795,
+      "Z": -47.3486,
+      "Yaw": -1.33861,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Nielden",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 4060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100856,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27857,
+          "ItemName": "Spaghetti al Nero",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27858,
+          "ItemName": "Broad Bean Salad",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27859,
+          "ItemName": "Grilled Platinum Bream",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27860,
+          "ItemName": "Baguette",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69051,
+    "QuestTitle": "\uE0BE Flowering Friendships",
+    "PreviousQuestIds": [
+      68995,
+      69072
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Her True Calling",
+      "\uE0BE Resolve Regained"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tolas",
+    "StarterNpcLocation": {
+      "RowId": 7953906,
+      "X": -643.309,
+      "Y": 55.7575,
+      "Z": -141.177,
+      "Yaw": 1.78493,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Tolas",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 7140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100863,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1266,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27872,
+          "ItemName": "Masala Chai",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27873,
+          "ItemName": "Risotto al Nero",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27874,
+          "ItemName": "Espresso con Panna",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27875,
+          "ItemName": "Mist Spinach Saute",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69070,
+    "QuestTitle": "\uE0BE His Secret Shame",
+    "PreviousQuestIds": [
+      69069
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Scars of War"
+    ],
+    "NextQuestIds": [
+      69071
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Much-needed Respite"
+    ],
+    "StarterNpc": "Mauwyl",
+    "StarterNpcLocation": {
+      "RowId": 7953982,
+      "X": -657.583,
+      "Y": 50.9302,
+      "Z": -217.741,
+      "Yaw": -2.60976,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Mauwyl",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 7110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100862,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69071,
+    "QuestTitle": "\uE0BE A Much-needed Respite",
+    "PreviousQuestIds": [
+      69070
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE His Secret Shame"
+    ],
+    "NextQuestIds": [
+      69072
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Resolve Regained"
+    ],
+    "StarterNpc": "Mauwyl",
+    "StarterNpcLocation": {
+      "RowId": 7953911,
+      "X": -641.132,
+      "Y": 55.7575,
+      "Z": -141.903,
+      "Yaw": -1.25705,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Tolas",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 7120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100862,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69072,
+    "QuestTitle": "\uE0BE Resolve Regained",
+    "PreviousQuestIds": [
+      69071
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Much-needed Respite"
+    ],
+    "NextQuestIds": [
+      69051
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Flowering Friendships"
+    ],
+    "StarterNpc": "Tolas",
+    "StarterNpcLocation": {
+      "RowId": 7953951,
+      "X": -351.906,
+      "Y": 100.105,
+      "Z": -629,
+      "Yaw": 1.33796,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Tolas",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 7130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100862,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1065,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27872,
+          "ItemName": "Masala Chai",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27873,
+          "ItemName": "Risotto al Nero",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27874,
+          "ItemName": "Espresso con Panna",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27875,
+          "ItemName": "Mist Spinach Saute",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69105,
+    "QuestTitle": "\uE0BE The Sullen Man",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dadfort",
+    "StarterNpcLocation": {
+      "RowId": 7792395,
+      "X": -127.916,
+      "Y": 9.57296,
+      "Z": 702.571,
+      "Yaw": -2.61811,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "facet investigator",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5810,
+          "ItemName": "Lotus Pink Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5812,
+          "ItemName": "Plum Purple Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5813,
+          "ItemName": "Regal Purple Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69106,
+    "QuestTitle": "\uE0BE Rite of Passage",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thafe",
+    "StarterNpcLocation": {
+      "RowId": 7983319,
+      "X": 99.7118,
+      "Y": 0.143514,
+      "Z": 617.48,
+      "Yaw": -3.13064,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Thafe",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69107,
+    "QuestTitle": "\uE0BE Bigger Fish to Dry",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Casswren",
+    "StarterNpcLocation": {
+      "RowId": 7792415,
+      "X": -40.8527,
+      "Y": 1.34829,
+      "Z": 676.644,
+      "Yaw": 2.32637,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Casswren",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69108,
+    "QuestTitle": "\uE0BE Treasure-hunting Tykes",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yalric",
+    "StarterNpcLocation": {
+      "RowId": 7790267,
+      "X": -238.041,
+      "Y": 1.18741,
+      "Z": 749.056,
+      "Yaw": 0.0214494,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Yalric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 26343,
+          "ItemName": "Petalite Ring of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 26344,
+          "ItemName": "Petalite Ring of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 26345,
+          "ItemName": "Petalite Ring of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 26346,
+          "ItemName": "Petalite Ring of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 26347,
+          "ItemName": "Petalite Ring of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69109,
+    "QuestTitle": "\uE0BE With Furious Anger",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Chora-Kai",
+    "StarterNpcLocation": {
+      "RowId": 7790229,
+      "X": 52.6666,
+      "Y": 2.20583,
+      "Z": 646.813,
+      "Yaw": 2.19699,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Chora-Kai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69110,
+    "QuestTitle": "\uE0BE Scrumptious Squirmers",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ambarth",
+    "StarterNpcLocation": {
+      "RowId": 7852703,
+      "X": -115.856,
+      "Y": 14.1737,
+      "Z": 746.009,
+      "Yaw": -0.825251,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ambarth",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69111,
+    "QuestTitle": "\uE0BE Simple Treasures",
+    "PreviousQuestIds": [
+      69183
+    ],
+    "PreviousQuestTitles": [
+      "To Storm-tossed Seas"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ortwil",
+    "StarterNpcLocation": {
+      "RowId": 7845369,
+      "X": -8.74128,
+      "Y": 1.42411,
+      "Z": 674.468,
+      "Yaw": -1.25878,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Ortwil",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 133,
+      "JournalCategory": {
+        "Id": 71,
+        "Name": "Lakeland Sidequests"
+      },
+      "Name": "Lakeland Sidequests"
+    },
+    "SortKey": 9110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

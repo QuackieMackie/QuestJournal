@@ -1,0 +1,1421 @@
+[
+  {
+    "QuestId": 69712,
+    "QuestTitle": "The Hunt for Specimens",
+    "PreviousQuestIds": [
+      67658,
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Elite and Dangerous",
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [
+      69713
+    ],
+    "NextQuestTitles": [
+      "That Specimen Came from the Moon"
+    ],
+    "StarterNpc": "diminutive gleaner",
+    "StarterNpcLocation": {
+      "RowId": 9023083,
+      "X": -1.915,
+      "Y": -7.75792,
+      "Z": 42.288,
+      "Yaw": -2.76046,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Northota",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 30001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 168300,
+      "Gil": 775,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69713,
+    "QuestTitle": "That Specimen Came from the Moon",
+    "PreviousQuestIds": [
+      69712
+    ],
+    "PreviousQuestTitles": [
+      "The Hunt for Specimens"
+    ],
+    "NextQuestIds": [
+      69714
+    ],
+    "NextQuestTitles": [
+      "A Hunt for the Ages"
+    ],
+    "StarterNpc": "Northota",
+    "StarterNpcLocation": {
+      "RowId": 8859742,
+      "X": 25.8945,
+      "Y": -15.647,
+      "Z": 99.6871,
+      "Yaw": 0.0154677,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "J\u0027lakshai",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 30010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 83,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 175725,
+      "Gil": 751,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69714,
+    "QuestTitle": "A Hunt for the Ages",
+    "PreviousQuestIds": [
+      69713
+    ],
+    "PreviousQuestTitles": [
+      "That Specimen Came from the Moon"
+    ],
+    "NextQuestIds": [
+      69715
+    ],
+    "NextQuestTitles": [
+      "Perfect Specimens"
+    ],
+    "StarterNpc": "Northota",
+    "StarterNpcLocation": {
+      "RowId": 8859742,
+      "X": 25.8945,
+      "Y": -15.647,
+      "Z": 99.6871,
+      "Yaw": 0.0154677,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "J\u0027lakshai",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 30020,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 89,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 781,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69715,
+    "QuestTitle": "Perfect Specimens",
+    "PreviousQuestIds": [
+      69714
+    ],
+    "PreviousQuestTitles": [
+      "A Hunt for the Ages"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Northota",
+    "StarterNpcLocation": {
+      "RowId": 8859742,
+      "X": 25.8945,
+      "Y": -15.647,
+      "Z": 99.6871,
+      "Yaw": 0.0154677,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "J\u0027lakshai",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 30030,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69716,
+    "QuestTitle": "\uE0BE A Waiting Love",
+    "PreviousQuestIds": [
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "waiting woman",
+    "StarterNpcLocation": {
+      "RowId": 8903229,
+      "X": -175.616,
+      "Y": 7.84433,
+      "Z": 68.9249,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "waiting woman",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69717,
+    "QuestTitle": "\uE0BE Scholarly Perspective",
+    "PreviousQuestIds": [
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bhaldswys",
+    "StarterNpcLocation": {
+      "RowId": 8860424,
+      "X": 36.2397,
+      "Y": 2.45145,
+      "Z": -22.9013,
+      "Yaw": 0.769694,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Bhaldswys",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69718,
+    "QuestTitle": "\uE0BE A Literary Delivery",
+    "PreviousQuestIds": [
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Toffwyb",
+    "StarterNpcLocation": {
+      "RowId": 8906320,
+      "X": 42.08,
+      "Y": 2.43575,
+      "Z": -11.0373,
+      "Yaw": -3.01324,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Toffwyb",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69719,
+    "QuestTitle": "\uE0BE Doll Dash",
+    "PreviousQuestIds": [
+      69894
+    ],
+    "PreviousQuestTitles": [
+      "Old Sharlayan, New to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "mischievous Miqo\u0027te",
+    "StarterNpcLocation": {
+      "RowId": 8904491,
+      "X": 164.752,
+      "Y": 1.28967,
+      "Z": 22.1408,
+      "Yaw": -2.2493,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "mischievous Miqo\u0027te",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35670,
+          "ItemName": "Horse Chestnut Leg Gear Coffer (IL 515)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69746,
+    "QuestTitle": "\uE0BE A Volatile Education",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Passemerrant",
+    "StarterNpcLocation": {
+      "RowId": 8906321,
+      "X": -309.054,
+      "Y": 21.8,
+      "Z": -174.363,
+      "Yaw": 2.32848,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Passemerrant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 1401,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35685,
+          "ItemName": "Pewter Ring Coffer (IL 525)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69747,
+    "QuestTitle": "\uE0BE The Light of Progress",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpcLocation": {
+      "RowId": 8904766,
+      "X": -104.326,
+      "Y": 24.6784,
+      "Z": -120.043,
+      "Yaw": 0,
+      "Radius": 0.99176,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "bookish Miqo\u0027te",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 1410,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69748,
+    "QuestTitle": "\uE0BE My Fair Mammet",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fraisoinne",
+    "StarterNpcLocation": {
+      "RowId": 8859998,
+      "X": -326.04,
+      "Y": 20.0961,
+      "Z": -142.565,
+      "Yaw": 0.796175,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Fraisoinne",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 1420,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36038,
+          "ItemName": "Amra Salad",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69749,
+    "QuestTitle": "\uE0BE The Creature from the Wooden Crate",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "timid student",
+    "StarterNpcLocation": {
+      "RowId": 8963903,
+      "X": -230.518,
+      "Y": 21.5313,
+      "Z": -119.452,
+      "Yaw": 2.50328,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "timid student",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 1430,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69750,
+    "QuestTitle": "\uE0BE Fast Fashion",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lalafellin student",
+    "StarterNpcLocation": {
+      "RowId": 8963915,
+      "X": -307.359,
+      "Y": 22.2934,
+      "Z": -143.269,
+      "Yaw": 2.3562,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Lalafellin student",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 1440,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69751,
+    "QuestTitle": "\uE0BE Booking Books",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Isilswys",
+    "StarterNpcLocation": {
+      "RowId": 8860135,
+      "X": -317.056,
+      "Y": 19,
+      "Z": 48.847,
+      "Yaw": 0.859348,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Isilswys",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 1450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69852,
+    "QuestTitle": "\uE0BE For the Love of Pudding",
+    "PreviousQuestIds": [
+      69976
+    ],
+    "PreviousQuestTitles": [
+      "Outside Help"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Last Stand employee",
+    "StarterNpcLocation": {
+      "RowId": 9010972,
+      "X": -50.9307,
+      "Y": -14.1693,
+      "Z": 108.76,
+      "Yaw": -1.70189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Last Stand employee",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 7101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36063,
+          "ItemName": "Baked Alien Soup",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69853,
+    "QuestTitle": "\uE0BE Secret in the Box",
+    "PreviousQuestIds": [
+      69976
+    ],
+    "PreviousQuestTitles": [
+      "Outside Help"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "mysterious maiden",
+    "StarterNpcLocation": {
+      "RowId": 8963923,
+      "X": -32.8871,
+      "Y": 2.40005,
+      "Z": -8.79039,
+      "Yaw": 1.19798,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 7110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35715,
+          "ItemName": "Chondrite Ring Coffer (IL 545)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69854,
+    "QuestTitle": "\uE0BE Leveilleur Philanthropy",
+    "PreviousQuestIds": [
+      69984
+    ],
+    "PreviousQuestTitles": [
+      "Bonds of Adamant(ite)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "House Leveilleur servant",
+    "StarterNpcLocation": {
+      "RowId": 8980748,
+      "X": 209.556,
+      "Y": 19.3118,
+      "Z": -110.691,
+      "Yaw": 1.05687,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "House Leveilleur servant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 7120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69855,
+    "QuestTitle": "\uE0BE Sandwiches and Pretzels",
+    "PreviousQuestIds": [
+      69984
+    ],
+    "PreviousQuestTitles": [
+      "Bonds of Adamant(ite)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dickon",
+    "StarterNpcLocation": {
+      "RowId": 8859759,
+      "X": -38.0709,
+      "Y": -14.1693,
+      "Z": 105.309,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Dickon",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 7130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36055,
+          "ItemName": "Philosopher\u0027s Sandwich",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70059,
+    "QuestTitle": "Of Mothers and Merchants",
+    "PreviousQuestIds": [
+      70000,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      70060
+    ],
+    "NextQuestTitles": [
+      "A Mother\u0027s Love"
+    ],
+    "StarterNpc": "well-dressed attendant",
+    "StarterNpcLocation": {
+      "RowId": 9084404,
+      "X": 72.4524,
+      "Y": 5.1,
+      "Z": -75.2735,
+      "Yaw": -0.731975,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Ameliance",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 9101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36053,
+          "ItemName": "Giant Haddock Dip",
+          "Count": 3
+        },
+        {
+          "ItemId": 36054,
+          "ItemName": "Yakow Moussaka",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70060,
+    "QuestTitle": "A Mother\u0027s Love",
+    "PreviousQuestIds": [
+      70059
+    ],
+    "PreviousQuestTitles": [
+      "Of Mothers and Merchants"
+    ],
+    "NextQuestIds": [
+      70061
+    ],
+    "NextQuestTitles": [
+      "A Gift from House Leveilleur"
+    ],
+    "StarterNpc": "Ameliance",
+    "StarterNpcLocation": {
+      "RowId": 9083528,
+      "X": 222.883,
+      "Y": 24.9427,
+      "Z": -197.75,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Ameliance",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 9110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 975,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 3
+        },
+        {
+          "ItemId": 36061,
+          "ItemName": "Sideritis Cookie",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70061,
+    "QuestTitle": "A Gift from House Leveilleur",
+    "PreviousQuestIds": [
+      70060
+    ],
+    "PreviousQuestTitles": [
+      "A Mother\u0027s Love"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Meryld",
+    "StarterNpcLocation": {
+      "RowId": 9173835,
+      "X": 225.686,
+      "Y": 24.9427,
+      "Z": -204.978,
+      "Yaw": -1.5708,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "House Leveilleur maidservant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 9120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37493,
+          "ItemName": "Appointed Attire Coffer",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70331,
+    "QuestTitle": "Wings of Hope",
+    "PreviousQuestIds": [
+      70284
+    ],
+    "PreviousQuestTitles": [
+      "Down in the Dark"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Singingway",
+    "StarterNpcLocation": {
+      "RowId": 10098647,
+      "X": 15.8251,
+      "Y": 2.373,
+      "Z": -42.991,
+      "Yaw": -1.54075,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1770,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41489,
+          "ItemName": "Apocryphal Bahamut Horn",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70351,
+    "QuestTitle": "A Request of One\u0027s Own",
+    "PreviousQuestIds": [
+      70272,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Going Haam",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      70352
+    ],
+    "NextQuestTitles": [
+      "The Pride of Labyrinthos"
+    ],
+    "StarterNpc": "Theopauldin",
+    "StarterNpcLocation": {
+      "RowId": 10213578,
+      "X": 130.053,
+      "Y": -16.0774,
+      "Z": 190.723,
+      "Yaw": 0.418688,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Theopauldin",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 139,
+      "JournalCategory": {
+        "Id": 77,
+        "Name": "Sharlayan Sidequests"
+      },
+      "Name": "Old Sharlayan Sidequests"
+    },
+    "SortKey": 10001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 979,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 3
+        },
+        {
+          "ItemId": 36061,
+          "ItemName": "Sideritis Cookie",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

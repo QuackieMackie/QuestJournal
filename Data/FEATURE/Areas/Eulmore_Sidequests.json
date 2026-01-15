@@ -1,0 +1,759 @@
+[
+  {
+    "QuestId": 69052,
+    "QuestTitle": "\uE0BE My Heart Will (Not) Go On",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [
+      69053
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Near, Far, Wherever You Are"
+    ],
+    "StarterNpc": "Queen Bee",
+    "StarterNpcLocation": {
+      "RowId": 7944690,
+      "X": 54.1147,
+      "Y": 83.0011,
+      "Z": -74.5253,
+      "Yaw": -0.714002,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Queen Bee",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27877,
+          "ItemName": "Paella",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69053,
+    "QuestTitle": "\uE0BE Near, Far, Wherever You Are",
+    "PreviousQuestIds": [
+      69052
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE My Heart Will (Not) Go On"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Solina",
+    "StarterNpcLocation": {
+      "RowId": 7944685,
+      "X": 63.2984,
+      "Y": -4.039,
+      "Z": 145.301,
+      "Yaw": 1.46416,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "silky-haired elf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1035,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69054,
+    "QuestTitle": "\uE0BE The Invisible Hand",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zoi-Chorr",
+    "StarterNpcLocation": {
+      "RowId": 7929702,
+      "X": -56.5653,
+      "Y": -4.821,
+      "Z": -88.0599,
+      "Yaw": 0.739054,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Zoi-Chorr",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69055,
+    "QuestTitle": "\uE0BE Scattered to the Winds",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aarner",
+    "StarterNpcLocation": {
+      "RowId": 7796154,
+      "X": 52.5496,
+      "Y": 82.9349,
+      "Z": 13.5987,
+      "Yaw": 1.43849,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Aarner",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69056,
+    "QuestTitle": "\uE0BE One Good Meal",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eulmoran soldier",
+    "StarterNpcLocation": {
+      "RowId": 7943328,
+      "X": 19.3005,
+      "Y": 36,
+      "Z": -4.39694,
+      "Yaw": -2.99384,
+      "Radius": 1,
+      "MapId": 554,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Eulmoran soldier",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27879,
+          "ItemName": "Ovim Cordon Bleu",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69057,
+    "QuestTitle": "\uE0BE Little and Late",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "forlorn free citizen",
+    "StarterNpcLocation": {
+      "RowId": 7944319,
+      "X": -4.31836,
+      "Y": 6,
+      "Z": -30.3197,
+      "Yaw": 2.71226,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "forlorn free citizen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69058,
+    "QuestTitle": "\uE0BE Children of the Derelicts",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sristialla",
+    "StarterNpcLocation": {
+      "RowId": 7797960,
+      "X": 45.9685,
+      "Y": -13.7956,
+      "Z": -118.086,
+      "Yaw": -2.9137,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Sristialla",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5750,
+          "ItemName": "Cork Brown Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5755,
+          "ItemName": "Acorn Brown Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5759,
+          "ItemName": "Shale Brown Dye",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69059,
+    "QuestTitle": "\uE0BE Rebuild, Reuse, Recycle",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tui-Shirr",
+    "StarterNpcLocation": {
+      "RowId": 7797454,
+      "X": 41.5808,
+      "Y": -7.64,
+      "Z": -109.575,
+      "Yaw": -0.289208,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Tui-Shirr",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69060,
+    "QuestTitle": "\uE0BE Of Legacies Lost and Reclaimed",
+    "PreviousQuestIds": [
+      69168
+    ],
+    "PreviousQuestTitles": [
+      "Paradise Fallen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "debonair dame",
+    "StarterNpcLocation": {
+      "RowId": 7944439,
+      "X": -3.53514,
+      "Y": 6.8,
+      "Z": 47.5313,
+      "Yaw": 1.08988,
+      "Radius": 1,
+      "MapId": 498,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "debonair dame",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 7280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69265,
+    "QuestTitle": "Oh, Beehive Yourself",
+    "PreviousQuestIds": [
+      69217,
+      69139
+    ],
+    "PreviousQuestTitles": [
+      "Moving Forward",
+      "The Boutique Always Wins"
+    ],
+    "NextQuestIds": [
+      69266
+    ],
+    "NextQuestTitles": [
+      "Commercially Flyable"
+    ],
+    "StarterNpc": "Kai-Shirr",
+    "StarterNpcLocation": {
+      "RowId": 8134596,
+      "X": 24.2561,
+      "Y": 82.7821,
+      "Z": 25.7741,
+      "Yaw": 0.646606,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Kai-Shirr",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 8001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27864,
+          "ItemName": "Blood Tomato Salad",
+          "Count": 1
+        },
+        {
+          "ItemId": 27865,
+          "ItemName": "Mushroom Saute",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69266,
+    "QuestTitle": "Commercially Flyable",
+    "PreviousQuestIds": [
+      69265
+    ],
+    "PreviousQuestTitles": [
+      "Oh, Beehive Yourself"
+    ],
+    "NextQuestIds": [
+      69267
+    ],
+    "NextQuestTitles": [
+      "A Ship on His Shoulder"
+    ],
+    "StarterNpc": "Bosta-Zia",
+    "StarterNpcLocation": {
+      "RowId": 8139759,
+      "X": 48.2655,
+      "Y": 82.0017,
+      "Z": -56.6513,
+      "Yaw": 0.963922,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Kai-Shirr",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 8002,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27876,
+          "ItemName": "Blood Bouillabaisse",
+          "Count": 1
+        },
+        {
+          "ItemId": 27878,
+          "ItemName": "Coffee Biscuit",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69267,
+    "QuestTitle": "A Ship on His Shoulder",
+    "PreviousQuestIds": [
+      69266
+    ],
+    "PreviousQuestTitles": [
+      "Commercially Flyable"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Anfrigg",
+    "StarterNpcLocation": {
+      "RowId": 7796229,
+      "X": 47.9896,
+      "Y": 82.9938,
+      "Z": -75.3033,
+      "Yaw": 0.88814,
+      "Radius": 1,
+      "MapId": 555,
+      "TerritoryId": 820
+    },
+    "FinishNpc": "Lereberd",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 132,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Eulmore Sidequests"
+    },
+    "SortKey": 8003,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 533,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

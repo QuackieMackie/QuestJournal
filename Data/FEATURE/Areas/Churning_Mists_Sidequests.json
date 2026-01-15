@@ -1,0 +1,4373 @@
+[
+  {
+    "QuestId": 67355,
+    "QuestTitle": "The Bathing Bully",
+    "PreviousQuestIds": [
+      67156
+    ],
+    "PreviousQuestTitles": [
+      "Moghan\u0027s Trial"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogret",
+    "StarterNpcLocation": {
+      "RowId": 5872288,
+      "X": 363.241,
+      "Y": -73.2892,
+      "Z": 678.431,
+      "Yaw": 0.869732,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogret",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5401,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 515,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67356,
+    "QuestTitle": "A Show of Devotion",
+    "PreviousQuestIds": [
+      67157
+    ],
+    "PreviousQuestTitles": [
+      "Mogmug\u0027s Trial"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogmug",
+    "StarterNpcLocation": {
+      "RowId": 5814710,
+      "X": 392.203,
+      "Y": -72.4041,
+      "Z": 649.561,
+      "Yaw": -2.26663,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmug",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5402,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 485,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67357,
+    "QuestTitle": "A Pebble for Your Thoughts",
+    "PreviousQuestIds": [
+      67159
+    ],
+    "PreviousQuestTitles": [
+      "Moglin\u0027s Judgment"
+    ],
+    "NextQuestIds": [
+      67360
+    ],
+    "NextQuestTitles": [
+      "Spineless Wadjets"
+    ],
+    "StarterNpc": "Mogleo",
+    "StarterNpcLocation": {
+      "RowId": 5910567,
+      "X": 357.489,
+      "Y": 2.76443,
+      "Z": 638.324,
+      "Yaw": 0.19897,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "mumbling moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5414,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100475,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 695,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10672,
+          "ItemName": "Titanium Mask of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10714,
+          "ItemName": "Titanium Sallet of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10756,
+          "ItemName": "Titanium Mask of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10840,
+          "ItemName": "Titanium Mask of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67358,
+    "QuestTitle": "A Dream Blooms",
+    "PreviousQuestIds": [
+      67158
+    ],
+    "PreviousQuestTitles": [
+      "Mogwin\u0027s Trial"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogomo",
+    "StarterNpcLocation": {
+      "RowId": 5814711,
+      "X": 364.095,
+      "Y": -73.3196,
+      "Z": 678.034,
+      "Yaw": 0.180783,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogomo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5403,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67359,
+    "QuestTitle": "Road Kill",
+    "PreviousQuestIds": [
+      67160
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Moghome"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogsy",
+    "StarterNpcLocation": {
+      "RowId": 5872289,
+      "X": 247.12,
+      "Y": -42.3336,
+      "Z": 565.331,
+      "Yaw": -2.75694,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5404,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67360,
+    "QuestTitle": "Spineless Wadjets",
+    "PreviousQuestIds": [
+      67159,
+      67357
+    ],
+    "PreviousQuestTitles": [
+      "Moglin\u0027s Judgment",
+      "A Pebble for Your Thoughts"
+    ],
+    "NextQuestIds": [
+      67367
+    ],
+    "NextQuestTitles": [
+      "Far from Home"
+    ],
+    "StarterNpc": "Mogleo",
+    "StarterNpcLocation": {
+      "RowId": 5910591,
+      "X": -77.3427,
+      "Y": -8.65556,
+      "Z": 165.256,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "zooming moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5415,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100475,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10798,
+          "ItemName": "Titanium Mask of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10882,
+          "ItemName": "Hardsilver Monocle of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10924,
+          "ItemName": "Hardsilver Magnifiers of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67361,
+    "QuestTitle": "Who\u0027s Got the Baskets",
+    "PreviousQuestIds": [
+      67161
+    ],
+    "PreviousQuestTitles": [
+      "The Road to Zenith"
+    ],
+    "NextQuestIds": [
+      67369,
+      67383
+    ],
+    "NextQuestTitles": [
+      "My Friend the Enabler",
+      "Back to Baskets"
+    ],
+    "StarterNpc": "Mogson",
+    "StarterNpcLocation": {
+      "RowId": 5814897,
+      "X": -94.8043,
+      "Y": -2.98128,
+      "Z": 250.782,
+      "Yaw": 0.84864,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogson",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5406,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10707,
+          "ItemName": "Titanium Sollerets of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10749,
+          "ItemName": "Titanium Sabatons of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10791,
+          "ItemName": "Dhalmelskin Leggings of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10875,
+          "ItemName": "Dhalmelskin Leggings of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67362,
+    "QuestTitle": "Where Dragons Tread",
+    "PreviousQuestIds": [
+      67161
+    ],
+    "PreviousQuestTitles": [
+      "The Road to Zenith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogmum",
+    "StarterNpcLocation": {
+      "RowId": 5814898,
+      "X": -124.01,
+      "Y": 36.3944,
+      "Z": 180.647,
+      "Yaw": 1.43939,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmum",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5407,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 515,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10833,
+          "ItemName": "Dhalmelskin Leggings of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10917,
+          "ItemName": "Dhalmelskin Crakows of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10959,
+          "ItemName": "Dhalmelskin Crakows of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67363,
+    "QuestTitle": "Something Needs to Change",
+    "PreviousQuestIds": [
+      67161
+    ],
+    "PreviousQuestTitles": [
+      "The Road to Zenith"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogmont",
+    "StarterNpcLocation": {
+      "RowId": 5873863,
+      "X": -47.0396,
+      "Y": -8.86601,
+      "Z": 165.971,
+      "Yaw": 2.37351,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5408,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67364,
+    "QuestTitle": "Hide Your Moogles",
+    "PreviousQuestIds": [
+      67164
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Lair"
+    ],
+    "NextQuestIds": [
+      67365
+    ],
+    "NextQuestTitles": [
+      "The Unceasing Gardener"
+    ],
+    "StarterNpc": "maundering moogle",
+    "StarterNpcLocation": {
+      "RowId": 5883282,
+      "X": -511.453,
+      "Y": 50,
+      "Z": 347.125,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "maundering moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5411,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 455,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10978,
+          "ItemName": "Hardsilver Earrings of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11002,
+          "ItemName": "Hardsilver Earrings of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11026,
+          "ItemName": "Hardsilver Earrings of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11050,
+          "ItemName": "Hardsilver Earrings of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11074,
+          "ItemName": "Hardsilver Earrings of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67365,
+    "QuestTitle": "The Unceasing Gardener",
+    "PreviousQuestIds": [
+      67164,
+      67364
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Lair",
+      "Hide Your Moogles"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "manic moogle",
+    "StarterNpcLocation": {
+      "RowId": 5883298,
+      "X": -516.911,
+      "Y": 60.5325,
+      "Z": 485.649,
+      "Yaw": -2.14893,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogomo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5412,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 635,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67366,
+    "QuestTitle": "Nut Job",
+    "PreviousQuestIds": [
+      67164
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Lair"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogomo",
+    "StarterNpcLocation": {
+      "RowId": 5814711,
+      "X": 364.095,
+      "Y": -73.3196,
+      "Z": 678.034,
+      "Yaw": 0.180783,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogomo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5405,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 515,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67367,
+    "QuestTitle": "Far from Home",
+    "PreviousQuestIds": [
+      67163,
+      67360
+    ],
+    "PreviousQuestTitles": [
+      "Heart of Ice",
+      "Spineless Wadjets"
+    ],
+    "NextQuestIds": [
+      67368
+    ],
+    "NextQuestTitles": [
+      "A Nutty Initiation"
+    ],
+    "StarterNpc": "Mogleo",
+    "StarterNpcLocation": {
+      "RowId": 5910613,
+      "X": -625.865,
+      "Y": 50,
+      "Z": 332.655,
+      "Yaw": -0.167788,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogleo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5416,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100475,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 605,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10686,
+          "ItemName": "Titanium Gauntlets of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10728,
+          "ItemName": "Titanium Mitt Gauntlets of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10770,
+          "ItemName": "Dhalmelskin Armguards of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10854,
+          "ItemName": "Dhalmelskin Armguards of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67368,
+    "QuestTitle": "A Nutty Initiation",
+    "PreviousQuestIds": [
+      67163,
+      67367
+    ],
+    "PreviousQuestTitles": [
+      "Heart of Ice",
+      "Far from Home"
+    ],
+    "NextQuestIds": [
+      67399,
+      67508
+    ],
+    "NextQuestTitles": [
+      "Protecting the Pom",
+      "Moogles in the Sky"
+    ],
+    "StarterNpc": "Mogleo",
+    "StarterNpcLocation": {
+      "RowId": 5910653,
+      "X": 455.307,
+      "Y": -24.1877,
+      "Z": 109.077,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogloo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5417,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100475,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 725,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10812,
+          "ItemName": "Dhalmelskin Armguards of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10896,
+          "ItemName": "Ramie Halfgloves of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10938,
+          "ItemName": "Ramie Halfgloves of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67369,
+    "QuestTitle": "My Friend the Enabler",
+    "PreviousQuestIds": [
+      67164,
+      67361
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Lair",
+      "Who\u0027s Got the Baskets"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogson",
+    "StarterNpcLocation": {
+      "RowId": 5814897,
+      "X": -94.8043,
+      "Y": -2.98128,
+      "Z": 250.782,
+      "Yaw": 0.84864,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmill",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5409,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 605,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10966,
+          "ItemName": "Ramie Ribbon of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10990,
+          "ItemName": "Ramie Ribbon of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11014,
+          "ItemName": "Ramie Ribbon of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11038,
+          "ItemName": "Ramie Ribbon of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11062,
+          "ItemName": "Ramie Ribbon of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67370,
+    "QuestTitle": "Pom-pom Panic",
+    "PreviousQuestIds": [
+      67164
+    ],
+    "PreviousQuestTitles": [
+      "The Wyrm\u0027s Lair"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogmont",
+    "StarterNpcLocation": {
+      "RowId": 5873863,
+      "X": -47.0396,
+      "Y": -8.86601,
+      "Z": 165.971,
+      "Yaw": 2.37351,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "mazed moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5410,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67371,
+    "QuestTitle": "Waiting to Inhale",
+    "PreviousQuestIds": [
+      67163
+    ],
+    "PreviousQuestTitles": [
+      "Heart of Ice"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "moon-eyed moogle",
+    "StarterNpcLocation": {
+      "RowId": 5883431,
+      "X": 517.922,
+      "Y": -1.20545,
+      "Z": -354.624,
+      "Yaw": 0.660641,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "moon-eyed moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5413,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 485,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67372,
+    "QuestTitle": "I Won\u0027t Leaf You Behind",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67374
+    ],
+    "NextQuestTitles": [
+      "Moogles\u0027 Marvelous Medicine"
+    ],
+    "StarterNpc": "mercurial moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887525,
+      "X": 580.708,
+      "Y": -12.139,
+      "Z": -327.337,
+      "Yaw": -1.84022,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "malcontent moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5501,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 621,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67373,
+    "QuestTitle": "Something in the Water",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogret",
+    "StarterNpcLocation": {
+      "RowId": 5872288,
+      "X": 363.241,
+      "Y": -73.2892,
+      "Z": 678.431,
+      "Yaw": 0.869732,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogret",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5502,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12855,
+          "ItemName": "Grilled Sweetfish",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 6143,
+          "ItemName": "Grilled Raincaller",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4663,
+          "ItemName": "Mugwort Carp",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 6142,
+          "ItemName": "Grilled Warmwater Trout",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67374,
+    "QuestTitle": "Moogles\u0027 Marvelous Medicine",
+    "PreviousQuestIds": [
+      67171,
+      67372
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "I Won\u0027t Leaf You Behind"
+    ],
+    "NextQuestIds": [
+      67375
+    ],
+    "NextQuestTitles": [
+      "Worried Sick"
+    ],
+    "StarterNpc": "malcontent moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887514,
+      "X": 354.208,
+      "Y": -72.8906,
+      "Z": 698.146,
+      "Yaw": 2.21761,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "malcontent moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5503,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67375,
+    "QuestTitle": "Worried Sick",
+    "PreviousQuestIds": [
+      67171,
+      67374
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Moogles\u0027 Marvelous Medicine"
+    ],
+    "NextQuestIds": [
+      67396
+    ],
+    "NextQuestTitles": [
+      "Mallow in Sadness"
+    ],
+    "StarterNpc": "meandering moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887515,
+      "X": 355.346,
+      "Y": -73.7063,
+      "Z": 698.723,
+      "Yaw": -1.90864,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "meandering moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5504,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 621,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67376,
+    "QuestTitle": "A Secret from Everyone",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogmill",
+    "StarterNpcLocation": {
+      "RowId": 5814720,
+      "X": 286.894,
+      "Y": 14.3665,
+      "Z": 645.195,
+      "Yaw": -1.10193,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmill",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5505,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 642,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67377,
+    "QuestTitle": "An Immaculate Home",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogmont",
+    "StarterNpcLocation": {
+      "RowId": 5873863,
+      "X": -47.0396,
+      "Y": -8.86601,
+      "Z": 165.971,
+      "Yaw": 2.37351,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogmont",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5507,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67378,
+    "QuestTitle": "Just Another Bug Hunt",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67380
+    ],
+    "NextQuestTitles": [
+      "Root Maneuvers"
+    ],
+    "StarterNpc": "Mognell",
+    "StarterNpcLocation": {
+      "RowId": 5814896,
+      "X": -93.8583,
+      "Y": 90.074,
+      "Z": 283.314,
+      "Yaw": -0.456652,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mognell",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5508,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12853,
+          "ItemName": "Sauteed Porcini",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4694,
+          "ItemName": "Buttons in a Blanket",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4693,
+          "ItemName": "Button Mushroom Saute",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4692,
+          "ItemName": "Raptor Stew",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67379,
+    "QuestTitle": "Wyvern Let Die",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67380
+    ],
+    "NextQuestTitles": [
+      "Root Maneuvers"
+    ],
+    "StarterNpc": "Mogeuge",
+    "StarterNpcLocation": {
+      "RowId": 5814895,
+      "X": -65.8543,
+      "Y": 91.652,
+      "Z": 264.487,
+      "Yaw": 1.47081,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogeuge",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5509,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67380,
+    "QuestTitle": "Root Maneuvers",
+    "PreviousQuestIds": [
+      67171,
+      67378,
+      67379
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Just Another Bug Hunt",
+      "Wyvern Let Die"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogeuge",
+    "StarterNpcLocation": {
+      "RowId": 5814895,
+      "X": -65.8543,
+      "Y": 91.652,
+      "Z": 264.487,
+      "Yaw": 1.47081,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Moggzia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5510,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67381,
+    "QuestTitle": "No Country for Young Moogles",
+    "PreviousQuestIds": [
+      67171,
+      67382
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "There Will Be Blades"
+    ],
+    "NextQuestIds": [
+      67386
+    ],
+    "NextQuestTitles": [
+      "The Mog Squad Assembles"
+    ],
+    "StarterNpc": "impatient moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887679,
+      "X": -548.001,
+      "Y": 54.1508,
+      "Z": 203.682,
+      "Yaw": 2.6994,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "impatient moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5515,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 581,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67382,
+    "QuestTitle": "There Will Be Blades",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67381
+    ],
+    "NextQuestTitles": [
+      "No Country for Young Moogles"
+    ],
+    "StarterNpc": "impatient moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887679,
+      "X": -548.001,
+      "Y": 54.1508,
+      "Z": 203.682,
+      "Yaw": 2.6994,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "impatient moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5514,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67383,
+    "QuestTitle": "Back to Baskets",
+    "PreviousQuestIds": [
+      67171,
+      67361
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Who\u0027s Got the Baskets"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogson",
+    "StarterNpcLocation": {
+      "RowId": 5814897,
+      "X": -94.8043,
+      "Y": -2.98128,
+      "Z": 250.782,
+      "Yaw": 0.84864,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogson",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5511,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 551,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67384,
+    "QuestTitle": "If Living Is without Nuts",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67385
+    ],
+    "NextQuestTitles": [
+      "The Nest Episode"
+    ],
+    "StarterNpc": "unmaneuvering moogle",
+    "StarterNpcLocation": {
+      "RowId": 5890322,
+      "X": -613.304,
+      "Y": 70,
+      "Z": 205.288,
+      "Yaw": -0.59119,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "unmaneuvering moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5512,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67385,
+    "QuestTitle": "The Nest Episode",
+    "PreviousQuestIds": [
+      67171,
+      67384
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "If Living Is without Nuts"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "unmaneuvering moogle",
+    "StarterNpcLocation": {
+      "RowId": 5890322,
+      "X": -613.304,
+      "Y": 70,
+      "Z": 205.288,
+      "Yaw": -0.59119,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "unmaneuvering moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5513,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4656,
+          "ItemName": "Apkallu Omelette",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4704,
+          "ItemName": "Finger Sandwich",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 7575,
+          "ItemName": "Spinach Quiche",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67386,
+    "QuestTitle": "The Mog Squad Assembles",
+    "PreviousQuestIds": [
+      67171,
+      67381
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "No Country for Young Moogles"
+    ],
+    "NextQuestIds": [
+      67387,
+      67388,
+      67389
+    ],
+    "NextQuestTitles": [
+      "Branching Out",
+      "What Learning Entails",
+      "A Rocky Start"
+    ],
+    "StarterNpc": "Mogzun",
+    "StarterNpcLocation": {
+      "RowId": 5887783,
+      "X": -214.291,
+      "Y": 81.8708,
+      "Z": -233.435,
+      "Yaw": 0.33226,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogzun",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5516,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67387,
+    "QuestTitle": "Branching Out",
+    "PreviousQuestIds": [
+      67171,
+      67386
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "The Mog Squad Assembles"
+    ],
+    "NextQuestIds": [
+      67390
+    ],
+    "NextQuestTitles": [
+      "Walking the Walk"
+    ],
+    "StarterNpc": "Mogzun",
+    "StarterNpcLocation": {
+      "RowId": 5887811,
+      "X": -481.046,
+      "Y": 106.918,
+      "Z": -113.045,
+      "Yaw": -3.08475,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogzun",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5517,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67388,
+    "QuestTitle": "What Learning Entails",
+    "PreviousQuestIds": [
+      67171,
+      67386
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "The Mog Squad Assembles"
+    ],
+    "NextQuestIds": [
+      67390
+    ],
+    "NextQuestTitles": [
+      "Walking the Walk"
+    ],
+    "StarterNpc": "Mogkon",
+    "StarterNpcLocation": {
+      "RowId": 5887821,
+      "X": -520.76,
+      "Y": 116.328,
+      "Z": -239.103,
+      "Yaw": -1.26444,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogkon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5518,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67389,
+    "QuestTitle": "A Rocky Start",
+    "PreviousQuestIds": [
+      67171,
+      67386
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "The Mog Squad Assembles"
+    ],
+    "NextQuestIds": [
+      67390
+    ],
+    "NextQuestTitles": [
+      "Walking the Walk"
+    ],
+    "StarterNpc": "Mogoot",
+    "StarterNpcLocation": {
+      "RowId": 5887825,
+      "X": -708.476,
+      "Y": 90.8657,
+      "Z": -436.318,
+      "Yaw": -0.937465,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogoot",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5519,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5797,
+          "ItemName": "Raptor Blue Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5773,
+          "ItemName": "Lime Green Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5763,
+          "ItemName": "Ul Brown Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5805,
+          "ItemName": "Lavender Purple Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5801,
+          "ItemName": "Royal Blue Dye",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67390,
+    "QuestTitle": "Walking the Walk",
+    "PreviousQuestIds": [
+      67387,
+      67388,
+      67389
+    ],
+    "PreviousQuestTitles": [
+      "Branching Out",
+      "What Learning Entails",
+      "A Rocky Start"
+    ],
+    "NextQuestIds": [
+      67411
+    ],
+    "NextQuestTitles": [
+      "Respecting the Sheave"
+    ],
+    "StarterNpc": "Mogzun",
+    "StarterNpcLocation": {
+      "RowId": 5887835,
+      "X": -309.422,
+      "Y": 83.02,
+      "Z": -139.971,
+      "Yaw": -2.20876,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogzun",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5520,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67391,
+    "QuestTitle": "Unwanted Attention",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [
+      67392
+    ],
+    "NextQuestTitles": [
+      "Walking on Eggshells"
+    ],
+    "StarterNpc": "malingering moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887900,
+      "X": -215.838,
+      "Y": 130.833,
+      "Z": -514.186,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "malingering moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5523,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 460,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67392,
+    "QuestTitle": "Walking on Eggshells",
+    "PreviousQuestIds": [
+      67171,
+      67391
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Unwanted Attention"
+    ],
+    "NextQuestIds": [
+      67393
+    ],
+    "NextQuestTitles": [
+      "It\u0027s Not a Bug, It\u0027s a Creature"
+    ],
+    "StarterNpc": "remarking moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887904,
+      "X": -227.667,
+      "Y": 134.491,
+      "Z": -593.432,
+      "Yaw": -2.94158,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "remarking moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5524,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 581,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67393,
+    "QuestTitle": "It\u0027s Not a Bug, It\u0027s a Creature",
+    "PreviousQuestIds": [
+      67171,
+      67392
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Walking on Eggshells"
+    ],
+    "NextQuestIds": [
+      67394
+    ],
+    "NextQuestTitles": [
+      "A Frightening Field Trip"
+    ],
+    "StarterNpc": "glimpsing moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887933,
+      "X": -167.438,
+      "Y": 144.695,
+      "Z": -593.555,
+      "Yaw": 1.0938,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "glimpsing moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5525,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 551,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67394,
+    "QuestTitle": "A Frightening Field Trip",
+    "PreviousQuestIds": [
+      67171,
+      67393
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "It\u0027s Not a Bug, It\u0027s a Creature"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "malingering moogle",
+    "StarterNpcLocation": {
+      "RowId": 5887900,
+      "X": -215.838,
+      "Y": 130.833,
+      "Z": -514.186,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "malingering moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5526,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 521,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67395,
+    "QuestTitle": "Seedy Business",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "meticulous moogle",
+    "StarterNpcLocation": {
+      "RowId": 5888032,
+      "X": -637.964,
+      "Y": 108.732,
+      "Z": -341.112,
+      "Yaw": -2.48194,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "meticulous moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5521,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 460,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67396,
+    "QuestTitle": "Mallow in Sadness",
+    "PreviousQuestIds": [
+      67171,
+      67375
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Worried Sick"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moggzia",
+    "StarterNpcLocation": {
+      "RowId": 5814719,
+      "X": 225.544,
+      "Y": 6.96021,
+      "Z": 709.346,
+      "Yaw": -1.64958,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Moggzia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5506,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 590,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67397,
+    "QuestTitle": "The Sins of Our Landlords",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "rummaging moogle",
+    "StarterNpcLocation": {
+      "RowId": 5888053,
+      "X": -98.6256,
+      "Y": 81.8169,
+      "Z": -213.56,
+      "Yaw": 2.92281,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "rummaging moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5522,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 460,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5687,
+          "ItemName": "Gatherer\u0027s Guerdon Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5692,
+          "ItemName": "Gatherer\u0027s Guile Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5697,
+          "ItemName": "Gatherer\u0027s Grasp Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67398,
+    "QuestTitle": "Give Back My Precious",
+    "PreviousQuestIds": [
+      67171
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "mewling moogle",
+    "StarterNpcLocation": {
+      "RowId": 5888055,
+      "X": 638.455,
+      "Y": -1.26648,
+      "Z": -46.3649,
+      "Yaw": 2.50457,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "mewling moogle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5527,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 460,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67399,
+    "QuestTitle": "Protecting the Pom",
+    "PreviousQuestIds": [
+      67171,
+      67368
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "A Nutty Initiation"
+    ],
+    "NextQuestIds": [
+      67400
+    ],
+    "NextQuestTitles": [
+      "Save the Pomguard"
+    ],
+    "StarterNpc": "Mogloo",
+    "StarterNpcLocation": {
+      "RowId": 5814717,
+      "X": 381.735,
+      "Y": -69.4133,
+      "Z": 691.554,
+      "Yaw": -2.65594,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogkul",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5528,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100478,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67400,
+    "QuestTitle": "Save the Pomguard",
+    "PreviousQuestIds": [
+      67171,
+      67399
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Protecting the Pom"
+    ],
+    "NextQuestIds": [
+      67401
+    ],
+    "NextQuestTitles": [
+      "An Urgent Message"
+    ],
+    "StarterNpc": "Mogkul",
+    "StarterNpcLocation": {
+      "RowId": 5908411,
+      "X": -106.885,
+      "Y": 36.3944,
+      "Z": 186.194,
+      "Yaw": 0.414307,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogkul",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5529,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100478,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 612,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67401,
+    "QuestTitle": "An Urgent Message",
+    "PreviousQuestIds": [
+      67171,
+      67400
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "Save the Pomguard"
+    ],
+    "NextQuestIds": [
+      67402,
+      67403
+    ],
+    "NextQuestTitles": [
+      "An Uneasy Feeling",
+      "A Moogle\u0027s Intuition"
+    ],
+    "StarterNpc": "Mogkul",
+    "StarterNpcLocation": {
+      "RowId": 5908422,
+      "X": -696.321,
+      "Y": 79,
+      "Z": 269.019,
+      "Yaw": 1.1912,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogkul",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5530,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100478,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4560,
+          "ItemName": "Hi-Elixir",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4554,
+          "ItemName": "X-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4558,
+          "ItemName": "X-Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67402,
+    "QuestTitle": "An Uneasy Feeling",
+    "PreviousQuestIds": [
+      67171,
+      67401
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "An Urgent Message"
+    ],
+    "NextQuestIds": [
+      67404
+    ],
+    "NextQuestTitles": [
+      "Trouble at Zenith"
+    ],
+    "StarterNpc": "Mogga",
+    "StarterNpcLocation": {
+      "RowId": 5908431,
+      "X": -661.384,
+      "Y": 73,
+      "Z": 171.049,
+      "Yaw": -0.947845,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogga",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5531,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100478,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67403,
+    "QuestTitle": "A Moogle\u0027s Intuition",
+    "PreviousQuestIds": [
+      67171,
+      67401
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "An Urgent Message"
+    ],
+    "NextQuestIds": [
+      67404
+    ],
+    "NextQuestTitles": [
+      "Trouble at Zenith"
+    ],
+    "StarterNpc": "Mogok",
+    "StarterNpcLocation": {
+      "RowId": 5908442,
+      "X": -746.108,
+      "Y": 73,
+      "Z": 318.759,
+      "Yaw": 2.99971,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogok",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5532,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100478,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 551,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67404,
+    "QuestTitle": "Trouble at Zenith",
+    "PreviousQuestIds": [
+      67171,
+      67402,
+      67403
+    ],
+    "PreviousQuestTitles": [
+      "The Song Begins",
+      "An Uneasy Feeling",
+      "A Moogle\u0027s Intuition"
+    ],
+    "NextQuestIds": [
+      67408
+    ],
+    "NextQuestTitles": [
+      "Into the Mists"
+    ],
+    "StarterNpc": "Mogkul",
+    "StarterNpcLocation": {
+      "RowId": 5908422,
+      "X": -696.321,
+      "Y": 79,
+      "Z": 269.019,
+      "Yaw": 1.1912,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogloo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5533,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100478,
+    "JobLevel": 55,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12675,
+      "Gil": 612,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67407,
+    "QuestTitle": "Laying the First Brick",
+    "PreviousQuestIds": [
+      67173,
+      67416
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Thar Be Dragons"
+    ],
+    "NextQuestIds": [
+      67856
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Tricks and Stones"
+    ],
+    "StarterNpc": "Maenne",
+    "StarterNpcLocation": {
+      "RowId": 5888288,
+      "X": 15.6375,
+      "Y": 81.8406,
+      "Z": -317.357,
+      "Yaw": -1.90559,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogkul",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5611,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100480,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 1501,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67411,
+    "QuestTitle": "Respecting the Sheave",
+    "PreviousQuestIds": [
+      67173,
+      67390,
+      67408
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Walking the Walk",
+      "Into the Mists"
+    ],
+    "NextQuestIds": [
+      67412
+    ],
+    "NextQuestTitles": [
+      "Spring Cleaning"
+    ],
+    "StarterNpc": "Mogzun",
+    "StarterNpcLocation": {
+      "RowId": 5887893,
+      "X": -214.291,
+      "Y": 81.8708,
+      "Z": -233.435,
+      "Yaw": 0.33226,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogoon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5601,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 596,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67412,
+    "QuestTitle": "Spring Cleaning",
+    "PreviousQuestIds": [
+      67173,
+      67411
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Respecting the Sheave"
+    ],
+    "NextQuestIds": [
+      67413
+    ],
+    "NextQuestTitles": [
+      "No Nests Allowed"
+    ],
+    "StarterNpc": "Mogoon",
+    "StarterNpcLocation": {
+      "RowId": 5872303,
+      "X": -658.61,
+      "Y": 209.192,
+      "Z": 622.881,
+      "Yaw": -0.70692,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogoon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5602,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67413,
+    "QuestTitle": "No Nests Allowed",
+    "PreviousQuestIds": [
+      67173,
+      67412
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Spring Cleaning"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mogoon",
+    "StarterNpcLocation": {
+      "RowId": 5872303,
+      "X": -658.61,
+      "Y": 209.192,
+      "Z": 622.881,
+      "Yaw": -0.70692,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Mogoon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5603,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 465,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67414,
+    "QuestTitle": "Bitter Is the Night",
+    "PreviousQuestIds": [
+      67173,
+      67408
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Into the Mists"
+    ],
+    "NextQuestIds": [
+      67417
+    ],
+    "NextQuestTitles": [
+      "Scouting and Maiming"
+    ],
+    "StarterNpc": "Maenne",
+    "StarterNpcLocation": {
+      "RowId": 5888288,
+      "X": 15.6375,
+      "Y": 81.8406,
+      "Z": -317.357,
+      "Yaw": -1.90559,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Maenne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5604,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67415,
+    "QuestTitle": "These Things Take Time",
+    "PreviousQuestIds": [
+      67173,
+      67418
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Finders Keepers"
+    ],
+    "NextQuestIds": [
+      67419
+    ],
+    "NextQuestTitles": [
+      "An Unwelcome Surprise"
+    ],
+    "StarterNpc": "Maenne",
+    "StarterNpcLocation": {
+      "RowId": 5888288,
+      "X": 15.6375,
+      "Y": 81.8406,
+      "Z": -317.357,
+      "Yaw": -1.90559,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "southern scouting party dragoon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5607,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 558,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67416,
+    "QuestTitle": "Thar Be Dragons",
+    "PreviousQuestIds": [
+      67173,
+      67420
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "A Meter Too Far"
+    ],
+    "NextQuestIds": [
+      67407
+    ],
+    "NextQuestTitles": [
+      "Laying the First Brick"
+    ],
+    "StarterNpc": "Maenne",
+    "StarterNpcLocation": {
+      "RowId": 5888499,
+      "X": 15.6375,
+      "Y": 81.8406,
+      "Z": -317.357,
+      "Yaw": 1.1078,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Maenne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5610,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10813,
+          "ItemName": "Dragonskin Gloves of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10897,
+          "ItemName": "Dragonskin Gloves of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10939,
+          "ItemName": "Dragonskin Gloves of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67417,
+    "QuestTitle": "Scouting and Maiming",
+    "PreviousQuestIds": [
+      67173,
+      67414
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Bitter Is the Night"
+    ],
+    "NextQuestIds": [
+      67418
+    ],
+    "NextQuestTitles": [
+      "Finders Keepers"
+    ],
+    "StarterNpc": "Maenne",
+    "StarterNpcLocation": {
+      "RowId": 5888288,
+      "X": 15.6375,
+      "Y": 81.8406,
+      "Z": -317.357,
+      "Yaw": -1.90559,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "northeastern scouting party dragoon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5605,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 527,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67418,
+    "QuestTitle": "Finders Keepers",
+    "PreviousQuestIds": [
+      67173,
+      67417
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Scouting and Maiming"
+    ],
+    "NextQuestIds": [
+      67415
+    ],
+    "NextQuestTitles": [
+      "These Things Take Time"
+    ],
+    "StarterNpc": "northeastern scouting party dragoon",
+    "StarterNpcLocation": {
+      "RowId": 5888513,
+      "X": 330.742,
+      "Y": 223.015,
+      "Z": -480.358,
+      "Yaw": 3.0846,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Maenne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5606,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 465,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67419,
+    "QuestTitle": "An Unwelcome Surprise",
+    "PreviousQuestIds": [
+      67173,
+      67415
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "These Things Take Time"
+    ],
+    "NextQuestIds": [
+      67420
+    ],
+    "NextQuestTitles": [
+      "A Meter Too Far"
+    ],
+    "StarterNpc": "southern scouting party dragoon",
+    "StarterNpcLocation": {
+      "RowId": 5888496,
+      "X": -753.58,
+      "Y": 285.657,
+      "Z": -168.639,
+      "Yaw": -2.89381,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "northern scouting party dragoon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5608,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67420,
+    "QuestTitle": "A Meter Too Far",
+    "PreviousQuestIds": [
+      67173,
+      67419
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "An Unwelcome Surprise"
+    ],
+    "NextQuestIds": [
+      67416
+    ],
+    "NextQuestTitles": [
+      "Thar Be Dragons"
+    ],
+    "StarterNpc": "northern scouting party dragoon",
+    "StarterNpcLocation": {
+      "RowId": 5888561,
+      "X": -556.41,
+      "Y": 266.003,
+      "Z": -673.793,
+      "Yaw": 1.14359,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Maenne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5609,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 589,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10687,
+          "ItemName": "Titanium Vambraces of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10729,
+          "ItemName": "Titanium Vambraces of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10771,
+          "ItemName": "Titanium Vambraces of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10855,
+          "ItemName": "Titanium Vambraces of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67509,
+    "QuestTitle": "Classic Misdirection",
+    "PreviousQuestIds": [
+      67197,
+      67508
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "Moogles in the Sky"
+    ],
+    "NextQuestIds": [
+      67510
+    ],
+    "NextQuestTitles": [
+      "A Tale of Two Moogles"
+    ],
+    "StarterNpc": "Mogule",
+    "StarterNpcLocation": {
+      "RowId": 5900083,
+      "X": 344.906,
+      "Y": 0.359481,
+      "Z": 555.371,
+      "Yaw": 1.8821,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Kupli Kuki",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5901,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100476,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 1414,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67514,
+    "QuestTitle": "A Moogle by Any Other Name",
+    "PreviousQuestIds": [
+      67197,
+      67513
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "The Skies That Bind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kupli Kuki",
+    "StarterNpcLocation": {
+      "RowId": 5910922,
+      "X": 339.332,
+      "Y": 1.1747,
+      "Z": 612.298,
+      "Yaw": 2.02562,
+      "Radius": 1,
+      "MapId": 214,
+      "TerritoryId": 400
+    },
+    "FinishNpc": "Moglin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 120,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Churning Mists Sidequests"
+    },
+    "SortKey": 5902,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100477,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 513,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

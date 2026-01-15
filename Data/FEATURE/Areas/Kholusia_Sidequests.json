@@ -1,0 +1,2645 @@
+[
+  {
+    "QuestId": 68885,
+    "QuestTitle": "\uE0BE Before the Tide Comes",
+    "PreviousQuestIds": [
+      68819
+    ],
+    "PreviousQuestTitles": [
+      "A Still Tide"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "forlorn fisherman",
+    "StarterNpcLocation": {
+      "RowId": 7954005,
+      "X": 651.203,
+      "Y": 28.1165,
+      "Z": 325.255,
+      "Yaw": -0.212793,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "forlorn fisherman",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68886,
+    "QuestTitle": "\uE0BE Retaking Territory",
+    "PreviousQuestIds": [
+      68819
+    ],
+    "PreviousQuestTitles": [
+      "A Still Tide"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Catty",
+    "StarterNpcLocation": {
+      "RowId": 7790353,
+      "X": 654.108,
+      "Y": 28.0918,
+      "Z": 279.713,
+      "Yaw": -3.03828,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Catty",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68887,
+    "QuestTitle": "\uE0BE A Clam to Die For",
+    "PreviousQuestIds": [
+      68819
+    ],
+    "PreviousQuestTitles": [
+      "A Still Tide"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "strong-willed wife",
+    "StarterNpcLocation": {
+      "RowId": 7954314,
+      "X": 659.274,
+      "Y": 28.0918,
+      "Z": 278.225,
+      "Yaw": 0.149973,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "strong-willed wife",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27857,
+          "ItemName": "Spaghetti al Nero",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68888,
+    "QuestTitle": "\uE0BE A Meating Long Overdue",
+    "PreviousQuestIds": [
+      68820
+    ],
+    "PreviousQuestTitles": [
+      "Open Arms, Closed Gate"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "unfulfilled forager",
+    "StarterNpcLocation": {
+      "RowId": 7953630,
+      "X": 178.704,
+      "Y": 49.8512,
+      "Z": 786.538,
+      "Yaw": -3.03443,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "unfulfilled forager",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26831,
+          "ItemName": "White Oak Earring Coffer (IL 385)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68889,
+    "QuestTitle": "\uE0BE Redolent Refuse",
+    "PreviousQuestIds": [
+      68820
+    ],
+    "PreviousQuestTitles": [
+      "Open Arms, Closed Gate"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tio-Reeq",
+    "StarterNpcLocation": {
+      "RowId": 7798641,
+      "X": 159.087,
+      "Y": 49.6419,
+      "Z": 785.475,
+      "Yaw": -0.13741,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Tio-Reeq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68890,
+    "QuestTitle": "\uE0BE A Feeling in the Belly",
+    "PreviousQuestIds": [
+      68820
+    ],
+    "PreviousQuestTitles": [
+      "Open Arms, Closed Gate"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "worried waif",
+    "StarterNpcLocation": {
+      "RowId": 7953642,
+      "X": 191.765,
+      "Y": 42.5713,
+      "Z": 688.268,
+      "Yaw": -1.71673,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "worried waif",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26834,
+          "ItemName": "White Oak Ring Coffer (IL 385)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68891,
+    "QuestTitle": "\uE0BE Songstress of the Sea",
+    "PreviousQuestIds": [
+      68820
+    ],
+    "PreviousQuestTitles": [
+      "Open Arms, Closed Gate"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "aspiring songstress",
+    "StarterNpcLocation": {
+      "RowId": 7953763,
+      "X": 155.739,
+      "Y": 46.571,
+      "Z": 739.889,
+      "Yaw": 2.35366,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "aspiring songstress",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68892,
+    "QuestTitle": "\uE0BE Witch of the Sea",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "forthright farmer",
+    "StarterNpcLocation": {
+      "RowId": 7953786,
+      "X": -269.966,
+      "Y": 18.0091,
+      "Z": 403.21,
+      "Yaw": 2.44267,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "forthright farmer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 843,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68893,
+    "QuestTitle": "\uE0BE Following the Grain",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hastelot",
+    "StarterNpcLocation": {
+      "RowId": 7790767,
+      "X": -294.911,
+      "Y": 18.0819,
+      "Z": 403.555,
+      "Yaw": -2.76937,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Hastelot",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 916,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68894,
+    "QuestTitle": "\uE0BE Bridge to the Other Side",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Moa-Mosch",
+    "StarterNpcLocation": {
+      "RowId": 7790941,
+      "X": -295.766,
+      "Y": 17.7462,
+      "Z": 448.752,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Moa-Mosch",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 770,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68895,
+    "QuestTitle": "\uE0BE A Drop of Sunshine",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "bonded servant",
+    "StarterNpcLocation": {
+      "RowId": 7953768,
+      "X": -203.532,
+      "Y": 19.3078,
+      "Z": 386.96,
+      "Yaw": -2.32452,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "bonded servant",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26834,
+          "ItemName": "White Oak Ring Coffer (IL 385)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68896,
+    "QuestTitle": "\uE0BE A Plankless Task",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thenoise",
+    "StarterNpcLocation": {
+      "RowId": 7960309,
+      "X": -310.62,
+      "Y": 19.4051,
+      "Z": 405.302,
+      "Yaw": -0.960486,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Thenoise",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 916,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68907,
+    "QuestTitle": "\uE0BE Village of Woe",
+    "PreviousQuestIds": [
+      68821
+    ],
+    "PreviousQuestTitles": [
+      "A Fickle Existence"
+    ],
+    "NextQuestIds": [
+      68908
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Talos, Interrupted"
+    ],
+    "StarterNpc": "Eueliss",
+    "StarterNpcLocation": {
+      "RowId": 7956487,
+      "X": -306.204,
+      "Y": 20.9566,
+      "Z": 358.427,
+      "Yaw": -0.220393,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Eueliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1210,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100851,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 861,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68908,
+    "QuestTitle": "\uE0BE Talos, Interrupted",
+    "PreviousQuestIds": [
+      68907
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Village of Woe"
+    ],
+    "NextQuestIds": [
+      68909
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Cape in Bloom"
+    ],
+    "StarterNpc": "Eueliss",
+    "StarterNpcLocation": {
+      "RowId": 7956495,
+      "X": -284.205,
+      "Y": 35.3719,
+      "Z": 204.685,
+      "Yaw": -2.48379,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Eueliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1211,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100851,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 715,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68909,
+    "QuestTitle": "\uE0BE The Cape in Bloom",
+    "PreviousQuestIds": [
+      68908
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Talos, Interrupted"
+    ],
+    "NextQuestIds": [
+      68910
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Wright for the Job"
+    ],
+    "StarterNpc": "Eueliss",
+    "StarterNpcLocation": {
+      "RowId": 7956495,
+      "X": -284.205,
+      "Y": 35.3719,
+      "Z": 204.685,
+      "Yaw": -2.48379,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Eueliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1212,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100851,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68910,
+    "QuestTitle": "\uE0BE Wright for the Job",
+    "PreviousQuestIds": [
+      68909
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Cape in Bloom"
+    ],
+    "NextQuestIds": [
+      69096
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Ronitt to the Rescue"
+    ],
+    "StarterNpc": "Eueliss",
+    "StarterNpcLocation": {
+      "RowId": 7956495,
+      "X": -284.205,
+      "Y": 35.3719,
+      "Z": 204.685,
+      "Yaw": -2.48379,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Eueliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 1213,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100851,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27853,
+          "ItemName": "Grilled Rail",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27854,
+          "ItemName": "Purple Carrot Juice",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27855,
+          "ItemName": "Caramels",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27856,
+          "ItemName": "Broad Bean Soup",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69073,
+    "QuestTitle": "\uE0BE Fugitive of Fear",
+    "PreviousQuestIds": [
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [
+      69077
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Rising to Her Apology"
+    ],
+    "StarterNpc": "Zumie-Shai",
+    "StarterNpcLocation": {
+      "RowId": 7968448,
+      "X": -128.755,
+      "Y": 354.358,
+      "Z": -179.167,
+      "Yaw": 2.48956,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Zumie-Shai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8060,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69074,
+    "QuestTitle": "\uE0BE Hobgob Smacker",
+    "PreviousQuestIds": [
+      69079,
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Supplying Estimates",
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Grawley",
+    "StarterNpcLocation": {
+      "RowId": 7790764,
+      "X": -130.419,
+      "Y": 352.358,
+      "Z": -211.048,
+      "Yaw": -2.99472,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Grawley",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69075,
+    "QuestTitle": "\uE0BE Small Nuisances",
+    "PreviousQuestIds": [
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Walmet",
+    "StarterNpcLocation": {
+      "RowId": 7796827,
+      "X": -149.532,
+      "Y": 352.358,
+      "Z": -188.507,
+      "Yaw": 2.3925,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "missing Mystel",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 898,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69076,
+    "QuestTitle": "\uE0BE Timber for the Taking",
+    "PreviousQuestIds": [
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jaimbert",
+    "StarterNpcLocation": {
+      "RowId": 7796826,
+      "X": -112.84,
+      "Y": 352.346,
+      "Z": -178.973,
+      "Yaw": 3.13617,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Jaimbert",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26873,
+          "ItemName": "Dwarven Mythril Foot Gear Coffer (IL 415)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69077,
+    "QuestTitle": "\uE0BE Rising to Her Apology",
+    "PreviousQuestIds": [
+      69073
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Fugitive of Fear"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "well-dressed noblewoman",
+    "StarterNpcLocation": {
+      "RowId": 7959122,
+      "X": -157.922,
+      "Y": 352.346,
+      "Z": -172.24,
+      "Yaw": 0.202827,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "fearful fugitive",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69078,
+    "QuestTitle": "\uE0BE Fresh off the Wing",
+    "PreviousQuestIds": [
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bie-Zumm",
+    "StarterNpcLocation": {
+      "RowId": 7790765,
+      "X": -134.676,
+      "Y": 354.358,
+      "Z": -175.261,
+      "Yaw": -3.03924,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Bie-Zumm",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69079,
+    "QuestTitle": "\uE0BE Supplying Estimates",
+    "PreviousQuestIds": [
+      69170
+    ],
+    "PreviousQuestTitles": [
+      "The View from Above"
+    ],
+    "NextQuestIds": [
+      69074
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Hobgob Smacker"
+    ],
+    "StarterNpc": "Grawley",
+    "StarterNpcLocation": {
+      "RowId": 7790764,
+      "X": -130.419,
+      "Y": 352.358,
+      "Z": -211.048,
+      "Yaw": -2.99472,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Grawley",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26869,
+          "ItemName": "Dwarven Mythril Head Gear Coffer (IL 415)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69080,
+    "QuestTitle": "\uE0BE Good, Honest Dirt",
+    "PreviousQuestIds": [
+      69170
+    ],
+    "PreviousQuestTitles": [
+      "The View from Above"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sylgran",
+    "StarterNpcLocation": {
+      "RowId": 7960647,
+      "X": -149.285,
+      "Y": 352.358,
+      "Z": -178.435,
+      "Yaw": 0.743123,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Sylgran",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69081,
+    "QuestTitle": "\uE0BE Sisterly Concern",
+    "PreviousQuestIds": [
+      69170
+    ],
+    "PreviousQuestTitles": [
+      "The View from Above"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "restless hunter",
+    "StarterNpcLocation": {
+      "RowId": 7959128,
+      "X": -122.387,
+      "Y": 352.358,
+      "Z": -209.641,
+      "Yaw": -1.53351,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "restless hunter",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 679,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69082,
+    "QuestTitle": "\uE0BE A Rocky Relationship",
+    "PreviousQuestIds": [
+      69176
+    ],
+    "PreviousQuestTitles": [
+      "Rich Veins of Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "wild-looking waif",
+    "StarterNpcLocation": {
+      "RowId": 7959229,
+      "X": -168.549,
+      "Y": 352.358,
+      "Z": -175.092,
+      "Yaw": -1.34562,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "wild-looking waif",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26878,
+          "ItemName": "Dwarven Mythril Ring Coffer (IL 415)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69083,
+    "QuestTitle": "\uE0BE Too Sweet to Eat",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tholl gourmand",
+    "StarterNpcLocation": {
+      "RowId": 7960367,
+      "X": -490.113,
+      "Y": 417.129,
+      "Z": -599.45,
+      "Yaw": 1.2895,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Tholl gourmand",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 878,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69084,
+    "QuestTitle": "\uE0BE Killer on the Loose",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rakitt",
+    "StarterNpcLocation": {
+      "RowId": 7960527,
+      "X": -487.178,
+      "Y": 417.115,
+      "Z": -587.159,
+      "Yaw": -0.593399,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Rakitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 878,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69085,
+    "QuestTitle": "\uE0BE All for the Boom",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Giritt",
+    "StarterNpcLocation": {
+      "RowId": 7795828,
+      "X": -357.412,
+      "Y": 416.467,
+      "Z": -685.969,
+      "Yaw": -0.585186,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Giritt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 878,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69086,
+    "QuestTitle": "\uE0BE Distract and Rescue",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tholl tinkerer",
+    "StarterNpcLocation": {
+      "RowId": 7960421,
+      "X": -445.518,
+      "Y": 417.075,
+      "Z": -589.868,
+      "Yaw": 1.2931,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Tholl tinkerer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 951,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69087,
+    "QuestTitle": "\uE0BE Beneath the Beard",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bomott",
+    "StarterNpcLocation": {
+      "RowId": 7795827,
+      "X": -487.854,
+      "Y": 417.154,
+      "Z": -617.395,
+      "Yaw": 1.78794,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Bomott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 805,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26871,
+          "ItemName": "Dwarven Mythril Hand Gear Coffer (IL 415)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69088,
+    "QuestTitle": "\uE0BE Short on Courage",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "lovelorn townsdwarf",
+    "StarterNpcLocation": {
+      "RowId": 7960616,
+      "X": -458.81,
+      "Y": 417.151,
+      "Z": -607.662,
+      "Yaw": -0.0894769,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "lovelorn townsdwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 951,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69089,
+    "QuestTitle": "\uE0BE Knocking the Knockers",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gratt",
+    "StarterNpcLocation": {
+      "RowId": 7795822,
+      "X": -429.963,
+      "Y": 417.182,
+      "Z": -604.492,
+      "Yaw": 1.46401,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Gratt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 805,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26875,
+          "ItemName": "Dwarven Mythril Earring Coffer (IL 415)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69090,
+    "QuestTitle": "\uE0BE Goggeo and Tholliet",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "concerned townsdwarf",
+    "StarterNpcLocation": {
+      "RowId": 7960633,
+      "X": -475.06,
+      "Y": 417.364,
+      "Z": -599.756,
+      "Yaw": 1.79734,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "concerned townsdwarf",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 878,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69091,
+    "QuestTitle": "\uE0BE With Ale Due Respect",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Riott",
+    "StarterNpcLocation": {
+      "RowId": 7796754,
+      "X": -458.922,
+      "Y": 417.244,
+      "Z": -656.615,
+      "Yaw": -2.46844,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Riott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 951,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69092,
+    "QuestTitle": "\uE0BE A Disagreeable Dwarf",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [
+      69093
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Almost a Friend"
+    ],
+    "StarterNpc": "Beott",
+    "StarterNpcLocation": {
+      "RowId": 7956692,
+      "X": -450.839,
+      "Y": 417.249,
+      "Z": -610.846,
+      "Yaw": 0.779107,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8230,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100864,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69093,
+    "QuestTitle": "\uE0BE Almost a Friend",
+    "PreviousQuestIds": [
+      69092
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Disagreeable Dwarf"
+    ],
+    "NextQuestIds": [
+      69094
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Practiced Greeting"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 7959390,
+      "X": -396.67,
+      "Y": 417.518,
+      "Z": -657.899,
+      "Yaw": 2.3888,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8240,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100864,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69094,
+    "QuestTitle": "\uE0BE A Practiced Greeting",
+    "PreviousQuestIds": [
+      69093
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Almost a Friend"
+    ],
+    "NextQuestIds": [
+      69095
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Learning to Lali-ho"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 7959390,
+      "X": -396.67,
+      "Y": 417.518,
+      "Z": -657.899,
+      "Yaw": 2.3888,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8250,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100864,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69095,
+    "QuestTitle": "\uE0BE Learning to Lali-ho",
+    "PreviousQuestIds": [
+      69094
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE A Practiced Greeting"
+    ],
+    "NextQuestIds": [
+      69096
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Ronitt to the Rescue"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 7956749,
+      "X": -519.623,
+      "Y": 392.914,
+      "Z": -482.696,
+      "Yaw": 0.0946995,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Beott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8260,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100864,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 788,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 199,
+        "EmoteName": "Lali-ho"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69096,
+    "QuestTitle": "\uE0BE Ronitt to the Rescue",
+    "PreviousQuestIds": [
+      68910,
+      69095
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Wright for the Job",
+      "\uE0BE Learning to Lali-ho"
+    ],
+    "NextQuestIds": [
+      69432
+    ],
+    "NextQuestTitles": [
+      "\uE0BE It\u0027s Dwarfin\u0027 Time"
+    ],
+    "StarterNpc": "Ronitt",
+    "StarterNpcLocation": {
+      "RowId": 7959390,
+      "X": -396.67,
+      "Y": 417.518,
+      "Z": -657.899,
+      "Yaw": 2.3888,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Ronitt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8270,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100865,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 1733,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27872,
+          "ItemName": "Masala Chai",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27873,
+          "ItemName": "Risotto al Nero",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27874,
+          "ItemName": "Espresso con Panna",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27875,
+          "ItemName": "Mist Spinach Saute",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69097,
+    "QuestTitle": "\uE0BE Brew as the Tholl Do",
+    "PreviousQuestIds": [
+      69173
+    ],
+    "PreviousQuestTitles": [
+      "Meet the Tholls"
+    ],
+    "NextQuestIds": [
+      69098
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Bringing the Nibbles"
+    ],
+    "StarterNpc": "Xorutt",
+    "StarterNpcLocation": {
+      "RowId": 7795823,
+      "X": -455.462,
+      "Y": 417.273,
+      "Z": -671.795,
+      "Yaw": 0.889925,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Xorutt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 606,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69098,
+    "QuestTitle": "\uE0BE Bringing the Nibbles",
+    "PreviousQuestIds": [
+      69097
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Brew as the Tholl Do"
+    ],
+    "NextQuestIds": [
+      69099
+    ],
+    "NextQuestTitles": [
+      "\uE0BE You Know the Words"
+    ],
+    "StarterNpc": "Xorutt",
+    "StarterNpcLocation": {
+      "RowId": 7795823,
+      "X": -455.462,
+      "Y": 417.273,
+      "Z": -671.795,
+      "Yaw": 0.889925,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Xorutt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 951,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69099,
+    "QuestTitle": "\uE0BE You Know the Words",
+    "PreviousQuestIds": [
+      69098
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Bringing the Nibbles"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Xorutt",
+    "StarterNpcLocation": {
+      "RowId": 7795823,
+      "X": -455.462,
+      "Y": 417.273,
+      "Z": -671.795,
+      "Yaw": 0.889925,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Xorutt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 134,
+      "JournalCategory": {
+        "Id": 72,
+        "Name": "Kholusian Sidequests"
+      },
+      "Name": "Kholusia Sidequests"
+    },
+    "SortKey": 8220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 57240,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

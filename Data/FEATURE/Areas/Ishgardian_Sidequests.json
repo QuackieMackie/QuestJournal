@@ -1,0 +1,1406 @@
+[
+  {
+    "QuestId": 67262,
+    "QuestTitle": "Remembering Ishgard",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fury-fearing Elezen",
+    "StarterNpcLocation": {
+      "RowId": 5926673,
+      "X": -37.4274,
+      "Y": 5.49514,
+      "Z": 37.5823,
+      "Yaw": 0.782595,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Outreguerlain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 7059,
+          "ItemName": "Spiritbond Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 7060,
+          "ItemName": "Durability Draught",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 10086,
+          "ItemName": "Tinker\u0027s Calm",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67263,
+    "QuestTitle": "The Best Laid Plans",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Cliaux",
+    "StarterNpcLocation": {
+      "RowId": 5841343,
+      "X": 151.934,
+      "Y": -14.529,
+      "Z": 16.1898,
+      "Yaw": 1.4585,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Cliaux",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5002,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67264,
+    "QuestTitle": "Drinking the Pain Away",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gibrillont",
+    "StarterNpcLocation": {
+      "RowId": 5581899,
+      "X": 88.3956,
+      "Y": 15.0911,
+      "Z": 31.2963,
+      "Yaw": -0.0246437,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "title-stripped noble\u0027s son",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5003,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67265,
+    "QuestTitle": "Landing a Stable Job",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mathye",
+    "StarterNpcLocation": {
+      "RowId": 5841136,
+      "X": -248.54,
+      "Y": -20.0349,
+      "Z": -90.9767,
+      "Yaw": -0.0322857,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Cevilia",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5004,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8166,
+          "ItemName": "Thavnairian Onion",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67266,
+    "QuestTitle": "Cold Days, Colder Nights",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [
+      67406
+    ],
+    "NextQuestTitles": [
+      "Caught in the Act"
+    ],
+    "StarterNpc": "Brictt",
+    "StarterNpcLocation": {
+      "RowId": 5839399,
+      "X": 102.931,
+      "Y": 3.65085,
+      "Z": 65.5858,
+      "Yaw": -0.0808492,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Brictt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5005,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67267,
+    "QuestTitle": "Dinner for Four",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Torsefers",
+    "StarterNpcLocation": {
+      "RowId": 5841331,
+      "X": 25.9272,
+      "Y": 15.8651,
+      "Z": 19.4218,
+      "Yaw": 0.0441951,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Torsefers",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5006,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67278,
+    "QuestTitle": "Mum\u0027s the Word",
+    "PreviousQuestIds": [
+      67134
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "House Durendaire knight",
+    "StarterNpcLocation": {
+      "RowId": 5926959,
+      "X": 11.9958,
+      "Y": 15.965,
+      "Z": -12.6203,
+      "Yaw": 0.411094,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Emerissel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5007,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 640,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67279,
+    "QuestTitle": "An Unwanted Delivery",
+    "PreviousQuestIds": [
+      67134
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Torsefers",
+    "StarterNpcLocation": {
+      "RowId": 5841331,
+      "X": 25.9272,
+      "Y": 15.8651,
+      "Z": 19.4218,
+      "Yaw": 0.0441951,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5008,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 728,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67286,
+    "QuestTitle": "Homesick",
+    "PreviousQuestIds": [
+      67139
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bohemondas",
+    "StarterNpcLocation": {
+      "RowId": 5840510,
+      "X": -82.9517,
+      "Y": 15.2541,
+      "Z": -44.5653,
+      "Yaw": -2.05491,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Josseloux",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 617,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67287,
+    "QuestTitle": "Looking to the Future",
+    "PreviousQuestIds": [
+      67139
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hyur on hard times",
+    "StarterNpcLocation": {
+      "RowId": 5926763,
+      "X": 66.3685,
+      "Y": 24.0717,
+      "Z": -12.5968,
+      "Yaw": 3.04044,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Marielle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5102,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 791,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67406,
+    "QuestTitle": "Caught in the Act",
+    "PreviousQuestIds": [
+      67173,
+      67266
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Cold Days, Colder Nights"
+    ],
+    "NextQuestIds": [
+      67442
+    ],
+    "NextQuestTitles": [
+      "Unfulfilled Dreams"
+    ],
+    "StarterNpc": "Elaisse",
+    "StarterNpcLocation": {
+      "RowId": 5840614,
+      "X": -174.169,
+      "Y": -12.5555,
+      "Z": -21.5556,
+      "Yaw": 3.0985,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Elaisse",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5604,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10799,
+          "ItemName": "Hallowed Chestnut Mask of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10883,
+          "ItemName": "Hallowed Chestnut Mask of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10925,
+          "ItemName": "Hallowed Chestnut Mask of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67408,
+    "QuestTitle": "Into the Mists",
+    "PreviousQuestIds": [
+      67173,
+      67404
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Trouble at Zenith"
+    ],
+    "NextQuestIds": [
+      67411,
+      67414
+    ],
+    "NextQuestTitles": [
+      "Respecting the Sheave",
+      "Bitter Is the Night"
+    ],
+    "StarterNpc": "unflinching Temple Knight",
+    "StarterNpcLocation": {
+      "RowId": 5888287,
+      "X": 9.66625,
+      "Y": 15.965,
+      "Z": -7.4783,
+      "Yaw": 1.48506,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Maenne",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5605,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100479,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 875,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67409,
+    "QuestTitle": "Enlisted",
+    "PreviousQuestIds": [
+      67173
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied"
+    ],
+    "NextQuestIds": [
+      67421,
+      67422,
+      67423,
+      67424,
+      67425,
+      67426,
+      67427,
+      67428,
+      67429,
+      67430,
+      67431,
+      67432,
+      67433,
+      67434
+    ],
+    "NextQuestTitles": [
+      "Two Scoops",
+      "A Den of Evil",
+      "The Old Man and the Lake",
+      "When the Ice Melts",
+      "Unknown Ultimatum",
+      "Personal Effects",
+      "Ayleth Absconds",
+      "A Missing Tooth",
+      "A Noble Purpose",
+      "Remember the Fallen",
+      "To the Convictor Go the Spoils",
+      "Supply Lines",
+      "The Mother of Invention",
+      "A War without End"
+    ],
+    "StarterNpc": "languid noblewoman",
+    "StarterNpcLocation": {
+      "RowId": 5926963,
+      "X": -29.5252,
+      "Y": 11.9541,
+      "Z": 48.3636,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "noble youth",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5602,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 672,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67410,
+    "QuestTitle": "Honoring the Past",
+    "PreviousQuestIds": [
+      67173
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied"
+    ],
+    "NextQuestIds": [
+      67435,
+      67436,
+      67437,
+      67438,
+      67439,
+      67440
+    ],
+    "NextQuestTitles": [
+      "Crying over Spilled Food",
+      "Beefing Up the Reserves",
+      "Search and Rescue",
+      "A Cropper\u0027s Duty",
+      "Hatching Ideas",
+      "A Tall Order to Fill"
+    ],
+    "StarterNpc": "House Haillenarte knight",
+    "StarterNpcLocation": {
+      "RowId": 5926964,
+      "X": 13.8095,
+      "Y": 15.965,
+      "Z": -13.8507,
+      "Yaw": 0.472275,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5603,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 732,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67441,
+    "QuestTitle": "A Full Stomach and Happy Heart",
+    "PreviousQuestIds": [
+      67177
+    ],
+    "PreviousQuestTitles": [
+      "The Sins of Antiquity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ermiance",
+    "StarterNpcLocation": {
+      "RowId": 5840529,
+      "X": -128.117,
+      "Y": 5.46316,
+      "Z": 34.3825,
+      "Yaw": 0.686356,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Ermiance",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5701,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12869,
+          "ItemName": "Dhalmel Fricassee",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4678,
+          "ItemName": "Beef Stew",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4721,
+          "ItemName": "Bouillabaisse",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9335,
+          "ItemName": "Bacon Broth",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67442,
+    "QuestTitle": "Unfulfilled Dreams",
+    "PreviousQuestIds": [
+      67177,
+      67406
+    ],
+    "PreviousQuestTitles": [
+      "The Sins of Antiquity",
+      "Caught in the Act"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Brictt",
+    "StarterNpcLocation": {
+      "RowId": 5839399,
+      "X": 102.931,
+      "Y": 3.65085,
+      "Z": 65.5858,
+      "Yaw": -0.0808492,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Brictt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5702,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 1098,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12541,
+          "ItemName": "Larimar",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67508,
+    "QuestTitle": "Moogles in the Sky",
+    "PreviousQuestIds": [
+      67197,
+      67368
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "A Nutty Initiation"
+    ],
+    "NextQuestIds": [
+      67509
+    ],
+    "NextQuestTitles": [
+      "Classic Misdirection"
+    ],
+    "StarterNpc": "House Fortemps knight",
+    "StarterNpcLocation": {
+      "RowId": 5910904,
+      "X": 16.9524,
+      "Y": 16.0097,
+      "Z": -10.6446,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Mogule",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 5901,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100476,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 859,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67631,
+    "QuestTitle": "Inscrutable Tastes",
+    "PreviousQuestIds": [
+      67118
+    ],
+    "PreviousQuestTitles": [
+      "The Better Half"
+    ],
+    "NextQuestIds": [
+      67634
+    ],
+    "NextQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "StarterNpc": "Morgayne",
+    "StarterNpcLocation": {
+      "RowId": 5908783,
+      "X": -54.4085,
+      "Y": 15.1406,
+      "Z": -38.087,
+      "Yaw": -1.52653,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Lydirlona",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 15001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 377,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 3,
+        "Name": "Collectable Action"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67655,
+    "QuestTitle": "Let the Clan Hunt Begin",
+    "PreviousQuestIds": [
+      67100,
+      67099,
+      67101
+    ],
+    "PreviousQuestTitles": [
+      "Let the Hunt Begin (Maelstrom)",
+      "Let the Hunt Begin (Twin Adder)",
+      "Let the Hunt Begin (Immortal Flames)"
+    ],
+    "NextQuestIds": [
+      67656
+    ],
+    "NextQuestTitles": [
+      "Better Bill Hunting"
+    ],
+    "StarterNpc": "Aytienne",
+    "StarterNpcLocation": {
+      "RowId": 5911959,
+      "X": 86.9916,
+      "Y": 23.9719,
+      "Z": 30.3784,
+      "Yaw": -2.54496,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 15301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 53,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12285,
+      "Gil": 449,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67656,
+    "QuestTitle": "Better Bill Hunting",
+    "PreviousQuestIds": [
+      67655
+    ],
+    "PreviousQuestTitles": [
+      "Let the Clan Hunt Begin"
+    ],
+    "NextQuestIds": [
+      67657
+    ],
+    "NextQuestTitles": [
+      "Top Marks"
+    ],
+    "StarterNpc": "Eustacia",
+    "StarterNpcLocation": {
+      "RowId": 5854521,
+      "X": 71.7371,
+      "Y": 23.9719,
+      "Z": 20.8868,
+      "Yaw": 2.99542,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 15601,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 465,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67658,
+    "QuestTitle": "Elite and Dangerous",
+    "PreviousQuestIds": [
+      67657
+    ],
+    "PreviousQuestTitles": [
+      "Top Marks"
+    ],
+    "NextQuestIds": [
+      68472,
+      69133,
+      69712,
+      70545
+    ],
+    "NextQuestTitles": [
+      "One-star Veteran Clan Hunt",
+      "Nuts to You",
+      "The Hunt for Specimens",
+      "A New Dawn, a New Hunt"
+    ],
+    "StarterNpc": "Ardolain",
+    "StarterNpcLocation": {
+      "RowId": 5854518,
+      "X": 90.1047,
+      "Y": 15.0911,
+      "Z": 30.07,
+      "Yaw": 1.4541,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 116,
+      "JournalCategory": {
+        "Id": 64,
+        "Name": "Ishgardian Sidequests"
+      },
+      "Name": "Ishgardian Sidequests"
+    },
+    "SortKey": 16001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100463,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 485,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

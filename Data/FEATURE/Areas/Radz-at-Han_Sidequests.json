@@ -1,0 +1,1295 @@
+[
+  {
+    "QuestId": 69732,
+    "QuestTitle": "\uE0BE Fruit Savior",
+    "PreviousQuestIds": [
+      69906
+    ],
+    "PreviousQuestTitles": [
+      "A Fisherman\u0027s Friend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qefiraz",
+    "StarterNpcLocation": {
+      "RowId": 8865403,
+      "X": 187.923,
+      "Y": 0.264478,
+      "Z": 700.15,
+      "Yaw": -2.32829,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Qefiraz",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35675,
+          "ItemName": "Horse Chestnut Ring Coffer (IL 515)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69733,
+    "QuestTitle": "\uE0BE Shelling Out",
+    "PreviousQuestIds": [
+      69906
+    ],
+    "PreviousQuestTitles": [
+      "A Fisherman\u0027s Friend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mehrunnah",
+    "StarterNpcLocation": {
+      "RowId": 8865411,
+      "X": 176.49,
+      "Y": 1.87422,
+      "Z": 799.226,
+      "Yaw": 0.0224833,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Mehrunnah",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35672,
+          "ItemName": "Horse Chestnut Earring Coffer (IL 515)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69734,
+    "QuestTitle": "\uE0BE Tikka Hike",
+    "PreviousQuestIds": [
+      69906
+    ],
+    "PreviousQuestTitles": [
+      "A Fisherman\u0027s Friend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Auri girl",
+    "StarterNpcLocation": {
+      "RowId": 8928767,
+      "X": 148.39,
+      "Y": 5.19306,
+      "Z": 611.285,
+      "Yaw": -2.28321,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "auburn-haired Au Ra",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 36036,
+          "ItemName": "Archon Loaf",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36037,
+          "ItemName": "Zurek",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36038,
+          "ItemName": "Amra Salad",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36039,
+          "ItemName": "Amra Lassi",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69735,
+    "QuestTitle": "\uE0BE The Great Heist",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Varpasa",
+    "StarterNpcLocation": {
+      "RowId": 8866672,
+      "X": -564.08,
+      "Y": 11.8026,
+      "Z": 124.285,
+      "Yaw": -0.111814,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Varpasa",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69736,
+    "QuestTitle": "\uE0BE Wish Upon a Crystal",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yedjina",
+    "StarterNpcLocation": {
+      "RowId": 8866660,
+      "X": -554.367,
+      "Y": 1.12066,
+      "Z": 22.7049,
+      "Yaw": 2.5287,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Yedjina",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35674,
+          "ItemName": "Horse Chestnut Bracelet Coffer (IL 515)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69737,
+    "QuestTitle": "\uE0BE High Importance, Low Urgency",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nashrifhal",
+    "StarterNpcLocation": {
+      "RowId": 8941876,
+      "X": -554.881,
+      "Y": 11.4026,
+      "Z": 125.111,
+      "Yaw": 1.99132,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Nashrifhal",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36037,
+          "ItemName": "Zurek",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69738,
+    "QuestTitle": "\uE0BE Paint, Perfume, and Pecs",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "muscular alchemist",
+    "StarterNpcLocation": {
+      "RowId": 8928863,
+      "X": -478.297,
+      "Y": 39.6381,
+      "Z": 95.4998,
+      "Yaw": -1.24863,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "muscular alchemist",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 975,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69739,
+    "QuestTitle": "\uE0BE Alchemist or Dancer",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jalamuc",
+    "StarterNpcLocation": {
+      "RowId": 8866659,
+      "X": -508.843,
+      "Y": -3.71933E-05,
+      "Z": -20.7676,
+      "Yaw": -0.962487,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Jalamuc",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1270,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69740,
+    "QuestTitle": "\uE0BE A Nose for Trouble",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "timid Arkasodara",
+    "StarterNpcLocation": {
+      "RowId": 8927904,
+      "X": -490.35,
+      "Y": 5.67566,
+      "Z": 63.573,
+      "Yaw": -2.81654,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "timid Arkasodara",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1280,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 975,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69741,
+    "QuestTitle": "\uE0BE Missing Alchemist",
+    "PreviousQuestIds": [
+      69909
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "honest alchemist",
+    "StarterNpcLocation": {
+      "RowId": 8928898,
+      "X": -409.932,
+      "Y": 10.7519,
+      "Z": 33.0426,
+      "Yaw": 1.21333,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "honest alchemist",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1290,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69742,
+    "QuestTitle": "\uE0BE Hamsa Retrieval",
+    "PreviousQuestIds": [
+      69910
+    ],
+    "PreviousQuestTitles": [
+      "A Boy\u0027s Errand"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Reensarudh",
+    "StarterNpcLocation": {
+      "RowId": 8866676,
+      "X": -468.859,
+      "Y": 6.2911,
+      "Z": 3.46986,
+      "Yaw": -1.49849,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Reensarudh",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1301,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69743,
+    "QuestTitle": "\uE0BE High Hopes for the Hatchery",
+    "PreviousQuestIds": [
+      69910
+    ],
+    "PreviousQuestTitles": [
+      "A Boy\u0027s Errand"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Arkasodara youth",
+    "StarterNpcLocation": {
+      "RowId": 8944005,
+      "X": -480.108,
+      "Y": 5.36552,
+      "Z": 37.6027,
+      "Yaw": -1.07972,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Arkasodara youth",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69744,
+    "QuestTitle": "\uE0BE Cutting Edge Solutions",
+    "PreviousQuestIds": [
+      69910
+    ],
+    "PreviousQuestTitles": [
+      "A Boy\u0027s Errand"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Apasa",
+    "StarterNpcLocation": {
+      "RowId": 8866662,
+      "X": -517.021,
+      "Y": 11.9753,
+      "Z": 100.572,
+      "Yaw": -1.47727,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Apasa",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69745,
+    "QuestTitle": "\uE0BE Rushing up That Hill",
+    "PreviousQuestIds": [
+      69910
+    ],
+    "PreviousQuestTitles": [
+      "A Boy\u0027s Errand"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kusuma",
+    "StarterNpcLocation": {
+      "RowId": 8866671,
+      "X": -554.74,
+      "Y": 11.4026,
+      "Z": 137.33,
+      "Yaw": 0.777478,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Kusuma",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 1330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69805,
+    "QuestTitle": "\uE0BE A Bond Eternal",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mehryde",
+    "StarterNpcLocation": {
+      "RowId": 8862069,
+      "X": -23.6668,
+      "Y": 1.79999,
+      "Z": -180.041,
+      "Yaw": 2.39069,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Mehryde",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36048,
+          "ItemName": "Hamsa Curry",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69806,
+    "QuestTitle": "\uE0BE A Gift of Flowers",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mihreen",
+    "StarterNpcLocation": {
+      "RowId": 8863902,
+      "X": -148.833,
+      "Y": 35.9937,
+      "Z": 38.925,
+      "Yaw": 2.58026,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Mihreen",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 16616,
+          "ItemName": "Red Viola Corsage",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 16617,
+          "ItemName": "Blue Viola Corsage",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 16618,
+          "ItemName": "Yellow Viola Corsage",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 16620,
+          "ItemName": "Orange Viola Corsage",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 16621,
+          "ItemName": "Purple Viola Corsage",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69807,
+    "QuestTitle": "\uE0BE Tidings from Afar",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "anxious adventurer",
+    "StarterNpcLocation": {
+      "RowId": 8958779,
+      "X": -57.4819,
+      "Y": -2.02948,
+      "Z": 129.801,
+      "Yaw": -0.0643198,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "anxious adventurer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69808,
+    "QuestTitle": "\uE0BE The Pangs of Hunger",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "esurient Arkasodara",
+    "StarterNpcLocation": {
+      "RowId": 8959107,
+      "X": -63.3364,
+      "Y": 14,
+      "Z": 125.629,
+      "Yaw": -0.115184,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "esurient Arkasodara",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 975,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69809,
+    "QuestTitle": "\uE0BE Silks for a Babe",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Arkasodara youth",
+    "StarterNpcLocation": {
+      "RowId": 8959134,
+      "X": -155.779,
+      "Y": 28,
+      "Z": 178.973,
+      "Yaw": 0.669702,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Arkasodara youth",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69810,
+    "QuestTitle": "\uE0BE Hungry Hungry Hamsa",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vishrahd",
+    "StarterNpcLocation": {
+      "RowId": 8959635,
+      "X": -191.455,
+      "Y": 36.01,
+      "Z": 158.312,
+      "Yaw": 1.08006,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Vishrahd",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69811,
+    "QuestTitle": "\uE0BE Operation Ring Retrieval",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Radiant Host captain",
+    "StarterNpcLocation": {
+      "RowId": 9051439,
+      "X": -176.129,
+      "Y": 36,
+      "Z": 28.2543,
+      "Yaw": -0.496194,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Radiant Host guard",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 140,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Radz-at-Han Sidequests"
+    },
+    "SortKey": 2200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

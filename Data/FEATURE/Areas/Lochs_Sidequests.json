@@ -1,0 +1,591 @@
+[
+  {
+    "QuestId": 68413,
+    "QuestTitle": "It\u0027s a Zu Out There",
+    "PreviousQuestIds": [
+      68084
+    ],
+    "PreviousQuestTitles": [
+      "Upon the Great Loch\u0027s Shore"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Munifrid",
+    "StarterNpcLocation": {
+      "RowId": 6949337,
+      "X": -506.615,
+      "Y": 8.7,
+      "Z": -40.2991,
+      "Yaw": -2.82175,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Munifrid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 601,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68414,
+    "QuestTitle": "Send in the Armor",
+    "PreviousQuestIds": [
+      68084
+    ],
+    "PreviousQuestTitles": [
+      "Upon the Great Loch\u0027s Shore"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dantounuel",
+    "StarterNpcLocation": {
+      "RowId": 6949635,
+      "X": -657.069,
+      "Y": 49.9733,
+      "Z": -23.209,
+      "Yaw": -2.17335,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Dantounuel",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 925,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68415,
+    "QuestTitle": "A Fletching Suggestion",
+    "PreviousQuestIds": [
+      68084
+    ],
+    "PreviousQuestTitles": [
+      "Upon the Great Loch\u0027s Shore"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Supriya",
+    "StarterNpcLocation": {
+      "RowId": 6949655,
+      "X": -631.373,
+      "Y": 53.75,
+      "Z": -45.4796,
+      "Yaw": 1.82047,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Supriya",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 637,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68416,
+    "QuestTitle": "A Rite to Rest",
+    "PreviousQuestIds": [
+      68084
+    ],
+    "PreviousQuestTitles": [
+      "Upon the Great Loch\u0027s Shore"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Betha",
+    "StarterNpcLocation": {
+      "RowId": 6949334,
+      "X": -524.568,
+      "Y": 8.68883,
+      "Z": -19.4028,
+      "Yaw": 1.94228,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Betha",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9040,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 637,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68417,
+    "QuestTitle": "If I Were a Fish",
+    "PreviousQuestIds": [
+      68087
+    ],
+    "PreviousQuestTitles": [
+      "The Legacy of Our Fathers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dorothe",
+    "StarterNpcLocation": {
+      "RowId": 6949331,
+      "X": -662.107,
+      "Y": 49.9998,
+      "Z": -48.8525,
+      "Yaw": -1.56222,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Dorothe",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9050,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68418,
+    "QuestTitle": "Necessities of War",
+    "PreviousQuestIds": [
+      68087
+    ],
+    "PreviousQuestTitles": [
+      "The Legacy of Our Fathers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Pamisolaux",
+    "StarterNpcLocation": {
+      "RowId": 6949332,
+      "X": -669.488,
+      "Y": 50.0125,
+      "Z": -42.0559,
+      "Yaw": 1.00861,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Pamisolaux",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 637,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68419,
+    "QuestTitle": "Are They Ill-tempered",
+    "PreviousQuestIds": [
+      68087
+    ],
+    "PreviousQuestTitles": [
+      "The Legacy of Our Fathers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "J\u0027zula Tia",
+    "StarterNpcLocation": {
+      "RowId": 6949335,
+      "X": -539.635,
+      "Y": 7.61198,
+      "Z": 52.14,
+      "Yaw": 1.78093,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "J\u0027zula Tia",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9070,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 673,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68420,
+    "QuestTitle": "At the Top of the Stairs",
+    "PreviousQuestIds": [
+      68087
+    ],
+    "PreviousQuestTitles": [
+      "The Legacy of Our Fathers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Topher",
+    "StarterNpcLocation": {
+      "RowId": 6949333,
+      "X": -507.378,
+      "Y": 8.7,
+      "Z": 0.0151978,
+      "Yaw": -2.15254,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Topher",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68425,
+    "QuestTitle": "Those We Hold Dear",
+    "PreviousQuestIds": [
+      68089,
+      68424
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "Journey\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bertliana",
+    "StarterNpcLocation": {
+      "RowId": 6959218,
+      "X": 565.026,
+      "Y": 70,
+      "Z": 573.358,
+      "Yaw": 1.65074,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Bertliana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 10040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100714,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69593,
+    "QuestTitle": "The Dragon Made",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "warmachina fanatic",
+    "StarterNpcLocation": {
+      "RowId": 8264282,
+      "X": -496.508,
+      "Y": 7.68117,
+      "Z": 53.1475,
+      "Yaw": -1.90921,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 126,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Lochs Sidequests"
+    },
+    "SortKey": 9000,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33218,
+          "ItemName": "Landerwaffe Flute",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

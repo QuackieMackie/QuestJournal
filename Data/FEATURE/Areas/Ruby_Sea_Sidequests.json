@@ -1,0 +1,3219 @@
+[
+  {
+    "QuestId": 68209,
+    "QuestTitle": "The Price of Betrayal",
+    "PreviousQuestIds": [
+      68014
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats"
+    ],
+    "NextQuestIds": [
+      68212,
+      68213
+    ],
+    "NextQuestTitles": [
+      "First Line of Defense",
+      "Ethereal Lights"
+    ],
+    "StarterNpc": "Yusui",
+    "StarterNpcLocation": {
+      "RowId": 6846334,
+      "X": 501.363,
+      "Y": 34.0062,
+      "Z": 781.719,
+      "Yaw": -2.86614,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Ikaruga",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2030,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 629,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68210,
+    "QuestTitle": "The Organ of Sight",
+    "PreviousQuestIds": [
+      68014
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Shihoji",
+    "StarterNpcLocation": {
+      "RowId": 6846346,
+      "X": 476.834,
+      "Y": 30.1118,
+      "Z": 763.566,
+      "Yaw": 0.610102,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Shihoji",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 562,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68211,
+    "QuestTitle": "The Devil\u0027s Cough",
+    "PreviousQuestIds": [
+      68014
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hiun",
+    "StarterNpcLocation": {
+      "RowId": 6846330,
+      "X": 447.591,
+      "Y": 34.2858,
+      "Z": 732.682,
+      "Yaw": -2.51542,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Hiun",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 629,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68212,
+    "QuestTitle": "First Line of Defense",
+    "PreviousQuestIds": [
+      68014,
+      68209
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats",
+      "The Price of Betrayal"
+    ],
+    "NextQuestIds": [
+      68214
+    ],
+    "NextQuestTitles": [
+      "Protector of the Small"
+    ],
+    "StarterNpc": "Kumoji",
+    "StarterNpcLocation": {
+      "RowId": 6844121,
+      "X": 808.637,
+      "Y": 6.94281,
+      "Z": 857.191,
+      "Yaw": -2.91417,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kumoji",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68213,
+    "QuestTitle": "Ethereal Lights",
+    "PreviousQuestIds": [
+      68014,
+      68209
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats",
+      "The Price of Betrayal"
+    ],
+    "NextQuestIds": [
+      68214
+    ],
+    "NextQuestTitles": [
+      "Protector of the Small"
+    ],
+    "StarterNpc": "Hayama",
+    "StarterNpcLocation": {
+      "RowId": 6844122,
+      "X": 835.569,
+      "Y": 6.35152,
+      "Z": 831.815,
+      "Yaw": -2.52095,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Hayama",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 629,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68214,
+    "QuestTitle": "Protector of the Small",
+    "PreviousQuestIds": [
+      68014,
+      68212,
+      68213
+    ],
+    "PreviousQuestTitles": [
+      "Boys with Boats",
+      "First Line of Defense",
+      "Ethereal Lights"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hayama",
+    "StarterNpcLocation": {
+      "RowId": 6844122,
+      "X": 835.569,
+      "Y": 6.35152,
+      "Z": 831.815,
+      "Yaw": -2.52095,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "guardian pirate",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 629,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68216,
+    "QuestTitle": "A Dance with Snakes",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kaizan",
+    "StarterNpcLocation": {
+      "RowId": 6861929,
+      "X": 45.8696,
+      "Y": 20.9811,
+      "Z": -641.475,
+      "Yaw": -0.121134,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kaizan",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68218,
+    "QuestTitle": "Stranded",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [
+      68237
+    ],
+    "NextQuestTitles": [
+      "Fear Her Almighty Waves"
+    ],
+    "StarterNpc": "perplexed Confederate",
+    "StarterNpcLocation": {
+      "RowId": 6969675,
+      "X": -28.6296,
+      "Y": 61.326,
+      "Z": -679.347,
+      "Yaw": -1.52063,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "perplexed Confederate",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 829,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18257,
+          "ItemName": "Koppranickel Bracelet of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18258,
+          "ItemName": "Koppranickel Bracelet of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18259,
+          "ItemName": "Koppranickel Bracelet of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68219,
+    "QuestTitle": "In Cold Blood",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hayase",
+    "StarterNpcLocation": {
+      "RowId": 6862866,
+      "X": 12.1309,
+      "Y": 49.2108,
+      "Z": -718.502,
+      "Yaw": 1.41152,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Hayase",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 562,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68220,
+    "QuestTitle": "Pirate Stew",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hirase",
+    "StarterNpcLocation": {
+      "RowId": 6861906,
+      "X": 31.3763,
+      "Y": 3.18302,
+      "Z": -602.747,
+      "Yaw": 2.05469,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Hirase",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68221,
+    "QuestTitle": "The Soul\u0027s Remembrance",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yana",
+    "StarterNpcLocation": {
+      "RowId": 6861909,
+      "X": -5.78317,
+      "Y": 33.2229,
+      "Z": -633.783,
+      "Yaw": 0.0266602,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Yana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 729,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18260,
+          "ItemName": "Koppranickel Bracelet of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18261,
+          "ItemName": "Koppranickel Bracelet of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68222,
+    "QuestTitle": "Fight or Flight",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aranami",
+    "StarterNpcLocation": {
+      "RowId": 6861875,
+      "X": 107.805,
+      "Y": 0.778198,
+      "Z": -574.518,
+      "Yaw": 0.617545,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Aranami",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 695,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68223,
+    "QuestTitle": "Pulling Double Booty",
+    "PreviousQuestIds": [
+      68017
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones"
+    ],
+    "NextQuestIds": [
+      68224
+    ],
+    "NextQuestTitles": [
+      "Unfinished Business"
+    ],
+    "StarterNpc": "Hansaku",
+    "StarterNpcLocation": {
+      "RowId": 6890268,
+      "X": 97.8994,
+      "Y": 2.09627,
+      "Z": -617.788,
+      "Yaw": -0.602929,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Tsukikage",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100698,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 1100,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18247,
+          "ItemName": "Koppranickel Earrings of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18248,
+          "ItemName": "Koppranickel Earrings of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18249,
+          "ItemName": "Koppranickel Earrings of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68224,
+    "QuestTitle": "Unfinished Business",
+    "PreviousQuestIds": [
+      68017,
+      68223
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones",
+      "Pulling Double Booty"
+    ],
+    "NextQuestIds": [
+      68225
+    ],
+    "NextQuestTitles": [
+      "The Girl with the Pearl Ring"
+    ],
+    "StarterNpc": "Tsukikage",
+    "StarterNpcLocation": {
+      "RowId": 6890280,
+      "X": -49.4877,
+      "Y": 2.66131,
+      "Z": -636.547,
+      "Yaw": -0.379903,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Tsukikage",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100698,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 1100,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18250,
+          "ItemName": "Koppranickel Earrings of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18251,
+          "ItemName": "Koppranickel Earrings of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68225,
+    "QuestTitle": "The Girl with the Pearl Ring",
+    "PreviousQuestIds": [
+      68017,
+      68224
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones",
+      "Unfinished Business"
+    ],
+    "NextQuestIds": [
+      68226
+    ],
+    "NextQuestTitles": [
+      "Family Affairs"
+    ],
+    "StarterNpc": "Tsukikage",
+    "StarterNpcLocation": {
+      "RowId": 6890308,
+      "X": 30.1172,
+      "Y": 16.8973,
+      "Z": -625.861,
+      "Yaw": 1.38132,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Tsukikage",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100698,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 1300,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5668,
+          "ItemName": "Heavens\u0027 Eye Materia V",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68226,
+    "QuestTitle": "Family Affairs",
+    "PreviousQuestIds": [
+      68017,
+      68225
+    ],
+    "PreviousQuestTitles": [
+      "Alisaie\u0027s Stones",
+      "The Girl with the Pearl Ring"
+    ],
+    "NextQuestIds": [
+      68259
+    ],
+    "NextQuestTitles": [
+      "Up in Flames"
+    ],
+    "StarterNpc": "Tsukikage",
+    "StarterNpcLocation": {
+      "RowId": 6890376,
+      "X": 603.583,
+      "Y": 0.935382,
+      "Z": 867.984,
+      "Yaw": -3.06097,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Tsukikage",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100698,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5718,
+          "ItemName": "Quickarm Materia V",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68227,
+    "QuestTitle": "Our Most Venerated Ancestor",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tsuzura",
+    "StarterNpcLocation": {
+      "RowId": 6848289,
+      "X": 353.567,
+      "Y": -120.013,
+      "Z": -251.972,
+      "Yaw": -1.25703,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Tsuzura",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 695,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68228,
+    "QuestTitle": "Not Just Any Banquet",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kaioke",
+    "StarterNpcLocation": {
+      "RowId": 6848287,
+      "X": 374.044,
+      "Y": -119.946,
+      "Z": -238.087,
+      "Yaw": -2.4471,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kaioke",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68229,
+    "QuestTitle": "The Sword in the Stone",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "slender Kojin",
+    "StarterNpcLocation": {
+      "RowId": 6971689,
+      "X": 565.087,
+      "Y": -62.2725,
+      "Z": -147.845,
+      "Yaw": 1.70434,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "slender Kojin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2210,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 695,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68230,
+    "QuestTitle": "Unmeasured Strength",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Toro",
+    "StarterNpcLocation": {
+      "RowId": 6850036,
+      "X": 334.493,
+      "Y": -120.358,
+      "Z": -307.362,
+      "Yaw": -0.435226,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Toro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 562,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68231,
+    "QuestTitle": "Treasure Cove",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kefusan",
+    "StarterNpcLocation": {
+      "RowId": 6848286,
+      "X": 343.099,
+      "Y": -120.087,
+      "Z": -277.333,
+      "Yaw": -2.83451,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kefusan",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 562,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68232,
+    "QuestTitle": "The Mysterious Assailant",
+    "PreviousQuestIds": [
+      68019
+    ],
+    "PreviousQuestTitles": [
+      "Of Kojin and Kami"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Urokuzu",
+    "StarterNpcLocation": {
+      "RowId": 6848094,
+      "X": 367.178,
+      "Y": -119.947,
+      "Z": -292.378,
+      "Yaw": 1.00741,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Urokuzu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 2240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 595,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68233,
+    "QuestTitle": "An Unforgettable Taste",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Seizau",
+    "StarterNpcLocation": {
+      "RowId": 6853941,
+      "X": -87.6631,
+      "Y": -199.176,
+      "Z": -112.077,
+      "Yaw": -2.50781,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Seizau",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68234,
+    "QuestTitle": "The Bond between Brothers",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mahiwa",
+    "StarterNpcLocation": {
+      "RowId": 6854099,
+      "X": -77.4701,
+      "Y": -198.993,
+      "Z": -149.767,
+      "Yaw": -0.698116,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Mahiwa",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 770,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68235,
+    "QuestTitle": "The Core of Life",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mine",
+    "StarterNpcLocation": {
+      "RowId": 6853050,
+      "X": -38.6511,
+      "Y": -198.59,
+      "Z": -62.3331,
+      "Yaw": 2.532,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Mine",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68236,
+    "QuestTitle": "All Good Deeds",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kagero",
+    "StarterNpcLocation": {
+      "RowId": 6853027,
+      "X": -35.935,
+      "Y": -198.311,
+      "Z": -45.121,
+      "Yaw": -2.61984,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kagero",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 635,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68237,
+    "QuestTitle": "Fear Her Almighty Waves",
+    "PreviousQuestIds": [
+      68021,
+      68218
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart",
+      "Stranded"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "sapphire-haired girl",
+    "StarterNpcLocation": {
+      "RowId": 6969767,
+      "X": -50.6143,
+      "Y": -198.666,
+      "Z": -162.676,
+      "Yaw": 0.345568,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "sapphire-haired girl",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68238,
+    "QuestTitle": "The Fight for Survival",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mozu",
+    "StarterNpcLocation": {
+      "RowId": 6854102,
+      "X": -68.4673,
+      "Y": -199.124,
+      "Z": -156.024,
+      "Yaw": -2.08339,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Mozu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68239,
+    "QuestTitle": "A Daughter\u0027s Love",
+    "PreviousQuestIds": [
+      68021
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sayo",
+    "StarterNpcLocation": {
+      "RowId": 6853047,
+      "X": 4.37927,
+      "Y": -196.435,
+      "Z": -80.0946,
+      "Yaw": 0.0977143,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Sayo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 669,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68240,
+    "QuestTitle": "Fathoms Below",
+    "PreviousQuestIds": [
+      68021,
+      68168
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart",
+      "The Palace of Lost Souls"
+    ],
+    "NextQuestIds": [
+      68241
+    ],
+    "NextQuestTitles": [
+      "A Part of Your World"
+    ],
+    "StarterNpc": "Kurenai",
+    "StarterNpcLocation": {
+      "RowId": 6957922,
+      "X": -62.7604,
+      "Y": -198.993,
+      "Z": -64.3474,
+      "Yaw": -2.78317,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kurenai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3080,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100699,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18265,
+          "ItemName": "Muudhorn Ring of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18266,
+          "ItemName": "Muudhorn Ring of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68241,
+    "QuestTitle": "A Part of Your World",
+    "PreviousQuestIds": [
+      68021,
+      68240
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart",
+      "Fathoms Below"
+    ],
+    "NextQuestIds": [
+      68242
+    ],
+    "NextQuestTitles": [
+      "The Elixir of Life"
+    ],
+    "StarterNpc": "Kurenai",
+    "StarterNpcLocation": {
+      "RowId": 6957922,
+      "X": -62.7604,
+      "Y": -198.993,
+      "Z": -64.3474,
+      "Yaw": -2.78317,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kurenai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3090,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100699,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68242,
+    "QuestTitle": "The Elixir of Life",
+    "PreviousQuestIds": [
+      68021,
+      68241
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart",
+      "A Part of Your World"
+    ],
+    "NextQuestIds": [
+      68243
+    ],
+    "NextQuestTitles": [
+      "The Two Princesses of Sui-no-Sato"
+    ],
+    "StarterNpc": "Kurenai",
+    "StarterNpcLocation": {
+      "RowId": 6957922,
+      "X": -62.7604,
+      "Y": -198.993,
+      "Z": -64.3474,
+      "Yaw": -2.78317,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kurenai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100699,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 1300,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18252,
+          "ItemName": "Koppranickel Necklace of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18253,
+          "ItemName": "Koppranickel Necklace of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18254,
+          "ItemName": "Koppranickel Necklace of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68243,
+    "QuestTitle": "The Two Princesses of Sui-no-Sato",
+    "PreviousQuestIds": [
+      68021,
+      68242
+    ],
+    "PreviousQuestTitles": [
+      "Forever and Ever Apart",
+      "The Elixir of Life"
+    ],
+    "NextQuestIds": [
+      68675
+    ],
+    "NextQuestTitles": [
+      "The Seaweed Is Always Greener"
+    ],
+    "StarterNpc": "Kurenai",
+    "StarterNpcLocation": {
+      "RowId": 6957922,
+      "X": -62.7604,
+      "Y": -198.993,
+      "Z": -64.3474,
+      "Yaw": -2.78317,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kurenai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100699,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18255,
+          "ItemName": "Koppranickel Necklace of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18256,
+          "ItemName": "Koppranickel Necklace of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68244,
+    "QuestTitle": "In Search of Treasure",
+    "PreviousQuestIds": [
+      68023
+    ],
+    "PreviousQuestTitles": [
+      "The Whims of the Divine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "affable Kojin",
+    "StarterNpcLocation": {
+      "RowId": 6949869,
+      "X": 421.923,
+      "Y": -104.334,
+      "Z": -285.086,
+      "Yaw": -1.47868,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "affable Kojin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 770,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68245,
+    "QuestTitle": "A Stroll along the Seabed",
+    "PreviousQuestIds": [
+      68023
+    ],
+    "PreviousQuestTitles": [
+      "The Whims of the Divine"
+    ],
+    "NextQuestIds": [
+      68246
+    ],
+    "NextQuestTitles": [
+      "Forgotten Saviors of the Sea"
+    ],
+    "StarterNpc": "Takotsubo",
+    "StarterNpcLocation": {
+      "RowId": 6848096,
+      "X": 321.492,
+      "Y": -120.384,
+      "Z": -274.525,
+      "Yaw": -1.31133,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Takotsubo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 905,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68246,
+    "QuestTitle": "Forgotten Saviors of the Sea",
+    "PreviousQuestIds": [
+      68023,
+      68245
+    ],
+    "PreviousQuestTitles": [
+      "The Whims of the Divine",
+      "A Stroll along the Seabed"
+    ],
+    "NextQuestIds": [
+      68248
+    ],
+    "NextQuestTitles": [
+      "Serpent Troubles"
+    ],
+    "StarterNpc": "Takotsubo",
+    "StarterNpcLocation": {
+      "RowId": 6848096,
+      "X": 321.492,
+      "Y": -120.384,
+      "Z": -274.525,
+      "Yaw": -1.31133,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Takotsubo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 635,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68247,
+    "QuestTitle": "A True Kojin of the Blue",
+    "PreviousQuestIds": [
+      68023
+    ],
+    "PreviousQuestTitles": [
+      "The Whims of the Divine"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Saikoro",
+    "StarterNpcLocation": {
+      "RowId": 6848093,
+      "X": 351.339,
+      "Y": -120.457,
+      "Z": -307.942,
+      "Yaw": -2.76269,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Saikoro",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 770,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68248,
+    "QuestTitle": "Serpent Troubles",
+    "PreviousQuestIds": [
+      68023,
+      68246
+    ],
+    "PreviousQuestTitles": [
+      "The Whims of the Divine",
+      "Forgotten Saviors of the Sea"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Takotsubo",
+    "StarterNpcLocation": {
+      "RowId": 6848096,
+      "X": 321.492,
+      "Y": -120.384,
+      "Z": -274.525,
+      "Yaw": -1.31133,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Takotsubo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3160,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68249,
+    "QuestTitle": "At the Mercy of Monsters",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Abiki",
+    "StarterNpcLocation": {
+      "RowId": 6859984,
+      "X": -740.108,
+      "Y": 2.06468,
+      "Z": -570.092,
+      "Yaw": 0.589872,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Abiki",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68250,
+    "QuestTitle": "A Dream to Remember",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kansui",
+    "StarterNpcLocation": {
+      "RowId": 6859985,
+      "X": -712.123,
+      "Y": 0.808655,
+      "Z": -560.235,
+      "Yaw": 0.687634,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kansui",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68251,
+    "QuestTitle": "Blessings of the Sea",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Motogoe",
+    "StarterNpcLocation": {
+      "RowId": 6859972,
+      "X": -746.059,
+      "Y": 1.97366,
+      "Z": -595.544,
+      "Yaw": 1.4771,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Motogoe",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 568,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68252,
+    "QuestTitle": "In Health and in Sickness",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Misago",
+    "StarterNpcLocation": {
+      "RowId": 6859986,
+      "X": -726.833,
+      "Y": 1.48004,
+      "Z": -582.147,
+      "Yaw": 2.40412,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Misago",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68253,
+    "QuestTitle": "Plunder on High",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zansetsu",
+    "StarterNpcLocation": {
+      "RowId": 6859987,
+      "X": -769.879,
+      "Y": 4.78544,
+      "Z": -481.013,
+      "Yaw": -0.0484017,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Zansetsu",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 744,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68254,
+    "QuestTitle": "Sink or Swim",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "anxious boy",
+    "StarterNpcLocation": {
+      "RowId": 6914673,
+      "X": -728.45,
+      "Y": 0.365374,
+      "Z": -338.582,
+      "Yaw": 1.31976,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "anxious boy",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 703,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68255,
+    "QuestTitle": "Thrice Cursed",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [
+      68256
+    ],
+    "NextQuestTitles": [
+      "A Glimmer of Hope"
+    ],
+    "StarterNpc": "veteran fisherman",
+    "StarterNpcLocation": {
+      "RowId": 6969859,
+      "X": -759.426,
+      "Y": 2.02942,
+      "Z": -521.538,
+      "Yaw": 1.05732,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Nayoshi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100700,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68256,
+    "QuestTitle": "A Glimmer of Hope",
+    "PreviousQuestIds": [
+      68026,
+      68255
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out",
+      "Thrice Cursed"
+    ],
+    "NextQuestIds": [
+      68257
+    ],
+    "NextQuestTitles": [
+      "Rock Bottom"
+    ],
+    "StarterNpc": "Nayoshi",
+    "StarterNpcLocation": {
+      "RowId": 6971710,
+      "X": -787.786,
+      "Y": 4.87236,
+      "Z": -336.668,
+      "Yaw": 0.946971,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Nayoshi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100700,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68257,
+    "QuestTitle": "Rock Bottom",
+    "PreviousQuestIds": [
+      68026,
+      68256
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out",
+      "A Glimmer of Hope"
+    ],
+    "NextQuestIds": [
+      68258
+    ],
+    "NextQuestTitles": [
+      "Passing the Torch"
+    ],
+    "StarterNpc": "Nayoshi",
+    "StarterNpcLocation": {
+      "RowId": 6971710,
+      "X": -787.786,
+      "Y": 4.87236,
+      "Z": -336.668,
+      "Yaw": 0.946971,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Nayoshi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100700,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68258,
+    "QuestTitle": "Passing the Torch",
+    "PreviousQuestIds": [
+      68026,
+      68257
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out",
+      "Rock Bottom"
+    ],
+    "NextQuestIds": [
+      68259
+    ],
+    "NextQuestTitles": [
+      "Up in Flames"
+    ],
+    "StarterNpc": "Nayoshi",
+    "StarterNpcLocation": {
+      "RowId": 6971784,
+      "X": -631.244,
+      "Y": 24.1504,
+      "Z": -622.388,
+      "Yaw": -2.34514,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Koruri",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3260,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100700,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68259,
+    "QuestTitle": "Up in Flames",
+    "PreviousQuestIds": [
+      68026,
+      68226,
+      68258
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out",
+      "Family Affairs",
+      "Passing the Torch"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Asari",
+    "StarterNpcLocation": {
+      "RowId": 6860010,
+      "X": -770.016,
+      "Y": 2.65541,
+      "Z": -579.217,
+      "Yaw": -2.21766,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Nayoshi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 3270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100701,
+    "JobLevel": 63,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25750,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68458,
+    "QuestTitle": "A New Fishing Ex-spear-ience",
+    "PreviousQuestIds": [
+      68020,
+      66643
+    ],
+    "PreviousQuestTitles": [
+      "In Soroban We Trust",
+      "Way of the Fisher"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sumitsubo",
+    "StarterNpcLocation": {
+      "RowId": 7005835,
+      "X": 374.8,
+      "Y": -119.993,
+      "Z": -277.054,
+      "Yaw": -0.70699,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "kindly Kojin",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 104,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 490,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17726,
+          "ItemName": "Spearfishing Gig",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 8,
+        "Name": "Spearfishing"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68676,
+    "QuestTitle": "Up Where They Trade All Day in the Sun",
+    "PreviousQuestIds": [
+      68675
+    ],
+    "PreviousQuestTitles": [
+      "The Seaweed Is Always Greener"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kurenai",
+    "StarterNpcLocation": {
+      "RowId": 7443185,
+      "X": 343.984,
+      "Y": -120.348,
+      "Z": -306.02,
+      "Yaw": -0.00230008,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kurenai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 128,
+      "JournalCategory": {
+        "Id": 69,
+        "Name": "Othardian Sidequests"
+      },
+      "Name": "Ruby Sea Sidequests"
+    },
+    "SortKey": 1005,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 62,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25500,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12864,
+          "ItemName": "Clam Chowder",
+          "Count": 1
+        },
+        {
+          "ItemId": 12868,
+          "ItemName": "Stuffed Chysahl",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,7956 @@
+[
+  {
+    "QuestId": 65551,
+    "QuestTitle": "Leves of Camp Bluefog",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rurubana",
+    "StarterNpcLocation": {
+      "RowId": 3645035,
+      "X": 34.8973,
+      "Y": 4.92865,
+      "Z": 396.719,
+      "Yaw": 0.00528774,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Rurubana",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 400,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 40,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5390,
+      "Gil": 1958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65685,
+    "QuestTitle": "Due Diligence",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wymond",
+    "StarterNpcLocation": {
+      "RowId": 2360548,
+      "X": -68.7436,
+      "Y": 4.04111,
+      "Z": -126.493,
+      "Yaw": 1.65403,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Josias",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65686,
+    "QuestTitle": "Motivational Speaking",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65687
+    ],
+    "NextQuestTitles": [
+      "Gil for Gold"
+    ],
+    "StarterNpc": "Gelther",
+    "StarterNpcLocation": {
+      "RowId": 2360565,
+      "X": -77.5012,
+      "Y": 0.702869,
+      "Z": -50.9242,
+      "Yaw": 1.85769,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Didilata",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 5
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65687,
+    "QuestTitle": "Gil for Gold",
+    "PreviousQuestIds": [
+      65686
+    ],
+    "PreviousQuestTitles": [
+      "Motivational Speaking"
+    ],
+    "NextQuestIds": [
+      65689
+    ],
+    "NextQuestTitles": [
+      "Unholy Matrimony"
+    ],
+    "StarterNpc": "Didilata",
+    "StarterNpcLocation": {
+      "RowId": 2360570,
+      "X": -151.592,
+      "Y": 12,
+      "Z": 16.2224,
+      "Yaw": 2.26629,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Mamane",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65688,
+    "QuestTitle": "Gone to Pieces",
+    "PreviousQuestIds": [
+      65808
+    ],
+    "PreviousQuestTitles": [
+      "Life, Materia and Everything"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Syntgoht",
+    "StarterNpcLocation": {
+      "RowId": 3862196,
+      "X": 140.49,
+      "Y": 3.95204,
+      "Z": -59.7696,
+      "Yaw": -1.21565,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Nesting Heron",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [
+        {
+          "Id": 5,
+          "Name": "Desynthesis"
+        }
+      ],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65689,
+    "QuestTitle": "Unholy Matrimony",
+    "PreviousQuestIds": [
+      65687
+    ],
+    "PreviousQuestTitles": [
+      "Gil for Gold"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hihito",
+    "StarterNpcLocation": {
+      "RowId": 2367992,
+      "X": -164.263,
+      "Y": 14.005,
+      "Z": 41.947,
+      "Yaw": -0.383549,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Wolkan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65699,
+    "QuestTitle": "Tougher than Leather",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jajakuta",
+    "StarterNpcLocation": {
+      "RowId": 3967338,
+      "X": -109.904,
+      "Y": 4.50009,
+      "Z": -73.8019,
+      "Yaw": -2.69702,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Jajakuta",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 35,
+      "Gil": 127,
+      "Catalysts": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 11
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65701,
+    "QuestTitle": "The Great Gladiator",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zazarikku",
+    "StarterNpcLocation": {
+      "RowId": 2377495,
+      "X": -90.8077,
+      "Y": 6.5,
+      "Z": 29.2934,
+      "Yaw": 0.840639,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Crooked Haft",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 5
+        }
+      ],
+      "Items": [
+        {
+          "ItemId": 5594,
+          "ItemName": "Grade 1 Dark Matter",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65703,
+    "QuestTitle": "With Open Arms",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Juliana",
+    "StarterNpcLocation": {
+      "RowId": 4322812,
+      "X": 144.319,
+      "Y": 6.392,
+      "Z": 89.1455,
+      "Yaw": 1.85963,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Juliana",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 102,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65758,
+    "QuestTitle": "Nor Rain nor Heat nor Gloom of Night",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65760
+    ],
+    "NextQuestTitles": [
+      "I Believe You Can Fly"
+    ],
+    "StarterNpc": "Oswell",
+    "StarterNpcLocation": {
+      "RowId": 2804777,
+      "X": 223.163,
+      "Y": 52.0179,
+      "Z": 141.253,
+      "Yaw": 3.10804,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Oswell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 125,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65759,
+    "QuestTitle": "A Dab\u0027ll Do Ya",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guntram",
+    "StarterNpcLocation": {
+      "RowId": 2804799,
+      "X": 221.302,
+      "Y": 52.7868,
+      "Z": 142.345,
+      "Yaw": -0.511284,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Guntram",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 132,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65760,
+    "QuestTitle": "I Believe You Can Fly",
+    "PreviousQuestIds": [
+      65758
+    ],
+    "PreviousQuestTitles": [
+      "Nor Rain nor Heat nor Gloom of Night"
+    ],
+    "NextQuestIds": [
+      65762
+    ],
+    "NextQuestTitles": [
+      "Reasonable /Doubt"
+    ],
+    "StarterNpc": "Oswell",
+    "StarterNpcLocation": {
+      "RowId": 2804777,
+      "X": 223.163,
+      "Y": 52.0179,
+      "Z": 141.253,
+      "Yaw": 3.10804,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Kikipu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 139,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65761,
+    "QuestTitle": "So Close yet So Far",
+    "PreviousQuestIds": [
+      65763
+    ],
+    "PreviousQuestTitles": [
+      "Greasing the Cogs"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fafafono",
+    "StarterNpcLocation": {
+      "RowId": 2826866,
+      "X": -255.229,
+      "Y": 33.2336,
+      "Z": 407.295,
+      "Yaw": 0.735315,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Fafafono",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 182,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3765,
+          "ItemName": "Leather Leggings",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3766,
+          "ItemName": "Leather Boots",
+          "Count": 1,
+          "Stain": "Bark Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65762,
+    "QuestTitle": "Reasonable /Doubt",
+    "PreviousQuestIds": [
+      65760
+    ],
+    "PreviousQuestTitles": [
+      "I Believe You Can Fly"
+    ],
+    "NextQuestIds": [
+      65766
+    ],
+    "NextQuestTitles": [
+      "Search and Seizure"
+    ],
+    "StarterNpc": "Kikipu",
+    "StarterNpcLocation": {
+      "RowId": 3924793,
+      "X": -253.427,
+      "Y": 33.219,
+      "Z": 404.063,
+      "Yaw": 2.14292,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Kikipu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 156,
+      "Gil": 139,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65763,
+    "QuestTitle": "Greasing the Cogs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65761
+    ],
+    "NextQuestTitles": [
+      "So Close yet So Far"
+    ],
+    "StarterNpc": "Fafafono",
+    "StarterNpcLocation": {
+      "RowId": 2826866,
+      "X": -255.229,
+      "Y": 33.2336,
+      "Z": 407.295,
+      "Yaw": 0.735315,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Adelard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 146,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65764,
+    "QuestTitle": "Getting Your Bearings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65765,
+      65766
+    ],
+    "NextQuestTitles": [
+      "Tackle the Problem",
+      "Search and Seizure"
+    ],
+    "StarterNpc": "Danyell",
+    "StarterNpcLocation": {
+      "RowId": 2826876,
+      "X": -296.291,
+      "Y": 16.9361,
+      "Z": 334.173,
+      "Yaw": 0.432737,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Galfridus",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 141,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65765,
+    "QuestTitle": "Tackle the Problem",
+    "PreviousQuestIds": [
+      65764
+    ],
+    "PreviousQuestTitles": [
+      "Getting Your Bearings"
+    ],
+    "NextQuestIds": [
+      65766
+    ],
+    "NextQuestTitles": [
+      "Search and Seizure"
+    ],
+    "StarterNpc": "Galfridus",
+    "StarterNpcLocation": {
+      "RowId": 2828005,
+      "X": -253.48,
+      "Y": 33.2291,
+      "Z": 409.988,
+      "Yaw": -2.71741,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Galfridus",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3534,
+          "ItemName": "Leather Mitts",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3535,
+          "ItemName": "Leather Ringbands",
+          "Count": 1,
+          "Stain": "Bark Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65766,
+    "QuestTitle": "Search and Seizure",
+    "PreviousQuestIds": [
+      65764,
+      65765,
+      65762
+    ],
+    "PreviousQuestTitles": [
+      "Getting Your Bearings",
+      "Tackle the Problem",
+      "Reasonable /Doubt"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kikipu",
+    "StarterNpcLocation": {
+      "RowId": 3924793,
+      "X": -253.427,
+      "Y": 33.219,
+      "Z": 404.063,
+      "Yaw": 2.14292,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Momodi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100097,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 132,
+      "Catalysts": [
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 17
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4422,
+          "ItemName": "Copper Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4421,
+          "ItemName": "Bone Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65767,
+    "QuestTitle": "Ticked Off",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Imme",
+    "StarterNpcLocation": {
+      "RowId": 2804792,
+      "X": 228.487,
+      "Y": 52.038,
+      "Z": 133.187,
+      "Yaw": 1.15562,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Imme",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 132,
+      "Catalysts": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 10
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65840,
+    "QuestTitle": "The Tasting of the Shrews",
+    "PreviousQuestIds": [
+      65858
+    ],
+    "PreviousQuestTitles": [
+      "Listen to Your Fish"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wowobaru",
+    "StarterNpcLocation": {
+      "RowId": 2464387,
+      "X": -97.0322,
+      "Y": -11.35,
+      "Z": -48.6844,
+      "Yaw": 2.16819,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Wowobaru",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 141,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65844,
+    "QuestTitle": "In the Court of the Rat King",
+    "PreviousQuestIds": [
+      65862
+    ],
+    "PreviousQuestTitles": [
+      "Sometimes the Old Ways Are Best"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zezeda",
+    "StarterNpcLocation": {
+      "RowId": 2464309,
+      "X": -40.0855,
+      "Y": -1.43441,
+      "Z": -153.246,
+      "Yaw": -0.0900749,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Zezeda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 21
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3313,
+          "ItemName": "Hempen Kecks",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3314,
+          "ItemName": "Hempen Gaskins",
+          "Count": 1,
+          "Stain": "Ul Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65857,
+    "QuestTitle": "The Slaying of the Shrews",
+    "PreviousQuestIds": [
+      66086
+    ],
+    "PreviousQuestTitles": [
+      "Underneath the Sultantree"
+    ],
+    "NextQuestIds": [
+      65858
+    ],
+    "NextQuestTitles": [
+      "Listen to Your Fish"
+    ],
+    "StarterNpc": "Hihiyaja",
+    "StarterNpcLocation": {
+      "RowId": 2464368,
+      "X": 67.0789,
+      "Y": 0.919069,
+      "Z": 255.649,
+      "Yaw": 1.23129,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Hihiyaja",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 139,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 13
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65858,
+    "QuestTitle": "Listen to Your Fish",
+    "PreviousQuestIds": [
+      65857
+    ],
+    "PreviousQuestTitles": [
+      "The Slaying of the Shrews"
+    ],
+    "NextQuestIds": [
+      65840
+    ],
+    "NextQuestTitles": [
+      "The Tasting of the Shrews"
+    ],
+    "StarterNpc": "Hihiyaja",
+    "StarterNpcLocation": {
+      "RowId": 2464368,
+      "X": 67.0789,
+      "Y": 0.919069,
+      "Z": 255.649,
+      "Yaw": 1.23129,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Wowobaru",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 141,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65862,
+    "QuestTitle": "Sometimes the Old Ways Are Best",
+    "PreviousQuestIds": [
+      65843
+    ],
+    "PreviousQuestTitles": [
+      "Out of House and Home"
+    ],
+    "NextQuestIds": [
+      65844
+    ],
+    "NextQuestTitles": [
+      "In the Court of the Rat King"
+    ],
+    "StarterNpc": "Zezeda",
+    "StarterNpcLocation": {
+      "RowId": 2464309,
+      "X": -40.0855,
+      "Y": -1.43441,
+      "Z": -153.246,
+      "Yaw": -0.0900749,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Beringaer",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2654,
+          "ItemName": "Hard Leather Pot Helm",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 10,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65873,
+    "QuestTitle": "By the Toe",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fufulupa",
+    "StarterNpcLocation": {
+      "RowId": 3629823,
+      "X": 59.617,
+      "Y": 45.1453,
+      "Z": -215.9,
+      "Yaw": 1.70203,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Chechezan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4305,
+          "ItemName": "Copper Gorget",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4306,
+          "ItemName": "Bone Necklace",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65875,
+    "QuestTitle": "For Their Eyes Only",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zuzutyro",
+    "StarterNpcLocation": {
+      "RowId": 3629818,
+      "X": 56.7261,
+      "Y": 45.6581,
+      "Z": -207.434,
+      "Yaw": 2.22867,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Zuzutyro",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4092,
+          "ItemName": "Leather Wristbands",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4091,
+          "ItemName": "Copper Wristlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65877,
+    "QuestTitle": "The Scent of a Mongrel",
+    "PreviousQuestIds": [
+      65865
+    ],
+    "PreviousQuestTitles": [
+      "The Perfect Swarm"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Chechezan",
+    "StarterNpcLocation": {
+      "RowId": 3629840,
+      "X": 83.8139,
+      "Y": 45.2081,
+      "Z": -211.827,
+      "Yaw": -0.879045,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Nononzo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 196,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65878,
+    "QuestTitle": "Lominsan Rubbish",
+    "PreviousQuestIds": [
+      65868
+    ],
+    "PreviousQuestTitles": [
+      "Passing the Blade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Osment",
+    "StarterNpcLocation": {
+      "RowId": 3629899,
+      "X": -284.42,
+      "Y": 13.4807,
+      "Z": -146.895,
+      "Yaw": -0.0307761,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Osment",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27636,
+          "ItemName": "Hard Leather Kecks",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3320,
+          "ItemName": "Striped Cotton Slops",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65924,
+    "QuestTitle": "Bloodied and Bowed",
+    "PreviousQuestIds": [
+      69388
+    ],
+    "PreviousQuestTitles": [
+      "Prudence at This Junction"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aethelgyth",
+    "StarterNpcLocation": {
+      "RowId": 2464135,
+      "X": -34.6227,
+      "Y": -1.03326,
+      "Z": -148.76,
+      "Yaw": 1.47403,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Osbert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 182,
+      "Gil": 122,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 19
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65925,
+    "QuestTitle": "Fantastic Voyage",
+    "PreviousQuestIds": [
+      66104,
+      66105,
+      66106
+    ],
+    "PreviousQuestTitles": [
+      "Close to Home",
+      "Close to Home",
+      "Close to Home"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kekezani",
+    "StarterNpcLocation": {
+      "RowId": 3840437,
+      "X": 22.3343,
+      "Y": 7.76679,
+      "Z": -108.843,
+      "Yaw": 0.846531,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Giginasu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3311,
+          "ItemName": "Hempen Sarouel",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3312,
+          "ItemName": "Hempen Tights",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65926,
+    "QuestTitle": "Catch Your Breath",
+    "PreviousQuestIds": [
+      66104,
+      66105,
+      66106
+    ],
+    "PreviousQuestTitles": [
+      "Close to Home",
+      "Close to Home",
+      "Close to Home"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Botulf",
+    "StarterNpcLocation": {
+      "RowId": 2453768,
+      "X": 16.3815,
+      "Y": 7.99998,
+      "Z": -106.191,
+      "Yaw": -1.95363,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Oswell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 4,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 260,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2999,
+          "ItemName": "Hempen Tabard",
+          "Count": 1,
+          "Stain": "Ul Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3010,
+          "ItemName": "Hempen Halfrobe",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65928,
+    "QuestTitle": "Decisions, Decisions",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bitter Snow",
+    "StarterNpcLocation": {
+      "RowId": 3865966,
+      "X": 31.2086,
+      "Y": 12,
+      "Z": 99.3357,
+      "Yaw": 1.76834,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Yellow Moon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 111,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5539,
+          "ItemName": "Lavender",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65929,
+    "QuestTitle": "Vox Populi",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aethelwine",
+    "StarterNpcLocation": {
+      "RowId": 2663910,
+      "X": 142.721,
+      "Y": 7.46961,
+      "Z": 94.2181,
+      "Yaw": -1.96052,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Leucu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 55,
+      "Gil": 109,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65930,
+    "QuestTitle": "A Luxury Long Lost",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      65931
+    ],
+    "NextQuestTitles": [
+      "The Wealth of Nations"
+    ],
+    "StarterNpc": "Alewyn",
+    "StarterNpcLocation": {
+      "RowId": 2620646,
+      "X": -99.321,
+      "Y": 40.1465,
+      "Z": 134.111,
+      "Yaw": 1.39494,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Landebert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 111,
+      "Catalysts": [
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 9
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65931,
+    "QuestTitle": "The Wealth of Nations",
+    "PreviousQuestIds": [
+      65930
+    ],
+    "PreviousQuestTitles": [
+      "A Luxury Long Lost"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Landebert",
+    "StarterNpcLocation": {
+      "RowId": 2654303,
+      "X": 94.8347,
+      "Y": 7.98047,
+      "Z": -34.0125,
+      "Yaw": 1.69975,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Syntgoht",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 111,
+      "Catalysts": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 9
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65932,
+    "QuestTitle": "No Lady Is an Island",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Genevieve",
+    "StarterNpcLocation": {
+      "RowId": 3689362,
+      "X": -89.475,
+      "Y": 7.00812,
+      "Z": 10.8589,
+      "Yaw": 2.91095,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Genevieve",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 50,
+      "Gil": 102,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65971,
+    "QuestTitle": "World of Wonders",
+    "PreviousQuestIds": [
+      65970
+    ],
+    "PreviousQuestTitles": [
+      "It Could Happen to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "airship ticketer",
+    "StarterNpcLocation": {
+      "RowId": 5579845,
+      "X": -38.891,
+      "Y": 0,
+      "Z": 97.3551,
+      "Yaw": 0.859507,
+      "Radius": 1,
+      "MapId": 196,
+      "TerritoryId": 144
+    },
+    "FinishNpc": "Gold Saucer attendant",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 141,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100377,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 10085,
+          "ItemName": "Gold Saucer Ticket",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65972,
+    "QuestTitle": "So You Want to Be a Jockey",
+    "PreviousQuestIds": [
+      65970
+    ],
+    "PreviousQuestTitles": [
+      "It Could Happen to You"
+    ],
+    "NextQuestIds": [
+      66101
+    ],
+    "NextQuestTitles": [
+      "So You Think You Can Ride This Chocobo"
+    ],
+    "StarterNpc": "race chocobo registrar",
+    "StarterNpcLocation": {
+      "RowId": 5437009,
+      "X": 0,
+      "Y": -0.0153197,
+      "Z": -67.5823,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 197,
+      "TerritoryId": 388
+    },
+    "FinishNpc": "Katering",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 141,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 9561,
+          "ItemName": "Fledgling Chocobo Registration G1-M",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9570,
+          "ItemName": "Fledgling Chocobo Registration G1-F",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66040,
+    "QuestTitle": "No Tool Gets Left Behind",
+    "PreviousQuestIds": [
+      65864
+    ],
+    "PreviousQuestTitles": [
+      "Supply and Demands"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Torrid Whisper",
+    "StarterNpcLocation": {
+      "RowId": 3629835,
+      "X": 240.591,
+      "Y": 58.0267,
+      "Z": -159.494,
+      "Yaw": -2.51882,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Torrid Whisper",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 173,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66041,
+    "QuestTitle": "Angling Ankle-biters",
+    "PreviousQuestIds": [
+      65868
+    ],
+    "PreviousQuestTitles": [
+      "Passing the Blade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Totoruna",
+    "StarterNpcLocation": {
+      "RowId": 3629896,
+      "X": -176.928,
+      "Y": 15.6493,
+      "Z": -270.985,
+      "Yaw": 0.358238,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Totoruna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 212,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66042,
+    "QuestTitle": "This Fishwife\u0027s Life",
+    "PreviousQuestIds": [
+      65868
+    ],
+    "PreviousQuestTitles": [
+      "Passing the Blade"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Edalene",
+    "StarterNpcLocation": {
+      "RowId": 3629900,
+      "X": -290.364,
+      "Y": 17.752,
+      "Z": -165.576,
+      "Yaw": -0.296286,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Edalene",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3017,
+          "ItemName": "Hard Leather Harness",
+          "Count": 1,
+          "Stain": "Olive Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3018,
+          "ItemName": "Hempen Robe",
+          "Count": 1,
+          "Stain": "Wine Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66066,
+    "QuestTitle": "Alternative Medicine",
+    "PreviousQuestIds": [
+      65866
+    ],
+    "PreviousQuestTitles": [
+      "Last Letter to Lost Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Blayves",
+    "StarterNpcLocation": {
+      "RowId": 3929512,
+      "X": 96.2823,
+      "Y": 0.340656,
+      "Z": -270.606,
+      "Yaw": -1.89149,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Blayves",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27637,
+          "ItemName": "Hard Leather Thighboots",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3773,
+          "ItemName": "Hard Leather Sandals",
+          "Count": 1,
+          "Stain": "Loam Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66067,
+    "QuestTitle": "Need Not Apply in Person",
+    "PreviousQuestIds": [
+      65866
+    ],
+    "PreviousQuestTitles": [
+      "Last Letter to Lost Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hamund",
+    "StarterNpcLocation": {
+      "RowId": 3929514,
+      "X": 90.0538,
+      "Y": 0.34068,
+      "Z": -258.386,
+      "Yaw": 2.49996,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Beringaer",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 188,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4093,
+          "ItemName": "Bone Armillae",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4198,
+          "ItemName": "Copper Ear Cuffs",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66107,
+    "QuestTitle": "Beet Red Beetles Beat Red",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wolkan",
+    "StarterNpcLocation": {
+      "RowId": 3966421,
+      "X": -96.1471,
+      "Y": 6.54607,
+      "Z": 21.2863,
+      "Yaw": 1.28574,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Wolkan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 35,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3530,
+          "ItemName": "Fingerless Leather Gloves",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3531,
+          "ItemName": "Leather Lightmitts",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66108,
+    "QuestTitle": "In the Name of Science",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Erasmus",
+    "StarterNpcLocation": {
+      "RowId": 3967326,
+      "X": -195.422,
+      "Y": 17.9904,
+      "Z": 60.5325,
+      "Yaw": -0.440116,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Erasmus",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 35,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 2653,
+          "ItemName": "Leather Eyepatch",
+          "Count": 1,
+          "Stain": "Russet Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2655,
+          "ItemName": "Hempen Hat",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5823,
+          "ItemName": "Allagan Tin Piece",
+          "Count": 4,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66109,
+    "QuestTitle": "Fringe Benefits",
+    "PreviousQuestIds": [
+      65866
+    ],
+    "PreviousQuestTitles": [
+      "Last Letter to Lost Hope"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Amalberga",
+    "StarterNpcLocation": {
+      "RowId": 2464927,
+      "X": 93.2479,
+      "Y": 0.340656,
+      "Z": -272.572,
+      "Yaw": 0.29664,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Amalberga",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27635,
+          "ItemName": "Altered Cotton Bandana",
+          "Count": 1,
+          "Stain": "Bone White",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2668,
+          "ItemName": "Brass Spectacles",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66112,
+    "QuestTitle": "Like Sire Like Fledgling",
+    "PreviousQuestIds": [
+      66101
+    ],
+    "PreviousQuestTitles": [
+      "So You Think You Can Ride This Chocobo"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "chocobokeep",
+    "StarterNpcLocation": {
+      "RowId": 5764534,
+      "X": 7.55316,
+      "Y": -0.0153198,
+      "Z": -68.5893,
+      "Yaw": -0.472042,
+      "Radius": 1,
+      "MapId": 197,
+      "TerritoryId": 388
+    },
+    "FinishNpc": "Katering",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 141,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10147,
+          "ItemName": "Grade 2 Feed - Special Speed Blend",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 10148,
+          "ItemName": "Grade 2 Feed - Special Acceleration Blend",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 10149,
+          "ItemName": "Grade 2 Feed - Special Balance Blend",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 10150,
+          "ItemName": "Grade 2 Feed - Special Endurance Blend",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 10151,
+          "ItemName": "Grade 2 Feed - Special Stamina Blend",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66130,
+    "QuestTitle": "Coming to Ul\u0027dah",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66104,
+      66105,
+      66106
+    ],
+    "NextQuestTitles": [
+      "Close to Home",
+      "Close to Home",
+      "Close to Home"
+    ],
+    "StarterNpc": "Wymond",
+    "StarterNpcLocation": {
+      "RowId": 3969639,
+      "X": 33.3757,
+      "Y": 4.1,
+      "Z": -151.994,
+      "Yaw": 1.51625,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 182
+    },
+    "FinishNpc": "Momodi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100086,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 400,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66160,
+    "QuestTitle": "A Dying Wish",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66166,
+      66173
+    ],
+    "NextQuestTitles": [
+      "The Circle of Life",
+      "Green Thumb"
+    ],
+    "StarterNpc": "Tutusi",
+    "StarterNpcLocation": {
+      "RowId": 3967318,
+      "X": -379.629,
+      "Y": -55.8633,
+      "Z": 95.0485,
+      "Yaw": -0.189689,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Tutusi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 257,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66161,
+    "QuestTitle": "All Dogs Go to Hell",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66167
+    ],
+    "NextQuestTitles": [
+      "Steaking Claims"
+    ],
+    "StarterNpc": "Caitlyn",
+    "StarterNpcLocation": {
+      "RowId": 3967322,
+      "X": -389.62,
+      "Y": -56.1409,
+      "Z": 92.4049,
+      "Yaw": 1.05896,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Caitlyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 18,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1620,
+      "Gil": 243,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66162,
+    "QuestTitle": "Buzzing at Church",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66165
+    ],
+    "NextQuestTitles": [
+      "Honoring the Dead"
+    ],
+    "StarterNpc": "Esmour",
+    "StarterNpcLocation": {
+      "RowId": 3982557,
+      "X": -516.348,
+      "Y": -16.2204,
+      "Z": -8.13276,
+      "Yaw": 1.12293,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Esmour",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 18,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1620,
+      "Gil": 220,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5729,
+          "ItemName": "Snow White Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66163,
+    "QuestTitle": "Lichyard Lilies",
+    "PreviousQuestIds": [
+      66178
+    ],
+    "PreviousQuestTitles": [
+      "Dead Bodies Everywhere"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Airell",
+    "StarterNpcLocation": {
+      "RowId": 3967849,
+      "X": -518.197,
+      "Y": -16.2577,
+      "Z": -0.789081,
+      "Yaw": 2.09459,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Airell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 18,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1620,
+      "Gil": 220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66165,
+    "QuestTitle": "Honoring the Dead",
+    "PreviousQuestIds": [
+      66162
+    ],
+    "PreviousQuestTitles": [
+      "Buzzing at Church"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Eaduuard",
+    "StarterNpcLocation": {
+      "RowId": 3967939,
+      "X": -518.099,
+      "Y": -16.2204,
+      "Z": 0.18298,
+      "Yaw": 2.03784,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Eaduuard",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 18,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1620,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5743,
+          "ItemName": "Salmon Pink Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4552,
+          "ItemName": "Hi-Potion",
+          "Count": 10,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 10,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66166,
+    "QuestTitle": "The Circle of Life",
+    "PreviousQuestIds": [
+      66160
+    ],
+    "PreviousQuestTitles": [
+      "A Dying Wish"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tutusi",
+    "StarterNpcLocation": {
+      "RowId": 3967318,
+      "X": -379.629,
+      "Y": -55.8633,
+      "Z": 95.0485,
+      "Yaw": -0.189689,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Tutusi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 235,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66167,
+    "QuestTitle": "Steaking Claims",
+    "PreviousQuestIds": [
+      66156,
+      66161
+    ],
+    "PreviousQuestTitles": [
+      "A Proper Burial",
+      "All Dogs Go to Hell"
+    ],
+    "NextQuestIds": [
+      66168
+    ],
+    "NextQuestTitles": [
+      "Now Hiring"
+    ],
+    "StarterNpc": "Caitlyn",
+    "StarterNpcLocation": {
+      "RowId": 3967322,
+      "X": -389.62,
+      "Y": -56.1409,
+      "Z": 92.4049,
+      "Yaw": 1.05896,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Beneger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 250,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4100,
+          "ItemName": "Coral Armillae",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4430,
+          "ItemName": "Brass Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4433,
+          "ItemName": "Coral Ring",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66168,
+    "QuestTitle": "Now Hiring",
+    "PreviousQuestIds": [
+      66167
+    ],
+    "PreviousQuestTitles": [
+      "Steaking Claims"
+    ],
+    "NextQuestIds": [
+      66170
+    ],
+    "NextQuestTitles": [
+      "There\u0027s Mythril in Them Thar Hills"
+    ],
+    "StarterNpc": "Beneger",
+    "StarterNpcLocation": {
+      "RowId": 3974617,
+      "X": -540.063,
+      "Y": 4.13697,
+      "Z": -240.955,
+      "Yaw": -1.38784,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Beneger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 215,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66169,
+    "QuestTitle": "Impish Implications",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66171
+    ],
+    "NextQuestTitles": [
+      "Purging the Earth"
+    ],
+    "StarterNpc": "Lululo",
+    "StarterNpcLocation": {
+      "RowId": 3974618,
+      "X": -540.948,
+      "Y": 4.13453,
+      "Z": -241.077,
+      "Yaw": 1.11978,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Lululo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 210,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66170,
+    "QuestTitle": "There\u0027s Mythril in Them Thar Hills",
+    "PreviousQuestIds": [
+      66168
+    ],
+    "PreviousQuestTitles": [
+      "Now Hiring"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Beneger",
+    "StarterNpcLocation": {
+      "RowId": 3974617,
+      "X": -540.063,
+      "Y": 4.13697,
+      "Z": -240.955,
+      "Yaw": -1.38784,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Beneger",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 210,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66171,
+    "QuestTitle": "Purging the Earth",
+    "PreviousQuestIds": [
+      66169
+    ],
+    "PreviousQuestTitles": [
+      "Impish Implications"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lululo",
+    "StarterNpcLocation": {
+      "RowId": 3974618,
+      "X": -540.948,
+      "Y": 4.13453,
+      "Z": -241.077,
+      "Yaw": 1.11978,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Reremaki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 190,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 19,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1680,
+      "Gil": 210,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66173,
+    "QuestTitle": "Green Thumb",
+    "PreviousQuestIds": [
+      66160
+    ],
+    "PreviousQuestTitles": [
+      "A Dying Wish"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jospaire",
+    "StarterNpcLocation": {
+      "RowId": 3974641,
+      "X": -82.1739,
+      "Y": -58.2699,
+      "Z": 162.525,
+      "Yaw": 1.74407,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Jospaire",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 214,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66178,
+    "QuestTitle": "Dead Bodies Everywhere",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66163
+    ],
+    "NextQuestTitles": [
+      "Lichyard Lilies"
+    ],
+    "StarterNpc": "Airell",
+    "StarterNpcLocation": {
+      "RowId": 3967849,
+      "X": -518.197,
+      "Y": -16.2577,
+      "Z": -0.789081,
+      "Yaw": 2.09459,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Airell",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 180,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 18,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1620,
+      "Gil": 243,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66223,
+    "QuestTitle": "Leves of Horizon",
+    "PreviousQuestIds": [
+      65856
+    ],
+    "PreviousQuestTitles": [
+      "Way Down in the Hole"
+    ],
+    "NextQuestIds": [
+      65550,
+      65551,
+      65552,
+      65553,
+      65554,
+      65594,
+      65757,
+      65979,
+      65980,
+      66224,
+      66228,
+      66230,
+      66231,
+      66232
+    ],
+    "NextQuestTitles": [
+      "Leves of Wineport",
+      "Leves of Camp Bluefog",
+      "Leves of the Observatorium",
+      "Leves of Whitebrim",
+      "Leves of Saint Coinach\u0027s Find",
+      "Simply the Hest",
+      "Leves of Hawthorne",
+      "Leves of Quarrymill",
+      "Leves of Camp Tranquil",
+      "Leves of Camp Drybone",
+      "Leves of Little Ala Mhigo",
+      "Leves of Aleport",
+      "Leves of Moraby",
+      "Leves of Costa del Sol"
+    ],
+    "StarterNpc": "Eustace",
+    "StarterNpcLocation": {
+      "RowId": 2539960,
+      "X": 42.0224,
+      "Y": 8.00998,
+      "Z": -107.562,
+      "Yaw": -1.20951,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Totonowa",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 215,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66224,
+    "QuestTitle": "Leves of Camp Drybone",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Poponagu",
+    "StarterNpcLocation": {
+      "RowId": 2540213,
+      "X": -378.176,
+      "Y": -57.3269,
+      "Z": 129.279,
+      "Yaw": 2.63662,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Poponagu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 239,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66228,
+    "QuestTitle": "Leves of Little Ala Mhigo",
+    "PreviousQuestIds": [
+      66229,
+      65756,
+      66223
+    ],
+    "PreviousQuestTitles": [
+      "Leves of Swiftperch",
+      "Leves of Bentbranch",
+      "Leves of Horizon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Esmond",
+    "StarterNpcLocation": {
+      "RowId": 3974981,
+      "X": -167.275,
+      "Y": 27.4374,
+      "Z": -395.421,
+      "Yaw": 2.73228,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Esmond",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2040,
+      "Gil": 2112,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66238,
+    "QuestTitle": "My Little Chocobo (Immortal Flames)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66698
+    ],
+    "NextQuestTitles": [
+      "My Feisty Little Chocobo"
+    ],
+    "StarterNpc": "Swift",
+    "StarterNpcLocation": {
+      "RowId": 4101490,
+      "X": -141.637,
+      "Y": 4.09995,
+      "Z": -114.663,
+      "Yaw": 0.79504,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Mimigun",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 20,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1740,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6001,
+          "ItemName": "Chocobo Whistle",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66241,
+    "QuestTitle": "The Weaponsmith of Legend",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      66655,
+      66656,
+      66657,
+      66658,
+      66659,
+      66660,
+      66661,
+      66662,
+      66663,
+      67115
+    ],
+    "NextQuestTitles": [
+      "A Relic Reborn (Bravura)",
+      "A Relic Reborn (Curtana)",
+      "A Relic Reborn (Sphairai)",
+      "A Relic Reborn (Gae Bolg)",
+      "A Relic Reborn (Stardust Rod)",
+      "A Relic Reborn (Thyrus)",
+      "A Relic Reborn (Artemis Bow)",
+      "A Relic Reborn (The Veil of Wiyu)",
+      "A Relic Reborn (Omnilex)",
+      "A Relic Reborn (Yoshimitsu)"
+    ],
+    "StarterNpc": "Nedrick Ironheart",
+    "StarterNpcLocation": {
+      "RowId": 4265812,
+      "X": -472.485,
+      "Y": 23.0288,
+      "Z": -354.971,
+      "Yaw": 1.99712,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100166,
+    "JobLevel": 50,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1659,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66285,
+    "QuestTitle": "Strawman Defense",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66289
+    ],
+    "NextQuestTitles": [
+      "Scholarly Funds"
+    ],
+    "StarterNpc": "Claudian",
+    "StarterNpcLocation": {
+      "RowId": 4250576,
+      "X": -65.5035,
+      "Y": -33.1832,
+      "Z": -54.4997,
+      "Yaw": 2.56021,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Claudian",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3804,
+          "ItemName": "Iron Scale Greaves",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3802,
+          "ItemName": "Iron-plated Jackboots",
+          "Count": 1,
+          "Stain": "Mole Brown",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3806,
+          "ItemName": "Goatskin Duckbills",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66286,
+    "QuestTitle": "Buzz Off, Birds",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66290
+    ],
+    "NextQuestTitles": [
+      "The Perils of Pilgrimage"
+    ],
+    "StarterNpc": "Gogoshu",
+    "StarterNpcLocation": {
+      "RowId": 4250577,
+      "X": -91.2642,
+      "Y": -28.8854,
+      "Z": -60.2579,
+      "Yaw": -0.798114,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Gogoshu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3057,
+          "ItemName": "Iron Scale Mail",
+          "Count": 1,
+          "Stain": "Charcoal Grey",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3060,
+          "ItemName": "Cotton Trapper\u0027s Tunic",
+          "Count": 1,
+          "Stain": "Marsh Green",
+          "IsHq": false
+        },
+        {
+          "ItemId": 3062,
+          "ItemName": "Cotton Robe",
+          "Count": 1,
+          "Stain": "Rust Red",
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66287,
+    "QuestTitle": "Hair Club for Hyur",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66493
+    ],
+    "NextQuestTitles": [
+      "Tresses in Distress"
+    ],
+    "StarterNpc": "Helmhart",
+    "StarterNpcLocation": {
+      "RowId": 4250584,
+      "X": -67.2567,
+      "Y": -20.308,
+      "Z": -2.98055,
+      "Yaw": -0.526613,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Helmhart",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 240,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 1399,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4574,
+          "ItemName": "Weak Poisoning Potion",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4575,
+          "ItemName": "Weak Blinding Potion",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66289,
+    "QuestTitle": "Scholarly Funds",
+    "PreviousQuestIds": [
+      66285
+    ],
+    "PreviousQuestTitles": [
+      "Strawman Defense"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Claudian",
+    "StarterNpcLocation": {
+      "RowId": 4250576,
+      "X": -65.5035,
+      "Y": -33.1832,
+      "Z": -54.4997,
+      "Yaw": 2.56021,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Kyokyozo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 1232,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66290,
+    "QuestTitle": "The Perils of Pilgrimage",
+    "PreviousQuestIds": [
+      66286
+    ],
+    "PreviousQuestTitles": [
+      "Buzz Off, Birds"
+    ],
+    "NextQuestIds": [
+      66291
+    ],
+    "NextQuestTitles": [
+      "Friendlier Skies"
+    ],
+    "StarterNpc": "Kyokyozo",
+    "StarterNpcLocation": {
+      "RowId": 4250596,
+      "X": 244.737,
+      "Y": 9.26215,
+      "Z": -271.554,
+      "Yaw": -0.657296,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Kyokyozo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 1232,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5744,
+          "ItemName": "Sunset Orange Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66291,
+    "QuestTitle": "Friendlier Skies",
+    "PreviousQuestIds": [
+      66290
+    ],
+    "PreviousQuestTitles": [
+      "The Perils of Pilgrimage"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kyokyozo",
+    "StarterNpcLocation": {
+      "RowId": 4250596,
+      "X": 244.737,
+      "Y": 9.26215,
+      "Z": -271.554,
+      "Yaw": -0.657296,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Hihibaru",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 24,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1980,
+      "Gil": 1232,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66294,
+    "QuestTitle": "Bad Blood",
+    "PreviousQuestIds": [
+      66293
+    ],
+    "PreviousQuestTitles": [
+      "On to Little Ala Mhigo"
+    ],
+    "NextQuestIds": [
+      66295
+    ],
+    "NextQuestTitles": [
+      "Prickly Patients"
+    ],
+    "StarterNpc": "Hihira",
+    "StarterNpcLocation": {
+      "RowId": 4251636,
+      "X": -217.487,
+      "Y": 26.2298,
+      "Z": -361.237,
+      "Yaw": -0.0741655,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hihira",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2040,
+      "Gil": 1232,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4552,
+          "ItemName": "Hi-Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66295,
+    "QuestTitle": "Prickly Patients",
+    "PreviousQuestIds": [
+      66294
+    ],
+    "PreviousQuestTitles": [
+      "Bad Blood"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hihira",
+    "StarterNpcLocation": {
+      "RowId": 4251636,
+      "X": -217.487,
+      "Y": 26.2298,
+      "Z": -361.237,
+      "Yaw": -0.0741655,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hihira",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2040,
+      "Gil": 1232,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5765,
+          "ItemName": "Honey Yellow Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66296,
+    "QuestTitle": "Blast from the Past",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Annabel",
+    "StarterNpcLocation": {
+      "RowId": 4108026,
+      "X": -138.86,
+      "Y": 27.2489,
+      "Z": -427.816,
+      "Yaw": -1.33903,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Annabel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 25,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2040,
+      "Gil": 1232,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5786,
+          "ItemName": "Turquoise Green Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66315,
+    "QuestTitle": "Corpse Confrontation",
+    "PreviousQuestIds": [
+      66314
+    ],
+    "PreviousQuestTitles": [
+      "Wilred Wants You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hremfing",
+    "StarterNpcLocation": {
+      "RowId": 4251868,
+      "X": -225.953,
+      "Y": 26.1385,
+      "Z": -355.041,
+      "Yaw": 1.60072,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hremfing",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 27,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4106,
+          "ItemName": "Goatskin Wristbands",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4317,
+          "ItemName": "Horn Necklace",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66316,
+    "QuestTitle": "What\u0027s Your Poison",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66317
+    ],
+    "NextQuestTitles": [
+      "Death from Above"
+    ],
+    "StarterNpc": "Amelot",
+    "StarterNpcLocation": {
+      "RowId": 4251869,
+      "X": -218.647,
+      "Y": 26.1995,
+      "Z": -352.946,
+      "Yaw": -0.622333,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Amelot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 27,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5811,
+          "ItemName": "Colibri Pink Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4579,
+          "ItemName": "Poisoning Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4580,
+          "ItemName": "Blinding Potion",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4581,
+          "ItemName": "Silencing Potion",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66317,
+    "QuestTitle": "Death from Above",
+    "PreviousQuestIds": [
+      66316
+    ],
+    "PreviousQuestTitles": [
+      "What\u0027s Your Poison"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Amelot",
+    "StarterNpcLocation": {
+      "RowId": 4251869,
+      "X": -218.647,
+      "Y": 26.1995,
+      "Z": -352.946,
+      "Yaw": -0.622333,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Amelot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 27,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5731,
+          "ItemName": "Goobbue Grey Dye",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4653,
+          "ItemName": "Fried Egg",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4732,
+          "ItemName": "Crumpet",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66359,
+    "QuestTitle": "Fetch the Freshman",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66365
+    ],
+    "NextQuestTitles": [
+      "Mind Games"
+    ],
+    "StarterNpc": "U\u0027tykha Tia",
+    "StarterNpcLocation": {
+      "RowId": 4254008,
+      "X": -354.647,
+      "Y": 8.43989,
+      "Z": 416.828,
+      "Yaw": 0.318004,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027tykha Tia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1404,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66360,
+    "QuestTitle": "Survey Says",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66361
+    ],
+    "NextQuestTitles": [
+      "Tools of Office"
+    ],
+    "StarterNpc": "U\u0027khuba Tia",
+    "StarterNpcLocation": {
+      "RowId": 4254009,
+      "X": -361.409,
+      "Y": 8.46533,
+      "Z": 426.146,
+      "Yaw": 2.13196,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027khuba Tia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1404,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66361,
+    "QuestTitle": "Tools of Office",
+    "PreviousQuestIds": [
+      66360
+    ],
+    "PreviousQuestTitles": [
+      "Survey Says"
+    ],
+    "NextQuestIds": [
+      66364
+    ],
+    "NextQuestTitles": [
+      "The Eyes Have It"
+    ],
+    "StarterNpc": "U\u0027khuba Tia",
+    "StarterNpcLocation": {
+      "RowId": 4254009,
+      "X": -361.409,
+      "Y": 8.46533,
+      "Z": 426.146,
+      "Yaw": 2.13196,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027khuba Tia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1650,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66362,
+    "QuestTitle": "Minority Rapport",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Riridesu",
+    "StarterNpcLocation": {
+      "RowId": 4254085,
+      "X": -347.226,
+      "Y": 2.35461,
+      "Z": 265.746,
+      "Yaw": 1.53347,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Odinel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1404,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66363,
+    "QuestTitle": "Heat of the Moment",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mumugoi",
+    "StarterNpcLocation": {
+      "RowId": 4254172,
+      "X": -113.512,
+      "Y": -10.7421,
+      "Z": 723.6,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Mumugoi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1404,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66364,
+    "QuestTitle": "The Eyes Have It",
+    "PreviousQuestIds": [
+      66361
+    ],
+    "PreviousQuestTitles": [
+      "Tools of Office"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "U\u0027rahtalo",
+    "StarterNpcLocation": {
+      "RowId": 4254174,
+      "X": -272.852,
+      "Y": 5.01472,
+      "Z": 474.322,
+      "Yaw": 1.92943,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027rahtalo",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1404,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66365,
+    "QuestTitle": "Mind Games",
+    "PreviousQuestIds": [
+      66359
+    ],
+    "PreviousQuestTitles": [
+      "Fetch the Freshman"
+    ],
+    "NextQuestIds": [
+      66366
+    ],
+    "NextQuestTitles": [
+      "U Don\u0027t Know Me"
+    ],
+    "StarterNpc": "U\u0027tykha Tia",
+    "StarterNpcLocation": {
+      "RowId": 4254008,
+      "X": -354.647,
+      "Y": 8.43989,
+      "Z": 416.828,
+      "Yaw": 0.318004,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027tykha Tia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1650,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66366,
+    "QuestTitle": "U Don\u0027t Know Me",
+    "PreviousQuestIds": [
+      66365
+    ],
+    "PreviousQuestTitles": [
+      "Mind Games"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "U\u0027khuba Tia",
+    "StarterNpcLocation": {
+      "RowId": 4254009,
+      "X": -361.409,
+      "Y": 8.46533,
+      "Z": 426.146,
+      "Yaw": 2.13196,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027tykha Tia",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 31,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3200,
+      "Gil": 1650,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66409,
+    "QuestTitle": "Plagued by Indecision",
+    "PreviousQuestIds": [
+      66053
+    ],
+    "PreviousQuestTitles": [
+      "All Good Things"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iliud",
+    "StarterNpcLocation": {
+      "RowId": 4260832,
+      "X": -512.474,
+      "Y": -16.4645,
+      "Z": -7.52277,
+      "Yaw": 0.0569978,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Iliud",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66410,
+    "QuestTitle": "The Voyage of the Goobbue",
+    "PreviousQuestIds": [
+      66053
+    ],
+    "PreviousQuestTitles": [
+      "All Good Things"
+    ],
+    "NextQuestIds": [
+      66411
+    ],
+    "NextQuestTitles": [
+      "Scent of Cinnamon"
+    ],
+    "StarterNpc": "Barryn",
+    "StarterNpcLocation": {
+      "RowId": 4260834,
+      "X": -498.315,
+      "Y": -17.3754,
+      "Z": -2.52762,
+      "Yaw": 2.41417,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Barryn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66411,
+    "QuestTitle": "Scent of Cinnamon",
+    "PreviousQuestIds": [
+      66410
+    ],
+    "PreviousQuestTitles": [
+      "The Voyage of the Goobbue"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Barryn",
+    "StarterNpcLocation": {
+      "RowId": 4260834,
+      "X": -498.315,
+      "Y": -17.3754,
+      "Z": -2.52762,
+      "Yaw": 2.41417,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Barryn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66415,
+    "QuestTitle": "Mr. Slipshod and Ms. Uptight",
+    "PreviousQuestIds": [
+      66053
+    ],
+    "PreviousQuestTitles": [
+      "All Good Things"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fuandrec",
+    "StarterNpcLocation": {
+      "RowId": 4260835,
+      "X": -512.919,
+      "Y": -17.3837,
+      "Z": 24.6745,
+      "Yaw": -2.99795,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Fuandrec",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66416,
+    "QuestTitle": "Out of Whole Cloth",
+    "PreviousQuestIds": [
+      66053
+    ],
+    "PreviousQuestTitles": [
+      "All Good Things"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dedeju",
+    "StarterNpcLocation": {
+      "RowId": 4260836,
+      "X": -500.352,
+      "Y": -17.4151,
+      "Z": 4.48264,
+      "Yaw": 0.681368,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Dedeju",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 35,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 3960,
+      "Gil": 1518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66455,
+    "QuestTitle": "Hold for Customer Support",
+    "PreviousQuestIds": [
+      66454
+    ],
+    "PreviousQuestTitles": [
+      "Where\u0027s My Juice"
+    ],
+    "NextQuestIds": [
+      66456
+    ],
+    "NextQuestTitles": [
+      "Thieves and Robbers"
+    ],
+    "StarterNpc": "Syntgoht",
+    "StarterNpcLocation": {
+      "RowId": 3862196,
+      "X": 140.49,
+      "Y": 3.95204,
+      "Z": -59.7696,
+      "Yaw": -1.21565,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Papawazu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4141,
+          "ItemName": "Amethyst Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4137,
+          "ItemName": "Peridot Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4135,
+          "ItemName": "Goshenite Bracelet",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66456,
+    "QuestTitle": "Thieves and Robbers",
+    "PreviousQuestIds": [
+      66455
+    ],
+    "PreviousQuestTitles": [
+      "Hold for Customer Support"
+    ],
+    "NextQuestIds": [
+      66458
+    ],
+    "NextQuestTitles": [
+      "The Ceruleum Must Flow"
+    ],
+    "StarterNpc": "Papawazu",
+    "StarterNpcLocation": {
+      "RowId": 4268782,
+      "X": -28.8632,
+      "Y": 6.9845,
+      "Z": 480.307,
+      "Yaw": 2.07852,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Papawazu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4347,
+          "ItemName": "Amethyst Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4343,
+          "ItemName": "Peridot Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4341,
+          "ItemName": "Goshenite Choker",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66458,
+    "QuestTitle": "The Ceruleum Must Flow",
+    "PreviousQuestIds": [
+      66456
+    ],
+    "PreviousQuestTitles": [
+      "Thieves and Robbers"
+    ],
+    "NextQuestIds": [
+      66459
+    ],
+    "NextQuestTitles": [
+      "A Tale of Three Cities"
+    ],
+    "StarterNpc": "Papawazu",
+    "StarterNpcLocation": {
+      "RowId": 4268782,
+      "X": -28.8632,
+      "Y": 6.9845,
+      "Z": 480.307,
+      "Yaw": 2.07852,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Syntgoht",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66459,
+    "QuestTitle": "A Tale of Three Cities",
+    "PreviousQuestIds": [
+      66458
+    ],
+    "PreviousQuestTitles": [
+      "The Ceruleum Must Flow"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Syntgoht",
+    "StarterNpcLocation": {
+      "RowId": 3862196,
+      "X": 140.49,
+      "Y": 3.95204,
+      "Z": -59.7696,
+      "Yaw": -1.21565,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Edwyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 380,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66493,
+    "QuestTitle": "Tresses in Distress",
+    "PreviousQuestIds": [
+      66287
+    ],
+    "PreviousQuestTitles": [
+      "Hair Club for Hyur"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Helmhart",
+    "StarterNpcLocation": {
+      "RowId": 4250584,
+      "X": -67.2567,
+      "Y": -20.308,
+      "Z": -2.98055,
+      "Yaw": -0.526613,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Helmhart",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 41,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5500,
+      "Gil": 1993,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66494,
+    "QuestTitle": "D Is for Dead",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Floating Stone",
+    "StarterNpcLocation": {
+      "RowId": 4263503,
+      "X": 327.158,
+      "Y": 18.5358,
+      "Z": 37.811,
+      "Yaw": 2.88188,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Floating Stone",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 41,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5500,
+      "Gil": 1993,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66543,
+    "QuestTitle": "Primal Fear",
+    "PreviousQuestIds": [
+      66058
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Ultimatum"
+    ],
+    "NextQuestIds": [
+      66544
+    ],
+    "NextQuestTitles": [
+      "Who Was That Man in Black"
+    ],
+    "StarterNpc": "Urianger",
+    "StarterNpcLocation": {
+      "RowId": 4330030,
+      "X": -2.823,
+      "Y": -3,
+      "Z": -56.2248,
+      "Yaw": 0.64874,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Lewin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 46,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6325,
+      "Gil": 1694,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66551,
+    "QuestTitle": "A Kobold Initiative",
+    "PreviousQuestIds": [
+      66058
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Ultimatum"
+    ],
+    "NextQuestIds": [
+      66553,
+      66554
+    ],
+    "NextQuestTitles": [
+      "A Pirate\u0027s Life for Me",
+      "Honor the Fallen"
+    ],
+    "StarterNpc": "Slafswys",
+    "StarterNpcLocation": {
+      "RowId": 4330032,
+      "X": 2.90747,
+      "Y": -2,
+      "Z": -12.2286,
+      "Yaw": -0.877831,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Bloeidin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66557,
+    "QuestTitle": "What\u0027s It to U",
+    "PreviousQuestIds": [
+      66552,
+      67089
+    ],
+    "PreviousQuestTitles": [
+      "Can\u0027t Do It without U",
+      "Can\u0027t Do It without U"
+    ],
+    "NextQuestIds": [
+      66559
+    ],
+    "NextQuestTitles": [
+      "U! Ow! That Stings"
+    ],
+    "StarterNpc": "U\u0027odh Nunh",
+    "StarterNpcLocation": {
+      "RowId": 4108786,
+      "X": -358.633,
+      "Y": 8.46943,
+      "Z": 422.415,
+      "Yaw": 0.394958,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027odh Nunh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27659,
+          "ItemName": "Altered Cobalt Elmo",
+          "Count": 1,
+          "Stain": "Soot Black",
+          "IsHq": false
+        },
+        {
+          "ItemId": 2862,
+          "ItemName": "Raptorskin Pot Helm",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 2852,
+          "ItemName": "Felt Hat",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66558,
+    "QuestTitle": "Zombies Are People Too",
+    "PreviousQuestIds": [
+      66552,
+      67089
+    ],
+    "PreviousQuestTitles": [
+      "Can\u0027t Do It without U",
+      "Can\u0027t Do It without U"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hab",
+    "StarterNpcLocation": {
+      "RowId": 4127303,
+      "X": 167.925,
+      "Y": 3.09744,
+      "Z": 972.588,
+      "Yaw": 3.10449,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Hab",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6194,
+          "ItemName": "Cactuar Cutting",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66559,
+    "QuestTitle": "U! Ow! That Stings",
+    "PreviousQuestIds": [
+      66557
+    ],
+    "PreviousQuestTitles": [
+      "What\u0027s It to U"
+    ],
+    "NextQuestIds": [
+      66560
+    ],
+    "NextQuestTitles": [
+      "True U"
+    ],
+    "StarterNpc": "U\u0027odh Nunh",
+    "StarterNpcLocation": {
+      "RowId": 4108786,
+      "X": -358.633,
+      "Y": 8.46943,
+      "Z": 422.415,
+      "Yaw": 0.394958,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "U\u0027odh Nunh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 3183,
+          "ItemName": "Tortoiseshell Scale Mail",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 3191,
+          "ItemName": "Raptorskin Harness",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27677,
+          "ItemName": "Altered Woolen Cowl",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5826,
+          "ItemName": "Allagan Gold Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66560,
+    "QuestTitle": "True U",
+    "PreviousQuestIds": [
+      66559
+    ],
+    "PreviousQuestTitles": [
+      "U! Ow! That Stings"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "U\u0027odh Nunh",
+    "StarterNpcLocation": {
+      "RowId": 4108786,
+      "X": -358.633,
+      "Y": 8.46943,
+      "Z": 422.415,
+      "Yaw": 0.394958,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Wigstan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 1716,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66561,
+    "QuestTitle": "Into the Valley of the Skull",
+    "PreviousQuestIds": [
+      66058
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Ultimatum"
+    ],
+    "NextQuestIds": [
+      66562
+    ],
+    "NextQuestTitles": [
+      "Pier Review"
+    ],
+    "StarterNpc": "Radolf",
+    "StarterNpcLocation": {
+      "RowId": 4330033,
+      "X": -1.2,
+      "Y": -2,
+      "Z": -28,
+      "Yaw": 0.626116,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "Falkbryda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 480,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 48,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6840,
+      "Gil": 1857,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66574,
+    "QuestTitle": "High Standards",
+    "PreviousQuestIds": [
+      70057
+    ],
+    "PreviousQuestTitles": [
+      "Operation Archon"
+    ],
+    "NextQuestIds": [
+      66577
+    ],
+    "NextQuestTitles": [
+      "Jumping on a Grenade"
+    ],
+    "StarterNpc": "Rafold",
+    "StarterNpcLocation": {
+      "RowId": 4268905,
+      "X": 39.6107,
+      "Y": 4.10741,
+      "Z": 421.224,
+      "Yaw": -0.00228734,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Rafold",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 490,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 49,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27660,
+          "ItemName": "Cobalt Mask",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27648,
+          "ItemName": "Woolen Bandana",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27678,
+          "ItemName": "Altered Felt Hat",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 6,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66576,
+    "QuestTitle": "Crate Expectations",
+    "PreviousQuestIds": [
+      66575
+    ],
+    "PreviousQuestTitles": [
+      "The Ladle in the Darkness"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Spiraling Path",
+    "StarterNpcLocation": {
+      "RowId": 4313754,
+      "X": 57.1259,
+      "Y": 4.08702,
+      "Z": 422.667,
+      "Yaw": -1.75516,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Spiraling Path",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 490,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 49,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 1879,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27662,
+          "ItemName": "Altered Cobalt Gauntlets",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27650,
+          "ItemName": "Raptorskin Gloves",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27680,
+          "ItemName": "Felt Gloves",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66577,
+    "QuestTitle": "Jumping on a Grenade",
+    "PreviousQuestIds": [
+      66574
+    ],
+    "PreviousQuestTitles": [
+      "High Standards"
+    ],
+    "NextQuestIds": [
+      66580
+    ],
+    "NextQuestTitles": [
+      "The Life of the Party"
+    ],
+    "StarterNpc": "Rafold",
+    "StarterNpcLocation": {
+      "RowId": 4268905,
+      "X": 39.6107,
+      "Y": 4.10741,
+      "Z": 421.224,
+      "Yaw": -0.00228734,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Memezofu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 490,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 49,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27664,
+          "ItemName": "Altered Cobalt Sabatons",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27652,
+          "ItemName": "Raptorskin Boots",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27682,
+          "ItemName": "Raptorskin Crakows",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66580,
+    "QuestTitle": "The Life of the Party",
+    "PreviousQuestIds": [
+      66577
+    ],
+    "PreviousQuestTitles": [
+      "Jumping on a Grenade"
+    ],
+    "NextQuestIds": [
+      66581
+    ],
+    "NextQuestTitles": [
+      "An Eye for Elixirs"
+    ],
+    "StarterNpc": "Memezofu",
+    "StarterNpcLocation": {
+      "RowId": 4269890,
+      "X": 22.0493,
+      "Y": 48.6382,
+      "Z": -15.8114,
+      "Yaw": -2.00277,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Memezofu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 490,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 49,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 27663,
+          "ItemName": "Woolen Trousers of Fending",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27651,
+          "ItemName": "Raptorskin Skirt",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27681,
+          "ItemName": "Felt Breeches",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 8,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66581,
+    "QuestTitle": "An Eye for Elixirs",
+    "PreviousQuestIds": [
+      66580
+    ],
+    "PreviousQuestTitles": [
+      "The Life of the Party"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Memezofu",
+    "StarterNpcLocation": {
+      "RowId": 4269890,
+      "X": 22.0493,
+      "Y": 48.6382,
+      "Z": -15.8114,
+      "Yaw": -2.00277,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Memezofu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 490,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 49,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6960,
+      "Gil": 372,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66960,
+    "QuestTitle": "Seeds of Change",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tatafu",
+    "StarterNpcLocation": {
+      "RowId": 4622636,
+      "X": -472.19,
+      "Y": 23.0079,
+      "Z": -320.848,
+      "Yaw": -1.65175,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Tatafu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 780,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7725,
+          "ItemName": "La Noscean Orange Seeds",
+          "Count": 1
+        },
+        {
+          "ItemId": 7726,
+          "ItemName": "Lowland Grape Seeds",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66963,
+    "QuestTitle": "Help Me, Lord of the Dance",
+    "PreviousQuestIds": [
+      66088,
+      66081,
+      65985
+    ],
+    "PreviousQuestTitles": [
+      "A Royal Reception",
+      "A Mizzenmast Repast",
+      "Renewing the Covenant"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "P\u0027molminn",
+    "StarterNpcLocation": {
+      "RowId": 4634792,
+      "X": -21.0261,
+      "Y": 10.0206,
+      "Z": -70.594,
+      "Yaw": -0.744659,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Guillaunaux",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 140,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 14,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1035,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 103,
+        "EmoteName": "Ball Dance"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66965,
+    "QuestTitle": "Lend Me Your Ears Already",
+    "PreviousQuestIds": [
+      65856
+    ],
+    "PreviousQuestTitles": [
+      "Way Down in the Hole"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Memenaru",
+    "StarterNpcLocation": {
+      "RowId": 2453751,
+      "X": 14.1756,
+      "Y": 6.97333,
+      "Z": -83.8789,
+      "Yaw": -0.66897,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Botulf",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 9,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 810,
+      "Gil": 183,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4551,
+          "ItemName": "Potion",
+          "Count": 3
+        },
+        {
+          "ItemId": 4555,
+          "ItemName": "Ether",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66970,
+    "QuestTitle": "An Ill-conceived Venture",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "troubled adventurer",
+    "StarterNpcLocation": {
+      "RowId": 4696200,
+      "X": -93.0479,
+      "Y": 4,
+      "Z": -124.707,
+      "Yaw": 0.657121,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Chachabi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 17,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 418,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21072,
+          "ItemName": "Venture",
+          "Count": 6
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66973,
+    "QuestTitle": "The Greatest Story Never Told",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Valiant Hart",
+    "StarterNpcLocation": {
+      "RowId": 4721278,
+      "X": -157.485,
+      "Y": 14.9749,
+      "Z": -200.356,
+      "Yaw": -0.248632,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100295,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 10,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67089,
+    "QuestTitle": "Can\u0027t Do It without U",
+    "PreviousQuestIds": [
+      66058
+    ],
+    "PreviousQuestTitles": [
+      "The Black Wolf\u0027s Ultimatum"
+    ],
+    "NextQuestIds": [
+      66557,
+      66558
+    ],
+    "NextQuestTitles": [
+      "What\u0027s It to U",
+      "Zombies Are People Too"
+    ],
+    "StarterNpc": "Wigstan",
+    "StarterNpcLocation": {
+      "RowId": 6873939,
+      "X": 10.3303,
+      "Y": -3.006,
+      "Z": -54.8562,
+      "Yaw": -0.446827,
+      "Radius": 1,
+      "MapId": 107,
+      "TerritoryId": 212
+    },
+    "FinishNpc": "U\u0027odh Nunh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 6440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68422,
+    "QuestTitle": "For Wilred",
+    "PreviousQuestIds": [
+      68089,
+      68421
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "Dreaming of Home"
+    ],
+    "NextQuestIds": [
+      68423
+    ],
+    "NextQuestTitles": [
+      "Journey\u0027s Beginning"
+    ],
+    "StarterNpc": "Gundobald",
+    "StarterNpcLocation": {
+      "RowId": 4251866,
+      "X": -227.317,
+      "Y": 26.1684,
+      "Z": -352.97,
+      "Yaw": 1.2911,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Gundobald",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100714,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68423,
+    "QuestTitle": "Journey\u0027s Beginning",
+    "PreviousQuestIds": [
+      68089,
+      68422
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "For Wilred"
+    ],
+    "NextQuestIds": [
+      68424
+    ],
+    "NextQuestTitles": [
+      "Journey\u0027s End"
+    ],
+    "StarterNpc": "Bertliana",
+    "StarterNpcLocation": {
+      "RowId": 6958810,
+      "X": -228.898,
+      "Y": 26.1384,
+      "Z": -348.398,
+      "Yaw": 1.13367,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Bertliana",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100714,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68617,
+    "QuestTitle": "Passion for Fashion",
+    "PreviousQuestIds": [
+      65970
+    ],
+    "PreviousQuestTitles": [
+      "It Could Happen to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lewena",
+    "StarterNpcLocation": {
+      "RowId": 5584108,
+      "X": -65.3643,
+      "Y": 0.0697914,
+      "Z": 0.811196,
+      "Yaw": -0.402882,
+      "Radius": 1,
+      "MapId": 196,
+      "TerritoryId": 144
+    },
+    "FinishNpc": "Masked Rose",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10691,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 104,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68737,
+    "QuestTitle": "Every Little Thing She Does Is Mahjong",
+    "PreviousQuestIds": [
+      65970
+    ],
+    "PreviousQuestTitles": [
+      "It Could Happen to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lewena",
+    "StarterNpcLocation": {
+      "RowId": 5584108,
+      "X": -65.3643,
+      "Y": 0.0697914,
+      "Z": 0.811196,
+      "Yaw": -0.402882,
+      "Radius": 1,
+      "MapId": 196,
+      "TerritoryId": 144
+    },
+    "FinishNpc": "mahjong tutor",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10692,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 210,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 61001,
+          "InstanceName": "Novice Mahjong (Full Ranked Match)",
+          "ContentType": 14
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69617,
+    "QuestTitle": "The Adventurer with All the Cards",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gold Saucer attendant",
+    "StarterNpcLocation": {
+      "RowId": 4982131,
+      "X": -54.0009,
+      "Y": 1.60001,
+      "Z": 30.6981,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 196,
+      "TerritoryId": 144
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 113,
+      "JournalCategory": {
+        "Id": 61,
+        "Name": "Ul\u0027dahn Sidequests"
+      },
+      "Name": "Ul\u0027dahn Sidequests"
+    },
+    "SortKey": 10900,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33689,
+          "ItemName": "Magicked Card",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

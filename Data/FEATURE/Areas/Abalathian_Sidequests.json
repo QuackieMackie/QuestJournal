@@ -1,0 +1,2298 @@
+[
+  {
+    "QuestId": 67274,
+    "QuestTitle": "The Way of the Dodo",
+    "PreviousQuestIds": [
+      67116
+    ],
+    "PreviousQuestTitles": [
+      "Coming to Ishgard"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Caribault",
+    "StarterNpcLocation": {
+      "RowId": 5813758,
+      "X": -658.869,
+      "Y": -127.794,
+      "Z": 622.98,
+      "Yaw": 0.632633,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Caribault",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67275,
+    "QuestTitle": "Made to Order",
+    "PreviousQuestIds": [
+      67128
+    ],
+    "PreviousQuestTitles": [
+      "Meeting the Neighbors"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rose Knight cook",
+    "StarterNpcLocation": {
+      "RowId": 5873634,
+      "X": -249.415,
+      "Y": -183.311,
+      "Z": 745.45,
+      "Yaw": 2.5526,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Rose Knight cook",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5002,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 433,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4647,
+          "ItemName": "Eft Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4694,
+          "ItemName": "Buttons in a Blanket",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4750,
+          "ItemName": "Mulled Tea",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67276,
+    "QuestTitle": "Bargaining Chip",
+    "PreviousQuestIds": [
+      67126
+    ],
+    "PreviousQuestTitles": [
+      "Onwards and Upwards"
+    ],
+    "NextQuestIds": [
+      67277
+    ],
+    "NextQuestTitles": [
+      "Dragons in the Mist"
+    ],
+    "StarterNpc": "Gildon",
+    "StarterNpcLocation": {
+      "RowId": 5814138,
+      "X": -344.949,
+      "Y": -164.664,
+      "Z": 836.345,
+      "Yaw": -0.46295,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gildon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5004,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100467,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67277,
+    "QuestTitle": "Dragons in the Mist",
+    "PreviousQuestIds": [
+      67126,
+      67276
+    ],
+    "PreviousQuestTitles": [
+      "Onwards and Upwards",
+      "Bargaining Chip"
+    ],
+    "NextQuestIds": [
+      67285
+    ],
+    "NextQuestTitles": [
+      "Unclear Motives"
+    ],
+    "StarterNpc": "Gildon",
+    "StarterNpcLocation": {
+      "RowId": 5814138,
+      "X": -344.949,
+      "Y": -164.664,
+      "Z": 836.345,
+      "Yaw": -0.46295,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gildon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5005,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100467,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 574,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10976,
+          "ItemName": "Mythrite Earrings of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11000,
+          "ItemName": "Mythrite Earrings of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11024,
+          "ItemName": "Mythrite Earrings of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11048,
+          "ItemName": "Mythrite Earrings of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11072,
+          "ItemName": "Mythrite Earrings of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67284,
+    "QuestTitle": "Clipped Wings",
+    "PreviousQuestIds": [
+      67134
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Laniaitte",
+    "StarterNpcLocation": {
+      "RowId": 5811436,
+      "X": -277.618,
+      "Y": -184.597,
+      "Z": 741.612,
+      "Yaw": -2.57624,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5003,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67285,
+    "QuestTitle": "Unclear Motives",
+    "PreviousQuestIds": [
+      67134,
+      67277
+    ],
+    "PreviousQuestTitles": [
+      "Disclosure",
+      "Dragons in the Mist"
+    ],
+    "NextQuestIds": [
+      67292
+    ],
+    "NextQuestTitles": [
+      "Featherbrained Schemes"
+    ],
+    "StarterNpc": "Gildon",
+    "StarterNpcLocation": {
+      "RowId": 5814138,
+      "X": -344.949,
+      "Y": -164.664,
+      "Z": 836.345,
+      "Yaw": -0.46295,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gildon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5006,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100467,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4678,
+          "ItemName": "Beef Stew",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 7571,
+          "ItemName": "Popoto Pancakes",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4747,
+          "ItemName": "Apple Juice",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67291,
+    "QuestTitle": "Behind Enemy Lines",
+    "PreviousQuestIds": [
+      67139
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way"
+    ],
+    "NextQuestIds": [
+      67293
+    ],
+    "NextQuestTitles": [
+      "Calling Back the Troops"
+    ],
+    "StarterNpc": "Laniaitte",
+    "StarterNpcLocation": {
+      "RowId": 5811436,
+      "X": -277.618,
+      "Y": -184.597,
+      "Z": 741.612,
+      "Yaw": -2.57624,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Terremiaux",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5102,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 467,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67292,
+    "QuestTitle": "Featherbrained Schemes",
+    "PreviousQuestIds": [
+      67139,
+      67285
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way",
+      "Unclear Motives"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gildon",
+    "StarterNpcLocation": {
+      "RowId": 5814138,
+      "X": -344.949,
+      "Y": -164.664,
+      "Z": 836.345,
+      "Yaw": -0.46295,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Fabrellet",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100467,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 610,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67293,
+    "QuestTitle": "Calling Back the Troops",
+    "PreviousQuestIds": [
+      67139,
+      67291
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way",
+      "Behind Enemy Lines"
+    ],
+    "NextQuestIds": [
+      67294
+    ],
+    "NextQuestTitles": [
+      "A Hasty Recovery"
+    ],
+    "StarterNpc": "Terremiaux",
+    "StarterNpcLocation": {
+      "RowId": 5873660,
+      "X": 769.908,
+      "Y": -95.013,
+      "Z": 86.3802,
+      "Yaw": -1.85442,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Terremiaux",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5103,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 581,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67294,
+    "QuestTitle": "A Hasty Recovery",
+    "PreviousQuestIds": [
+      67139,
+      67293
+    ],
+    "PreviousQuestTitles": [
+      "Alphinaud\u0027s Way",
+      "Calling Back the Troops"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Terremiaux",
+    "StarterNpcLocation": {
+      "RowId": 5873660,
+      "X": 769.908,
+      "Y": -95.013,
+      "Z": 86.3802,
+      "Yaw": -1.85442,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5104,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 51,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11895,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67435,
+    "QuestTitle": "Crying over Spilled Food",
+    "PreviousQuestIds": [
+      67173,
+      67410
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Honoring the Past"
+    ],
+    "NextQuestIds": [
+      67440
+    ],
+    "NextQuestTitles": [
+      "A Tall Order to Fill"
+    ],
+    "StarterNpc": "Gildon",
+    "StarterNpcLocation": {
+      "RowId": 5814138,
+      "X": -344.949,
+      "Y": -164.664,
+      "Z": 836.345,
+      "Yaw": -0.46295,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gildon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5601,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67436,
+    "QuestTitle": "Beefing Up the Reserves",
+    "PreviousQuestIds": [
+      67173,
+      67410
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Honoring the Past"
+    ],
+    "NextQuestIds": [
+      67439
+    ],
+    "NextQuestTitles": [
+      "Hatching Ideas"
+    ],
+    "StarterNpc": "Fabrellet",
+    "StarterNpcLocation": {
+      "RowId": 5813252,
+      "X": -640.075,
+      "Y": -119.563,
+      "Z": 469.603,
+      "Yaw": -0.773518,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Fabrellet",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5603,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 527,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67437,
+    "QuestTitle": "Search and Rescue",
+    "PreviousQuestIds": [
+      67173,
+      67410
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Honoring the Past"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Laniaitte",
+    "StarterNpcLocation": {
+      "RowId": 5811436,
+      "X": -277.618,
+      "Y": -184.597,
+      "Z": 741.612,
+      "Yaw": -2.57624,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5605,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67438,
+    "QuestTitle": "A Cropper\u0027s Duty",
+    "PreviousQuestIds": [
+      67173,
+      67410
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Honoring the Past"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Caribault",
+    "StarterNpcLocation": {
+      "RowId": 5813758,
+      "X": -658.869,
+      "Y": -127.794,
+      "Z": 622.98,
+      "Yaw": 0.632633,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Caribault",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5606,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 527,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67439,
+    "QuestTitle": "Hatching Ideas",
+    "PreviousQuestIds": [
+      67173,
+      67410,
+      67436
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Honoring the Past",
+      "Beefing Up the Reserves"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fabrellet",
+    "StarterNpcLocation": {
+      "RowId": 5813252,
+      "X": -640.075,
+      "Y": -119.563,
+      "Z": 469.603,
+      "Yaw": -0.773518,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Fabrellet",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5604,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 596,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67440,
+    "QuestTitle": "A Tall Order to Fill",
+    "PreviousQuestIds": [
+      67173,
+      67410,
+      67435
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied",
+      "Honoring the Past",
+      "Crying over Spilled Food"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gildon",
+    "StarterNpcLocation": {
+      "RowId": 5814138,
+      "X": -344.949,
+      "Y": -164.664,
+      "Z": 836.345,
+      "Yaw": -0.46295,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gildon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5602,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 496,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67443,
+    "QuestTitle": "Nutritious and Delicious",
+    "PreviousQuestIds": [
+      67182
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Conu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5814538,
+      "X": -568.585,
+      "Y": -50.6495,
+      "Z": -452.085,
+      "Yaw": -0.546369,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Conu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5701,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 564,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67444,
+    "QuestTitle": "The Feast Must Go On",
+    "PreviousQuestIds": [
+      67182
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hinu Vali",
+    "StarterNpcLocation": {
+      "RowId": 5814537,
+      "X": -568.383,
+      "Y": -50.6052,
+      "Z": -449.119,
+      "Yaw": -2.37601,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Hinu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5702,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 564,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67445,
+    "QuestTitle": "Sleepless in Ok\u0027 Zundu",
+    "PreviousQuestIds": [
+      67182
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ganu Vali",
+    "StarterNpcLocation": {
+      "RowId": 5814530,
+      "X": -646.998,
+      "Y": -51.072,
+      "Z": -417.716,
+      "Yaw": -2.8418,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ganu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5703,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 684,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67446,
+    "QuestTitle": "Flying the Nest",
+    "PreviousQuestIds": [
+      67182
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White"
+    ],
+    "NextQuestIds": [
+      67447
+    ],
+    "NextQuestTitles": [
+      "Growing Pains"
+    ],
+    "StarterNpc": "Guna Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5814527,
+      "X": -597.01,
+      "Y": -51.0889,
+      "Z": -387.036,
+      "Yaw": 1.68435,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gunu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5711,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100481,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67447,
+    "QuestTitle": "Growing Pains",
+    "PreviousQuestIds": [
+      67182,
+      67446
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White",
+      "Flying the Nest"
+    ],
+    "NextQuestIds": [
+      67450
+    ],
+    "NextQuestTitles": [
+      "Ok\u0027 Zundu\u0027s Got Talent"
+    ],
+    "StarterNpc": "Gunu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5905825,
+      "X": -373.422,
+      "Y": -55.2113,
+      "Z": -630.076,
+      "Yaw": -0.879999,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gunu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5712,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100481,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 653,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67448,
+    "QuestTitle": "Returning What\u0027s Ours",
+    "PreviousQuestIds": [
+      67183
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hinu Vali",
+    "StarterNpcLocation": {
+      "RowId": 5814537,
+      "X": -568.383,
+      "Y": -50.6052,
+      "Z": -449.119,
+      "Yaw": -2.37601,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Hinu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5704,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 622,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21800,
+          "ItemName": "Glamour Prism",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67449,
+    "QuestTitle": "One Flew over the Vundu\u0027s Nest",
+    "PreviousQuestIds": [
+      67183
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ganu Vali",
+    "StarterNpcLocation": {
+      "RowId": 5814530,
+      "X": -646.998,
+      "Y": -51.072,
+      "Z": -417.716,
+      "Yaw": -2.8418,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Ganu Vali",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5705,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 684,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67450,
+    "QuestTitle": "Ok\u0027 Zundu\u0027s Got Talent",
+    "PreviousQuestIds": [
+      67182,
+      67447
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White",
+      "Growing Pains"
+    ],
+    "NextQuestIds": [
+      67451
+    ],
+    "NextQuestTitles": [
+      "Lazing Saddles"
+    ],
+    "StarterNpc": "Gunu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5905832,
+      "X": -502.275,
+      "Y": -37.364,
+      "Z": -405.826,
+      "Yaw": 1.03679,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gunu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5713,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100481,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 502,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5790,
+          "ItemName": "Seafog Blue Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5759,
+          "ItemName": "Shale Brown Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5775,
+          "ItemName": "Meadow Green Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5793,
+          "ItemName": "Corpse Blue Dye",
+          "Count": 5,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5787,
+          "ItemName": "Morbol Green Dye",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67451,
+    "QuestTitle": "Lazing Saddles",
+    "PreviousQuestIds": [
+      67182,
+      67450
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White",
+      "Ok\u0027 Zundu\u0027s Got Talent"
+    ],
+    "NextQuestIds": [
+      67452
+    ],
+    "NextQuestTitles": [
+      "The Black Storm"
+    ],
+    "StarterNpc": "Gunu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5905832,
+      "X": -502.275,
+      "Y": -37.364,
+      "Z": -405.826,
+      "Yaw": 1.03679,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Gunu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5714,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100481,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 684,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67452,
+    "QuestTitle": "The Black Storm",
+    "PreviousQuestIds": [
+      67182,
+      67451
+    ],
+    "PreviousQuestTitles": [
+      "Black and the White",
+      "Lazing Saddles"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Gunu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5905832,
+      "X": -502.275,
+      "Y": -37.364,
+      "Z": -405.826,
+      "Yaw": 1.03679,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Guna Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5715,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100481,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 997,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5682,
+          "ItemName": "Battledance Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5717,
+          "ItemName": "Quickarm Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5722,
+          "ItemName": "Quicktongue Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67453,
+    "QuestTitle": "Winds of Ill Omen",
+    "PreviousQuestIds": [
+      67183
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Aanu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5814526,
+      "X": -498.009,
+      "Y": -37.4915,
+      "Z": -403.616,
+      "Yaw": -2.07479,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Aanu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5706,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 684,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67454,
+    "QuestTitle": "On Wings of Vanu",
+    "PreviousQuestIds": [
+      67183,
+      67455
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island",
+      "Not Free as a Bird"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Sonu Vanu",
+    "StarterNpcLocation": {
+      "RowId": 5814369,
+      "X": -542.773,
+      "Y": -37.1163,
+      "Z": -386.685,
+      "Yaw": 1.41275,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Laniaitte",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5709,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 533,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5632,
+          "ItemName": "Piety Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67455,
+    "QuestTitle": "Not Free as a Bird",
+    "PreviousQuestIds": [
+      67183,
+      67456
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island",
+      "For Your Spies Only"
+    ],
+    "NextQuestIds": [
+      67454
+    ],
+    "NextQuestTitles": [
+      "On Wings of Vanu"
+    ],
+    "StarterNpc": "captured Zundu youth",
+    "StarterNpcLocation": {
+      "RowId": 5890560,
+      "X": 437.517,
+      "Y": 70.9733,
+      "Z": -435.812,
+      "Yaw": -0.744421,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "rescued Zundu youth",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5708,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 840,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67456,
+    "QuestTitle": "For Your Spies Only",
+    "PreviousQuestIds": [
+      67183
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "NextQuestIds": [
+      67455
+    ],
+    "NextQuestTitles": [
+      "Not Free as a Bird"
+    ],
+    "StarterNpc": "Zundu intelligencer",
+    "StarterNpcLocation": {
+      "RowId": 5890567,
+      "X": 24.8264,
+      "Y": 150.499,
+      "Z": -137.713,
+      "Yaw": -1.88256,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Sonu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5707,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 622,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67457,
+    "QuestTitle": "An Awkward Situation",
+    "PreviousQuestIds": [
+      67183
+    ],
+    "PreviousQuestTitles": [
+      "Bolt, Chain, and Island"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zundu sacrifice",
+    "StarterNpcLocation": {
+      "RowId": 5890583,
+      "X": -238.047,
+      "Y": 103.175,
+      "Z": -243.532,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Aanu Vanu",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5710,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 57,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13065,
+      "Gil": 742,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67510,
+    "QuestTitle": "A Tale of Two Moogles",
+    "PreviousQuestIds": [
+      67197,
+      67509
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "Classic Misdirection"
+    ],
+    "NextQuestIds": [
+      67511
+    ],
+    "NextQuestTitles": [
+      "Birds of a Feather"
+    ],
+    "StarterNpc": "Kupli Kuki",
+    "StarterNpcLocation": {
+      "RowId": 5910964,
+      "X": -337.434,
+      "Y": -34.6393,
+      "Z": -609.433,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Kupli Kuki",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5901,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100476,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 545,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67511,
+    "QuestTitle": "Birds of a Feather",
+    "PreviousQuestIds": [
+      67197,
+      67510
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "A Tale of Two Moogles"
+    ],
+    "NextQuestIds": [
+      67512
+    ],
+    "NextQuestTitles": [
+      "An Eggcellent Disguise"
+    ],
+    "StarterNpc": "Kupli Kuki",
+    "StarterNpcLocation": {
+      "RowId": 5910964,
+      "X": -337.434,
+      "Y": -34.6393,
+      "Z": -609.433,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Kupli Kuki",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5902,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100476,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 577,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67512,
+    "QuestTitle": "An Eggcellent Disguise",
+    "PreviousQuestIds": [
+      67197,
+      67511
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "Birds of a Feather"
+    ],
+    "NextQuestIds": [
+      67513
+    ],
+    "NextQuestTitles": [
+      "The Skies That Bind"
+    ],
+    "StarterNpc": "Kupli Kuki",
+    "StarterNpcLocation": {
+      "RowId": 5910995,
+      "X": 641.642,
+      "Y": -97.7647,
+      "Z": -714.083,
+      "Yaw": 0.785398,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Kupli Kuki",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5903,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100476,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 609,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67513,
+    "QuestTitle": "The Skies That Bind",
+    "PreviousQuestIds": [
+      67197,
+      67512
+    ],
+    "PreviousQuestTitles": [
+      "An Eye for Aether",
+      "An Eggcellent Disguise"
+    ],
+    "NextQuestIds": [
+      67514
+    ],
+    "NextQuestTitles": [
+      "A Moogle by Any Other Name"
+    ],
+    "StarterNpc": "Kupli Kuki",
+    "StarterNpcLocation": {
+      "RowId": 5911096,
+      "X": 734.419,
+      "Y": -154.921,
+      "Z": 560.098,
+      "Yaw": 0.300929,
+      "Radius": 1,
+      "MapId": 215,
+      "TerritoryId": 401
+    },
+    "FinishNpc": "Moglin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 117,
+      "JournalCategory": {
+        "Id": 65,
+        "Name": "Abalathian Sidequests"
+      },
+      "Name": "Abalathian Sidequests"
+    },
+    "SortKey": 5904,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100476,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 1038,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

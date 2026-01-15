@@ -1,0 +1,1845 @@
+[
+  {
+    "QuestId": 68175,
+    "QuestTitle": "Magiteknical Failure",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Loezkirz",
+    "StarterNpcLocation": {
+      "RowId": 6793070,
+      "X": -652.979,
+      "Y": 129.9,
+      "Z": -510.643,
+      "Yaw": -0.677311,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Loezkirz",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68176,
+    "QuestTitle": "Gross Encounters",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [
+      68408
+    ],
+    "NextQuestTitles": [
+      "Falling Down on the Job"
+    ],
+    "StarterNpc": "Serpent Marshal Brookstone",
+    "StarterNpcLocation": {
+      "RowId": 6793072,
+      "X": -613.092,
+      "Y": 129.992,
+      "Z": -529.839,
+      "Yaw": -0.857365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Serpent Marshal Brookstone",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18096,
+          "ItemName": "Triphane Choker of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18097,
+          "ItemName": "Triphane Choker of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18098,
+          "ItemName": "Triphane Choker of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68177,
+    "QuestTitle": "Prison Break",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Maelstrom officer",
+    "StarterNpcLocation": {
+      "RowId": 6948390,
+      "X": -658.289,
+      "Y": 130,
+      "Z": -536.492,
+      "Yaw": 0.611523,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Maelstrom officer",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68178,
+    "QuestTitle": "What a Tangled Web We Weave",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Resistance fighter",
+    "StarterNpcLocation": {
+      "RowId": 6861936,
+      "X": -620.124,
+      "Y": 130.205,
+      "Z": -480.908,
+      "Yaw": 2.21129,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Resistance fighter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18099,
+          "ItemName": "Triphane Choker of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18100,
+          "ItemName": "Triphane Choker of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68179,
+    "QuestTitle": "Doing Her Part",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [
+      68196
+    ],
+    "NextQuestTitles": [
+      "A Second Assessment"
+    ],
+    "StarterNpc": "Lucinne",
+    "StarterNpcLocation": {
+      "RowId": 6793447,
+      "X": -647.246,
+      "Y": 129.793,
+      "Z": -549.604,
+      "Yaw": -1.83339,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Lucinne",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68180,
+    "QuestTitle": "Spicing Things Up",
+    "PreviousQuestIds": [
+      67988
+    ],
+    "PreviousQuestTitles": [
+      "Signed, Sealed, to Be Delivered"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Quincompaix",
+    "StarterNpcLocation": {
+      "RowId": 6793073,
+      "X": -630.64,
+      "Y": 130.175,
+      "Z": -527.306,
+      "Yaw": -1.66157,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Quincompaix",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68195,
+    "QuestTitle": "A Good Role Model",
+    "PreviousQuestIds": [
+      68002
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Serpent Marshal Brookstone",
+    "StarterNpcLocation": {
+      "RowId": 6793072,
+      "X": -613.092,
+      "Y": 129.992,
+      "Z": -529.839,
+      "Yaw": -0.857365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Serpent Marshal Brookstone",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 1020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 622,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68196,
+    "QuestTitle": "A Second Assessment",
+    "PreviousQuestIds": [
+      68002,
+      68179
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer",
+      "Doing Her Part"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lucinne",
+    "StarterNpcLocation": {
+      "RowId": 6793447,
+      "X": -647.246,
+      "Y": 129.793,
+      "Z": -549.604,
+      "Yaw": -1.83339,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Lucinne",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 1010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 556,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68197,
+    "QuestTitle": "The Hidden Truth",
+    "PreviousQuestIds": [
+      68002
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer"
+    ],
+    "NextQuestIds": [
+      68198
+    ],
+    "NextQuestTitles": [
+      "Drawing a Blank"
+    ],
+    "StarterNpc": "Serpent Marshal Brookstone",
+    "StarterNpcLocation": {
+      "RowId": 6793072,
+      "X": -613.092,
+      "Y": 129.992,
+      "Z": -529.839,
+      "Yaw": -0.857365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Tahla Molkoh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 1030,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100697,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68198,
+    "QuestTitle": "Drawing a Blank",
+    "PreviousQuestIds": [
+      68002,
+      68197
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer",
+      "The Hidden Truth"
+    ],
+    "NextQuestIds": [
+      68199
+    ],
+    "NextQuestTitles": [
+      "Seeking Answers"
+    ],
+    "StarterNpc": "Tahla Molkoh",
+    "StarterNpcLocation": {
+      "RowId": 7020510,
+      "X": -429.465,
+      "Y": 75.3337,
+      "Z": -124.712,
+      "Yaw": 0.239449,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Serpent Marshal Brookstone",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 1040,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100697,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68199,
+    "QuestTitle": "Seeking Answers",
+    "PreviousQuestIds": [
+      68002,
+      68198
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer",
+      "Drawing a Blank"
+    ],
+    "NextQuestIds": [
+      68200
+    ],
+    "NextQuestTitles": [
+      "The Honest Truth"
+    ],
+    "StarterNpc": "Serpent Marshal Brookstone",
+    "StarterNpcLocation": {
+      "RowId": 6793072,
+      "X": -613.092,
+      "Y": 129.992,
+      "Z": -529.839,
+      "Yaw": -0.857365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Serpent Marshal Brookstone",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 1050,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100697,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68200,
+    "QuestTitle": "The Honest Truth",
+    "PreviousQuestIds": [
+      68002,
+      68199
+    ],
+    "PreviousQuestTitles": [
+      "Divide and Conquer",
+      "Seeking Answers"
+    ],
+    "NextQuestIds": [
+      68364
+    ],
+    "NextQuestTitles": [
+      "The Rose Blooms Twice"
+    ],
+    "StarterNpc": "Serpent Marshal Brookstone",
+    "StarterNpcLocation": {
+      "RowId": 6793072,
+      "X": -613.092,
+      "Y": 129.992,
+      "Z": -529.839,
+      "Yaw": -0.857365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Serpent Marshal Brookstone",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 1060,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100697,
+    "JobLevel": 61,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18109,
+          "ItemName": "Triphane Ring of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18110,
+          "ItemName": "Triphane Ring of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68352,
+    "QuestTitle": "Unexpected Guests",
+    "PreviousQuestIds": [
+      68067
+    ],
+    "PreviousQuestTitles": [
+      "The Lure of the Dream"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Prapti",
+    "StarterNpcLocation": {
+      "RowId": 6794373,
+      "X": 276.733,
+      "Y": 76.8446,
+      "Z": -23.5041,
+      "Yaw": -2.34934,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Prapti",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 731,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68353,
+    "QuestTitle": "Delicate as a Flower",
+    "PreviousQuestIds": [
+      68067
+    ],
+    "PreviousQuestTitles": [
+      "The Lure of the Dream"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Garima",
+    "StarterNpcLocation": {
+      "RowId": 6794369,
+      "X": 339.576,
+      "Y": 82.3406,
+      "Z": -76.524,
+      "Yaw": -0.471371,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Garima",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 625,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68354,
+    "QuestTitle": "Slug It Out",
+    "PreviousQuestIds": [
+      68067
+    ],
+    "PreviousQuestTitles": [
+      "The Lure of the Dream"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jayanti",
+    "StarterNpcLocation": {
+      "RowId": 6794370,
+      "X": 273.487,
+      "Y": 77.3145,
+      "Z": -46.3184,
+      "Yaw": -1.62302,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Jayanti",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 590,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68355,
+    "QuestTitle": "Hard to Swallow",
+    "PreviousQuestIds": [
+      68067
+    ],
+    "PreviousQuestTitles": [
+      "The Lure of the Dream"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vira bowmaid",
+    "StarterNpcLocation": {
+      "RowId": 6881062,
+      "X": 298.207,
+      "Y": 71.8688,
+      "Z": -88.7923,
+      "Yaw": -1.47952,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Vira bowmaid",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 767,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68356,
+    "QuestTitle": "Gold Rush",
+    "PreviousQuestIds": [
+      68066
+    ],
+    "PreviousQuestTitles": [
+      "Rising Fortunes, Rising Spirits"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "M\u0027linhbo",
+    "StarterNpcLocation": {
+      "RowId": 6794320,
+      "X": 391.452,
+      "Y": 105.232,
+      "Z": 276.984,
+      "Yaw": -0.932531,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027linhbo",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 625,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68357,
+    "QuestTitle": "Eyes Bigger than Her Stomach",
+    "PreviousQuestIds": [
+      68066
+    ],
+    "PreviousQuestTitles": [
+      "Rising Fortunes, Rising Spirits"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "M\u0027zimzizi",
+    "StarterNpcLocation": {
+      "RowId": 6794319,
+      "X": 433.982,
+      "Y": 114.458,
+      "Z": 233.295,
+      "Yaw": 1.18801,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027zimzizi",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7060,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 625,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68358,
+    "QuestTitle": "The Perfect Gift",
+    "PreviousQuestIds": [
+      68069
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "M\u0027septha",
+    "StarterNpcLocation": {
+      "RowId": 6894279,
+      "X": 460.41,
+      "Y": 114.21,
+      "Z": 222.766,
+      "Yaw": 2.69888,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027septha",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 731,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68359,
+    "QuestTitle": "Spooked",
+    "PreviousQuestIds": [
+      68069
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "M\u0027gizzoh",
+    "StarterNpcLocation": {
+      "RowId": 6794361,
+      "X": 384.695,
+      "Y": 105.181,
+      "Z": 250.068,
+      "Yaw": 3.01945,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027gizzoh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 590,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68360,
+    "QuestTitle": "A New Contender",
+    "PreviousQuestIds": [
+      68069
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods"
+    ],
+    "NextQuestIds": [
+      68361
+    ],
+    "NextQuestTitles": [
+      "Down but Not Out"
+    ],
+    "StarterNpc": "M\u0027rahz Nunh",
+    "StarterNpcLocation": {
+      "RowId": 6904630,
+      "X": 440.142,
+      "Y": 114.254,
+      "Z": 212.865,
+      "Yaw": 0.153657,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027zhet Tia",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7090,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100709,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68361,
+    "QuestTitle": "Down but Not Out",
+    "PreviousQuestIds": [
+      68069,
+      68360
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods",
+      "A New Contender"
+    ],
+    "NextQuestIds": [
+      68362
+    ],
+    "NextQuestTitles": [
+      "Make a Man Out of You"
+    ],
+    "StarterNpc": "M\u0027zhet Tia",
+    "StarterNpcLocation": {
+      "RowId": 6951667,
+      "X": 465.642,
+      "Y": 77.6749,
+      "Z": 114.868,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027zhet Tia",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100709,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 800,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68362,
+    "QuestTitle": "Make a Man Out of You",
+    "PreviousQuestIds": [
+      68069,
+      68361
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods",
+      "Down but Not Out"
+    ],
+    "NextQuestIds": [
+      68363
+    ],
+    "NextQuestTitles": [
+      "Honoring Family"
+    ],
+    "StarterNpc": "M\u0027zhet Tia",
+    "StarterNpcLocation": {
+      "RowId": 6951760,
+      "X": 305.188,
+      "Y": 45.6513,
+      "Z": 491.608,
+      "Yaw": -2.00741,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027zhet Tia",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100709,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 900,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68363,
+    "QuestTitle": "Honoring Family",
+    "PreviousQuestIds": [
+      68069,
+      68362
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods",
+      "Make a Man Out of You"
+    ],
+    "NextQuestIds": [
+      68364
+    ],
+    "NextQuestTitles": [
+      "The Rose Blooms Twice"
+    ],
+    "StarterNpc": "M\u0027zhet Tia",
+    "StarterNpcLocation": {
+      "RowId": 6951696,
+      "X": -127.447,
+      "Y": 41.1988,
+      "Z": 7.2736,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027rahz Nunh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100709,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18569,
+          "ItemName": "Azurite Bracelet of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18570,
+          "ItemName": "Azurite Bracelet of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18571,
+          "ItemName": "Azurite Bracelet of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68364,
+    "QuestTitle": "The Rose Blooms Twice",
+    "PreviousQuestIds": [
+      68069,
+      68363,
+      68200
+    ],
+    "PreviousQuestTitles": [
+      "The Silence of the Gods",
+      "Honoring Family",
+      "The Honest Truth"
+    ],
+    "NextQuestIds": [
+      68572
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Brooding Broodmother"
+    ],
+    "StarterNpc": "M\u0027rahz Nunh",
+    "StarterNpcLocation": {
+      "RowId": 6904630,
+      "X": 440.142,
+      "Y": 114.254,
+      "Z": 212.865,
+      "Yaw": 0.153657,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "M\u0027rahz Nunh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 7130,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100710,
+    "JobLevel": 67,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26750,
+      "Gil": 1500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18572,
+          "ItemName": "Azurite Bracelet of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18573,
+          "ItemName": "Azurite Bracelet of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68407,
+    "QuestTitle": "Confessions of the Heart",
+    "PreviousQuestIds": [
+      68083,
+      68405
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red",
+      "Dearest Daughter"
+    ],
+    "NextQuestIds": [
+      68409
+    ],
+    "NextQuestTitles": [
+      "My Dear Brother"
+    ],
+    "StarterNpc": "Kakalai",
+    "StarterNpcLocation": {
+      "RowId": 6793071,
+      "X": -601.099,
+      "Y": 129.992,
+      "Z": -487.48,
+      "Yaw": 0.0719543,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Kakalai",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 9010,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 601,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68408,
+    "QuestTitle": "Falling Down on the Job",
+    "PreviousQuestIds": [
+      68083,
+      68405,
+      68176
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red",
+      "Dearest Daughter",
+      "Gross Encounters"
+    ],
+    "NextQuestIds": [
+      68409
+    ],
+    "NextQuestTitles": [
+      "My Dear Brother"
+    ],
+    "StarterNpc": "Serpent Marshal Brookstone",
+    "StarterNpcLocation": {
+      "RowId": 6793072,
+      "X": -613.092,
+      "Y": 129.992,
+      "Z": -529.839,
+      "Yaw": -0.857365,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "Serpent Marshal Brookstone",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 9020,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18715,
+          "ItemName": "Molybdenum Earring of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18716,
+          "ItemName": "Molybdenum Earring of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18717,
+          "ItemName": "Molybdenum Earring of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5673,
+          "ItemName": "Savage Aim Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68409,
+    "QuestTitle": "My Dear Brother",
+    "PreviousQuestIds": [
+      68083,
+      68407,
+      68408
+    ],
+    "PreviousQuestTitles": [
+      "The Lady in Red",
+      "Confessions of the Heart",
+      "Falling Down on the Job"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "somber sibling",
+    "StarterNpcLocation": {
+      "RowId": 6969856,
+      "X": -668.309,
+      "Y": 130,
+      "Z": -527.031,
+      "Yaw": 1.23977,
+      "Radius": 1,
+      "MapId": 367,
+      "TerritoryId": 612
+    },
+    "FinishNpc": "somber sibling",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 124,
+      "JournalCategory": {
+        "Id": 68,
+        "Name": "Gyr Abanian Sidequests"
+      },
+      "Name": "Fringes Sidequests"
+    },
+    "SortKey": 9030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 69,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 27250,
+      "Gil": 917,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 18718,
+          "ItemName": "Molybdenum Earring of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 18719,
+          "ItemName": "Molybdenum Earring of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5678,
+          "ItemName": "Savage Might Materia V",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

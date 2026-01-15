@@ -1,0 +1,989 @@
+[
+  {
+    "QuestId": 70685,
+    "QuestTitle": "\uE0BE Gwok Away",
+    "PreviousQuestIds": [
+      70465
+    ],
+    "PreviousQuestTitles": [
+      "A Day in the Life"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Uaauashe",
+    "StarterNpcLocation": {
+      "RowId": 10612081,
+      "X": -272.236,
+      "Y": 29.9848,
+      "Z": -577.598,
+      "Yaw": 1.18561,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Uaauashe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5773,
+          "ItemName": "Lime Green Dye",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5789,
+          "ItemName": "Sky Blue Dye",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5810,
+          "ItemName": "Lotus Pink Dye",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70686,
+    "QuestTitle": "\uE0BE Natural Selection",
+    "PreviousQuestIds": [
+      70465
+    ],
+    "PreviousQuestTitles": [
+      "A Day in the Life"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Pawkwena",
+    "StarterNpcLocation": {
+      "RowId": 10625252,
+      "X": -333.378,
+      "Y": 43.5027,
+      "Z": -643.629,
+      "Yaw": -0.0177566,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Pawkwena",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6002,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44101,
+          "ItemName": "Tart Turali Tart",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70687,
+    "QuestTitle": "\uE0BE The Miracle of Electrope",
+    "PreviousQuestIds": [
+      70465
+    ],
+    "PreviousQuestTitles": [
+      "A Day in the Life"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "electrope enthusiast",
+    "StarterNpcLocation": {
+      "RowId": 10612208,
+      "X": -215.193,
+      "Y": 37,
+      "Z": -497.842,
+      "Yaw": 0.193523,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "electrope enthusiast",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6003,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70688,
+    "QuestTitle": "\uE0BE Fear and Lightning in the Thunderyards",
+    "PreviousQuestIds": [
+      70467
+    ],
+    "PreviousQuestTitles": [
+      "Gone and Forgotten"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "veteran hunter",
+    "StarterNpcLocation": {
+      "RowId": 10653624,
+      "X": 421.895,
+      "Y": 90,
+      "Z": -476.655,
+      "Yaw": 0.223367,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "veteran hunter",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6004,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 958,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44100,
+          "ItemName": "Fruit and Aloe Jelly",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70689,
+    "QuestTitle": "\uE0BE Stressed Testing",
+    "PreviousQuestIds": [
+      70467
+    ],
+    "PreviousQuestTitles": [
+      "Gone and Forgotten"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dorian",
+    "StarterNpcLocation": {
+      "RowId": 10612083,
+      "X": -177.539,
+      "Y": 30,
+      "Z": -601.129,
+      "Yaw": 0.761937,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Dorian",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6005,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70690,
+    "QuestTitle": "\uE0BE Refined Tastes",
+    "PreviousQuestIds": [
+      70467,
+      70670
+    ],
+    "PreviousQuestTitles": [
+      "Gone and Forgotten",
+      "\uE0BE Tastes Like Home"
+    ],
+    "NextQuestIds": [
+      70709
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Tasteful Memories"
+    ],
+    "StarterNpc": "Cornservant",
+    "StarterNpcLocation": {
+      "RowId": 10765179,
+      "X": -184.887,
+      "Y": 29.9783,
+      "Z": -584.52,
+      "Yaw": -1.74128,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Cornservant",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6006,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 43981,
+          "ItemName": "Turali Corn",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70691,
+    "QuestTitle": "\uE0BE History Reforged",
+    "PreviousQuestIds": [
+      70476
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wezetonyi",
+    "StarterNpcLocation": {
+      "RowId": 10612269,
+      "X": -591.76,
+      "Y": -2.50383,
+      "Z": -502.098,
+      "Yaw": -2.77523,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Wezetonyi",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 43525,
+          "ItemName": "Ra\u0027Kaznar Ring Coffer (IL 675)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70692,
+    "QuestTitle": "\uE0BE Phyt for Survival",
+    "PreviousQuestIds": [
+      70476
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yyopya",
+    "StarterNpcLocation": {
+      "RowId": 10612270,
+      "X": -592.703,
+      "Y": -2.47978,
+      "Z": -489.273,
+      "Yaw": -2.89412,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Yyopya",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6102,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70693,
+    "QuestTitle": "\uE0BE A Well-oiled Machine",
+    "PreviousQuestIds": [
+      70476
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zilekke",
+    "StarterNpcLocation": {
+      "RowId": 10612258,
+      "X": -195.214,
+      "Y": 31,
+      "Z": 142.93,
+      "Yaw": 0.897094,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Zilekke",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6103,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 43522,
+          "ItemName": "Ra\u0027Kaznar Earring Coffer (IL 675)",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70694,
+    "QuestTitle": "\uE0BE Storm\u0027s Traces",
+    "PreviousQuestIds": [
+      70476
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Cinnabar",
+    "StarterNpcLocation": {
+      "RowId": 10612259,
+      "X": -250.031,
+      "Y": 31,
+      "Z": 134.742,
+      "Yaw": -2.45144,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Cinnabar",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6104,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 699,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70695,
+    "QuestTitle": "\uE0BE He Who Remembers",
+    "PreviousQuestIds": [
+      70476
+    ],
+    "PreviousQuestTitles": [
+      "Memories of a Knight"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ui\u0027she",
+    "StarterNpcLocation": {
+      "RowId": 10612282,
+      "X": -209.846,
+      "Y": 7.49638,
+      "Z": 595.922,
+      "Yaw": 0.0112939,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "graveyard visitor",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6105,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70696,
+    "QuestTitle": "\uE0BE Aunty Knows Best",
+    "PreviousQuestIds": [
+      70467
+    ],
+    "PreviousQuestTitles": [
+      "Gone and Forgotten"
+    ],
+    "NextQuestIds": [
+      70697
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Yyupye\u0027s Dirt"
+    ],
+    "StarterNpc": "Nakente",
+    "StarterNpcLocation": {
+      "RowId": 10656963,
+      "X": -153.076,
+      "Y": 35,
+      "Z": -581.015,
+      "Yaw": 0.33053,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Nakente",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6051,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101355,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44097,
+          "ItemName": "Mesquite Juice",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70697,
+    "QuestTitle": "\uE0BE Yyupye\u0027s Dirt",
+    "PreviousQuestIds": [
+      70696
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Aunty Knows Best"
+    ],
+    "NextQuestIds": [
+      70698
+    ],
+    "NextQuestTitles": [
+      "\uE0BE What She Left Behind"
+    ],
+    "StarterNpc": "Shaloaci",
+    "StarterNpcLocation": {
+      "RowId": 10553699,
+      "X": -151.995,
+      "Y": 35,
+      "Z": -581.201,
+      "Yaw": -0.00996546,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Nakente",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6052,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101355,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 915,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70698,
+    "QuestTitle": "\uE0BE What She Left Behind",
+    "PreviousQuestIds": [
+      70697
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Yyupye\u0027s Dirt"
+    ],
+    "NextQuestIds": [
+      70699
+    ],
+    "NextQuestTitles": [
+      "\uE0BE All That She Carried"
+    ],
+    "StarterNpc": "Nakente",
+    "StarterNpcLocation": {
+      "RowId": 10553657,
+      "X": -153.076,
+      "Y": 35,
+      "Z": -581.015,
+      "Yaw": 0.33053,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Shaloaci",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6053,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101355,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 915,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 44086,
+          "ItemName": "Creamy Hot Chocolate",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44102,
+          "ItemName": "Wild Banana Blend",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44089,
+          "ItemName": "Tender Shortcake",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 44100,
+          "ItemName": "Fruit and Aloe Jelly",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 27994,
+          "ItemName": "Nightworld Silver Piece",
+          "Count": 0,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70699,
+    "QuestTitle": "\uE0BE All That She Carried",
+    "PreviousQuestIds": [
+      70698
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE What She Left Behind"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Shaloaci",
+    "StarterNpcLocation": {
+      "RowId": 10553699,
+      "X": -151.995,
+      "Y": 35,
+      "Z": -581.201,
+      "Yaw": -0.00996546,
+      "Radius": 1,
+      "MapId": 861,
+      "TerritoryId": 1191
+    },
+    "FinishNpc": "Shaloaci",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 152,
+      "JournalCategory": {
+        "Id": 84,
+        "Name": "Xak Tural Sidequests"
+      },
+      "Name": "Heritage Found Sidequests"
+    },
+    "SortKey": 6054,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101355,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 418320,
+      "Gil": 829,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44320,
+          "ItemName": "Desertwalkers Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

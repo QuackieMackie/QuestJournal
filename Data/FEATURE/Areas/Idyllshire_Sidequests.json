@@ -1,0 +1,2175 @@
+[
+  {
+    "QuestId": 67086,
+    "QuestTitle": "Fiery Wings, Fiery Hearts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "walking atlas",
+    "StarterNpcLocation": {
+      "RowId": 6562757,
+      "X": 70.767,
+      "Y": 207.29,
+      "Z": 0.610088,
+      "Yaw": 3.01267,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5700,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17008,
+          "ItemName": "Firebird Whistle",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67087,
+    "QuestTitle": "Arms Wide Open",
+    "PreviousQuestIds": [
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      68713
+    ],
+    "NextQuestTitles": [
+      "Between a Rock and the Hard Place"
+    ],
+    "StarterNpc": "Geimlona",
+    "StarterNpcLocation": {
+      "RowId": 5881194,
+      "X": -16.5606,
+      "Y": 206.448,
+      "Z": 42.9949,
+      "Yaw": 0.879826,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Zhloe Aliapoh",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5701,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 518,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4721,
+          "ItemName": "Bouillabaisse",
+          "Count": 3
+        },
+        {
+          "ItemId": 4688,
+          "ItemName": "Landtrap Salad",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67467,
+    "QuestTitle": "Stop Bugging Me",
+    "PreviousQuestIds": [
+      67191
+    ],
+    "PreviousQuestTitles": [
+      "A Great New Nation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Woolnix",
+    "StarterNpcLocation": {
+      "RowId": 5864090,
+      "X": 106.737,
+      "Y": 207.263,
+      "Z": 85.4047,
+      "Yaw": 0.679829,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Woolnix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5801,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 475,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10681,
+          "ItemName": "Adamantite Armor of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10723,
+          "ItemName": "Adamantite Armor of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10765,
+          "ItemName": "Chimerical Felt Cyclas of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10849,
+          "ItemName": "Chimerical Felt Cyclas of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67468,
+    "QuestTitle": "Community Service",
+    "PreviousQuestIds": [
+      67191
+    ],
+    "PreviousQuestTitles": [
+      "A Great New Nation"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Midnight Dew",
+    "StarterNpcLocation": {
+      "RowId": 5864096,
+      "X": -26.8102,
+      "Y": 206.47,
+      "Z": 28.6716,
+      "Yaw": 2.33046,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Midnight Dew",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5802,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 475,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10807,
+          "ItemName": "Chimerical Felt Cyclas of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10891,
+          "ItemName": "Chimerical Felt Alb of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10933,
+          "ItemName": "Chimerical Felt Robe of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67471,
+    "QuestTitle": "The Pick of the Bunch",
+    "PreviousQuestIds": [
+      67193
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident"
+    ],
+    "NextQuestIds": [
+      67473,
+      67478
+    ],
+    "NextQuestTitles": [
+      "Uncoordinated Defense",
+      "Administrative Difficulties"
+    ],
+    "StarterNpc": "Slowfix",
+    "StarterNpcLocation": {
+      "RowId": 5864082,
+      "X": 73.368,
+      "Y": 205.873,
+      "Z": 23.4836,
+      "Yaw": -1.19254,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5813,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100482,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10828,
+          "ItemName": "Chimerical Felt Hose of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10912,
+          "ItemName": "Chimerical Felt Chausses of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10954,
+          "ItemName": "Chimerical Felt Breeches of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67474,
+    "QuestTitle": "Cry Havoc",
+    "PreviousQuestIds": [
+      67192
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Holepix",
+    "StarterNpcLocation": {
+      "RowId": 5864093,
+      "X": 72.3735,
+      "Y": 205.737,
+      "Z": 33.5546,
+      "Yaw": -2.9951,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Holepix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5803,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 670,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10674,
+          "ItemName": "Adamantite Helm of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10716,
+          "ItemName": "Adamantite Helm of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10758,
+          "ItemName": "Chimerical Felt Cap of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10842,
+          "ItemName": "Chimerical Felt Cap of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67475,
+    "QuestTitle": "Sacking the Foe",
+    "PreviousQuestIds": [
+      67192
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Drydox",
+    "StarterNpcLocation": {
+      "RowId": 5864095,
+      "X": 43.0156,
+      "Y": 206.033,
+      "Z": 56.5204,
+      "Yaw": -1.90625,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Drydox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5804,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 639,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10800,
+          "ItemName": "Chimerical Felt Cap of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10884,
+          "ItemName": "Chimerical Felt Klobuk of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10926,
+          "ItemName": "Serpentskin Hat of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67476,
+    "QuestTitle": "Can You Hear Me Now",
+    "PreviousQuestIds": [
+      67192
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Halfsix",
+    "StarterNpcLocation": {
+      "RowId": 5864094,
+      "X": 72.4041,
+      "Y": 205.682,
+      "Z": 31.632,
+      "Yaw": -0.142509,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Halfsix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5805,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 670,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67477,
+    "QuestTitle": "A New Leaf",
+    "PreviousQuestIds": [
+      67192
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Loudjox",
+    "StarterNpcLocation": {
+      "RowId": 5864087,
+      "X": 50.3,
+      "Y": 206.054,
+      "Z": 57.7743,
+      "Yaw": 1.39539,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Loudjox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5806,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12842,
+          "ItemName": "Ishgardian Tea",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4750,
+          "ItemName": "Mulled Tea",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4749,
+          "ItemName": "Chamomile Tea",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4748,
+          "ItemName": "Pineapple Juice",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67478,
+    "QuestTitle": "Administrative Difficulties",
+    "PreviousQuestIds": [
+      67193,
+      67471,
+      67473
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident",
+      "The Pick of the Bunch",
+      "Uncoordinated Defense"
+    ],
+    "NextQuestIds": [
+      67480
+    ],
+    "NextQuestTitles": [
+      "The Missing Logbook"
+    ],
+    "StarterNpc": "Slowfix",
+    "StarterNpcLocation": {
+      "RowId": 5864082,
+      "X": 73.368,
+      "Y": 205.873,
+      "Z": 23.4836,
+      "Yaw": -1.19254,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Dripwix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5814,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100482,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 475,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67479,
+    "QuestTitle": "Feltsmox Switches Bait",
+    "PreviousQuestIds": [
+      67192,
+      67470
+    ],
+    "PreviousQuestTitles": [
+      "Golems Begone",
+      "Feltsmox\u0027s Reel Problems"
+    ],
+    "NextQuestIds": [
+      67496
+    ],
+    "NextQuestTitles": [
+      "Feltsmox Can\u0027t Bear It"
+    ],
+    "StarterNpc": "Midnight Dew",
+    "StarterNpcLocation": {
+      "RowId": 5864096,
+      "X": -26.8102,
+      "Y": 206.47,
+      "Z": 28.6716,
+      "Yaw": 2.33046,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Midnight Dew",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5807,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67481,
+    "QuestTitle": "Ebb and Aetherflow",
+    "PreviousQuestIds": [
+      67193
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Halfsix",
+    "StarterNpcLocation": {
+      "RowId": 5864094,
+      "X": 72.4041,
+      "Y": 205.682,
+      "Z": 31.632,
+      "Yaw": -0.142509,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Halfsix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5808,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 734,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10688,
+          "ItemName": "Adamantite Gauntlets of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10730,
+          "ItemName": "Adamantite Gauntlets of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10772,
+          "ItemName": "Serpentskin Armguards of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10856,
+          "ItemName": "Serpentskin Armguards of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67482,
+    "QuestTitle": "The Vangob Job",
+    "PreviousQuestIds": [
+      67193
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Holepix",
+    "StarterNpcLocation": {
+      "RowId": 5864093,
+      "X": 72.3735,
+      "Y": 205.737,
+      "Z": 33.5546,
+      "Yaw": -2.9951,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Holepix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5809,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 670,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10814,
+          "ItemName": "Serpentskin Armguards of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10898,
+          "ItemName": "Chimerical Felt Gloves of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10940,
+          "ItemName": "Serpentskin Dress Gloves of Casting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67484,
+    "QuestTitle": "Red Tape",
+    "PreviousQuestIds": [
+      67193,
+      67480
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident",
+      "The Missing Logbook"
+    ],
+    "NextQuestIds": [
+      67485
+    ],
+    "NextQuestTitles": [
+      "The Golden Rule"
+    ],
+    "StarterNpc": "Dripwix",
+    "StarterNpcLocation": {
+      "RowId": 5910280,
+      "X": 72.3259,
+      "Y": 205.988,
+      "Z": 22.3532,
+      "Yaw": -0.291499,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Dripwix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5815,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100482,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67485,
+    "QuestTitle": "The Golden Rule",
+    "PreviousQuestIds": [
+      67193,
+      67484
+    ],
+    "PreviousQuestTitles": [
+      "An Illuminati Incident",
+      "Red Tape"
+    ],
+    "NextQuestIds": [
+      67486
+    ],
+    "NextQuestTitles": [
+      "The New Arrivals"
+    ],
+    "StarterNpc": "Slowfix",
+    "StarterNpcLocation": {
+      "RowId": 5864082,
+      "X": 73.368,
+      "Y": 205.873,
+      "Z": 23.4836,
+      "Yaw": -1.19254,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5816,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100482,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 539,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5687,
+          "ItemName": "Gatherer\u0027s Guerdon Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5692,
+          "ItemName": "Gatherer\u0027s Guile Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5697,
+          "ItemName": "Gatherer\u0027s Grasp Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67486,
+    "QuestTitle": "The New Arrivals",
+    "PreviousQuestIds": [
+      67194,
+      67485
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "The Golden Rule"
+    ],
+    "NextQuestIds": [
+      67487,
+      67488
+    ],
+    "NextQuestTitles": [
+      "Notched Bone\u0027s Suspicions",
+      "Dedean\u0027s Doubts"
+    ],
+    "StarterNpc": "Midnight Dew",
+    "StarterNpcLocation": {
+      "RowId": 5864096,
+      "X": -26.8102,
+      "Y": 206.47,
+      "Z": 28.6716,
+      "Yaw": 2.33046,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Notched Bone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5817,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100483,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67487,
+    "QuestTitle": "Notched Bone\u0027s Suspicions",
+    "PreviousQuestIds": [
+      67194,
+      67486
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "The New Arrivals"
+    ],
+    "NextQuestIds": [
+      67489
+    ],
+    "NextQuestTitles": [
+      "Lean and Hungry Gentlemen"
+    ],
+    "StarterNpc": "Notched Bone",
+    "StarterNpcLocation": {
+      "RowId": 5864097,
+      "X": 6.14935,
+      "Y": 206.073,
+      "Z": 98.5583,
+      "Yaw": -2.40346,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Notched Bone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5818,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100483,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 639,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10968,
+          "ItemName": "Aurum Regis Necklace of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10992,
+          "ItemName": "Aurum Regis Necklace of Slaying",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11016,
+          "ItemName": "Aurum Regis Necklace of Aiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11040,
+          "ItemName": "Aurum Regis Necklace of Healing",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 11064,
+          "ItemName": "Aurum Regis Necklace of Casting",
+          "Count": 1,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67488,
+    "QuestTitle": "Dedean\u0027s Doubts",
+    "PreviousQuestIds": [
+      67194,
+      67486
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "The New Arrivals"
+    ],
+    "NextQuestIds": [
+      67489
+    ],
+    "NextQuestTitles": [
+      "Lean and Hungry Gentlemen"
+    ],
+    "StarterNpc": "Dedean",
+    "StarterNpcLocation": {
+      "RowId": 5900087,
+      "X": 6.30194,
+      "Y": 206.165,
+      "Z": 97.2155,
+      "Yaw": -0.927841,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Dedean",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5819,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100483,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 639,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67489,
+    "QuestTitle": "Lean and Hungry Gentlemen",
+    "PreviousQuestIds": [
+      67194,
+      67487,
+      67488
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Notched Bone\u0027s Suspicions",
+      "Dedean\u0027s Doubts"
+    ],
+    "NextQuestIds": [
+      67490
+    ],
+    "NextQuestTitles": [
+      "Private Investigations"
+    ],
+    "StarterNpc": "Notched Bone",
+    "StarterNpcLocation": {
+      "RowId": 5864097,
+      "X": 6.14935,
+      "Y": 206.073,
+      "Z": 98.5583,
+      "Yaw": -2.40346,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Notched Bone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5820,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100483,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12849,
+          "ItemName": "Kaiser Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [
+        {
+          "ItemId": 4665,
+          "ItemName": "Lava Toad Legs",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4734,
+          "ItemName": "Pineapple Ponzecake",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4747,
+          "ItemName": "Apple Juice",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67490,
+    "QuestTitle": "Private Investigations",
+    "PreviousQuestIds": [
+      67194,
+      67489
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Lean and Hungry Gentlemen"
+    ],
+    "NextQuestIds": [
+      67491
+    ],
+    "NextQuestTitles": [
+      "Ancient Goblin Secrets"
+    ],
+    "StarterNpc": "Notched Bone",
+    "StarterNpcLocation": {
+      "RowId": 5864097,
+      "X": 6.14935,
+      "Y": 206.073,
+      "Z": 98.5583,
+      "Yaw": -2.40346,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Notched Bone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5821,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100483,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 670,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67491,
+    "QuestTitle": "Ancient Goblin Secrets",
+    "PreviousQuestIds": [
+      67194,
+      67490
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Private Investigations"
+    ],
+    "NextQuestIds": [
+      67492
+    ],
+    "NextQuestTitles": [
+      "Cityfriends"
+    ],
+    "StarterNpc": "Notched Bone",
+    "StarterNpcLocation": {
+      "RowId": 5864097,
+      "X": 6.14935,
+      "Y": 206.073,
+      "Z": 98.5583,
+      "Yaw": -2.40346,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Notched Bone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5822,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100483,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 765,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67492,
+    "QuestTitle": "Cityfriends",
+    "PreviousQuestIds": [
+      67194,
+      67491
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire",
+      "Ancient Goblin Secrets"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Notched Bone",
+    "StarterNpcLocation": {
+      "RowId": 5864097,
+      "X": 6.14935,
+      "Y": 206.073,
+      "Z": 98.5583,
+      "Yaw": -2.40346,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Notched Bone",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5823,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100484,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 607,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5702,
+          "ItemName": "Craftsman\u0027s Competence Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5707,
+          "ItemName": "Craftsman\u0027s Cunning Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5712,
+          "ItemName": "Craftsman\u0027s Command Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67493,
+    "QuestTitle": "Many Hands Make Light Checkwork",
+    "PreviousQuestIds": [
+      67194
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire"
+    ],
+    "NextQuestIds": [
+      67494
+    ],
+    "NextQuestTitles": [
+      "A Slimier Stymier"
+    ],
+    "StarterNpc": "Drydox",
+    "StarterNpcLocation": {
+      "RowId": 5864095,
+      "X": 43.0156,
+      "Y": 206.033,
+      "Z": 56.5204,
+      "Yaw": -1.90625,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Boomshox",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5810,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 570,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67498,
+    "QuestTitle": "Watchcogs",
+    "PreviousQuestIds": [
+      67194
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Woolnix",
+    "StarterNpcLocation": {
+      "RowId": 5864090,
+      "X": 106.737,
+      "Y": 207.263,
+      "Z": 85.4047,
+      "Yaw": 0.679829,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Woolnix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5812,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 507,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67499,
+    "QuestTitle": "Taking Stock",
+    "PreviousQuestIds": [
+      67194
+    ],
+    "PreviousQuestTitles": [
+      "Leaving Idyllshire"
+    ],
+    "NextQuestIds": [
+      67500
+    ],
+    "NextQuestTitles": [
+      "What the Boat Brought In"
+    ],
+    "StarterNpc": "Midnight Dew",
+    "StarterNpcLocation": {
+      "RowId": 5864096,
+      "X": -26.8102,
+      "Y": 206.47,
+      "Z": 28.6716,
+      "Yaw": 2.33046,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Midnight Dew",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5811,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 58,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13260,
+      "Gil": 570,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67657,
+    "QuestTitle": "Top Marks",
+    "PreviousQuestIds": [
+      67656
+    ],
+    "PreviousQuestTitles": [
+      "Better Bill Hunting"
+    ],
+    "NextQuestIds": [
+      67658
+    ],
+    "NextQuestTitles": [
+      "Elite and Dangerous"
+    ],
+    "StarterNpc": "Yloise",
+    "StarterNpcLocation": {
+      "RowId": 5911985,
+      "X": 17.3908,
+      "Y": 205.363,
+      "Z": 37.5017,
+      "Yaw": 2.00446,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5901,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 59,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 1215,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67928,
+    "QuestTitle": "Keeping Up with the Aliapohs",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      69501
+    ],
+    "NextQuestTitles": [
+      "Fantastic Mr. Faux"
+    ],
+    "StarterNpc": "unctuous adventurer",
+    "StarterNpcLocation": {
+      "RowId": 6531866,
+      "X": 44.1839,
+      "Y": 206.995,
+      "Z": -9.69864,
+      "Yaw": 1.49013,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Khloe Aliapoh",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 6100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 103,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 7,
+        "Name": "Wondrous Tails"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68713,
+    "QuestTitle": "Between a Rock and the Hard Place",
+    "PreviousQuestIds": [
+      68089,
+      67087,
+      68294
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood",
+      "Arms Wide Open",
+      "Purbol Rain"
+    ],
+    "NextQuestIds": [
+      68714
+    ],
+    "NextQuestTitles": [
+      "He Ain\u0027t Piggy, He\u0027s My Brother"
+    ],
+    "StarterNpc": "Geimlona",
+    "StarterNpcLocation": {
+      "RowId": 5881194,
+      "X": -16.5606,
+      "Y": 206.448,
+      "Z": 42.9949,
+      "Yaw": 0.879826,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Adkiragh",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5702,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 66,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26500,
+      "Gil": 620,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12864,
+          "ItemName": "Clam Chowder",
+          "Count": 1
+        },
+        {
+          "ItemId": 12868,
+          "ItemName": "Stuffed Chysahl",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68714,
+    "QuestTitle": "He Ain\u0027t Piggy, He\u0027s My Brother",
+    "PreviousQuestIds": [
+      68713
+    ],
+    "PreviousQuestTitles": [
+      "Between a Rock and the Hard Place"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Melodie",
+    "StarterNpcLocation": {
+      "RowId": 7725945,
+      "X": -55.5771,
+      "Y": 206.5,
+      "Z": 18.5953,
+      "Yaw": -1.61607,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Bulugan",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 5703,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 66,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 26500,
+      "Gil": 760,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 19826,
+          "ItemName": "Tempura Platter",
+          "Count": 1
+        },
+        {
+          "ItemId": 19839,
+          "ItemName": "Nomad Meat Pie",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69501,
+    "QuestTitle": "Fantastic Mr. Faux",
+    "PreviousQuestIds": [
+      67928,
+      69190
+    ],
+    "PreviousQuestTitles": [
+      "Keeping Up with the Aliapohs",
+      "Shadowbringers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "painfully Ishgardian man",
+    "StarterNpcLocation": {
+      "RowId": 8388782,
+      "X": 44.9683,
+      "Y": 206.97,
+      "Z": -8.34674,
+      "Yaw": 1.64228,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "faux commander",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 121,
+      "JournalCategory": {
+        "Id": 66,
+        "Name": "Dravanian Sidequests"
+      },
+      "Name": "Idyllshire Sidequests"
+    },
+    "SortKey": 6300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 1067,
+          "InstanceName": "Tsukuyomi\u0027s Pain (Unreal)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

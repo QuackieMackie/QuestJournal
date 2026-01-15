@@ -1,0 +1,1387 @@
+[
+  {
+    "QuestId": 69792,
+    "QuestTitle": "\uE0BE The Guardian\u0027s Shield",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Viraban",
+    "StarterNpcLocation": {
+      "RowId": 8946770,
+      "X": 376.612,
+      "Y": 5.7094,
+      "Z": -220.494,
+      "Yaw": 0.716452,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Viraban",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36044,
+          "ItemName": "Wine-dark Soup",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69793,
+    "QuestTitle": "\uE0BE In Agama\u0027s Footsteps",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [
+      69796,
+      69797
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Treasure Hunters",
+      "\uE0BE Curry for the Watch"
+    ],
+    "StarterNpc": "weary Radiant",
+    "StarterNpcLocation": {
+      "RowId": 8953179,
+      "X": 462.516,
+      "Y": 14.3206,
+      "Z": -219.864,
+      "Yaw": 0.780978,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "weary Radiant",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2010,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36051,
+          "ItemName": "Lentil Curry",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69794,
+    "QuestTitle": "\uE0BE Quick Heels",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Utpala",
+    "StarterNpcLocation": {
+      "RowId": 8866711,
+      "X": 432.029,
+      "Y": 5.91269,
+      "Z": -225.197,
+      "Yaw": 0.78794,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Utpala",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2060,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69795,
+    "QuestTitle": "\uE0BE Radiant Patrol",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Radiant Host captain",
+    "StarterNpcLocation": {
+      "RowId": 8952121,
+      "X": 381.663,
+      "Y": 3.19294,
+      "Z": -207.176,
+      "Yaw": 0.950196,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Radiant Host captain",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2020,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69796,
+    "QuestTitle": "\uE0BE Treasure Hunters",
+    "PreviousQuestIds": [
+      69953,
+      69800,
+      69793
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing",
+      "\uE0BE My Father My Fisher",
+      "\uE0BE In Agama\u0027s Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Auri dancer",
+    "StarterNpcLocation": {
+      "RowId": 8952130,
+      "X": 389.347,
+      "Y": 3.11688,
+      "Z": -278.657,
+      "Yaw": 0.224064,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Auri dancer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2110,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69797,
+    "QuestTitle": "\uE0BE Curry for the Watch",
+    "PreviousQuestIds": [
+      69953,
+      69800,
+      69793
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing",
+      "\uE0BE My Father My Fisher",
+      "\uE0BE In Agama\u0027s Footsteps"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Jubkhal",
+    "StarterNpcLocation": {
+      "RowId": 8865417,
+      "X": 387.725,
+      "Y": 3.09947,
+      "Z": -223.319,
+      "Yaw": 2.37082,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Jubkhal",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69798,
+    "QuestTitle": "\uE0BE My Friend the Yeti",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Arkasodara youth",
+    "StarterNpcLocation": {
+      "RowId": 8952165,
+      "X": 349.946,
+      "Y": 12.3757,
+      "Z": -269.487,
+      "Yaw": -2.09139,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Arkasodara youth",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2070,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36051,
+          "ItemName": "Lentil Curry",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69799,
+    "QuestTitle": "\uE0BE Flowers for the Family",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "troubled father",
+    "StarterNpcLocation": {
+      "RowId": 8952187,
+      "X": 372.829,
+      "Y": 12.8987,
+      "Z": -199.215,
+      "Yaw": -0.857796,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "troubled father",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2030,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69800,
+    "QuestTitle": "\uE0BE My Father My Fisher",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [
+      69796,
+      69797
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Treasure Hunters",
+      "\uE0BE Curry for the Watch"
+    ],
+    "StarterNpc": "fretful Arkasodara",
+    "StarterNpcLocation": {
+      "RowId": 8946724,
+      "X": 416.425,
+      "Y": 5.60001,
+      "Z": -277.996,
+      "Yaw": 3.13285,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "fretful Arkasodara",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2040,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69801,
+    "QuestTitle": "\uE0BE A Pisaca\u0027s Purpose",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qeryde",
+    "StarterNpcLocation": {
+      "RowId": 8866707,
+      "X": 423.792,
+      "Y": 3.11688,
+      "Z": -269.716,
+      "Yaw": -2.33111,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Qeryde",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2080,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69802,
+    "QuestTitle": "\uE0BE Tea Foretell",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mihsaja",
+    "StarterNpcLocation": {
+      "RowId": 8946771,
+      "X": 379.698,
+      "Y": 5.70939,
+      "Z": -213.587,
+      "Yaw": 0.962784,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Mihsaja",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2090,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36049,
+          "ItemName": "Karniyarik",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69803,
+    "QuestTitle": "\uE0BE Dreams of Venom",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "seasoned hunter",
+    "StarterNpcLocation": {
+      "RowId": 8946733,
+      "X": 426.431,
+      "Y": 3.13038,
+      "Z": -223.405,
+      "Yaw": -1.88812,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "seasoned hunter",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69804,
+    "QuestTitle": "\uE0BE An Unexpected Guide",
+    "PreviousQuestIds": [
+      69952
+    ],
+    "PreviousQuestTitles": [
+      "Simple Pleasures"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "strange hanuman langur",
+    "StarterNpcLocation": {
+      "RowId": 8946740,
+      "X": 383.405,
+      "Y": 12.9764,
+      "Z": -199.884,
+      "Yaw": 2.34404,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Auri woman",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2050,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 815,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70025,
+    "QuestTitle": "\uE0BE Steppe Child",
+    "PreviousQuestIds": [
+      69906
+    ],
+    "PreviousQuestTitles": [
+      "A Fisherman\u0027s Friend"
+    ],
+    "NextQuestIds": [
+      70026
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Matanga along the Way"
+    ],
+    "StarterNpc": "Ogul",
+    "StarterNpcLocation": {
+      "RowId": 8964614,
+      "X": 202.46,
+      "Y": 1.76997,
+      "Z": 727.753,
+      "Yaw": -2.79488,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Kancana",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 1221,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101080,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1095,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 2,
+        "Name": "Aether Current"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70026,
+    "QuestTitle": "\uE0BE The Matanga along the Way",
+    "PreviousQuestIds": [
+      70025
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Steppe Child"
+    ],
+    "NextQuestIds": [
+      70027
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Ogul Repays Her Favors"
+    ],
+    "StarterNpc": "Kancana",
+    "StarterNpcLocation": {
+      "RowId": 8964615,
+      "X": 194.72,
+      "Y": 14.1186,
+      "Z": 486.008,
+      "Yaw": 0.161172,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Arkasodara fisherman",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 1222,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101080,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1175,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70027,
+    "QuestTitle": "\uE0BE Ogul Repays Her Favors",
+    "PreviousQuestIds": [
+      70026
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Matanga along the Way"
+    ],
+    "NextQuestIds": [
+      70028
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Yedlihmad Hunt"
+    ],
+    "StarterNpc": "Ogul",
+    "StarterNpcLocation": {
+      "RowId": 8965648,
+      "X": -122.752,
+      "Y": 1.27351,
+      "Z": 616.544,
+      "Yaw": 0.854753,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Ogul",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 1223,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101080,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1015,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36038,
+          "ItemName": "Amra Salad",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70028,
+    "QuestTitle": "\uE0BE The Yedlihmad Hunt",
+    "PreviousQuestIds": [
+      70027
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Ogul Repays Her Favors"
+    ],
+    "NextQuestIds": [
+      70033
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Budding Adventure"
+    ],
+    "StarterNpc": "Ogul",
+    "StarterNpcLocation": {
+      "RowId": 8965704,
+      "X": 192.8,
+      "Y": 14.1186,
+      "Z": 487.71,
+      "Yaw": 1.27083,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Kancana",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 1224,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101080,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1015,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70029,
+    "QuestTitle": "\uE0BE What\u0027s in a Parent",
+    "PreviousQuestIds": [
+      69953
+    ],
+    "PreviousQuestTitles": [
+      "Under His Wing"
+    ],
+    "NextQuestIds": [
+      70030
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Curing What Ails"
+    ],
+    "StarterNpc": "Yezahn",
+    "StarterNpcLocation": {
+      "RowId": 9055078,
+      "X": 386.838,
+      "Y": 12.543,
+      "Z": -311.2,
+      "Yaw": 1.63894,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Yezahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2130,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101081,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 935,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70030,
+    "QuestTitle": "\uE0BE Curing What Ails",
+    "PreviousQuestIds": [
+      70029
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE What\u0027s in a Parent"
+    ],
+    "NextQuestIds": [
+      70031
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Sins We Bear"
+    ],
+    "StarterNpc": "Yezahn",
+    "StarterNpcLocation": {
+      "RowId": 8965748,
+      "X": 402.315,
+      "Y": 3.05058,
+      "Z": -212.345,
+      "Yaw": 2.63926,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Yezahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2131,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101081,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1015,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70031,
+    "QuestTitle": "\uE0BE The Sins We Bear",
+    "PreviousQuestIds": [
+      70030
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Curing What Ails"
+    ],
+    "NextQuestIds": [
+      70032
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Societal Alchemy"
+    ],
+    "StarterNpc": "Sula",
+    "StarterNpcLocation": {
+      "RowId": 8965772,
+      "X": 405.02,
+      "Y": 3.05915,
+      "Z": -212.885,
+      "Yaw": -2.65803,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Pasareen",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2132,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101081,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1015,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70032,
+    "QuestTitle": "\uE0BE Societal Alchemy",
+    "PreviousQuestIds": [
+      70031
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Sins We Bear"
+    ],
+    "NextQuestIds": [
+      70033
+    ],
+    "NextQuestTitles": [
+      "\uE0BE A Budding Adventure"
+    ],
+    "StarterNpc": "Yezahn",
+    "StarterNpcLocation": {
+      "RowId": 8965754,
+      "X": 411.715,
+      "Y": 3.11688,
+      "Z": -266.889,
+      "Yaw": -2.74491,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Yezahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2133,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101081,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1015,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 36044,
+          "ItemName": "Wine-dark Soup",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36045,
+          "ItemName": "Glory Be Soup",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36048,
+          "ItemName": "Hamsa Curry",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36049,
+          "ItemName": "Karniyarik",
+          "Count": 2,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70033,
+    "QuestTitle": "\uE0BE A Budding Adventure",
+    "PreviousQuestIds": [
+      70032,
+      70028
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Societal Alchemy",
+      "\uE0BE The Yedlihmad Hunt"
+    ],
+    "NextQuestIds": [
+      70081
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Hippos Born to Run"
+    ],
+    "StarterNpc": "Yezahn",
+    "StarterNpcLocation": {
+      "RowId": 8965748,
+      "X": 402.315,
+      "Y": 3.05058,
+      "Z": -212.345,
+      "Yaw": 2.63926,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Yezahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 142,
+      "JournalCategory": {
+        "Id": 78,
+        "Name": "Thavnairian Sidequests"
+      },
+      "Name": "Thavnairian Sidequests"
+    },
+    "SortKey": 2134,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101082,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 190575,
+      "Gil": 1375,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
