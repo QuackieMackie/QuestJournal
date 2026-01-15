@@ -60,14 +60,20 @@ public class RendererUtils
         if (ImGui.BeginCombo(label, selectedItem))
         {
             foreach (var item in items)
-                if (ImGui.Selectable(item, item == selectedItem))
+            {
+                var isSelected = item == selectedItem;
+                if (ImGui.Selectable(item, isSelected))
                 {
-                    if (item != selectedItem)
+                    if (!isSelected)
                     {
                         selectedItem = item;
                         onSelectionChanged?.Invoke(item);
                     }
                 }
+
+                if (isSelected) ImGui.SetItemDefaultFocus();
+            }
+
             ImGui.EndCombo();
         }
     }
