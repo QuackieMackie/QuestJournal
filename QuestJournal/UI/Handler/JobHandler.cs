@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text.Json;
 using Dalamud.Plugin.Services;
 using QuestJournal.Models;
@@ -37,11 +38,53 @@ public class JobHandler : IDisposable
     
     public void Dispose() { }
 
-    public List<QuestModel>? FetchQuestData(string fileName)
+    public List<string> GetJobSubDirs()
+    {
+        var allResources = GetAllJobResources();
+
+        var subDirs = allResources
+                      .Select(res => res.Replace("QuestJournal.Data.JOB.", "").Split(".")[0])
+                      .Distinct()
+                      .ToList();
+
+        if (subDirs.Count == 0)
+        {
+            log.Warning("No JOB subdirectories found in embedded resources.");
+        }
+
+        return subDirs;
+    }
+
+    public Dictionary<string, string> GetJournalGenresInSubDir(string subDir)
+    {
+        var subDirPrefix = $"QuestJournal.Data.JOB.{subDir}.";
+
+        var allResources = GetAllJobResources();
+
+        var filesInSubDir = allResources
+                            .Where(res => res.StartsWith(subDirPrefix, StringComparison.OrdinalIgnoreCase) && res.EndsWith(".json"))
+                            .ToDictionary(
+                                res =>
+                                {
+                                    var fileName = res.Replace(subDirPrefix, "").Replace(".json", "");
+                                    return fileName.Replace("_", " ");
+                                },
+                                res => res.Replace(subDirPrefix, "").Replace(".json", "")
+                            );
+
+        if (filesInSubDir.Count == 0)
+        {
+            log.Warning($"No JSON files found in subdirectory '{subDir}' within embedded resources.");
+        }
+
+        return filesInSubDir;
+    }
+
+    public List<QuestModel>? FetchQuestDataFromSubDir(string subDir, string fileName)
     {
         try
         {
-            var resourcePath = $"{fileName}";
+            var resourcePath = $"{subDir}.{fileName}";
             var fileContent = EmbeddedResourceLoader.LoadJson(resourcePath, "JOB");
 
             var quests = JsonSerializer.Deserialize<List<QuestModel>>(fileContent);
@@ -64,48 +107,17 @@ public class JobHandler : IDisposable
         }
         catch (Exception ex)
         {
-            log.Error($"Error loading resource '{fileName}': {ex.Message}");
+            log.Error($"Error loading resource '{fileName}' from subdirectory '{subDir}': {ex.Message}");
             return null;
         }
     }
 
-    public Dictionary<string, string> GetJobFileNames()
-    {
-        var allResources = GetAllJobResources();
-        var result = new Dictionary<string, string>();
-
-        foreach (var resource in allResources.Where(res => res.EndsWith(".json", StringComparison.OrdinalIgnoreCase)))
-        {
-            var fileName = resource.Replace("QuestJournal.Data.JOB.", "").Replace(".json", "");
-            var displayName = fileName.StartsWith("JOB-", StringComparison.OrdinalIgnoreCase)
-                                  ? fileName.Substring(4).Replace("_", " ")
-                                  : fileName.Replace("_", " ");
-
-            var uniqueDisplayName = displayName;
-            var counter = 1;
-            while (result.ContainsKey(uniqueDisplayName))
-            {
-                uniqueDisplayName = $"{displayName} ({counter++})";
-            }
-
-            result[uniqueDisplayName] = fileName;
-        }
-
-        if (result.Count == 0)
-        {
-            log.Warning("No embedded JOB quest files found.");
-        }
-
-        return result;
-    }
-    
     private List<string> GetAllJobResources()
     {
-        return AppDomain.CurrentDomain.GetAssemblies()
-                        .SelectMany(assembly => assembly.GetManifestResourceNames())
-                        .Where(res => res.StartsWith("QuestJournal.Data.JOB.", StringComparison.OrdinalIgnoreCase))
-                        .Distinct()
-                        .ToList();
+        return Assembly.GetExecutingAssembly()
+                       .GetManifestResourceNames()
+                       .Where(res => res.StartsWith("QuestJournal.Data.JOB.", StringComparison.OrdinalIgnoreCase))
+                       .ToList();
     }
 
     private List<QuestModel> PerformQuestFiltering(List<QuestModel> quests)
