@@ -19,18 +19,21 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
     private List<QuestModel> questList = new();
 
     private string searchQuery = string.Empty;
-
     private string selectedDropDownCategory = string.Empty;
     private QuestModel? selectedQuest;
+
+    private string selectedSubDir = string.Empty;
+    private List<string> subDirList = new();
 
     public void DrawJobs()
     {
         if (!isInitialized)
         {
-            InitializeDropDown();
+            InitializeSubDirDropDown();
             isInitialized = true;
         }
         
+        rendererUtils.DrawDropDown("Select Subdirectory", subDirList, ref selectedSubDir, OnSubDirSelected);
         rendererUtils.DrawDropDown("Select Journal Genre", dropDownCategories, ref selectedDropDownCategory, UpdateQuestList);
         var highlightedQuestCount = questList.Count(quest =>
                                                         !string.IsNullOrWhiteSpace(searchQuery) &&
@@ -45,43 +48,77 @@ public class JobRenderer(JobHandler jobHandler, RendererUtils rendererUtils, IPl
 
     public void ReloadQuests()
     {
-        InitializeDropDown();
+        InitializeSubDirDropDown();
         UpdateQuestList(selectedDropDownCategory);
     }
 
-    private void InitializeDropDown()
+    private void InitializeSubDirDropDown()
     {
-        if (dropDownCategoryMap.Count == 0)
+        subDirList.Clear();
+
+        subDirList = jobHandler.GetJobSubDirs()
+                               ?.Where(d => !string.IsNullOrEmpty(d))
+                               .Select(TransformSubDirName)
+                               .ToList() ?? new List<string>();
+
+        selectedSubDir = subDirList.FirstOrDefault() ?? string.Empty;
+
+        if (!string.IsNullOrEmpty(selectedSubDir))
+            OnSubDirSelected(selectedSubDir);
+        else
+            log.Warning("No valid subdirectories found in the JOB directory.");
+    }
+
+    private void OnSubDirSelected(string displayName)
+    {
+        var actualSubDir = ReverseTransformSubDirName(displayName);
+
+        if (string.IsNullOrEmpty(actualSubDir))
         {
-            dropDownCategoryMap = jobHandler.GetJobFileNames();
-            dropDownCategories = dropDownCategoryMap.Keys.ToList();
-
-            selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? "Error";
-
-            if (selectedDropDownCategory != "Error")
-                UpdateQuestList(selectedDropDownCategory);
-            else
-                log.Warning("No items found in job file names list.");
+            log.Warning($"Invalid display name or subdirectory: {displayName}");
+            return;
         }
+
+        dropDownCategoryMap = jobHandler.GetJournalGenresInSubDir(actualSubDir) ?? new Dictionary<string, string>();
+        dropDownCategories = dropDownCategoryMap.Keys.ToList();
+
+        selectedDropDownCategory = dropDownCategories.FirstOrDefault() ?? string.Empty;
+
+        if (!string.IsNullOrEmpty(selectedDropDownCategory))
+            UpdateQuestList(selectedDropDownCategory);
+        else
+            log.Warning($"No journal genres found in subdirectory: {actualSubDir}");
     }
 
     private void UpdateQuestList(string category)
     {
         if (dropDownCategoryMap.TryGetValue(category, out var originalFileName))
         {
-            var fetchedQuests = jobHandler.FetchQuestData(originalFileName);
+            var actualSubDir = ReverseTransformSubDirName(selectedSubDir);
+            var fetchedQuests = jobHandler.FetchQuestDataFromSubDir(actualSubDir, originalFileName);
 
             if (fetchedQuests != null && fetchedQuests.Count > 0)
             {
                 questList = fetchedQuests;
                 questCount = questList.Count;
+                log.Info($"Loaded {questCount} quests for category: {category} in subdirectory: {actualSubDir}");
             }
             else
             {
-                log.Warning($"No quests found for category: {category}");
+                log.Warning($"No quests found for category: {category} in subdirectory: {actualSubDir}");
                 questList = new List<QuestModel>();
                 questCount = 0;
             }
         }
+    }
+
+    private string TransformSubDirName(string subDir)
+    {
+        return subDir.Replace("_", " ");
+    }
+
+    private string ReverseTransformSubDirName(string displayName)
+    {
+        return displayName.Replace(" ", "_");
     }
 }

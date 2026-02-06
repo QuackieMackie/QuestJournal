@@ -21,8 +21,8 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
     private uint? GetCategoryIdByName(string name)
     {
         var id = journalCategorySheet.Value?
-                                   .FirstOrDefault(row => row.Name.ExtractText().Equals(name, StringComparison.OrdinalIgnoreCase))
-                                   .RowId;
+                                     .FirstOrDefault(row => row.Name.ExtractText().Equals(name, StringComparison.OrdinalIgnoreCase))
+                                     .RowId;
         return id == 0 ? null : id;
     }
 
@@ -110,39 +110,68 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
         return categorizedQuests;
     }
 
-    public Dictionary<string, List<QuestModel>> GetJobQuestsByCategory()
+    public Dictionary<string, Dictionary<string, List<QuestModel>>> GetJobQuestsByCategory()
     {
         var allQuests = GetAllQuests();
 
-        var jobCategoryNames = new[]
+        var categorizedQuests =
+            new Dictionary<string, Dictionary<string, List<QuestModel>>>(StringComparer.OrdinalIgnoreCase);
+
+        // Mapping: Identifier (CategoryId), Folder Name, Grouping Logic, Manual Name
+        // Grouping Logic:
+        // 0: Use JournalGenre.Name
+        // 1: Use JournalCategory.Name
+        // 2: Use only FolderName directly
+        // 3: Use a JsonName for grouping, the JsonName defines the JSON file name
+        var categoryFolders = new List<(object Identifier, string FolderName, int GroupBy, string? jsonName)>
         {
-            "Disciple of War Quests",
-            "Disciple of Magic Quests",
-            "Disciple of the Hand Quests",
-            "Disciple of the Land Quests",
-            "Disciple of War Job Quests",
-            "Disciple of Magic Job Quests"
+            (GetCategoryIdByName("Disciple of War Quests") ?? 0, "Classes", 0, null),
+            (GetCategoryIdByName("Disciple of Magic Quests") ?? 0, "Classes", 0, null),
+
+            (GetCategoryIdByName("Disciple of War Job Quests") ?? 0, "Jobs", 0, null),
+            (GetCategoryIdByName("Disciple of Magic Job Quests") ?? 0, "Jobs", 0, null),
+
+            (GetCategoryIdByName("Disciple of the Hand Quests") ?? 0, "Crafters", 0, null),
+            (GetCategoryIdByName("Disciple of the Land Quests") ?? 0, "Gatherers", 0, null),
         };
-
-        var resolvedIds = jobCategoryNames
-                          .Select(GetCategoryIdByName)
-                          .OfType<uint>()
-                          .ToList();
-
-        var categorizedQuests = new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
 
         foreach (var quest in allQuests)
         {
             var category = quest.JournalGenre?.JournalCategory;
-            if (category != null && resolvedIds.Contains(category.Id))
-            {
-                var journalGenreName = quest.JournalGenre?.Name;
-                if (!string.IsNullOrEmpty(journalGenreName))
-                {
-                    if (!categorizedQuests.ContainsKey(journalGenreName))
-                        categorizedQuests[journalGenreName] = new List<QuestModel>();
 
-                    categorizedQuests[journalGenreName].Add(quest);
+            foreach (var (identifier, folderName, groupBy, jsonName) in categoryFolders)
+            {
+                var matches = false;
+
+                switch (identifier)
+                {
+                    case uint categoryId:
+                        matches = category != null && category.Id == categoryId;
+                        break;
+                    case List<uint> categoryIds:
+                        matches = category != null && categoryIds.Contains(category.Id);
+                        break;
+                }
+
+                if (matches)
+                {
+                    var subFolderName = groupBy switch
+                    {
+                        0 => quest.JournalGenre?.Name ?? "Unknown Genre", // Group by JournalGenre.Name
+                        1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category", // Group by JournalCategory.Name
+                        3 => jsonName ?? folderName, // Use JSON Name
+                        _ => folderName              // Use FolderName directly
+                    };
+
+                    if (!categorizedQuests.ContainsKey(folderName))
+                        categorizedQuests[folderName] =
+                            new Dictionary<string, List<QuestModel>>(StringComparer.OrdinalIgnoreCase);
+
+                    if (!categorizedQuests[folderName].ContainsKey(subFolderName))
+                        categorizedQuests[folderName][subFolderName] = new List<QuestModel>();
+
+                    categorizedQuests[folderName][subFolderName].Add(quest);
+                    break;
                 }
             }
         }
@@ -411,7 +440,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
                     var subFolderName = groupBy switch
                     {
                         0 => quest.JournalGenre?.Name ?? "Unknown Genre", // Group by JournalGenre.Name
-                        1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category",     // Group by JournalCategory.Name
+                        1 => quest.JournalGenre?.JournalCategory?.Name ?? "Unknown Category", // Group by JournalCategory.Name
                         3 => jsonName ?? folderName, // Use JSON Name
                         _ => folderName              // Use FolderName directly
                     };

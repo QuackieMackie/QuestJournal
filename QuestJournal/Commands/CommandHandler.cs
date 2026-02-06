@@ -144,7 +144,7 @@ public class CommandHandler : IDisposable
                     break;
 
                 case "Job":
-                    categorizedQuests = questDataFetcher.GetJobQuestsByCategory();
+                    groupedQuests = questDataFetcher.GetJobQuestsByCategory();
                     baseFileName = JobDataFileName;
                     parentFolderName = "Fetched-QuestJournal-Data/JOB";
                     break;
