@@ -1,0 +1,2018 @@
+[
+  {
+    "QuestId": 70866,
+    "QuestTitle": "\uE0BE Frosty Neighbors",
+    "PreviousQuestIds": [
+      70495,
+      70595
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail",
+      "\uE0BE Brains and Brawn"
+    ],
+    "NextQuestIds": [
+      70867
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Still as Stone"
+    ],
+    "StarterNpc": "Fahrafahr",
+    "StarterNpcLocation": {
+      "RowId": 11859520,
+      "X": 532.862,
+      "Y": 105.007,
+      "Z": 645.306,
+      "Yaw": 1.25531,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Fahrafahr",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101425,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1303,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70867,
+    "QuestTitle": "\uE0BE Still as Stone",
+    "PreviousQuestIds": [
+      70866
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Frosty Neighbors"
+    ],
+    "NextQuestIds": [
+      70868
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Buried Memories"
+    ],
+    "StarterNpc": "Fahrafahr",
+    "StarterNpcLocation": {
+      "RowId": 11859413,
+      "X": 506.706,
+      "Y": 142.25,
+      "Z": 800.229,
+      "Yaw": 2.9767,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Fahrafahr",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101426,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1130,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70868,
+    "QuestTitle": "\uE0BE Buried Memories",
+    "PreviousQuestIds": [
+      70867
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Still as Stone"
+    ],
+    "NextQuestIds": [
+      70869
+    ],
+    "NextQuestTitles": [
+      "\uE0BE The Pact"
+    ],
+    "StarterNpc": "Fahrafahr",
+    "StarterNpcLocation": {
+      "RowId": 11859413,
+      "X": 506.706,
+      "Y": 142.25,
+      "Z": 800.229,
+      "Yaw": 2.9767,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Fahrafahr",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101427,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1087,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70869,
+    "QuestTitle": "\uE0BE The Pact",
+    "PreviousQuestIds": [
+      70868
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Buried Memories"
+    ],
+    "NextQuestIds": [
+      70870
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Forged in Corn"
+    ],
+    "StarterNpc": "Fahrafahr",
+    "StarterNpcLocation": {
+      "RowId": 11859413,
+      "X": 506.706,
+      "Y": 142.25,
+      "Z": 800.229,
+      "Yaw": 2.9767,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Fahrafahr",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101428,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1260,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70870,
+    "QuestTitle": "\uE0BE Forged in Corn",
+    "PreviousQuestIds": [
+      70869
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE The Pact"
+    ],
+    "NextQuestIds": [
+      70871
+    ],
+    "NextQuestTitles": [
+      "\uE0BE With High Spirits"
+    ],
+    "StarterNpc": "Fahrafahr",
+    "StarterNpcLocation": {
+      "RowId": 11859413,
+      "X": 506.706,
+      "Y": 142.25,
+      "Z": 800.229,
+      "Yaw": 2.9767,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Fahrafahr",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101429,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 1346,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70871,
+    "QuestTitle": "\uE0BE With High Spirits",
+    "PreviousQuestIds": [
+      70870
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Forged in Corn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fahrafahr",
+    "StarterNpcLocation": {
+      "RowId": 11859413,
+      "X": 506.706,
+      "Y": 142.25,
+      "Z": 800.229,
+      "Yaw": 2.9767,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Fahrafahr",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 34,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Main Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101430,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Sworn"
+    },
+    "Rewards": {
+      "Exp": 4972800,
+      "Gil": 742,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70872,
+    "QuestTitle": "\uE0BE Snow on the Mountain",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 101,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70873,
+    "QuestTitle": "\uE0BE A Work of Cart",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 102,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70874,
+    "QuestTitle": "\uE0BE Will Work for Supplies",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 103,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70875,
+    "QuestTitle": "\uE0BE Getting a Glow On",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 104,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70876,
+    "QuestTitle": "\uE0BE Hold My Hand Warmers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 105,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70877,
+    "QuestTitle": "\uE0BE For a Goods Cause",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 106,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70878,
+    "QuestTitle": "\uE0BE Happiness Is a Warm Poncho",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 107,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Friendly"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70879,
+    "QuestTitle": "\uE0BE Worth Their Salt",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 108,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70880,
+    "QuestTitle": "\uE0BE Tradition for Trade",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 109,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70881,
+    "QuestTitle": "\uE0BE A Few Tools Short of a Toolbox",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70882,
+    "QuestTitle": "\uE0BE Romanced by the Stone",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 111,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70883,
+    "QuestTitle": "\uE0BE Every Last Pebble",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 112,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70884,
+    "QuestTitle": "\uE0BE Trail Fix",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 113,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70885,
+    "QuestTitle": "\uE0BE Working Stew Hard",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 114,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Trusted"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70886,
+    "QuestTitle": "\uE0BE Snack in Hand",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 115,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70887,
+    "QuestTitle": "\uE0BE Seasoned Stories",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 116,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70888,
+    "QuestTitle": "\uE0BE Larder for the Long Term",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 117,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70889,
+    "QuestTitle": "\uE0BE Table for Too Few",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 118,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70890,
+    "QuestTitle": "\uE0BE I Want to Trade My Icicle",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 119,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70891,
+    "QuestTitle": "\uE0BE Larder Logistics",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70892,
+    "QuestTitle": "\uE0BE The Weight of Generosity",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 121,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Respected"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70893,
+    "QuestTitle": "\uE0BE A Growing Field",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 122,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70894,
+    "QuestTitle": "\uE0BE The Crystals\u0027 Favor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 123,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70895,
+    "QuestTitle": "\uE0BE Big Mountain, Little Climbers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 124,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70896,
+    "QuestTitle": "\uE0BE Scouring for Flowers",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 125,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70897,
+    "QuestTitle": "\uE0BE A Rock-solid Repair Job",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 126,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70898,
+    "QuestTitle": "\uE0BE Mad about Brew",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 127,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36,
+          "ItemName": "Allagan Tomestone of Mendacity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  },
+  {
+    "QuestId": 70899,
+    "QuestTitle": "\uE0BE A Feast of Indecision",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vuyargur",
+    "StarterNpcLocation": {
+      "RowId": 11859412,
+      "X": 493.217,
+      "Y": 142.25,
+      "Z": 783.047,
+      "Yaw": 1.21234,
+      "Radius": 1,
+      "MapId": 857,
+      "TerritoryId": 1187
+    },
+    "FinishNpc": "Vuyargur",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 35,
+      "JournalCategory": {
+        "Id": 32,
+        "Name": "Yok Huy Quests"
+      },
+      "Name": "Daily Quests"
+    },
+    "SortKey": 128,
+    "IsRepeatable": true,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciple of the Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "Yok Huy",
+      "BeastTribeRank": "Honored"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46178,
+          "ItemName": "Yok Huy Ward",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 20,
+        "ReputationName": "Yok Huy",
+        "Count": 60
+      }
+    }
+  }
+]

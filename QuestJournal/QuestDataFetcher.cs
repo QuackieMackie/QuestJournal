@@ -297,6 +297,7 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
 
             (GetCategoryIdByName("Mamool Ja Quests") ?? 0, "Tribe Quests", 1, null),
             (GetCategoryIdByName("Pelupelu Quests") ?? 0, "Tribe Quests", 1, null),
+            (GetCategoryIdByName("Yok Huy Quests") ?? 0, "Tribe Quests", 1, null),
             (GetCategoryIdsByName("Intersocietal Quests"), "Tribe Quests", 1, null),
             (GetCategoryIdByName("Amalj'aa Quests") ?? 0, "Tribe Quests", 1, null),
             (GetCategoryIdByName("Sylph Quests") ?? 0, "Tribe Quests", 1, null),
