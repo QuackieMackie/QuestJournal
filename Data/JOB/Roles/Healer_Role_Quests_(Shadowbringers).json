@@ -1,0 +1,394 @@
+[
+  {
+    "QuestId": 68803,
+    "QuestTitle": "Traditions and Travails",
+    "PreviousQuestIds": [
+      68837
+    ],
+    "PreviousQuestTitles": [
+      "Warrior of Darkness"
+    ],
+    "NextQuestIds": [
+      68804
+    ],
+    "NextQuestTitles": [
+      "Affronts and Allies"
+    ],
+    "StarterNpc": "Giott",
+    "StarterNpcLocation": {
+      "RowId": 7935017,
+      "X": -26.6525,
+      "Y": 3.99982,
+      "Z": 209.892,
+      "Yaw": 1.58043,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Giott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 216,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Shadowbringers)"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100868,
+    "JobLevel": 70,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 1161,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68804,
+    "QuestTitle": "Affronts and Allies",
+    "PreviousQuestIds": [
+      68803
+    ],
+    "PreviousQuestTitles": [
+      "Traditions and Travails"
+    ],
+    "NextQuestIds": [
+      68805
+    ],
+    "NextQuestTitles": [
+      "The Scientific Method"
+    ],
+    "StarterNpc": "Giott",
+    "StarterNpcLocation": {
+      "RowId": 8030880,
+      "X": -26.6525,
+      "Y": 3.99982,
+      "Z": 209.892,
+      "Yaw": 1.58043,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Giott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 216,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Shadowbringers)"
+    },
+    "SortKey": 211,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100868,
+    "JobLevel": 72,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 218880,
+      "Gil": 1578,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68805,
+    "QuestTitle": "The Scientific Method",
+    "PreviousQuestIds": [
+      68804
+    ],
+    "PreviousQuestTitles": [
+      "Affronts and Allies"
+    ],
+    "NextQuestIds": [
+      68806
+    ],
+    "NextQuestTitles": [
+      "The Lost and the Found"
+    ],
+    "StarterNpc": "Giott",
+    "StarterNpcLocation": {
+      "RowId": 8030880,
+      "X": -26.6525,
+      "Y": 3.99982,
+      "Z": 209.892,
+      "Yaw": 1.58043,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Giott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 216,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Shadowbringers)"
+    },
+    "SortKey": 221,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100868,
+    "JobLevel": 74,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 221760,
+      "Gil": 1283,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68806,
+    "QuestTitle": "The Lost and the Found",
+    "PreviousQuestIds": [
+      68805
+    ],
+    "PreviousQuestTitles": [
+      "The Scientific Method"
+    ],
+    "NextQuestIds": [
+      68807
+    ],
+    "NextQuestTitles": [
+      "Never to Return"
+    ],
+    "StarterNpc": "Giott",
+    "StarterNpcLocation": {
+      "RowId": 8030880,
+      "X": -26.6525,
+      "Y": 3.99982,
+      "Z": 209.892,
+      "Yaw": 1.58043,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Giott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 216,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Shadowbringers)"
+    },
+    "SortKey": 231,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100868,
+    "JobLevel": 76,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 224640,
+      "Gil": 3020,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68807,
+    "QuestTitle": "Never to Return",
+    "PreviousQuestIds": [
+      68806
+    ],
+    "PreviousQuestTitles": [
+      "The Lost and the Found"
+    ],
+    "NextQuestIds": [
+      68808
+    ],
+    "NextQuestTitles": [
+      "The Soul of Temperance"
+    ],
+    "StarterNpc": "Giott",
+    "StarterNpcLocation": {
+      "RowId": 8030880,
+      "X": -26.6525,
+      "Y": 3.99982,
+      "Z": 209.892,
+      "Yaw": 1.58043,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Giott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 216,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Shadowbringers)"
+    },
+    "SortKey": 241,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100868,
+    "JobLevel": 78,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 227520,
+      "Gil": 1312,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27872,
+          "ItemName": "Masala Chai",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68808,
+    "QuestTitle": "The Soul of Temperance",
+    "PreviousQuestIds": [
+      68807
+    ],
+    "PreviousQuestTitles": [
+      "Never to Return"
+    ],
+    "NextQuestIds": [
+      68751,
+      68754,
+      68758
+    ],
+    "NextQuestTitles": [
+      "Whence the Healing Springs",
+      "True Beauty",
+      "Love, Astrologically"
+    ],
+    "StarterNpc": "Giott",
+    "StarterNpcLocation": {
+      "RowId": 7935432,
+      "X": -456.634,
+      "Y": 417.127,
+      "Z": -597.087,
+      "Yaw": 3.04604,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Giott",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 216,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Shadowbringers)"
+    },
+    "SortKey": 251,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100868,
+    "JobLevel": 80,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 2830,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25186,
+          "ItemName": "Piety Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "QuestId": 69650,
+    "QuestTitle": "Storm Clouds Brewing",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [
+      69651
+    ],
+    "NextQuestTitles": [
+      "The Crushing Tide"
+    ],
+    "StarterNpc": "Lominsan delegate",
+    "StarterNpcLocation": {
+      "RowId": 8928080,
+      "X": -174.983,
+      "Y": 4.06,
+      "Z": -81.2022,
+      "Yaw": -2.27572,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Merlwyb",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 222,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101092,
+    "JobLevel": 85,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 481800,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69651,
+    "QuestTitle": "The Crushing Tide",
+    "PreviousQuestIds": [
+      69650
+    ],
+    "PreviousQuestTitles": [
+      "Storm Clouds Brewing"
+    ],
+    "NextQuestIds": [
+      69652
+    ],
+    "NextQuestTitles": [
+      "Old Heroes Never Die"
+    ],
+    "StarterNpc": "Maelstrom secretariat",
+    "StarterNpcLocation": {
+      "RowId": 8928168,
+      "X": 68.7674,
+      "Y": 40,
+      "Z": 66.3199,
+      "Yaw": -0.242927,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Merlwyb",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 222,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 311,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101092,
+    "JobLevel": 86,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 488400,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69652,
+    "QuestTitle": "Old Heroes Never Die",
+    "PreviousQuestIds": [
+      69651
+    ],
+    "PreviousQuestTitles": [
+      "The Crushing Tide"
+    ],
+    "NextQuestIds": [
+      69653
+    ],
+    "NextQuestTitles": [
+      "A Mother\u0027s Suffering"
+    ],
+    "StarterNpc": "Maelstrom secretariat",
+    "StarterNpcLocation": {
+      "RowId": 8928168,
+      "X": 68.7674,
+      "Y": 40,
+      "Z": 66.3199,
+      "Yaw": -0.242927,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Maelstrom secretariat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 222,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 321,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101092,
+    "JobLevel": 87,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 495000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69653,
+    "QuestTitle": "A Mother\u0027s Suffering",
+    "PreviousQuestIds": [
+      69652
+    ],
+    "PreviousQuestTitles": [
+      "Old Heroes Never Die"
+    ],
+    "NextQuestIds": [
+      69654
+    ],
+    "NextQuestTitles": [
+      "Out of the Shadows"
+    ],
+    "StarterNpc": "Maelstrom secretariat",
+    "StarterNpcLocation": {
+      "RowId": 8928168,
+      "X": 68.7674,
+      "Y": 40,
+      "Z": 66.3199,
+      "Yaw": -0.242927,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Merlwyb",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 222,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 331,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101092,
+    "JobLevel": 88,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 501600,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69654,
+    "QuestTitle": "Out of the Shadows",
+    "PreviousQuestIds": [
+      69653
+    ],
+    "PreviousQuestTitles": [
+      "A Mother\u0027s Suffering"
+    ],
+    "NextQuestIds": [
+      69655
+    ],
+    "NextQuestTitles": [
+      "To Calmer Seas"
+    ],
+    "StarterNpc": "Maelstrom secretariat",
+    "StarterNpcLocation": {
+      "RowId": 8928168,
+      "X": 68.7674,
+      "Y": 40,
+      "Z": 66.3199,
+      "Yaw": -0.242927,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Maelstrom secretariat",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 222,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 341,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101092,
+    "JobLevel": 89,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 508200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36057,
+          "ItemName": "Coconut Cod Chowder",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69655,
+    "QuestTitle": "To Calmer Seas",
+    "PreviousQuestIds": [
+      69654
+    ],
+    "PreviousQuestTitles": [
+      "Out of the Shadows"
+    ],
+    "NextQuestIds": [
+      70115
+    ],
+    "NextQuestTitles": [
+      "Bitter Snow"
+    ],
+    "StarterNpc": "Maelstrom secretariat",
+    "StarterNpcLocation": {
+      "RowId": 8928168,
+      "X": 68.7674,
+      "Y": 40,
+      "Z": 66.3199,
+      "Yaw": -0.242927,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Lominsan delegate",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 222,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 351,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101092,
+    "JobLevel": 90,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

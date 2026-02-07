@@ -1,0 +1,386 @@
+[
+  {
+    "QuestId": 69656,
+    "QuestTitle": "Seeds of Disquiet",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [
+      69657
+    ],
+    "NextQuestTitles": [
+      "When the Kami Answer"
+    ],
+    "StarterNpc": "Doman delegate",
+    "StarterNpcLocation": {
+      "RowId": 8876687,
+      "X": -177.951,
+      "Y": 4.061,
+      "Z": -90.4134,
+      "Yaw": 0.835779,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 223,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 401,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101093,
+    "JobLevel": 85,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 481800,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69657,
+    "QuestTitle": "When the Kami Answer",
+    "PreviousQuestIds": [
+      69656
+    ],
+    "PreviousQuestTitles": [
+      "Seeds of Disquiet"
+    ],
+    "NextQuestIds": [
+      69658
+    ],
+    "NextQuestTitles": [
+      "Home No Longer"
+    ],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 8863922,
+      "X": -0.948979,
+      "Y": 0,
+      "Z": 7.23161,
+      "Yaw": 1.35937,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 223,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 411,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101093,
+    "JobLevel": 86,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 488400,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69658,
+    "QuestTitle": "Home No Longer",
+    "PreviousQuestIds": [
+      69657
+    ],
+    "PreviousQuestTitles": [
+      "When the Kami Answer"
+    ],
+    "NextQuestIds": [
+      69659
+    ],
+    "NextQuestTitles": [
+      "The Devoted Daughter"
+    ],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 8863922,
+      "X": -0.948979,
+      "Y": 0,
+      "Z": 7.23161,
+      "Yaw": 1.35937,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 223,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 421,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101093,
+    "JobLevel": 87,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 495000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69659,
+    "QuestTitle": "The Devoted Daughter",
+    "PreviousQuestIds": [
+      69658
+    ],
+    "PreviousQuestTitles": [
+      "Home No Longer"
+    ],
+    "NextQuestIds": [
+      69660
+    ],
+    "NextQuestTitles": [
+      "A Singular Gift"
+    ],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 8863922,
+      "X": -0.948979,
+      "Y": 0,
+      "Z": 7.23161,
+      "Yaw": 1.35937,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 223,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 431,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101093,
+    "JobLevel": 88,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 501600,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69660,
+    "QuestTitle": "A Singular Gift",
+    "PreviousQuestIds": [
+      69659
+    ],
+    "PreviousQuestTitles": [
+      "The Devoted Daughter"
+    ],
+    "NextQuestIds": [
+      69661
+    ],
+    "NextQuestTitles": [
+      "Laid to Rest"
+    ],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 8863922,
+      "X": -0.948979,
+      "Y": 0,
+      "Z": 7.23161,
+      "Yaw": 1.35937,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Hien",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 223,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 441,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101093,
+    "JobLevel": 89,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 508200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36057,
+          "ItemName": "Coconut Cod Chowder",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69661,
+    "QuestTitle": "Laid to Rest",
+    "PreviousQuestIds": [
+      69660
+    ],
+    "PreviousQuestTitles": [
+      "A Singular Gift"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yugiri",
+    "StarterNpcLocation": {
+      "RowId": 8863922,
+      "X": -0.948979,
+      "Y": 0,
+      "Z": 7.23161,
+      "Yaw": 1.35937,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Doman delegate",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 223,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 451,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101093,
+    "JobLevel": 90,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "QuestId": 68809,
+    "QuestTitle": "No Greater Sport",
+    "PreviousQuestIds": [
+      68837
+    ],
+    "PreviousQuestTitles": [
+      "Warrior of Darkness"
+    ],
+    "NextQuestIds": [
+      68810
+    ],
+    "NextQuestTitles": [
+      "Vengeance in Defeat"
+    ],
+    "StarterNpc": "Lue-Reeq",
+    "StarterNpcLocation": {
+      "RowId": 7941094,
+      "X": -18.1259,
+      "Y": 3.99982,
+      "Z": 235.41,
+      "Yaw": -2.54631,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Lue-Reeq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 217,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100869,
+    "JobLevel": 70,
+    "ClassJobCategory": "Physical DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 1234,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68810,
+    "QuestTitle": "Vengeance in Defeat",
+    "PreviousQuestIds": [
+      68809
+    ],
+    "PreviousQuestTitles": [
+      "No Greater Sport"
+    ],
+    "NextQuestIds": [
+      68811
+    ],
+    "NextQuestTitles": [
+      "Freedom from Privilege"
+    ],
+    "StarterNpc": "Lue-Reeq",
+    "StarterNpcLocation": {
+      "RowId": 7964570,
+      "X": -18.1259,
+      "Y": 3.99982,
+      "Z": 235.41,
+      "Yaw": -2.54631,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Lue-Reeq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 217,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 311,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100869,
+    "JobLevel": 72,
+    "ClassJobCategory": "Physical DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 218880,
+      "Gil": 1416,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68811,
+    "QuestTitle": "Freedom from Privilege",
+    "PreviousQuestIds": [
+      68810
+    ],
+    "PreviousQuestTitles": [
+      "Vengeance in Defeat"
+    ],
+    "NextQuestIds": [
+      68812
+    ],
+    "NextQuestTitles": [
+      "The Hunter\u0027s Legacy"
+    ],
+    "StarterNpc": "Lue-Reeq",
+    "StarterNpcLocation": {
+      "RowId": 7964570,
+      "X": -18.1259,
+      "Y": 3.99982,
+      "Z": 235.41,
+      "Yaw": -2.54631,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Lue-Reeq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 217,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 321,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100869,
+    "JobLevel": 74,
+    "ClassJobCategory": "Physical DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 221760,
+      "Gil": 1941,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68812,
+    "QuestTitle": "The Hunter\u0027s Legacy",
+    "PreviousQuestIds": [
+      68811
+    ],
+    "PreviousQuestTitles": [
+      "Freedom from Privilege"
+    ],
+    "NextQuestIds": [
+      68813
+    ],
+    "NextQuestTitles": [
+      "Fellowship Restored"
+    ],
+    "StarterNpc": "Lue-Reeq",
+    "StarterNpcLocation": {
+      "RowId": 7964570,
+      "X": -18.1259,
+      "Y": 3.99982,
+      "Z": 235.41,
+      "Yaw": -2.54631,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Lue-Reeq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 217,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 331,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100869,
+    "JobLevel": 76,
+    "ClassJobCategory": "Physical DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 224640,
+      "Gil": 3172,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68813,
+    "QuestTitle": "Fellowship Restored",
+    "PreviousQuestIds": [
+      68812
+    ],
+    "PreviousQuestTitles": [
+      "The Hunter\u0027s Legacy"
+    ],
+    "NextQuestIds": [
+      68814
+    ],
+    "NextQuestTitles": [
+      "Courage Born of Fear"
+    ],
+    "StarterNpc": "Olvara",
+    "StarterNpcLocation": {
+      "RowId": 7963559,
+      "X": 93.4661,
+      "Y": 37.4095,
+      "Z": 611.523,
+      "Yaw": -2.83519,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Olvara",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 217,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 341,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100869,
+    "JobLevel": 78,
+    "ClassJobCategory": "Physical DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 227520,
+      "Gil": 1804,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27873,
+          "ItemName": "Risotto al Nero",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68814,
+    "QuestTitle": "Courage Born of Fear",
+    "PreviousQuestIds": [
+      68813
+    ],
+    "PreviousQuestTitles": [
+      "Fellowship Restored"
+    ],
+    "NextQuestIds": [
+      68747,
+      68749,
+      68750,
+      68755,
+      68756,
+      68759,
+      68762
+    ],
+    "NextQuestTitles": [
+      "A Monk\u0027s Legacy",
+      "Gone but Not Forgiven",
+      "A Harmony from the Heavens",
+      "Oboro\u0027s Big Idea",
+      "Machinists for the Morrow",
+      "The Legend of Musosai",
+      "Rising to the Occasion"
+    ],
+    "StarterNpc": "Lue-Reeq",
+    "StarterNpcLocation": {
+      "RowId": 7963557,
+      "X": 94.6895,
+      "Y": 37.3793,
+      "Z": 611.135,
+      "Yaw": -2.84005,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Lue-Reeq",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 217,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 351,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100869,
+    "JobLevel": 80,
+    "ClassJobCategory": "Physical DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3744,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

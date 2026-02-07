@@ -1,0 +1,325 @@
+[
+  {
+    "QuestId": 70353,
+    "QuestTitle": "Uncouth Customers",
+    "PreviousQuestIds": [
+      70418
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Pots"
+    ],
+    "NextQuestIds": [
+      70354,
+      70360,
+      70366,
+      70372,
+      70378
+    ],
+    "NextQuestTitles": [
+      "The Narwhal Beckons",
+      "In the Sting of Things",
+      "The Hunter and the Hunted",
+      "To Steal a Steelhog",
+      "Power Forgotten"
+    ],
+    "StarterNpc": "Br\u0027uk Evu",
+    "StarterNpcLocation": {
+      "RowId": 10312605,
+      "X": -46.6042,
+      "Y": -17.9729,
+      "Z": 180.345,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Majun",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 231,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Dawntrail)"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70724,
+    "QuestTitle": "Picking Up the Torch",
+    "PreviousQuestIds": [
+      70359,
+      70365,
+      70371
+    ],
+    "PreviousQuestTitles": [
+      "Dreams of a New Day",
+      "An Antidote for Anarchy",
+      "A Hunter True"
+    ],
+    "NextQuestIds": [
+      70725
+    ],
+    "NextQuestTitles": [
+      "Imposing Views"
+    ],
+    "StarterNpc": "Rral Majun",
+    "StarterNpcLocation": {
+      "RowId": 10567461,
+      "X": -51.8921,
+      "Y": -17.9729,
+      "Z": 182.729,
+      "Yaw": -0.41483,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Unbound agent",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 231,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Dawntrail)"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101373,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70725,
+    "QuestTitle": "Imposing Views",
+    "PreviousQuestIds": [
+      70724
+    ],
+    "PreviousQuestTitles": [
+      "Picking Up the Torch"
+    ],
+    "NextQuestIds": [
+      70726
+    ],
+    "NextQuestTitles": [
+      "Enforcing Freedom"
+    ],
+    "StarterNpc": "Unbound agent",
+    "StarterNpcLocation": {
+      "RowId": 10953483,
+      "X": 56.4483,
+      "Y": 10,
+      "Z": 5.95186,
+      "Yaw": 1.39674,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Apyaahi",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 231,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Dawntrail)"
+    },
+    "SortKey": 610,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101373,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 282,
+        "EmoteName": "Pose of the Unbound"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70726,
+    "QuestTitle": "Enforcing Freedom",
+    "PreviousQuestIds": [
+      70725
+    ],
+    "PreviousQuestTitles": [
+      "Imposing Views"
+    ],
+    "NextQuestIds": [
+      70727
+    ],
+    "NextQuestTitles": [
+      "Bar the Passage"
+    ],
+    "StarterNpc": "Apyaahi",
+    "StarterNpcLocation": {
+      "RowId": 10953579,
+      "X": 170.457,
+      "Y": 15.948,
+      "Z": 897.958,
+      "Yaw": -0.620994,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Rral Majun",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 231,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Dawntrail)"
+    },
+    "SortKey": 620,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101373,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70727,
+    "QuestTitle": "Bar the Passage",
+    "PreviousQuestIds": [
+      70726
+    ],
+    "PreviousQuestTitles": [
+      "Enforcing Freedom"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Rral Majun",
+    "StarterNpcLocation": {
+      "RowId": 10567461,
+      "X": -51.8921,
+      "Y": -17.9729,
+      "Z": 182.729,
+      "Yaw": -0.41483,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Br\u0027uk Evu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 231,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Dawntrail)"
+    },
+    "SortKey": 630,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101373,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 45018,
+          "ItemName": "Bright Bustle Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

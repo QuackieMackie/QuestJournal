@@ -1,0 +1,386 @@
+[
+  {
+    "QuestId": 69662,
+    "QuestTitle": "Our Aching Souls",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [
+      69663
+    ],
+    "NextQuestTitles": [
+      "No Forgiveness, No Deliverance"
+    ],
+    "StarterNpc": "Ishgardian delegate",
+    "StarterNpcLocation": {
+      "RowId": 8876686,
+      "X": -168.056,
+      "Y": 4.05,
+      "Z": -91.6484,
+      "Yaw": 2.28069,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Artoirel",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 224,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 501,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101094,
+    "JobLevel": 85,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 481800,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69663,
+    "QuestTitle": "No Forgiveness, No Deliverance",
+    "PreviousQuestIds": [
+      69662
+    ],
+    "PreviousQuestTitles": [
+      "Our Aching Souls"
+    ],
+    "NextQuestIds": [
+      69664
+    ],
+    "NextQuestTitles": [
+      "Only Justice, Only Vengeance"
+    ],
+    "StarterNpc": "Artoirel",
+    "StarterNpcLocation": {
+      "RowId": 8870579,
+      "X": 1.20528,
+      "Y": 0,
+      "Z": -6.36646,
+      "Yaw": -1.2966,
+      "Radius": 1,
+      "MapId": 744,
+      "TerritoryId": 1001
+    },
+    "FinishNpc": "Artoirel",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 224,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 511,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101094,
+    "JobLevel": 86,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 488400,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69664,
+    "QuestTitle": "Only Justice, Only Vengeance",
+    "PreviousQuestIds": [
+      69663
+    ],
+    "PreviousQuestTitles": [
+      "No Forgiveness, No Deliverance"
+    ],
+    "NextQuestIds": [
+      69665
+    ],
+    "NextQuestTitles": [
+      "Wills Unending, Faith Unbending"
+    ],
+    "StarterNpc": "Artoirel",
+    "StarterNpcLocation": {
+      "RowId": 8870579,
+      "X": 1.20528,
+      "Y": 0,
+      "Z": -6.36646,
+      "Yaw": -1.2966,
+      "Radius": 1,
+      "MapId": 744,
+      "TerritoryId": 1001
+    },
+    "FinishNpc": "Aymeric",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 224,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 521,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101094,
+    "JobLevel": 87,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 495000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69665,
+    "QuestTitle": "Wills Unending, Faith Unbending",
+    "PreviousQuestIds": [
+      69664
+    ],
+    "PreviousQuestTitles": [
+      "Only Justice, Only Vengeance"
+    ],
+    "NextQuestIds": [
+      69666
+    ],
+    "NextQuestTitles": [
+      "O Mighty Fury, Guide Us to Victory"
+    ],
+    "StarterNpc": "Artoirel",
+    "StarterNpcLocation": {
+      "RowId": 8870579,
+      "X": 1.20528,
+      "Y": 0,
+      "Z": -6.36646,
+      "Yaw": -1.2966,
+      "Radius": 1,
+      "MapId": 744,
+      "TerritoryId": 1001
+    },
+    "FinishNpc": "Artoirel",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 224,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 531,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101094,
+    "JobLevel": 88,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 501600,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69666,
+    "QuestTitle": "O Mighty Fury, Guide Us to Victory",
+    "PreviousQuestIds": [
+      69665
+    ],
+    "PreviousQuestTitles": [
+      "Wills Unending, Faith Unbending"
+    ],
+    "NextQuestIds": [
+      69667
+    ],
+    "NextQuestTitles": [
+      "Ever March Heavensward"
+    ],
+    "StarterNpc": "Artoirel",
+    "StarterNpcLocation": {
+      "RowId": 8870579,
+      "X": 1.20528,
+      "Y": 0,
+      "Z": -6.36646,
+      "Yaw": -1.2966,
+      "Radius": 1,
+      "MapId": 744,
+      "TerritoryId": 1001
+    },
+    "FinishNpc": "Aymeric",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 224,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 541,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101094,
+    "JobLevel": 89,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 508200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36057,
+          "ItemName": "Coconut Cod Chowder",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69667,
+    "QuestTitle": "Ever March Heavensward",
+    "PreviousQuestIds": [
+      69666
+    ],
+    "PreviousQuestTitles": [
+      "O Mighty Fury, Guide Us to Victory"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Artoirel",
+    "StarterNpcLocation": {
+      "RowId": 8870579,
+      "X": 1.20528,
+      "Y": 0,
+      "Z": -6.36646,
+      "Yaw": -1.2966,
+      "Radius": 1,
+      "MapId": 744,
+      "TerritoryId": 1001
+    },
+    "FinishNpc": "Ishgardian delegate",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 224,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Endwalker)"
+    },
+    "SortKey": 551,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101094,
+    "JobLevel": 90,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33918,
+          "ItemName": "Heavens\u0027 Eye Materia IX",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

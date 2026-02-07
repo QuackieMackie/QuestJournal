@@ -1,0 +1,396 @@
+[
+  {
+    "QuestId": 68779,
+    "QuestTitle": "The Man with Too Many Scars",
+    "PreviousQuestIds": [
+      68837
+    ],
+    "PreviousQuestTitles": [
+      "Warrior of Darkness"
+    ],
+    "NextQuestIds": [
+      68780
+    ],
+    "NextQuestTitles": [
+      "Shaped by Tragedy"
+    ],
+    "StarterNpc": "Granson",
+    "StarterNpcLocation": {
+      "RowId": 7936607,
+      "X": -35.3665,
+      "Y": 3.9998,
+      "Z": 251.767,
+      "Yaw": 2.69116,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Granson",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 215,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Shadowbringers)"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100867,
+    "JobLevel": 70,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 1084,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68780,
+    "QuestTitle": "Shaped by Tragedy",
+    "PreviousQuestIds": [
+      68779
+    ],
+    "PreviousQuestTitles": [
+      "The Man with Too Many Scars"
+    ],
+    "NextQuestIds": [
+      68781
+    ],
+    "NextQuestTitles": [
+      "Defined by Loss"
+    ],
+    "StarterNpc": "Granson",
+    "StarterNpcLocation": {
+      "RowId": 7928683,
+      "X": -35.3665,
+      "Y": 3.99982,
+      "Z": 251.767,
+      "Yaw": 2.69116,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Granson",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 215,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Shadowbringers)"
+    },
+    "SortKey": 111,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100867,
+    "JobLevel": 72,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 218880,
+      "Gil": 1120,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68781,
+    "QuestTitle": "Defined by Loss",
+    "PreviousQuestIds": [
+      68780
+    ],
+    "PreviousQuestTitles": [
+      "Shaped by Tragedy"
+    ],
+    "NextQuestIds": [
+      68782
+    ],
+    "NextQuestTitles": [
+      "The Princess and Her Knight"
+    ],
+    "StarterNpc": "Granson",
+    "StarterNpcLocation": {
+      "RowId": 7928832,
+      "X": -248.332,
+      "Y": 21.0827,
+      "Z": 346.059,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 492,
+      "TerritoryId": 814
+    },
+    "FinishNpc": "Granson",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 215,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Shadowbringers)"
+    },
+    "SortKey": 121,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100867,
+    "JobLevel": 74,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 221760,
+      "Gil": 2163,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68782,
+    "QuestTitle": "The Princess and Her Knight",
+    "PreviousQuestIds": [
+      68781
+    ],
+    "PreviousQuestTitles": [
+      "Defined by Loss"
+    ],
+    "NextQuestIds": [
+      68783
+    ],
+    "NextQuestTitles": [
+      "The Hardened Heart"
+    ],
+    "StarterNpc": "Granson",
+    "StarterNpcLocation": {
+      "RowId": 7929522,
+      "X": 295.303,
+      "Y": 1.46858,
+      "Z": -290.181,
+      "Yaw": 1.22397,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Sul Oul",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 215,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Shadowbringers)"
+    },
+    "SortKey": 131,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100867,
+    "JobLevel": 76,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 224640,
+      "Gil": 1962,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68783,
+    "QuestTitle": "The Hardened Heart",
+    "PreviousQuestIds": [
+      68782
+    ],
+    "PreviousQuestTitles": [
+      "The Princess and Her Knight"
+    ],
+    "NextQuestIds": [
+      68784
+    ],
+    "NextQuestTitles": [
+      "To Have Loved and Lost"
+    ],
+    "StarterNpc": "Sul Oul",
+    "StarterNpcLocation": {
+      "RowId": 7929589,
+      "X": 61.0487,
+      "Y": 100.949,
+      "Z": -872.44,
+      "Yaw": -1.29081,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Sul Oul",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 215,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Shadowbringers)"
+    },
+    "SortKey": 141,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100867,
+    "JobLevel": 78,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 227520,
+      "Gil": 2416,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27877,
+          "ItemName": "Paella",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68784,
+    "QuestTitle": "To Have Loved and Lost",
+    "PreviousQuestIds": [
+      68783
+    ],
+    "PreviousQuestTitles": [
+      "The Hardened Heart"
+    ],
+    "NextQuestIds": [
+      68746,
+      68748,
+      68757,
+      68761
+    ],
+    "NextQuestTitles": [
+      "Worth Fighting For",
+      "Once, Twice, Three Times a Warrior",
+      "Our Closure",
+      "Gunblades of the Patriots"
+    ],
+    "StarterNpc": "Sul Oul",
+    "StarterNpcLocation": {
+      "RowId": 7929589,
+      "X": 61.0487,
+      "Y": 100.949,
+      "Z": -872.44,
+      "Yaw": -1.29081,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Granson",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 215,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Shadowbringers)"
+    },
+    "SortKey": 151,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100867,
+    "JobLevel": 80,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 2789,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25190,
+          "ItemName": "Battledance Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

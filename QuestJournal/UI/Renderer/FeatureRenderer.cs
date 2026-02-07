@@ -30,7 +30,6 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
         if (!isInitialized)
         {
             InitializeSubDirDropDown();
-            InitializeDropDown();
             isInitialized = true;
         }
 
@@ -50,7 +49,6 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
     public void ReloadQuests()
     {
         InitializeSubDirDropDown();
-        InitializeDropDown();
         UpdateQuestList(selectedDropDownCategory);
     }
 
@@ -90,11 +88,6 @@ public class FeatureRenderer(FeatureHandler featureHandler, RendererUtils render
             UpdateQuestList(selectedDropDownCategory);
         else
             log.Warning($"No journal genres found in subdirectory: {actualSubDir}");
-    }
-
-    private void InitializeDropDown()
-    {
-        if (dropDownCategoryMap.Count == 0) OnSubDirSelected(selectedSubDir);
     }
 
     private void UpdateQuestList(string category)

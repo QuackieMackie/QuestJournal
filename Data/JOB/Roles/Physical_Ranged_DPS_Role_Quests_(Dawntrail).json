@@ -1,0 +1,386 @@
+[
+  {
+    "QuestId": 70372,
+    "QuestTitle": "To Steal a Steelhog",
+    "PreviousQuestIds": [
+      70353
+    ],
+    "PreviousQuestTitles": [
+      "Uncouth Customers"
+    ],
+    "NextQuestIds": [
+      70373
+    ],
+    "NextQuestTitles": [
+      "Bandits Abound"
+    ],
+    "StarterNpc": "Raholl Ja",
+    "StarterNpcLocation": {
+      "RowId": 10338225,
+      "X": -38.9512,
+      "Y": -17.9729,
+      "Z": 203.415,
+      "Yaw": -0.0428175,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Ceetol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 229,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 401,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101304,
+    "JobLevel": 90,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70373,
+    "QuestTitle": "Bandits Abound",
+    "PreviousQuestIds": [
+      70372
+    ],
+    "PreviousQuestTitles": [
+      "To Steal a Steelhog"
+    ],
+    "NextQuestIds": [
+      70374
+    ],
+    "NextQuestTitles": [
+      "Take Me to Your Leader"
+    ],
+    "StarterNpc": "Ceetol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10338910,
+      "X": 19.6528,
+      "Y": -0.117659,
+      "Z": 47.2363,
+      "Yaw": 0.670712,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Ceetol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 229,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 411,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101304,
+    "JobLevel": 92,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1021440,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70374,
+    "QuestTitle": "Take Me to Your Leader",
+    "PreviousQuestIds": [
+      70373
+    ],
+    "PreviousQuestTitles": [
+      "Bandits Abound"
+    ],
+    "NextQuestIds": [
+      70375
+    ],
+    "NextQuestTitles": [
+      "The Milk of Mamool Ja Kindness"
+    ],
+    "StarterNpc": "Ceetol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10338344,
+      "X": -622.02,
+      "Y": 42,
+      "Z": -3.62588,
+      "Yaw": -0.919185,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Ceetol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 229,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 421,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101304,
+    "JobLevel": 94,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1048320,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70375,
+    "QuestTitle": "The Milk of Mamool Ja Kindness",
+    "PreviousQuestIds": [
+      70374
+    ],
+    "PreviousQuestTitles": [
+      "Take Me to Your Leader"
+    ],
+    "NextQuestIds": [
+      70376
+    ],
+    "NextQuestTitles": [
+      "Ally in the Alley"
+    ],
+    "StarterNpc": "Ceetol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10338717,
+      "X": -310.964,
+      "Y": 257.526,
+      "Z": 739.498,
+      "Yaw": 1.59023,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Ceetol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 229,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 431,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101304,
+    "JobLevel": 96,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1075200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70376,
+    "QuestTitle": "Ally in the Alley",
+    "PreviousQuestIds": [
+      70375
+    ],
+    "PreviousQuestTitles": [
+      "The Milk of Mamool Ja Kindness"
+    ],
+    "NextQuestIds": [
+      70377
+    ],
+    "NextQuestTitles": [
+      "The Mightiest Shield"
+    ],
+    "StarterNpc": "Ceetol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10338717,
+      "X": -310.964,
+      "Y": 257.526,
+      "Z": 739.498,
+      "Yaw": 1.59023,
+      "Radius": 1,
+      "MapId": 368,
+      "TerritoryId": 620
+    },
+    "FinishNpc": "Ceetol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 229,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 441,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101304,
+    "JobLevel": 98,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1102080,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44095,
+          "ItemName": "Driftwood Catfish Pie",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70377,
+    "QuestTitle": "The Mightiest Shield",
+    "PreviousQuestIds": [
+      70376
+    ],
+    "PreviousQuestTitles": [
+      "Ally in the Alley"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ceetol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10338853,
+      "X": 568.384,
+      "Y": 80,
+      "Z": 618.107,
+      "Yaw": 0.992547,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Raholl Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 229,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Physical Ranged DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 451,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101304,
+    "JobLevel": 100,
+    "ClassJobCategory": "Physical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

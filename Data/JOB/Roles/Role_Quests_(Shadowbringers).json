@@ -1,0 +1,122 @@
+[
+  {
+    "QuestId": 69165,
+    "QuestTitle": "Shadow Walk with Me",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      69521
+    ],
+    "NextQuestTitles": [
+      "Safekeeping"
+    ],
+    "StarterNpc": "Glynard",
+    "StarterNpcLocation": {
+      "RowId": 7828240,
+      "X": -20.1106,
+      "Y": 3.99982,
+      "Z": 204.253,
+      "Yaw": -2.91419,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Cyella",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 219,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Shadowbringers)"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100890,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 2579,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69521,
+    "QuestTitle": "Safekeeping",
+    "PreviousQuestIds": [
+      69165,
+      69318
+    ],
+    "PreviousQuestTitles": [
+      "Shadow Walk with Me",
+      "Reflections in Crystal"
+    ],
+    "NextQuestIds": [
+      70944
+    ],
+    "NextQuestTitles": [
+      "The Pilgrim\u0027s Answer"
+    ],
+    "StarterNpc": "Cyella",
+    "StarterNpcLocation": {
+      "RowId": 7960744,
+      "X": -25.906,
+      "Y": 3.9998,
+      "Z": 205.129,
+      "Yaw": -3.00787,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Cyella",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 219,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Shadowbringers)"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101026,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 895,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

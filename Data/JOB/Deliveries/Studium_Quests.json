@@ -1,0 +1,2574 @@
+[
+  {
+    "QuestId": 69668,
+    "QuestTitle": "Professor Rurusha\u0027s New Friend",
+    "PreviousQuestIds": [
+      70009
+    ],
+    "PreviousQuestTitles": [
+      "The Faculty"
+    ],
+    "NextQuestIds": [
+      69669
+    ],
+    "NextQuestTitles": [
+      "The Dormant Dhyata"
+    ],
+    "StarterNpc": "Boric",
+    "StarterNpcLocation": {
+      "RowId": 8881446,
+      "X": -348.737,
+      "Y": 21.6486,
+      "Z": -91.6105,
+      "Yaw": -1.09858,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101136,
+    "JobLevel": 80,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30482,
+          "ItemName": "Chili Crab",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69669,
+    "QuestTitle": "The Dormant Dhyata",
+    "PreviousQuestIds": [
+      69668
+    ],
+    "PreviousQuestTitles": [
+      "Professor Rurusha\u0027s New Friend"
+    ],
+    "NextQuestIds": [
+      69670
+    ],
+    "NextQuestTitles": [
+      "Gears of Gold"
+    ],
+    "StarterNpc": "Rurusha",
+    "StarterNpcLocation": {
+      "RowId": 8881421,
+      "X": -277.689,
+      "Y": 21.846,
+      "Z": -139.064,
+      "Yaw": -0.85248,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69670,
+    "QuestTitle": "Gears of Gold",
+    "PreviousQuestIds": [
+      69669
+    ],
+    "PreviousQuestTitles": [
+      "The Dormant Dhyata"
+    ],
+    "NextQuestIds": [
+      69671
+    ],
+    "NextQuestTitles": [
+      "Rubbished Research"
+    ],
+    "StarterNpc": "Rurusha",
+    "StarterNpcLocation": {
+      "RowId": 8881421,
+      "X": -277.689,
+      "Y": 21.846,
+      "Z": -139.064,
+      "Yaw": -0.85248,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 83,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 117150,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69671,
+    "QuestTitle": "Rubbished Research",
+    "PreviousQuestIds": [
+      69670
+    ],
+    "PreviousQuestTitles": [
+      "Gears of Gold"
+    ],
+    "NextQuestIds": [
+      69672
+    ],
+    "NextQuestTitles": [
+      "Boric\u0027s Choice"
+    ],
+    "StarterNpc": "Rurusha",
+    "StarterNpcLocation": {
+      "RowId": 8881421,
+      "X": -277.689,
+      "Y": 21.846,
+      "Z": -139.064,
+      "Yaw": -0.85248,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36046,
+          "ItemName": "Happiness Juice",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69672,
+    "QuestTitle": "Boric\u0027s Choice",
+    "PreviousQuestIds": [
+      69671
+    ],
+    "PreviousQuestTitles": [
+      "Rubbished Research"
+    ],
+    "NextQuestIds": [
+      69673
+    ],
+    "NextQuestTitles": [
+      "A Friend in Need"
+    ],
+    "StarterNpc": "Rurusha",
+    "StarterNpcLocation": {
+      "RowId": 8881421,
+      "X": -277.689,
+      "Y": 21.846,
+      "Z": -139.064,
+      "Yaw": -0.85248,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36053,
+          "ItemName": "Giant Haddock Dip",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69673,
+    "QuestTitle": "A Friend in Need",
+    "PreviousQuestIds": [
+      69672
+    ],
+    "PreviousQuestTitles": [
+      "Boric\u0027s Choice"
+    ],
+    "NextQuestIds": [
+      69674
+    ],
+    "NextQuestTitles": [
+      "Wayback Machine"
+    ],
+    "StarterNpc": "Rurusha",
+    "StarterNpcLocation": {
+      "RowId": 8881421,
+      "X": -277.689,
+      "Y": 21.846,
+      "Z": -139.064,
+      "Yaw": -0.85248,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 88,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 125400,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69674,
+    "QuestTitle": "Wayback Machine",
+    "PreviousQuestIds": [
+      69673
+    ],
+    "PreviousQuestTitles": [
+      "A Friend in Need"
+    ],
+    "NextQuestIds": [
+      70010
+    ],
+    "NextQuestTitles": [
+      "The Meeting of Minds"
+    ],
+    "StarterNpc": "Rurusha",
+    "StarterNpcLocation": {
+      "RowId": 8881421,
+      "X": -277.689,
+      "Y": 21.846,
+      "Z": -139.064,
+      "Yaw": -0.85248,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Rurusha",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 203,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Archaeology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101136,
+    "JobLevel": 90,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1044,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33938,
+          "ItemName": "Craftsman\u0027s Competence Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33939,
+          "ItemName": "Craftsman\u0027s Cunning Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33940,
+          "ItemName": "Craftsman\u0027s Command Materia X",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69675,
+    "QuestTitle": "In Search of the Azure Star",
+    "PreviousQuestIds": [
+      70009
+    ],
+    "PreviousQuestTitles": [
+      "The Faculty"
+    ],
+    "NextQuestIds": [
+      69676
+    ],
+    "NextQuestTitles": [
+      "The World without You"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876968,
+      "X": -353.895,
+      "Y": 22.306,
+      "Z": -102.947,
+      "Yaw": 0.206473,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101137,
+    "JobLevel": 80,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30482,
+          "ItemName": "Chili Crab",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69676,
+    "QuestTitle": "The World without You",
+    "PreviousQuestIds": [
+      69675
+    ],
+    "PreviousQuestTitles": [
+      "In Search of the Azure Star"
+    ],
+    "NextQuestIds": [
+      69677
+    ],
+    "NextQuestTitles": [
+      "Poetry Recital"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876559,
+      "X": -296.547,
+      "Y": 21.846,
+      "Z": -162.13,
+      "Yaw": -0.382428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69677,
+    "QuestTitle": "Poetry Recital",
+    "PreviousQuestIds": [
+      69676
+    ],
+    "PreviousQuestTitles": [
+      "The World without You"
+    ],
+    "NextQuestIds": [
+      69678
+    ],
+    "NextQuestTitles": [
+      "One Step Forward"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876559,
+      "X": -296.547,
+      "Y": 21.846,
+      "Z": -162.13,
+      "Yaw": -0.382428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 83,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 117150,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69678,
+    "QuestTitle": "One Step Forward",
+    "PreviousQuestIds": [
+      69677
+    ],
+    "PreviousQuestTitles": [
+      "Poetry Recital"
+    ],
+    "NextQuestIds": [
+      69679
+    ],
+    "NextQuestTitles": [
+      "A Ten-year Promise"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876559,
+      "X": -296.547,
+      "Y": 21.846,
+      "Z": -162.13,
+      "Yaw": -0.382428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36046,
+          "ItemName": "Happiness Juice",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69679,
+    "QuestTitle": "A Ten-year Promise",
+    "PreviousQuestIds": [
+      69678
+    ],
+    "PreviousQuestTitles": [
+      "One Step Forward"
+    ],
+    "NextQuestIds": [
+      69680
+    ],
+    "NextQuestTitles": [
+      "An Astronomical Growth"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876559,
+      "X": -296.547,
+      "Y": 21.846,
+      "Z": -162.13,
+      "Yaw": -0.382428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36053,
+          "ItemName": "Giant Haddock Dip",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69680,
+    "QuestTitle": "An Astronomical Growth",
+    "PreviousQuestIds": [
+      69679
+    ],
+    "PreviousQuestTitles": [
+      "A Ten-year Promise"
+    ],
+    "NextQuestIds": [
+      69681
+    ],
+    "NextQuestTitles": [
+      "The Promised Star"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876559,
+      "X": -296.547,
+      "Y": 21.846,
+      "Z": -162.13,
+      "Yaw": -0.382428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 88,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 125400,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69681,
+    "QuestTitle": "The Promised Star",
+    "PreviousQuestIds": [
+      69680
+    ],
+    "PreviousQuestTitles": [
+      "An Astronomical Growth"
+    ],
+    "NextQuestIds": [
+      70010
+    ],
+    "NextQuestTitles": [
+      "The Meeting of Minds"
+    ],
+    "StarterNpc": "Jude",
+    "StarterNpcLocation": {
+      "RowId": 8876559,
+      "X": -296.547,
+      "Y": 21.846,
+      "Z": -162.13,
+      "Yaw": -0.382428,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Jude",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 204,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Astronomy Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101137,
+    "JobLevel": 90,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1130,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33938,
+          "ItemName": "Craftsman\u0027s Competence Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33939,
+          "ItemName": "Craftsman\u0027s Cunning Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33940,
+          "ItemName": "Craftsman\u0027s Command Materia X",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69682,
+    "QuestTitle": "Perfectly Awful",
+    "PreviousQuestIds": [
+      70009
+    ],
+    "PreviousQuestTitles": [
+      "The Faculty"
+    ],
+    "NextQuestIds": [
+      69683
+    ],
+    "NextQuestTitles": [
+      "Make It Sweeter"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882900,
+      "X": -348.228,
+      "Y": 22.356,
+      "Z": -99.1561,
+      "Yaw": -0.863511,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101138,
+    "JobLevel": 80,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30482,
+          "ItemName": "Chili Crab",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69683,
+    "QuestTitle": "Make It Sweeter",
+    "PreviousQuestIds": [
+      69682
+    ],
+    "PreviousQuestTitles": [
+      "Perfectly Awful"
+    ],
+    "NextQuestIds": [
+      69684
+    ],
+    "NextQuestTitles": [
+      "Remember the Texture"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882899,
+      "X": -287.15,
+      "Y": 21.846,
+      "Z": -150.752,
+      "Yaw": -0.852189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69684,
+    "QuestTitle": "Remember the Texture",
+    "PreviousQuestIds": [
+      69683
+    ],
+    "PreviousQuestTitles": [
+      "Make It Sweeter"
+    ],
+    "NextQuestIds": [
+      69685
+    ],
+    "NextQuestTitles": [
+      "Aroma Is Key"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882899,
+      "X": -287.15,
+      "Y": 21.846,
+      "Z": -150.752,
+      "Yaw": -0.852189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 83,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 117150,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69685,
+    "QuestTitle": "Aroma Is Key",
+    "PreviousQuestIds": [
+      69684
+    ],
+    "PreviousQuestTitles": [
+      "Remember the Texture"
+    ],
+    "NextQuestIds": [
+      69686
+    ],
+    "NextQuestTitles": [
+      "Long Live the Gourmet"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882899,
+      "X": -287.15,
+      "Y": 21.846,
+      "Z": -150.752,
+      "Yaw": -0.852189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36046,
+          "ItemName": "Happiness Juice",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69686,
+    "QuestTitle": "Long Live the Gourmet",
+    "PreviousQuestIds": [
+      69685
+    ],
+    "PreviousQuestTitles": [
+      "Aroma Is Key"
+    ],
+    "NextQuestIds": [
+      69687
+    ],
+    "NextQuestTitles": [
+      "Perfectly Delectable"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882899,
+      "X": -287.15,
+      "Y": 21.846,
+      "Z": -150.752,
+      "Yaw": -0.852189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36053,
+          "ItemName": "Giant Haddock Dip",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69687,
+    "QuestTitle": "Perfectly Delectable",
+    "PreviousQuestIds": [
+      69686
+    ],
+    "PreviousQuestTitles": [
+      "Long Live the Gourmet"
+    ],
+    "NextQuestIds": [
+      69688
+    ],
+    "NextQuestTitles": [
+      "Sharlayan Cuisine"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882899,
+      "X": -287.15,
+      "Y": 21.846,
+      "Z": -150.752,
+      "Yaw": -0.852189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 88,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 125400,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36060,
+          "ItemName": "Tsai tou Vounou",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69688,
+    "QuestTitle": "Sharlayan Cuisine",
+    "PreviousQuestIds": [
+      69687
+    ],
+    "PreviousQuestTitles": [
+      "Perfectly Delectable"
+    ],
+    "NextQuestIds": [
+      70010
+    ],
+    "NextQuestTitles": [
+      "The Meeting of Minds"
+    ],
+    "StarterNpc": "Debroye",
+    "StarterNpcLocation": {
+      "RowId": 8882899,
+      "X": -287.15,
+      "Y": 21.846,
+      "Z": -150.752,
+      "Yaw": -0.852189,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Debroye",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 205,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Medicine Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101138,
+    "JobLevel": 90,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1001,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33938,
+          "ItemName": "Craftsman\u0027s Competence Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33939,
+          "ItemName": "Craftsman\u0027s Cunning Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33940,
+          "ItemName": "Craftsman\u0027s Command Materia X",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69689,
+    "QuestTitle": "Cultured Pursuits",
+    "PreviousQuestIds": [
+      70009
+    ],
+    "PreviousQuestTitles": [
+      "The Faculty"
+    ],
+    "NextQuestIds": [
+      69690
+    ],
+    "NextQuestTitles": [
+      "Cooking Up a Culture"
+    ],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871019,
+      "X": -357.616,
+      "Y": 21.646,
+      "Z": -95.9854,
+      "Yaw": 2.20813,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101139,
+    "JobLevel": 80,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30481,
+          "ItemName": "Crab Cakes",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69690,
+    "QuestTitle": "Cooking Up a Culture",
+    "PreviousQuestIds": [
+      69689
+    ],
+    "PreviousQuestTitles": [
+      "Cultured Pursuits"
+    ],
+    "NextQuestIds": [
+      69691
+    ],
+    "NextQuestTitles": [
+      "The Culture of Ceruleum"
+    ],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871014,
+      "X": -367.327,
+      "Y": 21.846,
+      "Z": -102.963,
+      "Yaw": 2.25138,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69691,
+    "QuestTitle": "The Culture of Ceruleum",
+    "PreviousQuestIds": [
+      69690
+    ],
+    "PreviousQuestTitles": [
+      "Cooking Up a Culture"
+    ],
+    "NextQuestIds": [
+      69692
+    ],
+    "NextQuestTitles": [
+      "The Culture of Carrots"
+    ],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871014,
+      "X": -367.327,
+      "Y": 21.846,
+      "Z": -102.963,
+      "Yaw": 2.25138,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 83,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 117150,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69692,
+    "QuestTitle": "The Culture of Carrots",
+    "PreviousQuestIds": [
+      69691
+    ],
+    "PreviousQuestTitles": [
+      "The Culture of Ceruleum"
+    ],
+    "NextQuestIds": [
+      69693
+    ],
+    "NextQuestTitles": [
+      "Hinageshi in Hingashi"
+    ],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871014,
+      "X": -367.327,
+      "Y": 21.846,
+      "Z": -102.963,
+      "Yaw": 2.25138,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36047,
+          "ItemName": "Carrot Nibbles",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69693,
+    "QuestTitle": "Hinageshi in Hingashi",
+    "PreviousQuestIds": [
+      69692
+    ],
+    "PreviousQuestTitles": [
+      "The Culture of Carrots"
+    ],
+    "NextQuestIds": [
+      69694
+    ],
+    "NextQuestTitles": [
+      "The Culture of the Past"
+    ],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871014,
+      "X": -367.327,
+      "Y": 21.846,
+      "Z": -102.963,
+      "Yaw": 2.25138,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36054,
+          "ItemName": "Yakow Moussaka",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69694,
+    "QuestTitle": "The Culture of the Past",
+    "PreviousQuestIds": [
+      69693
+    ],
+    "PreviousQuestTitles": [
+      "Hinageshi in Hingashi"
+    ],
+    "NextQuestIds": [
+      69695
+    ],
+    "NextQuestTitles": [
+      "The Culture of Love"
+    ],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871014,
+      "X": -367.327,
+      "Y": 21.846,
+      "Z": -102.963,
+      "Yaw": 2.25138,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 88,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 125400,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36061,
+          "ItemName": "Sideritis Cookie",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69695,
+    "QuestTitle": "The Culture of Love",
+    "PreviousQuestIds": [
+      69694
+    ],
+    "PreviousQuestTitles": [
+      "The Culture of the Past"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hinageshi",
+    "StarterNpcLocation": {
+      "RowId": 8871014,
+      "X": -367.327,
+      "Y": 21.846,
+      "Z": -102.963,
+      "Yaw": 2.25138,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Hinageshi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 206,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Anthropology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101139,
+    "JobLevel": 90,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1087,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33935,
+          "ItemName": "Gatherer\u0027s Guerdon Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33936,
+          "ItemName": "Gatherer\u0027s Guile Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33937,
+          "ItemName": "Gatherer\u0027s Grasp Materia X",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69696,
+    "QuestTitle": "Fear the Thesis",
+    "PreviousQuestIds": [
+      70009
+    ],
+    "PreviousQuestTitles": [
+      "The Faculty"
+    ],
+    "NextQuestIds": [
+      69697
+    ],
+    "NextQuestTitles": [
+      "Go with the Flow"
+    ],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879436,
+      "X": -350.296,
+      "Y": 21.6486,
+      "Z": -86.2946,
+      "Yaw": -0.309878,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101140,
+    "JobLevel": 80,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30481,
+          "ItemName": "Crab Cakes",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69697,
+    "QuestTitle": "Go with the Flow",
+    "PreviousQuestIds": [
+      69696
+    ],
+    "PreviousQuestTitles": [
+      "Fear the Thesis"
+    ],
+    "NextQuestIds": [
+      69698
+    ],
+    "NextQuestTitles": [
+      "Data across the Decades"
+    ],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879437,
+      "X": -348.539,
+      "Y": 21.846,
+      "Z": -79.9565,
+      "Yaw": 2.90374,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69698,
+    "QuestTitle": "Data across the Decades",
+    "PreviousQuestIds": [
+      69697
+    ],
+    "PreviousQuestTitles": [
+      "Go with the Flow"
+    ],
+    "NextQuestIds": [
+      69699
+    ],
+    "NextQuestTitles": [
+      "History Lesson"
+    ],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879437,
+      "X": -348.539,
+      "Y": 21.846,
+      "Z": -79.9565,
+      "Yaw": 2.90374,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 83,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 117150,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69699,
+    "QuestTitle": "History Lesson",
+    "PreviousQuestIds": [
+      69698
+    ],
+    "PreviousQuestTitles": [
+      "Data across the Decades"
+    ],
+    "NextQuestIds": [
+      69700
+    ],
+    "NextQuestTitles": [
+      "The Wandering Whale"
+    ],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879437,
+      "X": -348.539,
+      "Y": 21.846,
+      "Z": -79.9565,
+      "Yaw": 2.90374,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36047,
+          "ItemName": "Carrot Nibbles",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69700,
+    "QuestTitle": "The Wandering Whale",
+    "PreviousQuestIds": [
+      69699
+    ],
+    "PreviousQuestTitles": [
+      "History Lesson"
+    ],
+    "NextQuestIds": [
+      69701
+    ],
+    "NextQuestTitles": [
+      "Fish Time Forgot"
+    ],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879437,
+      "X": -348.539,
+      "Y": 21.846,
+      "Z": -79.9565,
+      "Yaw": 2.90374,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 85,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 120450,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36054,
+          "ItemName": "Yakow Moussaka",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69701,
+    "QuestTitle": "Fish Time Forgot",
+    "PreviousQuestIds": [
+      69700
+    ],
+    "PreviousQuestTitles": [
+      "The Wandering Whale"
+    ],
+    "NextQuestIds": [
+      69702
+    ],
+    "NextQuestTitles": [
+      "Pastures New"
+    ],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879437,
+      "X": -348.539,
+      "Y": 21.846,
+      "Z": -79.9565,
+      "Yaw": 2.90374,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 88,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 125400,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36061,
+          "ItemName": "Sideritis Cookie",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69702,
+    "QuestTitle": "Pastures New",
+    "PreviousQuestIds": [
+      69701
+    ],
+    "PreviousQuestTitles": [
+      "Fish Time Forgot"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "T\u0027laqa Tia",
+    "StarterNpcLocation": {
+      "RowId": 8879437,
+      "X": -348.539,
+      "Y": 21.846,
+      "Z": -79.9565,
+      "Yaw": 2.90374,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "T\u0027laqa Tia",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 207,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Faculty of Aetherology Quests"
+    },
+    "SortKey": 0,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101140,
+    "JobLevel": 90,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1260,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33935,
+          "ItemName": "Gatherer\u0027s Guerdon Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33936,
+          "ItemName": "Gatherer\u0027s Guile Materia X",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33937,
+          "ItemName": "Gatherer\u0027s Grasp Materia X",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70009,
+    "QuestTitle": "The Faculty",
+    "PreviousQuestIds": [
+      69916
+    ],
+    "PreviousQuestTitles": [
+      "Sound the Bell, School\u0027s In"
+    ],
+    "NextQuestIds": [
+      69668,
+      69675,
+      69682,
+      69689,
+      69696
+    ],
+    "NextQuestTitles": [
+      "Professor Rurusha\u0027s New Friend",
+      "In Search of the Azure Star",
+      "Perfectly Awful",
+      "Cultured Pursuits",
+      "Fear the Thesis"
+    ],
+    "StarterNpc": "Qih Aliapoh",
+    "StarterNpcLocation": {
+      "RowId": 8869779,
+      "X": -357.831,
+      "Y": 21.846,
+      "Z": -91.3111,
+      "Yaw": 2.19933,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Qih Aliapoh",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 208,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Studium Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 112200,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70010,
+    "QuestTitle": "The Meeting of Minds",
+    "PreviousQuestIds": [
+      69674,
+      69681,
+      69688
+    ],
+    "PreviousQuestTitles": [
+      "Wayback Machine",
+      "The Promised Star",
+      "Sharlayan Cuisine"
+    ],
+    "NextQuestIds": [
+      70989
+    ],
+    "NextQuestTitles": [
+      "An Interstellar Field Trip"
+    ],
+    "StarterNpc": "Qih Aliapoh",
+    "StarterNpcLocation": {
+      "RowId": 8869779,
+      "X": -357.831,
+      "Y": 21.846,
+      "Z": -91.3111,
+      "Yaw": 2.19933,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Qih Aliapoh",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 208,
+      "JournalCategory": {
+        "Id": 91,
+        "Name": "Studium Quests"
+      },
+      "Name": "Studium Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101141,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1303,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35985,
+          "ItemName": "Golden Dhyata",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
