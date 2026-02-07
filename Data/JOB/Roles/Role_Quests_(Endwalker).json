@@ -1,0 +1,321 @@
+[
+  {
+    "QuestId": 70115,
+    "QuestTitle": "Bitter Snow",
+    "PreviousQuestIds": [
+      69643,
+      69649,
+      69655
+    ],
+    "PreviousQuestTitles": [
+      "A Path Unveiled",
+      "The Gift of Mercy",
+      "To Calmer Seas"
+    ],
+    "NextQuestIds": [
+      70116
+    ],
+    "NextQuestTitles": [
+      "Frozen Hope"
+    ],
+    "StarterNpc": "Shirabaht",
+    "StarterNpcLocation": {
+      "RowId": 8952348,
+      "X": -173.66,
+      "Y": 4.05,
+      "Z": -91.37,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Artoirel",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 225,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Endwalker)"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101176,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2069,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70116,
+    "QuestTitle": "Frozen Hope",
+    "PreviousQuestIds": [
+      70115
+    ],
+    "PreviousQuestTitles": [
+      "Bitter Snow"
+    ],
+    "NextQuestIds": [
+      70117
+    ],
+    "NextQuestTitles": [
+      "Misguided Few"
+    ],
+    "StarterNpc": "Artoirel",
+    "StarterNpcLocation": {
+      "RowId": 9192239,
+      "X": -337.514,
+      "Y": 21.9632,
+      "Z": 484.917,
+      "Yaw": -2.33499,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Fourchenault",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 225,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Endwalker)"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101176,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1260,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 36109,
+          "ItemName": "Grade 6 Tincture of Strength",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36110,
+          "ItemName": "Grade 6 Tincture of Dexterity",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36111,
+          "ItemName": "Grade 6 Tincture of Vitality",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36112,
+          "ItemName": "Grade 6 Tincture of Intelligence",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 36113,
+          "ItemName": "Grade 6 Tincture of Mind",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70117,
+    "QuestTitle": "Misguided Few",
+    "PreviousQuestIds": [
+      70116
+    ],
+    "PreviousQuestTitles": [
+      "Frozen Hope"
+    ],
+    "NextQuestIds": [
+      70118
+    ],
+    "NextQuestTitles": [
+      "Forlorn Glory"
+    ],
+    "StarterNpc": "Fourchenault",
+    "StarterNpcLocation": {
+      "RowId": 9192260,
+      "X": 576.64,
+      "Y": 38.3721,
+      "Z": 215.041,
+      "Yaw": 3.02523,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "despondent refugee",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 225,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Endwalker)"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101176,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1260,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33930,
+          "ItemName": "Piety Materia X",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33934,
+          "ItemName": "Battledance Materia X",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33941,
+          "ItemName": "Quickarm Materia X",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33942,
+          "ItemName": "Quicktongue Materia X",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70118,
+    "QuestTitle": "Forlorn Glory",
+    "PreviousQuestIds": [
+      70117
+    ],
+    "PreviousQuestTitles": [
+      "Misguided Few"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Fourchenault",
+    "StarterNpcLocation": {
+      "RowId": 9192345,
+      "X": -29.3777,
+      "Y": 23.1647,
+      "Z": -414.87,
+      "Yaw": -0.291578,
+      "Radius": 1,
+      "MapId": 697,
+      "TerritoryId": 958
+    },
+    "FinishNpc": "Shirabaht",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 225,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Role Quests (Endwalker)"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101176,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3923,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 33931,
+          "ItemName": "Heavens\u0027 Eye Materia X",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33932,
+          "ItemName": "Savage Aim Materia X",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 33933,
+          "ItemName": "Savage Might Materia X",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

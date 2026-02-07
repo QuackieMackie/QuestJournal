@@ -1,0 +1,396 @@
+[
+  {
+    "QuestId": 69159,
+    "QuestTitle": "Hollow Pursuits",
+    "PreviousQuestIds": [
+      68837
+    ],
+    "PreviousQuestTitles": [
+      "Warrior of Darkness"
+    ],
+    "NextQuestIds": [
+      69160
+    ],
+    "NextQuestTitles": [
+      "A Voice from the Void"
+    ],
+    "StarterNpc": "Cerigg",
+    "StarterNpcLocation": {
+      "RowId": 7951531,
+      "X": -0.154756,
+      "Y": 3.98254,
+      "Z": 201.931,
+      "Yaw": -0.781413,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 218,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100870,
+    "JobLevel": 70,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 216000,
+      "Gil": 1020,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69160,
+    "QuestTitle": "A Voice from the Void",
+    "PreviousQuestIds": [
+      69159
+    ],
+    "PreviousQuestTitles": [
+      "Hollow Pursuits"
+    ],
+    "NextQuestIds": [
+      69161
+    ],
+    "NextQuestTitles": [
+      "Echoes of the Past"
+    ],
+    "StarterNpc": "Cerigg",
+    "StarterNpcLocation": {
+      "RowId": 7951626,
+      "X": 218.759,
+      "Y": 7.15583,
+      "Z": -249.126,
+      "Yaw": 1.62207,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 218,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100870,
+    "JobLevel": 72,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 218880,
+      "Gil": 1077,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69161,
+    "QuestTitle": "Echoes of the Past",
+    "PreviousQuestIds": [
+      69160
+    ],
+    "PreviousQuestTitles": [
+      "A Voice from the Void"
+    ],
+    "NextQuestIds": [
+      69162
+    ],
+    "NextQuestTitles": [
+      "Nyelbert\u0027s Lament"
+    ],
+    "StarterNpc": "Cerigg",
+    "StarterNpcLocation": {
+      "RowId": 7951626,
+      "X": 218.759,
+      "Y": 7.15583,
+      "Z": -249.126,
+      "Yaw": 1.62207,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 218,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100870,
+    "JobLevel": 74,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 221760,
+      "Gil": 1529,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69162,
+    "QuestTitle": "Nyelbert\u0027s Lament",
+    "PreviousQuestIds": [
+      69161
+    ],
+    "PreviousQuestTitles": [
+      "Echoes of the Past"
+    ],
+    "NextQuestIds": [
+      69163
+    ],
+    "NextQuestTitles": [
+      "Taynor\u0027s Training Day"
+    ],
+    "StarterNpc": "Cerigg",
+    "StarterNpcLocation": {
+      "RowId": 7951626,
+      "X": 218.759,
+      "Y": 7.15583,
+      "Z": -249.126,
+      "Yaw": 1.62207,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 218,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 31,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100870,
+    "JobLevel": 76,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 224640,
+      "Gil": 2554,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69163,
+    "QuestTitle": "Taynor\u0027s Training Day",
+    "PreviousQuestIds": [
+      69162
+    ],
+    "PreviousQuestTitles": [
+      "Nyelbert\u0027s Lament"
+    ],
+    "NextQuestIds": [
+      69164
+    ],
+    "NextQuestTitles": [
+      "A Tearful Reunion"
+    ],
+    "StarterNpc": "Cerigg",
+    "StarterNpcLocation": {
+      "RowId": 7951626,
+      "X": 218.759,
+      "Y": 7.15583,
+      "Z": -249.126,
+      "Yaw": 1.62207,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 218,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 41,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100870,
+    "JobLevel": 78,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 227520,
+      "Gil": 1365,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27874,
+          "ItemName": "Espresso con Panna",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69164,
+    "QuestTitle": "A Tearful Reunion",
+    "PreviousQuestIds": [
+      69163
+    ],
+    "PreviousQuestTitles": [
+      "Taynor\u0027s Training Day"
+    ],
+    "NextQuestIds": [
+      68752,
+      68753,
+      68760,
+      69569
+    ],
+    "NextQuestTitles": [
+      "A Home for a Tome",
+      "To Be Second Best",
+      "Succession of Steel",
+      "To Be Second Best"
+    ],
+    "StarterNpc": "Cerigg",
+    "StarterNpcLocation": {
+      "RowId": 7951626,
+      "X": 218.759,
+      "Y": 7.15583,
+      "Z": -249.126,
+      "Yaw": 1.62207,
+      "Radius": 1,
+      "MapId": 493,
+      "TerritoryId": 815
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 218,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Magical Ranged DPS Role Quests (Shadowbringers)"
+    },
+    "SortKey": 51,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100870,
+    "JobLevel": 80,
+    "ClassJobCategory": "Magical Ranged DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 448800,
+      "Gil": 3023,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25187,
+          "ItemName": "Heavens\u0027 Eye Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25188,
+          "ItemName": "Savage Aim Materia VII",
+          "Count": 1
+        },
+        {
+          "ItemId": 25189,
+          "ItemName": "Savage Might Materia VII",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

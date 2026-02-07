@@ -1,0 +1,2585 @@
+[
+  {
+    "QuestId": 70502,
+    "QuestTitle": "Wrought in Wachumeqimeqi",
+    "PreviousQuestIds": [
+      70418
+    ],
+    "PreviousQuestTitles": [
+      "The Feat of Pots"
+    ],
+    "NextQuestIds": [
+      70504,
+      70511,
+      70518,
+      70525,
+      70532
+    ],
+    "NextQuestTitles": [
+      "Your Friendly Neighborhood Metalworker",
+      "Pameka, the Scrivener",
+      "Blame It on My Juice",
+      "Hands for Hire",
+      "Fishmonger Blues"
+    ],
+    "StarterNpc": "Ropli",
+    "StarterNpcLocation": {
+      "RowId": 10276848,
+      "X": 139.569,
+      "Y": -13.98,
+      "Z": 10.6262,
+      "Yaw": 0.224596,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Ropli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 214,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Wachumeqimeqi Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 656,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70503,
+    "QuestTitle": "Appreciated Value",
+    "PreviousQuestIds": [
+      70510,
+      70517,
+      70524
+    ],
+    "PreviousQuestTitles": [
+      "A Dream Come True",
+      "A Place in the Sun",
+      "Three Cheers for Sweet Juice"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ropli",
+    "StarterNpcLocation": {
+      "RowId": 10276848,
+      "X": 139.569,
+      "Y": -13.98,
+      "Z": 10.6262,
+      "Yaw": 0.224596,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Ropli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 214,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Wachumeqimeqi Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101300,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44972,
+          "ItemName": "Wachumeqimeqi Balloon",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70504,
+    "QuestTitle": "Your Friendly Neighborhood Metalworker",
+    "PreviousQuestIds": [
+      70502
+    ],
+    "PreviousQuestTitles": [
+      "Wrought in Wachumeqimeqi"
+    ],
+    "NextQuestIds": [
+      70505
+    ],
+    "NextQuestTitles": [
+      "Hard to Reed"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101295,
+    "JobLevel": 90,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38929,
+          "ItemName": "Jhinga Biryani",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70505,
+    "QuestTitle": "Hard to Reed",
+    "PreviousQuestIds": [
+      70504
+    ],
+    "PreviousQuestTitles": [
+      "Your Friendly Neighborhood Metalworker"
+    ],
+    "NextQuestIds": [
+      70506
+    ],
+    "NextQuestTitles": [
+      "Hey, Aunt Tii"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70506,
+    "QuestTitle": "Hey, Aunt Tii",
+    "PreviousQuestIds": [
+      70505
+    ],
+    "PreviousQuestTitles": [
+      "Hard to Reed"
+    ],
+    "NextQuestIds": [
+      70507
+    ],
+    "NextQuestTitles": [
+      "A Job Quickly Done"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 93,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 258720,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70507,
+    "QuestTitle": "A Job Quickly Done",
+    "PreviousQuestIds": [
+      70506
+    ],
+    "PreviousQuestTitles": [
+      "Hey, Aunt Tii"
+    ],
+    "NextQuestIds": [
+      70508
+    ],
+    "NextQuestTitles": [
+      "Teamwork Makes the Craftwork"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 140,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70508,
+    "QuestTitle": "Teamwork Makes the Craftwork",
+    "PreviousQuestIds": [
+      70507
+    ],
+    "PreviousQuestTitles": [
+      "A Job Quickly Done"
+    ],
+    "NextQuestIds": [
+      70509
+    ],
+    "NextQuestTitles": [
+      "A New Kind of Metalware"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44088,
+          "ItemName": "Gateau au Chocolat",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70509,
+    "QuestTitle": "A New Kind of Metalware",
+    "PreviousQuestIds": [
+      70508
+    ],
+    "PreviousQuestTitles": [
+      "Teamwork Makes the Craftwork"
+    ],
+    "NextQuestIds": [
+      70510
+    ],
+    "NextQuestTitles": [
+      "A Dream Come True"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 160,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 98,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 275520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44077,
+          "ItemName": "Salmon Jerky",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70510,
+    "QuestTitle": "A Dream Come True",
+    "PreviousQuestIds": [
+      70509
+    ],
+    "PreviousQuestTitles": [
+      "A New Kind of Metalware"
+    ],
+    "NextQuestIds": [
+      70503
+    ],
+    "NextQuestTitles": [
+      "Appreciated Value"
+    ],
+    "StarterNpc": "Rral Soj",
+    "StarterNpcLocation": {
+      "RowId": 10497855,
+      "X": 180.407,
+      "Y": -13.9926,
+      "Z": 1.98725,
+      "Yaw": -0.0514492,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Rral Soj",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 209,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "XRral Soj Metalwares Quests"
+    },
+    "SortKey": 170,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101295,
+    "JobLevel": 100,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1104,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41765,
+          "ItemName": "Craftsman\u0027s Competence Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41766,
+          "ItemName": "Craftsman\u0027s Cunning Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41767,
+          "ItemName": "Craftsman\u0027s Command Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70511,
+    "QuestTitle": "Pameka, the Scrivener",
+    "PreviousQuestIds": [
+      70502
+    ],
+    "PreviousQuestTitles": [
+      "Wrought in Wachumeqimeqi"
+    ],
+    "NextQuestIds": [
+      70512
+    ],
+    "NextQuestTitles": [
+      "Hanu Opportunities"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101296,
+    "JobLevel": 90,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38929,
+          "ItemName": "Jhinga Biryani",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70512,
+    "QuestTitle": "Hanu Opportunities",
+    "PreviousQuestIds": [
+      70511
+    ],
+    "PreviousQuestTitles": [
+      "Pameka, the Scrivener"
+    ],
+    "NextQuestIds": [
+      70513
+    ],
+    "NextQuestTitles": [
+      "This Little Pelu"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70513,
+    "QuestTitle": "This Little Pelu",
+    "PreviousQuestIds": [
+      70512
+    ],
+    "PreviousQuestTitles": [
+      "Hanu Opportunities"
+    ],
+    "NextQuestIds": [
+      70514
+    ],
+    "NextQuestTitles": [
+      "Oldton Roads"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 230,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 93,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 258720,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70514,
+    "QuestTitle": "Oldton Roads",
+    "PreviousQuestIds": [
+      70513
+    ],
+    "PreviousQuestTitles": [
+      "This Little Pelu"
+    ],
+    "NextQuestIds": [
+      70515
+    ],
+    "NextQuestTitles": [
+      "Written in Stone"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 240,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70515,
+    "QuestTitle": "Written in Stone",
+    "PreviousQuestIds": [
+      70514
+    ],
+    "PreviousQuestTitles": [
+      "Oldton Roads"
+    ],
+    "NextQuestIds": [
+      70516
+    ],
+    "NextQuestTitles": [
+      "Reaching for the Sky"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44088,
+          "ItemName": "Gateau au Chocolat",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70516,
+    "QuestTitle": "Reaching for the Sky",
+    "PreviousQuestIds": [
+      70515
+    ],
+    "PreviousQuestTitles": [
+      "Written in Stone"
+    ],
+    "NextQuestIds": [
+      70517
+    ],
+    "NextQuestTitles": [
+      "A Place in the Sun"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 260,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 98,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 275520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44077,
+          "ItemName": "Salmon Jerky",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70517,
+    "QuestTitle": "A Place in the Sun",
+    "PreviousQuestIds": [
+      70516
+    ],
+    "PreviousQuestTitles": [
+      "Reaching for the Sky"
+    ],
+    "NextQuestIds": [
+      70503
+    ],
+    "NextQuestTitles": [
+      "Appreciated Value"
+    ],
+    "StarterNpc": "Pameka",
+    "StarterNpcLocation": {
+      "RowId": 10479801,
+      "X": 165.852,
+      "Y": -13.98,
+      "Z": 18.3505,
+      "Yaw": 3.11236,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Pameka",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 210,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Epistles by Pameka Quests"
+    },
+    "SortKey": 270,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101296,
+    "JobLevel": 100,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1195,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41765,
+          "ItemName": "Craftsman\u0027s Competence Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41766,
+          "ItemName": "Craftsman\u0027s Cunning Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41767,
+          "ItemName": "Craftsman\u0027s Command Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70518,
+    "QuestTitle": "Blame It on My Juice",
+    "PreviousQuestIds": [
+      70502
+    ],
+    "PreviousQuestTitles": [
+      "Wrought in Wachumeqimeqi"
+    ],
+    "NextQuestIds": [
+      70519
+    ],
+    "NextQuestTitles": [
+      "Mon Cherimoya"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101297,
+    "JobLevel": 90,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38929,
+          "ItemName": "Jhinga Biryani",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70519,
+    "QuestTitle": "Mon Cherimoya",
+    "PreviousQuestIds": [
+      70518
+    ],
+    "PreviousQuestTitles": [
+      "Blame It on My Juice"
+    ],
+    "NextQuestIds": [
+      70520
+    ],
+    "NextQuestTitles": [
+      "A Drink for Everymobbie"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70520,
+    "QuestTitle": "A Drink for Everymobbie",
+    "PreviousQuestIds": [
+      70519
+    ],
+    "PreviousQuestTitles": [
+      "Mon Cherimoya"
+    ],
+    "NextQuestIds": [
+      70521
+    ],
+    "NextQuestTitles": [
+      "Halnaruk the Helphand"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 93,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 258720,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70521,
+    "QuestTitle": "Halnaruk the Helphand",
+    "PreviousQuestIds": [
+      70520
+    ],
+    "PreviousQuestTitles": [
+      "A Drink for Everymobbie"
+    ],
+    "NextQuestIds": [
+      70522
+    ],
+    "NextQuestTitles": [
+      "The Missing Drink"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 340,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70522,
+    "QuestTitle": "The Missing Drink",
+    "PreviousQuestIds": [
+      70521
+    ],
+    "PreviousQuestTitles": [
+      "Halnaruk the Helphand"
+    ],
+    "NextQuestIds": [
+      70523
+    ],
+    "NextQuestTitles": [
+      "Good Hydrations"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44088,
+          "ItemName": "Gateau au Chocolat",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70523,
+    "QuestTitle": "Good Hydrations",
+    "PreviousQuestIds": [
+      70522
+    ],
+    "PreviousQuestTitles": [
+      "The Missing Drink"
+    ],
+    "NextQuestIds": [
+      70524
+    ],
+    "NextQuestTitles": [
+      "Three Cheers for Sweet Juice"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 360,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 98,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 275520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44077,
+          "ItemName": "Salmon Jerky",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70524,
+    "QuestTitle": "Three Cheers for Sweet Juice",
+    "PreviousQuestIds": [
+      70523
+    ],
+    "PreviousQuestTitles": [
+      "Good Hydrations"
+    ],
+    "NextQuestIds": [
+      70503
+    ],
+    "NextQuestTitles": [
+      "Appreciated Value"
+    ],
+    "StarterNpc": "Xeerol Ja",
+    "StarterNpcLocation": {
+      "RowId": 10429372,
+      "X": 155.056,
+      "Y": -13.98,
+      "Z": 2.99969,
+      "Yaw": 0.3863,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Xeerol Ja",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 211,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Xeerol Ja Juicecraft Quests"
+    },
+    "SortKey": 370,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101297,
+    "JobLevel": 100,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1012,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41765,
+          "ItemName": "Craftsman\u0027s Competence Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41766,
+          "ItemName": "Craftsman\u0027s Cunning Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41767,
+          "ItemName": "Craftsman\u0027s Command Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70525,
+    "QuestTitle": "Hands for Hire",
+    "PreviousQuestIds": [
+      70502
+    ],
+    "PreviousQuestTitles": [
+      "Wrought in Wachumeqimeqi"
+    ],
+    "NextQuestIds": [
+      70526
+    ],
+    "NextQuestTitles": [
+      "Test of Talents"
+    ],
+    "StarterNpc": "greying gatherer",
+    "StarterNpcLocation": {
+      "RowId": 10661297,
+      "X": 130.228,
+      "Y": -14,
+      "Z": 16.9736,
+      "Yaw": 1.37868,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101298,
+    "JobLevel": 90,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38930,
+          "ItemName": "Jhinga Curry",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70526,
+    "QuestTitle": "Test of Talents",
+    "PreviousQuestIds": [
+      70525
+    ],
+    "PreviousQuestTitles": [
+      "Hands for Hire"
+    ],
+    "NextQuestIds": [
+      70527
+    ],
+    "NextQuestTitles": [
+      "A Discerning Eye"
+    ],
+    "StarterNpc": "Shunye",
+    "StarterNpcLocation": {
+      "RowId": 10498036,
+      "X": 217.385,
+      "Y": -14,
+      "Z": -5.66309,
+      "Yaw": 0.0484497,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70527,
+    "QuestTitle": "A Discerning Eye",
+    "PreviousQuestIds": [
+      70526
+    ],
+    "PreviousQuestTitles": [
+      "Test of Talents"
+    ],
+    "NextQuestIds": [
+      70528
+    ],
+    "NextQuestTitles": [
+      "As Nature Intends"
+    ],
+    "StarterNpc": "Shunye",
+    "StarterNpcLocation": {
+      "RowId": 10498036,
+      "X": 217.385,
+      "Y": -14,
+      "Z": -5.66309,
+      "Yaw": 0.0484497,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 430,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 93,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 258720,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70528,
+    "QuestTitle": "As Nature Intends",
+    "PreviousQuestIds": [
+      70527
+    ],
+    "PreviousQuestTitles": [
+      "A Discerning Eye"
+    ],
+    "NextQuestIds": [
+      70529
+    ],
+    "NextQuestTitles": [
+      "The Cycle of Life"
+    ],
+    "StarterNpc": "Shunye",
+    "StarterNpcLocation": {
+      "RowId": 10498036,
+      "X": 217.385,
+      "Y": -14,
+      "Z": -5.66309,
+      "Yaw": 0.0484497,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70529,
+    "QuestTitle": "The Cycle of Life",
+    "PreviousQuestIds": [
+      70528
+    ],
+    "PreviousQuestTitles": [
+      "As Nature Intends"
+    ],
+    "NextQuestIds": [
+      70530
+    ],
+    "NextQuestTitles": [
+      "Digging Up the Truth"
+    ],
+    "StarterNpc": "Shunye",
+    "StarterNpcLocation": {
+      "RowId": 10498036,
+      "X": 217.385,
+      "Y": -14,
+      "Z": -5.66309,
+      "Yaw": 0.0484497,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 450,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44099,
+          "ItemName": "Turali Pineapple Ponzecake",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70530,
+    "QuestTitle": "Digging Up the Truth",
+    "PreviousQuestIds": [
+      70529
+    ],
+    "PreviousQuestTitles": [
+      "The Cycle of Life"
+    ],
+    "NextQuestIds": [
+      70531
+    ],
+    "NextQuestTitles": [
+      "Wellspring of Tears"
+    ],
+    "StarterNpc": "Shunye",
+    "StarterNpcLocation": {
+      "RowId": 10498036,
+      "X": 217.385,
+      "Y": -14,
+      "Z": -5.66309,
+      "Yaw": 0.0484497,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 460,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 98,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 275520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44078,
+          "ItemName": "Nasi Goreng",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70531,
+    "QuestTitle": "Wellspring of Tears",
+    "PreviousQuestIds": [
+      70530
+    ],
+    "PreviousQuestTitles": [
+      "Digging Up the Truth"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Shunye",
+    "StarterNpcLocation": {
+      "RowId": 10498036,
+      "X": 217.385,
+      "Y": -14,
+      "Z": -5.66309,
+      "Yaw": 0.0484497,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Shunye",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 212,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Shunye\u0027s Apothecary Quests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101298,
+    "JobLevel": 100,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1058,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41762,
+          "ItemName": "Gatherer\u0027s Guerdon Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41763,
+          "ItemName": "Gatherer\u0027s Guile Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41764,
+          "ItemName": "Gatherer\u0027s Grasp Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70532,
+    "QuestTitle": "Fishmonger Blues",
+    "PreviousQuestIds": [
+      70502
+    ],
+    "PreviousQuestTitles": [
+      "Wrought in Wachumeqimeqi"
+    ],
+    "NextQuestIds": [
+      70533
+    ],
+    "NextQuestTitles": [
+      "When Wishes Are Fishes"
+    ],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 510,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101299,
+    "JobLevel": 90,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38930,
+          "ItemName": "Jhinga Curry",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70533,
+    "QuestTitle": "When Wishes Are Fishes",
+    "PreviousQuestIds": [
+      70532
+    ],
+    "PreviousQuestTitles": [
+      "Fishmonger Blues"
+    ],
+    "NextQuestIds": [
+      70534
+    ],
+    "NextQuestTitles": [
+      "Scaling Up Demand"
+    ],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 520,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 248640,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70534,
+    "QuestTitle": "Scaling Up Demand",
+    "PreviousQuestIds": [
+      70533
+    ],
+    "PreviousQuestTitles": [
+      "When Wishes Are Fishes"
+    ],
+    "NextQuestIds": [
+      70535
+    ],
+    "NextQuestTitles": [
+      "Big Body, Big Beauty"
+    ],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 530,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 93,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 258720,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70535,
+    "QuestTitle": "Big Body, Big Beauty",
+    "PreviousQuestIds": [
+      70534
+    ],
+    "PreviousQuestTitles": [
+      "Scaling Up Demand"
+    ],
+    "NextQuestIds": [
+      70536
+    ],
+    "NextQuestTitles": [
+      "Donuhanu\u0027s Devotion"
+    ],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 540,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70536,
+    "QuestTitle": "Donuhanu\u0027s Devotion",
+    "PreviousQuestIds": [
+      70535
+    ],
+    "PreviousQuestTitles": [
+      "Big Body, Big Beauty"
+    ],
+    "NextQuestIds": [
+      70537
+    ],
+    "NextQuestTitles": [
+      "Catching Breath"
+    ],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 550,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 95,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 265440,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44099,
+          "ItemName": "Turali Pineapple Ponzecake",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70537,
+    "QuestTitle": "Catching Breath",
+    "PreviousQuestIds": [
+      70536
+    ],
+    "PreviousQuestTitles": [
+      "Donuhanu\u0027s Devotion"
+    ],
+    "NextQuestIds": [
+      70538
+    ],
+    "NextQuestTitles": [
+      "An Odd Fish Odyssey"
+    ],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 560,
+    "IsRepeatable": false,
+    "EventIcon": 0,
+    "Icon": 0,
+    "JobLevel": 98,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 275520,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44078,
+          "ItemName": "Nasi Goreng",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70538,
+    "QuestTitle": "An Odd Fish Odyssey",
+    "PreviousQuestIds": [
+      70537
+    ],
+    "PreviousQuestTitles": [
+      "Catching Breath"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Donuhanu",
+    "StarterNpcLocation": {
+      "RowId": 10412241,
+      "X": 190.598,
+      "Y": -14,
+      "Z": 12.218,
+      "Yaw": -3.08735,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Donuhanu",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 213,
+      "JournalCategory": {
+        "Id": 92,
+        "Name": "Wachumeqimeqi Quests"
+      },
+      "Name": "Fish Fancies Donuhanu Quests"
+    },
+    "SortKey": 570,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101299,
+    "JobLevel": 100,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1058,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 41762,
+          "ItemName": "Gatherer\u0027s Guerdon Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41763,
+          "ItemName": "Gatherer\u0027s Guile Materia XI",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 41764,
+          "ItemName": "Gatherer\u0027s Grasp Materia XI",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
