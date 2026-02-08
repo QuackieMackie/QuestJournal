@@ -1,0 +1,390 @@
+[
+  {
+    "QuestId": 70366,
+    "QuestTitle": "The Hunter and the Hunted",
+    "PreviousQuestIds": [
+      70353
+    ],
+    "PreviousQuestTitles": [
+      "Uncouth Customers"
+    ],
+    "NextQuestIds": [
+      70367
+    ],
+    "NextQuestTitles": [
+      "A Sea of Blood"
+    ],
+    "StarterNpc": "Shashepya",
+    "StarterNpcLocation": {
+      "RowId": 10332300,
+      "X": -74.1137,
+      "Y": -19.3283,
+      "Z": 198.707,
+      "Yaw": 3.06614,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "I\u0027toca",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 228,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101303,
+    "JobLevel": 90,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70367,
+    "QuestTitle": "A Sea of Blood",
+    "PreviousQuestIds": [
+      70366
+    ],
+    "PreviousQuestTitles": [
+      "The Hunter and the Hunted"
+    ],
+    "NextQuestIds": [
+      70368
+    ],
+    "NextQuestTitles": [
+      "Who\u0027s Who"
+    ],
+    "StarterNpc": "I\u0027toca",
+    "StarterNpcLocation": {
+      "RowId": 10332313,
+      "X": 111.424,
+      "Y": 11.9972,
+      "Z": -51.9937,
+      "Yaw": -2.88905,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "I\u0027toca",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 228,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 311,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101303,
+    "JobLevel": 92,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1021440,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70368,
+    "QuestTitle": "Who\u0027s Who",
+    "PreviousQuestIds": [
+      70367
+    ],
+    "PreviousQuestTitles": [
+      "A Sea of Blood"
+    ],
+    "NextQuestIds": [
+      70369
+    ],
+    "NextQuestTitles": [
+      "Cornered Prey"
+    ],
+    "StarterNpc": "I\u0027toca",
+    "StarterNpcLocation": {
+      "RowId": 10332313,
+      "X": 111.424,
+      "Y": 11.9972,
+      "Z": -51.9937,
+      "Yaw": -2.88905,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "I\u0027toca",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 228,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 321,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101303,
+    "JobLevel": 94,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1048320,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70369,
+    "QuestTitle": "Cornered Prey",
+    "PreviousQuestIds": [
+      70368
+    ],
+    "PreviousQuestTitles": [
+      "Who\u0027s Who"
+    ],
+    "NextQuestIds": [
+      70370
+    ],
+    "NextQuestTitles": [
+      "Impostor Syndrome"
+    ],
+    "StarterNpc": "Kuiyki",
+    "StarterNpcLocation": {
+      "RowId": 10332314,
+      "X": 111.424,
+      "Y": 11.9972,
+      "Z": -51.9937,
+      "Yaw": -2.88905,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Kuiyki",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 228,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 331,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101303,
+    "JobLevel": 96,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1075200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70370,
+    "QuestTitle": "Impostor Syndrome",
+    "PreviousQuestIds": [
+      70369
+    ],
+    "PreviousQuestTitles": [
+      "Cornered Prey"
+    ],
+    "NextQuestIds": [
+      70371
+    ],
+    "NextQuestTitles": [
+      "A Hunter True"
+    ],
+    "StarterNpc": "Kuiyki",
+    "StarterNpcLocation": {
+      "RowId": 10332314,
+      "X": 111.424,
+      "Y": 11.9972,
+      "Z": -51.9937,
+      "Yaw": -2.88905,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Kuiyki",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 228,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 341,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101303,
+    "JobLevel": 98,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1102080,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44100,
+          "ItemName": "Fruit and Aloe Jelly",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70371,
+    "QuestTitle": "A Hunter True",
+    "PreviousQuestIds": [
+      70370
+    ],
+    "PreviousQuestTitles": [
+      "Impostor Syndrome"
+    ],
+    "NextQuestIds": [
+      70724
+    ],
+    "NextQuestTitles": [
+      "Picking Up the Torch"
+    ],
+    "StarterNpc": "Kuiyki",
+    "StarterNpcLocation": {
+      "RowId": 10332315,
+      "X": 111.406,
+      "Y": 11.9783,
+      "Z": -52.0181,
+      "Yaw": -2.88905,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Shashepya",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 228,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Melee DPS Role Quests (Dawntrail)"
+    },
+    "SortKey": 351,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101303,
+    "JobLevel": 100,
+    "ClassJobCategory": "Melee DPS (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41758,
+          "ItemName": "Heavens\u0027 Eye Materia XI",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

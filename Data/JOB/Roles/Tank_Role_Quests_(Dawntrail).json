@@ -1,0 +1,390 @@
+[
+  {
+    "QuestId": 70354,
+    "QuestTitle": "The Narwhal Beckons",
+    "PreviousQuestIds": [
+      70353
+    ],
+    "PreviousQuestTitles": [
+      "Uncouth Customers"
+    ],
+    "NextQuestIds": [
+      70355
+    ],
+    "NextQuestTitles": [
+      "Sleepless in Ishgard"
+    ],
+    "StarterNpc": "Loazenikwe",
+    "StarterNpcLocation": {
+      "RowId": 10312842,
+      "X": -21.6712,
+      "Y": -19.3283,
+      "Z": 203.165,
+      "Yaw": -0.526137,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Tentoawa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 226,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Dawntrail)"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101301,
+    "JobLevel": 90,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70355,
+    "QuestTitle": "Sleepless in Ishgard",
+    "PreviousQuestIds": [
+      70354
+    ],
+    "PreviousQuestTitles": [
+      "The Narwhal Beckons"
+    ],
+    "NextQuestIds": [
+      70356
+    ],
+    "NextQuestTitles": [
+      "Between Sleep and Death"
+    ],
+    "StarterNpc": "Tentoawa",
+    "StarterNpcLocation": {
+      "RowId": 10312847,
+      "X": 39.5055,
+      "Y": 23.9719,
+      "Z": -48.0507,
+      "Yaw": 0.206094,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Tentoawa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 226,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Dawntrail)"
+    },
+    "SortKey": 111,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101301,
+    "JobLevel": 92,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1021440,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70356,
+    "QuestTitle": "Between Sleep and Death",
+    "PreviousQuestIds": [
+      70355
+    ],
+    "PreviousQuestTitles": [
+      "Sleepless in Ishgard"
+    ],
+    "NextQuestIds": [
+      70357
+    ],
+    "NextQuestTitles": [
+      "Beacon in the Darkness"
+    ],
+    "StarterNpc": "Tentoawa",
+    "StarterNpcLocation": {
+      "RowId": 10312847,
+      "X": 39.5055,
+      "Y": 23.9719,
+      "Z": -48.0507,
+      "Yaw": 0.206094,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Firmalbert",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 226,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Dawntrail)"
+    },
+    "SortKey": 121,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101301,
+    "JobLevel": 94,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1048320,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70357,
+    "QuestTitle": "Beacon in the Darkness",
+    "PreviousQuestIds": [
+      70356
+    ],
+    "PreviousQuestTitles": [
+      "Between Sleep and Death"
+    ],
+    "NextQuestIds": [
+      70358
+    ],
+    "NextQuestTitles": [
+      "Awakened, Not Stirred"
+    ],
+    "StarterNpc": "Firmalbert",
+    "StarterNpcLocation": {
+      "RowId": 10428230,
+      "X": 87.2053,
+      "Y": 23.9719,
+      "Z": -1.7243,
+      "Yaw": -1.7783,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Tentoawa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 226,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Dawntrail)"
+    },
+    "SortKey": 131,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101301,
+    "JobLevel": 96,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1075200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70358,
+    "QuestTitle": "Awakened, Not Stirred",
+    "PreviousQuestIds": [
+      70357
+    ],
+    "PreviousQuestTitles": [
+      "Beacon in the Darkness"
+    ],
+    "NextQuestIds": [
+      70359
+    ],
+    "NextQuestTitles": [
+      "Dreams of a New Day"
+    ],
+    "StarterNpc": "Tentoawa",
+    "StarterNpcLocation": {
+      "RowId": 10313057,
+      "X": 39.8108,
+      "Y": 23.9791,
+      "Z": -48.1727,
+      "Yaw": 0.942847,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Tentoawa",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 226,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Dawntrail)"
+    },
+    "SortKey": 141,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101301,
+    "JobLevel": 98,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1102080,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44076,
+          "ItemName": "Acqua Pazza",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70359,
+    "QuestTitle": "Dreams of a New Day",
+    "PreviousQuestIds": [
+      70358
+    ],
+    "PreviousQuestTitles": [
+      "Awakened, Not Stirred"
+    ],
+    "NextQuestIds": [
+      70724
+    ],
+    "NextQuestTitles": [
+      "Picking Up the Torch"
+    ],
+    "StarterNpc": "Tentoawa",
+    "StarterNpcLocation": {
+      "RowId": 10313057,
+      "X": 39.8108,
+      "Y": 23.9791,
+      "Z": -48.1727,
+      "Yaw": 0.942847,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Loazenikwe",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 226,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Dawntrail)"
+    },
+    "SortKey": 151,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101301,
+    "JobLevel": 100,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41761,
+          "ItemName": "Battledance Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

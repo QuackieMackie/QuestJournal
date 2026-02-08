@@ -1,0 +1,390 @@
+[
+  {
+    "QuestId": 69644,
+    "QuestTitle": "Far from Free",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [
+      69645
+    ],
+    "NextQuestTitles": [
+      "The Butcher\u0027s Blade"
+    ],
+    "StarterNpc": "Ala Mhigan delegate",
+    "StarterNpcLocation": {
+      "RowId": 8901344,
+      "X": -182.181,
+      "Y": 4.06,
+      "Z": -80.7241,
+      "Yaw": 0.776426,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Raubahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 221,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Endwalker)"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101091,
+    "JobLevel": 85,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 481800,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69645,
+    "QuestTitle": "The Butcher\u0027s Blade",
+    "PreviousQuestIds": [
+      69644
+    ],
+    "PreviousQuestTitles": [
+      "Far from Free"
+    ],
+    "NextQuestIds": [
+      69646
+    ],
+    "NextQuestTitles": [
+      "A New Battleground"
+    ],
+    "StarterNpc": "blasphemy hunter",
+    "StarterNpcLocation": {
+      "RowId": 8898344,
+      "X": 741.032,
+      "Y": 70,
+      "Z": 510.627,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Raubahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 221,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Endwalker)"
+    },
+    "SortKey": 211,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101091,
+    "JobLevel": 86,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 488400,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69646,
+    "QuestTitle": "A New Battleground",
+    "PreviousQuestIds": [
+      69645
+    ],
+    "PreviousQuestTitles": [
+      "The Butcher\u0027s Blade"
+    ],
+    "NextQuestIds": [
+      69647
+    ],
+    "NextQuestTitles": [
+      "Laying the Past to Rest"
+    ],
+    "StarterNpc": "blasphemy hunter",
+    "StarterNpcLocation": {
+      "RowId": 8898344,
+      "X": 741.032,
+      "Y": 70,
+      "Z": 510.627,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Raubahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 221,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Endwalker)"
+    },
+    "SortKey": 221,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101091,
+    "JobLevel": 87,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 495000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69647,
+    "QuestTitle": "Laying the Past to Rest",
+    "PreviousQuestIds": [
+      69646
+    ],
+    "PreviousQuestTitles": [
+      "A New Battleground"
+    ],
+    "NextQuestIds": [
+      69648
+    ],
+    "NextQuestTitles": [
+      "Trail of Skulls"
+    ],
+    "StarterNpc": "blasphemy hunter",
+    "StarterNpcLocation": {
+      "RowId": 8898344,
+      "X": 741.032,
+      "Y": 70,
+      "Z": 510.627,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Raubahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 221,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Endwalker)"
+    },
+    "SortKey": 231,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101091,
+    "JobLevel": 88,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 501600,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69648,
+    "QuestTitle": "Trail of Skulls",
+    "PreviousQuestIds": [
+      69647
+    ],
+    "PreviousQuestTitles": [
+      "Laying the Past to Rest"
+    ],
+    "NextQuestIds": [
+      69649
+    ],
+    "NextQuestTitles": [
+      "The Gift of Mercy"
+    ],
+    "StarterNpc": "blasphemy hunter",
+    "StarterNpcLocation": {
+      "RowId": 8898344,
+      "X": 741.032,
+      "Y": 70,
+      "Z": 510.627,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Raubahn",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 221,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Endwalker)"
+    },
+    "SortKey": 241,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101091,
+    "JobLevel": 89,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 508200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36056,
+          "ItemName": "Salted Thavnairian Cod",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69649,
+    "QuestTitle": "The Gift of Mercy",
+    "PreviousQuestIds": [
+      69648
+    ],
+    "PreviousQuestTitles": [
+      "Trail of Skulls"
+    ],
+    "NextQuestIds": [
+      70115
+    ],
+    "NextQuestTitles": [
+      "Bitter Snow"
+    ],
+    "StarterNpc": "blasphemy hunter",
+    "StarterNpcLocation": {
+      "RowId": 8898344,
+      "X": 741.032,
+      "Y": 70,
+      "Z": 510.627,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 369,
+      "TerritoryId": 621
+    },
+    "FinishNpc": "Ala Mhigan delegate",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 221,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Endwalker)"
+    },
+    "SortKey": 251,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101091,
+    "JobLevel": 90,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33917,
+          "ItemName": "Piety Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

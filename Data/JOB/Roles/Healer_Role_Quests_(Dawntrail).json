@@ -1,0 +1,390 @@
+[
+  {
+    "QuestId": 70360,
+    "QuestTitle": "In the Sting of Things",
+    "PreviousQuestIds": [
+      70353
+    ],
+    "PreviousQuestTitles": [
+      "Uncouth Customers"
+    ],
+    "NextQuestIds": [
+      70361
+    ],
+    "NextQuestTitles": [
+      "Causing Problems on Purpose"
+    ],
+    "StarterNpc": "Nyipine",
+    "StarterNpcLocation": {
+      "RowId": 10234594,
+      "X": -64.5972,
+      "Y": -17.7676,
+      "Z": 201.297,
+      "Yaw": 1.45001,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Loashkana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 227,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Dawntrail)"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101302,
+    "JobLevel": 90,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70361,
+    "QuestTitle": "Causing Problems on Purpose",
+    "PreviousQuestIds": [
+      70360
+    ],
+    "PreviousQuestTitles": [
+      "In the Sting of Things"
+    ],
+    "NextQuestIds": [
+      70362
+    ],
+    "NextQuestTitles": [
+      "Living among the Deadly"
+    ],
+    "StarterNpc": "Loashkana",
+    "StarterNpcLocation": {
+      "RowId": 10191727,
+      "X": -114.07,
+      "Y": 20,
+      "Z": 111.467,
+      "Yaw": -1.7918,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Loashkana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 227,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Dawntrail)"
+    },
+    "SortKey": 211,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101302,
+    "JobLevel": 92,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1021440,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70362,
+    "QuestTitle": "Living among the Deadly",
+    "PreviousQuestIds": [
+      70361
+    ],
+    "PreviousQuestTitles": [
+      "Causing Problems on Purpose"
+    ],
+    "NextQuestIds": [
+      70363
+    ],
+    "NextQuestTitles": [
+      "Taste of a Toxin Paradise"
+    ],
+    "StarterNpc": "Loashkana",
+    "StarterNpcLocation": {
+      "RowId": 10191727,
+      "X": -114.07,
+      "Y": 20,
+      "Z": 111.467,
+      "Yaw": -1.7918,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Loashkana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 227,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Dawntrail)"
+    },
+    "SortKey": 221,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101302,
+    "JobLevel": 94,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1048320,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70363,
+    "QuestTitle": "Taste of a Toxin Paradise",
+    "PreviousQuestIds": [
+      70362
+    ],
+    "PreviousQuestTitles": [
+      "Living among the Deadly"
+    ],
+    "NextQuestIds": [
+      70364
+    ],
+    "NextQuestTitles": [
+      "Downed by the River"
+    ],
+    "StarterNpc": "Loashkana",
+    "StarterNpcLocation": {
+      "RowId": 10191727,
+      "X": -114.07,
+      "Y": 20,
+      "Z": 111.467,
+      "Yaw": -1.7918,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Loashkana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 227,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Dawntrail)"
+    },
+    "SortKey": 231,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101302,
+    "JobLevel": 96,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1075200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70364,
+    "QuestTitle": "Downed by the River",
+    "PreviousQuestIds": [
+      70363
+    ],
+    "PreviousQuestTitles": [
+      "Taste of a Toxin Paradise"
+    ],
+    "NextQuestIds": [
+      70365
+    ],
+    "NextQuestTitles": [
+      "An Antidote for Anarchy"
+    ],
+    "StarterNpc": "Loashkana",
+    "StarterNpcLocation": {
+      "RowId": 10191727,
+      "X": -114.07,
+      "Y": 20,
+      "Z": 111.467,
+      "Yaw": -1.7918,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Loashkana",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 227,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Dawntrail)"
+    },
+    "SortKey": 241,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101302,
+    "JobLevel": 98,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1102080,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 44097,
+          "ItemName": "Mesquite Juice",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70365,
+    "QuestTitle": "An Antidote for Anarchy",
+    "PreviousQuestIds": [
+      70364
+    ],
+    "PreviousQuestTitles": [
+      "Downed by the River"
+    ],
+    "NextQuestIds": [
+      70724
+    ],
+    "NextQuestTitles": [
+      "Picking Up the Torch"
+    ],
+    "StarterNpc": "Loashkana",
+    "StarterNpcLocation": {
+      "RowId": 10191727,
+      "X": -114.07,
+      "Y": 20,
+      "Z": 111.467,
+      "Yaw": -1.7918,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Nyipine",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 227,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Healer Role Quests (Dawntrail)"
+    },
+    "SortKey": 251,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101302,
+    "JobLevel": 100,
+    "ClassJobCategory": "Healer (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41757,
+          "ItemName": "Piety Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41759,
+          "ItemName": "Savage Aim Materia XI",
+          "Count": 2
+        },
+        {
+          "ItemId": 41760,
+          "ItemName": "Savage Might Materia XI",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

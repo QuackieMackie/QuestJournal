@@ -1,0 +1,390 @@
+[
+  {
+    "QuestId": 69638,
+    "QuestTitle": "Shrouded in Peril",
+    "PreviousQuestIds": [
+      69954
+    ],
+    "PreviousQuestTitles": [
+      "At World\u0027s End"
+    ],
+    "NextQuestIds": [
+      69639
+    ],
+    "NextQuestTitles": [
+      "To Give Voice"
+    ],
+    "StarterNpc": "Gridanian delegate",
+    "StarterNpcLocation": {
+      "RowId": 8873772,
+      "X": -178.943,
+      "Y": 4.05,
+      "Z": -74.6801,
+      "Yaw": 2.37797,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Keeper of the Entwined Serpents",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 220,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Endwalker)"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101090,
+    "JobLevel": 85,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 481800,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69639,
+    "QuestTitle": "To Give Voice",
+    "PreviousQuestIds": [
+      69638
+    ],
+    "PreviousQuestTitles": [
+      "Shrouded in Peril"
+    ],
+    "NextQuestIds": [
+      69640
+    ],
+    "NextQuestTitles": [
+      "A Gift Undone"
+    ],
+    "StarterNpc": "Keeper of the Entwined Serpents",
+    "StarterNpcLocation": {
+      "RowId": 8874063,
+      "X": -69.3997,
+      "Y": -0.503416,
+      "Z": 5.0241,
+      "Yaw": 1.16033,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Keeper of the Entwined Serpents",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 220,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Endwalker)"
+    },
+    "SortKey": 111,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101090,
+    "JobLevel": 86,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 488400,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69640,
+    "QuestTitle": "A Gift Undone",
+    "PreviousQuestIds": [
+      69639
+    ],
+    "PreviousQuestTitles": [
+      "To Give Voice"
+    ],
+    "NextQuestIds": [
+      69641
+    ],
+    "NextQuestTitles": [
+      "A Pact Proven"
+    ],
+    "StarterNpc": "Keeper of the Entwined Serpents",
+    "StarterNpcLocation": {
+      "RowId": 8874063,
+      "X": -69.3997,
+      "Y": -0.503416,
+      "Z": 5.0241,
+      "Yaw": 1.16033,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Keeper of the Entwined Serpents",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 220,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Endwalker)"
+    },
+    "SortKey": 121,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101090,
+    "JobLevel": 87,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 495000,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69641,
+    "QuestTitle": "A Pact Proven",
+    "PreviousQuestIds": [
+      69640
+    ],
+    "PreviousQuestTitles": [
+      "A Gift Undone"
+    ],
+    "NextQuestIds": [
+      69642
+    ],
+    "NextQuestTitles": [
+      "Hearts True"
+    ],
+    "StarterNpc": "Keeper of the Entwined Serpents",
+    "StarterNpcLocation": {
+      "RowId": 8874063,
+      "X": -69.3997,
+      "Y": -0.503416,
+      "Z": 5.0241,
+      "Yaw": 1.16033,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Keeper of the Entwined Serpents",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 220,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Endwalker)"
+    },
+    "SortKey": 131,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101090,
+    "JobLevel": 88,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 501600,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69642,
+    "QuestTitle": "Hearts True",
+    "PreviousQuestIds": [
+      69641
+    ],
+    "PreviousQuestTitles": [
+      "A Pact Proven"
+    ],
+    "NextQuestIds": [
+      69643
+    ],
+    "NextQuestTitles": [
+      "A Path Unveiled"
+    ],
+    "StarterNpc": "Keeper of the Entwined Serpents",
+    "StarterNpcLocation": {
+      "RowId": 8874063,
+      "X": -69.3997,
+      "Y": -0.503416,
+      "Z": 5.0241,
+      "Yaw": 1.16033,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Keeper of the Entwined Serpents",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 220,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Endwalker)"
+    },
+    "SortKey": 141,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101090,
+    "JobLevel": 89,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 508200,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36057,
+          "ItemName": "Coconut Cod Chowder",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69643,
+    "QuestTitle": "A Path Unveiled",
+    "PreviousQuestIds": [
+      69642
+    ],
+    "PreviousQuestTitles": [
+      "Hearts True"
+    ],
+    "NextQuestIds": [
+      70115
+    ],
+    "NextQuestTitles": [
+      "Bitter Snow"
+    ],
+    "StarterNpc": "Keeper of the Entwined Serpents",
+    "StarterNpcLocation": {
+      "RowId": 8874063,
+      "X": -69.3997,
+      "Y": -0.503416,
+      "Z": 5.0241,
+      "Yaw": 1.16033,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Gridanian delegate",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 220,
+      "JournalCategory": {
+        "Id": 95,
+        "Name": "Role Quests"
+      },
+      "Name": "Tank Role Quests (Endwalker)"
+    },
+    "SortKey": 151,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101090,
+    "JobLevel": 90,
+    "ClassJobCategory": "Tank (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 994560,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33921,
+          "ItemName": "Battledance Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33919,
+          "ItemName": "Savage Aim Materia IX",
+          "Count": 2
+        },
+        {
+          "ItemId": 33920,
+          "ItemName": "Savage Might Materia IX",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

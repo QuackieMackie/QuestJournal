@@ -131,8 +131,14 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (GetCategoryIdByName("Disciple of War Job Quests") ?? 0, "Jobs", 0, null),
             (GetCategoryIdByName("Disciple of Magic Job Quests") ?? 0, "Jobs", 0, null),
 
+            (GetCategoryIdByName("Role Quests") ?? 0, "Roles", 0, null),
+
             (GetCategoryIdByName("Disciple of the Hand Quests") ?? 0, "Crafters", 0, null),
             (GetCategoryIdByName("Disciple of the Land Quests") ?? 0, "Gatherers", 0, null),
+
+            (GetCategoryIdByName("Crystalline Mean Quests") ?? 0, "Deliveries", 1, null),
+            (GetCategoryIdByName("Studium Quests") ?? 0, "Deliveries", 1, null),
+            (GetCategoryIdByName("Wachumeqimeqi Quests") ?? 0, "Deliveries", 1, null),
         };
 
         foreach (var quest in allQuests)

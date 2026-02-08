@@ -1,0 +1,1130 @@
+[
+  {
+    "QuestId": 68763,
+    "QuestTitle": "Iola, Forgemaster",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68764
+    ],
+    "NextQuestTitles": [
+      "To Struggle Nu Mou"
+    ],
+    "StarterNpc": "Iola",
+    "StarterNpcLocation": {
+      "RowId": 7788926,
+      "X": 9.30292,
+      "Y": 20.186,
+      "Z": -124.536,
+      "Yaw": -2.43307,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Iola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 197,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Forging Quests"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100845,
+    "JobLevel": 70,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68764,
+    "QuestTitle": "To Struggle Nu Mou",
+    "PreviousQuestIds": [
+      68763
+    ],
+    "PreviousQuestTitles": [
+      "Iola, Forgemaster"
+    ],
+    "NextQuestIds": [
+      68765
+    ],
+    "NextQuestTitles": [
+      "The Iron Bellows"
+    ],
+    "StarterNpc": "Iola",
+    "StarterNpcLocation": {
+      "RowId": 7788926,
+      "X": 9.30292,
+      "Y": 20.186,
+      "Z": -124.536,
+      "Yaw": -2.43307,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Iola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 197,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Forging Quests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1772,
+      "Catalysts": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68765,
+    "QuestTitle": "The Iron Bellows",
+    "PreviousQuestIds": [
+      68764
+    ],
+    "PreviousQuestTitles": [
+      "To Struggle Nu Mou"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Iola",
+    "StarterNpcLocation": {
+      "RowId": 7788926,
+      "X": 9.30292,
+      "Y": 20.186,
+      "Z": -124.536,
+      "Yaw": -2.43307,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Iola",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 197,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Forging Quests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100845,
+    "JobLevel": 80,
+    "ClassJobCategory": "BSM, ARM, GSM",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1215,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26736,
+          "ItemName": "Craftsman\u0027s Cunning Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26737,
+          "ItemName": "Craftsman\u0027s Command Materia VIII",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68766,
+    "QuestTitle": "Cherished Memories",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68767
+    ],
+    "NextQuestTitles": [
+      "For Sentimental Reasons"
+    ],
+    "StarterNpc": "recording node",
+    "StarterNpcLocation": {
+      "RowId": 7846379,
+      "X": 10.9571,
+      "Y": 20.186,
+      "Z": -142.53,
+      "Yaw": -1.31958,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Thiuna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 198,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Crafting Quests"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100846,
+    "JobLevel": 70,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68767,
+    "QuestTitle": "For Sentimental Reasons",
+    "PreviousQuestIds": [
+      68766
+    ],
+    "PreviousQuestTitles": [
+      "Cherished Memories"
+    ],
+    "NextQuestIds": [
+      68768
+    ],
+    "NextQuestTitles": [
+      "The Notes of Bond Restoring"
+    ],
+    "StarterNpc": "Thiuna",
+    "StarterNpcLocation": {
+      "RowId": 7788927,
+      "X": 10.2395,
+      "Y": 20.186,
+      "Z": -138.221,
+      "Yaw": -1.13736,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Thiuna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 198,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Crafting Quests"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 861,
+      "Catalysts": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 11,
+          "ItemName": "Earth Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68768,
+    "QuestTitle": "The Notes of Bond Restoring",
+    "PreviousQuestIds": [
+      68767
+    ],
+    "PreviousQuestTitles": [
+      "For Sentimental Reasons"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Thiuna",
+    "StarterNpcLocation": {
+      "RowId": 7788927,
+      "X": 10.2395,
+      "Y": 20.186,
+      "Z": -138.221,
+      "Yaw": -1.13736,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Thiuna",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 198,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Crafting Quests"
+    },
+    "SortKey": 230,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100846,
+    "JobLevel": 80,
+    "ClassJobCategory": "CRP, LTW, WVR",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1215,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26737,
+          "ItemName": "Craftsman\u0027s Command Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26735,
+          "ItemName": "Craftsman\u0027s Competence Materia VIII",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68769,
+    "QuestTitle": "Friends of a Feather",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68770
+    ],
+    "NextQuestTitles": [
+      "Where We Belong"
+    ],
+    "StarterNpc": "Bethric",
+    "StarterNpcLocation": {
+      "RowId": 7788928,
+      "X": -19.4864,
+      "Y": 20.1571,
+      "Z": -130.155,
+      "Yaw": -1.3323,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Bethric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 199,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Nourishing Quests"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100847,
+    "JobLevel": 70,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 825,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68770,
+    "QuestTitle": "Where We Belong",
+    "PreviousQuestIds": [
+      68769
+    ],
+    "PreviousQuestTitles": [
+      "Friends of a Feather"
+    ],
+    "NextQuestIds": [
+      68771
+    ],
+    "NextQuestTitles": [
+      "Healing Old Wounds"
+    ],
+    "StarterNpc": "Bethric",
+    "StarterNpcLocation": {
+      "RowId": 7788928,
+      "X": -19.4864,
+      "Y": 20.1571,
+      "Z": -130.155,
+      "Yaw": -1.3323,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Bethric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 199,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Nourishing Quests"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1723,
+      "Catalysts": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 250
+        },
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 250
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68771,
+    "QuestTitle": "Healing Old Wounds",
+    "PreviousQuestIds": [
+      68770
+    ],
+    "PreviousQuestTitles": [
+      "Where We Belong"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Bethric",
+    "StarterNpcLocation": {
+      "RowId": 7788928,
+      "X": -19.4864,
+      "Y": 20.1571,
+      "Z": -130.155,
+      "Yaw": -1.3323,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Bethric",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 199,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Nourishing Quests"
+    },
+    "SortKey": 330,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100847,
+    "JobLevel": 80,
+    "ClassJobCategory": "ALC, CUL",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1325,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26735,
+          "ItemName": "Craftsman\u0027s Competence Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26736,
+          "ItemName": "Craftsman\u0027s Cunning Materia VIII",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68772,
+    "QuestTitle": "On the Trail of a Myth",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68773
+    ],
+    "NextQuestTitles": [
+      "Shedding Light on the Myth"
+    ],
+    "StarterNpc": "Qeshi-Rae",
+    "StarterNpcLocation": {
+      "RowId": 7788929,
+      "X": -3.15869,
+      "Y": 20.1571,
+      "Z": -148.902,
+      "Yaw": -2.87468,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Qeshi-Rae",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 200,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Gathering Quests"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100848,
+    "JobLevel": 70,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 752,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68773,
+    "QuestTitle": "Shedding Light on the Myth",
+    "PreviousQuestIds": [
+      68772
+    ],
+    "PreviousQuestTitles": [
+      "On the Trail of a Myth"
+    ],
+    "NextQuestIds": [
+      68774
+    ],
+    "NextQuestTitles": [
+      "The Myth Takes Form"
+    ],
+    "StarterNpc": "Qeshi-Rae",
+    "StarterNpcLocation": {
+      "RowId": 7788929,
+      "X": -3.15869,
+      "Y": 20.1571,
+      "Z": -148.902,
+      "Yaw": -2.87468,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Qeshi-Rae",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 200,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Gathering Quests"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1372,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68774,
+    "QuestTitle": "The Myth Takes Form",
+    "PreviousQuestIds": [
+      68773
+    ],
+    "PreviousQuestTitles": [
+      "Shedding Light on the Myth"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Qeshi-Rae",
+    "StarterNpcLocation": {
+      "RowId": 7788929,
+      "X": -3.15869,
+      "Y": 20.1571,
+      "Z": -148.902,
+      "Yaw": -2.87468,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Qeshi-Rae",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 200,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Gathering Quests"
+    },
+    "SortKey": 430,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100848,
+    "JobLevel": 80,
+    "ClassJobCategory": "MIN, BTN",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1701,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26732,
+          "ItemName": "Gatherer\u0027s Guerdon Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26733,
+          "ItemName": "Gatherer\u0027s Guile Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26734,
+          "ItemName": "Gatherer\u0027s Grasp Materia VIII",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68775,
+    "QuestTitle": "Well Eel Be Damned",
+    "PreviousQuestIds": [
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      68776
+    ],
+    "NextQuestTitles": [
+      "Fishing for Confidence"
+    ],
+    "StarterNpc": "Frithrik",
+    "StarterNpcLocation": {
+      "RowId": 7788930,
+      "X": -8.92877,
+      "Y": 20.186,
+      "Z": -119.161,
+      "Yaw": 2.61634,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Frithrik",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 201,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Fishing Quests"
+    },
+    "SortKey": 510,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100849,
+    "JobLevel": 70,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 1125,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68776,
+    "QuestTitle": "Fishing for Confidence",
+    "PreviousQuestIds": [
+      68775
+    ],
+    "PreviousQuestTitles": [
+      "Well Eel Be Damned"
+    ],
+    "NextQuestIds": [
+      68777
+    ],
+    "NextQuestTitles": [
+      "Morsel of the Deep"
+    ],
+    "StarterNpc": "Frithrik",
+    "StarterNpcLocation": {
+      "RowId": 7788930,
+      "X": -8.92877,
+      "Y": 20.186,
+      "Z": -119.161,
+      "Yaw": 2.61634,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Lobb",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 201,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Fishing Quests"
+    },
+    "SortKey": 520,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 75,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1395000,
+      "Gil": 1295,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12669,
+          "ItemName": "Hi-Cordial",
+          "Count": 30
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68777,
+    "QuestTitle": "Morsel of the Deep",
+    "PreviousQuestIds": [
+      68776
+    ],
+    "PreviousQuestTitles": [
+      "Fishing for Confidence"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Frithrik",
+    "StarterNpcLocation": {
+      "RowId": 7788930,
+      "X": -8.92877,
+      "Y": 20.186,
+      "Z": -119.161,
+      "Yaw": 2.61634,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Frithrik",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 201,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Facet of Fishing Quests"
+    },
+    "SortKey": 530,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100849,
+    "JobLevel": 80,
+    "ClassJobCategory": "FSH",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2027,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26732,
+          "ItemName": "Gatherer\u0027s Guerdon Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26733,
+          "ItemName": "Gatherer\u0027s Guile Materia VIII",
+          "Count": 2
+        },
+        {
+          "ItemId": 26734,
+          "ItemName": "Gatherer\u0027s Grasp Materia VIII",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68778,
+    "QuestTitle": "For Every Child a Star",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Katliss",
+    "StarterNpcLocation": {
+      "RowId": 7788925,
+      "X": -9.3233,
+      "Y": 20.1973,
+      "Z": -136.523,
+      "Yaw": -2.07853,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 202,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Crystalline Mean Quests"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100850,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1055,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69191,
+    "QuestTitle": "The Crystalline Mean",
+    "PreviousQuestIds": [
+      68839
+    ],
+    "PreviousQuestTitles": [
+      "The Crystarium\u0027s Resolve"
+    ],
+    "NextQuestIds": [
+      68763,
+      68766,
+      68769,
+      68772,
+      68775,
+      70266
+    ],
+    "NextQuestTitles": [
+      "Iola, Forgemaster",
+      "Cherished Memories",
+      "Friends of a Feather",
+      "On the Trail of a Myth",
+      "Well Eel Be Damned",
+      "An Original Improvement"
+    ],
+    "StarterNpc": "Katliss",
+    "StarterNpcLocation": {
+      "RowId": 7788925,
+      "X": -9.3233,
+      "Y": 20.1973,
+      "Z": -136.523,
+      "Yaw": -2.07853,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Katliss",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 202,
+      "JournalCategory": {
+        "Id": 90,
+        "Name": "Crystalline Mean Quests"
+      },
+      "Name": "Crystalline Mean Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 569,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
