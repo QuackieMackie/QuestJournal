@@ -1,0 +1,386 @@
+[
+  {
+    "QuestId": 70789,
+    "QuestTitle": "A Cosmic Homecoming",
+    "PreviousQuestIds": [
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70790
+    ],
+    "NextQuestTitles": [
+      "Passion, Thy Name Is Ardorum"
+    ],
+    "StarterNpc": "Namingway",
+    "StarterNpcLocation": {
+      "RowId": 11513654,
+      "X": 71.8695,
+      "Y": -16.247,
+      "Z": 118.271,
+      "Yaw": -0.591942,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Searchingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Main Quests"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101408,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 922,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 48750,
+          "ItemName": "Cosmic Prototype Coffer",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70790,
+    "QuestTitle": "Passion, Thy Name Is Ardorum",
+    "PreviousQuestIds": [
+      70789
+    ],
+    "PreviousQuestTitles": [
+      "A Cosmic Homecoming"
+    ],
+    "NextQuestIds": [
+      70859,
+      70945
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Patience",
+      "Go Forth, Brave Explorers"
+    ],
+    "StarterNpc": "Searchingway",
+    "StarterNpcLocation": {
+      "RowId": 11513887,
+      "X": -53.1515,
+      "Y": 0,
+      "Z": -72.1156,
+      "Yaw": 0.573256,
+      "Radius": 1,
+      "MapId": 1004,
+      "TerritoryId": 1237
+    },
+    "FinishNpc": "Searchingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Main Quests"
+    },
+    "SortKey": 102,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101409,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 276,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70945,
+    "QuestTitle": "Go Forth, Brave Explorers",
+    "PreviousQuestIds": [
+      70790
+    ],
+    "PreviousQuestTitles": [
+      "Passion, Thy Name Is Ardorum"
+    ],
+    "NextQuestIds": [
+      70946
+    ],
+    "NextQuestTitles": [
+      "The Brightest Star"
+    ],
+    "StarterNpc": "Searchingway",
+    "StarterNpcLocation": {
+      "RowId": 11783816,
+      "X": -53.1515,
+      "Y": 0,
+      "Z": -72.1156,
+      "Yaw": 0.573256,
+      "Radius": 1,
+      "MapId": 1031,
+      "TerritoryId": 1237
+    },
+    "FinishNpc": "Searchingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Main Quests"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101444,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 263,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70946,
+    "QuestTitle": "The Brightest Star",
+    "PreviousQuestIds": [
+      70945
+    ],
+    "PreviousQuestTitles": [
+      "Go Forth, Brave Explorers"
+    ],
+    "NextQuestIds": [
+      70947,
+      70948,
+      70949,
+      70984
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Discernment",
+      "Perspective Reflected",
+      "Pilot Wanted",
+      "Mission of Gravity"
+    ],
+    "StarterNpc": "Searchingway",
+    "StarterNpcLocation": {
+      "RowId": 11905087,
+      "X": 287.518,
+      "Y": 52,
+      "Z": -382.956,
+      "Yaw": -0.503711,
+      "Radius": 1,
+      "MapId": 1066,
+      "TerritoryId": 1291
+    },
+    "FinishNpc": "Searchingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Main Quests"
+    },
+    "SortKey": 202,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101445,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 276,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70984,
+    "QuestTitle": "Mission of Gravity",
+    "PreviousQuestIds": [
+      70946
+    ],
+    "PreviousQuestTitles": [
+      "The Brightest Star"
+    ],
+    "NextQuestIds": [
+      70985
+    ],
+    "NextQuestTitles": [
+      "Memory\u0027s Orbit"
+    ],
+    "StarterNpc": "Searchingway",
+    "StarterNpcLocation": {
+      "RowId": 11905091,
+      "X": 287.518,
+      "Y": 52,
+      "Z": -382.956,
+      "Yaw": -0.503711,
+      "Radius": 1,
+      "MapId": 1086,
+      "TerritoryId": 1291
+    },
+    "FinishNpc": "Searchingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Main Quests"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101455,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 270,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70985,
+    "QuestTitle": "Memory\u0027s Orbit",
+    "PreviousQuestIds": [
+      70984
+    ],
+    "PreviousQuestTitles": [
+      "Mission of Gravity"
+    ],
+    "NextQuestIds": [
+      70986,
+      70987,
+      70989
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Prudence",
+      "Terror along the Tracks",
+      "An Interstellar Field Trip"
+    ],
+    "StarterNpc": "Searchingway",
+    "StarterNpcLocation": {
+      "RowId": 12191403,
+      "X": -214.016,
+      "Y": 0.500006,
+      "Z": 67.4384,
+      "Yaw": 0.687471,
+      "Radius": 1,
+      "MapId": 1139,
+      "TerritoryId": 1310
+    },
+    "FinishNpc": "Searchingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 108,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Main Quests"
+    },
+    "SortKey": 302,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101456,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 276,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

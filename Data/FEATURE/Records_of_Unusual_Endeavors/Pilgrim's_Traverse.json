@@ -1,0 +1,281 @@
+[
+  {
+    "QuestId": 70941,
+    "QuestTitle": "Pilgrimage of Light",
+    "PreviousQuestIds": [
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70942
+    ],
+    "NextQuestTitles": [
+      "Faerie Tale"
+    ],
+    "StarterNpc": "bright-eyed child",
+    "StarterNpcLocation": {
+      "RowId": 11881162,
+      "X": -44.3885,
+      "Y": 2.82288,
+      "Z": -23.8804,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Vanthau",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 105,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Pilgrim\u0027s Traverse"
+    },
+    "SortKey": 401,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101437,
+    "JobLevel": 91,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 252000,
+      "Gil": 1477,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 47342,
+          "ItemName": "Luminous Oil",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 1032,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 1-10)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1033,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 11-20)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1034,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 21-30)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70942,
+    "QuestTitle": "Faerie Tale",
+    "PreviousQuestIds": [
+      70941
+    ],
+    "PreviousQuestTitles": [
+      "Pilgrimage of Light"
+    ],
+    "NextQuestIds": [
+      70943
+    ],
+    "NextQuestTitles": [
+      "A Branch and Their Sapling"
+    ],
+    "StarterNpc": "Aenc Daen",
+    "StarterNpcLocation": {
+      "RowId": 11875004,
+      "X": 418.774,
+      "Y": 89.4685,
+      "Z": -779.565,
+      "Yaw": -0.222119,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Aenc Daen",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 105,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Pilgrim\u0027s Traverse"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101438,
+    "JobLevel": 91,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 252000,
+      "Gil": 747,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46152,
+          "ItemName": "What Angel Wakes Me (Scions \u0026 Sinners: Instrumental) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 1035,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 31-40)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1036,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 41-50)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1037,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 51-60)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1038,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 61-70)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1039,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 71-80)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1040,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 81-90)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 1041,
+          "InstanceName": "Pilgrim\u0027s Traverse (Stones 91-100)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70943,
+    "QuestTitle": "A Branch and Their Sapling",
+    "PreviousQuestIds": [
+      70942
+    ],
+    "PreviousQuestTitles": [
+      "Faerie Tale"
+    ],
+    "NextQuestIds": [
+      70944
+    ],
+    "NextQuestTitles": [
+      "The Pilgrim\u0027s Answer"
+    ],
+    "StarterNpc": "Aenc Daen",
+    "StarterNpcLocation": {
+      "RowId": 11875004,
+      "X": 418.774,
+      "Y": 89.4685,
+      "Z": -779.565,
+      "Yaw": -0.222119,
+      "Radius": 1,
+      "MapId": 494,
+      "TerritoryId": 816
+    },
+    "FinishNpc": "Aenc Daen",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 105,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Pilgrim\u0027s Traverse"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101439,
+    "JobLevel": 91,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 252000,
+      "Gil": 834,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46255,
+          "ItemName": "Sacramental Spirits",
+          "Count": 8
+        },
+        {
+          "ItemId": 46256,
+          "ItemName": "Sacramental Spices",
+          "Count": 8
+        },
+        {
+          "ItemId": 46257,
+          "ItemName": "Sacramental Grain",
+          "Count": 8
+        },
+        {
+          "ItemId": 46258,
+          "ItemName": "Sacramental Light",
+          "Count": 8
+        },
+        {
+          "ItemId": 46259,
+          "ItemName": "Sacramental Lilies",
+          "Count": 8
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 1063,
+          "InstanceName": "the Final Verse (Quantum)",
+          "ContentType": 39
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

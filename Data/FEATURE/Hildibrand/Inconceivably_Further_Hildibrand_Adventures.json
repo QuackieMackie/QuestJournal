@@ -1,0 +1,305 @@
+[
+  {
+    "QuestId": 70728,
+    "QuestTitle": "The Case of the Displaced Inspector",
+    "PreviousQuestIds": [
+      70336,
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Gentlemen at Heart",
+      "Dawntrail"
+    ],
+    "NextQuestIds": [
+      70831
+    ],
+    "NextQuestTitles": [
+      "Wizened Testimony"
+    ],
+    "StarterNpc": "Nashu Mhakaracca",
+    "StarterNpcLocation": {
+      "RowId": 10956900,
+      "X": 56.5957,
+      "Y": -14,
+      "Z": 79.9115,
+      "Yaw": -2.30058,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Nashu Mhakaracca",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 86,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Inconceivably Further Hildibrand Adventures"
+    },
+    "SortKey": 600,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101374,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70831,
+    "QuestTitle": "Wizened Testimony",
+    "PreviousQuestIds": [
+      70728
+    ],
+    "PreviousQuestTitles": [
+      "The Case of the Displaced Inspector"
+    ],
+    "NextQuestIds": [
+      70832
+    ],
+    "NextQuestTitles": [
+      "The Case of the Fiendish Fugitives"
+    ],
+    "StarterNpc": "Nashu Mhakaracca",
+    "StarterNpcLocation": {
+      "RowId": 10956991,
+      "X": 307.68,
+      "Y": 70.0001,
+      "Z": -26.9336,
+      "Yaw": 1.40346,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Hardiboiled",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 86,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Inconceivably Further Hildibrand Adventures"
+    },
+    "SortKey": 610,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101397,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1230,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70832,
+    "QuestTitle": "The Case of the Fiendish Fugitives",
+    "PreviousQuestIds": [
+      70831
+    ],
+    "PreviousQuestTitles": [
+      "Wizened Testimony"
+    ],
+    "NextQuestIds": [
+      70914
+    ],
+    "NextQuestTitles": [
+      "A Vandal in the Wild"
+    ],
+    "StarterNpc": "Hardiboiled",
+    "StarterNpcLocation": {
+      "RowId": 11552184,
+      "X": 90.2266,
+      "Y": 12.0394,
+      "Z": 147.112,
+      "Yaw": -1.60958,
+      "Radius": 1,
+      "MapId": 1028,
+      "TerritoryId": 1254
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 86,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Inconceivably Further Hildibrand Adventures"
+    },
+    "SortKey": 620,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101398,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1235,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70914,
+    "QuestTitle": "A Vandal in the Wild",
+    "PreviousQuestIds": [
+      70832
+    ],
+    "PreviousQuestTitles": [
+      "The Case of the Fiendish Fugitives"
+    ],
+    "NextQuestIds": [
+      70915
+    ],
+    "NextQuestTitles": [
+      "On the Trail of Destruction"
+    ],
+    "StarterNpc": "Hardiboiled",
+    "StarterNpcLocation": {
+      "RowId": 11486750,
+      "X": 231.675,
+      "Y": 50.7362,
+      "Z": 210.254,
+      "Yaw": 3.00288,
+      "Radius": 1,
+      "MapId": 856,
+      "TerritoryId": 1186
+    },
+    "FinishNpc": "Nashu Mhakaracca",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 86,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Inconceivably Further Hildibrand Adventures"
+    },
+    "SortKey": 630,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101434,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1697,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70915,
+    "QuestTitle": "On the Trail of Destruction",
+    "PreviousQuestIds": [
+      70914
+    ],
+    "PreviousQuestTitles": [
+      "A Vandal in the Wild"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 11861574,
+      "X": -329.189,
+      "Y": 18.022,
+      "Z": -137.258,
+      "Yaw": 0.0669426,
+      "Radius": 1,
+      "MapId": 860,
+      "TerritoryId": 1190
+    },
+    "FinishNpc": "Hardiboiled",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 86,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Inconceivably Further Hildibrand Adventures"
+    },
+    "SortKey": 640,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101435,
+    "JobLevel": 100,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2383,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

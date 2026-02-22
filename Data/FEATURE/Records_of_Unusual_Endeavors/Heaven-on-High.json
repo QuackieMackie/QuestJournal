@@ -1,0 +1,172 @@
+[
+  {
+    "QuestId": 68667,
+    "QuestTitle": "Knocking on Heaven\u0027s Door",
+    "PreviousQuestIds": [
+      68026
+    ],
+    "PreviousQuestTitles": [
+      "Tide Goes in, Imperials Go Out"
+    ],
+    "NextQuestIds": [
+      68668
+    ],
+    "NextQuestTitles": [
+      "On the Shoulders of Giants"
+    ],
+    "StarterNpc": "Hamakaze",
+    "StarterNpcLocation": {
+      "RowId": 6860020,
+      "X": -761.898,
+      "Y": 4.76346,
+      "Z": -485.222,
+      "Yaw": -0.249899,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kyusei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 103,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Heaven-on-High"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100777,
+    "JobLevel": 61,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 540,
+          "InstanceName": "Heaven-on-High  (Floors 1-10)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 541,
+          "InstanceName": "Heaven-on-High  (Floors 11-20)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 542,
+          "InstanceName": "Heaven-on-High  (Floors 21-30)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68668,
+    "QuestTitle": "On the Shoulders of Giants",
+    "PreviousQuestIds": [
+      68667
+    ],
+    "PreviousQuestTitles": [
+      "Knocking on Heaven\u0027s Door"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kyusei",
+    "StarterNpcLocation": {
+      "RowId": 7397070,
+      "X": -2.00187,
+      "Y": 3.03082,
+      "Z": -611.336,
+      "Yaw": -0.0686887,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Kyusei",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 103,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Heaven-on-High"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100778,
+    "JobLevel": 61,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25250,
+      "Gil": 754,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 543,
+          "InstanceName": "Heaven-on-High  (Floors 31-40)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 544,
+          "InstanceName": "Heaven-on-High  (Floors 41-50)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 545,
+          "InstanceName": "Heaven-on-High  (Floors 51-60)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 546,
+          "InstanceName": "Heaven-on-High  (Floors 61-70)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 547,
+          "InstanceName": "Heaven-on-High  (Floors 71-80)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 548,
+          "InstanceName": "Heaven-on-High  (Floors 81-90)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 549,
+          "InstanceName": "Heaven-on-High  (Floors 91-100)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

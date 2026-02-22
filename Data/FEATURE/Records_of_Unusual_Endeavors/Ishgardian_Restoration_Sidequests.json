@@ -1,0 +1,1654 @@
+[
+  {
+    "QuestId": 69373,
+    "QuestTitle": "If Songs Had Wings",
+    "PreviousQuestIds": [
+      69264
+    ],
+    "PreviousQuestTitles": [
+      "To Thaw a Frozen Heart"
+    ],
+    "NextQuestIds": [
+      69425
+    ],
+    "NextQuestTitles": [
+      "O Crafter, My Crafter"
+    ],
+    "StarterNpc": "Ehll Tou",
+    "StarterNpcLocation": {
+      "RowId": 8144750,
+      "X": 206.228,
+      "Y": -40.0245,
+      "Z": 12.1186,
+      "Yaw": -2.82975,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Ehll Tou",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 1038,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69374,
+    "QuestTitle": "Adventurers and Admirers",
+    "PreviousQuestIds": [
+      69264,
+      67792
+    ],
+    "PreviousQuestTitles": [
+      "To Thaw a Frozen Heart",
+      "\uE0BE Adventurers Don\u0027t Get Cold Feet"
+    ],
+    "NextQuestIds": [
+      69498
+    ],
+    "NextQuestTitles": [
+      "Calling All Adventurers"
+    ],
+    "StarterNpc": "earnest adventurer",
+    "StarterNpcLocation": {
+      "RowId": 8267149,
+      "X": 39.6422,
+      "Y": -20,
+      "Z": 48.9967,
+      "Yaw": 1.52481,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "ravishing resident",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 713,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69375,
+    "QuestTitle": "Shadow over the Orphanage",
+    "PreviousQuestIds": [
+      69264
+    ],
+    "PreviousQuestTitles": [
+      "To Thaw a Frozen Heart"
+    ],
+    "NextQuestIds": [
+      69376
+    ],
+    "NextQuestTitles": [
+      "Small Hands, Big Hearts"
+    ],
+    "StarterNpc": "ruffled resident",
+    "StarterNpcLocation": {
+      "RowId": 8267158,
+      "X": 139.473,
+      "Y": -50,
+      "Z": 108.118,
+      "Yaw": -3.09991,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "ruffled resident",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 2001,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27889,
+          "ItemName": "Kukuru Rusk",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69376,
+    "QuestTitle": "Small Hands, Big Hearts",
+    "PreviousQuestIds": [
+      69375
+    ],
+    "PreviousQuestTitles": [
+      "Shadow over the Orphanage"
+    ],
+    "NextQuestIds": [
+      69495
+    ],
+    "NextQuestTitles": [
+      "A Fashionable Friendship"
+    ],
+    "StarterNpc": "Peyraquile",
+    "StarterNpcLocation": {
+      "RowId": 8267169,
+      "X": 117.809,
+      "Y": -40,
+      "Z": 130.976,
+      "Yaw": 1.53935,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Julchiezain",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 2002,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 27892,
+          "ItemName": "Exquisite Beef Stew",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69384,
+    "QuestTitle": "Mislaid Plans",
+    "PreviousQuestIds": [
+      69208
+    ],
+    "PreviousQuestTitles": [
+      "Towards the Firmament"
+    ],
+    "NextQuestIds": [
+      69385
+    ],
+    "NextQuestTitles": [
+      "Work It Harder, Make It Better"
+    ],
+    "StarterNpc": "Skysteel engineer",
+    "StarterNpcLocation": {
+      "RowId": 8274202,
+      "X": 151.488,
+      "Y": -20,
+      "Z": 65.9305,
+      "Yaw": -2.58127,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Neillemard",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10001,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100980,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 29679,
+          "ItemName": "Skysteel Prototype Coffer",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69385,
+    "QuestTitle": "Work It Harder, Make It Better",
+    "PreviousQuestIds": [
+      69384
+    ],
+    "PreviousQuestTitles": [
+      "Mislaid Plans"
+    ],
+    "NextQuestIds": [
+      69428
+    ],
+    "NextQuestTitles": [
+      "In Everyone\u0027s Best Interests"
+    ],
+    "StarterNpc": "Neillemard",
+    "StarterNpcLocation": {
+      "RowId": 8274203,
+      "X": -163.454,
+      "Y": 16.9796,
+      "Z": -29.2914,
+      "Yaw": 2.43498,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Nimie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10002,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100980,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 28720,
+          "ItemName": "Mejillones al Ajillo",
+          "Count": 5,
+          "IsHq": true
+        },
+        {
+          "ItemId": 28721,
+          "ItemName": "Arros Negre",
+          "Count": 5,
+          "IsHq": true
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69425,
+    "QuestTitle": "O Crafter, My Crafter",
+    "PreviousQuestIds": [
+      69373,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "If Songs Had Wings",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      69426
+    ],
+    "NextQuestTitles": [
+      "An Ode to Unity"
+    ],
+    "StarterNpc": "Ehll Tou",
+    "StarterNpcLocation": {
+      "RowId": 8267147,
+      "X": 113.792,
+      "Y": -20,
+      "Z": -0.312634,
+      "Yaw": -1.56084,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Ehll Tou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1002,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28720,
+          "ItemName": "Mejillones al Ajillo",
+          "Count": 5
+        },
+        {
+          "ItemId": 28721,
+          "ItemName": "Arros Negre",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69426,
+    "QuestTitle": "An Ode to Unity",
+    "PreviousQuestIds": [
+      69425
+    ],
+    "PreviousQuestTitles": [
+      "O Crafter, My Crafter"
+    ],
+    "NextQuestIds": [
+      69427
+    ],
+    "NextQuestTitles": [
+      "On Ehll Tou\u0027s Wings"
+    ],
+    "StarterNpc": "Ehll Tou",
+    "StarterNpcLocation": {
+      "RowId": 8370121,
+      "X": 113.39,
+      "Y": -20.0046,
+      "Z": -0.961365,
+      "Yaw": -1.17039,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Ehll Tou",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1003,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30481,
+          "ItemName": "Crab Cakes",
+          "Count": 3
+        },
+        {
+          "ItemId": 30482,
+          "ItemName": "Chili Crab",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69427,
+    "QuestTitle": "On Ehll Tou\u0027s Wings",
+    "PreviousQuestIds": [
+      69426
+    ],
+    "PreviousQuestTitles": [
+      "An Ode to Unity"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hautdilong",
+    "StarterNpcLocation": {
+      "RowId": 8370120,
+      "X": 113.298,
+      "Y": -20.0046,
+      "Z": 1.44958,
+      "Yaw": -1.94785,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Arvide",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1004,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30866,
+          "ItemName": "Ehll Tou Whistle",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69428,
+    "QuestTitle": "In Everyone\u0027s Best Interests",
+    "PreviousQuestIds": [
+      69385
+    ],
+    "PreviousQuestTitles": [
+      "Work It Harder, Make It Better"
+    ],
+    "NextQuestIds": [
+      69429
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Ever Skyward"
+    ],
+    "StarterNpc": "Neillemard",
+    "StarterNpcLocation": {
+      "RowId": 8274203,
+      "X": -163.454,
+      "Y": 16.9796,
+      "Z": -29.2914,
+      "Yaw": 2.43498,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Nimie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10003,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101004,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69429,
+    "QuestTitle": "\uE0BF Ever Skyward",
+    "PreviousQuestIds": [
+      69428
+    ],
+    "PreviousQuestTitles": [
+      "In Everyone\u0027s Best Interests"
+    ],
+    "NextQuestIds": [
+      69430
+    ],
+    "NextQuestTitles": [
+      "\uE0BF The Tools of Tomorrow"
+    ],
+    "StarterNpc": "Nimie",
+    "StarterNpcLocation": {
+      "RowId": 8274204,
+      "X": -165.308,
+      "Y": 16.9796,
+      "Z": -30.5179,
+      "Yaw": 2.38958,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Nimie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10004,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101004,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 14,
+          "ItemName": "Fire Cluster",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69430,
+    "QuestTitle": "\uE0BF The Tools of Tomorrow",
+    "PreviousQuestIds": [
+      69429
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Ever Skyward"
+    ],
+    "NextQuestIds": [
+      69518
+    ],
+    "NextQuestTitles": [
+      "Oddness in the End"
+    ],
+    "StarterNpc": "Nimie",
+    "StarterNpcLocation": {
+      "RowId": 8274204,
+      "X": -165.308,
+      "Y": 16.9796,
+      "Z": -30.5179,
+      "Yaw": 2.38958,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Nimie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10005,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101004,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 15,
+          "ItemName": "Ice Cluster",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69495,
+    "QuestTitle": "A Fashionable Friendship",
+    "PreviousQuestIds": [
+      69494,
+      69376
+    ],
+    "PreviousQuestTitles": [
+      "May Featherfall Flourish",
+      "Small Hands, Big Hearts"
+    ],
+    "NextQuestIds": [
+      69539
+    ],
+    "NextQuestTitles": [
+      "Warm Hands, Warm Hearts"
+    ],
+    "StarterNpc": "Peyraquile",
+    "StarterNpcLocation": {
+      "RowId": 8267169,
+      "X": 117.809,
+      "Y": -40,
+      "Z": 130.976,
+      "Yaw": 1.53935,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Lycelle",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 2003,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69496,
+    "QuestTitle": "The Brume Lifts",
+    "PreviousQuestIds": [
+      69494
+    ],
+    "PreviousQuestTitles": [
+      "May Featherfall Flourish"
+    ],
+    "NextQuestIds": [
+      69615
+    ],
+    "NextQuestTitles": [
+      "You Can Count on It"
+    ],
+    "StarterNpc": "Charlemend de Durendaire",
+    "StarterNpcLocation": {
+      "RowId": 8380532,
+      "X": -37.8882,
+      "Y": -20.0046,
+      "Z": 59.4338,
+      "Yaw": 2.73412,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Sestivald",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1501,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101003,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30129,
+          "ItemName": "Magicked Prism (House Fortemps)",
+          "Count": 10
+        },
+        {
+          "ItemId": 30128,
+          "ItemName": "Magicked Prism (House Durendaire)",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69497,
+    "QuestTitle": "A Gathering of Gaelicats",
+    "PreviousQuestIds": [
+      69494
+    ],
+    "PreviousQuestTitles": [
+      "May Featherfall Flourish"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "House Haillenarte soldier",
+    "StarterNpcLocation": {
+      "RowId": 8389070,
+      "X": -80.8712,
+      "Y": 2.02656E-06,
+      "Z": 107.728,
+      "Yaw": 0.6473,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "weatherproof gaelicat",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69498,
+    "QuestTitle": "Calling All Adventurers",
+    "PreviousQuestIds": [
+      69494,
+      69374
+    ],
+    "PreviousQuestTitles": [
+      "May Featherfall Flourish",
+      "Adventurers and Admirers"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Philestiaux",
+    "StarterNpcLocation": {
+      "RowId": 8389077,
+      "X": -100.589,
+      "Y": 1.5,
+      "Z": 87.2721,
+      "Yaw": -1.99878,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Philestiaux",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1102,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 583,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69518,
+    "QuestTitle": "Oddness in the End",
+    "PreviousQuestIds": [
+      69430
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF The Tools of Tomorrow"
+    ],
+    "NextQuestIds": [
+      69519
+    ],
+    "NextQuestTitles": [
+      "\uE0BF The Pinnacle of Possibility"
+    ],
+    "StarterNpc": "Neillemard",
+    "StarterNpcLocation": {
+      "RowId": 8274203,
+      "X": -163.454,
+      "Y": 16.9796,
+      "Z": -29.2914,
+      "Yaw": 2.43498,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Emeny",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10006,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101025,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69519,
+    "QuestTitle": "\uE0BF The Pinnacle of Possibility",
+    "PreviousQuestIds": [
+      69518
+    ],
+    "PreviousQuestTitles": [
+      "Oddness in the End"
+    ],
+    "NextQuestIds": [
+      69520
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Greater Heights"
+    ],
+    "StarterNpc": "Emeny",
+    "StarterNpcLocation": {
+      "RowId": 8473430,
+      "X": -72.656,
+      "Y": -10,
+      "Z": 169.119,
+      "Yaw": -1.54016,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Emeny",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10007,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101025,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 19,
+          "ItemName": "Water Cluster",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69520,
+    "QuestTitle": "\uE0BF Greater Heights",
+    "PreviousQuestIds": [
+      69519
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF The Pinnacle of Possibility"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Joellie",
+    "StarterNpcLocation": {
+      "RowId": 8473431,
+      "X": -72.7398,
+      "Y": -10,
+      "Z": 170.733,
+      "Yaw": -1.59929,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Neillemard",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 10008,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101025,
+    "JobLevel": 80,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69539,
+    "QuestTitle": "Warm Hands, Warm Hearts",
+    "PreviousQuestIds": [
+      69538,
+      69495
+    ],
+    "PreviousQuestTitles": [
+      "Smiles Cross the Sky",
+      "A Fashionable Friendship"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Peyraquile",
+    "StarterNpcLocation": {
+      "RowId": 8267169,
+      "X": 117.809,
+      "Y": -40,
+      "Z": 130.976,
+      "Yaw": 1.53935,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Peyraquile",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 2004,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 778,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30130,
+          "ItemName": "Magicked Prism (Temple Knights)",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69540,
+    "QuestTitle": "Of Steam, Sweat, and Water",
+    "PreviousQuestIds": [
+      69538
+    ],
+    "PreviousQuestTitles": [
+      "Smiles Cross the Sky"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "blissful bather",
+    "StarterNpcLocation": {
+      "RowId": 8541795,
+      "X": 130.027,
+      "Y": -20.0001,
+      "Z": -122.107,
+      "Yaw": -3.03946,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "blissful bather",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1202,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30126,
+          "ItemName": "Magicked Prism (House Dzemael)",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69541,
+    "QuestTitle": "Swords to Plowshares",
+    "PreviousQuestIds": [
+      69538
+    ],
+    "PreviousQuestTitles": [
+      "Smiles Cross the Sky"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Edilaude",
+    "StarterNpcLocation": {
+      "RowId": 8541834,
+      "X": 51.319,
+      "Y": 1.5,
+      "Z": -141.186,
+      "Yaw": -2.75982,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Edilaude",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1203,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 713,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30125,
+          "ItemName": "Magicked Prism (Ishgard)",
+          "Count": 10
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69542,
+    "QuestTitle": "Planting the Seed",
+    "PreviousQuestIds": [
+      69538
+    ],
+    "PreviousQuestTitles": [
+      "Smiles Cross the Sky"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpcLocation": {
+      "RowId": 8541862,
+      "X": 14.1741,
+      "Y": -19,
+      "Z": -45.6443,
+      "Yaw": 0,
+      "Radius": 0.99176,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Jeacock",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1204,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 648,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20795,
+          "ItemName": "Brightlily Seeds",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69615,
+    "QuestTitle": "You Can Count on It",
+    "PreviousQuestIds": [
+      69538,
+      69496,
+      67634
+    ],
+    "PreviousQuestTitles": [
+      "Smiles Cross the Sky",
+      "The Brume Lifts",
+      "Go West, Craftsman"
+    ],
+    "NextQuestIds": [
+      69616
+    ],
+    "NextQuestTitles": [
+      "Those Who Serve"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8537292,
+      "X": -7.14477,
+      "Y": -16.0067,
+      "Z": 163.454,
+      "Yaw": 1.5912,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Maelie",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1502,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 12861,
+          "ItemName": "Baked Onion Soup",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 12866,
+          "ItemName": "Stuffed Cabbage Rolls",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 0,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69616,
+    "QuestTitle": "Those Who Serve",
+    "PreviousQuestIds": [
+      69615
+    ],
+    "PreviousQuestTitles": [
+      "You Can Count on It"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Maurilette",
+    "StarterNpcLocation": {
+      "RowId": 8628768,
+      "X": -116.93,
+      "Y": -0.0153198,
+      "Z": -137.301,
+      "Yaw": 1.51021,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Charlemend",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 100,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Sidequests"
+    },
+    "SortKey": 1503,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 54000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 30481,
+          "ItemName": "Crab Cakes",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 30482,
+          "ItemName": "Chili Crab",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 0,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

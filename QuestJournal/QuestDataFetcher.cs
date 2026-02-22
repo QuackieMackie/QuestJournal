@@ -352,6 +352,9 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (GetCategoryIdByName("Omicron Quests") ?? 0, "Tribe Quests", 1, null),
             (GetCategoryIdByName("Loporrit Quests") ?? 0, "Tribe Quests", 1, null),
 
+            (GetCategoryIdByName("Grand Company Quests") ?? 0, "Other", 1, null),
+            (GetCategoryIdByName("Seasonal Events") ?? 0, "Other", 1, null),
+            (GetCategoryIdByName("Special Quests") ?? 0, "Other", 1, null),
             (glamourQuestIds, "Other", 3, "Glamour and Customization"),
             (materiaQuestIds, "Other", 3, "Materia"),
             (guildHestQuestIds, "Other", 3, "Guild Hests"),
@@ -415,6 +418,13 @@ public class QuestDataFetcher(IDataManager dataManager, IPluginLog log)
             (GetCategoryIdByName("Unlost World Sidequests") ?? 0, "Areas", 1, null),
             (GetCategoryIdByName("Xak Tural Sidequests") ?? 0, "Areas", 0, null),
             (GetCategoryIdByName("Yok Tural Sidequests") ?? 0, "Areas", 0, null),
+
+            // Various Sidequests
+            (GetCategoryIdByName("Chronicles of Light") ?? 0, "Chronicles of Light", 0, null),
+            (GetCategoryIdByName("Records of Unusual Endeavors") ?? 0, "Records of Unusual Endeavors", 0, null),
+            (GetCategoryIdByName("Hildibrand Sidequests") ?? 0, "Hildibrand", 0, null),
+            (GetCategoryIdByName("Weapon Enhancement Sidequests") ?? 0, "Weapon Enhancement", 0, null),
+            (GetCategoryIdByName("Side Story Quests") ?? 0, "Side Story", 0, null),
         };
 
         foreach (var quest in allQuests)

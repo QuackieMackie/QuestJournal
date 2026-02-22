@@ -1,0 +1,128 @@
+[
+  {
+    "QuestId": 70196,
+    "QuestTitle": "Shadowed Pasts",
+    "PreviousQuestIds": [
+      70136
+    ],
+    "PreviousQuestTitles": [
+      "Buried Memory"
+    ],
+    "NextQuestIds": [
+      70197
+    ],
+    "NextQuestTitles": [
+      "Shadowed Pasts Once More"
+    ],
+    "StarterNpc": "Radiant scout",
+    "StarterNpcLocation": {
+      "RowId": 9398053,
+      "X": -319.264,
+      "Y": 44.8277,
+      "Z": 36.3012,
+      "Yaw": -3.06274,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "sullen-eyed voidsent",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 80,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of Newfound Adventure"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101208,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 49728,
+      "Gil": 1734,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70197,
+    "QuestTitle": "Shadowed Pasts Once More",
+    "PreviousQuestIds": [
+      70196,
+      70214
+    ],
+    "PreviousQuestTitles": [
+      "Shadowed Pasts",
+      "Gods Revel, Lands Tremble"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Radiant scout",
+    "StarterNpcLocation": {
+      "RowId": 9398054,
+      "X": -196.251,
+      "Y": 4.065,
+      "Z": -107.274,
+      "Yaw": 2.40524,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "sullen-eyed voidsent",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 80,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of Newfound Adventure"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101213,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 49728,
+      "Gil": 1734,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 39594,
+          "ItemName": "Somewhere in the World (Ambitions Writhe) Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

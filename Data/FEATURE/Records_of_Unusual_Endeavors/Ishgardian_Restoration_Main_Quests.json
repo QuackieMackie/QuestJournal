@@ -1,0 +1,880 @@
+[
+  {
+    "QuestId": 69208,
+    "QuestTitle": "Towards the Firmament",
+    "PreviousQuestIds": [
+      67783
+    ],
+    "PreviousQuestTitles": [
+      "Litany of Peace"
+    ],
+    "NextQuestIds": [
+      69261,
+      69296,
+      69377,
+      69384,
+      69508,
+      69578
+    ],
+    "NextQuestTitles": [
+      "A Home in the Firmament",
+      "The Mendicant\u0027s Court",
+      "The New Nest",
+      "Mislaid Plans",
+      "Featherfall",
+      "The Risensong Quarter"
+    ],
+    "StarterNpcLocation": {
+      "RowId": 8144661,
+      "X": -74.5238,
+      "Y": 10.7091,
+      "Z": 16.7503,
+      "Yaw": 1.2188,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100957,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12862,
+          "ItemName": "Beet Soup",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 722,
+          "InstanceName": "the Diadem",
+          "ContentType": 16
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69261,
+    "QuestTitle": "A Home in the Firmament",
+    "PreviousQuestIds": [
+      69208
+    ],
+    "PreviousQuestTitles": [
+      "Towards the Firmament"
+    ],
+    "NextQuestIds": [
+      69262
+    ],
+    "NextQuestTitles": [
+      "Overseer for a Day"
+    ],
+    "StarterNpc": "Foncrineau",
+    "StarterNpcLocation": {
+      "RowId": 8267807,
+      "X": -8.24482,
+      "Y": -16,
+      "Z": 162.436,
+      "Yaw": 1.66053,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 745,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69262,
+    "QuestTitle": "Overseer for a Day",
+    "PreviousQuestIds": [
+      69261
+    ],
+    "PreviousQuestTitles": [
+      "A Home in the Firmament"
+    ],
+    "NextQuestIds": [
+      69263
+    ],
+    "NextQuestTitles": [
+      "Shadow of an Icy Past"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8267966,
+      "X": -7.73932,
+      "Y": -16.0067,
+      "Z": 163.391,
+      "Yaw": 1.5912,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Foncrineau",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 648,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69263,
+    "QuestTitle": "Shadow of an Icy Past",
+    "PreviousQuestIds": [
+      69262
+    ],
+    "PreviousQuestTitles": [
+      "Overseer for a Day"
+    ],
+    "NextQuestIds": [
+      69264
+    ],
+    "NextQuestTitles": [
+      "To Thaw a Frozen Heart"
+    ],
+    "StarterNpc": "Noalle",
+    "StarterNpcLocation": {
+      "RowId": 8144743,
+      "X": -6.97339,
+      "Y": -16.0067,
+      "Z": 164.202,
+      "Yaw": -2.32239,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 843,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69264,
+    "QuestTitle": "To Thaw a Frozen Heart",
+    "PreviousQuestIds": [
+      69263
+    ],
+    "PreviousQuestTitles": [
+      "Shadow of an Icy Past"
+    ],
+    "NextQuestIds": [
+      69373,
+      69374,
+      69375,
+      69491
+    ],
+    "NextQuestTitles": [
+      "If Songs Had Wings",
+      "Adventurers and Admirers",
+      "Shadow over the Orphanage",
+      "The Making of a Market"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8267813,
+      "X": 209.581,
+      "Y": -40.0245,
+      "Z": 8.15034,
+      "Yaw": -1.56971,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 14,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100979,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 14139,
+          "ItemName": "Oyster Confit",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69491,
+    "QuestTitle": "The Making of a Market",
+    "PreviousQuestIds": [
+      69264
+    ],
+    "PreviousQuestTitles": [
+      "To Thaw a Frozen Heart"
+    ],
+    "NextQuestIds": [
+      69492
+    ],
+    "NextQuestTitles": [
+      "Dealings in the Desert"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8380500,
+      "X": 49.7534,
+      "Y": -18.7622,
+      "Z": 7.28044,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 778,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69492,
+    "QuestTitle": "Dealings in the Desert",
+    "PreviousQuestIds": [
+      69491
+    ],
+    "PreviousQuestTitles": [
+      "The Making of a Market"
+    ],
+    "NextQuestIds": [
+      69493
+    ],
+    "NextQuestTitles": [
+      "A Parley with Pirates"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8380549,
+      "X": 126.648,
+      "Y": 12.6816,
+      "Z": -103.517,
+      "Yaw": -0.113757,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 16,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 648,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69493,
+    "QuestTitle": "A Parley with Pirates",
+    "PreviousQuestIds": [
+      69492
+    ],
+    "PreviousQuestTitles": [
+      "Dealings in the Desert"
+    ],
+    "NextQuestIds": [
+      69494
+    ],
+    "NextQuestTitles": [
+      "May Featherfall Flourish"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8380717,
+      "X": 13.9624,
+      "Y": 7.98047,
+      "Z": -104.511,
+      "Yaw": -0.410118,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Charlemend de Durendaire",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 17,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 940,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69494,
+    "QuestTitle": "May Featherfall Flourish",
+    "PreviousQuestIds": [
+      69493
+    ],
+    "PreviousQuestTitles": [
+      "A Parley with Pirates"
+    ],
+    "NextQuestIds": [
+      69495,
+      69496,
+      69497,
+      69498,
+      69535
+    ],
+    "NextQuestTitles": [
+      "A Fashionable Friendship",
+      "The Brume Lifts",
+      "A Gathering of Gaelicats",
+      "Calling All Adventurers",
+      "Not by Bread Alone"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8380749,
+      "X": -2.86228,
+      "Y": 44,
+      "Z": -159.362,
+      "Yaw": 1.51188,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 18,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101005,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12842,
+          "ItemName": "Ishgardian Tea",
+          "Count": 3
+        },
+        {
+          "ItemId": 12846,
+          "ItemName": "Sohm Al Tart",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69535,
+    "QuestTitle": "Not by Bread Alone",
+    "PreviousQuestIds": [
+      69494
+    ],
+    "PreviousQuestTitles": [
+      "May Featherfall Flourish"
+    ],
+    "NextQuestIds": [
+      69536
+    ],
+    "NextQuestTitles": [
+      "Francel\u0027s Fervent Wish"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8537281,
+      "X": 49.7534,
+      "Y": -18.7622,
+      "Z": 7.69302,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 19,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 30481,
+          "ItemName": "Crab Cakes",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 30482,
+          "ItemName": "Chili Crab",
+          "Count": 3,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69536,
+    "QuestTitle": "Francel\u0027s Fervent Wish",
+    "PreviousQuestIds": [
+      69535
+    ],
+    "PreviousQuestTitles": [
+      "Not by Bread Alone"
+    ],
+    "NextQuestIds": [
+      69537
+    ],
+    "NextQuestTitles": [
+      "An Unexpected Symphony"
+    ],
+    "StarterNpc": "Conon",
+    "StarterNpcLocation": {
+      "RowId": 8537286,
+      "X": 19.9578,
+      "Y": 0,
+      "Z": -158.922,
+      "Yaw": 0.92337,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Mariorie",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 875,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69537,
+    "QuestTitle": "An Unexpected Symphony",
+    "PreviousQuestIds": [
+      69536
+    ],
+    "PreviousQuestTitles": [
+      "Francel\u0027s Fervent Wish"
+    ],
+    "NextQuestIds": [
+      69538
+    ],
+    "NextQuestTitles": [
+      "Smiles Cross the Sky"
+    ],
+    "StarterNpc": "Mariorie",
+    "StarterNpcLocation": {
+      "RowId": 8537287,
+      "X": 207.624,
+      "Y": -40,
+      "Z": -13.2788,
+      "Yaw": -0.722464,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Mariorie",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 680,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69538,
+    "QuestTitle": "Smiles Cross the Sky",
+    "PreviousQuestIds": [
+      69537
+    ],
+    "PreviousQuestTitles": [
+      "An Unexpected Symphony"
+    ],
+    "NextQuestIds": [
+      69539,
+      69540,
+      69541,
+      69542,
+      69615
+    ],
+    "NextQuestTitles": [
+      "Warm Hands, Warm Hearts",
+      "Of Steam, Sweat, and Water",
+      "Swords to Plowshares",
+      "Planting the Seed",
+      "You Can Count on It"
+    ],
+    "StarterNpc": "Francel",
+    "StarterNpcLocation": {
+      "RowId": 8537291,
+      "X": 196.841,
+      "Y": -40.0245,
+      "Z": -11.0457,
+      "Yaw": 0.864696,
+      "Radius": 1,
+      "MapId": 574,
+      "TerritoryId": 886
+    },
+    "FinishNpc": "Francel",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 99,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Ishgardian Restoration Main Quests"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101030,
+    "JobLevel": 60,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 25000,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33109,
+          "ItemName": "New Foundations Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

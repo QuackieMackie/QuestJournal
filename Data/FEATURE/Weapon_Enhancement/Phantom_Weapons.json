@@ -1,0 +1,503 @@
+[
+  {
+    "QuestId": 70855,
+    "QuestTitle": "Arcane Artistry",
+    "PreviousQuestIds": [
+      70847
+    ],
+    "PreviousQuestTitles": [
+      "Unfamiliar Territory"
+    ],
+    "NextQuestIds": [
+      70856
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Forging the Phantasmal"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11559006,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101421,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 829,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70856,
+    "QuestTitle": "\uE0BF Forging the Phantasmal",
+    "PreviousQuestIds": [
+      70855
+    ],
+    "PreviousQuestTitles": [
+      "Arcane Artistry"
+    ],
+    "NextQuestIds": [
+      70916
+    ],
+    "NextQuestTitles": [
+      "Keeping the Old Ways Alive"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11559006,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Dodokkuli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101422,
+    "JobLevel": 100,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 645,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 34,
+          "ItemName": "Allagan Tomestone of Verity",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70916,
+    "QuestTitle": "Keeping the Old Ways Alive",
+    "PreviousQuestIds": [
+      70856
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Forging the Phantasmal"
+    ],
+    "NextQuestIds": [
+      70917
+    ],
+    "NextQuestTitles": [
+      "Aether, Aether, Everywhere"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11665645,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101449,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 855,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70917,
+    "QuestTitle": "Aether, Aether, Everywhere",
+    "PreviousQuestIds": [
+      70916
+    ],
+    "PreviousQuestTitles": [
+      "Keeping the Old Ways Alive"
+    ],
+    "NextQuestIds": [
+      70918
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Wrought by Hands Phantasmal"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11559006,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 735,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70918,
+    "QuestTitle": "\uE0BF Wrought by Hands Phantasmal",
+    "PreviousQuestIds": [
+      70917
+    ],
+    "PreviousQuestTitles": [
+      "Aether, Aether, Everywhere"
+    ],
+    "NextQuestIds": [
+      70990
+    ],
+    "NextQuestTitles": [
+      "Timeworn Techniques"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11559006,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Dodokkuli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 691,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 35,
+          "ItemName": "Allagan Tomestone of Creation",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70990,
+    "QuestTitle": "Timeworn Techniques",
+    "PreviousQuestIds": [
+      70918
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Wrought by Hands Phantasmal"
+    ],
+    "NextQuestIds": [
+      70991
+    ],
+    "NextQuestTitles": [
+      "In Pursuit of Perfection"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11665645,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101472,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1195,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70991,
+    "QuestTitle": "In Pursuit of Perfection",
+    "PreviousQuestIds": [
+      70990
+    ],
+    "PreviousQuestTitles": [
+      "Timeworn Techniques"
+    ],
+    "NextQuestIds": [
+      70992
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Phantom Reborn"
+    ],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11559006,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1287,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70992,
+    "QuestTitle": "\uE0BF A Phantom Reborn",
+    "PreviousQuestIds": [
+      70991
+    ],
+    "PreviousQuestTitles": [
+      "In Pursuit of Perfection"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lydirceil",
+    "StarterNpcLocation": {
+      "RowId": 11559006,
+      "X": 25.8305,
+      "Y": 0,
+      "Z": 13.3915,
+      "Yaw": 2.63862,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "Dodokkuli",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 91,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Phantom Weapons"
+    },
+    "SortKey": 23,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 691,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 37,
+          "ItemName": "Allagan Tomestone of Genesis",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

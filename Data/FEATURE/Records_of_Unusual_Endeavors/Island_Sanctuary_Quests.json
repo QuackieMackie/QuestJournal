@@ -1,0 +1,469 @@
+[
+  {
+    "QuestId": 70179,
+    "QuestTitle": "Seeking Sanctuary",
+    "PreviousQuestIds": [
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70181
+    ],
+    "NextQuestTitles": [
+      "The Land, Wind, and Sea"
+    ],
+    "StarterNpc": "clueless crier",
+    "StarterNpcLocation": {
+      "RowId": 9335134,
+      "X": 36.2964,
+      "Y": 2.373,
+      "Z": -9.06529,
+      "Yaw": -1.39588,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Tataru",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 106,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Island Sanctuary Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101184,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1164,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70181,
+    "QuestTitle": "The Land, Wind, and Sea",
+    "PreviousQuestIds": [
+      70179
+    ],
+    "PreviousQuestTitles": [
+      "Seeking Sanctuary"
+    ],
+    "NextQuestIds": [
+      70265
+    ],
+    "NextQuestTitles": [
+      "A Far Eastern Yarn"
+    ],
+    "StarterNpc": "curious courier",
+    "StarterNpcLocation": {
+      "RowId": 9403549,
+      "X": -276.355,
+      "Y": 40,
+      "Z": 224.273,
+      "Yaw": 0.0393578,
+      "Radius": 1,
+      "MapId": 780,
+      "TerritoryId": 1055
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 106,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Island Sanctuary Quests"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101185,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38212,
+          "ItemName": "Isle Farmhand\u0027s Work Shirt",
+          "Count": 1
+        },
+        {
+          "ItemId": 38213,
+          "ItemName": "Isle Farmhand\u0027s Cotton Gloves",
+          "Count": 1
+        },
+        {
+          "ItemId": 38214,
+          "ItemName": "Isle Farmhand\u0027s Widebottoms",
+          "Count": 1
+        },
+        {
+          "ItemId": 38216,
+          "ItemName": "Isle Farmhand\u0027s Cutoffs",
+          "Count": 1
+        },
+        {
+          "ItemId": 38215,
+          "ItemName": "Isle Farmhand\u0027s Boots",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70265,
+    "QuestTitle": "A Far Eastern Yarn",
+    "PreviousQuestIds": [
+      70181
+    ],
+    "PreviousQuestTitles": [
+      "The Land, Wind, and Sea"
+    ],
+    "NextQuestIds": [
+      70299
+    ],
+    "NextQuestTitles": [
+      "An Ideal Marriage"
+    ],
+    "StarterNpc": "curious courier",
+    "StarterNpcLocation": {
+      "RowId": 9403549,
+      "X": -276.355,
+      "Y": 40,
+      "Z": 224.273,
+      "Yaw": 0.0393578,
+      "Radius": 1,
+      "MapId": 780,
+      "TerritoryId": 1055
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 106,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Island Sanctuary Quests"
+    },
+    "SortKey": 111,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101220,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 39247,
+          "ItemName": "Isle Shepherd\u0027s Headdress",
+          "Count": 1
+        },
+        {
+          "ItemId": 39248,
+          "ItemName": "Isle Shepherd\u0027s Tunic",
+          "Count": 1
+        },
+        {
+          "ItemId": 39249,
+          "ItemName": "Isle Shepherd\u0027s Wristdress",
+          "Count": 1
+        },
+        {
+          "ItemId": 39250,
+          "ItemName": "Isle Shepherd\u0027s Bottoms",
+          "Count": 1
+        },
+        {
+          "ItemId": 39251,
+          "ItemName": "Isle Shepherd\u0027s Sandals",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70299,
+    "QuestTitle": "An Ideal Marriage",
+    "PreviousQuestIds": [
+      70265
+    ],
+    "PreviousQuestTitles": [
+      "A Far Eastern Yarn"
+    ],
+    "NextQuestIds": [
+      70329
+    ],
+    "NextQuestTitles": [
+      "The Sweetest Thing"
+    ],
+    "StarterNpc": "curious courier",
+    "StarterNpcLocation": {
+      "RowId": 9403549,
+      "X": -276.355,
+      "Y": 40,
+      "Z": 224.273,
+      "Yaw": 0.0393578,
+      "Radius": 1,
+      "MapId": 780,
+      "TerritoryId": 1055
+    },
+    "FinishNpc": "Tataru",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 106,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Island Sanctuary Quests"
+    },
+    "SortKey": 112,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101245,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 40426,
+          "ItemName": "Baronial Hat",
+          "Count": 1
+        },
+        {
+          "ItemId": 40427,
+          "ItemName": "Baronial Jacket",
+          "Count": 1
+        },
+        {
+          "ItemId": 40428,
+          "ItemName": "Baronial Wristwraps",
+          "Count": 1
+        },
+        {
+          "ItemId": 40429,
+          "ItemName": "Baronial Culottes",
+          "Count": 1
+        },
+        {
+          "ItemId": 40430,
+          "ItemName": "Baronial Longboots",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70329,
+    "QuestTitle": "The Sweetest Thing",
+    "PreviousQuestIds": [
+      70299
+    ],
+    "PreviousQuestTitles": [
+      "An Ideal Marriage"
+    ],
+    "NextQuestIds": [
+      70330
+    ],
+    "NextQuestTitles": [
+      "Where Worries Melt Away"
+    ],
+    "StarterNpc": "curious courier",
+    "StarterNpcLocation": {
+      "RowId": 9403549,
+      "X": -276.355,
+      "Y": 40,
+      "Z": 224.273,
+      "Yaw": 0.0393578,
+      "Radius": 1,
+      "MapId": 780,
+      "TerritoryId": 1055
+    },
+    "FinishNpc": "Bloewyda",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 106,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Island Sanctuary Quests"
+    },
+    "SortKey": 113,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101288,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 123,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41581,
+          "ItemName": "Recreationisle Shirt",
+          "Count": 1
+        },
+        {
+          "ItemId": 41582,
+          "ItemName": "Recreationisle Dive Watch",
+          "Count": 1
+        },
+        {
+          "ItemId": 41583,
+          "ItemName": "Recreationisle Halfslops",
+          "Count": 1
+        },
+        {
+          "ItemId": 41584,
+          "ItemName": "Recreationisle Shoes",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70330,
+    "QuestTitle": "Where Worries Melt Away",
+    "PreviousQuestIds": [
+      70329,
+      70286
+    ],
+    "PreviousQuestTitles": [
+      "The Sweetest Thing",
+      "Growing Light"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "curious courier",
+    "StarterNpcLocation": {
+      "RowId": 9403549,
+      "X": -276.355,
+      "Y": 40,
+      "Z": 224.273,
+      "Yaw": 0.0393578,
+      "Radius": 1,
+      "MapId": 780,
+      "TerritoryId": 1055
+    },
+    "FinishNpc": "Jullus",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 106,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Island Sanctuary Quests"
+    },
+    "SortKey": 114,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101289,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 113,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36081,
+          "ItemName": "Garlean Cheese",
+          "Count": 6
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "QuestId": 67405,
+    "QuestTitle": "Keeping the Ledger",
+    "PreviousQuestIds": [
+      67173
+    ],
+    "PreviousQuestTitles": [
+      "He Who Would Not Be Denied"
+    ],
+    "NextQuestIds": [
+      67688
+    ],
+    "NextQuestTitles": [
+      "Contradicting Convictions"
+    ],
+    "StarterNpc": "Mathye",
+    "StarterNpcLocation": {
+      "RowId": 5841136,
+      "X": -248.54,
+      "Y": -20.0349,
+      "Z": -90.9767,
+      "Yaw": -0.0322857,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Mathye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 56,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12870,
+      "Gil": 465,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 10673,
+          "ItemName": "Titanium Helm of Fending",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10715,
+          "ItemName": "Titanium Mask of Maiming",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10757,
+          "ItemName": "Titanium Headgear of Striking",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 10841,
+          "ItemName": "Titanium Headgear of Scouting",
+          "Count": 1,
+          "IsHq": true
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 5,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67688,
+    "QuestTitle": "Contradicting Convictions",
+    "PreviousQuestIds": [
+      67405,
+      67205,
+      66038
+    ],
+    "PreviousQuestTitles": [
+      "Keeping the Ledger",
+      "Heavensward",
+      "Her Last Vow"
+    ],
+    "NextQuestIds": [
+      67689
+    ],
+    "NextQuestTitles": [
+      "The Benefits of Consultation"
+    ],
+    "StarterNpc": "Mathye",
+    "StarterNpcLocation": {
+      "RowId": 5841136,
+      "X": -248.54,
+      "Y": -20.0349,
+      "Z": -90.9767,
+      "Yaw": -0.0322857,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Mathye",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100513,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 648,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67689,
+    "QuestTitle": "The Benefits of Consultation",
+    "PreviousQuestIds": [
+      67688
+    ],
+    "PreviousQuestTitles": [
+      "Contradicting Convictions"
+    ],
+    "NextQuestIds": [
+      67690
+    ],
+    "NextQuestTitles": [
+      "Balancing the Spear"
+    ],
+    "StarterNpc": "Gaetelle",
+    "StarterNpcLocation": {
+      "RowId": 6071915,
+      "X": -250.807,
+      "Y": -20.0349,
+      "Z": -89.9802,
+      "Yaw": 0.66599,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Bruvagnon",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100514,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 713,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67690,
+    "QuestTitle": "Balancing the Spear",
+    "PreviousQuestIds": [
+      67689
+    ],
+    "PreviousQuestTitles": [
+      "The Benefits of Consultation"
+    ],
+    "NextQuestIds": [
+      67691
+    ],
+    "NextQuestTitles": [
+      "More than Meets Her Eye"
+    ],
+    "StarterNpc": "Bruvagnon",
+    "StarterNpcLocation": {
+      "RowId": 5891021,
+      "X": -7.92662,
+      "Y": 0.2,
+      "Z": -10.5006,
+      "Yaw": -0.0533043,
+      "Radius": 1,
+      "MapId": 220,
+      "TerritoryId": 427
+    },
+    "FinishNpc": "Briardien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100515,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 810,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67691,
+    "QuestTitle": "More than Meets Her Eye",
+    "PreviousQuestIds": [
+      67690
+    ],
+    "PreviousQuestTitles": [
+      "Balancing the Spear"
+    ],
+    "NextQuestIds": [
+      67743
+    ],
+    "NextQuestTitles": [
+      "Divine Reckoning"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 6078117,
+      "X": -1.36388,
+      "Y": 0.198364,
+      "Z": -9.90016,
+      "Yaw": -1.02808,
+      "Radius": 1,
+      "MapId": 220,
+      "TerritoryId": 427
+    },
+    "FinishNpc": "Briardien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100516,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1233,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67743,
+    "QuestTitle": "Divine Reckoning",
+    "PreviousQuestIds": [
+      67691
+    ],
+    "PreviousQuestTitles": [
+      "More than Meets Her Eye"
+    ],
+    "NextQuestIds": [
+      67744
+    ],
+    "NextQuestTitles": [
+      "Through the Grapevine"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 6082773,
+      "X": -122.499,
+      "Y": 14.5531,
+      "Z": -166.977,
+      "Yaw": 0.23089,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Saturnois",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100587,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 827,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67744,
+    "QuestTitle": "Through the Grapevine",
+    "PreviousQuestIds": [
+      67743
+    ],
+    "PreviousQuestTitles": [
+      "Divine Reckoning"
+    ],
+    "NextQuestIds": [
+      67745
+    ],
+    "NextQuestTitles": [
+      "A Familial Resemblance"
+    ],
+    "StarterNpc": "Saturnois",
+    "StarterNpcLocation": {
+      "RowId": 6445894,
+      "X": 6.43686,
+      "Y": 0.225,
+      "Z": -6.12491,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 220,
+      "TerritoryId": 427
+    },
+    "FinishNpc": "Briardien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100588,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 550,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67745,
+    "QuestTitle": "A Familial Resemblance",
+    "PreviousQuestIds": [
+      67744
+    ],
+    "PreviousQuestTitles": [
+      "Through the Grapevine"
+    ],
+    "NextQuestIds": [
+      67746
+    ],
+    "NextQuestTitles": [
+      "Finding Ulaa"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 6082773,
+      "X": -122.499,
+      "Y": 14.5531,
+      "Z": -166.977,
+      "Yaw": 0.23089,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Briardien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100589,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 648,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67746,
+    "QuestTitle": "Finding Ulaa",
+    "PreviousQuestIds": [
+      67745
+    ],
+    "PreviousQuestTitles": [
+      "A Familial Resemblance"
+    ],
+    "NextQuestIds": [
+      67897
+    ],
+    "NextQuestTitles": [
+      "The Student Body\u0027s Revenge"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 6082773,
+      "X": -122.499,
+      "Y": 14.5531,
+      "Z": -166.977,
+      "Yaw": 0.23089,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Briardien",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 23,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100590,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 713,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67897,
+    "QuestTitle": "The Student Body\u0027s Revenge",
+    "PreviousQuestIds": [
+      67746
+    ],
+    "PreviousQuestTitles": [
+      "Finding Ulaa"
+    ],
+    "NextQuestIds": [
+      67898
+    ],
+    "NextQuestTitles": [
+      "The Whipping Boy"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 6082773,
+      "X": -122.499,
+      "Y": 14.5531,
+      "Z": -166.977,
+      "Yaw": 0.23089,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Theomocent",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100625,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 583,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67898,
+    "QuestTitle": "The Whipping Boy",
+    "PreviousQuestIds": [
+      67897
+    ],
+    "PreviousQuestTitles": [
+      "The Student Body\u0027s Revenge"
+    ],
+    "NextQuestIds": [
+      67899
+    ],
+    "NextQuestTitles": [
+      "Letters from No One"
+    ],
+    "StarterNpc": "Theomocent",
+    "StarterNpcLocation": {
+      "RowId": 6449538,
+      "X": -5,
+      "Y": 0.078155,
+      "Z": -8.64859,
+      "Yaw": -4.09208E-28,
+      "Radius": 1,
+      "MapId": 220,
+      "TerritoryId": 427
+    },
+    "FinishNpc": "Archombadin",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 31,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100626,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 583,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67899,
+    "QuestTitle": "Letters from No One",
+    "PreviousQuestIds": [
+      67898
+    ],
+    "PreviousQuestTitles": [
+      "The Whipping Boy"
+    ],
+    "NextQuestIds": [
+      67900
+    ],
+    "NextQuestTitles": [
+      "The Life and Lies of Father Saturnois"
+    ],
+    "StarterNpc": "Theomocent",
+    "StarterNpcLocation": {
+      "RowId": 6449604,
+      "X": -38.5237,
+      "Y": 15.9651,
+      "Z": -70.4281,
+      "Yaw": 0.835812,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Theomocent",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 32,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100627,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17717,
+          "ItemName": "Inspector\u0027s Eyeglasses",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 148,
+        "EmoteName": "Spectacles"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67900,
+    "QuestTitle": "The Life and Lies of Father Saturnois",
+    "PreviousQuestIds": [
+      67899
+    ],
+    "PreviousQuestTitles": [
+      "Letters from No One"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 6449642,
+      "X": -33.1562,
+      "Y": 15.9651,
+      "Z": -67.8176,
+      "Yaw": 0.465053,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Theomocent",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 94,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Scholasticate Quests"
+    },
+    "SortKey": 33,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100628,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17703,
+          "ItemName": "Scholasticate Coat",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

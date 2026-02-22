@@ -1,0 +1,497 @@
+[
+  {
+    "QuestId": 67762,
+    "QuestTitle": "A Gentleman Falls, Rather than Flies",
+    "PreviousQuestIds": [
+      66038,
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Her Last Vow",
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      67763
+    ],
+    "NextQuestTitles": [
+      "Don\u0027t Call It a Comeback"
+    ],
+    "StarterNpc": "Nashu Mhakaracca",
+    "StarterNpcLocation": {
+      "RowId": 6207030,
+      "X": -266.707,
+      "Y": -20.0352,
+      "Z": -66.4215,
+      "Yaw": 1.8218,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100523,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 940,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67763,
+    "QuestTitle": "Don\u0027t Call It a Comeback",
+    "PreviousQuestIds": [
+      67762
+    ],
+    "PreviousQuestTitles": [
+      "A Gentleman Falls, Rather than Flies"
+    ],
+    "NextQuestIds": [
+      67764
+    ],
+    "NextQuestTitles": [
+      "The Gigi Situation"
+    ],
+    "StarterNpc": "Cyr",
+    "StarterNpcLocation": {
+      "RowId": 6197437,
+      "X": -222.229,
+      "Y": 88.5254,
+      "Z": -582.864,
+      "Yaw": 0.760306,
+      "Radius": 1,
+      "MapId": 211,
+      "TerritoryId": 397
+    },
+    "FinishNpc": "Cyr",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 31,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100524,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1100,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67764,
+    "QuestTitle": "The Gigi Situation",
+    "PreviousQuestIds": [
+      67763
+    ],
+    "PreviousQuestTitles": [
+      "Don\u0027t Call It a Comeback"
+    ],
+    "NextQuestIds": [
+      67765
+    ],
+    "NextQuestTitles": [
+      "The Measure of a Mammet"
+    ],
+    "StarterNpc": "Cyr",
+    "StarterNpcLocation": {
+      "RowId": 6215981,
+      "X": -66.8302,
+      "Y": 8.04868,
+      "Z": 9.52848,
+      "Yaw": 1.06259,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 32,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100573,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 778,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67765,
+    "QuestTitle": "The Measure of a Mammet",
+    "PreviousQuestIds": [
+      67764
+    ],
+    "PreviousQuestTitles": [
+      "The Gigi Situation"
+    ],
+    "NextQuestIds": [
+      67905
+    ],
+    "NextQuestTitles": [
+      "A Gazebo to Call Our Own"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 6275829,
+      "X": -261.078,
+      "Y": -20.035,
+      "Z": -66.0923,
+      "Yaw": -2.90737,
+      "Radius": 1,
+      "MapId": 219,
+      "TerritoryId": 419
+    },
+    "FinishNpc": "Cyr",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 33,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100574,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1054,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67905,
+    "QuestTitle": "A Gazebo to Call Our Own",
+    "PreviousQuestIds": [
+      67765
+    ],
+    "PreviousQuestTitles": [
+      "The Measure of a Mammet"
+    ],
+    "NextQuestIds": [
+      67906
+    ],
+    "NextQuestTitles": [
+      "Don\u0027t Trust Anyone over Sixty"
+    ],
+    "StarterNpc": "Cyr",
+    "StarterNpcLocation": {
+      "RowId": 6215981,
+      "X": -66.8302,
+      "Y": 8.04868,
+      "Z": 9.52848,
+      "Yaw": 1.06259,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 34,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100579,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1275,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67906,
+    "QuestTitle": "Don\u0027t Trust Anyone over Sixty",
+    "PreviousQuestIds": [
+      67905
+    ],
+    "PreviousQuestTitles": [
+      "A Gazebo to Call Our Own"
+    ],
+    "NextQuestIds": [
+      67907
+    ],
+    "NextQuestTitles": [
+      "The Proud and the Pointy-eyed"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 6446026,
+      "X": 11.5302,
+      "Y": 207.5,
+      "Z": 85.3667,
+      "Yaw": 0.815319,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Cyr",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 35,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100580,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1568,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67907,
+    "QuestTitle": "The Proud and the Pointy-eyed",
+    "PreviousQuestIds": [
+      67906
+    ],
+    "PreviousQuestTitles": [
+      "Don\u0027t Trust Anyone over Sixty"
+    ],
+    "NextQuestIds": [
+      67908
+    ],
+    "NextQuestTitles": [
+      "If I Could Turn Back Time"
+    ],
+    "StarterNpc": "Cyr",
+    "StarterNpcLocation": {
+      "RowId": 6215981,
+      "X": -66.8302,
+      "Y": 8.04868,
+      "Z": 9.52848,
+      "Yaw": 1.06259,
+      "Radius": 1,
+      "MapId": 218,
+      "TerritoryId": 418
+    },
+    "FinishNpc": "Orland",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 36,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100609,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1414,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67908,
+    "QuestTitle": "If I Could Turn Back Time",
+    "PreviousQuestIds": [
+      67907
+    ],
+    "PreviousQuestTitles": [
+      "The Proud and the Pointy-eyed"
+    ],
+    "NextQuestIds": [
+      68544
+    ],
+    "NextQuestTitles": [
+      "A Hingan Tale: Nashu Goes East"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 6595375,
+      "X": -108.599,
+      "Y": -35.6314,
+      "Z": -19.4248,
+      "Yaw": 0.0548889,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Cyr",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 82,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Further Hildibrand Adventures"
+    },
+    "SortKey": 37,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100610,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17529,
+          "ItemName": "Gigi",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

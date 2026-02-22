@@ -1,0 +1,306 @@
+[
+  {
+    "QuestId": 67011,
+    "QuestTitle": "The Paths We Walk",
+    "PreviousQuestIds": [
+      67783
+    ],
+    "PreviousQuestTitles": [
+      "Litany of Peace"
+    ],
+    "NextQuestIds": [
+      67012
+    ],
+    "NextQuestTitles": [
+      "The Oaths We Swear"
+    ],
+    "StarterNpc": "House Fortemps manservant",
+    "StarterNpcLocation": {
+      "RowId": 5874750,
+      "X": -5.8532,
+      "Y": 0,
+      "Z": -5.76064,
+      "Yaw": 0.944399,
+      "Radius": 1,
+      "MapId": 222,
+      "TerritoryId": 433
+    },
+    "FinishNpc": "Higiri",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 78,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of the Dragonsong War"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100562,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2681,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67012,
+    "QuestTitle": "The Oaths We Swear",
+    "PreviousQuestIds": [
+      67011
+    ],
+    "PreviousQuestTitles": [
+      "The Paths We Walk"
+    ],
+    "NextQuestIds": [
+      67013
+    ],
+    "NextQuestTitles": [
+      "The Legacies We Leave"
+    ],
+    "StarterNpc": "Higiri",
+    "StarterNpcLocation": {
+      "RowId": 6386756,
+      "X": 29.8785,
+      "Y": 51,
+      "Z": -818.255,
+      "Yaw": -1.57011,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Marcechamp",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 78,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of the Dragonsong War"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1994,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67013,
+    "QuestTitle": "The Legacies We Leave",
+    "PreviousQuestIds": [
+      67012
+    ],
+    "PreviousQuestTitles": [
+      "The Oaths We Swear"
+    ],
+    "NextQuestIds": [
+      67014
+    ],
+    "NextQuestTitles": [
+      "The Triumphs We Share"
+    ],
+    "StarterNpc": "Marcechamp",
+    "StarterNpcLocation": {
+      "RowId": 5796581,
+      "X": 470.047,
+      "Y": -49.8913,
+      "Z": 20.3859,
+      "Yaw": -1.27904,
+      "Radius": 1,
+      "MapId": 212,
+      "TerritoryId": 398
+    },
+    "FinishNpc": "Sultansworn elite",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 78,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of the Dragonsong War"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1912,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67014,
+    "QuestTitle": "The Triumphs We Share",
+    "PreviousQuestIds": [
+      67013
+    ],
+    "PreviousQuestTitles": [
+      "The Legacies We Leave"
+    ],
+    "NextQuestIds": [
+      67015
+    ],
+    "NextQuestTitles": [
+      "The Burdens We Bear"
+    ],
+    "StarterNpc": "Sultansworn elite",
+    "StarterNpcLocation": {
+      "RowId": 6245458,
+      "X": 12.9451,
+      "Y": 34,
+      "Z": -39.3157,
+      "Yaw": 2.78126,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Slowfix",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 78,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of the Dragonsong War"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3147,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67015,
+    "QuestTitle": "The Burdens We Bear",
+    "PreviousQuestIds": [
+      67014
+    ],
+    "PreviousQuestTitles": [
+      "The Triumphs We Share"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Slowfix",
+    "StarterNpcLocation": {
+      "RowId": 5864082,
+      "X": 73.368,
+      "Y": 205.873,
+      "Z": 23.4836,
+      "Yaw": -1.19254,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 78,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales of the Dragonsong War"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100563,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1583,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 127,
+        "EmoteName": "Haurchefant"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
