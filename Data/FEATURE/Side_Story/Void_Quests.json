@@ -1,0 +1,177 @@
+[
+  {
+    "QuestId": 69522,
+    "QuestTitle": "The Hero\u0027s Journey",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      69523
+    ],
+    "NextQuestTitles": [
+      "One Step Closer"
+    ],
+    "StarterNpc": "Cyella",
+    "StarterNpcLocation": {
+      "RowId": 7960744,
+      "X": -25.906,
+      "Y": 3.9998,
+      "Z": 205.129,
+      "Yaw": -3.00787,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Taynor",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 95,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Void Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3053,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69523,
+    "QuestTitle": "One Step Closer",
+    "PreviousQuestIds": [
+      69522
+    ],
+    "PreviousQuestTitles": [
+      "The Hero\u0027s Journey"
+    ],
+    "NextQuestIds": [
+      69524
+    ],
+    "NextQuestTitles": [
+      "A Bounty of Hunters"
+    ],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 8537277,
+      "X": -1.11618,
+      "Y": 3.99982,
+      "Z": 199.713,
+      "Yaw": -0.811321,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Unukalhai",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 95,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Void Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1325,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69524,
+    "QuestTitle": "A Bounty of Hunters",
+    "PreviousQuestIds": [
+      69523
+    ],
+    "PreviousQuestTitles": [
+      "One Step Closer"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Unukalhai",
+    "StarterNpcLocation": {
+      "RowId": 8537433,
+      "X": 659.83,
+      "Y": 14.6207,
+      "Z": 215.796,
+      "Yaw": -0.806247,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Cerigg",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 95,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Void Quests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101027,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1285,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

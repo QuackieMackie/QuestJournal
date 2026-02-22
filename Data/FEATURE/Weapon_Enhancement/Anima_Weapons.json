@@ -1,0 +1,920 @@
+[
+  {
+    "QuestId": 67747,
+    "QuestTitle": "An Unexpected Proposal",
+    "PreviousQuestIds": [
+      67205
+    ],
+    "PreviousQuestTitles": [
+      "Heavensward"
+    ],
+    "NextQuestIds": [
+      67748
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Soul without Life"
+    ],
+    "StarterNpc": "Rowena",
+    "StarterNpcLocation": {
+      "RowId": 5900430,
+      "X": -20.6975,
+      "Y": 211.345,
+      "Z": -28.2675,
+      "Yaw": 2.41881,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100500,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1071,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67748,
+    "QuestTitle": "\uE0BF Soul without Life",
+    "PreviousQuestIds": [
+      67747
+    ],
+    "PreviousQuestTitles": [
+      "An Unexpected Proposal"
+    ],
+    "NextQuestIds": [
+      67749
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Toughening Up"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 2,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1447,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3,
+          "ItemName": "Ice Shard",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67749,
+    "QuestTitle": "\uE0BF Toughening Up",
+    "PreviousQuestIds": [
+      67748
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Soul without Life"
+    ],
+    "NextQuestIds": [
+      67750
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Coming into Its Own"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 3,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 848,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67750,
+    "QuestTitle": "\uE0BF Coming into Its Own",
+    "PreviousQuestIds": [
+      67749
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Toughening Up"
+    ],
+    "NextQuestIds": [
+      67820
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Finding Your Voice"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 4,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1512,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5,
+          "ItemName": "Earth Shard",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67820,
+    "QuestTitle": "\uE0BF Finding Your Voice",
+    "PreviousQuestIds": [
+      67750
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Coming into Its Own"
+    ],
+    "NextQuestIds": [
+      67864
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Dream Fulfilled"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 5,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100531,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 518,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6,
+          "ItemName": "Lightning Shard",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67864,
+    "QuestTitle": "\uE0BF A Dream Fulfilled",
+    "PreviousQuestIds": [
+      67820
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Finding Your Voice"
+    ],
+    "NextQuestIds": [
+      67870,
+      67915
+    ],
+    "NextQuestTitles": [
+      "Recondition the Anima",
+      "\uE0BF Future Proof"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 6,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100547,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 488,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67915,
+    "QuestTitle": "\uE0BF Future Proof",
+    "PreviousQuestIds": [
+      67864
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF A Dream Fulfilled"
+    ],
+    "NextQuestIds": [
+      67916,
+      67917,
+      67932
+    ],
+    "NextQuestTitles": [
+      "Seeking Inspiration",
+      "Cut from a Different Cloth",
+      "\uE0BF Born Again Anima"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 8,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100599,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1689,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67916,
+    "QuestTitle": "Seeking Inspiration",
+    "PreviousQuestIds": [
+      67915
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Future Proof"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Amphelice",
+    "StarterNpcLocation": {
+      "RowId": 6490650,
+      "X": 92.6985,
+      "Y": 207.053,
+      "Z": -11.2764,
+      "Yaw": -1.85444,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Amphelice",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 9,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16064,
+          "ItemName": "Singing Cluster",
+          "Count": 18
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67917,
+    "QuestTitle": "Cut from a Different Cloth",
+    "PreviousQuestIds": [
+      67915
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Future Proof"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Angelet",
+    "StarterNpcLocation": {
+      "RowId": 6490651,
+      "X": 93.0038,
+      "Y": 207.099,
+      "Z": -12.7413,
+      "Yaw": -1.73684,
+      "Radius": 1,
+      "MapId": 257,
+      "TerritoryId": 478
+    },
+    "FinishNpc": "Angelet",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 10,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16064,
+          "ItemName": "Singing Cluster",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67932,
+    "QuestTitle": "\uE0BF Born Again Anima",
+    "PreviousQuestIds": [
+      67915
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Future Proof"
+    ],
+    "NextQuestIds": [
+      67933,
+      67934
+    ],
+    "NextQuestTitles": [
+      "Some Assembly Required",
+      "Body and Soul"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 11,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100606,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9,
+          "ItemName": "Ice Crystal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67933,
+    "QuestTitle": "Some Assembly Required",
+    "PreviousQuestIds": [
+      67932
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Born Again Anima"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "processing node",
+    "StarterNpcLocation": {
+      "RowId": 6532860,
+      "X": -775.875,
+      "Y": -183.673,
+      "Z": -556.664,
+      "Yaw": 1.42211,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "processing node",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 12,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 16932,
+          "ItemName": "Newborn Soulstone",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67934,
+    "QuestTitle": "Body and Soul",
+    "PreviousQuestIds": [
+      67932
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Born Again Anima"
+    ],
+    "NextQuestIds": [
+      67939
+    ],
+    "NextQuestTitles": [
+      "Words of Wisdom"
+    ],
+    "StarterNpc": "automaton",
+    "StarterNpcLocation": {
+      "RowId": 6687603,
+      "X": -753.567,
+      "Y": -184.001,
+      "Z": -548.547,
+      "Yaw": -2.18188,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100607,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1559,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17530,
+          "ItemName": "Anima",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67939,
+    "QuestTitle": "Words of Wisdom",
+    "PreviousQuestIds": [
+      67934
+    ],
+    "PreviousQuestTitles": [
+      "Body and Soul"
+    ],
+    "NextQuestIds": [
+      67940
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Best Friends Forever"
+    ],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 14,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 60,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1526,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67940,
+    "QuestTitle": "\uE0BF Best Friends Forever",
+    "PreviousQuestIds": [
+      67939
+    ],
+    "PreviousQuestTitles": [
+      "Words of Wisdom"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ardashir",
+    "StarterNpcLocation": {
+      "RowId": 6084431,
+      "X": -754.696,
+      "Y": -182.971,
+      "Z": -550.744,
+      "Yaw": 3.06485,
+      "Radius": 1,
+      "MapId": 216,
+      "TerritoryId": 402
+    },
+    "FinishNpc": "Ardashir",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 88,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Anima Weapons"
+    },
+    "SortKey": 15,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100608,
+    "JobLevel": 60,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 518,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 10,
+          "ItemName": "Wind Crystal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

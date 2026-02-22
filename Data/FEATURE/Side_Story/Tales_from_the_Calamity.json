@@ -1,0 +1,126 @@
+[
+  {
+    "QuestId": 70315,
+    "QuestTitle": "\uE0BE Remembering the Past",
+    "PreviousQuestIds": [
+      66060
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      70316
+    ],
+    "NextQuestTitles": [
+      "\uE0BE Preserving the Future"
+    ],
+    "StarterNpc": "Nananji",
+    "StarterNpcLocation": {
+      "RowId": 9910578,
+      "X": -115.777,
+      "Y": 3.98254,
+      "Z": -100.974,
+      "Yaw": 0.78535,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Nananji",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 92,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tales from the Calamity"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101254,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 770,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70316,
+    "QuestTitle": "\uE0BE Preserving the Future",
+    "PreviousQuestIds": [
+      70315
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BE Remembering the Past"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Nananji",
+    "StarterNpcLocation": {
+      "RowId": 9910599,
+      "X": 24.6128,
+      "Y": 39.9939,
+      "Z": 80.3388,
+      "Yaw": -2.60059,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Nananji",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 92,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tales from the Calamity"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101255,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 13455,
+      "Gil": 827,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 40500,
+          "ItemName": "End of an Era Framer\u0027s Kit",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,874 @@
+[
+  {
+    "QuestId": 65742,
+    "QuestTitle": "Mmmmmm, Soulglazed Relics",
+    "PreviousQuestIds": [
+      67000
+    ],
+    "PreviousQuestTitles": [
+      "Star Light, Star Bright"
+    ],
+    "NextQuestIds": [
+      65892
+    ],
+    "NextQuestTitles": [
+      "Wherefore Art Thou, Zodiac"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jalzahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100300,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8659,
+          "ItemName": "Zodiac Glass",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65892,
+    "QuestTitle": "Wherefore Art Thou, Zodiac",
+    "PreviousQuestIds": [
+      65742
+    ],
+    "PreviousQuestTitles": [
+      "Mmmmmm, Soulglazed Relics"
+    ],
+    "NextQuestIds": [
+      65893,
+      65894,
+      65895,
+      65896
+    ],
+    "NextQuestTitles": [
+      "A Ponze of Flesh",
+      "Labor of Love",
+      "Method in His Malice",
+      "A Treasured Mother"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jalzahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100347,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65893,
+    "QuestTitle": "A Ponze of Flesh",
+    "PreviousQuestIds": [
+      65892
+    ],
+    "PreviousQuestTitles": [
+      "Wherefore Art Thou, Zodiac"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Papana",
+    "StarterNpcLocation": {
+      "RowId": 5491454,
+      "X": 73.1265,
+      "Y": 33.0666,
+      "Z": -704.391,
+      "Yaw": -0.917314,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Papana",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 7,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9506,
+          "ItemName": "Book of Skylight",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65894,
+    "QuestTitle": "Labor of Love",
+    "PreviousQuestIds": [
+      65892
+    ],
+    "PreviousQuestTitles": [
+      "Wherefore Art Thou, Zodiac"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Guiding Star",
+    "StarterNpcLocation": {
+      "RowId": 4615598,
+      "X": 24.3083,
+      "Y": 29.0217,
+      "Z": -726.856,
+      "Yaw": 3.1397,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Guiding Star",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 8,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9507,
+          "ItemName": "Zodium",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65895,
+    "QuestTitle": "Method in His Malice",
+    "PreviousQuestIds": [
+      65892
+    ],
+    "PreviousQuestTitles": [
+      "Wherefore Art Thou, Zodiac"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Adkin",
+    "StarterNpcLocation": {
+      "RowId": 5491455,
+      "X": 109.488,
+      "Y": 31,
+      "Z": -388.829,
+      "Yaw": -0.250284,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Adkin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 9,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9508,
+          "ItemName": "Zodiac Scroll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65896,
+    "QuestTitle": "A Treasured Mother",
+    "PreviousQuestIds": [
+      65892,
+      66676
+    ],
+    "PreviousQuestTitles": [
+      "Wherefore Art Thou, Zodiac",
+      "One Man\u0027s Trash"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Brangwine",
+    "StarterNpcLocation": {
+      "RowId": 4797414,
+      "X": 25.7269,
+      "Y": 29,
+      "Z": -738.206,
+      "Yaw": -2.12804,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Brangwine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 10,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9509,
+          "ItemName": "Flawless Alexandrite",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65897,
+    "QuestTitle": "His Dark Materia",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66096
+    ],
+    "NextQuestTitles": [
+      "Rise and Shine"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66096,
+    "QuestTitle": "Rise and Shine",
+    "PreviousQuestIds": [
+      65897
+    ],
+    "PreviousQuestTitles": [
+      "His Dark Materia"
+    ],
+    "NextQuestIds": [
+      66097,
+      67823
+    ],
+    "NextQuestTitles": [
+      "The Vital Title",
+      "The Vital Title"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Remon",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1612,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66097,
+    "QuestTitle": "The Vital Title",
+    "PreviousQuestIds": [
+      66096
+    ],
+    "PreviousQuestTitles": [
+      "Rise and Shine"
+    ],
+    "NextQuestIds": [
+      67206
+    ],
+    "NextQuestTitles": [
+      "Kettle to the Mettle"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jalzahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100381,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66971,
+    "QuestTitle": "Up in Arms",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66972
+    ],
+    "NextQuestTitles": [
+      "Trials of the Braves"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 4311940,
+      "X": 440.726,
+      "Y": -0.937455,
+      "Z": -62.1923,
+      "Yaw": 0.128904,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jalzahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100249,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66972,
+    "QuestTitle": "Trials of the Braves",
+    "PreviousQuestIds": [
+      66971
+    ],
+    "PreviousQuestTitles": [
+      "Up in Arms"
+    ],
+    "NextQuestIds": [
+      66998
+    ],
+    "NextQuestTitles": [
+      "Celestial Radiance"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "G\u0027jusana",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66998,
+    "QuestTitle": "Celestial Radiance",
+    "PreviousQuestIds": [
+      66972
+    ],
+    "PreviousQuestTitles": [
+      "Trials of the Braves"
+    ],
+    "NextQuestIds": [
+      66676,
+      67000
+    ],
+    "NextQuestTitles": [
+      "One Man\u0027s Trash",
+      "Star Light, Star Bright"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Hubairtin",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 939,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67000,
+    "QuestTitle": "Star Light, Star Bright",
+    "PreviousQuestIds": [
+      66998
+    ],
+    "PreviousQuestTitles": [
+      "Celestial Radiance"
+    ],
+    "NextQuestIds": [
+      65742
+    ],
+    "NextQuestTitles": [
+      "Mmmmmm, Soulglazed Relics"
+    ],
+    "StarterNpc": "Hubairtin",
+    "StarterNpcLocation": {
+      "RowId": 4739886,
+      "X": 105.363,
+      "Y": 30.9041,
+      "Z": -385.135,
+      "Yaw": 0.781181,
+      "Radius": 1,
+      "MapId": 21,
+      "TerritoryId": 141
+    },
+    "FinishNpc": "Jalzahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67823,
+    "QuestTitle": "The Vital Title",
+    "PreviousQuestIds": [
+      66096
+    ],
+    "PreviousQuestTitles": [
+      "Rise and Shine"
+    ],
+    "NextQuestIds": [
+      67206
+    ],
+    "NextQuestTitles": [
+      "Kettle to the Mettle"
+    ],
+    "StarterNpc": "Jalzahn",
+    "StarterNpcLocation": {
+      "RowId": 4697909,
+      "X": 405.12,
+      "Y": -4.49814,
+      "Z": -89.1504,
+      "Yaw": 1.70128,
+      "Radius": 1,
+      "MapId": 7,
+      "TerritoryId": 154
+    },
+    "FinishNpc": "Jalzahn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 87,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Zodiac Weapons"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100381,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

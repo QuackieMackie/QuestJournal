@@ -1,0 +1,226 @@
+[
+  {
+    "QuestId": 67092,
+    "QuestTitle": "The House That Death Built",
+    "PreviousQuestIds": [
+      66196
+    ],
+    "PreviousQuestTitles": [
+      "Into a Copper Hell"
+    ],
+    "NextQuestIds": [
+      67923
+    ],
+    "NextQuestTitles": [
+      "What Lies Beneath"
+    ],
+    "StarterNpc": "Nojiro Marujiro",
+    "StarterNpcLocation": {
+      "RowId": 1144352,
+      "X": 42.5598,
+      "Y": -7.70056,
+      "Z": 97.2457,
+      "Yaw": -1.53808,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Wood Wailer expeditionary captain",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 102,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Palace of the Dead"
+    },
+    "SortKey": 171,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100575,
+    "JobLevel": 17,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1560,
+      "Gil": 566,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4097,
+          "ItemName": "Hard Leather Wristbands",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4311,
+          "ItemName": "Fang Necklace",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 174,
+          "InstanceName": "the Palace of the Dead (Floors 1-10)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 175,
+          "InstanceName": "the Palace of the Dead (Floors 11-20)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 176,
+          "InstanceName": "the Palace of the Dead (Floors 21-30)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 177,
+          "InstanceName": "the Palace of the Dead (Floors 31-40)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 178,
+          "InstanceName": "the Palace of the Dead (Floors 41-50)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67093,
+    "QuestTitle": "The Nightmare\u0027s End",
+    "PreviousQuestIds": [
+      67060
+    ],
+    "PreviousQuestTitles": [
+      "Corpse Groom"
+    ],
+    "NextQuestIds": [
+      67924
+    ],
+    "NextQuestTitles": [
+      "Dead but Not Gone"
+    ],
+    "StarterNpc": "Balan",
+    "StarterNpcLocation": {
+      "RowId": 2366525,
+      "X": 176.44,
+      "Y": 8.92645,
+      "Z": -42.9884,
+      "Yaw": -3.02207,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "Paiyo Reiyo",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 102,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Palace of the Dead"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100576,
+    "JobLevel": 50,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 1131,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67924,
+    "QuestTitle": "Dead but Not Gone",
+    "PreviousQuestIds": [
+      67093
+    ],
+    "PreviousQuestTitles": [
+      "The Nightmare\u0027s End"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Wood Wailer expeditionary",
+    "StarterNpcLocation": {
+      "RowId": 6487984,
+      "X": 176.462,
+      "Y": 7.76749,
+      "Z": -47.5406,
+      "Yaw": 1.16652,
+      "Radius": 1,
+      "MapId": 6,
+      "TerritoryId": 153
+    },
+    "FinishNpc": "expeditionary",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 102,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Palace of the Dead"
+    },
+    "SortKey": 520,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100592,
+    "JobLevel": 60,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 648,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

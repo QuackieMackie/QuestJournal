@@ -1,0 +1,376 @@
+[
+  {
+    "QuestId": 70182,
+    "QuestTitle": "A Key to the Past",
+    "PreviousQuestIds": [
+      70187
+    ],
+    "PreviousQuestTitles": [
+      "An Odd Job"
+    ],
+    "NextQuestIds": [
+      70185
+    ],
+    "NextQuestTitles": [
+      "For Coin, Country, and Comrades"
+    ],
+    "StarterNpc": "Shallow Moor",
+    "StarterNpcLocation": {
+      "RowId": 9323366,
+      "X": 41.0315,
+      "Y": -15.647,
+      "Z": 107.805,
+      "Yaw": -0.609873,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Shallow Moor",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Variant Dungeons"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101183,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5055,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70185,
+    "QuestTitle": "For Coin, Country, and Comrades",
+    "PreviousQuestIds": [
+      70182
+    ],
+    "PreviousQuestTitles": [
+      "A Key to the Past"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kokoshu",
+    "StarterNpcLocation": {
+      "RowId": 9325375,
+      "X": 66.2089,
+      "Y": 4.1,
+      "Z": -143.145,
+      "Yaw": -0.468754,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Kokoshu",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Variant Dungeons"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1044,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4713,
+          "ItemName": "Crowned Pie",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70269,
+    "QuestTitle": "Mononoke Aware",
+    "PreviousQuestIds": [
+      70187
+    ],
+    "PreviousQuestTitles": [
+      "An Odd Job"
+    ],
+    "NextQuestIds": [
+      70270
+    ],
+    "NextQuestTitles": [
+      "Of Price and Ruin"
+    ],
+    "StarterNpc": "Shallow Moor",
+    "StarterNpcLocation": {
+      "RowId": 9323366,
+      "X": 41.0315,
+      "Y": -15.647,
+      "Z": 107.805,
+      "Yaw": -0.609873,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Shallow Moor",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Variant Dungeons"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101242,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5055,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70270,
+    "QuestTitle": "Of Price and Ruin",
+    "PreviousQuestIds": [
+      70269
+    ],
+    "PreviousQuestTitles": [
+      "Mononoke Aware"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Tsubaki",
+    "StarterNpcLocation": {
+      "RowId": 9728780,
+      "X": -114.133,
+      "Y": 11.8,
+      "Z": -121.025,
+      "Yaw": 1.58448,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Tsubaki",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Variant Dungeons"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 829,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23185,
+          "ItemName": "Konpeito",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70325,
+    "QuestTitle": "Stranger from Paradise",
+    "PreviousQuestIds": [
+      70187,
+      70071
+    ],
+    "PreviousQuestTitles": [
+      "An Odd Job",
+      "A Satrap\u0027s Duty"
+    ],
+    "NextQuestIds": [
+      70326
+    ],
+    "NextQuestTitles": [
+      "A Fish a Day"
+    ],
+    "StarterNpc": "Shallow Moor",
+    "StarterNpcLocation": {
+      "RowId": 9323366,
+      "X": 41.0315,
+      "Y": -15.647,
+      "Z": 107.805,
+      "Yaw": -0.609873,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Shallow Moor",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Variant Dungeons"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101268,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5055,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70326,
+    "QuestTitle": "A Fish a Day",
+    "PreviousQuestIds": [
+      70325
+    ],
+    "PreviousQuestTitles": [
+      "Stranger from Paradise"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kalika",
+    "StarterNpcLocation": {
+      "RowId": 10070597,
+      "X": 155.367,
+      "Y": 2.98225,
+      "Z": 780.944,
+      "Yaw": 1.60375,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Kalika",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 107,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Variant Dungeons"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 90,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 829,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36057,
+          "ItemName": "Coconut Cod Chowder",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

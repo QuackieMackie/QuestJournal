@@ -1,0 +1,233 @@
+[
+  {
+    "QuestId": 70199,
+    "QuestTitle": "Delve into Myth",
+    "PreviousQuestIds": [
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70200
+    ],
+    "NextQuestTitles": [
+      "Rage Extinguished"
+    ],
+    "StarterNpc": "Koh Rabntah",
+    "StarterNpcLocation": {
+      "RowId": 5652075,
+      "X": 16.9396,
+      "Y": 20.6148,
+      "Z": -664.378,
+      "Yaw": 2.21017,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Khatun",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 104,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Eureka Orthos"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101217,
+    "JobLevel": 81,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 958,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 897,
+          "InstanceName": "Eureka Orthos (Floors 1-10)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 898,
+          "InstanceName": "Eureka Orthos (Floors 11-20)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 899,
+          "InstanceName": "Eureka Orthos (Floors 21-30)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70200,
+    "QuestTitle": "Rage Extinguished",
+    "PreviousQuestIds": [
+      70199
+    ],
+    "PreviousQuestTitles": [
+      "Delve into Myth"
+    ],
+    "NextQuestIds": [
+      70201
+    ],
+    "NextQuestTitles": [
+      "Orthos Unveiled"
+    ],
+    "StarterNpc": "Koh Rabntah",
+    "StarterNpcLocation": {
+      "RowId": 9553389,
+      "X": 664.283,
+      "Y": -1.1949,
+      "Z": -105.916,
+      "Yaw": -2.64059,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Koh Rabntah",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 104,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Eureka Orthos"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101218,
+    "JobLevel": 81,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 700,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 900,
+          "InstanceName": "Eureka Orthos (Floors 31-40)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 901,
+          "InstanceName": "Eureka Orthos (Floors 41-50)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 902,
+          "InstanceName": "Eureka Orthos (Floors 51-60)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 903,
+          "InstanceName": "Eureka Orthos (Floors 61-70)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 904,
+          "InstanceName": "Eureka Orthos (Floors 71-80)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 905,
+          "InstanceName": "Eureka Orthos (Floors 81-90)",
+          "ContentType": 21
+        },
+        {
+          "InstanceId": 906,
+          "InstanceName": "Eureka Orthos (Floors 91-100)",
+          "ContentType": 21
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70201,
+    "QuestTitle": "Orthos Unveiled",
+    "PreviousQuestIds": [
+      70200
+    ],
+    "PreviousQuestTitles": [
+      "Rage Extinguished"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Koh Rabntah",
+    "StarterNpcLocation": {
+      "RowId": 9553389,
+      "X": 664.283,
+      "Y": -1.1949,
+      "Z": -105.916,
+      "Yaw": -2.64059,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Koh Rabntah",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 104,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Eureka Orthos"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101219,
+    "JobLevel": 81,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1001,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,2792 @@
+[
+  {
+    "QuestId": 69370,
+    "QuestTitle": "Hail to the Queen",
+    "PreviousQuestIds": [
+      69190,
+      68725
+    ],
+    "PreviousQuestTitles": [
+      "Shadowbringers",
+      "The City of Lost Angels"
+    ],
+    "NextQuestIds": [
+      69371
+    ],
+    "NextQuestTitles": [
+      "Path to the Past"
+    ],
+    "StarterNpc": "Keiten",
+    "StarterNpcLocation": {
+      "RowId": 6654195,
+      "X": 49.262,
+      "Y": 4,
+      "Z": 55.7751,
+      "Yaw": -0.0437581,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Marsak",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100988,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1357,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69371,
+    "QuestTitle": "Path to the Past",
+    "PreviousQuestIds": [
+      69370
+    ],
+    "PreviousQuestTitles": [
+      "Hail to the Queen"
+    ],
+    "NextQuestIds": [
+      69372
+    ],
+    "NextQuestTitles": [
+      "The Bozja Incident"
+    ],
+    "StarterNpc": "Marsak",
+    "StarterNpcLocation": {
+      "RowId": 8277656,
+      "X": -258.577,
+      "Y": 53.2081,
+      "Z": -644.837,
+      "Yaw": 0.860105,
+      "Radius": 1,
+      "MapId": 354,
+      "TerritoryId": 614
+    },
+    "FinishNpc": "Ironworks engineer",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100989,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 26727,
+          "ItemName": "Piety Materia VIII",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26731,
+          "ItemName": "Battledance Materia VIII",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26738,
+          "ItemName": "Quickarm Materia VIII",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 26739,
+          "ItemName": "Quicktongue Materia VIII",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69372,
+    "QuestTitle": "The Bozja Incident",
+    "PreviousQuestIds": [
+      69371
+    ],
+    "PreviousQuestTitles": [
+      "Path to the Past"
+    ],
+    "NextQuestIds": [
+      69380,
+      69477
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Fire in the Forge",
+      "Where Eagles Nest"
+    ],
+    "StarterNpc": "Ironworks engineer",
+    "StarterNpcLocation": {
+      "RowId": 8277934,
+      "X": 29.4555,
+      "Y": -0.0153198,
+      "Z": 30.3547,
+      "Yaw": 0.67691,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Marsak",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100990,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3734,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69380,
+    "QuestTitle": "\uE0BF Fire in the Forge",
+    "PreviousQuestIds": [
+      69372
+    ],
+    "PreviousQuestTitles": [
+      "The Bozja Incident"
+    ],
+    "NextQuestIds": [
+      69381,
+      69477
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Resistance Is (Not) Futile",
+      "Where Eagles Nest"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 8278610,
+      "X": 9.04858,
+      "Y": 2.96598,
+      "Z": -52.9946,
+      "Yaw": -0.601608,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100991,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 12,
+          "ItemName": "Lightning Crystal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69381,
+    "QuestTitle": "\uE0BF Resistance Is (Not) Futile",
+    "PreviousQuestIds": [
+      69380
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Fire in the Forge"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 51,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 100991,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 13,
+          "ItemName": "Water Crystal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69477,
+    "QuestTitle": "Where Eagles Nest",
+    "PreviousQuestIds": [
+      69372,
+      69380,
+      69218
+    ],
+    "PreviousQuestTitles": [
+      "The Bozja Incident",
+      "\uE0BF Fire in the Forge",
+      "Vows of Virtue, Deeds of Cruelty"
+    ],
+    "NextQuestIds": [
+      69478,
+      69505
+    ],
+    "NextQuestTitles": [
+      "Memoirs from the Front",
+      "A Sober Proposal"
+    ],
+    "StarterNpc": "Marsak",
+    "StarterNpcLocation": {
+      "RowId": 8278508,
+      "X": 16.7164,
+      "Y": 0.0374599,
+      "Z": -17.9077,
+      "Yaw": -1.2255,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Mikoto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101022,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 979,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69479,
+    "QuestTitle": "An Expected Engagement",
+    "PreviousQuestIds": [
+      69478
+    ],
+    "PreviousQuestTitles": [
+      "Memoirs from the Front"
+    ],
+    "NextQuestIds": [
+      69480
+    ],
+    "NextQuestTitles": [
+      "Lost No Longer"
+    ],
+    "StarterNpc": "Dmitar",
+    "StarterNpcLocation": {
+      "RowId": 8380811,
+      "X": -182.727,
+      "Y": 5,
+      "Z": 813.229,
+      "Yaw": -1.43091,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Dmitar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 103,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 685,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 300
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69480,
+    "QuestTitle": "Lost No Longer",
+    "PreviousQuestIds": [
+      69479
+    ],
+    "PreviousQuestTitles": [
+      "An Expected Engagement"
+    ],
+    "NextQuestIds": [
+      69481
+    ],
+    "NextQuestTitles": [
+      "On the Offensive"
+    ],
+    "StarterNpc": "Dmitar",
+    "StarterNpcLocation": {
+      "RowId": 8380811,
+      "X": -182.727,
+      "Y": 5,
+      "Z": 813.229,
+      "Yaw": -1.43091,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Dmitar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 104,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 574,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 375
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30884,
+          "ItemName": "Forgotten Fragment of Caution",
+          "Count": 3
+        },
+        {
+          "ItemId": 30885,
+          "ItemName": "Forgotten Fragment of Preparation",
+          "Count": 3
+        },
+        {
+          "ItemId": 30886,
+          "ItemName": "Forgotten Fragment of Skill",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69481,
+    "QuestTitle": "On the Offensive",
+    "PreviousQuestIds": [
+      69480
+    ],
+    "PreviousQuestTitles": [
+      "Lost No Longer"
+    ],
+    "NextQuestIds": [
+      69482
+    ],
+    "NextQuestTitles": [
+      "Time to Focus"
+    ],
+    "StarterNpc": "Dmitar",
+    "StarterNpcLocation": {
+      "RowId": 8380811,
+      "X": -182.727,
+      "Y": 5,
+      "Z": 813.229,
+      "Yaw": -1.43091,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Dmitar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 105,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 574,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 1350
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30887,
+          "ItemName": "Forgotten Fragment of Ingenuity",
+          "Count": 3
+        },
+        {
+          "ItemId": 30888,
+          "ItemName": "Forgotten Fragment of Care",
+          "Count": 3
+        },
+        {
+          "ItemId": 30889,
+          "ItemName": "Forgotten Fragment of Awakening",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69482,
+    "QuestTitle": "Time to Focus",
+    "PreviousQuestIds": [
+      69481
+    ],
+    "PreviousQuestTitles": [
+      "On the Offensive"
+    ],
+    "NextQuestIds": [
+      69483
+    ],
+    "NextQuestTitles": [
+      "Third Time\u0027s the Charm"
+    ],
+    "StarterNpc": "Mikoto",
+    "StarterNpcLocation": {
+      "RowId": 8402404,
+      "X": -207.263,
+      "Y": 5,
+      "Z": 816.434,
+      "Yaw": -0.755688,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Mikoto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 106,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 943,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 1575
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69483,
+    "QuestTitle": "Third Time\u0027s the Charm",
+    "PreviousQuestIds": [
+      69482
+    ],
+    "PreviousQuestTitles": [
+      "Time to Focus"
+    ],
+    "NextQuestIds": [
+      69484
+    ],
+    "NextQuestTitles": [
+      "Pressing Forward"
+    ],
+    "StarterNpc": "Mikoto",
+    "StarterNpcLocation": {
+      "RowId": 8380800,
+      "X": -207.263,
+      "Y": 4.98969,
+      "Z": 816.495,
+      "Yaw": 0.248163,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Mikoto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 107,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 989,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 2600
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69484,
+    "QuestTitle": "Pressing Forward",
+    "PreviousQuestIds": [
+      69483
+    ],
+    "PreviousQuestTitles": [
+      "Third Time\u0027s the Charm"
+    ],
+    "NextQuestIds": [
+      69485
+    ],
+    "NextQuestTitles": [
+      "Signature Acquired"
+    ],
+    "StarterNpc": "Dmitar",
+    "StarterNpcLocation": {
+      "RowId": 8380811,
+      "X": -182.727,
+      "Y": 5,
+      "Z": 813.229,
+      "Yaw": -1.43091,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Dmitar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 108,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 574,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 2925
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30890,
+          "ItemName": "Forgotten Fragment of Support",
+          "Count": 3
+        },
+        {
+          "ItemId": 30891,
+          "ItemName": "Forgotten Fragment of Violence",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69485,
+    "QuestTitle": "Signature Acquired",
+    "PreviousQuestIds": [
+      69484
+    ],
+    "PreviousQuestTitles": [
+      "Pressing Forward"
+    ],
+    "NextQuestIds": [
+      69486
+    ],
+    "NextQuestTitles": [
+      "Picking Up the Trail"
+    ],
+    "StarterNpc": "Mikoto",
+    "StarterNpcLocation": {
+      "RowId": 8402409,
+      "X": -211.069,
+      "Y": 5,
+      "Z": 816.343,
+      "Yaw": -2.42158,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Bajsaljen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 109,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101023,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1016,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 3250
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30892,
+          "ItemName": "Forgotten Fragment of Resolve",
+          "Count": 3
+        },
+        {
+          "ItemId": 30893,
+          "ItemName": "Forgotten Fragment of Compassion",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69486,
+    "QuestTitle": "Picking Up the Trail",
+    "PreviousQuestIds": [
+      69485
+    ],
+    "PreviousQuestTitles": [
+      "Signature Acquired"
+    ],
+    "NextQuestIds": [
+      69487
+    ],
+    "NextQuestTitles": [
+      "The Lady of Blades"
+    ],
+    "StarterNpc": "Lilja",
+    "StarterNpcLocation": {
+      "RowId": 8402413,
+      "X": -210.669,
+      "Y": 5,
+      "Z": 817.681,
+      "Yaw": 0.221843,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Lilja",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 906,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 3250
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69487,
+    "QuestTitle": "The Lady of Blades",
+    "PreviousQuestIds": [
+      69486
+    ],
+    "PreviousQuestTitles": [
+      "Picking Up the Trail"
+    ],
+    "NextQuestIds": [
+      69561
+    ],
+    "NextQuestTitles": [
+      "A Sign of What\u0027s to Come"
+    ],
+    "StarterNpc": "Bajsaljen",
+    "StarterNpcLocation": {
+      "RowId": 8380796,
+      "X": -216.449,
+      "Y": 4.98969,
+      "Z": 830.869,
+      "Yaw": 0.619625,
+      "Radius": 1,
+      "MapId": 606,
+      "TerritoryId": 920
+    },
+    "FinishNpc": "Marsak",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 111,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101024,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1200,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30357,
+          "ItemName": "Field Notes on Misija",
+          "Count": 1
+        },
+        {
+          "ItemId": 30359,
+          "ItemName": "Field Notes on Menenius",
+          "Count": 1
+        },
+        {
+          "ItemId": 30361,
+          "ItemName": "Field Notes on Gunnhildr",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69505,
+    "QuestTitle": "A Sober Proposal",
+    "PreviousQuestIds": [
+      69477
+    ],
+    "PreviousQuestTitles": [
+      "Where Eagles Nest"
+    ],
+    "NextQuestIds": [
+      69506
+    ],
+    "NextQuestTitles": [
+      "\uE0BF For Want of a Memory"
+    ],
+    "StarterNpc": "stressed soldier",
+    "StarterNpcLocation": {
+      "RowId": 8425871,
+      "X": -26.7491,
+      "Y": -0.6,
+      "Z": -37.0032,
+      "Yaw": 0.113198,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 150,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101019,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 655,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69506,
+    "QuestTitle": "\uE0BF For Want of a Memory",
+    "PreviousQuestIds": [
+      69505
+    ],
+    "PreviousQuestTitles": [
+      "A Sober Proposal"
+    ],
+    "NextQuestIds": [
+      69507
+    ],
+    "NextQuestTitles": [
+      "\uE0BF The Will to Resist"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 151,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101020,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 17,
+          "ItemName": "Earth Cluster",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69507,
+    "QuestTitle": "\uE0BF The Will to Resist",
+    "PreviousQuestIds": [
+      69506
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF For Want of a Memory"
+    ],
+    "NextQuestIds": [
+      69573
+    ],
+    "NextQuestTitles": [
+      "In the Queen\u0027s Image"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 152,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101021,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 18,
+          "ItemName": "Lightning Cluster",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69561,
+    "QuestTitle": "A Sign of What\u0027s to Come",
+    "PreviousQuestIds": [
+      69487
+    ],
+    "PreviousQuestTitles": [
+      "The Lady of Blades"
+    ],
+    "NextQuestIds": [
+      69562
+    ],
+    "NextQuestTitles": [
+      "Fit for a Queen"
+    ],
+    "StarterNpc": "Marsak",
+    "StarterNpcLocation": {
+      "RowId": 8278508,
+      "X": 16.7164,
+      "Y": 0.0374599,
+      "Z": -17.9077,
+      "Yaw": -1.2255,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Bajsaljen",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101044,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 32162,
+          "ItemName": "Forgotten Fragment of Observation",
+          "Count": 2
+        },
+        {
+          "ItemId": 32191,
+          "ItemName": "Field Notes on Lilja",
+          "Count": 1
+        },
+        {
+          "ItemId": 32192,
+          "ItemName": "Field Notes on Bwagi",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69562,
+    "QuestTitle": "Fit for a Queen",
+    "PreviousQuestIds": [
+      69561
+    ],
+    "PreviousQuestTitles": [
+      "A Sign of What\u0027s to Come"
+    ],
+    "NextQuestIds": [
+      69563,
+      69564,
+      69565,
+      69573,
+      69620
+    ],
+    "NextQuestTitles": [
+      "A Seaside Story",
+      "One Man\u0027s Relic",
+      "Let Me Holster That for You",
+      "In the Queen\u0027s Image",
+      "A New Playing Field"
+    ],
+    "StarterNpc": "Bajsaljen",
+    "StarterNpcLocation": {
+      "RowId": 8278506,
+      "X": 22.3748,
+      "Y": 0.0800997,
+      "Z": -14.6867,
+      "Yaw": -1.50842,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Marsak",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 202,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101045,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 32193,
+          "ItemName": "Field Notes on Mikoto",
+          "Count": 1
+        },
+        {
+          "ItemId": 32194,
+          "ItemName": "Field Notes on Misija, Part II",
+          "Count": 1
+        },
+        {
+          "ItemId": 32195,
+          "ItemName": "Field Notes on Gunnhildr, Part II",
+          "Count": 1
+        },
+        {
+          "ItemId": 32200,
+          "ItemName": "Field Notes on Rostik",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69564,
+    "QuestTitle": "One Man\u0027s Relic",
+    "PreviousQuestIds": [
+      69562
+    ],
+    "PreviousQuestTitles": [
+      "Fit for a Queen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Annes",
+    "StarterNpcLocation": {
+      "RowId": 8555548,
+      "X": 6.13746,
+      "Y": 0.429798,
+      "Z": -31.5221,
+      "Yaw": 0.258749,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Annes",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 212,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1000,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 12000
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 32180,
+          "ItemName": "Bozjan Gold Coin",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69565,
+    "QuestTitle": "Let Me Holster That for You",
+    "PreviousQuestIds": [
+      69562
+    ],
+    "PreviousQuestTitles": [
+      "Fit for a Queen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kriv",
+    "StarterNpcLocation": {
+      "RowId": 8555550,
+      "X": 1.12075,
+      "Y": -0.257476,
+      "Z": 30.9847,
+      "Yaw": -1.66145,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Kriv",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 213,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 575,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69573,
+    "QuestTitle": "In the Queen\u0027s Image",
+    "PreviousQuestIds": [
+      69507,
+      69562
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF The Will to Resist",
+      "Fit for a Queen"
+    ],
+    "NextQuestIds": [
+      69574
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Change of Arms"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 8278505,
+      "X": 5.99871,
+      "Y": 2.91206,
+      "Z": -53.6124,
+      "Yaw": 0.624183,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 250,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101046,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69574,
+    "QuestTitle": "\uE0BF Change of Arms",
+    "PreviousQuestIds": [
+      69573
+    ],
+    "PreviousQuestTitles": [
+      "In the Queen\u0027s Image"
+    ],
+    "NextQuestIds": [
+      69575
+    ],
+    "NextQuestTitles": [
+      "The Resistance Remembers"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 251,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101047,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 20,
+          "ItemName": "Storm Seal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69575,
+    "QuestTitle": "The Resistance Remembers",
+    "PreviousQuestIds": [
+      69574
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Change of Arms"
+    ],
+    "NextQuestIds": [
+      69576
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A New Path of Resistance"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 8278505,
+      "X": 5.99871,
+      "Y": 2.91206,
+      "Z": -53.6124,
+      "Yaw": 0.624183,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Allagan node",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 252,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101048,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 655,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69576,
+    "QuestTitle": "\uE0BF A New Path of Resistance",
+    "PreviousQuestIds": [
+      69575
+    ],
+    "PreviousQuestTitles": [
+      "The Resistance Remembers"
+    ],
+    "NextQuestIds": [
+      69577,
+      69632
+    ],
+    "NextQuestTitles": [
+      "Forged Anew",
+      "What Dreams Are Made Of"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Allagan node",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 253,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101049,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 21,
+          "ItemName": "Serpent Seal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69620,
+    "QuestTitle": "A New Playing Field",
+    "PreviousQuestIds": [
+      69562,
+      69552
+    ],
+    "PreviousQuestTitles": [
+      "Fit for a Queen",
+      "Futures Rewritten"
+    ],
+    "NextQuestIds": [
+      69621,
+      69632
+    ],
+    "NextQuestTitles": [
+      "Resolve Unshaken",
+      "What Dreams Are Made Of"
+    ],
+    "StarterNpc": "Marsak",
+    "StarterNpcLocation": {
+      "RowId": 8278508,
+      "X": 16.7164,
+      "Y": 0.0374599,
+      "Z": -17.9077,
+      "Yaw": -1.2255,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Mikoto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101069,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1016,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69621,
+    "QuestTitle": "Resolve Unshaken",
+    "PreviousQuestIds": [
+      69620
+    ],
+    "PreviousQuestTitles": [
+      "A New Playing Field"
+    ],
+    "NextQuestIds": [
+      69628
+    ],
+    "NextQuestTitles": [
+      "Where Eagles Roost"
+    ],
+    "StarterNpc": "Mikoto",
+    "StarterNpcLocation": {
+      "RowId": 8713692,
+      "X": 696.467,
+      "Y": 296.071,
+      "Z": 677.577,
+      "Yaw": 1.16676,
+      "Radius": 1,
+      "MapId": 665,
+      "TerritoryId": 975
+    },
+    "FinishNpc": "Lilja",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 302,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 979,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 367500
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33768,
+          "ItemName": "Forgotten Fragment of History",
+          "Count": 5
+        },
+        {
+          "ItemId": 33769,
+          "ItemName": "Forgotten Fragment of Rage",
+          "Count": 5
+        },
+        {
+          "ItemId": 33770,
+          "ItemName": "Forgotten Fragment of Ferocity",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69622,
+    "QuestTitle": "Reaching Out",
+    "PreviousQuestIds": [
+      69628
+    ],
+    "PreviousQuestTitles": [
+      "Where Eagles Roost"
+    ],
+    "NextQuestIds": [
+      69629
+    ],
+    "NextQuestTitles": [
+      "In Their Shadow"
+    ],
+    "StarterNpc": "Mikoto",
+    "StarterNpcLocation": {
+      "RowId": 8694421,
+      "X": 694.211,
+      "Y": 296.073,
+      "Z": 678.363,
+      "Yaw": -2.75857,
+      "Radius": 1,
+      "MapId": 665,
+      "TerritoryId": 975
+    },
+    "FinishNpc": "Mikoto",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 304,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 979,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 500000
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69623,
+    "QuestTitle": "Renewed Focus",
+    "PreviousQuestIds": [
+      69629
+    ],
+    "PreviousQuestTitles": [
+      "In Their Shadow"
+    ],
+    "NextQuestIds": [
+      69624
+    ],
+    "NextQuestTitles": [
+      "March of the Bloody Queen"
+    ],
+    "StarterNpc": "Bajsaljen",
+    "StarterNpcLocation": {
+      "RowId": 8713675,
+      "X": 681.33,
+      "Y": 296.071,
+      "Z": 636.072,
+      "Yaw": 0.622342,
+      "Radius": 1,
+      "MapId": 665,
+      "TerritoryId": 975
+    },
+    "FinishNpc": "Lilja",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 306,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1053,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 630000
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69624,
+    "QuestTitle": "March of the Bloody Queen",
+    "PreviousQuestIds": [
+      69623
+    ],
+    "PreviousQuestTitles": [
+      "Renewed Focus"
+    ],
+    "NextQuestIds": [
+      69630,
+      69631
+    ],
+    "NextQuestTitles": [
+      "An Honor to Serve",
+      "A Ruined Opportunity"
+    ],
+    "StarterNpc": "Bajsaljen",
+    "StarterNpcLocation": {
+      "RowId": 8713675,
+      "X": 681.33,
+      "Y": 296.071,
+      "Z": 636.072,
+      "Yaw": 0.622342,
+      "Radius": 1,
+      "MapId": 665,
+      "TerritoryId": 975
+    },
+    "FinishNpc": "Marsak",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 307,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101070,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33814,
+          "ItemName": "Field Notes on Cid",
+          "Count": 1
+        },
+        {
+          "ItemId": 33815,
+          "ItemName": "Field Notes on Fran",
+          "Count": 1
+        },
+        {
+          "ItemId": 33816,
+          "ItemName": "Field Notes on Hien",
+          "Count": 1
+        },
+        {
+          "ItemId": 33817,
+          "ItemName": "Field Notes on Noah",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69628,
+    "QuestTitle": "Where Eagles Roost",
+    "PreviousQuestIds": [
+      69621
+    ],
+    "PreviousQuestTitles": [
+      "Resolve Unshaken"
+    ],
+    "NextQuestIds": [
+      69622
+    ],
+    "NextQuestTitles": [
+      "Reaching Out"
+    ],
+    "StarterNpc": "Dmitar",
+    "StarterNpcLocation": {
+      "RowId": 8713695,
+      "X": 679.766,
+      "Y": 296.097,
+      "Z": 678.472,
+      "Yaw": 2.82604,
+      "Radius": 1,
+      "MapId": 665,
+      "TerritoryId": 975
+    },
+    "FinishNpc": "Dmitar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 303,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 648,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 460000
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33771,
+          "ItemName": "Forgotten Fragment of Moonlight",
+          "Count": 5
+        },
+        {
+          "ItemId": 33772,
+          "ItemName": "Forgotten Fragment of Hope",
+          "Count": 5
+        },
+        {
+          "ItemId": 33773,
+          "ItemName": "Forgotten Fragment of Artistry",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69629,
+    "QuestTitle": "In Their Shadow",
+    "PreviousQuestIds": [
+      69622
+    ],
+    "PreviousQuestTitles": [
+      "Reaching Out"
+    ],
+    "NextQuestIds": [
+      69623
+    ],
+    "NextQuestTitles": [
+      "Renewed Focus"
+    ],
+    "StarterNpc": "Dmitar",
+    "StarterNpcLocation": {
+      "RowId": 8713695,
+      "X": 679.766,
+      "Y": 296.097,
+      "Z": 678.472,
+      "Yaw": 2.82604,
+      "Radius": 1,
+      "MapId": 665,
+      "TerritoryId": 975
+    },
+    "FinishNpc": "Dmitar",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 305,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 648,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 607500
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33774,
+          "ItemName": "Forgotten Fragment of Desperation",
+          "Count": 5
+        },
+        {
+          "ItemId": 33775,
+          "ItemName": "Forgotten Fragment of Tenacity",
+          "Count": 5
+        },
+        {
+          "ItemId": 33776,
+          "ItemName": "Forgotten Fragment of Inspiration",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69631,
+    "QuestTitle": "A Ruined Opportunity",
+    "PreviousQuestIds": [
+      69624
+    ],
+    "PreviousQuestTitles": [
+      "March of the Bloody Queen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Merlzirn",
+    "StarterNpcLocation": {
+      "RowId": 8763767,
+      "X": 34.1941,
+      "Y": 0.246652,
+      "Z": -27.8044,
+      "Yaw": -1.05266,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Merlzirn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 312,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 71,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Currency": {
+        "CurrencyId": 30363,
+        "CurrencyName": "Mettle",
+        "Count": 675000
+      },
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33796,
+          "ItemName": "Bozjan Platinum Coin",
+          "Count": 9
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69632,
+    "QuestTitle": "What Dreams Are Made Of",
+    "PreviousQuestIds": [
+      69620,
+      69576
+    ],
+    "PreviousQuestTitles": [
+      "A New Playing Field",
+      "\uE0BF A New Path of Resistance"
+    ],
+    "NextQuestIds": [
+      69633,
+      69634,
+      69635
+    ],
+    "NextQuestTitles": [
+      "Spare Parts",
+      "Tell Me a Story",
+      "A Fond Memory"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 8278505,
+      "X": 5.99871,
+      "Y": 2.91206,
+      "Z": -53.6124,
+      "Yaw": 0.624183,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 350,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101071,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69633,
+    "QuestTitle": "Spare Parts",
+    "PreviousQuestIds": [
+      69632
+    ],
+    "PreviousQuestTitles": [
+      "What Dreams Are Made Of"
+    ],
+    "NextQuestIds": [
+      69636
+    ],
+    "NextQuestTitles": [
+      "A Done Deal"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 351,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101072,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69634,
+    "QuestTitle": "Tell Me a Story",
+    "PreviousQuestIds": [
+      69632
+    ],
+    "PreviousQuestTitles": [
+      "What Dreams Are Made Of"
+    ],
+    "NextQuestIds": [
+      69636
+    ],
+    "NextQuestTitles": [
+      "A Done Deal"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 352,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101073,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69635,
+    "QuestTitle": "A Fond Memory",
+    "PreviousQuestIds": [
+      69632
+    ],
+    "PreviousQuestTitles": [
+      "What Dreams Are Made Of"
+    ],
+    "NextQuestIds": [
+      69636
+    ],
+    "NextQuestTitles": [
+      "A Done Deal"
+    ],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 353,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101074,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69636,
+    "QuestTitle": "A Done Deal",
+    "PreviousQuestIds": [
+      69633,
+      69634,
+      69635
+    ],
+    "PreviousQuestTitles": [
+      "Spare Parts",
+      "Tell Me a Story",
+      "A Fond Memory"
+    ],
+    "NextQuestIds": [
+      69637
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Irresistible"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 8278505,
+      "X": 5.99871,
+      "Y": 2.91206,
+      "Z": -53.6124,
+      "Yaw": 0.624183,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 354,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101075,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 615,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 69637,
+    "QuestTitle": "\uE0BF Irresistible",
+    "PreviousQuestIds": [
+      69636
+    ],
+    "PreviousQuestTitles": [
+      "A Done Deal"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Zlatan",
+    "StarterNpcLocation": {
+      "RowId": 8278613,
+      "X": 1.11389,
+      "Y": 3.27949,
+      "Z": -59.5255,
+      "Yaw": -2.20059,
+      "Radius": 1,
+      "MapId": 603,
+      "TerritoryId": 915
+    },
+    "FinishNpc": "Zlatan",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 90,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "Resistance Weapons"
+    },
+    "SortKey": 355,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101076,
+    "JobLevel": 80,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22,
+          "ItemName": "Flame Seal",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

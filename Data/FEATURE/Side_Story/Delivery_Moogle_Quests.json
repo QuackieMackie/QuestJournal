@@ -1,0 +1,1648 @@
+[
+  {
+    "QuestId": 65569,
+    "QuestTitle": "Sweet Words, Shadowy Dealings",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Rishushu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100298,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1417,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 40
+        },
+        {
+          "ItemId": 4,
+          "ItemName": "Wind Shard",
+          "Count": 40
+        },
+        {
+          "ItemId": 7,
+          "ItemName": "Water Shard",
+          "Count": 40
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65572,
+    "QuestTitle": "Sudul Eht Nioj",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Franz the Fair",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100299,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2136,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65776,
+    "QuestTitle": "Blues on Emerald Avenue",
+    "PreviousQuestIds": [
+      66740
+    ],
+    "PreviousQuestTitles": [
+      "The Rise and Fall of Gentlemen"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Wymond",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100360,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2449,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 5540,
+          "ItemName": "Carnation",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65777,
+    "QuestTitle": "Lone Survivor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Drest",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100342,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 864,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65778,
+    "QuestTitle": "Guildmaster, Prelate, and Plot",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100352,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1280,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65779,
+    "QuestTitle": "A Qiqirn Always Pays His Debts",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "retired reaver",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100361,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1374,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65780,
+    "QuestTitle": "The Hazy Professor",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Ceana",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100362,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1359,
+      "Catalysts": [
+        {
+          "ItemId": 2,
+          "ItemName": "Fire Shard",
+          "Count": 25
+        },
+        {
+          "ItemId": 8,
+          "ItemName": "Fire Crystal",
+          "Count": 10
+        }
+      ],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65898,
+    "QuestTitle": "The Little Postmoogle That Could",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Raya-O-Senna",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 24,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100364,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 10111,
+          "ItemName": "Postmoogle Cap",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66032,
+    "QuestTitle": "Better Left Unfound",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Landenel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 22,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100363,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1947,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4606,
+          "ItemName": "Mega-Potion of Vitality",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4608,
+          "ItemName": "Mega-Potion of Mind",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67017,
+    "QuestTitle": "Of Errant Epistles",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      67019
+    ],
+    "NextQuestTitles": [
+      "A Debt Unpaid"
+    ],
+    "StarterNpc": "Klynthota",
+    "StarterNpcLocation": {
+      "RowId": 4272594,
+      "X": 449.361,
+      "Y": -12.4319,
+      "Z": -387.541,
+      "Yaw": -2.78779,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Ryssfloh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100287,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67018,
+    "QuestTitle": "Carline Memories",
+    "PreviousQuestIds": [
+      67019
+    ],
+    "PreviousQuestTitles": [
+      "A Debt Unpaid"
+    ],
+    "NextQuestIds": [
+      67067,
+      67068,
+      67069
+    ],
+    "NextQuestTitles": [
+      "Spirits Most Foul",
+      "Dubious Dancing",
+      "Stroking the Haft"
+    ],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Mother Miounne",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100288,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4750,
+          "ItemName": "Mulled Tea",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4656,
+          "ItemName": "Apkallu Omelette",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4725,
+          "ItemName": "Rolanberry Cheesecake",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4679,
+          "ItemName": "Dzemael Gratin",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67019,
+    "QuestTitle": "A Debt Unpaid",
+    "PreviousQuestIds": [
+      67017
+    ],
+    "PreviousQuestTitles": [
+      "Of Errant Epistles"
+    ],
+    "NextQuestIds": [
+      67018,
+      67020
+    ],
+    "NextQuestTitles": [
+      "Carline Memories",
+      "Dream On"
+    ],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "deputy postmoogle",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100289,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4704,
+          "ItemName": "Finger Sandwich",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4695,
+          "ItemName": "Black Truffle Risotto",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4672,
+          "ItemName": "Pan-fried Mahi-mahi",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4688,
+          "ItemName": "Landtrap Salad",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67020,
+    "QuestTitle": "Dream On",
+    "PreviousQuestIds": [
+      67019
+    ],
+    "PreviousQuestTitles": [
+      "A Debt Unpaid"
+    ],
+    "NextQuestIds": [
+      67067,
+      67068,
+      67069
+    ],
+    "NextQuestTitles": [
+      "Spirits Most Foul",
+      "Dubious Dancing",
+      "Stroking the Haft"
+    ],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Momodi",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100290,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4648,
+          "ItemName": "Sauteed Coeurl",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4665,
+          "ItemName": "Lava Toad Legs",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4734,
+          "ItemName": "Pineapple Ponzecake",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4714,
+          "ItemName": "Tomato Pie",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67021,
+    "QuestTitle": "Thwack-a-Mole",
+    "PreviousQuestIds": [
+      67067,
+      66343
+    ],
+    "PreviousQuestTitles": [
+      "Spirits Most Foul",
+      "Doing the Dirty Work"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Marcette",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100291,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6206,
+          "ItemName": "Mini Mole",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67067,
+    "QuestTitle": "Spirits Most Foul",
+    "PreviousQuestIds": [
+      67018,
+      67020
+    ],
+    "PreviousQuestTitles": [
+      "Carline Memories",
+      "Dream On"
+    ],
+    "NextQuestIds": [
+      67021
+    ],
+    "NextQuestTitles": [
+      "Thwack-a-Mole"
+    ],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Braya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100292,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1220,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4647,
+          "ItemName": "Eft Steak",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 6143,
+          "ItemName": "Grilled Raincaller",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4721,
+          "ItemName": "Bouillabaisse",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4678,
+          "ItemName": "Beef Stew",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67068,
+    "QuestTitle": "Dubious Dancing",
+    "PreviousQuestIds": [
+      67018,
+      67020
+    ],
+    "PreviousQuestTitles": [
+      "Carline Memories",
+      "Dream On"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Gegeruju",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100293,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1399,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67069,
+    "QuestTitle": "Stroking the Haft",
+    "PreviousQuestIds": [
+      67018,
+      67020
+    ],
+    "PreviousQuestTitles": [
+      "Carline Memories",
+      "Dream On"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Hunberct",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100294,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 617,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67106,
+    "QuestTitle": "Death of a Mailman",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "deputy postmoogle",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100338,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67107,
+    "QuestTitle": "The Captain of Her Heart",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Swygrael",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100296,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 879,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67108,
+    "QuestTitle": "Thanks for Your Support",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Wawalago",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 18,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100358,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 838,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 3323,
+          "ItemName": "Star-spangled Subligar",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67109,
+    "QuestTitle": "Of Siblings and Side-whiskers",
+    "PreviousQuestIds": [
+      66746
+    ],
+    "PreviousQuestTitles": [
+      "Beauty Is Only Scalp Deep"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Jandelaine",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100297,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2160,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7005,
+          "ItemName": "Jandelaine\u0027s Token",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67110,
+    "QuestTitle": "The Past Is a Story We Never Tell",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Mauh Lihzeh",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100341,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2413,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 9330,
+          "ItemName": "Triple Cream Coffee",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9331,
+          "ItemName": "Bacon Bread",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9334,
+          "ItemName": "Haddock Dip",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 9335,
+          "ItemName": "Bacon Broth",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67111,
+    "QuestTitle": "Hostages to Fortune",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Miah Molkot",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 18,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100359,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 4748,
+          "ItemName": "Pineapple Juice",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4656,
+          "ItemName": "Apkallu Omelette",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4725,
+          "ItemName": "Rolanberry Cheesecake",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 4679,
+          "ItemName": "Dzemael Gratin",
+          "Count": 3,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5824,
+          "ItemName": "Allagan Bronze Piece",
+          "Count": 3,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67112,
+    "QuestTitle": "All in the Family",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Hihira",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100339,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1654,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4750,
+          "ItemName": "Mulled Tea",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67113,
+    "QuestTitle": "Duel Personalities",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "deputy postmoogle",
+    "StarterNpcLocation": {
+      "RowId": 4742821,
+      "X": -39.0962,
+      "Y": 20,
+      "Z": 5.43288,
+      "Yaw": 3.0767,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Anselm",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 93,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Delivery Moogle Quests"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100340,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 602,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 9332,
+          "ItemName": "Flint Caviar",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

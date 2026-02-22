@@ -1,0 +1,616 @@
+[
+  {
+    "QuestId": 70859,
+    "QuestTitle": "A Manager\u0027s Patience",
+    "PreviousQuestIds": [
+      70790
+    ],
+    "PreviousQuestTitles": [
+      "Passion, Thy Name Is Ardorum"
+    ],
+    "NextQuestIds": [
+      70860
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Persistence"
+    ],
+    "StarterNpc": "Mumukko",
+    "StarterNpcLocation": {
+      "RowId": 11598881,
+      "X": 10.1295,
+      "Y": 1.60337,
+      "Z": -17.117,
+      "Yaw": -0.183607,
+      "Radius": 1,
+      "MapId": 1031,
+      "TerritoryId": 1237
+    },
+    "FinishNpc": "Mumukko",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101410,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 218,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70860,
+    "QuestTitle": "A Manager\u0027s Persistence",
+    "PreviousQuestIds": [
+      70859
+    ],
+    "PreviousQuestTitles": [
+      "A Manager\u0027s Patience"
+    ],
+    "NextQuestIds": [
+      70947
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Discernment"
+    ],
+    "StarterNpc": "Mumukko",
+    "StarterNpcLocation": {
+      "RowId": 11598881,
+      "X": 10.1295,
+      "Y": 1.60337,
+      "Z": -17.117,
+      "Yaw": -0.183607,
+      "Radius": 1,
+      "MapId": 1031,
+      "TerritoryId": 1237
+    },
+    "FinishNpc": "Mumukko",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 202,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 231,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70947,
+    "QuestTitle": "A Manager\u0027s Discernment",
+    "PreviousQuestIds": [
+      70946,
+      70860
+    ],
+    "PreviousQuestTitles": [
+      "The Brightest Star",
+      "A Manager\u0027s Persistence"
+    ],
+    "NextQuestIds": [
+      70950
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Delegation"
+    ],
+    "StarterNpc": "Mumukko",
+    "StarterNpcLocation": {
+      "RowId": 11905234,
+      "X": 350.552,
+      "Y": 52.6123,
+      "Z": -438.403,
+      "Yaw": -0.39404,
+      "Radius": 1,
+      "MapId": 1086,
+      "TerritoryId": 1291
+    },
+    "FinishNpc": "Mumukko",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101436,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 218,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70948,
+    "QuestTitle": "Perspective Reflected",
+    "PreviousQuestIds": [
+      70946
+    ],
+    "PreviousQuestTitles": [
+      "The Brightest Star"
+    ],
+    "NextQuestIds": [
+      70950
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Delegation"
+    ],
+    "StarterNpc": "Ishgardian glassworker",
+    "StarterNpcLocation": {
+      "RowId": 11905239,
+      "X": 383.658,
+      "Y": 52.5,
+      "Z": -389.761,
+      "Yaw": -2.13775,
+      "Radius": 1,
+      "MapId": 1086,
+      "TerritoryId": 1291
+    },
+    "FinishNpc": "Ishgardian glassworker",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 302,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 225,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70949,
+    "QuestTitle": "Pilot Wanted",
+    "PreviousQuestIds": [
+      70946
+    ],
+    "PreviousQuestTitles": [
+      "The Brightest Star"
+    ],
+    "NextQuestIds": [
+      70950
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Delegation"
+    ],
+    "StarterNpc": "vacuum suit specialist",
+    "StarterNpcLocation": {
+      "RowId": 11905246,
+      "X": 234.974,
+      "Y": 59.5016,
+      "Z": -448.783,
+      "Yaw": -3.12965,
+      "Radius": 1,
+      "MapId": 1086,
+      "TerritoryId": 1291
+    },
+    "FinishNpc": "vacuum suit specialist",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 303,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 205,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70950,
+    "QuestTitle": "A Manager\u0027s Delegation",
+    "PreviousQuestIds": [
+      70947,
+      70948,
+      70949
+    ],
+    "PreviousQuestTitles": [
+      "A Manager\u0027s Discernment",
+      "Perspective Reflected",
+      "Pilot Wanted"
+    ],
+    "NextQuestIds": [
+      70986
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Prudence"
+    ],
+    "StarterNpc": "Mumukko",
+    "StarterNpcLocation": {
+      "RowId": 11905234,
+      "X": 350.552,
+      "Y": 52.6123,
+      "Z": -438.403,
+      "Yaw": -0.39404,
+      "Radius": 1,
+      "MapId": 1086,
+      "TerritoryId": 1291
+    },
+    "FinishNpc": "Mumukko",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 304,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 257,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70986,
+    "QuestTitle": "A Manager\u0027s Prudence",
+    "PreviousQuestIds": [
+      70985,
+      70950
+    ],
+    "PreviousQuestTitles": [
+      "Memory\u0027s Orbit",
+      "A Manager\u0027s Delegation"
+    ],
+    "NextQuestIds": [
+      70988
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Power"
+    ],
+    "StarterNpc": "Mumukko",
+    "StarterNpcLocation": {
+      "RowId": 12239591,
+      "X": -161.059,
+      "Y": 0.472961,
+      "Z": 147.051,
+      "Yaw": -2.4197,
+      "Radius": 1,
+      "MapId": 1160,
+      "TerritoryId": 1310
+    },
+    "FinishNpc": "Mumukko",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 401,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101457,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 231,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70987,
+    "QuestTitle": "Terror along the Tracks",
+    "PreviousQuestIds": [
+      70985
+    ],
+    "PreviousQuestTitles": [
+      "Memory\u0027s Orbit"
+    ],
+    "NextQuestIds": [
+      70988
+    ],
+    "NextQuestTitles": [
+      "A Manager\u0027s Power"
+    ],
+    "StarterNpc": "Cosmoliner engineer",
+    "StarterNpcLocation": {
+      "RowId": 12239647,
+      "X": -274.854,
+      "Y": 0.379481,
+      "Z": 130.579,
+      "Yaw": -1.46131,
+      "Radius": 1,
+      "MapId": 1160,
+      "TerritoryId": 1310
+    },
+    "FinishNpc": "Cosmoliner engineer",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 402,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 225,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70988,
+    "QuestTitle": "A Manager\u0027s Power",
+    "PreviousQuestIds": [
+      70986,
+      70987
+    ],
+    "PreviousQuestTitles": [
+      "A Manager\u0027s Prudence",
+      "Terror along the Tracks"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mumukko",
+    "StarterNpcLocation": {
+      "RowId": 12239591,
+      "X": -161.059,
+      "Y": 0.472961,
+      "Z": 147.051,
+      "Yaw": -2.4197,
+      "Radius": 1,
+      "MapId": 1160,
+      "TerritoryId": 1310
+    },
+    "FinishNpc": "Mumukko",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 403,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 205,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70989,
+    "QuestTitle": "An Interstellar Field Trip",
+    "PreviousQuestIds": [
+      70985,
+      70010
+    ],
+    "PreviousQuestTitles": [
+      "Memory\u0027s Orbit",
+      "The Meeting of Minds"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Theorizingway",
+    "StarterNpcLocation": {
+      "RowId": 12247755,
+      "X": -198.169,
+      "Y": 0.49999,
+      "Z": 105.058,
+      "Yaw": 1.1623,
+      "Radius": 1,
+      "MapId": 1160,
+      "TerritoryId": 1310
+    },
+    "FinishNpc": "Theorizingway",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 109,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Cosmic Exploration Sidequests"
+    },
+    "SortKey": 404,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 0,
+    "JobLevel": 10,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 238,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

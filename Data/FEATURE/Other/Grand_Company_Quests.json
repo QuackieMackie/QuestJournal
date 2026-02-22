@@ -1,0 +1,935 @@
+[
+  {
+    "QuestId": 66640,
+    "QuestTitle": "A Pup No Longer (Maelstrom)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67063,
+      67064,
+      67065,
+      67819,
+      68543,
+      70121
+    ],
+    "NextQuestTitles": [
+      "Like Civilized Men and Women (Twin Adder)",
+      "Like Civilized Men and Women (Maelstrom)",
+      "Like Civilized Men and Women (Immortal Flames)",
+      "A Seat at the Feast",
+      "Earning Your Wings",
+      "The Crystal (Line\u0027s) Call"
+    ],
+    "StarterNpc": "R\u0027ashaht Rhiki",
+    "StarterNpcLocation": {
+      "RowId": 4101423,
+      "X": 97.5204,
+      "Y": 40.238,
+      "Z": 81.1322,
+      "Yaw": -1.59464,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Berkoeya Loetahlsyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 232,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Maelstrom Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 40001,
+          "InstanceName": "",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66641,
+    "QuestTitle": "A Pup No Longer (Twin Adder)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67063,
+      67064,
+      67065,
+      67819,
+      68543,
+      70121
+    ],
+    "NextQuestTitles": [
+      "Like Civilized Men and Women (Twin Adder)",
+      "Like Civilized Men and Women (Maelstrom)",
+      "Like Civilized Men and Women (Immortal Flames)",
+      "A Seat at the Feast",
+      "Earning Your Wings",
+      "The Crystal (Line\u0027s) Call"
+    ],
+    "StarterNpc": "Vorsaile Heuloix",
+    "StarterNpcLocation": {
+      "RowId": 1141151,
+      "X": -75.4815,
+      "Y": -0.501378,
+      "Z": -5.07031,
+      "Yaw": 0.992908,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Berkoeya Loetahlsyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 233,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Order of the Twin Adder Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 40001,
+          "InstanceName": "",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66642,
+    "QuestTitle": "A Pup No Longer (Immortal Flames)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67063,
+      67064,
+      67065,
+      67819,
+      68543,
+      70121
+    ],
+    "NextQuestTitles": [
+      "Like Civilized Men and Women (Twin Adder)",
+      "Like Civilized Men and Women (Maelstrom)",
+      "Like Civilized Men and Women (Immortal Flames)",
+      "A Seat at the Feast",
+      "Earning Your Wings",
+      "The Crystal (Line\u0027s) Call"
+    ],
+    "StarterNpc": "Swift",
+    "StarterNpcLocation": {
+      "RowId": 4101490,
+      "X": -141.637,
+      "Y": 4.09995,
+      "Z": -114.663,
+      "Yaw": 0.79504,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Berkoeya Loetahlsyn",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 234,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Immortal Flames Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 40001,
+          "InstanceName": "",
+          "ContentType": 5
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66664,
+    "QuestTitle": "Shadows Uncast (Maelstrom)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66667
+    ],
+    "NextQuestTitles": [
+      "Gilding the Bilious (Maelstrom)"
+    ],
+    "StarterNpc": "R\u0027ashaht Rhiki",
+    "StarterNpcLocation": {
+      "RowId": 4101423,
+      "X": 97.5204,
+      "Y": 40.238,
+      "Z": 81.1322,
+      "Yaw": -1.59464,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "R\u0027ashaht Rhiki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 232,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Maelstrom Quests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 44,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66665,
+    "QuestTitle": "Shadows Uncast (Twin Adder)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66668
+    ],
+    "NextQuestTitles": [
+      "Gilding the Bilious (Twin Adder)"
+    ],
+    "StarterNpc": "Vorsaile Heuloix",
+    "StarterNpcLocation": {
+      "RowId": 1141151,
+      "X": -75.4815,
+      "Y": -0.501378,
+      "Z": -5.07031,
+      "Yaw": 0.992908,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Vorsaile Heuloix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 233,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Order of the Twin Adder Quests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 44,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66666,
+    "QuestTitle": "Shadows Uncast (Immortal Flames)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66669
+    ],
+    "NextQuestTitles": [
+      "Gilding the Bilious (Immortal Flames)"
+    ],
+    "StarterNpc": "Swift",
+    "StarterNpcLocation": {
+      "RowId": 4101490,
+      "X": -141.637,
+      "Y": 4.09995,
+      "Z": -114.663,
+      "Yaw": 0.79504,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Swift",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 234,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Immortal Flames Quests"
+    },
+    "SortKey": 440,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 44,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5830,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66667,
+    "QuestTitle": "Gilding the Bilious (Maelstrom)",
+    "PreviousQuestIds": [
+      66664
+    ],
+    "PreviousQuestTitles": [
+      "Shadows Uncast (Maelstrom)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "R\u0027ashaht Rhiki",
+    "StarterNpcLocation": {
+      "RowId": 4101423,
+      "X": 97.5204,
+      "Y": 40.238,
+      "Z": 81.1322,
+      "Yaw": -1.59464,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "R\u0027ashaht Rhiki",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 232,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Maelstrom Quests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66668,
+    "QuestTitle": "Gilding the Bilious (Twin Adder)",
+    "PreviousQuestIds": [
+      66665
+    ],
+    "PreviousQuestTitles": [
+      "Shadows Uncast (Twin Adder)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Vorsaile Heuloix",
+    "StarterNpcLocation": {
+      "RowId": 1141151,
+      "X": -75.4815,
+      "Y": -0.501378,
+      "Z": -5.07031,
+      "Yaw": 0.992908,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Vorsaile Heuloix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 233,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Order of the Twin Adder Quests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66669,
+    "QuestTitle": "Gilding the Bilious (Immortal Flames)",
+    "PreviousQuestIds": [
+      66666
+    ],
+    "PreviousQuestTitles": [
+      "Shadows Uncast (Immortal Flames)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Swift",
+    "StarterNpcLocation": {
+      "RowId": 4101490,
+      "X": -141.637,
+      "Y": 4.09995,
+      "Z": -114.663,
+      "Yaw": 0.79504,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Swift",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 234,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Immortal Flames Quests"
+    },
+    "SortKey": 470,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 47,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67063,
+    "QuestTitle": "Like Civilized Men and Women (Twin Adder)",
+    "PreviousQuestIds": [
+      66641,
+      66642,
+      66640
+    ],
+    "PreviousQuestTitles": [
+      "A Pup No Longer (Twin Adder)",
+      "A Pup No Longer (Immortal Flames)",
+      "A Pup No Longer (Maelstrom)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Scarlet",
+    "StarterNpcLocation": {
+      "RowId": 4760560,
+      "X": -63.767,
+      "Y": -1.71717,
+      "Z": 11.6794,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Yellow Serpent flyer",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 233,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Order of the Twin Adder Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112064,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 367,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 41001,
+          "InstanceName": "the Borderland Ruins (Secure)",
+          "ContentType": 6
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67064,
+    "QuestTitle": "Like Civilized Men and Women (Maelstrom)",
+    "PreviousQuestIds": [
+      66641,
+      66642,
+      66640
+    ],
+    "PreviousQuestTitles": [
+      "A Pup No Longer (Twin Adder)",
+      "A Pup No Longer (Immortal Flames)",
+      "A Pup No Longer (Maelstrom)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Trachraet",
+    "StarterNpcLocation": {
+      "RowId": 4167110,
+      "X": 76.872,
+      "Y": 39.9963,
+      "Z": 79.0158,
+      "Yaw": -2.14534,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Foreign Levy flyer",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 232,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Maelstrom Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112064,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 367,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 41001,
+          "InstanceName": "the Borderland Ruins (Secure)",
+          "ContentType": 6
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67065,
+    "QuestTitle": "Like Civilized Men and Women (Immortal Flames)",
+    "PreviousQuestIds": [
+      66641,
+      66642,
+      66640
+    ],
+    "PreviousQuestTitles": [
+      "A Pup No Longer (Twin Adder)",
+      "A Pup No Longer (Immortal Flames)",
+      "A Pup No Longer (Maelstrom)"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Mimio Mio",
+    "StarterNpcLocation": {
+      "RowId": 2494993,
+      "X": -130.938,
+      "Y": 4.09965,
+      "Z": -91.0201,
+      "Yaw": 1.08277,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Free Brigade flyer",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 234,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Immortal Flames Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 112064,
+    "JobLevel": 30,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 367,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 41001,
+          "InstanceName": "the Borderland Ruins (Secure)",
+          "ContentType": 6
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67099,
+    "QuestTitle": "Let the Hunt Begin (Twin Adder)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67655
+    ],
+    "NextQuestTitles": [
+      "Let the Clan Hunt Begin"
+    ],
+    "StarterNpc": "Scarlet",
+    "StarterNpcLocation": {
+      "RowId": 4760560,
+      "X": -63.767,
+      "Y": -1.71717,
+      "Z": 11.6794,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Hunt billmaster",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 233,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Order of the Twin Adder Quests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 433,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67100,
+    "QuestTitle": "Let the Hunt Begin (Maelstrom)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67655
+    ],
+    "NextQuestTitles": [
+      "Let the Clan Hunt Begin"
+    ],
+    "StarterNpc": "Trachraet",
+    "StarterNpcLocation": {
+      "RowId": 4167110,
+      "X": 76.872,
+      "Y": 39.9963,
+      "Z": 79.0158,
+      "Yaw": -2.14534,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Hunt billmaster",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 232,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Maelstrom Quests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 433,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67101,
+    "QuestTitle": "Let the Hunt Begin (Immortal Flames)",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      67655
+    ],
+    "NextQuestTitles": [
+      "Let the Clan Hunt Begin"
+    ],
+    "StarterNpc": "Mimio Mio",
+    "StarterNpcLocation": {
+      "RowId": 2494993,
+      "X": -130.938,
+      "Y": 4.09965,
+      "Z": -91.0201,
+      "Yaw": 1.08277,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hunt billmaster",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 234,
+      "JournalCategory": {
+        "Id": 96,
+        "Name": "Grand Company Quests"
+      },
+      "Name": "Immortal Flames Quests"
+    },
+    "SortKey": 500,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 433,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

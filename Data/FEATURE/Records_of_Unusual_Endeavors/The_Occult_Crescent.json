@@ -1,0 +1,636 @@
+[
+  {
+    "QuestId": 70845,
+    "QuestTitle": "One Last Hurrah",
+    "PreviousQuestIds": [
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail"
+    ],
+    "NextQuestIds": [
+      70846
+    ],
+    "NextQuestTitles": [
+      "The Phantom Village"
+    ],
+    "StarterNpc": "expedition messenger",
+    "StarterNpcLocation": {
+      "RowId": 11537107,
+      "X": 188.069,
+      "Y": -17.9643,
+      "Z": 43.3029,
+      "Yaw": -2.51413,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Ketenramm",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101417,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1425,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70846,
+    "QuestTitle": "The Phantom Village",
+    "PreviousQuestIds": [
+      70845
+    ],
+    "PreviousQuestTitles": [
+      "One Last Hurrah"
+    ],
+    "NextQuestIds": [
+      70847
+    ],
+    "NextQuestTitles": [
+      "Unfamiliar Territory"
+    ],
+    "StarterNpc": "Ketenramm",
+    "StarterNpcLocation": {
+      "RowId": 11537384,
+      "X": 46.0853,
+      "Y": 0,
+      "Z": -0.114401,
+      "Yaw": -1.53309,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1269
+    },
+    "FinishNpc": "Ketenramm",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 920,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70847,
+    "QuestTitle": "Unfamiliar Territory",
+    "PreviousQuestIds": [
+      70846
+    ],
+    "PreviousQuestTitles": [
+      "The Phantom Village"
+    ],
+    "NextQuestIds": [
+      70848,
+      70855
+    ],
+    "NextQuestTitles": [
+      "New Job, Old Tricks",
+      "Arcane Artistry"
+    ],
+    "StarterNpc": "Archive",
+    "StarterNpcLocation": {
+      "RowId": 11538177,
+      "X": 0.00547402,
+      "Y": 0,
+      "Z": -21.088,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1269
+    },
+    "FinishNpc": "Jeffroy",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101418,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 737,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 1018,
+          "InstanceName": "the Occult Crescent: South Horn",
+          "ContentType": 38
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70848,
+    "QuestTitle": "New Job, Old Tricks",
+    "PreviousQuestIds": [
+      70847
+    ],
+    "PreviousQuestTitles": [
+      "Unfamiliar Territory"
+    ],
+    "NextQuestIds": [
+      70849
+    ],
+    "NextQuestTitles": [
+      "The Ancient Arts of War"
+    ],
+    "StarterNpc": "Ketenramm",
+    "StarterNpcLocation": {
+      "RowId": 11538526,
+      "X": 841.928,
+      "Y": 72.7134,
+      "Z": -700.313,
+      "Yaw": -1.25498,
+      "Radius": 1,
+      "MapId": 967,
+      "TerritoryId": 1252
+    },
+    "FinishNpc": "Archive",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101419,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 691,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70849,
+    "QuestTitle": "The Ancient Arts of War",
+    "PreviousQuestIds": [
+      70848
+    ],
+    "PreviousQuestTitles": [
+      "New Job, Old Tricks"
+    ],
+    "NextQuestIds": [
+      70850
+    ],
+    "NextQuestTitles": [
+      "Creatures of the Crescent"
+    ],
+    "StarterNpc": "Archive",
+    "StarterNpcLocation": {
+      "RowId": 11665953,
+      "X": 868.114,
+      "Y": 72.7752,
+      "Z": -677.377,
+      "Yaw": -1.87423,
+      "Radius": 1,
+      "MapId": 967,
+      "TerritoryId": 1252
+    },
+    "FinishNpc": "Ofangeim",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 691,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70850,
+    "QuestTitle": "Creatures of the Crescent",
+    "PreviousQuestIds": [
+      70849
+    ],
+    "PreviousQuestTitles": [
+      "The Ancient Arts of War"
+    ],
+    "NextQuestIds": [
+      70851
+    ],
+    "NextQuestTitles": [
+      "A Ruined Land"
+    ],
+    "StarterNpc": "Ketenramm",
+    "StarterNpcLocation": {
+      "RowId": 11538830,
+      "X": 826.794,
+      "Y": 72.6634,
+      "Z": -678.176,
+      "Yaw": -1.84298,
+      "Radius": 1,
+      "MapId": 967,
+      "TerritoryId": 1252
+    },
+    "FinishNpc": "Archive",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 737,
+      "Currency": {
+        "CurrencyId": 45041,
+        "CurrencyName": "Knowledge",
+        "Count": 300
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70851,
+    "QuestTitle": "A Ruined Land",
+    "PreviousQuestIds": [
+      70850
+    ],
+    "PreviousQuestTitles": [
+      "Creatures of the Crescent"
+    ],
+    "NextQuestIds": [
+      70852
+    ],
+    "NextQuestTitles": [
+      "A Common Thread"
+    ],
+    "StarterNpc": "Archive",
+    "StarterNpcLocation": {
+      "RowId": 11538840,
+      "X": 825.445,
+      "Y": 72.6786,
+      "Z": -676.53,
+      "Yaw": -2.87767,
+      "Radius": 1,
+      "MapId": 967,
+      "TerritoryId": 1252
+    },
+    "FinishNpc": "Archive",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 737,
+      "Currency": {
+        "CurrencyId": 45041,
+        "CurrencyName": "Knowledge",
+        "Count": 2500
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70852,
+    "QuestTitle": "A Common Thread",
+    "PreviousQuestIds": [
+      70851
+    ],
+    "PreviousQuestTitles": [
+      "A Ruined Land"
+    ],
+    "NextQuestIds": [
+      70853
+    ],
+    "NextQuestTitles": [
+      "Past and Crescent"
+    ],
+    "StarterNpc": "Archive",
+    "StarterNpcLocation": {
+      "RowId": 11538840,
+      "X": 825.445,
+      "Y": 72.6786,
+      "Z": -676.53,
+      "Yaw": -2.87767,
+      "Radius": 1,
+      "MapId": 967,
+      "TerritoryId": 1252
+    },
+    "FinishNpc": "Archive",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 737,
+      "Currency": {
+        "CurrencyId": 45041,
+        "CurrencyName": "Knowledge",
+        "Count": 7500
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70853,
+    "QuestTitle": "Past and Crescent",
+    "PreviousQuestIds": [
+      70852
+    ],
+    "PreviousQuestTitles": [
+      "A Common Thread"
+    ],
+    "NextQuestIds": [
+      70854
+    ],
+    "NextQuestTitles": [
+      "Mysteries Abide"
+    ],
+    "StarterNpc": "Archive",
+    "StarterNpcLocation": {
+      "RowId": 11538840,
+      "X": 825.445,
+      "Y": 72.6786,
+      "Z": -676.53,
+      "Yaw": -2.87767,
+      "Radius": 1,
+      "MapId": 967,
+      "TerritoryId": 1252
+    },
+    "FinishNpc": "Archive",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 829,
+      "Currency": {
+        "CurrencyId": 45041,
+        "CurrencyName": "Knowledge",
+        "Count": 11350
+      },
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70854,
+    "QuestTitle": "Mysteries Abide",
+    "PreviousQuestIds": [
+      70853
+    ],
+    "PreviousQuestTitles": [
+      "Past and Crescent"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Ketenramm",
+    "StarterNpcLocation": {
+      "RowId": 11538232,
+      "X": 0.843973,
+      "Y": 0,
+      "Z": -20.7418,
+      "Yaw": -1.24557,
+      "Radius": 1,
+      "MapId": 1025,
+      "TerritoryId": 1278
+    },
+    "FinishNpc": "expedition messenger",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 110,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "The Occult Crescent"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101420,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 737,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

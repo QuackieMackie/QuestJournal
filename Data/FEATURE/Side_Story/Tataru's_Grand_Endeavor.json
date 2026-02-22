@@ -1,0 +1,475 @@
+[
+  {
+    "QuestId": 70119,
+    "QuestTitle": "Small Business, Big Dreams",
+    "PreviousQuestIds": [
+      70062
+    ],
+    "PreviousQuestTitles": [
+      "Newfound Adventure"
+    ],
+    "NextQuestIds": [
+      70186,
+      70198,
+      70297
+    ],
+    "NextQuestTitles": [
+      "Soaring Profits",
+      "An Auspicious Opportunity",
+      "Aggressive Expansion"
+    ],
+    "StarterNpc": "Mehdjina",
+    "StarterNpcLocation": {
+      "RowId": 9165978,
+      "X": 32.0107,
+      "Y": 5.15,
+      "Z": -67.7125,
+      "Yaw": 1.13973,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Mehdjina",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101153,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4774,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70186,
+    "QuestTitle": "Soaring Profits",
+    "PreviousQuestIds": [
+      70119
+    ],
+    "PreviousQuestTitles": [
+      "Small Business, Big Dreams"
+    ],
+    "NextQuestIds": [
+      70348
+    ],
+    "NextQuestTitles": [
+      "Treasured Bonds"
+    ],
+    "StarterNpc": "Mehdjina",
+    "StarterNpcLocation": {
+      "RowId": 9165978,
+      "X": 32.0107,
+      "Y": 5.15,
+      "Z": -67.7125,
+      "Yaw": 1.13973,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Mehdjina",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101186,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 656,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70198,
+    "QuestTitle": "An Auspicious Opportunity",
+    "PreviousQuestIds": [
+      70119
+    ],
+    "PreviousQuestTitles": [
+      "Small Business, Big Dreams"
+    ],
+    "NextQuestIds": [
+      70348
+    ],
+    "NextQuestTitles": [
+      "Treasured Bonds"
+    ],
+    "StarterNpc": "Mehdjina",
+    "StarterNpcLocation": {
+      "RowId": 9165978,
+      "X": 32.0107,
+      "Y": 5.15,
+      "Z": -67.7125,
+      "Yaw": 1.13973,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Mehdjina",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101216,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 39509,
+          "ItemName": "Yakaku Kamidome",
+          "Count": 1
+        },
+        {
+          "ItemId": 39510,
+          "ItemName": "Yakaku Dogi",
+          "Count": 1
+        },
+        {
+          "ItemId": 39511,
+          "ItemName": "Yakaku Koshita",
+          "Count": 1
+        },
+        {
+          "ItemId": 39512,
+          "ItemName": "Yakaku Geta",
+          "Count": 1
+        },
+        {
+          "ItemId": 39513,
+          "ItemName": "Yakaku Fundoshi",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70297,
+    "QuestTitle": "Aggressive Expansion",
+    "PreviousQuestIds": [
+      70119
+    ],
+    "PreviousQuestTitles": [
+      "Small Business, Big Dreams"
+    ],
+    "NextQuestIds": [
+      70298
+    ],
+    "NextQuestTitles": [
+      "Forever in Our Hearts"
+    ],
+    "StarterNpc": "Mehdjina",
+    "StarterNpcLocation": {
+      "RowId": 9165978,
+      "X": 32.0107,
+      "Y": 5.15,
+      "Z": -67.7125,
+      "Yaw": 1.13973,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "FinishNpc": "Gaius",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101243,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1475,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70298,
+    "QuestTitle": "Forever in Our Hearts",
+    "PreviousQuestIds": [
+      70297
+    ],
+    "PreviousQuestTitles": [
+      "Aggressive Expansion"
+    ],
+    "NextQuestIds": [
+      70348
+    ],
+    "NextQuestTitles": [
+      "Treasured Bonds"
+    ],
+    "StarterNpc": "Gaius",
+    "StarterNpcLocation": {
+      "RowId": 8367367,
+      "X": -0.316068,
+      "Y": 41,
+      "Z": 17.5824,
+      "Yaw": -0.749382,
+      "Radius": 1,
+      "MapId": 617,
+      "TerritoryId": 919
+    },
+    "FinishNpc": "Mehdjina",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101244,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 958,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 40660,
+          "ItemName": "Forever at Your Side",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70348,
+    "QuestTitle": "Treasured Bonds",
+    "PreviousQuestIds": [
+      70186,
+      70198,
+      70298
+    ],
+    "PreviousQuestTitles": [
+      "Soaring Profits",
+      "An Auspicious Opportunity",
+      "Forever in Our Hearts"
+    ],
+    "NextQuestIds": [
+      70349
+    ],
+    "NextQuestTitles": [
+      "More Precious than Gil"
+    ],
+    "StarterNpc": "Mehdjina",
+    "StarterNpcLocation": {
+      "RowId": 9165978,
+      "X": 32.0107,
+      "Y": 5.15,
+      "Z": -67.7125,
+      "Yaw": 1.13973,
+      "Radius": 1,
+      "MapId": 693,
+      "TerritoryId": 962
+    },
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101284,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1260,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70349,
+    "QuestTitle": "More Precious than Gil",
+    "PreviousQuestIds": [
+      70348
+    ],
+    "PreviousQuestTitles": [
+      "Treasured Bonds"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Hasdahd",
+    "StarterNpcLocation": {
+      "RowId": 10178689,
+      "X": 406.424,
+      "Y": 3.11688,
+      "Z": -272.236,
+      "Yaw": -1.43587,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Mehdjina",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 96,
+      "JournalCategory": {
+        "Id": 58,
+        "Name": "Side Story Quests"
+      },
+      "Name": "Tataru\u0027s Grand Endeavor"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101285,
+    "JobLevel": 90,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1217,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41470,
+          "ItemName": "Wayfarer\u0027s Barding",
+          "Count": 1
+        },
+        {
+          "ItemId": 41370,
+          "ItemName": "Tataru\u0027s Bespoke Framer\u0027s Kit",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "QuestId": 68614,
+    "QuestTitle": "And We Shall Call It Eureka",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Galiena",
+    "StarterNpcLocation": {
+      "RowId": 6708424,
+      "X": -70.538,
+      "Y": 0.459993,
+      "Z": 64.3785,
+      "Yaw": 2.66268,
+      "Radius": 1,
+      "MapId": 366,
+      "TerritoryId": 635
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 89,
+      "JournalCategory": {
+        "Id": 56,
+        "Name": "Weapon Enhancement Sidequests"
+      },
+      "Name": "The Forbidden Land, Eureka"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100764,
+    "JobLevel": 70,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 283,
+          "InstanceName": "the Forbidden Land, Eureka Anemos",
+          "ContentType": 26
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

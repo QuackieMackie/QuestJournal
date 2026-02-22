@@ -1,0 +1,715 @@
+[
+  {
+    "QuestId": 70266,
+    "QuestTitle": "An Original Improvement",
+    "PreviousQuestIds": [
+      70000,
+      69139,
+      69191
+    ],
+    "PreviousQuestTitles": [
+      "Endwalker",
+      "The Boutique Always Wins",
+      "The Crystalline Mean"
+    ],
+    "NextQuestIds": [
+      70267
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Dedicated Tool"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9653741,
+      "X": -167.681,
+      "Y": 0,
+      "Z": 9.99457,
+      "Yaw": -1.70065,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Grenoldt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101237,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 38809,
+          "ItemName": "Splendorous Coffer",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70267,
+    "QuestTitle": "\uE0BF A Dedicated Tool",
+    "PreviousQuestIds": [
+      70266
+    ],
+    "PreviousQuestTitles": [
+      "An Original Improvement"
+    ],
+    "NextQuestIds": [
+      70268
+    ],
+    "NextQuestTitles": [
+      "\uE0BF An Adaptive Tool"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9654167,
+      "X": -33.1153,
+      "Y": 19.9998,
+      "Z": -173.317,
+      "Yaw": -0.527171,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chora-Zoi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 20,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101237,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 25,
+          "ItemName": "Wolf Mark",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70268,
+    "QuestTitle": "\uE0BF An Adaptive Tool",
+    "PreviousQuestIds": [
+      70267
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF A Dedicated Tool"
+    ],
+    "NextQuestIds": [
+      70303
+    ],
+    "NextQuestTitles": [
+      "The Joy of Zoi"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9654167,
+      "X": -33.1153,
+      "Y": 19.9998,
+      "Z": -173.317,
+      "Yaw": -0.527171,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chora-Zoi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 30,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101237,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 26,
+          "ItemName": "Allagan Tomestone of Soldiery",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70303,
+    "QuestTitle": "The Joy of Zoi",
+    "PreviousQuestIds": [
+      70268
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF An Adaptive Tool"
+    ],
+    "NextQuestIds": [
+      70304
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Tool of Her Own"
+    ],
+    "StarterNpc": "Grenoldt",
+    "StarterNpcLocation": {
+      "RowId": 9654166,
+      "X": -35.1287,
+      "Y": 19.9998,
+      "Z": -172.801,
+      "Yaw": 1.14243,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Grenoldt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101259,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70304,
+    "QuestTitle": "\uE0BF A Tool of Her Own",
+    "PreviousQuestIds": [
+      70303
+    ],
+    "PreviousQuestTitles": [
+      "The Joy of Zoi"
+    ],
+    "NextQuestIds": [
+      70305
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Tool without Compare"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9654167,
+      "X": -33.1153,
+      "Y": 19.9998,
+      "Z": -173.317,
+      "Yaw": -0.527171,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chora-Zoi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 50,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101259,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 29,
+          "ItemName": "MGP",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70305,
+    "QuestTitle": "\uE0BF A Tool without Compare",
+    "PreviousQuestIds": [
+      70304
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF A Tool of Her Own"
+    ],
+    "NextQuestIds": [
+      70306
+    ],
+    "NextQuestTitles": [
+      "La Vie Mowen"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9654167,
+      "X": -33.1153,
+      "Y": 19.9998,
+      "Z": -173.317,
+      "Yaw": -0.527171,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chora-Zoi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 60,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101259,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 30,
+          "ItemName": "Allagan Tomestone of Law",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70306,
+    "QuestTitle": "La Vie Mowen",
+    "PreviousQuestIds": [
+      70305
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF A Tool without Compare"
+    ],
+    "NextQuestIds": [
+      70338
+    ],
+    "NextQuestTitles": [
+      "Dance Like Mowen Is Watching"
+    ],
+    "StarterNpc": "Grenoldt",
+    "StarterNpcLocation": {
+      "RowId": 9654166,
+      "X": -35.1287,
+      "Y": 19.9998,
+      "Z": -172.801,
+      "Yaw": 1.14243,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Grenoldt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101259,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70338,
+    "QuestTitle": "Dance Like Mowen Is Watching",
+    "PreviousQuestIds": [
+      70306
+    ],
+    "PreviousQuestTitles": [
+      "La Vie Mowen"
+    ],
+    "NextQuestIds": [
+      70339
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Tool for the Ages"
+    ],
+    "StarterNpc": "Grenoldt",
+    "StarterNpcLocation": {
+      "RowId": 9654166,
+      "X": -35.1287,
+      "Y": 19.9998,
+      "Z": -172.801,
+      "Yaw": 1.14243,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Grenoldt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101281,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 872,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70339,
+    "QuestTitle": "\uE0BF A Tool for the Ages",
+    "PreviousQuestIds": [
+      70338
+    ],
+    "PreviousQuestTitles": [
+      "Dance Like Mowen Is Watching"
+    ],
+    "NextQuestIds": [
+      70340
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Stand Tool, My Friend"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9654167,
+      "X": -33.1153,
+      "Y": 19.9998,
+      "Z": -173.317,
+      "Yaw": -0.527171,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chora-Zoi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 90,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101281,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 32,
+          "ItemName": "Allagan Tomestone of Lore",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70340,
+    "QuestTitle": "\uE0BF Stand Tool, My Friend",
+    "PreviousQuestIds": [
+      70339
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF A Tool for the Ages"
+    ],
+    "NextQuestIds": [
+      70341
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Dearly Bekettled"
+    ],
+    "StarterNpc": "Chora-Zoi",
+    "StarterNpcLocation": {
+      "RowId": 9654167,
+      "X": -33.1153,
+      "Y": 19.9998,
+      "Z": -173.317,
+      "Yaw": -0.527171,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Chora-Zoi",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 100,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101281,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 33,
+          "ItemName": "Allagan Tomestone of Scripture",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70341,
+    "QuestTitle": "\uE0BF Dearly Bekettled",
+    "PreviousQuestIds": [
+      70340
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Stand Tool, My Friend"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Grenoldt",
+    "StarterNpcLocation": {
+      "RowId": 9654166,
+      "X": -35.1287,
+      "Y": 19.9998,
+      "Z": -172.801,
+      "Yaw": 1.14243,
+      "Radius": 1,
+      "MapId": 497,
+      "TerritoryId": 819
+    },
+    "FinishNpc": "Grenoldt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 101,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Splendorous Tools"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101281,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of the Land or Hand",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

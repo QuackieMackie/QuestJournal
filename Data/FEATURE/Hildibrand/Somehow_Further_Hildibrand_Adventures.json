@@ -1,0 +1,639 @@
+[
+  {
+    "QuestId": 70078,
+    "QuestTitle": "The Sleeping Gentleman",
+    "PreviousQuestIds": [
+      68704,
+      70000
+    ],
+    "PreviousQuestTitles": [
+      "Don\u0027t Do the Dewprism",
+      "Endwalker"
+    ],
+    "NextQuestIds": [
+      70079
+    ],
+    "NextQuestTitles": [
+      "A Soulful Reunion"
+    ],
+    "StarterNpc": "excitable youth",
+    "StarterNpcLocation": {
+      "RowId": 9171315,
+      "X": 32.2977,
+      "Y": 0,
+      "Z": -0.734522,
+      "Yaw": -2.58329,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Theyler",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101177,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1303,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70079,
+    "QuestTitle": "A Soulful Reunion",
+    "PreviousQuestIds": [
+      70078
+    ],
+    "PreviousQuestTitles": [
+      "The Sleeping Gentleman"
+    ],
+    "NextQuestIds": [
+      70177
+    ],
+    "NextQuestTitles": [
+      "Lunar Conspiracy"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 9172166,
+      "X": 217.52,
+      "Y": 12.4447,
+      "Z": 228.47,
+      "Yaw": 0.888794,
+      "Radius": 1,
+      "MapId": 491,
+      "TerritoryId": 813
+    },
+    "FinishNpc": "Nashu Mhakaracca",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 110,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101178,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2036,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70177,
+    "QuestTitle": "Lunar Conspiracy",
+    "PreviousQuestIds": [
+      70079
+    ],
+    "PreviousQuestTitles": [
+      "A Soulful Reunion"
+    ],
+    "NextQuestIds": [
+      70178
+    ],
+    "NextQuestTitles": [
+      "The Imperfect Gentleman"
+    ],
+    "StarterNpc": "Nashu Mhakaracca",
+    "StarterNpcLocation": {
+      "RowId": 9171741,
+      "X": 31.3993,
+      "Y": 0,
+      "Z": -0.647632,
+      "Yaw": -2.64073,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 210,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101193,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2802,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70178,
+    "QuestTitle": "The Imperfect Gentleman",
+    "PreviousQuestIds": [
+      70177
+    ],
+    "PreviousQuestTitles": [
+      "Lunar Conspiracy"
+    ],
+    "NextQuestIds": [
+      70188,
+      70254
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Make It a Manderville",
+      "The Spectacle of Inspection"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 9327671,
+      "X": 324.423,
+      "Y": 130.178,
+      "Z": 711.97,
+      "Yaw": -2.86912,
+      "Radius": 1,
+      "MapId": 698,
+      "TerritoryId": 959
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 220,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101194,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1432,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70254,
+    "QuestTitle": "The Spectacle of Inspection",
+    "PreviousQuestIds": [
+      70178
+    ],
+    "PreviousQuestTitles": [
+      "The Imperfect Gentleman"
+    ],
+    "NextQuestIds": [
+      70255
+    ],
+    "NextQuestTitles": [
+      "Generational Bonding"
+    ],
+    "StarterNpc": "Delion",
+    "StarterNpcLocation": {
+      "RowId": 9328481,
+      "X": 33.0915,
+      "Y": 0,
+      "Z": -2.19485,
+      "Yaw": -2.4099,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 310,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101238,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1518,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70255,
+    "QuestTitle": "Generational Bonding",
+    "PreviousQuestIds": [
+      70254
+    ],
+    "PreviousQuestTitles": [
+      "The Spectacle of Inspection"
+    ],
+    "NextQuestIds": [
+      70261,
+      70290
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Well-oiled",
+      "By Agents Unknown"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 9611555,
+      "X": 565.911,
+      "Y": 13.2905,
+      "Z": 242.481,
+      "Yaw": -2.10454,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 320,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101239,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3330,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70290,
+    "QuestTitle": "By Agents Unknown",
+    "PreviousQuestIds": [
+      70255
+    ],
+    "PreviousQuestTitles": [
+      "Generational Bonding"
+    ],
+    "NextQuestIds": [
+      70291
+    ],
+    "NextQuestTitles": [
+      "Not from Around Here"
+    ],
+    "StarterNpc": "Delion",
+    "StarterNpcLocation": {
+      "RowId": 9614447,
+      "X": 11.1843,
+      "Y": 0,
+      "Z": 14.833,
+      "Yaw": -1.91095,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Brandihild",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 410,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101246,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1704,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70291,
+    "QuestTitle": "Not from Around Here",
+    "PreviousQuestIds": [
+      70290
+    ],
+    "PreviousQuestTitles": [
+      "By Agents Unknown"
+    ],
+    "NextQuestIds": [
+      70307,
+      70335
+    ],
+    "NextQuestTitles": [
+      "\uE0BF A Spirited Reforging",
+      "Of Duplicity and Duplication"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 9826715,
+      "X": -313.376,
+      "Y": 93.6804,
+      "Z": -316.791,
+      "Yaw": -1.84502,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Delion",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 420,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101247,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3330,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36861,
+          "ItemName": "Wind-up PuPu",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70335,
+    "QuestTitle": "Of Duplicity and Duplication",
+    "PreviousQuestIds": [
+      70291
+    ],
+    "PreviousQuestTitles": [
+      "Not from Around Here"
+    ],
+    "NextQuestIds": [
+      70336
+    ],
+    "NextQuestTitles": [
+      "Gentlemen at Heart"
+    ],
+    "StarterNpc": "Delion",
+    "StarterNpcLocation": {
+      "RowId": 9614447,
+      "X": 11.1843,
+      "Y": 0,
+      "Z": 14.833,
+      "Yaw": -1.91095,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 510,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101279,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1302,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70336,
+    "QuestTitle": "Gentlemen at Heart",
+    "PreviousQuestIds": [
+      70335
+    ],
+    "PreviousQuestTitles": [
+      "Of Duplicity and Duplication"
+    ],
+    "NextQuestIds": [
+      70342,
+      70728
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Resonating with Perfection",
+      "The Case of the Displaced Inspector"
+    ],
+    "StarterNpc": "Godbert",
+    "StarterNpcLocation": {
+      "RowId": 10108437,
+      "X": 24.3517,
+      "Y": 1.67559,
+      "Z": 631.156,
+      "Yaw": 1.61052,
+      "Radius": 1,
+      "MapId": 696,
+      "TerritoryId": 957
+    },
+    "FinishNpc": "Delion",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 84,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Somehow Further Hildibrand Adventures"
+    },
+    "SortKey": 520,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101280,
+    "JobLevel": 90,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 4063,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 36908,
+          "ItemName": "UFO Identification Key",
+          "Count": 1
+        },
+        {
+          "ItemId": 41658,
+          "ItemName": "A Gentleman to Walk with Me Orchestrion Roll",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

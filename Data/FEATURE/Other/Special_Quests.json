@@ -1,0 +1,1312 @@
+[
+  {
+    "QuestId": 66689,
+    "QuestTitle": "For the Winsome",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [
+      66690
+    ],
+    "NextQuestTitles": [
+      "Seeking the Scoop"
+    ],
+    "StarterNpc": "Petyr Winsome",
+    "StarterNpcLocation": {
+      "RowId": 4392448,
+      "X": -70.4761,
+      "Y": 20.0003,
+      "Z": 41.754,
+      "Yaw": 1.79604,
+      "Radius": 1,
+      "MapId": 12,
+      "TerritoryId": 129
+    },
+    "FinishNpc": "Petyr Winsome",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100168,
+    "JobLevel": 12,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1155,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6046,
+          "ItemName": "Bohemian\u0027s Gloves",
+          "Count": 1
+        },
+        {
+          "ItemId": 6042,
+          "ItemName": "Guardian Corps Gauntlets",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66690,
+    "QuestTitle": "Seeking the Scoop",
+    "PreviousQuestIds": [
+      66689
+    ],
+    "PreviousQuestTitles": [
+      "For the Winsome"
+    ],
+    "NextQuestIds": [
+      66691
+    ],
+    "NextQuestTitles": [
+      "The Knight\u0027s Passage"
+    ],
+    "StarterNpc": "Dural Tharal",
+    "StarterNpcLocation": {
+      "RowId": 4387257,
+      "X": 32.2412,
+      "Y": 4.1,
+      "Z": -150.812,
+      "Yaw": -0.206555,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Dural Tharal",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100168,
+    "JobLevel": 26,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 2275,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6047,
+          "ItemName": "Bohemian\u0027s Trousers",
+          "Count": 1
+        },
+        {
+          "ItemId": 6043,
+          "ItemName": "Guardian Corps Skirt",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66691,
+    "QuestTitle": "The Knight\u0027s Passage",
+    "PreviousQuestIds": [
+      66690
+    ],
+    "PreviousQuestTitles": [
+      "Seeking the Scoop"
+    ],
+    "NextQuestIds": [
+      66692
+    ],
+    "NextQuestTitles": [
+      "Wonder and Lightning"
+    ],
+    "StarterNpc": "Kipih Jakkya",
+    "StarterNpcLocation": {
+      "RowId": 4387295,
+      "X": -43.3509,
+      "Y": 7.12128,
+      "Z": -113.424,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Kipih Jakkya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100168,
+    "JobLevel": 38,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 4700,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6048,
+          "ItemName": "Bohemian\u0027s Boots",
+          "Count": 1
+        },
+        {
+          "ItemId": 6044,
+          "ItemName": "Guardian Corps Boots",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66692,
+    "QuestTitle": "Wonder and Lightning",
+    "PreviousQuestIds": [
+      66691
+    ],
+    "PreviousQuestTitles": [
+      "The Knight\u0027s Passage"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kipih Jakkya",
+    "StarterNpcLocation": {
+      "RowId": 4387295,
+      "X": -43.3509,
+      "Y": 7.12128,
+      "Z": -113.424,
+      "Yaw": -4.79221E-05,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "Kipih Jakkya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100168,
+    "JobLevel": 45,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 5940,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6045,
+          "ItemName": "Bohemian\u0027s Coat",
+          "Count": 1
+        },
+        {
+          "ItemId": 6041,
+          "ItemName": "Guardian Corps Coat",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66823,
+    "QuestTitle": "Burgeoning Dread",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Khloe Bajhiri",
+    "StarterNpcLocation": {
+      "RowId": 4534658,
+      "X": -18.8708,
+      "Y": -3.6201,
+      "Z": 8.07682,
+      "Yaw": 0.913026,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Vorsaile Heuloix",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 17,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100193,
+    "JobLevel": 10,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 855,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6217,
+          "ItemName": "Wind-up Shantotto",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66824,
+    "QuestTitle": "Breaking Brick Mountains",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Havak Alvak",
+    "StarterNpcLocation": {
+      "RowId": 4490280,
+      "X": 47.3898,
+      "Y": 4.1,
+      "Z": -148.441,
+      "Yaw": -0.460641,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "beefy businessman",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 18,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100194,
+    "JobLevel": 7,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 560,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6985,
+          "ItemName": "Wind-up Brickman",
+          "Count": 1
+        },
+        {
+          "ItemId": 6112,
+          "ItemName": "Thug\u0027s Mug",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67090,
+    "QuestTitle": "The New King on the Block",
+    "PreviousQuestIds": [
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      67091
+    ],
+    "NextQuestTitles": [
+      "The Newer King on the Block"
+    ],
+    "StarterNpc": "hearty hunter",
+    "StarterNpcLocation": {
+      "RowId": 7386995,
+      "X": -75.9152,
+      "Y": 11.8,
+      "Z": -115.59,
+      "Yaw": 3.14159,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "hearty hunter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 120,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100786,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 22601,
+          "ItemName": "Palico",
+          "Count": 1
+        },
+        {
+          "ItemId": 22571,
+          "ItemName": "Indoor BBQ Spit",
+          "Count": 1
+        },
+        {
+          "ItemId": 22583,
+          "ItemName": "BBQ Spit",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 475,
+          "InstanceName": "The Great Hunt",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67091,
+    "QuestTitle": "The Newer King on the Block",
+    "PreviousQuestIds": [
+      67090
+    ],
+    "PreviousQuestTitles": [
+      "The New King on the Block"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "hearty hunter",
+    "StarterNpcLocation": {
+      "RowId": 7386995,
+      "X": -75.9152,
+      "Y": 11.8,
+      "Z": -115.59,
+      "Yaw": 3.14159,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "hearty hunter",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 121,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 500,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 20054,
+          "InstanceName": "the Great Hunt (Extreme)",
+          "ContentType": 4
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67114,
+    "QuestTitle": "The Ties That Bind",
+    "PreviousQuestIds": [
+      66045
+    ],
+    "PreviousQuestTitles": [
+      "The Scions of the Seventh Dawn"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Claribel",
+    "StarterNpcLocation": {
+      "RowId": 4982902,
+      "X": -195.888,
+      "Y": 58.1593,
+      "Z": -159.812,
+      "Yaw": 0.828824,
+      "Radius": 1,
+      "MapId": 5,
+      "TerritoryId": 152
+    },
+    "FinishNpc": "Claribel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 249,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Special Quests"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100346,
+    "JobLevel": 1,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 8791,
+          "ItemName": "Eternity Cake",
+          "Count": 1
+        },
+        {
+          "ItemId": 9541,
+          "ItemName": "Magicked Prism (Wings)",
+          "Count": 99
+        },
+        {
+          "ItemId": 23855,
+          "ItemName": "Magicked Prism (Glassy Wings)",
+          "Count": 99
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67677,
+    "QuestTitle": "A Complete Game Changer",
+    "PreviousQuestIds": [
+      66043,
+      66064,
+      66082
+    ],
+    "PreviousQuestTitles": [
+      "The Gridanian Envoy",
+      "The Ul\u0027dahn Envoy",
+      "The Lominsan Envoy"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "poor-heeled youth",
+    "StarterNpcLocation": {
+      "RowId": 6275864,
+      "X": -101.458,
+      "Y": 3.98254,
+      "Z": -105.455,
+      "Yaw": -2.39547,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "wandering executive",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 116,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100564,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 1171,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 15222,
+          "ItemName": "Yo-kai Watch",
+          "Count": 1
+        },
+        {
+          "ItemId": 15167,
+          "ItemName": "Yo-kai Medal",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "OtherReward": {
+        "Id": 6,
+        "Name": "Yo-kai Medallium"
+      },
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 67742,
+    "QuestTitle": "A Journey to Remember",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Remumu",
+    "StarterNpcLocation": {
+      "RowId": 6110102,
+      "X": 18.2874,
+      "Y": 40.2,
+      "Z": 0.223095,
+      "Yaw": -1.55012,
+      "Radius": 1,
+      "MapId": 11,
+      "TerritoryId": 128
+    },
+    "FinishNpc": "Remumu",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 91,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100494,
+    "JobLevel": 30,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 13330,
+          "ItemName": "Amatsu Hachigane",
+          "Count": 1
+        },
+        {
+          "ItemId": 13331,
+          "ItemName": "Amatsu Togi",
+          "Count": 1
+        },
+        {
+          "ItemId": 13332,
+          "ItemName": "Amatsu Tekko",
+          "Count": 1
+        },
+        {
+          "ItemId": 13333,
+          "ItemName": "Amatsu Haidate",
+          "Count": 1
+        },
+        {
+          "ItemId": 13334,
+          "ItemName": "Amatsu Sune-ate",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68694,
+    "QuestTitle": "The Man in Black",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      68695
+    ],
+    "NextQuestTitles": [
+      "In the Dark of Night"
+    ],
+    "StarterNpc": "Kipih Jakkya",
+    "StarterNpcLocation": {
+      "RowId": 7720435,
+      "X": -132.445,
+      "Y": 3.98254,
+      "Z": -75.0313,
+      "Yaw": 1.75466,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Kipih Jakkya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 130,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100831,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 1080,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24609,
+          "ItemName": "Lucian Prince\u0027s Fingerless Glove",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68695,
+    "QuestTitle": "In the Dark of Night",
+    "PreviousQuestIds": [
+      68694
+    ],
+    "PreviousQuestTitles": [
+      "The Man in Black"
+    ],
+    "NextQuestIds": [
+      68696
+    ],
+    "NextQuestTitles": [
+      "Messenger of the Winds"
+    ],
+    "StarterNpc": "Kipih Jakkya",
+    "StarterNpcLocation": {
+      "RowId": 7720435,
+      "X": -132.445,
+      "Y": 3.98254,
+      "Z": -75.0313,
+      "Yaw": 1.75466,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Noctis",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 131,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100832,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 1670,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24610,
+          "ItemName": "Lucian Prince\u0027s Bottoms",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68696,
+    "QuestTitle": "Messenger of the Winds",
+    "PreviousQuestIds": [
+      68695
+    ],
+    "PreviousQuestTitles": [
+      "In the Dark of Night"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Noctis",
+    "StarterNpcLocation": {
+      "RowId": 7725390,
+      "X": 11.4485,
+      "Y": 0.00455916,
+      "Z": 4.49697,
+      "Yaw": 1.8412,
+      "Radius": 1,
+      "MapId": 2,
+      "TerritoryId": 132
+    },
+    "FinishNpc": "Kipih Jakkya",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 132,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100833,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 1755,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24608,
+          "ItemName": "Lucian Prince\u0027s Jacket",
+          "Count": 1
+        },
+        {
+          "ItemId": 24611,
+          "ItemName": "Lucian Prince\u0027s Boots",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70332,
+    "QuestTitle": "A Land on Fire",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      70333
+    ],
+    "NextQuestTitles": [
+      "Pain to Recall"
+    ],
+    "StarterNpc": "neophyte adventurer",
+    "StarterNpcLocation": {
+      "RowId": 10212430,
+      "X": -117.614,
+      "Y": 4,
+      "Z": -67.1382,
+      "Yaw": -2.91881,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Clive",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 200,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101290,
+    "JobLevel": 50,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 714,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70333,
+    "QuestTitle": "Pain to Recall",
+    "PreviousQuestIds": [
+      70332
+    ],
+    "PreviousQuestTitles": [
+      "A Land on Fire"
+    ],
+    "NextQuestIds": [
+      70334
+    ],
+    "NextQuestTitles": [
+      "The Path Infernal"
+    ],
+    "StarterNpc": "Clive",
+    "StarterNpcLocation": {
+      "RowId": 10199249,
+      "X": -86.8969,
+      "Y": 41,
+      "Z": 66.1701,
+      "Yaw": 0.567917,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Clive",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101291,
+    "JobLevel": 50,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 995,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70334,
+    "QuestTitle": "The Path Infernal",
+    "PreviousQuestIds": [
+      70333
+    ],
+    "PreviousQuestTitles": [
+      "Pain to Recall"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Clive",
+    "StarterNpcLocation": {
+      "RowId": 10158025,
+      "X": -146.138,
+      "Y": 4.1097,
+      "Z": -33.1762,
+      "Yaw": 0.116306,
+      "Radius": 1,
+      "MapId": 3,
+      "TerritoryId": 133
+    },
+    "FinishNpc": "wandering minstrel",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 203,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 101292,
+    "JobLevel": 50,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 11700,
+      "Gil": 1080,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 41559,
+          "ItemName": "Metian Attire Coffer",
+          "Count": 1
+        },
+        {
+          "ItemId": 41487,
+          "ItemName": "Torgal Whistle",
+          "Count": 1
+        },
+        {
+          "ItemId": 41478,
+          "ItemName": "Torgal Pup",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70337,
+    "QuestTitle": "Just Crowning Around",
+    "PreviousQuestIds": [
+      65970
+    ],
+    "PreviousQuestTitles": [
+      "It Could Happen to You"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Lewena",
+    "StarterNpcLocation": {
+      "RowId": 5584108,
+      "X": -65.3643,
+      "Y": 0.0697914,
+      "Z": 0.811196,
+      "Yaw": -0.402882,
+      "Radius": 1,
+      "MapId": 196,
+      "TerritoryId": 144
+    },
+    "FinishNpc": "Blunderville Beankeep",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 10910,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 15,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 1440,
+      "Gil": 239,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [
+        {
+          "InstanceId": 958,
+          "InstanceName": "Blunderville",
+          "ContentType": 19
+        }
+      ],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70910,
+    "QuestTitle": "The White Wanderer",
+    "PreviousQuestIds": [
+      70495
+    ],
+    "PreviousQuestTitles": [
+      "Dawntrail"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Dawn Hunt tracker",
+    "StarterNpcLocation": {
+      "RowId": 11854440,
+      "X": 0.165078,
+      "Y": -14,
+      "Z": 106.233,
+      "Yaw": 0.0948094,
+      "Radius": 1,
+      "MapId": 855,
+      "TerritoryId": 1185
+    },
+    "FinishNpc": "Dawn Hunt tracker",
+    "Expansion": "Dawntrail",
+    "JournalGenre": {
+      "Id": 250,
+      "JournalCategory": {
+        "Id": 98,
+        "Name": "Special Quests"
+      },
+      "Name": "Collaboration Quests"
+    },
+    "SortKey": 300,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101443,
+    "JobLevel": 100,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 46833,
+          "ItemName": "Seikret Horn",
+          "Count": 1
+        },
+        {
+          "ItemId": 46161,
+          "ItemName": "Outdoor Hunter\u0027s Grill",
+          "Count": 1
+        },
+        {
+          "ItemId": 47476,
+          "ItemName": "Hunter\u0027s Camp Chair",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

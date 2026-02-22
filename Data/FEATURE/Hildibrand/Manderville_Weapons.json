@@ -1,0 +1,554 @@
+[
+  {
+    "QuestId": 70188,
+    "QuestTitle": "\uE0BF Make It a Manderville",
+    "PreviousQuestIds": [
+      70178
+    ],
+    "PreviousQuestTitles": [
+      "The Imperfect Gentleman"
+    ],
+    "NextQuestIds": [
+      70189,
+      70261
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Make Another Manderville",
+      "\uE0BF Well-oiled"
+    ],
+    "StarterNpc": "House Manderville manservant",
+    "StarterNpcLocation": {
+      "RowId": 9349723,
+      "X": 29.3919,
+      "Y": 0,
+      "Z": -0.929491,
+      "Yaw": 2.64425,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101205,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23,
+          "ItemName": "Allagan Tomestone of Philosophy",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70189,
+    "QuestTitle": "\uE0BF Make Another Manderville",
+    "PreviousQuestIds": [
+      70188
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Make It a Manderville"
+    ],
+    "NextQuestIds": [
+      70262
+    ],
+    "NextQuestTitles": [
+      "\uE0BF The Next Mander-level"
+    ],
+    "StarterNpc": "House Manderville artisan",
+    "StarterNpcLocation": {
+      "RowId": 9333869,
+      "X": 41.3478,
+      "Y": -24.6934,
+      "Z": -201.654,
+      "Yaw": 2.65273,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "House Manderville artisan",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 151,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101206,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 23,
+          "ItemName": "Allagan Tomestone of Philosophy",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70261,
+    "QuestTitle": "\uE0BF Well-oiled",
+    "PreviousQuestIds": [
+      70255,
+      70188
+    ],
+    "PreviousQuestTitles": [
+      "Generational Bonding",
+      "\uE0BF Make It a Manderville"
+    ],
+    "NextQuestIds": [
+      70262,
+      70307
+    ],
+    "NextQuestTitles": [
+      "\uE0BF The Next Mander-level",
+      "\uE0BF A Spirited Reforging"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 9333868,
+      "X": 38.0238,
+      "Y": -24.6934,
+      "Z": -205.499,
+      "Yaw": -3.05184,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 201,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101235,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24,
+          "ItemName": "Allagan Tomestone of Mythology",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70262,
+    "QuestTitle": "\uE0BF The Next Mander-level",
+    "PreviousQuestIds": [
+      70261,
+      70189
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Well-oiled",
+      "\uE0BF Make Another Manderville"
+    ],
+    "NextQuestIds": [
+      70308
+    ],
+    "NextQuestTitles": [
+      "\uE0BF In Need of Adjustment"
+    ],
+    "StarterNpc": "House Manderville artisan",
+    "StarterNpcLocation": {
+      "RowId": 9333869,
+      "X": 41.3478,
+      "Y": -24.6934,
+      "Z": -201.654,
+      "Yaw": 2.65273,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "House Manderville artisan",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 251,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101236,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24,
+          "ItemName": "Allagan Tomestone of Mythology",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70307,
+    "QuestTitle": "\uE0BF A Spirited Reforging",
+    "PreviousQuestIds": [
+      70291,
+      70261
+    ],
+    "PreviousQuestTitles": [
+      "Not from Around Here",
+      "\uE0BF Well-oiled"
+    ],
+    "NextQuestIds": [
+      70308,
+      70320,
+      70342
+    ],
+    "NextQuestTitles": [
+      "\uE0BF In Need of Adjustment",
+      "",
+      "\uE0BF Resonating with Perfection"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 9333868,
+      "X": 38.0238,
+      "Y": -24.6934,
+      "Z": -205.499,
+      "Yaw": -3.05184,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 301,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101257,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28,
+          "ItemName": "Allagan Tomestone of Poetics",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70308,
+    "QuestTitle": "\uE0BF In Need of Adjustment",
+    "PreviousQuestIds": [
+      70307,
+      70262
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF A Spirited Reforging",
+      "\uE0BF The Next Mander-level"
+    ],
+    "NextQuestIds": [
+      70343
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Positively Mandervillous"
+    ],
+    "StarterNpc": "House Manderville artisan",
+    "StarterNpcLocation": {
+      "RowId": 9333869,
+      "X": 41.3478,
+      "Y": -24.6934,
+      "Z": -201.654,
+      "Yaw": 2.65273,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "House Manderville artisan",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 351,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101258,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 28,
+          "ItemName": "Allagan Tomestone of Poetics",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70342,
+    "QuestTitle": "\uE0BF Resonating with Perfection",
+    "PreviousQuestIds": [
+      70336,
+      70307
+    ],
+    "PreviousQuestTitles": [
+      "Gentlemen at Heart",
+      "\uE0BF A Spirited Reforging"
+    ],
+    "NextQuestIds": [
+      70343
+    ],
+    "NextQuestTitles": [
+      "\uE0BF Positively Mandervillous"
+    ],
+    "StarterNpc": "Gerolt",
+    "StarterNpcLocation": {
+      "RowId": 9333868,
+      "X": 38.0238,
+      "Y": -24.6934,
+      "Z": -205.499,
+      "Yaw": -3.05184,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "Gerolt",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 401,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 101282,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 31,
+          "ItemName": "Allagan Tomestone of Esoterics",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 70343,
+    "QuestTitle": "\uE0BF Positively Mandervillous",
+    "PreviousQuestIds": [
+      70342,
+      70308
+    ],
+    "PreviousQuestTitles": [
+      "\uE0BF Resonating with Perfection",
+      "\uE0BF In Need of Adjustment"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "House Manderville artisan",
+    "StarterNpcLocation": {
+      "RowId": 9333869,
+      "X": 41.3478,
+      "Y": -24.6934,
+      "Z": -201.654,
+      "Yaw": 2.65273,
+      "Radius": 1,
+      "MapId": 694,
+      "TerritoryId": 963
+    },
+    "FinishNpc": "House Manderville artisan",
+    "Expansion": "Endwalker",
+    "JournalGenre": {
+      "Id": 85,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Manderville Weapons"
+    },
+    "SortKey": 451,
+    "IsRepeatable": true,
+    "EventIcon": 8,
+    "Icon": 101283,
+    "JobLevel": 90,
+    "ClassJobCategory": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 31,
+          "ItemName": "Allagan Tomestone of Esoterics",
+          "Count": 0
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

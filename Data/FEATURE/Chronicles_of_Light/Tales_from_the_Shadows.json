@@ -1,0 +1,59 @@
+[
+  {
+    "QuestId": 69286,
+    "QuestTitle": "One Final Journey",
+    "PreviousQuestIds": [
+      69218
+    ],
+    "PreviousQuestTitles": [
+      "Vows of Virtue, Deeds of Cruelty"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "F\u0027lhaminn",
+    "StarterNpcLocation": {
+      "RowId": 6641885,
+      "X": 50.7825,
+      "Y": 50,
+      "Z": -772.374,
+      "Yaw": -0.336589,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "F\u0027lhaminn",
+    "Expansion": "Shadowbringers",
+    "JournalGenre": {
+      "Id": 79,
+      "JournalCategory": {
+        "Id": 54,
+        "Name": "Chronicles of Light"
+      },
+      "Name": "Tales from the Shadows"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100942,
+    "JobLevel": 80,
+    "ClassJobCategory": "Any Disciple of War or Magic (excluding limited jobs)",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1373,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

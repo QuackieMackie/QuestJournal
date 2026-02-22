@@ -1,0 +1,1332 @@
+[
+  {
+    "QuestId": 65702,
+    "QuestTitle": "Eight-armed and Dangerous",
+    "PreviousQuestIds": [
+      66977
+    ],
+    "PreviousQuestTitles": [
+      "A Case of Indecency"
+    ],
+    "NextQuestIds": [
+      65738
+    ],
+    "NextQuestTitles": [
+      "What Price Victory"
+    ],
+    "StarterNpc": "Ellie",
+    "StarterNpcLocation": {
+      "RowId": 4868545,
+      "X": 528.954,
+      "Y": 17.4105,
+      "Z": 448.691,
+      "Yaw": -1.93308,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "Nashu Mhakaracca",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 13,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100310,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1154,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65738,
+    "QuestTitle": "What Price Victory",
+    "PreviousQuestIds": [
+      65702
+    ],
+    "PreviousQuestTitles": [
+      "Eight-armed and Dangerous"
+    ],
+    "NextQuestIds": [
+      65739
+    ],
+    "NextQuestTitles": [
+      "The Trouble with Truffles"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 5320658,
+      "X": -143.594,
+      "Y": 12,
+      "Z": -3.88124,
+      "Yaw": 0,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 14,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100311,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1151,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65739,
+    "QuestTitle": "The Trouble with Truffles",
+    "PreviousQuestIds": [
+      65738
+    ],
+    "PreviousQuestTitles": [
+      "What Price Victory"
+    ],
+    "NextQuestIds": [
+      65740
+    ],
+    "NextQuestTitles": [
+      "The Coliseum Conundrum"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 5110362,
+      "X": -144.701,
+      "Y": 12,
+      "Z": -5.66113,
+      "Yaw": -1.94344,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Syntgoht",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 15,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100312,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65740,
+    "QuestTitle": "The Coliseum Conundrum",
+    "PreviousQuestIds": [
+      65739
+    ],
+    "PreviousQuestTitles": [
+      "The Trouble with Truffles"
+    ],
+    "NextQuestIds": [
+      66026
+    ],
+    "NextQuestTitles": [
+      "Shades of Sil\u0027dih"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 5102251,
+      "X": 139.818,
+      "Y": 4.01,
+      "Z": -57.0881,
+      "Yaw": -1.82016,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Dour Meadow",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 16,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100313,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66026,
+    "QuestTitle": "Shades of Sil\u0027dih",
+    "PreviousQuestIds": [
+      65740
+    ],
+    "PreviousQuestTitles": [
+      "The Coliseum Conundrum"
+    ],
+    "NextQuestIds": [
+      66027
+    ],
+    "NextQuestTitles": [
+      "Sibling Strife"
+    ],
+    "StarterNpc": "Ellie",
+    "StarterNpcLocation": {
+      "RowId": 5389109,
+      "X": -70.2135,
+      "Y": 6.97333,
+      "Z": 1.9327,
+      "Yaw": -1.87829,
+      "Radius": 1,
+      "MapId": 14,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 17,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100353,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66027,
+    "QuestTitle": "Sibling Strife",
+    "PreviousQuestIds": [
+      66026
+    ],
+    "PreviousQuestTitles": [
+      "Shades of Sil\u0027dih"
+    ],
+    "NextQuestIds": [
+      66028
+    ],
+    "NextQuestTitles": [
+      "Beneath the Mask"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 5655921,
+      "X": 363.559,
+      "Y": 74.7234,
+      "Z": 171.141,
+      "Yaw": 2.62434,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Phillice",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 18,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100354,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 799,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66028,
+    "QuestTitle": "Beneath the Mask",
+    "PreviousQuestIds": [
+      66027
+    ],
+    "PreviousQuestTitles": [
+      "Sibling Strife"
+    ],
+    "NextQuestIds": [
+      66029
+    ],
+    "NextQuestTitles": [
+      "Truths Untold"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 5656448,
+      "X": 40.8871,
+      "Y": 33.9818,
+      "Z": 27.9661,
+      "Yaw": -0.117008,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Godbert",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 19,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100355,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 517,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66029,
+    "QuestTitle": "Truths Untold",
+    "PreviousQuestIds": [
+      66028
+    ],
+    "PreviousQuestTitles": [
+      "Beneath the Mask"
+    ],
+    "NextQuestIds": [
+      66038
+    ],
+    "NextQuestTitles": [
+      "Her Last Vow"
+    ],
+    "StarterNpc": "Hyuran woman",
+    "StarterNpcLocation": {
+      "RowId": 5657010,
+      "X": 39.8412,
+      "Y": 33.9818,
+      "Z": 30.2281,
+      "Yaw": 2.5786,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Julyan",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100356,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 7621,
+          "ItemName": "Glamour Dispeller",
+          "Count": 3
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66038,
+    "QuestTitle": "Her Last Vow",
+    "PreviousQuestIds": [
+      66029
+    ],
+    "PreviousQuestTitles": [
+      "Truths Untold"
+    ],
+    "NextQuestIds": [
+      67688,
+      67762
+    ],
+    "NextQuestTitles": [
+      "Contradicting Convictions",
+      "A Gentleman Falls, Rather than Flies"
+    ],
+    "StarterNpc": "Julyan",
+    "StarterNpcLocation": {
+      "RowId": 5657020,
+      "X": 42.8931,
+      "Y": 34,
+      "Z": 29.3735,
+      "Yaw": -1.58771,
+      "Radius": 1,
+      "MapId": 73,
+      "TerritoryId": 131
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 21,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100357,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 5000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 10073,
+          "ItemName": "Wind-up Gentleman",
+          "Count": 1
+        },
+        {
+          "ItemId": 10143,
+          "ItemName": "Manderville Coatee",
+          "Count": 1
+        },
+        {
+          "ItemId": 10144,
+          "ItemName": "Manderville Bottoms",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 114,
+        "EmoteName": "Most Gentlemanly"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66740,
+    "QuestTitle": "The Rise and Fall of Gentlemen",
+    "PreviousQuestIds": [
+      70058
+    ],
+    "PreviousQuestTitles": [
+      "The Ultimate Weapon"
+    ],
+    "NextQuestIds": [
+      65776,
+      66741
+    ],
+    "NextQuestTitles": [
+      "Blues on Emerald Avenue",
+      "Back in the Saddle"
+    ],
+    "StarterNpc": "Wymond",
+    "StarterNpcLocation": {
+      "RowId": 2360548,
+      "X": -68.7436,
+      "Y": 4.04111,
+      "Z": -126.493,
+      "Yaw": 1.65403,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Nashu Mhakaracca",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 1,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100183,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4570,
+          "ItemName": "Phoenix Down",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66741,
+    "QuestTitle": "Back in the Saddle",
+    "PreviousQuestIds": [
+      66740
+    ],
+    "PreviousQuestTitles": [
+      "The Rise and Fall of Gentlemen"
+    ],
+    "NextQuestIds": [
+      66742
+    ],
+    "NextQuestTitles": [
+      "After Her Own Heart"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 4511012,
+      "X": 4.85558,
+      "Y": 7.41594,
+      "Z": 884.724,
+      "Yaw": 1.72045,
+      "Radius": 1,
+      "MapId": 23,
+      "TerritoryId": 146
+    },
+    "FinishNpc": "Wymond",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 2,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66742,
+    "QuestTitle": "After Her Own Heart",
+    "PreviousQuestIds": [
+      66741
+    ],
+    "PreviousQuestTitles": [
+      "Back in the Saddle"
+    ],
+    "NextQuestIds": [
+      66743
+    ],
+    "NextQuestTitles": [
+      "The Immaculate Deception"
+    ],
+    "StarterNpc": "Wymond",
+    "StarterNpcLocation": {
+      "RowId": 2360548,
+      "X": -68.7436,
+      "Y": 4.04111,
+      "Z": -126.493,
+      "Yaw": 1.65403,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 3,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66743,
+    "QuestTitle": "The Immaculate Deception",
+    "PreviousQuestIds": [
+      66742
+    ],
+    "PreviousQuestTitles": [
+      "After Her Own Heart"
+    ],
+    "NextQuestIds": [
+      66851
+    ],
+    "NextQuestTitles": [
+      "The Science of Deduction"
+    ],
+    "StarterNpc": "Ellie",
+    "StarterNpcLocation": {
+      "RowId": 4511907,
+      "X": -144.06,
+      "Y": 12,
+      "Z": -5.51981,
+      "Yaw": -2.02698,
+      "Radius": 1,
+      "MapId": 13,
+      "TerritoryId": 130
+    },
+    "FinishNpc": "Eleazar",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 4,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100184,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 939,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 6153,
+          "ItemName": "Filtered Water",
+          "Count": 2
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66851,
+    "QuestTitle": "The Science of Deduction",
+    "PreviousQuestIds": [
+      66743
+    ],
+    "PreviousQuestTitles": [
+      "The Immaculate Deception"
+    ],
+    "NextQuestIds": [
+      66852
+    ],
+    "NextQuestTitles": [
+      "The Hammer"
+    ],
+    "StarterNpc": "Ellie",
+    "StarterNpcLocation": {
+      "RowId": 4578746,
+      "X": -526.248,
+      "Y": 5.405,
+      "Z": -249.231,
+      "Yaw": -1.46546,
+      "Radius": 1,
+      "MapId": 22,
+      "TerritoryId": 145
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 5,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100231,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 939,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66852,
+    "QuestTitle": "The Hammer",
+    "PreviousQuestIds": [
+      66851
+    ],
+    "PreviousQuestTitles": [
+      "The Science of Deduction"
+    ],
+    "NextQuestIds": [
+      66853
+    ],
+    "NextQuestTitles": [
+      "Manderville Men"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 4622233,
+      "X": -68.0036,
+      "Y": 13.4455,
+      "Z": 157.549,
+      "Yaw": -0.535676,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 6,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 0,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 104,
+        "EmoteName": "Manderville Dance"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66853,
+    "QuestTitle": "Manderville Men",
+    "PreviousQuestIds": [
+      66852
+    ],
+    "PreviousQuestTitles": [
+      "The Hammer"
+    ],
+    "NextQuestIds": [
+      66854
+    ],
+    "NextQuestTitles": [
+      "The Three Collectors"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 4622477,
+      "X": 109.79,
+      "Y": 18.3673,
+      "Z": 121.747,
+      "Yaw": 2.06811,
+      "Radius": 1,
+      "MapId": 24,
+      "TerritoryId": 147
+    },
+    "FinishNpc": "Briardien",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 7,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100232,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 658,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66854,
+    "QuestTitle": "The Three Collectors",
+    "PreviousQuestIds": [
+      66853
+    ],
+    "PreviousQuestTitles": [
+      "Manderville Men"
+    ],
+    "NextQuestIds": [
+      66974
+    ],
+    "NextQuestTitles": [
+      "The Business of Betrothal"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 4622564,
+      "X": -418.444,
+      "Y": 23.1008,
+      "Z": -367.797,
+      "Yaw": -0.742876,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "FinishNpc": "Durilda",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 8,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100233,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1642,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 4559,
+          "ItemName": "Elixir",
+          "Count": 5
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66974,
+    "QuestTitle": "The Business of Betrothal",
+    "PreviousQuestIds": [
+      66854
+    ],
+    "PreviousQuestTitles": [
+      "The Three Collectors"
+    ],
+    "NextQuestIds": [
+      66975
+    ],
+    "NextQuestTitles": [
+      "A Burst of Inspiration"
+    ],
+    "StarterNpc": "Ellie",
+    "StarterNpcLocation": {
+      "RowId": 4627449,
+      "X": -422.519,
+      "Y": 23.114,
+      "Z": -367.774,
+      "Yaw": 0.0228325,
+      "Radius": 1,
+      "MapId": 20,
+      "TerritoryId": 140
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 9,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100273,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 855,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66975,
+    "QuestTitle": "A Burst of Inspiration",
+    "PreviousQuestIds": [
+      66974
+    ],
+    "PreviousQuestTitles": [
+      "The Business of Betrothal"
+    ],
+    "NextQuestIds": [
+      66976
+    ],
+    "NextQuestTitles": [
+      "Seeds of Rebellion"
+    ],
+    "StarterNpc": "Briardien",
+    "StarterNpcLocation": {
+      "RowId": 4771298,
+      "X": 526.226,
+      "Y": 8.85039,
+      "Z": 556.572,
+      "Yaw": 2.61435,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "FinishNpc": "tiny trader",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100274,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 714,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66976,
+    "QuestTitle": "Seeds of Rebellion",
+    "PreviousQuestIds": [
+      66975
+    ],
+    "PreviousQuestTitles": [
+      "A Burst of Inspiration"
+    ],
+    "NextQuestIds": [
+      66977
+    ],
+    "NextQuestTitles": [
+      "A Case of Indecency"
+    ],
+    "StarterNpc": "tiny trader",
+    "StarterNpcLocation": {
+      "RowId": 4771341,
+      "X": 311.543,
+      "Y": -36.4233,
+      "Z": 344.747,
+      "Yaw": 2.54015,
+      "Radius": 1,
+      "MapId": 18,
+      "TerritoryId": 138
+    },
+    "FinishNpc": "Arabella",
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 11,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100275,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 855,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 66977,
+    "QuestTitle": "A Case of Indecency",
+    "PreviousQuestIds": [
+      66976
+    ],
+    "PreviousQuestTitles": [
+      "Seeds of Rebellion"
+    ],
+    "NextQuestIds": [
+      65702
+    ],
+    "NextQuestTitles": [
+      "Eight-armed and Dangerous"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 4771396,
+      "X": -48.4448,
+      "Y": 75.9136,
+      "Z": 9.10956,
+      "Yaw": 0.711698,
+      "Radius": 1,
+      "MapId": 17,
+      "TerritoryId": 137
+    },
+    "Expansion": "",
+    "JournalGenre": {
+      "Id": 81,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Hildibrand Adventures"
+    },
+    "SortKey": 12,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100276,
+    "JobLevel": 50,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 714,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

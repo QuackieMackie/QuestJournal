@@ -1,0 +1,204 @@
+[
+  {
+    "QuestId": 65581,
+    "QuestTitle": "Toll Booty",
+    "PreviousQuestIds": [
+      67168
+    ],
+    "PreviousQuestTitles": [
+      "A Brave Resolution"
+    ],
+    "NextQuestIds": [
+      65586
+    ],
+    "NextQuestTitles": [
+      "Li\u0027l Rascals"
+    ],
+    "StarterNpc": "Rhesh Polaali",
+    "StarterNpcLocation": {
+      "RowId": 5011830,
+      "X": 74.1035,
+      "Y": 30.5494,
+      "Z": -720.966,
+      "Yaw": -1.97323,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Yozan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 97,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Adventurers\u0027 Guild Quests"
+    },
+    "SortKey": 100,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100486,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 665,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65586,
+    "QuestTitle": "Li\u0027l Rascals",
+    "PreviousQuestIds": [
+      67168,
+      65581
+    ],
+    "PreviousQuestTitles": [
+      "A Brave Resolution",
+      "Toll Booty"
+    ],
+    "NextQuestIds": [
+      65636
+    ],
+    "NextQuestTitles": [
+      "Short Arms of the Law"
+    ],
+    "StarterNpc": "Yozan",
+    "StarterNpcLocation": {
+      "RowId": 5011831,
+      "X": 55.4622,
+      "Y": 31.1877,
+      "Z": -763.401,
+      "Yaw": -1.18979,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Yozan",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 97,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Adventurers\u0027 Guild Quests"
+    },
+    "SortKey": 101,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100487,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 605,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 65636,
+    "QuestTitle": "Short Arms of the Law",
+    "PreviousQuestIds": [
+      67168,
+      65586
+    ],
+    "PreviousQuestTitles": [
+      "A Brave Resolution",
+      "Li\u0027l Rascals"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Yozan",
+    "StarterNpcLocation": {
+      "RowId": 5011831,
+      "X": 55.4622,
+      "Y": 31.1877,
+      "Z": -763.401,
+      "Yaw": -1.18979,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Slafborn",
+    "Expansion": "Heavensward",
+    "JournalGenre": {
+      "Id": 97,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Adventurers\u0027 Guild Quests"
+    },
+    "SortKey": 102,
+    "IsRepeatable": false,
+    "EventIcon": 1,
+    "Icon": 100488,
+    "JobLevel": 54,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 12480,
+      "Gil": 785,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 5677,
+          "ItemName": "Savage Might Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5672,
+          "ItemName": "Savage Aim Materia IV",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5667,
+          "ItemName": "Heavens\u0027 Eye Materia IV",
+          "Count": 1,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,557 @@
+[
+  {
+    "QuestId": 68544,
+    "QuestTitle": "A Hingan Tale: Nashu Goes East",
+    "PreviousQuestIds": [
+      67908,
+      68089
+    ],
+    "PreviousQuestTitles": [
+      "If I Could Turn Back Time",
+      "Stormblood"
+    ],
+    "NextQuestIds": [
+      68556
+    ],
+    "NextQuestTitles": [
+      "Life Imitates Art Imitates Life"
+    ],
+    "StarterNpc": "conspicuously inconspicuous man",
+    "StarterNpcLocation": {
+      "RowId": 7101602,
+      "X": -27.0269,
+      "Y": 3.72529E-09,
+      "Z": -69.5769,
+      "Yaw": 1.98787,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Nashu Mhakaracca",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100745,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1116,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68556,
+    "QuestTitle": "Life Imitates Art Imitates Life",
+    "PreviousQuestIds": [
+      68544
+    ],
+    "PreviousQuestTitles": [
+      "A Hingan Tale: Nashu Goes East"
+    ],
+    "NextQuestIds": [
+      68557
+    ],
+    "NextQuestTitles": [
+      "Of Wolves and Gentlemen"
+    ],
+    "StarterNpc": "Nashu Mhakaracca",
+    "StarterNpcLocation": {
+      "RowId": 7101632,
+      "X": 25.4023,
+      "Y": 6.01244,
+      "Z": -119.415,
+      "Yaw": 1.58301,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Shigure",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100765,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1007,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68557,
+    "QuestTitle": "Of Wolves and Gentlemen",
+    "PreviousQuestIds": [
+      68556
+    ],
+    "PreviousQuestTitles": [
+      "Life Imitates Art Imitates Life"
+    ],
+    "NextQuestIds": [
+      68630
+    ],
+    "NextQuestTitles": [
+      "In the Eye of the Hingan"
+    ],
+    "StarterNpc": "Shigure",
+    "StarterNpcLocation": {
+      "RowId": 7173807,
+      "X": 835.538,
+      "Y": 5.92301,
+      "Z": 834.714,
+      "Yaw": -3.13274,
+      "Radius": 1,
+      "MapId": 371,
+      "TerritoryId": 613
+    },
+    "FinishNpc": "Shigure",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100766,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1273,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68630,
+    "QuestTitle": "In the Eye of the Hingan",
+    "PreviousQuestIds": [
+      68557
+    ],
+    "PreviousQuestTitles": [
+      "Of Wolves and Gentlemen"
+    ],
+    "NextQuestIds": [
+      68631
+    ],
+    "NextQuestTitles": [
+      "The Blade Mislaid"
+    ],
+    "StarterNpc": "Shigure",
+    "StarterNpcLocation": {
+      "RowId": 7173800,
+      "X": 98.8326,
+      "Y": 4,
+      "Z": 103.471,
+      "Yaw": -2.24736,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Shigure",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100784,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1043,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68631,
+    "QuestTitle": "The Blade Mislaid",
+    "PreviousQuestIds": [
+      68630
+    ],
+    "PreviousQuestTitles": [
+      "In the Eye of the Hingan"
+    ],
+    "NextQuestIds": [
+      68686
+    ],
+    "NextQuestTitles": [
+      "The Black Heart Beneath"
+    ],
+    "StarterNpc": "Shigure",
+    "StarterNpcLocation": {
+      "RowId": 7447471,
+      "X": -60.3969,
+      "Y": 6.01097,
+      "Z": -168.399,
+      "Yaw": -1.39599,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Shigure",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 50,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100785,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2259,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68686,
+    "QuestTitle": "The Black Heart Beneath",
+    "PreviousQuestIds": [
+      68631
+    ],
+    "PreviousQuestTitles": [
+      "The Blade Mislaid"
+    ],
+    "NextQuestIds": [
+      68687
+    ],
+    "NextQuestTitles": [
+      "Good Swords, Good Dogs"
+    ],
+    "StarterNpc": "Shigure",
+    "StarterNpcLocation": {
+      "RowId": 7447479,
+      "X": 66.5751,
+      "Y": 10.504,
+      "Z": -155.576,
+      "Yaw": -1.57045,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Shigure",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 60,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100797,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1043,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68687,
+    "QuestTitle": "Good Swords, Good Dogs",
+    "PreviousQuestIds": [
+      68686
+    ],
+    "PreviousQuestTitles": [
+      "The Black Heart Beneath"
+    ],
+    "NextQuestIds": [
+      68703
+    ],
+    "NextQuestTitles": [
+      "The Past Is Never Past"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 7606144,
+      "X": 45.1182,
+      "Y": -7.43966,
+      "Z": -262.685,
+      "Yaw": 1.88346,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 70,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100798,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1376,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68703,
+    "QuestTitle": "The Past Is Never Past",
+    "PreviousQuestIds": [
+      68687
+    ],
+    "PreviousQuestTitles": [
+      "Good Swords, Good Dogs"
+    ],
+    "NextQuestIds": [
+      68704
+    ],
+    "NextQuestTitles": [
+      "Don\u0027t Do the Dewprism"
+    ],
+    "StarterNpc": "Nashu Mhakaracca",
+    "StarterNpcLocation": {
+      "RowId": 7101608,
+      "X": -36.2402,
+      "Y": 5.96625,
+      "Z": -152.361,
+      "Yaw": 0.00448537,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Hildibrand",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 80,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100834,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 3304,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68704,
+    "QuestTitle": "Don\u0027t Do the Dewprism",
+    "PreviousQuestIds": [
+      68703
+    ],
+    "PreviousQuestTitles": [
+      "The Past Is Never Past"
+    ],
+    "NextQuestIds": [
+      70078
+    ],
+    "NextQuestTitles": [
+      "The Sleeping Gentleman"
+    ],
+    "StarterNpc": "Hildibrand",
+    "StarterNpcLocation": {
+      "RowId": 7447431,
+      "X": 26.4678,
+      "Y": 6.01972,
+      "Z": -118.577,
+      "Yaw": 3.018,
+      "Radius": 1,
+      "MapId": 370,
+      "TerritoryId": 628
+    },
+    "FinishNpc": "Shigure",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 83,
+      "JournalCategory": {
+        "Id": 55,
+        "Name": "Hildibrand Sidequests"
+      },
+      "Name": "Even Further Hildibrand Adventures"
+    },
+    "SortKey": 90,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100835,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1729,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "Emote": {
+        "Id": 198,
+        "EmoteName": "Manderville Mambo"
+      },
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]

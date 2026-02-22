@@ -1,0 +1,264 @@
+[
+  {
+    "QuestId": 68622,
+    "QuestTitle": "Precious Reclamation",
+    "PreviousQuestIds": [
+      68561
+    ],
+    "PreviousQuestTitles": [
+      "Elation and Trepidation"
+    ],
+    "NextQuestIds": [
+      68623
+    ],
+    "NextQuestTitles": [
+      "A Thousand and One Farewells"
+    ],
+    "StarterNpc": "Kozakura",
+    "StarterNpcLocation": {
+      "RowId": 7182299,
+      "X": 31.6014,
+      "Y": 0.265776,
+      "Z": 28.9159,
+      "Yaw": -3.12742,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 98,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Reconstruction Quests"
+    },
+    "SortKey": 10,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100767,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 0,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [
+        {
+          "ItemId": 22436,
+          "ItemName": "Crimson Cider",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22437,
+          "ItemName": "Sauteed Green Leeks",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 22434,
+          "ItemName": "Oden",
+          "Count": 1,
+          "IsHq": false
+        },
+        {
+          "ItemId": 5825,
+          "ItemName": "Allagan Silver Piece",
+          "Count": 2,
+          "IsHq": false
+        }
+      ],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68623,
+    "QuestTitle": "A Thousand and One Farewells",
+    "PreviousQuestIds": [
+      68622
+    ],
+    "PreviousQuestTitles": [
+      "Precious Reclamation"
+    ],
+    "NextQuestIds": [
+      68677
+    ],
+    "NextQuestTitles": [
+      "It Takes an Enclave"
+    ],
+    "StarterNpc": "Hozan",
+    "StarterNpcLocation": {
+      "RowId": 7262612,
+      "X": 64.846,
+      "Y": 30.6192,
+      "Z": -722.372,
+      "Yaw": 1.97434,
+      "Radius": 1,
+      "MapId": 25,
+      "TerritoryId": 156
+    },
+    "FinishNpc": "Kozakura",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 98,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Reconstruction Quests"
+    },
+    "SortKey": 20,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100768,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1897,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68677,
+    "QuestTitle": "It Takes an Enclave",
+    "PreviousQuestIds": [
+      68623
+    ],
+    "PreviousQuestTitles": [
+      "A Thousand and One Farewells"
+    ],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kozakura",
+    "StarterNpcLocation": {
+      "RowId": 7182299,
+      "X": 31.6014,
+      "Y": 0.265776,
+      "Z": 28.9159,
+      "Yaw": -3.12742,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Kozakura",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 98,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Reconstruction Quests"
+    },
+    "SortKey": 30,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100795,
+    "JobLevel": 70,
+    "ClassJobCategory": "Disciples of War or Magic",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 1106,
+      "Catalysts": [],
+      "Items": [],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  },
+  {
+    "QuestId": 68689,
+    "QuestTitle": "Lighting the Way",
+    "PreviousQuestIds": [],
+    "PreviousQuestTitles": [],
+    "NextQuestIds": [],
+    "NextQuestTitles": [],
+    "StarterNpc": "Kozakura",
+    "StarterNpcLocation": {
+      "RowId": 7182299,
+      "X": 31.6014,
+      "Y": 0.265776,
+      "Z": 28.9159,
+      "Yaw": -3.12742,
+      "Radius": 1,
+      "MapId": 463,
+      "TerritoryId": 759
+    },
+    "FinishNpc": "Kozakura",
+    "Expansion": "Stormblood",
+    "JournalGenre": {
+      "Id": 98,
+      "JournalCategory": {
+        "Id": 57,
+        "Name": "Records of Unusual Endeavors"
+      },
+      "Name": "Doman Reconstruction Quests"
+    },
+    "SortKey": 40,
+    "IsRepeatable": false,
+    "EventIcon": 8,
+    "Icon": 100796,
+    "JobLevel": 70,
+    "ClassJobCategory": "All Classes",
+    "BeastTribeRequirements": {
+      "BeastTribeName": "",
+      "BeastTribeRank": "None"
+    },
+    "Rewards": {
+      "Exp": 0,
+      "Gil": 2000,
+      "Catalysts": [],
+      "Items": [
+        {
+          "ItemId": 24288,
+          "ItemName": "Yanxian Merchant\u0027s Haori",
+          "Count": 1
+        }
+      ],
+      "OptionalItems": [],
+      "GeneralActions": [],
+      "InstanceContentUnlock": [],
+      "ReputationReward": {
+        "ReputationId": 0,
+        "ReputationName": "",
+        "Count": 0
+      }
+    }
+  }
+]
